@@ -1112,7 +1112,6 @@ tobacco_product_factory = {
 	visibility = yes
 	onmap = no
 
-	default_enabled = yes
 	production_type = tobacco_product
 	pop_build_factory = yes
 }
@@ -1132,7 +1131,6 @@ luxury_jewelry_factory = {
 	visibility = yes
 	onmap = no
 
-	default_enabled = yes
 	production_type = luxury_jewelry_factory
 	pop_build_factory = yes
 }
@@ -1175,7 +1173,6 @@ regular_clothes_factory = {
 	pop_build_factory = yes
 }
 
-
 fabric_wool_factory = {
 	type = factory
 	on_completion = factory
@@ -1191,7 +1188,6 @@ fabric_wool_factory = {
 	visibility = yes
 	onmap = no
 
-	default_enabled = yes
 	production_type = fabric_wool
 	pop_build_factory = yes
 }
@@ -1346,6 +1342,7 @@ lumber_mill = {
 	visibility = yes
 	onmap = no
 
+	default_enabled = yes
 	production_type = lumber_mill
 	pop_build_factory = yes
 }
@@ -1365,6 +1362,7 @@ lumber_mill_tropical_wood = {
 	visibility = yes
 	onmap = no
 
+	default_enabled = yes
 	production_type = lumber_mill_tropical_wood
 	pop_build_factory = yes
 }
@@ -1402,7 +1400,6 @@ polygraphy_factory = {
 	visibility = yes
 	onmap = no
 
-	default_enabled = yes
 	production_type = polygraphy_factory
 	pop_build_factory = yes
 }

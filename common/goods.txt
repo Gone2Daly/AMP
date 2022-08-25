@@ -67,7 +67,7 @@ raw_material_goods = {
 		color = { 100 69 30 }
 	}
 	cotton = { 
-		cost = 2.0
+		cost = 2.2
 		color = { 255 255 255 }
 	}
 	dye = {	
@@ -91,11 +91,11 @@ raw_material_goods = {
 		color = { 111 111 111 }
 	}
 	timber = { 
-		cost = 0.9
+		cost = 1.5
 		color = { 146 72 17 }
 	}
 	tropical_wood = { 
-		cost = 5.4
+		cost = 6.1
 		color = { 213 177 118 }
 	}
 	rubber = { 
@@ -169,7 +169,7 @@ industrial_goods = {
 		available_from_start = no	
 	}
 	fabric = { 
-		cost = 1.8
+		cost = 2.6
 		color = { 186 50 40 }
 	}
 	lumber = { 
@@ -194,6 +194,7 @@ consumer_goods = {
 	currency = {
 		cost = 1
 		color = { 1 1 1 }
+		available_from_start = no
 	}
 	printing_products = {
 		cost = 5.8

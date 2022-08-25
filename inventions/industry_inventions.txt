@@ -1626,11 +1626,15 @@ sharp_n_roberts_power_loom = {
 		}
 	}
 	effect = {
+		activate_building = regular_clothes_factory
 		rgo_goods_output = {
 			cotton = 0.2
 		}
 		rgo_goods_output = {
 			wool = 0.2
+		}
+		factory_goods_output = {
+			fabric = 0.1 
 		}
 	}
 }
@@ -1648,6 +1652,7 @@ jacquard_power_loom = {
 		}
 	}
 	effect = {
+		activate_building = luxury_clothes_factory
 		rgo_goods_output = {
 			wool = 0.2
 		}
@@ -1655,23 +1660,20 @@ jacquard_power_loom = {
 			silk = 0.2
 		}
 		factory_goods_output = {
-			fabric = 0.05 
-		}
-		rgo_goods_output = {
-			fish = 0.5
+			fabric = 0.1 
 		}
 	}
 }
 northrop_power_loom = {
-	limit = { mechanical_production = 1 }
+	limit = { assembly_line = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
-			factor = 2
+			factor = 5
 			invention = jacquard_power_loom
 		}
 		modifier = {
-			factor = 2
+			factor = 5
 			invention = insurance_companies
 		}
 	}
@@ -1686,13 +1688,12 @@ northrop_power_loom = {
 			silk = 0.2
 		}
 		factory_goods_throughput = {
-			fabric = 0.05 
+			fabric = 0.4 
 		}
 	}
 }
 mechanical_saw = {
 	limit = {
-		literacy = 0.3
 		mechanical_production = 1
 	}
 	chance = {
@@ -1711,6 +1712,7 @@ mechanical_saw = {
 		}
 	}
 	effect = {
+		activate_building = furniture_factory
 		#rgo_goods_output = {
 		#	timber = 0.10
 		#}
@@ -1740,6 +1742,7 @@ mechanical_precision_saw = {
 		}
 	}
 	effect = {
+		activate_building = luxury_furniture_factory 
 		#rgo_goods_output = {
 		#	timber = 0.10
 		#}
@@ -1856,12 +1859,28 @@ cotton_gin = {
 		base = 10
 	}
 	effect = {
+		activate_building = fabric_factory
 		#rgo_goods_output = {
 		#	cotton = 0.10
 		#}
 	}
 }
 #interchangeable_parts
+package = {
+	limit = { mechanical_production = 1}
+	chance = {
+		base = 4
+		modifier = {
+			factor = 6
+			invention = mechanical_saw
+		}
+	}
+	effect = {
+		factory_goods_output = {
+			crates = 0.15
+		}
+	}
+}
 precision_work = {
 	limit = { mechanical_production = 1 }
 	chance = {
@@ -1942,7 +1961,7 @@ food_packing_system = {
 	}
 	effect = {
 		factory_goods_output = {
-			canned_food = 0.02 
+			food = 0.2 
 		}
 	}
 }
@@ -2021,6 +2040,7 @@ drying_techniques = {
 		}
 	}
 	effect = {
+		activate_building = tobacco_product_factory
 	}
 }
 #assembly_line
@@ -2651,6 +2671,7 @@ artificial_fertilizers = {
 		}
 	}
 	effect = {
+		activate_building = fertilizer_factory
 		farm_rgo_eff = 0.02
 		factory_goods_output = {
 			fertilizer = 0.05

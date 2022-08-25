@@ -3,7 +3,6 @@ private_banks = {
 	area = financial_institutions
 	year = 1836
 	cost = 3000
-	activate_building = cement_factory 
 	tax_eff = 3
 	#factory_cost = -0.02
 	factory_goods_throughput = {
@@ -165,7 +164,6 @@ no_standard = {
 	cost = 3000
 
 	administrative_efficiency = 0.05
-	activate_building = bank 
 	#factory_cost = -0.02
 	tax_eff = 2
 	ai_chance = {
@@ -189,6 +187,7 @@ private_bank_money_bill_printing = {
 	year = 1836
 	cost = 9000
 
+	activate_building = bank 
 	administrative_efficiency = 0.05
 	#factory_cost = -0.02
 	tax_eff = 2
@@ -313,7 +312,6 @@ early_classical_theory_and_critique = {
 	year = 1836
 	cost = 3000
 	
-	activate_building = lumber_mill
 	factory_input = -0.01
 	factory_goods_input = {
 		canned_food = 0.01
@@ -523,9 +521,6 @@ freedom_of_trade = {
 	area = market_functionality
 	year = 1836
 	cost = 3000
-
-
-	activate_building = luxury_clothes_factory  
 
 	influence = 0.2
 	farm_rgo_eff = 0.1
