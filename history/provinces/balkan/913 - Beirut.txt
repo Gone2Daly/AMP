@@ -1,0 +1,15 @@
+owner = EGY
+controller = EGY
+add_core = TUR
+trade_goods = fruit
+life_rating = 42
+state_building = {
+	level = 1
+	building = manufacture_wine
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_small_arms
+	upgrade = yes
+}

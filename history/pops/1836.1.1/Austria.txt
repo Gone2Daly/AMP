@@ -1,0 +1,682 @@
+#Tirol Region (556000) #see Italy.txt for balance of Region
+#under the rule of Austria in 1836  
+#Innsbruck (236000/59000 POPS)
+612 = {
+	aristocrats = {
+		culture = north_german
+		religion = latin-german
+		size = 750 
+	}
+
+	bureaucrats = {
+		culture = north_german
+		religion = latin-german
+		size = 675 
+	}
+
+	officers = {
+		culture = north_german
+		religion = latin-german
+		size = 250 
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = latin-german
+		size = 550
+	}
+
+	artisans = {
+		culture = north_german
+		religion = latin-german
+		size = 2750
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = latin-german
+		size = 1100 
+	}
+
+	farmers = {
+		culture = north_german
+		religion = latin-german
+		size = 53325
+	}
+}
+#Salzburg (136000/34000 POPS)
+613 = {
+	aristocrats = {
+		culture = north_german
+		religion = latin-german
+		size = 450 
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = latin-german
+		size = 650 
+	}
+
+	artisans = {
+		culture = north_german
+		religion = latin-german
+		size = 3250
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = latin-german
+		size = 1100
+	}
+
+	farmers = {
+		culture = north_german
+		religion = latin-german
+		size = 28975
+	}
+}
+#Bregenz (132000/33000 POPS)
+614 = {
+	aristocrats = {
+		culture = north_german
+		religion = latin-german
+		size = 400 
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = latin-german
+		size = 300 
+	}
+
+	artisans = {
+		culture = north_german
+		religion = latin-german
+		size = 1500
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = latin-german
+		size = 1100 
+	}
+
+	farmers = {
+		culture = north_german
+		religion = latin-german
+		size = 29700
+	}
+}
+#Lienz (52000/13000 POPS)
+615 = {
+	aristocrats = {
+		culture = north_german
+		religion = latin-german
+		size = 175 
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = latin-german
+		size = 125
+	}
+
+	artisans = {
+		culture = north_german
+		religion = latin-german
+		size = 600
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = latin-german
+		size = 125 
+	}
+
+	farmers = {
+		culture = north_german
+		religion = latin-german
+		size = 11975
+	}
+}
+#Carinthia-Styria Region (736000) #see Slovenia.txt for balance of Region
+#under the rule of Austria in 1836  
+#Graz (380000/95000 POPS)
+616 = {
+	aristocrats = {
+		culture = north_german
+		religion = latin-german
+		size = 1550 
+	}
+
+	bureaucrats = {
+		culture = north_german
+		religion = latin-german
+		size = 525 
+	}
+
+	officers = {
+		culture = north_german
+		religion = latin-german
+		size = 275 
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = latin-german
+		size = 1025 
+	}
+
+	artisans = {
+		culture = north_german
+		religion = latin-german
+		size = 10000
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = latin-german
+		size = 1050 
+	}
+
+	farmers = {
+		culture = north_german
+		religion = latin-german
+		size = 80675 
+	}
+}
+#Judenburg (168000/42000 POPS)
+617 = {
+	aristocrats = {
+		culture = north_german
+		religion = latin-german
+		size = 700 
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = latin-german
+		size = 450
+	}
+
+	artisans = {
+		culture = north_german
+		religion = latin-german
+		size = 2250
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = latin-german
+		size = 450 
+	}
+
+	farmers = {
+		culture = north_german
+		religion = latin-german
+		size = 38150
+	}
+}
+#Klagenfurt (188000/47000 POPS)
+618 = {
+	aristocrats = {
+		culture = north_german
+		religion = latin-german
+		size = 450 
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = latin-german
+		size = 325 
+	}
+
+	artisans = {
+		culture = north_german
+		religion = latin-german
+		size = 1550
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = latin-german
+		size = 1100 
+	}
+
+	farmers = {
+		culture = north_german
+		religion = latin-german
+		size = 25675
+	}
+
+	clergymen = {
+		culture = slovene
+		religion = slav
+		size = 175 
+	}
+
+	artisans = {
+		culture = slovene
+		religion = slav
+		size = 950
+	}
+
+	soldiers = {
+		culture = slovene
+		religion = slav
+		size = 200 
+	}
+
+	farmers = {
+		culture = slovene
+		religion = slav
+		size = 16675 
+	}
+}
+#Austria Region (2000000) 
+#under the rule of Austria in 1836  
+#Vienna (1084000/271000 POPS)
+619 = {
+	aristocrats = {
+		culture = north_german
+		religion = latin-german
+		size = 4250 
+	}
+
+	bureaucrats = {
+		culture = north_german
+		religion = latin-german
+		size = 1400 
+	}
+
+	officers = {
+		culture = north_german
+		religion = latin-german
+		size = 600 
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = latin-german
+		size = 2750
+	}
+
+	artisans = {
+		culture = north_german
+		religion = latin-german
+		size = 10000
+	}
+
+	artisans = {
+		culture = north_german
+		religion = latin-german
+		size = 10000
+	}
+
+	artisans = {
+		culture = north_german
+		religion = latin-german
+		size = 10000
+	}
+
+	artisans = {
+		culture = north_german
+		religion = latin-german
+		size = 10000
+	}
+
+	artisans = {
+		culture = north_german
+		religion = latin-german
+		size = 10000
+	}
+
+	artisans = {
+		culture = north_german
+		religion = latin-german
+		size = 7500
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = latin-german
+		size = 2750 
+	}
+
+	farmers = {
+		culture = north_german
+		religion = latin-german
+		size = 194550
+	}
+
+	clergymen = {
+		culture = czech
+		religion = slav
+		size = 50
+	}
+
+	artisans = {
+		culture = czech
+		religion = slav
+		size = 5950
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = latin-german
+		size = 20 
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = latin-german
+		size = 980
+	}
+	
+	craftsmen = {
+		culture = north_german
+		religion = latin-german
+		size = 150
+	}
+	clerks = {
+		culture = north_german
+		religion = latin-german
+		size = 150
+	}
+	capitalists = {
+		culture = north_german
+		religion = latin-german
+		size = 150
+	}
+	craftsmen = {
+		culture = hungarian
+		religion = slav
+		size = 150
+	}
+	clerks = {
+		culture = hungarian
+		religion = slav
+		size = 150
+	}
+	capitalists = {
+		culture = hungarian
+		religion = slav
+		size = 150
+	}
+	craftsmen = {
+		culture = czech
+		religion = slav
+		size = 150
+	}
+	clerks = {
+		culture = czech
+		religion = slav
+		size = 150
+	}
+	capitalists = {
+		culture = czech
+		religion = slav
+		size = 150
+	}
+	craftsmen = {
+		culture = polish
+		religion = slav
+		size = 150
+	}
+	clerks = {
+		culture = polish
+		religion = slav
+		size = 150
+	}
+	capitalists = {
+		culture = polish
+		religion = slav
+		size = 150
+	}
+	craftsmen = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	clerks = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	capitalists = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	craftsmen = {
+		culture = romanian
+		religion = latin-german
+		size = 150
+	}
+	clerks = {
+		culture = romanian
+		religion = latin-german
+		size = 150
+	}
+	capitalists = {
+		culture = romanian
+		religion = latin-german
+		size = 150
+	}
+	craftsmen = {
+		culture = ashkenazi
+		religion = jewish
+		size = 150
+	}
+	clerks = {
+		culture = ashkenazi
+		religion = jewish
+		size = 150
+	}
+	capitalists = {
+		culture = ashkenazi
+		religion = jewish
+		size = 150
+	}
+	
+}
+#Sankt Polten (88000/22000 POPS)
+620 = {
+	aristocrats = {
+		culture = north_german
+		religion = latin-german
+		size = 375 
+	}
+
+	bureaucrats = {
+		culture = north_german
+		religion = latin-german
+		size = 600 
+	}
+	
+	clergymen = {
+		culture = north_german
+		religion = latin-german
+		size = 250
+	}
+
+	artisans = {
+		culture = north_german
+		religion = latin-german
+		size = 1200
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = latin-german
+		size = 250 
+	}
+
+	farmers = {
+		culture = north_german
+		religion = latin-german
+		size = 19925 
+	}
+}
+#Krems (240000/60000 POPS)
+621 = {
+	aristocrats = {
+		culture = north_german
+		religion = latin-german
+		size = 925 
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = latin-german
+		size = 625
+	}
+
+	artisans = {
+		culture = north_german
+		religion = latin-german
+		size = 3100
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = latin-german
+		size = 650 
+	}
+
+	farmers = {
+		culture = north_german
+		religion = latin-german
+		size = 54700
+	}
+}
+#Linz (588000/147000 POPS)
+622 = {
+	aristocrats = {
+		culture = north_german
+		religion = latin-german
+		size = 2300 
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = latin-german
+		size = 3200 
+	}
+
+	artisans = {
+		culture = north_german
+		religion = latin-german
+		size = 7650
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = latin-german
+		size = 1550 
+	}
+
+	farmers = {
+		culture = north_german
+		religion = latin-german
+		size = 133900
+	}
+	craftsmen = {
+		culture = north_german
+		religion = latin-german
+		size = 150
+	}
+	clerks = {
+		culture = north_german
+		religion = latin-german
+		size = 150
+	}
+	capitalists = {
+		culture = north_german
+		religion = latin-german
+		size = 150
+	}
+}
+#Odenburg Region (196000) #see Hungary.txt for balance of region
+#under the rule of Austria in 1836
+#Eisenstadt (196000/49000 POPS)
+624 = {
+	aristocrats = {
+		culture = north_german
+		religion = latin-german
+		size = 700 
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = latin-german
+		size = 475
+	}
+
+	artisans = {
+		culture = north_german
+		religion = latin-german
+		size = 2450
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = latin-german
+		size = 1100 
+	}
+
+	farmers = {
+		culture = north_german
+		religion = latin-german
+		size = 41375
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = latin-german
+		size = 60 
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = latin-german
+		size = 150
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = latin-german
+		size = 25 
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = latin-german
+		size = 2765  
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = latin-german
+		size = 35 
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = latin-german
+		size = 150
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = latin-german
+		size = 25 
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = latin-german
+		size = 1790   
+	}
+}

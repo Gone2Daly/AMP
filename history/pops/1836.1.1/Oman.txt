@@ -1,0 +1,327 @@
+1166 = {
+	aristocrats = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 225
+	}
+	bureaucrats = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 37
+	}
+	officers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 75
+	}
+	clergymen = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 75
+	}
+	artisans = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 150
+	}
+	soldiers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 1650
+	}
+	farmers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 937
+	}
+	clergymen = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 37
+	}
+	artisans = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 150
+	}
+	soldiers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 37
+	}
+	farmers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 2775
+	}
+	artisans = {
+		culture = baluchi
+		religion = arabi-turk
+		size = 75
+	}
+	soldiers = {
+		culture = baluchi
+		religion = arabi-turk
+		size = 37
+	}
+	farmers = {
+		culture = baluchi
+		religion = arabi-turk
+		size = 1387
+	}
+	clergymen = {
+		culture = persian
+		religion = arabi-turk
+		size = 37
+	}
+	artisans = {
+		culture = persian
+		religion = arabi-turk
+		size = 75
+	}
+	farmers = {
+		culture = persian
+		religion = arabi-turk
+		size = 1387
+	}
+	slaves = {
+		culture = african_minor
+		religion = negroid
+		size = 3000
+	}
+}
+1169 = {
+	aristocrats = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 75
+	}
+	clergymen = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 112
+	}
+	artisans = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 300
+	}
+	soldiers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 75
+	}
+	farmers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 5437
+	}
+}
+1170 = {
+	aristocrats = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 112
+	}
+	clergymen = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 75
+	}
+	artisans = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 375
+	}
+	soldiers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 75
+	}
+	farmers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 6862
+	}
+	clergymen = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 22
+	}
+	artisans = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 75
+	}
+	soldiers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 15
+	}
+	farmers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 1387
+	}
+}
+1171 = {
+	aristocrats = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 37
+	}
+	clergymen = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 75
+	}
+	artisans = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 150
+	}
+	soldiers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 37
+	}
+	farmers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 2700
+	}
+	clergymen = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 37
+	}
+	artisans = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 150
+	}
+	soldiers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 37
+	}
+	farmers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 2775
+	}
+	artisans = {
+		culture = baluchi
+		religion = arabi-turk
+		size = 75
+	}
+	soldiers = {
+		culture = baluchi
+		religion = arabi-turk
+		size = 37
+	}
+	farmers = {
+		culture = baluchi
+		religion = arabi-turk
+		size = 1387
+	}
+	slaves = {
+		culture = african_minor
+		religion = negroid
+		size = 1650
+	}
+}
+1172 = {
+	aristocrats = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 112
+	}
+	clergymen = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 112
+	}
+	artisans = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 300
+	}
+	soldiers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 75
+	}
+	farmers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 5400
+	}
+	clergymen = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 37
+	}
+	artisans = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 75
+	}
+	farmers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 1387
+	}
+}
+1174 = {
+	aristocrats = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 97
+	}
+	bureaucrats = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 7
+	}
+	officers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 7
+	}
+	clergymen = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 112
+	}
+	artisans = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 300
+	}
+	soldiers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 75
+	}
+	farmers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 5400
+	}
+	clergymen = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 37
+	}
+	artisans = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 75
+	}
+	farmers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 1387
+	}
+}

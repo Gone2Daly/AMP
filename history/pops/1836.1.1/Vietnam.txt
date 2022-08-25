@@ -1,0 +1,1258 @@
+#Tonkin Region (2784000)
+#under the rule of Annam in 1836
+#Hanoi (808000/202000 POPS)
+1369 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 3600
+	}
+
+	bureaucrats = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 1100
+	}
+
+	officers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 625
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 1625
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 10000
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 10000
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 4500
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 1675
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 132875
+	}
+
+	slaves = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 8000
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 50
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 1250
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 700
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 50
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 1250
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 700
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = malay
+		size = 175
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = malay
+		size = 3500
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = malay
+		size = 20325
+	}
+	craftsmen = {
+		culture = asian_minor
+		religion = malay
+		size = 150
+	}
+	clerks = {
+		culture = asian_minor
+		religion = malay
+		size = 150
+	}
+	capitalists = {
+		culture = asian_minor
+		religion = malay
+		size = 150
+	}
+
+	craftsmen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 150
+	}
+	clerks = {
+		culture = beifaren
+		religion = mongoloid
+		size = 150
+	}
+	capitalists = {
+		culture = beifaren
+		religion = mongoloid
+		size = 150
+	}
+}
+#Haiphong (596000/149000 POPS)
+1370 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 2750
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 1325
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 6550
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 1325
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 119050
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 50
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 1250
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 700
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 50
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 1250
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 700
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = malay
+		size = 100
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = malay
+		size = 700
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = malay
+		size = 13200
+	}
+	craftsmen = {
+		culture = asian_minor
+		religion = malay
+		size = 150
+	}
+	clerks = {
+		culture = asian_minor
+		religion = malay
+		size = 150
+	}
+	capitalists = {
+		culture = asian_minor
+		religion = malay
+		size = 150
+	}
+
+	craftsmen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 150
+	}
+	clerks = {
+		culture = beifaren
+		religion = mongoloid
+		size = 150
+	}
+	capitalists = {
+		culture = beifaren
+		religion = mongoloid
+		size = 150
+	}
+}
+#Cao Bang (272000/68000 POPS)
+1371 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 1050
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 500
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 2600
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 1100
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 46800
+	}
+
+	slaves = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 2000
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = malay
+		size = 75
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = malay
+		size = 300
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = malay
+		size = 5625
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = malay
+		size = 200
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = malay
+		size = 100
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = malay
+		size = 500
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = malay
+		size = 100
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = malay
+		size = 9100
+	}
+}
+#Son La (300000/75000 POPS)
+1372 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 1100
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 550
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 2700
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 1100
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 48650
+	}
+
+	slaves = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 1100
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = malay
+		size = 75
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = malay
+		size = 300
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = malay
+		size = 5625
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = malay
+		size = 275
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = malay
+		size = 125
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = malay
+		size = 700
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = malay
+		size = 150
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = malay
+		size = 12750
+	}
+}
+#Lang Son (324000/81000 POPS)
+1373 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 1425
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 700
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 3450
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 1100
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 62405
+	}
+
+	slaves = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 2000
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = malay
+		size = 50
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = malay
+		size = 350
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = malay
+		size = 6600
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 75
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 1650
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 1275
+	}
+}
+#Thanh Hoa (484000/121000 POPS)
+1374 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 2250
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 1125
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 5500
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 1100
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 100025
+	}
+
+	slaves = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 3000
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = malay
+		size = 50
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = malay
+		size = 550
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = malay
+		size = 10400
+	}
+}
+#Annam Region (2148000)
+#under the rule of Annam in 1836
+#Hue (1080000/270000 POPS)
+1375 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 4750
+	}
+
+	bureaucrats = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 850
+	}
+
+	officers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 525
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 2250
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 7475
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 2250
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 204900
+	}
+
+	slaves = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 9000
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = malay
+		size = 225
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = malay
+		size = 1025
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = malay
+		size = 29750
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 75
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 4000
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 2925
+	}
+}
+#Vinh (524000/131000 POPS)
+1376 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 2500
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 1225
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 6150
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 1250
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 111875
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = malay
+		size = 50
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = malay
+		size = 400
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = malay
+		size = 7550
+	}
+}
+#Tourane (276000/69000 POPS)
+1377 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 800
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 400
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 2000
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 1100
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 35800
+	}
+
+	slaves = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 2000
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = malay
+		size = 50
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = malay
+		size = 200
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = malay
+		size = 3750
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = malay
+		size = 450
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = malay
+		size = 225
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = malay
+		size = 1100
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = malay
+		size = 225
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = malay
+		size = 19975
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 25
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 550
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 425
+	}
+}
+#Pleiku (148000 37000 POPS)
+1378 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 700
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 325
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 1700
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 350
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 30925
+	}
+
+	slaves = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 2000
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = malay
+		size = 50
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = malay
+		size = 200
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = malay
+		size = 3750
+	}
+}
+#Quinhon (120000/30000 POPS)
+1379 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 150
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 50
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 300
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 75
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 5425
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = malay
+		size = 500
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = malay
+		size = 225
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = malay
+		size = 1200
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = malay
+		size = 250
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = malay
+		size = 21825
+	}
+}
+#Cochinchina Region (1384000)
+#under the rule of Annam in 1836
+#Saigon (848000/212000 POPS)
+1380 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 3600
+	}
+
+	bureaucrats = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 325
+	}
+
+	officers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 300
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 1775
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 7500
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 1775
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 161725
+	}
+
+	slaves = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 8000
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 75
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 2100
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 1825
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 50
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 1600
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 1350
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = malay
+		size = 125
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = malay
+		size = 1100
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = malay
+		size = 18875
+	}
+	craftsmen = {
+		culture = asian_minor
+		religion = malay
+		size = 150
+	}
+	clerks = {
+		culture = asian_minor
+		religion = malay
+		size = 150
+	}
+	capitalists = {
+		culture = asian_minor
+		religion = malay
+		size = 150
+	}
+
+	craftsmen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 150
+	}
+	clerks = {
+		culture = beifaren
+		religion = mongoloid
+		size = 150
+	}
+	capitalists = {
+		culture = beifaren
+		religion = mongoloid
+		size = 150
+	}
+}
+#Dongquai (244000/61000 POPS)
+1381 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 900
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 475
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 2400
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 475
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 43750
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = malay
+		size = 50
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = malay
+		size = 250
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = malay
+		size = 4700
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = malay
+		size = 175
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = malay
+		size = 75
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = malay
+		size = 400
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = malay
+		size = 75
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = malay
+		size = 7275
+	}
+}
+#Hatien (172000/43000 POPS)
+1382 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 300
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 125
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 700
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 150
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 12725
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = malay
+		size = 300
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = malay
+		size = 1450
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = malay
+		size = 250
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = malay
+		size = 27000
+	}
+}
+#Vinhlong (120000/30000 POPS)
+1383 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 300
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 125
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 700
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 1100
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = mongoloid
+		size = 11875
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = malay
+		size = 150
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = malay
+		size = 800
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = malay
+		size = 150
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = malay
+		size = 14900
+	}
+
+}

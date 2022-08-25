@@ -1,0 +1,16 @@
+owner = DEN
+controller = DEN
+add_core = DEN
+add_core = SCA
+trade_goods = grain
+life_rating = 42
+state_building = {
+	level = 1
+	building = manufacture_steel
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_ammunition
+	upgrade = yes
+}

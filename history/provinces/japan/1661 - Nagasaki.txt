@@ -1,0 +1,18 @@
+owner = JAP
+controller = JAP
+add_core = JAP
+trade_goods = coal
+life_rating = 45
+1861.1.1 = {
+	naval_base = 1
+}
+state_building = {
+	level = 1
+	building = manufacture_wine
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_ammunition
+	upgrade = yes
+}

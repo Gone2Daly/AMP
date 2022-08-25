@@ -1,0 +1,49 @@
+cavalry = {
+	icon = 2
+	
+	type = land
+	sprite = Cavalry
+	active = yes
+	unit_type = cavalry
+	floating_flag = yes
+	
+	#Avatar
+	sprite_mount = GenericMount
+	sprite_mount_attach_node = Saddle_Node
+
+	#Core Abilities
+	priority = 25
+	max_strength = 3
+	default_organisation = 25
+	maximum_speed = 6.00
+	weighted_value = 4.0
+	
+	fort = {
+	attack = -0.1
+	}
+
+
+	#Building Costs
+	build_time = 210
+	build_cost = {
+		wool = 10
+		canned_food = 10
+	}
+	
+	supply_consumption = 1.0
+	supply_cost = {
+		wool = 0.7
+		ammunition = 0.03
+		canned_food = 0.2 #1.8
+	}
+	
+
+	#Land Abilties
+	reconnaissance = 1
+	attack = 2
+	defence = 2
+	discipline = 1.0
+	support = 0.0
+	maneuver = 3
+	
+}

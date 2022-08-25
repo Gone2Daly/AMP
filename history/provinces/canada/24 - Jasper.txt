@@ -1,0 +1,6 @@
+owner = XPR
+controller = XPR
+add_core = XPR
+trade_goods = timber
+life_rating = 30
+#terrain = marginal_farmland

@@ -1,0 +1,9 @@
+﻿Conservatives|1700.1.1|2000.1.1|conservative|interventionism|protectionism|moralism|limited_citizenship|pro_military
+Liberals|1750.1.1|2000.1.1|liberal|laissez_faire|free_trade|pluralism|limited_citizenship|anti_military
+National Liberals|1800.1.1|2000.1.1|liberal|laissez_faire|free_trade|pluralism|limited_citizenship|pro_military
+Socialists|1750.1.1|2000.1.1|socialist|state_capitalism|free_trade|secularized|full_citizenship|anti_military
+National Socialists|1800.1.1|2000.1.1|socialist|state_capitalism|protectionism|secularized|limited_citizenship|pro_military
+Monarchy Leadership|1700.1.1|2000.1.1|reactionary|state_capitalism|protectionism|moralism|residency|jingoism
+Radical Liberals|1850.1.1|2000.1.1|anarcho_liberal|laissez_faire|free_trade|pro_atheism|full_citizenship|pro_military
+Communists|1850.1.1|2000.1.1|communist|planned_economy|protectionism|pro_atheism|full_citizenship|pro_military
+Fascists|1850.1.1|2000.1.1|fascist|state_capitalism|protectionism|secularized|residency|jingoism

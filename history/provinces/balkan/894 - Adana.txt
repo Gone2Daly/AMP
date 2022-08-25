@@ -1,0 +1,15 @@
+owner = EGY
+controller = EGY
+add_core = TUR
+trade_goods = wool
+life_rating = 42
+state_building = {
+	level = 1
+	building = manufacture_coal
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_iron
+	upgrade = yes
+}

@@ -1,0 +1,1017 @@
+#aesthetics
+classicism_n_early_romanticism = {
+	area = aesthetics
+	year = 1836
+	cost = 3000
+
+	prestige = 0.1
+	
+	factory_goods_throughput = {
+		culture = 0.1
+	}
+	ai_chance = {
+		factor = 1
+	}
+}
+
+romanticism = {
+	area = aesthetics
+	year = 1836
+	cost = 6000
+	
+	prestige = 0.1
+	
+	
+
+	factory_goods_throughput = {
+		culture = 0.1
+	}
+	ai_chance = {
+		factor = 1
+	}
+}
+
+realism = {
+	area = aesthetics
+	year = 1836
+	cost = 9000
+
+	prestige = 0.1
+	
+	factory_goods_throughput = {
+		culture = 0.1
+	}
+	ai_chance = {
+		factor = 1
+	}
+}
+impressionism = {
+	area = aesthetics
+	year = 1850
+	cost = 12000
+
+	prestige = 0.1
+	
+	factory_goods_throughput = {
+		culture = 0.1
+	}
+	ai_chance = {
+		factor = 1
+	}
+}
+aesthetics_1 = {
+	area = aesthetics
+	year = 1865
+	cost = 15000
+
+	prestige = 0.1
+	
+	factory_goods_throughput = {
+		culture = 0.1
+	}
+	ai_chance = {
+		factor = 1
+	}
+}
+aesthetics_2 = {
+	area = aesthetics
+	year = 1880
+	cost = 18000
+
+	prestige = 0.1
+	factory_goods_throughput = {
+		culture = 0.1
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+expressionism = {
+	area = aesthetics
+	year = 1895
+	cost = 21000
+
+	prestige = 0.1
+	factory_goods_throughput = {
+		culture = 0.1
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+mass_culture_n_the_avant_garde = {
+	area = aesthetics
+	year = 1910
+	cost = 24000
+
+	prestige = 0.1
+	factory_goods_throughput = {
+		culture = 0.1
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+aesthetics_3 = {
+	area = aesthetics
+	year = 1925
+	cost = 27000
+
+	prestige = 0.1
+	factory_goods_throughput = {
+		culture = 0.1
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+aesthetics_4 = {
+	area = aesthetics
+	year = 1940
+	cost = 30000
+
+	prestige = 0.1
+	factory_goods_throughput = {
+		culture = 0.1
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+aesthetics_5 = {
+	area = aesthetics
+	year = 1955
+	cost = 33000
+
+	prestige = 0.1
+	factory_goods_throughput = {
+		culture = 0.1
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+aesthetics_6 = {
+	area = aesthetics
+	year = 1970
+	cost = 36000
+
+	prestige = 0.1
+	factory_goods_throughput = {
+		culture = 0.1
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+
+
+#philosophy
+late_enlightenment_philosophy = {
+	area = philosophy
+	year = 1836
+	cost = 3000
+
+
+	increase_research = 1
+	
+	ai_chance = {
+		factor = 20
+	}
+}
+idealism = {
+	area = philosophy
+	year = 1840
+	cost = 6000
+
+	increase_research = 1
+	ai_chance = {
+		factor = 20
+	}
+}
+
+philosophy_1 = {
+	area = philosophy
+	year = 1850
+	cost = 9000
+
+	increase_research = 1
+	ai_chance = {
+		factor = 20
+	}
+}
+
+empiricism = {
+	area = philosophy
+	year = 1860
+	cost = 12000
+	
+	increase_research = 0.75
+	ai_chance = {
+		factor = 20
+	}
+}
+analytic_philosophy = {
+	area = philosophy
+	year = 1870
+	cost = 15000
+
+	increase_research = 0.75
+	ai_chance = {
+		factor = 20
+	}
+}
+phenomenology_n_hermeneutic = {
+	area = philosophy
+	year = 1880
+	cost = 18000
+
+	increase_research = 0.75
+	ai_chance = {
+		factor = 20
+	}
+}
+philosophy_2 = {
+	area = philosophy
+	year = 1890
+	cost = 21000
+
+	increase_research = 0.75
+	ai_chance = {
+		factor = 20
+	}
+}
+anti__rationalism = {
+	area = philosophy
+	year = 1900
+	cost = 24000
+
+	increase_research = 0.75
+	ai_chance = {
+		factor = 20
+	}
+}
+philosophy_3 = {
+	area = philosophy
+	year = 1910
+	cost = 27000
+
+	increase_research = 0.75
+	ai_chance = {
+		factor = 20
+	}
+}
+philosophy_4 = {
+	area = philosophy
+	year = 1920
+	cost = 30000
+
+	increase_research = 0.75
+	ai_chance = {
+		factor = 20
+	}
+}
+philosophy_5 = {
+	area = philosophy
+	year = 1930
+	cost = 33000
+
+	increase_research = 0.5
+	ai_chance = {
+		factor = 20
+	}
+}
+philosophy_6 = {
+	area = philosophy
+	year = 1940
+	cost = 36000
+
+	increase_research = 0.5
+	ai_chance = {
+		factor = 20
+	}
+}
+
+
+#social_thought
+malthusian_thought = {
+	area = social_thought
+	year = 1836
+	cost = 3000
+
+	education_efficiency = 0.1
+	factory_goods_throughput = {
+		education = 0.1
+	}
+	ai_chance = {
+		factor = 1.5
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.4 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.6 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.8 }
+		}
+	}
+}
+positivism = {
+	area = social_thought
+	year = 1836
+	cost = 6000
+	education_efficiency = 0.2
+	factory_goods_throughput = {
+		education = 0.1
+	}
+	ai_chance = {
+		factor = 1.5
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.4 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.6 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.8 }
+		}
+	}
+
+}
+functionalism = {
+	area = social_thought
+	year = 1836
+	cost = 9000
+	factory_goods_throughput = {
+		education = 0.1
+	}
+	education_efficiency = 0.25
+	ai_chance = {
+		factor = 1.5
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.4 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.6 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.8 }
+		}
+	}
+
+}
+social_thought_1 = {
+	area = social_thought
+	year = 1850
+	cost = 12000
+	factory_goods_throughput = {
+		education = 0.1
+	}
+	education_efficiency = 0.3
+	ai_chance = {
+		factor = 1.5
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.4 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.6 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.8 }
+		}
+	}
+
+}
+biologism = {
+	area = social_thought
+	year = 1865
+	cost = 15000
+	factory_goods_throughput = {
+		education = 0.1
+	}
+	education_efficiency = 0.35
+	ai_chance = {
+		factor = 1.5
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.4 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.6 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.8 }
+		}
+	}
+
+}
+social_science = {
+	area = social_thought
+	year = 1880
+	cost = 18000
+
+	education_efficiency = 0.3
+	factory_goods_throughput = {
+		education = 0.1
+	}
+	ai_chance = {
+		factor = 1.5
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.4 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.6 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.8 }
+		}
+	}
+
+}
+social_thought_2 = {
+	area = social_thought
+	year = 1895
+	cost = 21000
+
+	education_efficiency = 0.25
+	factory_goods_throughput = {
+		education = 0.1
+	}
+	ai_chance = {
+		factor = 1.5
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.4 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.6 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.8 }
+		}
+	}
+
+}
+social_alienation = {
+	area = social_thought
+	year = 1910
+	cost = 24000
+	
+	education_efficiency = 0.2
+	factory_goods_throughput = {
+		education = 0.1
+	}
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.4 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.6 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.8 }
+		}
+	}
+
+}
+social_thought_3 = {
+	area = social_thought
+	year = 1925
+	cost = 27000
+
+	education_efficiency = 0.15
+	factory_goods_throughput = {
+		education = 0.1
+	}
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.4 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.6 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.8 }
+		}
+	}
+
+}
+social_thought_4 = {
+	area = social_thought
+	year = 1940
+	cost = 30000
+
+	education_efficiency = 0.15
+	factory_goods_throughput = {
+		education = 0.1
+	}
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.4 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.6 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.8 }
+		}
+	}
+
+}
+social_thought_5 = {
+	area = social_thought
+	year = 1955
+	cost = 33000
+
+	education_efficiency = 0.15
+	factory_goods_throughput = {
+		education = 0.1
+	}
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.4 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.6 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.8 }
+		}
+	}
+
+}
+social_thought_6 = {
+	area = social_thought
+	year = 1970
+	cost = 36000
+
+	education_efficiency = 0.15
+	factory_goods_throughput = {
+		education = 0.1
+	}
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.4 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.6 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.8 }
+		}
+	}
+
+}
+
+
+#political_thought
+enlightenment_thought = {
+	area = political_thought
+	year = 1836
+	cost = 3000
+
+	max_national_focus = 2
+	cb_creation_speed = 0.1
+	
+	ai_chance = {
+		factor = 3
+	}
+}
+ideological_thought = {
+	area = political_thought
+	year = 1836
+	cost = 6000
+
+	max_national_focus = 2
+	cb_creation_speed = 0.1
+		
+	ai_chance = {
+		factor = 3
+	}
+}
+state_n_government = {
+	area = political_thought
+	year = 1836
+	cost = 9000
+
+	max_national_focus = 2
+	cb_creation_speed = 0.1
+	ai_chance = {
+		factor = 3
+	}	
+}
+nationalism_n_imperialism = {
+	area = political_thought
+	year = 1850
+	cost = 12000
+
+	max_national_focus = 2
+	diplomatic_points = 0.1
+	cb_creation_speed = 0.1
+	
+	ai_chance = {
+		factor = 2
+		
+	}	
+}
+political_thought_1 = {
+	area = political_thought
+	year = 1865
+	cost = 15000
+
+	max_national_focus = 5
+	diplomatic_points = 0.25
+	cb_creation_speed = 0.2
+	ai_chance = {
+		factor = 2
+	}	
+}
+revolution_n_counterrevolution = {
+	area = political_thought
+	year = 1880
+	cost = 18000
+
+	max_national_focus = 2
+	diplomatic_points = 0.25
+	cb_creation_speed = 0.5
+	ai_chance = {
+		factor = 2
+	}	
+}
+political_thought_2 = {
+	area = political_thought
+	year = 1895
+	cost = 21000
+
+	max_national_focus = 2
+	cb_creation_speed = 1
+	ai_chance = {
+		factor = 1
+		
+	}	
+}
+mass_politics = {
+	area = political_thought
+	year = 1910
+	cost = 24000
+
+	max_national_focus = 2
+	cb_creation_speed = 0.25
+	ai_chance = {
+		factor = 1
+	}	
+}
+political_thought_3 = {
+	area = political_thought
+	year = 1925
+	cost = 27000
+
+	max_national_focus = 2
+	cb_creation_speed = 0.25
+	ai_chance = {
+		factor = 1
+	}	
+}
+political_thought_4 = {
+	area = political_thought
+	year = 1940
+	cost = 30000
+
+	max_national_focus = 2
+	cb_creation_speed = 0.25
+	ai_chance = {
+		factor = 1
+	}	
+}
+political_thought_5 = {
+	area = political_thought
+	year = 1955
+	cost = 33000
+
+	max_national_focus = 2
+	cb_creation_speed = 0.25
+	ai_chance = {
+		factor = 1
+	}	
+}
+political_thought_6 = {
+	area = political_thought
+	year = 1970
+	cost = 36000
+
+	max_national_focus = 2
+	cb_creation_speed = 0.25
+	ai_chance = {
+		factor = 1
+	}	
+}
+
+
+#psychology
+introspectionism = {
+	area = psychology
+	year = 1836
+	cost = 3000
+
+	colonial_points = 100
+	factory_goods_throughput = {
+		recreation = 0.1
+	}
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			total_num_of_ports = 10
+		}
+		modifier = {
+			factor = 2
+			total_num_of_ports = 20
+		}
+		modifier = {
+			factor = 2
+			total_num_of_ports = 30
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 1860 }
+		}
+
+}
+associationism = {
+	area = psychology
+	year = 1836
+	cost = 5000
+
+	colonial_points = 200
+	factory_goods_throughput = {
+		recreation = 0.1
+	}
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			total_num_of_ports = 10
+		}
+		modifier = {
+			factor = 2
+			total_num_of_ports = 20
+		}
+		modifier = {
+			factor = 2
+			total_num_of_ports = 30
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 1860 }
+		}
+	}
+}
+phenomenalism = {
+	area = psychology
+	year = 1836
+	cost = 7000
+
+	colonial_points = 400
+	factory_goods_throughput = {
+		recreation = 0.1
+	}
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			total_num_of_ports = 10
+		}
+		modifier = {
+			factor = 2
+			total_num_of_ports = 20
+		}
+		modifier = {
+			factor = 2
+			total_num_of_ports = 30
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 1860 }
+		}
+	}
+}
+experimental_psychology = {
+	area = psychology
+	year = 1840
+	cost = 9000
+
+	colonial_points = 600
+	factory_goods_throughput = {
+		recreation = 0.1
+	}
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			total_num_of_ports = 10
+		}
+		modifier = {
+			factor = 2
+			total_num_of_ports = 20
+		}
+		modifier = {
+			factor = 2
+			total_num_of_ports = 30
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 1860 }
+		}
+	}
+}
+psychology_1 = {
+	area = psychology
+	year = 1850
+	cost = 12000
+
+	colonial_points = 800
+	factory_goods_throughput = {
+		recreation = 0.1
+	}
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			total_num_of_ports = 10
+		}
+		modifier = {
+			factor = 2
+			total_num_of_ports = 20
+		}
+		modifier = {
+			factor = 2
+			total_num_of_ports = 30
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 1860 }
+		}
+	}
+}
+psychoanalysis = {
+	area = psychology
+	year = 1860
+	cost = 14000
+
+	colonial_points = 1000
+	factory_goods_throughput = {
+		recreation = 0.1
+	}
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			total_num_of_ports = 10
+		}
+		modifier = {
+			factor = 2
+			total_num_of_ports = 20
+		}
+		modifier = {
+			factor = 2
+			total_num_of_ports = 30
+		}
+	}
+
+}
+psychology_2 = {
+	area = psychology
+	year = 1870
+	cost = 16000
+
+	colonial_points = 1200
+	factory_goods_throughput = {
+		recreation = 0.1
+	}
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 10
+		}
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 20
+		}
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 30
+		}
+	}
+
+}
+behaviorism = {
+	area = psychology
+	year = 1895
+	cost = 18000
+
+	colonial_points = 1400
+	factory_goods_throughput = {
+		recreation = 0.1
+	}
+	ai_chance = {
+		factor = 3
+	}
+}
+psychology_3 = {
+	area = psychology
+	year = 1925
+	cost = 21000
+	factory_goods_throughput = {
+		recreation = 0.1
+	}
+	ai_chance = {
+		factor = 1
+	}
+
+}
+psychology_4 = {
+	area = psychology
+	year = 1955
+	cost = 24000
+	factory_goods_throughput = {
+		recreation = 0.1
+	}
+	ai_chance = {
+		factor = 1
+	}
+
+}
+psychology_5 = {
+	area = psychology
+	year = 1955
+	cost = 27000
+	factory_goods_throughput = {
+		recreation = 0.1
+	}
+	ai_chance = {
+		factor = 1
+	}
+
+}
+psychology_6 = {
+	area = psychology
+	year = 1970
+	cost = 27000
+	factory_goods_throughput = {
+		recreation = 0.1
+	}
+	ai_chance = {
+		factor = 1
+	}
+
+}
+
+
+

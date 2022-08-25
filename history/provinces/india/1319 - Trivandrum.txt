@@ -1,0 +1,6 @@
+controller = OST
+owner = OST  colonial = 2
+add_core = TRA
+add_core = HND
+trade_goods = fruit
+life_rating = 32

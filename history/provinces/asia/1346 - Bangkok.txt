@@ -1,0 +1,15 @@
+owner = SIA
+controller = SIA
+add_core = SIA
+trade_goods = grain
+life_rating = 45
+state_building = {
+	level = 1
+	building = manufacture_iron
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_furniture
+	upgrade = yes
+}

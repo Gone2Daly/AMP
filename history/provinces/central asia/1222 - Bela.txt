@@ -1,0 +1,16 @@
+owner = MAK
+controller = MAK
+add_core = MAK
+add_core = HND
+add_core = KAL
+trade_goods = tea
+life_rating = 35
+
+1914.1.1 = {
+	owner = OST
+	controller = OST
+	add_core = PAK
+	remove_core = HND
+	
+	naval_base = 3
+}

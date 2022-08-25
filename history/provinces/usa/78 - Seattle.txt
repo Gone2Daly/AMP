@@ -1,0 +1,16 @@
+add_core = COL
+trade_goods = timber
+life_rating = 42
+add_core = USA
+owner = USA
+controller = USA
+state_building = {
+	level = 1
+	building = manufacture_furniture
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_luxury_furniture
+	upgrade = yes
+}

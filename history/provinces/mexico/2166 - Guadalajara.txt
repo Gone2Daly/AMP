@@ -1,0 +1,5 @@
+owner = MEX
+controller = MEX
+add_core = MEX
+trade_goods = fish
+life_rating = 40state_building = {	level = 1	building = manufacture_ammunition	upgrade = yes}state_building = {	level = 1	building = manufacture_small_arms	upgrade = yes}

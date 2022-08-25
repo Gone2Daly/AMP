@@ -1,0 +1,783 @@
+#Holland & Zeeland Region - 1353000
+#Amsterdam (464000/116000 POPS)
+375 = {
+	clergymen = {
+		culture = ashkenazi
+		religion = jewish
+		size = 75
+	}
+
+	artisans = {
+		culture = ashkenazi
+		religion = jewish
+		size = 6925
+	}
+
+	aristocrats = {
+		culture = dutch
+		religion = latin-german
+		size = 500
+	}
+
+	officers = {
+		culture = dutch
+		religion = latin-german
+		size = 50
+	}
+
+	bureaucrats = {
+		culture = dutch
+		religion = latin-german
+		size = 1600
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = latin-german
+		size = 550
+	}
+
+	artisans = {
+		culture = dutch
+		religion = latin-german
+		size = 10000
+	}
+
+	artisans = {
+		culture = dutch
+		religion = latin-german
+		size = 10000
+	}
+
+	artisans = {
+		culture = dutch
+		religion = latin-german
+		size = 10000
+	}
+
+	artisans = {
+		culture = dutch
+		religion = latin-german
+		size = 10000
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = latin-german
+		size = 1100
+	}
+
+	farmers = {
+		culture = dutch
+		religion = latin-german
+		size = 62300
+	}
+
+	artisans = {
+		culture = flemish
+		religion = latin-german
+		size = 3000
+	}
+	craftsmen = {
+		culture = dutch
+		religion = latin-german
+		size = 150
+	}
+	clerks = {
+		culture = dutch
+		religion = latin-german
+		size = 150
+	}
+	capitalists = {
+		culture = dutch
+		religion = latin-german
+		size = 150
+	}
+	craftsmen = {
+		culture = flemish
+		religion = latin-german
+		size = 150
+	}
+	clerks = {
+		culture = flemish
+		religion = latin-german
+		size = 150
+	}
+	capitalists = {
+		culture = flemish
+		religion = latin-german
+		size = 150
+	}
+	craftsmen = {
+		culture = ashkenazi
+		religion = jewish
+		size = 150
+	}
+	clerks = {
+		culture = ashkenazi
+		religion = jewish
+		size = 150
+	}
+	capitalists = {
+		culture = ashkenazi
+		religion = jewish
+		size = 150
+	}
+}
+#Rotterdam (567000/141750 POPS)
+376 = {
+	aristocrats = {
+		culture = dutch
+		religion = latin-german
+		size = 750
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = latin-german
+		size = 625
+	}
+
+	artisans = {
+		culture = dutch
+		religion = latin-german
+		size = 10000
+	}
+
+	artisans = {
+		culture = dutch
+		religion = latin-german
+		size = 7500
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = latin-german
+		size = 1250
+	}
+
+	farmers = {
+		culture = dutch
+		religion = latin-german
+		size = 119125
+	}
+
+	artisans = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1500
+	}
+
+	artisans = {
+		culture = flemish
+		religion = latin-german
+		size = 1100
+	}
+	craftsmen = {
+		culture = dutch
+		religion = latin-german
+		size = 150
+	}
+	clerks = {
+		culture = dutch
+		religion = latin-german
+		size = 150
+	}
+	capitalists = {
+		culture = dutch
+		religion = latin-german
+		size = 150
+	}
+	craftsmen = {
+		culture = flemish
+		religion = latin-german
+		size = 150
+	}
+	clerks = {
+		culture = flemish
+		religion = latin-german
+		size = 150
+	}
+	capitalists = {
+		culture = flemish
+		religion = latin-german
+		size = 150
+	}
+	craftsmen = {
+		culture = ashkenazi
+		religion = jewish
+		size = 150
+	}
+	clerks = {
+		culture = ashkenazi
+		religion = jewish
+		size = 150
+	}
+	capitalists = {
+		culture = ashkenazi
+		religion = jewish
+		size = 150
+	}
+}
+#Utrecht (152000/38000 POPS)
+377 = {
+	aristocrats = {
+		culture = dutch
+		religion = latin-german
+		size = 300
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = latin-german
+		size = 175
+	}
+
+	artisans = {
+		culture = dutch
+		religion = latin-german
+		size = 10000
+	}
+
+	artisans = {
+		culture = dutch
+		religion = latin-german
+		size = 2000
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = latin-german
+		size = 1100
+	}
+
+	farmers = {
+		culture = dutch
+		religion = latin-german
+		size = 24525
+	}
+	craftsmen = {
+		culture = dutch
+		religion = latin-german
+		size = 150
+	}
+	clerks = {
+		culture = dutch
+		religion = latin-german
+		size = 150
+	}
+	capitalists = {
+		culture = dutch
+		religion = latin-german
+		size = 150
+	}
+}
+#Middelburg (170000/42500 POPS)
+378 = {
+	aristocrats = {
+		culture = dutch
+		religion = latin-german
+		size = 300
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = latin-german
+		size = 200
+	}
+
+	artisans = {
+		culture = dutch
+		religion = latin-german
+		size = 1700
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = latin-german
+		size = 1100
+	}
+
+	farmers = {
+		culture = dutch
+		religion = latin-german
+		size = 37300
+	}
+
+	artisans = {
+		culture = flemish
+		religion = latin-german
+		size = 150
+	}
+
+	farmers = {
+		culture = flemish
+		religion = latin-german
+		size = 1100
+	}
+
+}
+#Limburg-Gelderland Region - 979400
+#Eindhoven (230000/57500 POPS)
+379 = {
+	artisans = {
+		culture = ashkenazi
+		religion = jewish
+		size = 250
+	}
+
+	aristocrats = {
+		culture = dutch
+		religion = latin-german
+		size = 400
+	}
+
+	officers = {
+		culture = dutch
+		religion = latin-german
+		size = 0
+	}
+
+	bureaucrats = {
+		culture = dutch
+		religion = latin-german
+		size = 100
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = latin-german
+		size = 300
+	}
+
+	artisans = {
+		culture = dutch
+		religion = latin-german
+		size = 2150
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = latin-german
+		size = 1100
+	}
+
+	farmers = {
+		culture = dutch
+		religion = latin-german
+		size = 53500
+	}
+
+	clergymen = {
+		culture = flemish
+		religion = latin-german
+		size = 50
+	}
+
+	artisans = {
+		culture = flemish
+		religion = latin-german
+		size = 150
+	}
+
+	farmers = {
+		culture = flemish
+		religion = latin-german
+		size = 3000
+	}
+	craftsmen = {
+		culture = dutch
+		religion = latin-german
+		size = 150
+	}
+	clerks = {
+		culture = dutch
+		religion = latin-german
+		size = 150
+	}
+	capitalists = {
+		culture = dutch
+		religion = latin-german
+		size = 150
+	}
+	craftsmen = {
+		culture = flemish
+		religion = latin-german
+		size = 150
+	}
+	clerks = {
+		culture = flemish
+		religion = latin-german
+		size = 150
+	}
+	capitalists = {
+		culture = flemish
+		religion = latin-german
+		size = 150
+	}
+	craftsmen = {
+		culture = ashkenazi
+		religion = jewish
+		size = 150
+	}
+	clerks = {
+		culture = ashkenazi
+		religion = jewish
+		size = 150
+	}
+	capitalists = {
+		culture = ashkenazi
+		religion = jewish
+		size = 150
+	}
+}
+#Breda (173200/43300 POPS)
+380 = {
+	aristocrats = {
+		culture = dutch
+		religion = latin-german
+		size = 300
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = latin-german
+		size = 200
+	}
+
+	artisans = {
+		culture = dutch
+		religion = latin-german
+		size = 3750
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = latin-german
+		size = 1100
+	}
+
+	labourers = {
+		culture = dutch
+		religion = latin-german
+		size = 35050
+	}
+}
+#Maastricht (164200/41050 POPS)
+381 = {
+	aristocrats = {
+		culture = dutch
+		religion = latin-german
+		size = 300
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = latin-german
+		size = 200
+	}
+
+	artisans = {
+		culture = dutch
+		religion = latin-german
+		size = 5000
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = latin-german
+		size = 1100
+	}
+
+	farmers = {
+		culture = dutch
+		religion = latin-german
+		size = 33550
+	}
+
+	farmers = {
+		culture = flemish
+		religion = latin-german
+		size = 1100
+	}
+}
+#Arnhem (275000/68750 POPS)
+382 = {
+	artisans = {
+		culture = ashkenazi
+		religion = jewish
+		size = 500
+	}
+
+	aristocrats = {
+		culture = dutch
+		religion = latin-german
+		size = 500
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = latin-german
+		size = 335
+	}
+
+	artisans = {
+		culture = dutch
+		religion = latin-german
+		size = 2605
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = latin-german
+		size = 735
+	}
+
+	farmers = {
+		culture = dutch
+		religion = latin-german
+		size = 66300
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = latin-german
+		size = 35
+	}
+
+	artisans = {
+		culture = north_german
+		religion = latin-german
+		size = 170
+	}
+
+	farmers = {
+		culture = north_german
+		religion = latin-german
+		size = 2135
+	}
+
+}
+#Apeldoorn (137000/34250 POPS)
+43 = {
+	aristocrats = {
+		culture = dutch
+		religion = latin-german
+		size = 250
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = latin-german
+		size = 165
+	}
+
+	artisans = {
+		culture = dutch
+		religion = latin-german
+		size = 1545
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = latin-german
+		size = 365
+	}
+
+	farmers = {
+		culture = dutch
+		religion = latin-german
+		size = 33050
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = latin-german
+		size = 15
+	}
+
+	artisans = {
+		culture = north_german
+		religion = latin-german
+		size = 80
+	}
+
+	farmers = {
+		culture = north_german
+		religion = latin-german
+		size = 1065
+	}
+
+}
+#Friesland-Groningen Region : 713800
+#Groningen (186600/46650 POPS)
+383 = {
+	artisans = {
+		culture = ashkenazi
+		religion = jewish
+		size = 250
+	}
+
+	aristocrats = {
+		culture = dutch
+		religion = latin-german
+		size = 300
+	}
+
+	officers = {
+		culture = dutch
+		religion = latin-german
+		size = 150
+	}
+
+	bureaucrats = {
+		culture = dutch
+		religion = latin-german
+		size = 800
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = latin-german
+		size = 200
+	}
+
+	artisans = {
+		culture = dutch
+		religion = latin-german
+		size = 7000
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = latin-german
+		size = 4000
+	}
+
+	farmers = {
+		culture = dutch
+		religion = latin-german
+		size = 35450
+	}
+
+	labourers = {
+		culture = north_german
+		religion = latin-german
+		size = 1100
+	}
+}
+#Zwolle (238000/59500 POPS)
+384 = {
+	aristocrats = {
+		culture = dutch
+		religion = latin-german
+		size = 500
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = latin-german
+		size = 300
+	}
+
+	artisans = {
+		culture = dutch
+		religion = latin-german
+		size = 3900
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = latin-german
+		size = 1100
+	}
+
+	farmers = {
+		culture = dutch
+		religion = latin-german
+		size = 42800
+	}
+
+	artisans = {
+		culture = north_german
+		religion = latin-german
+		size = 100
+	}
+
+	farmers = {
+		culture = north_german
+		religion = latin-german
+		size = 900
+	}
+}
+#Leeuwarden (209200/52300 POPS)
+385 = {
+	aristocrats = {
+		culture = dutch
+		religion = latin-german
+		size = 300
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = latin-german
+		size = 275
+	}
+
+	artisans = {
+		culture = dutch
+		religion = latin-german
+		size = 6000
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = latin-german
+		size = 1100
+	}
+
+	farmers = {
+		culture = dutch
+		religion = latin-german
+		size = 44725
+	}
+}
+#Assen (80000/20000 POPS)
+386 = {
+	aristocrats = {
+		culture = dutch
+		religion = latin-german
+		size = 150
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = latin-german
+		size = 100
+	}
+
+	artisans = {
+		culture = dutch
+		religion = latin-german
+		size = 1100
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = latin-german
+		size = 1100
+	}
+
+	farmers = {
+		culture = dutch
+		religion = latin-german
+		size = 16750
+	}
+
+	farmers = {
+		culture = north_german
+		religion = latin-german
+		size = 1100
+	}
+
+}

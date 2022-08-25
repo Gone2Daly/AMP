@@ -1,0 +1,23 @@
+owner = TUR
+controller = TUR
+add_core = TUR
+trade_goods = fruit
+life_rating = 50
+naval_base = 1
+fort = 1
+terrain = plains_strait
+state_building = {
+	level = 1
+	building = manufacture_regular_clothes
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_machine_parts
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_clipper_convoy
+	upgrade = yes
+}

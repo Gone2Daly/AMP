@@ -1,0 +1,18 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+trade_goods = coal
+life_rating = 42
+#terrain = good_farmland
+1861.1.1 = { railroad = 3 }
+1914.1.1 = { railroad = 5 fort = 2 }
+state_building = {
+	level = 1
+	building = manufacture_glass
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_fertilizer
+	upgrade = yes
+}

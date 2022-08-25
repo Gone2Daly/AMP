@@ -1,0 +1,28 @@
+(Validator Misc) = {
+	Type = GroupValidator
+	FriendlyName = "Misc"
+	
+	Validator = {
+		Type = Default
+		(FileGroup "common\bookmarks" "*.txt")
+		ValidatorName = BookmarkFile
+	}
+	
+	Validator = {
+		Type = Default
+		(FileGroup "music" "songs.txt")
+		ValidatorName = SongFile
+	}
+		
+	Validator = {
+		Type = Default
+		(FileGroup "music\music.asset")
+		ValidatorName = MusicAssetFile
+	}
+	
+	Validator = {
+		Type = Default
+		(FileGroup "common\achievements.txt")
+		ValidatorName = AchievementFile
+	}
+}

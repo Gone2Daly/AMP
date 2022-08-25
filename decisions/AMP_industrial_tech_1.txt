@@ -1,0 +1,1194 @@
+political_decisions = {
+	steam_turbine_GP = {
+		potential = {	
+		is_greater_power = yes
+			steam_turbine = 1
+			NOT = {
+				year = 1865
+				invention = steam_turbine
+				has_country_flag = steam_turbine
+			}
+		}
+		allow = {
+			money = 300000
+			ai = no
+		}
+		effect = {
+			set_country_flag = steam_turbine
+			money = -300000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tech_power_1_GP = {
+		potential = {	
+		is_greater_power = yes
+			tech_power_1 = 1
+			NOT = {
+				year = 1880
+				invention = tech_power_1
+				has_country_flag = tech_power_1
+			}
+		}
+		allow = {
+			money = 300000
+			ai = no
+		}
+		effect = {
+			set_country_flag = tech_power_1
+			money = -300000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	combustion_engine_GP = {
+		potential = {	
+		is_greater_power = yes
+			combustion_engine = 1
+			NOT = {
+				year = 1895
+				invention = combustion_engine
+				has_country_flag = combustion_engine
+			}
+		}
+		allow = {
+			money = 300000
+			ai = no
+		}
+		effect = {
+			set_country_flag = combustion_engine
+			money = -300000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	electrical_power_generation_GP = {
+		potential = {	
+		is_greater_power = yes
+			electrical_power_generation = 1
+			NOT = {
+				year = 1910
+				invention = electrical_power_generation
+				has_country_flag = electrical_power_generation
+			}
+		}
+		allow = {
+			money = 300000
+			ai = no
+		}
+		effect = {
+			set_country_flag = electrical_power_generation
+			money = -300000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tech_power_2_GP = {
+		potential = {	
+		is_greater_power = yes
+			tech_power_2 = 1
+			NOT = {
+				year = 1925
+				invention = tech_power_2
+				has_country_flag = tech_power_2
+			}
+		}
+		allow = {
+			money = 300000
+			ai = no
+		}
+		effect = {
+			set_country_flag = tech_power_2
+			money = -300000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tech_power_3_GP = {
+		potential = {	
+		is_greater_power = yes
+			tech_power_3 = 1
+			NOT = {
+				year = 1940
+				invention = tech_power_3
+				has_country_flag = tech_power_3
+			}
+		}
+		allow = {
+			money = 300000
+			ai = no
+		}
+		effect = {
+			set_country_flag = tech_power_3
+			money = -300000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tech_power_4_GP = {
+		potential = {	
+		is_greater_power = yes
+			tech_power_4 = 1
+			NOT = {
+				year = 1955
+				invention = tech_power_4
+				has_country_flag = tech_power_4
+			}
+		}
+		allow = {
+			money = 300000
+			ai = no
+		}
+		effect = {
+			set_country_flag = tech_power_4
+			money = -300000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tech_power_5_GP = {
+		potential = {	
+		is_greater_power = yes
+			tech_power_5 = 1
+			NOT = {
+				year = 1970
+				invention = tech_power_5
+				has_country_flag = tech_power_5
+			}
+		}
+		allow = {
+			money = 300000
+			ai = no
+		}
+		effect = {
+			set_country_flag = tech_power_5
+			money = -300000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tech_power_6_GP = {
+		potential = {	
+		is_greater_power = yes
+			tech_power_6 = 1
+			NOT = {
+				year = 1985
+				invention = tech_power_6
+				has_country_flag = tech_power_6
+			}
+		}
+		allow = {
+			money = 300000
+			ai = no
+		}
+		effect = {
+			set_country_flag = tech_power_6
+			money = -300000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+#################################################################
+	semi_automatization_GP = {
+		potential = {	
+		is_greater_power = yes
+			semi_automatization = 1
+			NOT = {
+				year = 1865
+				invention = semi_automatization
+				has_country_flag = semi_automatization
+			}
+		}
+		allow = {
+			money = 300000
+			ai = no
+		}
+		effect = {
+			set_country_flag = semi_automatization
+			money = -300000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	mechanization_1_GP = {
+		potential = {	
+		is_greater_power = yes
+			mechanization_1 = 1
+			NOT = {
+				year = 1880
+				invention = mechanization_1
+				has_country_flag = semi_automatization
+			}
+		}
+		allow = {
+			money = 300000
+			ai = no
+		}
+		effect = {
+			set_country_flag = mechanization_1
+			money = -300000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	assembly_line_GP = {
+		potential = {	
+		is_greater_power = yes
+			assembly_line = 1
+			NOT = {
+				year = 1895
+				invention = assembly_line
+				has_country_flag = assembly_line
+			}
+		}
+		allow = {
+			money = 300000
+			ai = no
+		}
+		effect = {
+			set_country_flag = assembly_line
+			money = -300000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shift_work_GP = {
+		potential = {
+is_greater_power = yes		
+			shift_work = 1
+			NOT = {
+				year = 1910
+				invention = shift_work
+				has_country_flag = shift_work
+			}
+		}
+		allow = {
+			money = 300000
+			ai = no
+		}
+		effect = {
+			set_country_flag = shift_work
+			money = -300000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	mechanization_2_GP = {
+		potential = {	
+		is_greater_power = yes
+			mechanization_2 = 1
+			NOT = {
+				year = 1925
+				invention = mechanization_2
+				has_country_flag = mechanization_2
+			}
+		}
+		allow = {
+			money = 300000
+			ai = no
+		}
+		effect = {
+			set_country_flag = mechanization_2
+			money = -300000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	mechanization_3_GP = {
+		potential = {	
+		is_greater_power = yes
+			mechanization_3 = 1
+			NOT = {
+				year = 1940
+				invention = mechanization_3
+				has_country_flag = mechanization_3
+			}
+		}
+		allow = {
+			money = 300000
+			ai = no
+		}
+		effect = {
+			set_country_flag = mechanization_3
+			money = -300000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	mechanization_4_GP = {
+		potential = {	
+		is_greater_power = yes
+			mechanization_4 = 1
+			NOT = {
+				year = 1955
+				invention = mechanization_4
+				has_country_flag = mechanization_4
+			}
+		}
+		allow = {
+			money = 300000
+			ai = no
+		}
+		effect = {
+			set_country_flag = mechanization_4
+			money = -300000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	mechanization_5_GP = {
+		potential = {	
+		is_greater_power = yes
+			mechanization_5 = 1
+			NOT = {
+				year = 1970
+				invention = mechanization_5
+				has_country_flag = mechanization_5
+			}
+		}
+		allow = {
+			money = 300000
+			ai = no
+		}
+		effect = {
+			set_country_flag = mechanization_5
+			money = -300000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	mechanization_6_GP = {
+		potential = {	
+		is_greater_power = yes
+			mechanization_6 = 1
+			NOT = {
+				year = 1985
+				invention = mechanization_6
+				has_country_flag = mechanization_6
+			}
+		}
+		allow = {
+			money = 300000
+			ai = no
+		}
+		effect = {
+			set_country_flag = mechanization_6
+			money = -300000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+#################################################################
+	cheap_steel_GP = {
+		potential = {	
+		is_greater_power = yes
+			cheap_steel = 1
+			NOT = {
+				year = 1865
+				invention = cheap_steel
+				has_country_flag = cheap_steel
+			}
+		}
+		allow = {
+			money = 300000
+			ai = no
+		}
+		effect = {
+			set_country_flag = cheap_steel
+			money = -300000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	metallurgy_1_GP = {
+		potential = {	
+		is_greater_power = yes
+			metallurgy_1 = 1
+			NOT = {
+				year = 1880
+				invention = metallurgy_1
+				has_country_flag = metallurgy_1
+			}
+		}
+		allow = {
+			money = 300000
+			ai = no
+		}
+		effect = {
+			set_country_flag = metallurgy_1
+			money = -300000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	advanced_metallurgy_GP = {
+		potential = {	
+		is_greater_power = yes
+			advanced_metallurgy = 1
+			NOT = {
+				year = 1895
+				invention = advanced_metallurgy
+				has_country_flag = advanced_metallurgy
+			}
+		}
+		allow = {
+			money = 300000
+			ai = no
+		}
+		effect = {
+			set_country_flag = advanced_metallurgy
+			money = -300000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	metallurgy_2_GP = {
+		potential = {	
+		is_greater_power = yes
+			metallurgy_2 = 1
+			NOT = {
+				year = 1910
+				invention = metallurgy_2
+				has_country_flag = metallurgy_2
+			}
+		}
+		allow = {
+			money = 300000
+			ai = no
+		}
+		effect = {
+			set_country_flag = metallurgy_2
+			money = -300000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	electric_furnace_GP = {
+		potential = {	
+		is_greater_power = yes
+			electric_furnace = 1
+			NOT = {
+				year = 1925
+				invention = electric_furnace
+				has_country_flag = electric_furnace
+			}
+		}
+		allow = {
+			money = 300000
+			ai = no
+		}
+		effect = {
+			set_country_flag = electric_furnace
+			money = -300000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	metallurgy_3_GP = {
+		potential = {	
+		is_greater_power = yes
+			metallurgy_3 = 1
+			NOT = {
+				year = 1940
+				invention = metallurgy_3
+				has_country_flag = metallurgy_3
+			}
+		}
+		allow = {
+			money = 300000
+			ai = no
+		}
+		effect = {
+			set_country_flag = metallurgy_3
+			money = -300000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	metallurgy_4_GP = {
+		potential = {	
+		is_greater_power = yes
+			metallurgy_4 = 1
+			NOT = {
+				year = 1955
+				invention = metallurgy_4
+				has_country_flag = metallurgy_4
+			}
+		}
+		allow = {
+			money = 300000
+			ai = no
+		}
+		effect = {
+			set_country_flag = metallurgy_4
+			money = -300000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	metallurgy_5_GP = {
+		potential = {	
+		is_greater_power = yes
+			metallurgy_5 = 1
+			NOT = {
+				year = 1970
+				invention = metallurgy_5
+				has_country_flag = metallurgy_5
+			}
+		}
+		allow = {
+			money = 300000
+			ai = no
+		}
+		effect = {
+			set_country_flag = metallurgy_5
+			money = -300000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	metallurgy_6_GP = {
+		potential = {
+is_greater_power = yes		
+			metallurgy_6 = 1
+			NOT = {
+				year = 1985
+				invention = metallurgy_6
+				has_country_flag = metallurgy_6
+			}
+		}
+		allow = {
+			money = 300000
+			ai = no
+		}
+		effect = {
+			set_country_flag = metallurgy_6
+			money = -300000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	steam_turbine = {
+		potential = {	
+		is_greater_power = no
+			steam_turbine = 1
+			NOT = {
+				year = 1865
+				invention = steam_turbine
+				has_country_flag = steam_turbine
+			}
+		}
+		allow = {
+			money = 300000
+			ai = no
+		}
+		effect = {
+			set_country_flag = steam_turbine
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tech_power_1 = {
+		potential = {	
+		is_greater_power = no
+			tech_power_1 = 1
+			NOT = {
+				year = 1880
+				invention = tech_power_1
+				has_country_flag = tech_power_1
+			}
+		}
+		allow = {
+			money = 100000
+			ai = no
+		}
+		effect = {
+			set_country_flag = tech_power_1
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	combustion_engine = {
+		potential = {	
+		is_greater_power = no
+			combustion_engine = 1
+			NOT = {
+				year = 1895
+				invention = combustion_engine
+				has_country_flag = combustion_engine
+			}
+		}
+		allow = {
+			money = 100000
+			ai = no
+		}
+		effect = {
+			set_country_flag = combustion_engine
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	electrical_power_generation = {
+		potential = {	
+		is_greater_power = no
+			electrical_power_generation = 1
+			NOT = {
+				year = 1910
+				invention = electrical_power_generation
+				has_country_flag = electrical_power_generation
+			}
+		}
+		allow = {
+			money = 100000
+			ai = no
+		}
+		effect = {
+			set_country_flag = electrical_power_generation
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tech_power_2 = {
+		potential = {	
+		is_greater_power = no
+			tech_power_2 = 1
+			NOT = {
+				year = 1925
+				invention = tech_power_2
+				has_country_flag = tech_power_2
+			}
+		}
+		allow = {
+			money = 100000
+			ai = no
+		}
+		effect = {
+			set_country_flag = tech_power_2
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tech_power_3 = {
+		potential = {	
+		is_greater_power = no
+			tech_power_3 = 1
+			NOT = {
+				year = 1940
+				invention = tech_power_3
+				has_country_flag = tech_power_3
+			}
+		}
+		allow = {
+			money = 100000
+			ai = no
+		}
+		effect = {
+			set_country_flag = tech_power_3
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tech_power_4 = {
+		potential = {	
+		is_greater_power = no
+			tech_power_4 = 1
+			NOT = {
+				year = 1955
+				invention = tech_power_4
+				has_country_flag = tech_power_4
+			}
+		}
+		allow = {
+			money = 100000
+			ai = no
+		}
+		effect = {
+			set_country_flag = tech_power_4
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tech_power_5 = {
+		potential = {	
+		is_greater_power = no
+			tech_power_5 = 1
+			NOT = {
+				year = 1970
+				invention = tech_power_5
+				has_country_flag = tech_power_5
+			}
+		}
+		allow = {
+			money = 100000
+			ai = no
+		}
+		effect = {
+			set_country_flag = tech_power_5
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tech_power_6 = {
+		potential = {	
+		is_greater_power = no
+			tech_power_6 = 1
+			NOT = {
+				year = 1985
+				invention = tech_power_6
+				has_country_flag = tech_power_6
+			}
+		}
+		allow = {
+			money = 100000
+			ai = no
+		}
+		effect = {
+			set_country_flag = tech_power_6
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+#################################################################
+	semi_automatization = {
+		potential = {	
+		is_greater_power = no
+			semi_automatization = 1
+			NOT = {
+				year = 1865
+				invention = semi_automatization
+				has_country_flag = semi_automatization
+			}
+		}
+		allow = {
+			money = 100000
+			ai = no
+		}
+		effect = {
+			set_country_flag = semi_automatization
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	mechanization_1 = {
+		potential = {	
+		is_greater_power = no
+			mechanization_1 = 1
+			NOT = {
+				year = 1880
+				invention = mechanization_1
+				has_country_flag = semi_automatization
+			}
+		}
+		allow = {
+			money = 100000
+			ai = no
+		}
+		effect = {
+			set_country_flag = mechanization_1
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	assembly_line = {
+		potential = {	
+		is_greater_power = no
+			assembly_line = 1
+			NOT = {
+				year = 1895
+				invention = assembly_line
+				has_country_flag = assembly_line
+			}
+		}
+		allow = {
+			money = 100000
+			ai = no
+		}
+		effect = {
+			set_country_flag = assembly_line
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shift_work = {
+		potential = {
+is_greater_power = no		
+			shift_work = 1
+			NOT = {
+				year = 1910
+				invention = shift_work
+				has_country_flag = shift_work
+			}
+		}
+		allow = {
+			money = 100000
+			ai = no
+		}
+		effect = {
+			set_country_flag = shift_work
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	mechanization_2 = {
+		potential = {	
+		is_greater_power = no
+			mechanization_2 = 1
+			NOT = {
+				year = 1925
+				invention = mechanization_2
+				has_country_flag = mechanization_2
+			}
+		}
+		allow = {
+			money = 100000
+			ai = no
+		}
+		effect = {
+			set_country_flag = mechanization_2
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	mechanization_3 = {
+		potential = {	
+		is_greater_power = no
+			mechanization_3 = 1
+			NOT = {
+				year = 1940
+				invention = mechanization_3
+				has_country_flag = mechanization_3
+			}
+		}
+		allow = {
+			money = 100000
+			ai = no
+		}
+		effect = {
+			set_country_flag = mechanization_3
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	mechanization_4 = {
+		potential = {	
+		is_greater_power = no
+			mechanization_4 = 1
+			NOT = {
+				year = 1955
+				invention = mechanization_4
+				has_country_flag = mechanization_4
+			}
+		}
+		allow = {
+			money = 100000
+			ai = no
+		}
+		effect = {
+			set_country_flag = mechanization_4
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	mechanization_5 = {
+		potential = {	
+		is_greater_power = no
+			mechanization_5 = 1
+			NOT = {
+				year = 1970
+				invention = mechanization_5
+				has_country_flag = mechanization_5
+			}
+		}
+		allow = {
+			money = 100000
+			ai = no
+		}
+		effect = {
+			set_country_flag = mechanization_5
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	mechanization_6 = {
+		potential = {	
+		is_greater_power = no
+			mechanization_6 = 1
+			NOT = {
+				year = 1985
+				invention = mechanization_6
+				has_country_flag = mechanization_6
+			}
+		}
+		allow = {
+			money = 100000
+			ai = no
+		}
+		effect = {
+			set_country_flag = mechanization_6
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+#################################################################
+	cheap_steel = {
+		potential = {	
+		is_greater_power = no
+			cheap_steel = 1
+			NOT = {
+				year = 1865
+				invention = cheap_steel
+				has_country_flag = cheap_steel
+			}
+		}
+		allow = {
+			money = 100000
+			ai = no
+		}
+		effect = {
+			set_country_flag = cheap_steel
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	metallurgy_1 = {
+		potential = {	
+		is_greater_power = no
+			metallurgy_1 = 1
+			NOT = {
+				year = 1880
+				invention = metallurgy_1
+				has_country_flag = metallurgy_1
+			}
+		}
+		allow = {
+			money = 100000
+			ai = no
+		}
+		effect = {
+			set_country_flag = metallurgy_1
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	advanced_metallurgy = {
+		potential = {	
+		is_greater_power = no
+			advanced_metallurgy = 1
+			NOT = {
+				year = 1895
+				invention = advanced_metallurgy
+				has_country_flag = advanced_metallurgy
+			}
+		}
+		allow = {
+			money = 100000
+			ai = no
+		}
+		effect = {
+			set_country_flag = advanced_metallurgy
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	metallurgy_2 = {
+		potential = {	
+		is_greater_power = no
+			metallurgy_2 = 1
+			NOT = {
+				year = 1910
+				invention = metallurgy_2
+				has_country_flag = metallurgy_2
+			}
+		}
+		allow = {
+			money = 100000
+			ai = no
+		}
+		effect = {
+			set_country_flag = metallurgy_2
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	electric_furnace = {
+		potential = {	
+		is_greater_power = no
+			electric_furnace = 1
+			NOT = {
+				year = 1925
+				invention = electric_furnace
+				has_country_flag = electric_furnace
+			}
+		}
+		allow = {
+			money = 100000
+			ai = no
+		}
+		effect = {
+			set_country_flag = electric_furnace
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	metallurgy_3 = {
+		potential = {	
+		is_greater_power = no
+			metallurgy_3 = 1
+			NOT = {
+				year = 1940
+				invention = metallurgy_3
+				has_country_flag = metallurgy_3
+			}
+		}
+		allow = {
+			money = 100000
+			ai = no
+		}
+		effect = {
+			set_country_flag = metallurgy_3
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	metallurgy_4 = {
+		potential = {	
+		is_greater_power = no
+			metallurgy_4 = 1
+			NOT = {
+				year = 1955
+				invention = metallurgy_4
+				has_country_flag = metallurgy_4
+			}
+		}
+		allow = {
+			money = 100000
+			ai = no
+		}
+		effect = {
+			set_country_flag = metallurgy_4
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	metallurgy_5 = {
+		potential = {	
+		is_greater_power = no
+			metallurgy_5 = 1
+			NOT = {
+				year = 1970
+				invention = metallurgy_5
+				has_country_flag = metallurgy_5
+			}
+		}
+		allow = {
+			money = 100000
+			ai = no
+		}
+		effect = {
+			set_country_flag = metallurgy_5
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	metallurgy_6 = {
+		potential = {
+is_greater_power = no		
+			metallurgy_6 = 1
+			NOT = {
+				year = 1985
+				invention = metallurgy_6
+				has_country_flag = metallurgy_6
+			}
+		}
+		allow = {
+			money = 100000
+			ai = no
+		}
+		effect = {
+			set_country_flag = metallurgy_6
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,1996 @@
+720 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 5160
+	}
+	bureaucrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 1096
+	}
+	officers = {
+		culture = north_italian
+		religion = latin-german
+		size = 548
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 2999
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 3870
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 6450
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 248841
+	}
+	craftsmen = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	clerks = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	capitalists = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+}
+721 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 225
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 193
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 999
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 193
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 18382
+	}
+	aristocrats = {
+		culture = french
+		religion = latin-german
+		size = 354
+	}
+	clergymen = {
+		culture = french
+		religion = latin-german
+		size = 290
+	}
+	artisans = {
+		culture = french
+		religion = latin-german
+		size = 1515
+	}
+	soldiers = {
+		culture = french
+		religion = latin-german
+		size = 290
+	}
+	farmers = {
+		culture = french
+		religion = latin-german
+		size = 27864
+	}
+}
+722 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 1225
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 677
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 3870
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 2580
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 60017
+	}
+}
+723 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 1935
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 1032
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12255
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 2580
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 84108
+	}
+}
+724 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 3289
+	}
+	bureaucrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 516
+	}
+	officers = {
+		culture = north_italian
+		religion = latin-german
+		size = 322
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 2064
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 11610
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 3870
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 180600
+	}
+	clergymen = {
+		culture = north_italian
+		religion = jewish
+		size = 6
+	}
+	artisans = {
+		culture = north_italian
+		religion = jewish
+		size = 251
+	}
+}
+725 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 1935
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 1032
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 5160
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 2580
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 91203
+	}
+}
+726 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 9481
+	}
+	bureaucrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 1709
+	}
+	officers = {
+		culture = north_italian
+		religion = latin-german
+		size = 774
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 4321
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 11610
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 4321
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 355943
+	}
+	craftsmen = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	clerks = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	capitalists = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+}
+727 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 3225
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 1515
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 7611
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 1483
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 138384
+	}
+}
+728 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 5031
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 2289
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 11416
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 2257
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 205206
+	}
+}
+729 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 2967
+	}
+	bureaucrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 2064
+	}
+	officers = {
+		culture = north_italian
+		religion = latin-german
+		size = 516
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 1451
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 5160
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 1483
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 78593
+	}
+	craftsmen = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	clerks = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	capitalists = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+}
+730 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 3418
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 1677
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 2580
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 1677
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 143254
+	}
+	craftsmen = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	clerks = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	capitalists = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+}
+731 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 3741
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 1838
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 9675
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 1806
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 164829
+	}
+	craftsmen = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	clerks = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	capitalists = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+}
+732 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 1515
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 741
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 3741
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 709
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 68112
+	}
+}
+733 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 1999
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 967
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 4837
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 967
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 87978
+	}
+}
+734 = {
+	aristocrats = {
+		culture = north_german
+		religion = latin-german
+		size = 77
+	}
+	clergymen = {
+		culture = north_german
+		religion = latin-german
+		size = 103
+	}
+	bureaucrats = {
+		culture = north_german
+		religion = latin-german
+		size = 1032
+	}
+	artisans = {
+		culture = north_german
+		religion = latin-german
+		size = 258
+	}
+	soldiers = {
+		culture = north_german
+		religion = latin-german
+		size = 64
+	}
+	farmers = {
+		culture = north_german
+		religion = latin-german
+		size = 5946
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 741
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 3612
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 709
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 77496
+	}
+}
+735 = {
+	aristocrats = {
+		culture = north_german
+		religion = latin-german
+		size = 322
+	}
+	clergymen = {
+		culture = north_german
+		religion = latin-german
+		size = 193
+	}
+	artisans = {
+		culture = north_german
+		religion = latin-german
+		size = 1935
+	}
+	soldiers = {
+		culture = north_german
+		religion = latin-german
+		size = 193
+	}
+	farmers = {
+		culture = north_german
+		religion = latin-german
+		size = 19285
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 64
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 645
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 64
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 6966
+	}
+}
+736 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 548
+	}
+	bureaucrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 258
+	}
+	bureaucrats = {
+		culture = north_german
+		religion = latin-german
+		size = 580
+	}
+	officers = {
+		culture = north_italian
+		religion = latin-german
+		size = 129
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 225
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 4515
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 225
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 3063
+	}
+	clergymen = {
+		culture = slovene
+		religion = latin-german
+		size = 129
+	}
+	artisans = {
+		culture = slovene
+		religion = latin-german
+		size = 5805
+	}
+	soldiers = {
+		culture = slovene
+		religion = latin-german
+		size = 129
+	}
+	farmers = {
+		culture = slovene
+		religion = latin-german
+		size = 8127
+	}
+}
+737 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 903
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 161
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 1612
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 161
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 13932
+	}
+	clergymen = {
+		culture = slovene
+		religion = latin-german
+		size = 387
+	}
+	artisans = {
+		culture = slovene
+		religion = latin-german
+		size = 1419
+	}
+	soldiers = {
+		culture = slovene
+		religion = latin-german
+		size = 419
+	}
+	farmers = {
+		culture = slovene
+		religion = latin-german
+		size = 39183
+	}
+}
+738 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 3225
+	}
+	bureaucrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 225
+	}
+	officers = {
+		culture = north_italian
+		religion = latin-german
+		size = 161
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 1548
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 9675
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 2580
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 134805
+	}
+	craftsmen = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	clerks = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	capitalists = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+}
+739 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 3418
+	}
+	bureaucrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 290
+	}
+	officers = {
+		culture = north_italian
+		religion = latin-german
+		size = 193
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 1580
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 7740
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 2580
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 140287
+	}
+	craftsmen = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	clerks = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	capitalists = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+}
+740 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 1161
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 516
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 2580
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 1419
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 47343
+	}
+}
+741 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 2805
+	}
+	bureaucrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 548
+	}
+	officers = {
+		culture = north_italian
+		religion = latin-german
+		size = 258
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 1354
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 9675
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 2580
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 104038
+	}
+}
+742 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 1225
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 548
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 8385
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 580
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 47181
+	}
+}
+743 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 1677
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 806
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 6450
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 838
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 70208
+	}
+}
+744 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 5095
+	}
+	bureaucrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 1193
+	}
+	officers = {
+		culture = north_italian
+		religion = latin-german
+		size = 548
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 2322
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12255
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 2580
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 193371
+	}
+	craftsmen = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	clerks = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	capitalists = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+}
+745 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 2709
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 1096
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 10320
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 1419
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 109134
+	}
+	clergymen = {
+		culture = north_italian
+		religion = jewish
+		size = 32
+	}
+	artisans = {
+		culture = north_italian
+		religion = jewish
+		size = 1580
+	}
+}
+747 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 2709
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 1257
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 6450
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 1419
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 110843
+	}
+}
+748 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 1419
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 548
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 2902
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 1419
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 53180
+	}
+}
+746 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 967
+	}
+	bureaucrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 90
+	}
+	officers = {
+		culture = north_italian
+		religion = latin-german
+		size = 38
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 483
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 7095
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 1419
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 24864
+	}
+	craftsmen = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	clerks = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	capitalists = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+}
+749 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 8707
+	}
+	bureaucrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 935
+	}
+	officers = {
+		culture = north_italian
+		religion = latin-german
+		size = 451
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 4418
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 8514
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 3870
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 297667
+	}
+	clergymen = {
+		culture = ashkenazi
+		religion = jewish
+		size = 32
+	}
+	artisans = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1773
+	}
+	craftsmen = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	clerks = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	capitalists = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	craftsmen = {
+		culture = ashkenazi
+		religion = jewish
+		size = 150
+	}
+	clerks = {
+		culture = ashkenazi
+		religion = jewish
+		size = 150
+	}
+	capitalists = {
+		culture = ashkenazi
+		religion = jewish
+		size = 150
+	}
+}
+750 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 1419
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 645
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 2902
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 1419
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 51793
+	}
+}
+751 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 2773
+	}
+	bureaucrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 290
+	}
+	officers = {
+		culture = north_italian
+		religion = latin-german
+		size = 193
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 1225
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 5805
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 1419
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 122227
+	}
+}
+752 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 1386
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 580
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 10320
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 580
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 45182
+	}
+}
+753 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 4321
+	}
+	bureaucrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 225
+	}
+	officers = {
+		culture = north_italian
+		religion = latin-german
+		size = 193
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 1548
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 8062
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 2580
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 144318
+	}
+}
+754 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 10642
+	}
+	bureaucrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 1064
+	}
+	officers = {
+		culture = north_italian
+		religion = latin-german
+		size = 806
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 4353
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 6450
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 6450
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 261773
+	}
+	craftsmen = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	clerks = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	capitalists = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+}
+755 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 4644
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 1902
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 9030
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 2580
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 175665
+	}
+}
+2567 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 3547
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 1419
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 6772
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 1935
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 126871
+	}
+}
+756 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 4515
+	}
+	bureaucrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 612
+	}
+	officers = {
+		culture = north_italian
+		religion = latin-german
+		size = 483
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 1741
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 9675
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 2580
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 164862
+	}
+	craftsmen = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	clerks = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	capitalists = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+}
+757 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 4837
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 1870
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 9030
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 2580
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 166152
+	}
+}
+758 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 2322
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 903
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 4515
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 1419
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 81270
+	}
+}
+759 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 4515
+	}
+	bureaucrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 612
+	}
+	officers = {
+		culture = north_italian
+		religion = latin-german
+		size = 483
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 1870
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 9675
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 2580
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 164733
+	}
+}
+760 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 2838
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 1128
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 5482
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 1419
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 102780
+	}
+}
+761 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 4837
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 1902
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 8385
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 2580
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 166829
+	}
+}
+762 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 6708
+	}
+	bureaucrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 1064
+	}
+	officers = {
+		culture = north_italian
+		religion = latin-german
+		size = 645
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 2451
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 10320
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 2580
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 190371
+	}
+	craftsmen = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	clerks = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+	capitalists = {
+		culture = north_italian
+		religion = latin-german
+		size = 150
+	}
+}
+763 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 3160
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 1161
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 10965
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 1419
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 96943
+	}
+}
+764 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 6450
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 903
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 12900
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 1419
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 2580
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 192210
+	}
+}
+765 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 2257
+	}
+	bureaucrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 225
+	}
+	officers = {
+		culture = north_italian
+		religion = latin-german
+		size = 193
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 1096
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 10320
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 2580
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 91454
+	}
+}
+766 = {
+	aristocrats = {
+		culture = north_italian
+		religion = latin-german
+		size = 1419
+	}
+	clergymen = {
+		culture = north_italian
+		religion = latin-german
+		size = 612
+	}
+	artisans = {
+		culture = north_italian
+		religion = latin-german
+		size = 8385
+	}
+	soldiers = {
+		culture = north_italian
+		religion = latin-german
+		size = 1419
+	}
+	farmers = {
+		culture = north_italian
+		religion = latin-german
+		size = 49052
+	}
+}

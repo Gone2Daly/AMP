@@ -1,0 +1,1039 @@
+#naval_doctrine
+post_nelsonian_thought = {
+	area = naval_doctrine
+	year = 1836
+	cost = 2500
+	unciv_military = yes
+	
+	unit_recruitment_time = -0.05
+	naval_attrition = -0.02
+	land_attrition = -0.08
+
+	ai_chance = {
+		factor = 1
+	}
+}
+battleship_column_doctrine = {
+	area = naval_doctrine
+	year = 1836
+	cost = 5000
+	unciv_military = yes
+	
+	naval_attrition = -0.03
+	land_attrition = -0.07
+
+	ai_chance = {
+		factor = 1
+	}
+}
+raider_group_doctrine = {
+	area = naval_doctrine
+	year = 1836
+	cost = 7500
+	unciv_military = yes
+	
+	naval_attrition = -0.03
+	land_attrition = -0.06
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+naval_doctrine_1 = {
+	area = naval_doctrine
+	year = 1850
+	cost = 10000
+	unciv_military = yes
+	
+	naval_attrition = -0.03
+	land_attrition = -0.05
+		
+	ai_chance = {
+		factor = 1
+	}
+}
+blue_and_brown_water_schools = {
+	area = naval_doctrine
+	year = 1865
+	cost = 12500
+	unciv_military = yes
+	
+	
+	naval_attrition = -0.04
+	land_attrition = -0.04
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+
+naval_doctrine_2 = {
+	area = naval_doctrine
+	year = 1880
+	cost = 15000
+	unciv_military = yes
+	
+
+	naval_attrition = -0.03
+	land_attrition = -0.03
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+
+high_sea_battle_fleet = {
+	area = naval_doctrine
+	year = 1895
+	cost = 17500
+	unciv_military = yes
+	
+	naval_attrition = -0.03
+	land_attrition = -0.03
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+modern_naval_doctrine = {
+	area = naval_doctrine
+	year = 1910
+	cost = 20000
+	unciv_military = yes
+	
+
+	naval_attrition = -0.03
+	land_attrition = -0.03
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+naval_doctrine_3 = {
+	area = naval_doctrine
+	year = 1925
+	cost = 22500
+	unciv_military = yes
+	
+	naval_attrition = -0.03
+	land_attrition = -0.03
+		
+	ai_chance = {
+		factor = 1
+	}
+}
+naval_doctrine_4 = {
+	area = naval_doctrine
+	year = 1940
+	cost = 25000
+	unciv_military = yes
+	
+
+	naval_attrition = -0.03
+	land_attrition = -0.03
+		
+	ai_chance = {
+		factor = 1
+	}
+}
+naval_doctrine_5 = {
+	area = naval_doctrine
+	year = 1955
+	cost = 27500
+	unciv_military = yes
+	
+	naval_attrition = -0.02
+	land_attrition = -0.02
+		
+	ai_chance = {
+		factor = 1
+	}
+}
+naval_doctrine_6 = {
+	area = naval_doctrine
+	year = 1970
+	cost = 30000
+	unciv_military = yes
+	
+
+	naval_attrition = -0.02
+	land_attrition = -0.02
+		
+	ai_chance = {
+		factor = 1
+	}
+}
+
+
+#ship_construction
+clipper_design = {
+	area = ship_construction
+	year = 1836
+	cost = 2500
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 5
+		supply_consumption = 0.15
+	}
+	navy_base = {
+		default_organisation = 10
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+steamers = {
+	area = ship_construction
+	year = 1836
+	cost = 5000
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 5
+		supply_consumption = 0.15
+	}
+	navy_base = {
+		default_organisation = 10
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+ship_construction_1 = {
+	area = ship_construction
+	year = 1836
+	cost = 7500
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 5
+		supply_consumption = 0.15
+	}
+	navy_base = {
+		default_organisation = 10
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+iron_steamers = {
+	area = ship_construction
+	year = 1850
+	cost = 10000
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 5
+		supply_consumption = 0.15
+	}
+	navy_base = {
+		default_organisation = 10
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+steel_steamers = {
+	area = ship_construction
+	year = 1865
+	cost = 12500
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 5
+		supply_consumption = 0.15
+	}
+	navy_base = {
+		default_organisation = 10
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+ship_construction_2 = {
+	area = ship_construction
+	year = 1880
+	cost = 15000
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 10
+		supply_consumption = 0.15
+	}
+	navy_base = {
+		default_organisation = 10
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+steam_turbine_ships = {
+	area = ship_construction
+	year = 1895
+	cost = 17500
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 10
+		supply_consumption = 0.15
+	}
+	navy_base = {
+		default_organisation = 10
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+oil_driven_ships = {
+	area = ship_construction
+	year = 1910
+	cost = 20000
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 10
+		supply_consumption = 0.15
+	}
+	navy_base = {
+		default_organisation = 10
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+ship_construction_3 = {
+	area = ship_construction
+	year = 1925
+	cost = 22500
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 10
+		supply_consumption = 0.15
+	}
+	navy_base = {
+		default_organisation = 10
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+ship_construction_4 = {
+	area = ship_construction
+	year = 1940
+	cost = 25000
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 15
+		supply_consumption = 0.15
+	}
+	navy_base = {
+		default_organisation = 15
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+ship_construction_5 = {
+	area = ship_construction
+	year = 1955
+	cost = 27500
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 15
+		supply_consumption = 0.15
+	}
+	navy_base = {
+		default_organisation = 15
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+ship_construction_6 = {
+	area = ship_construction
+	year = 1970
+	cost = 30000
+	unciv_military = yes
+	
+	army_base = {
+		default_organisation = 15
+		supply_consumption = 0.15
+	}
+	navy_base = {
+		default_organisation = 15
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+
+#naval_engineering
+naval_design_bureaus = {
+	area = naval_engineering
+	year = 1836
+	cost = 2500
+	unciv_military = yes
+	
+	morale = 0.20
+	mobilisation_size = 0.02
+	army_base = {
+		supply_consumption = 0.15
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+fire_control_systems = {
+	area = naval_engineering
+	year = 1836
+	cost = 5000
+	unciv_military = yes
+	
+	morale = 0.3
+	mobilisation_size = 0.02
+	army_base = {
+		supply_consumption = 0.15
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+
+weapon_platforms = {
+	area = naval_engineering
+	year = 1836
+	cost = 7500
+	unciv_military = yes
+	
+	morale = 0.4
+	mobilisation_size = 0.02
+	army_base = {
+		supply_consumption = 0.15
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+naval_engineering_1 = {
+	area = naval_engineering
+	year = 1850
+	cost = 10000
+	unciv_military = yes
+	
+	morale = 0.5
+	mobilisation_size = 0.02
+	army_base = {
+		supply_consumption = 0.15
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+main_armament = {
+	area = naval_engineering
+	year = 1865
+	cost = 12500
+	unciv_military = yes
+	
+	morale = 0.6
+	mobilisation_size = 0.01
+	army_base = {
+		supply_consumption = 0.15
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+naval_engineering_2 = {
+	area = naval_engineering
+	year = 1880
+	cost = 15000
+	unciv_military = yes
+	
+	morale = 0.7
+	mobilisation_size = 0.01
+	army_base = {
+		supply_consumption = 0.15
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+advanced_naval_design = {
+	area = naval_engineering
+	year = 1895
+	cost = 17500
+	unciv_military = yes
+	
+	morale = 0.8
+	mobilisation_size = 0.01
+	army_base = {
+		supply_consumption = 0.15
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+modern_naval_design = {
+	area = naval_engineering
+	year = 1915
+	cost = 20000
+	unciv_military = yes
+	
+	morale = 0.9
+	mobilisation_size = 0.01
+	army_base = {
+		supply_consumption = 0.15
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+naval_engineering_3 = {
+	area = naval_engineering
+	year = 1925
+	cost = 22500
+	unciv_military = yes
+	
+	morale = 1
+	mobilisation_size = 0.01
+	army_base = {
+		supply_consumption = 0.15
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+naval_engineering_4 = {
+	area = naval_engineering
+	year = 1940
+	cost = 25000
+	unciv_military = yes
+	
+	morale = 1
+	mobilisation_size = 0.01
+	army_base = {
+		supply_consumption = 0.15
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+naval_engineering_5 = {
+	area = naval_engineering
+	year = 1955
+	cost = 27500
+	unciv_military = yes
+	
+	morale = 1
+	mobilisation_size = 0.01
+	army_base = {
+		supply_consumption = 0.15
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+naval_engineering_6 = {
+	area = naval_engineering
+	year = 1970
+	cost = 30000
+	unciv_military = yes
+	
+	morale = 1
+	mobilisation_size = 0.01
+	army_base = {
+		supply_consumption = 0.15
+	}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+
+#naval_science
+alphabetic_flag_signaling = {
+	area = naval_science
+	year = 1836
+	cost = 2500
+	unciv_military = yes
+	
+	regular_experience_level = 5
+	reinforce_rate = 0.05
+	army_base = { build_time = -5 }
+	
+ai_chance = {
+		factor = 1
+	}
+}
+naval_plans = {
+	area = naval_science
+	year = 1836
+	cost = 5000
+	unciv_military = yes
+	
+	regular_experience_level = 5
+	reinforce_rate = 0.05
+	army_base = { build_time = -5 }
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+naval_statistics = {
+	area = naval_science
+	year = 1836
+	cost = 7500
+	unciv_military = yes
+	
+	regular_experience_level = 5
+	reinforce_rate = 0.05
+	army_base = { build_time = -5 }
+	
+		ai_chance = {
+		factor = 1
+	}
+}
+naval_science_1 = {
+	area = naval_science
+	year = 1850
+	cost = 10000
+	unciv_military = yes
+	
+	regular_experience_level = 5
+	reinforce_rate = 0.05
+	army_base = { build_time = -5 }
+	
+		ai_chance = {
+		factor = 1
+	}
+}
+naval_logistics = {
+	area = naval_science
+	year = 1865
+	cost = 12500
+	unciv_military = yes
+	
+	regular_experience_level = 5
+	reinforce_rate = 0.05
+	
+		ai_chance = {
+		factor = 1
+	}
+}
+naval_science_2 = {
+	area = naval_science
+	year = 1880
+	cost = 15000
+	unciv_military = yes
+	
+	regular_experience_level = 5
+	reinforce_rate = 0.05
+	army_base = { build_time = -5 }
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+naval_directionism = {
+	area = naval_science
+	year = 1895
+	cost = 17500
+	unciv_military = yes
+	
+	regular_experience_level = 5
+	reinforce_rate = 0.05
+	army_base = { build_time = -5 }
+	
+		ai_chance = {
+		factor = 1
+	}
+}
+naval_integration = {
+	area = naval_science
+	year = 1910
+	cost = 20000
+	unciv_military = yes
+	
+	regular_experience_level = 5
+	reinforce_rate = 0.05
+	army_base = { build_time = -5 }
+	
+		ai_chance = {
+		factor = 1
+	}
+}
+naval_science_3 = {
+	area = naval_science
+	year = 1925
+	cost = 22500
+	unciv_military = yes
+	
+	regular_experience_level = 5
+	reinforce_rate = 0.05
+	army_base = { build_time = -5 }
+	
+		ai_chance = {
+		factor = 1
+	}
+}
+naval_science_4 = {
+	area = naval_science
+	year = 1940
+	cost = 25000
+	unciv_military = yes
+	
+	regular_experience_level = 5
+	reinforce_rate = 0.05
+	army_base = { build_time = -5 }
+	
+		ai_chance = {
+		factor = 1
+	}
+}
+naval_science_5 = {
+	area = naval_science
+	year = 1955
+	cost = 27500
+	unciv_military = yes
+	
+	regular_experience_level = 5
+	reinforce_rate = 0.05
+	army_base = { build_time = -5 }
+	
+		ai_chance = {
+		factor = 1
+	}
+}
+naval_science_6 = {
+	area = naval_science
+	year = 1970
+	cost = 30000
+	unciv_military = yes
+	
+	regular_experience_level = 5
+	reinforce_rate = 0.05
+	army_base = { build_time = -5 }
+	
+		ai_chance = {
+		factor = 1
+	}
+}
+
+
+#naval_leadership
+the_command_principle = {
+	area = naval_leadership
+	year = 1836
+	cost = 2500
+	unciv_military = yes
+	
+	military_tactics = 0.15
+	army_base = {
+		supply_consumption = 0.15
+	}
+	engineer = {
+		support = 0.1
+	}
+	light_artillery = {
+		support = 0.3
+	}
+	
+	ai_chance = {
+		factor = 2
+	}
+}
+naval_professionalism = {
+	area = naval_leadership
+	year = 1836
+	cost = 5000
+	unciv_military = yes
+	
+	military_tactics = 0.15
+	army_base = {
+		supply_consumption = 0.15
+	}
+	engineer = {
+		support = 0.1
+	}
+	light_artillery = {
+		support = 0.3
+	}
+	
+	ai_chance = {
+		factor = 2
+	}
+}
+naval_decision_making = {
+	area = naval_leadership
+	year = 1836
+	cost = 7500
+	unciv_military = yes
+	
+	military_tactics = 0.15
+	army_base = {
+		supply_consumption = 0.15
+	}
+	engineer = {
+		support = 0.1
+	}
+	light_artillery = {
+		support = 0.3
+	}
+	
+	ai_chance = {
+		factor = 2
+	}
+}
+naval_leadership_1 = {
+	area = naval_leadership
+	year = 1850
+	cost = 10000
+	unciv_military = yes
+	
+	military_tactics = 0.20
+	army_base = {
+		supply_consumption = 0.15
+	}
+	engineer = {
+		support = 0.1
+	}
+	light_artillery = {
+		support = 0.3
+	}
+	artillery = {
+		support = 0.3
+	}
+	
+	ai_chance = {
+		factor = 2
+	}
+}
+naval_risk_management = {
+	area = naval_leadership
+	year = 1865
+	cost = 12500
+	unciv_military = yes
+	
+	military_tactics = 0.2
+	army_base = {
+		supply_consumption = 0.15
+	}
+	engineer = {
+		support = 0.1
+	}
+	light_artillery = {
+		support = 0.3
+	}
+	artillery = {
+		support = 0.3
+	}
+	
+	ai_chance = {
+		factor = 2
+	}
+}
+naval_leadership_2 = {
+	area = naval_leadership
+	year = 1880
+	cost = 15000
+	unciv_military = yes
+	
+	military_tactics = 0.2
+	army_base = {
+		supply_consumption = 0.15
+	}
+	engineer = {
+		support = 0.1
+	}
+	light_artillery = {
+		support = 0.3
+	}
+	artillery = {
+		support = 0.3
+	}
+	
+	ai_chance = {
+		factor = 2
+	}
+}
+naval_nco_training = {
+	area = naval_leadership
+	year = 1895
+	cost = 17500
+	unciv_military = yes
+	
+	military_tactics = 0.2
+	army_base = {
+		supply_consumption = 0.15
+	}
+	engineer = {
+		support = 0.1
+	}
+	light_artillery = {
+		support = 0.3
+	}
+	artillery = {
+		support = 0.3
+	}
+	
+	ai_chance = {
+		factor = 2
+	}
+}
+modern_naval_training = {
+	area = naval_leadership
+	year = 1910
+	cost = 20000
+	unciv_military = yes
+	
+	military_tactics = 0.25
+	army_base = {
+		supply_consumption = 0.15
+	}
+	engineer = {
+		support = 0.1
+	}
+	light_artillery = {
+		support = 0.3
+	}
+	artillery = {
+		support = 0.3
+	}
+	
+	ai_chance = {
+		factor = 2
+	}
+}
+naval_leadership_3 = {
+	area = naval_leadership
+	year = 1925
+	cost = 22500
+	unciv_military = yes
+	
+	military_tactics = 0.25
+	army_base = {
+		supply_consumption = 0.15
+	}
+	engineer = {
+		support = 0.1
+	}
+	light_artillery = {
+		support = 0.3
+	}
+	artillery = {
+		support = 0.3
+	}
+	
+	ai_chance = {
+		factor = 2
+	}
+}
+naval_leadership_4 = {
+	area = naval_leadership
+	year = 1940
+	cost = 25000
+	unciv_military = yes
+	
+	military_tactics = 0.25
+	army_base = {
+		supply_consumption = 0.15
+	}
+	engineer = {
+		support = 0.1
+	}
+	light_artillery = {
+		support = 0.3
+	}
+	artillery = {
+		support = 0.3
+	}
+	mobile_artillery = {
+		support = 0.3
+	}
+	
+	ai_chance = {
+		factor = 2
+	}
+}
+naval_leadership_5 = {
+	area = naval_leadership
+	year = 1955
+	cost = 27500
+	unciv_military = yes
+	
+	military_tactics = 0.25
+	army_base = {
+		supply_consumption = 0.15
+	}
+	engineer = {
+		support = 0.1
+	}
+	light_artillery = {
+		support = 0.3
+	}
+	artillery = {
+		support = 0.3
+	}
+	mobile_artillery = {
+		support = 0.3
+	}
+	
+	ai_chance = {
+		factor = 2
+	}
+}
+naval_leadership_6 = {
+	area = naval_leadership
+	year = 1970
+	cost = 30000
+	unciv_military = yes
+	
+	military_tactics = 0.25
+	army_base = {
+		supply_consumption = 0.15
+	}
+	engineer = {
+		support = 0.1
+	}
+	light_artillery = {
+		support = 0.3
+	}
+	artillery = {
+		support = 0.3
+	}
+	mobile_artillery = {
+		support = 0.3
+	}
+	
+	ai_chance = {
+		factor = 2
+	}
+}

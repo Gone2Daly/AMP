@@ -1,0 +1,351 @@
+gas_attack_capability = {
+	limit = { chemistry_and_electricity_2 = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			invention = cracking
+		}
+		modifier = {
+			factor = 2
+			invention = carbon_soil_enrichment
+		}		
+	}
+	effect = {
+		gas_attack = yes
+	}
+}
+gas_defense_capability = {
+	limit = { chemistry_and_electricity_2 = 1 }
+	effect = {
+		gas_defence = yes
+	}
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			year = 1900
+			war = yes
+			war_countries = { invention = gas_attack_capability }
+		}
+		modifier = {
+			factor = 1
+			year = 1901
+			war = yes
+			war_countries = { invention = gas_attack_capability }
+		}	modifier = {
+			factor = 1
+			year = 1902
+			war = yes
+			war_countries = { invention = gas_attack_capability }
+		}	modifier = {
+			factor = 1
+			year = 1903
+			war = yes
+			war_countries = { invention = gas_attack_capability }
+		}	modifier = {
+			factor = 1
+			year = 1904
+			war = yes
+			war_countries = { invention = gas_attack_capability }
+		}	modifier = {
+			factor = 1
+			year = 1905
+			war = yes
+			war_countries = { invention = gas_attack_capability }
+		}	modifier = {
+			factor = 1
+			year = 1906
+			war = yes
+			war_countries = { invention = gas_attack_capability }
+		}	modifier = {
+			factor = 1
+			year = 1907
+			war = yes
+			war_countries = { invention = gas_attack_capability }
+		}	modifier = {
+			factor = 1
+			year = 1908
+			war = yes
+			war_countries = { invention = gas_attack_capability }
+		}	modifier = {
+			factor = 1
+			year = 1909
+			war = yes
+			war_countries = { invention = gas_attack_capability }
+		}	modifier = {
+			factor = 1
+			year = 1910
+			war = yes
+			war_countries = { invention = gas_attack_capability }
+		}	modifier = {
+			factor = 5
+			war = yes
+			war_countries = { invention = gas_defense_capability }
+		}	
+		modifier = {
+			factor = 10
+			year = 1910
+		}	
+	}
+}
+
+colonial_negotiations = {
+	limit = { 
+		year = 1870 
+		post_napoleonic_thought = 1
+		}
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 50
+			political_thought_1  = 1
+		}
+		modifier = {
+			factor = 50
+			deep_defense_system = 1 
+		}
+		modifier = {
+			factor = 10
+			any_greater_power = {
+				invention = colonial_negotiations
+				}
+			}
+		modifier = {
+			factor = 10
+			any_neighbor_country = {
+				invention = colonial_negotiations
+			}
+		}
+	}
+	effect = {
+		colonial_life_rating = -10 
+	}
+}
+steam_transport_activation = {
+	limit = { army_professionalism = 1 }
+	chance = {
+		base = 10
+		modifier = {
+			factor = -10
+			civilized = no
+		}
+	}
+	effect = {
+		activate_unit = steam_transport
+	}
+}
+mechanized_fishing_vessels = {
+	limit = { army_professionalism = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 4
+			assembly_line = 1
+		}
+		modifier = {
+			factor = 4
+			combustion_engine = 1
+		}
+	}
+	effect = {
+		#rgo_goods_output = {
+		#	fish = 0.5
+		#}
+	}
+}
+colinfantry_activation = {
+	limit = { post_napoleonic_thought = 1 }
+	chance = {
+		base = 10
+		modifier = {
+			factor = -10
+			civilized = no
+		}	
+	}
+	effect = {
+		activate_unit = colinfantry
+	}
+}
+infantry_activation = {
+	limit = { post_napoleonic_thought = 1 }
+	chance = {
+		base = 10
+		modifier = {
+			factor = -10
+			civilized = no
+		}	
+	}
+	effect = {
+		activate_unit = infantry
+	}
+}
+dragoon_activation = {
+	limit = { flintlock_rifles = 1 }
+	chance = {
+		base = 10
+		modifier = {
+			factor = -10
+			civilized = no
+		}
+	}
+	effect = {
+		activate_unit = dragoon
+	}
+}
+cuirassier_activation = {
+	limit = { flintlock_rifles = 1 }
+	chance = {
+		base = 10
+		modifier = {
+			factor = -10
+			civilized = no
+		}
+	}
+	effect = {
+		activate_unit = cuirassier
+	}
+}
+hussar_activation = {
+	limit = { flintlock_rifles = 1 }
+	chance = {
+		base = 10
+		modifier = {
+			factor = -10
+			civilized = no
+		}
+	}
+	effect = {
+		activate_unit = hussar
+	}
+}
+tank_activation = {
+	limit = { heavy_armament_3 = 1 }
+	chance = {
+		base = 10
+		modifier = {
+			factor = -10
+			civilized = no
+		}
+	}
+	effect = {
+		activate_unit = tank
+	}
+}
+plane_activation = {
+	limit = { light_armament_3 = 1 }
+	chance = {
+		base = 10
+		modifier = {
+			factor = -10
+			civilized = no
+		}
+	}
+	effect = {
+		activate_unit = plane
+	}
+}
+naval_base_activation = {
+	limit = { army_command_principle = 1 }
+	chance = {
+		base = 10
+		modifier = {
+			factor = -10
+			civilized = no
+		}
+	}
+	effect = {
+		activate_building = clipper_shipyard
+	}
+}
+fort_upgrade_1 = {
+	limit = { military_plans = 1 }
+	chance = {
+		base = 10
+	}
+	effect = {
+		max_fort = 1
+	}
+}
+naval_base_upgrade_1 = {
+	limit = { military_plans = 1 }
+	chance = {
+		base = 10
+	}
+	effect = {
+		max_naval_base = 1
+	}
+}
+fort_upgrade_2 = {
+	limit = { military_science_1 = 1 }
+	chance = {
+		base = 10
+	}
+	effect = {
+		max_fort = 1
+	}
+}
+naval_base_upgrade_2 = {
+	limit = { military_science_1 = 1 }
+	chance = {
+		base = 10
+	}
+	effect = {
+		max_naval_base = 1
+	}
+}
+fort_upgrade_3 = {
+	limit = { military_science_2 = 1 }
+	chance = {
+		base = 10
+	}
+	effect = {
+		max_fort = 1
+	}
+}
+naval_base_upgrade_3 = {
+	limit = { military_science_2 = 1 }
+	chance = {
+		base = 10
+	}
+	effect = {
+		max_naval_base = 1
+	}
+}
+fort_upgrade_4 = {
+	limit = { aeronautics = 1 }
+	chance = {
+		base = 10
+	}
+	effect = {
+		max_fort = 1
+	}
+}
+naval_base_upgrade_4 = {
+	limit = { aeronautics = 1 }
+	chance = {
+		base = 10
+	}
+	effect = {
+		max_naval_base = 1
+	}
+}
+fort_upgrade_5 = {
+	limit = { military_science_4 = 1 }
+	chance = {
+		base = 10
+	}
+	effect = {
+		max_fort = 1
+	}
+}
+naval_base_upgrade_5 = {
+	limit = { military_science_4 = 1 }
+	chance = {
+		base = 10
+	}
+	effect = {
+		max_naval_base = 1
+	}
+}

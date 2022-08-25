@@ -1,0 +1,46 @@
+political_decisions = {
+currency_issue_start = {
+	alert = no 
+	potential = {
+		AI = no
+		central_bank_money_bill_printing = 1
+		NOT = {
+			has_country_flag = currency_reforming
+		}
+	}
+	allow = {
+		NOT = {
+			has_country_flag = currency_reforming
+		}
+	}
+	effect = {
+		set_country_flag = currency_reforming
+		country_event = {
+			id = 100100
+			days = 1
+		}
+	}
+}
+currency_devaluation_start = {
+	alert = no 
+	potential = {
+		AI = no
+		central_bank_money_bill_printing = 1
+		NOT = {
+			has_country_flag = currency_reforming
+		}
+	}
+	allow = {
+		NOT = {
+			has_country_flag = currency_reforming
+		}
+	}
+	effect = {
+		set_country_flag = currency_reforming
+		country_event = {
+			id = 100101
+			days = 1
+		}
+	}
+}
+}

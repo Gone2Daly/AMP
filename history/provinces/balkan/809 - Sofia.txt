@@ -1,0 +1,16 @@
+owner = TUR
+controller = TUR
+add_core = TUR
+add_core = BUL
+trade_goods = timber
+life_rating = 45
+state_building = {
+	level = 1
+	building = manufacture_explosives
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_artillery
+	upgrade = yes
+}

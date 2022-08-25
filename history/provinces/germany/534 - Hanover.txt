@@ -1,0 +1,32 @@
+owner = HAN
+controller = HAN
+add_core = HAN
+add_core = GER
+trade_goods = fruit
+life_rating = 40
+state_building = {
+	level = 1
+	building = canned_food_factory_fruit
+	upgrade = yes
+}
+#state_building = {
+#	level = 1
+#	building = liquor_distillery
+#	upgrade = yes
+#}
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+owner = GER		
+controller = GER	
+railroad = 5	
+}
+state_building = {
+	level = 1
+	building = manufacture_small_arms
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_cement
+	upgrade = yes
+}

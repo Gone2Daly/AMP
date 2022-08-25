@@ -1,0 +1,11 @@
+owner = ENG
+controller = ENG
+add_core = NZL
+trade_goods = grain
+life_rating = 35
+ 
+1914.1.1 = {
+	owner = NZL
+	controller = NZL
+}
+ 

@@ -1,0 +1,11 @@
+owner = ORA
+controller = ORA
+add_core = ORA
+add_core = SAF
+trade_goods = iron
+life_rating = 35
+#terrain = dry_grassland
+1914.1.1 = {
+	owner = SAF
+	controller = SAF
+}

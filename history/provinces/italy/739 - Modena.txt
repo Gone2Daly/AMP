@@ -1,0 +1,27 @@
+owner = MOD
+controller = MOD
+add_core = MOD
+add_core = ITA
+trade_goods = iron
+life_rating = 40
+#state_building = {
+#	level = 1
+#	building = canned_food_factory
+#	upgrade = yes
+#}
+1861.1.1 = {
+	controller = ITA
+	owner = ITA
+	add_core = ITA
+}
+1861.1.1 = { railroad = 3 }
+state_building = {
+	level = 1
+	building = manufacture_ammunition
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_furniture
+	upgrade = yes
+}

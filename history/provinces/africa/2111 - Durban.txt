@@ -1,0 +1,23 @@
+owner = ZUL
+controller = ZUL
+add_core = ZUL
+add_core = NAL
+add_core = SAF
+trade_goods = wool
+life_rating = 40
+#terrain = deciduous_forest_hills
+1914.1.1 = {
+	owner = SAF
+	controller = SAF
+	colonial = no
+}
+state_building = {
+	level = 1
+	building = manufacture_grain_canned_food
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_wool_canned_food
+	upgrade = yes
+}

@@ -1,0 +1,24 @@
+#1000000 IDs
+
+#Start
+country_event = {
+	id = 1000000
+	title = "TITLE1000000"
+	desc = "DESC1000000"
+	picture = ""
+	is_triggered_only = yes
+	immediate = {
+	}
+	option = {
+		name = "OPTION1_1000000" #pops
+		country_event = 1000001
+	}
+	option = {
+		name = "OPTION2_1000000" #state
+		country_event = 1000002
+	}
+	#option = {
+	#	name = "OPTION2_1000000" #satellite
+	#	country_event = 1000003
+	#}
+}

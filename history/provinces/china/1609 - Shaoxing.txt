@@ -1,0 +1,26 @@
+owner = CHI
+controller = CHI
+add_core = TPG
+add_core = SXG
+add_core = CHI
+trade_goods = precious_metal
+life_rating = 40
+1861.1.1 = {
+	controller = TPG
+	owner = TPG
+}
+1914.1.1 = {
+	owner = CHI
+	controller = CHI
+	remove_core = TPG
+}
+state_building = {
+	level = 1
+	building = manufacture_liquor
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_clipper_convoy
+	upgrade = yes
+}

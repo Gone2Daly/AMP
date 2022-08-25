@@ -1,0 +1,19 @@
+owner = CHI
+controller = CHI
+add_core = CHI
+add_core = TJG
+trade_goods = silk
+life_rating = 40
+1861.1.1 = {
+	fort = 1
+}
+state_building = {
+	level = 1
+	building = manufacture_steel
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_artillery
+	upgrade = yes
+}

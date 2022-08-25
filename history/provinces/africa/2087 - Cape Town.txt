@@ -1,0 +1,23 @@
+owner = ENG
+controller = ENG
+add_core = SAF
+trade_goods = fruit
+life_rating = 40
+#terrain = good_farmland
+1861.1.1 = { railroad = 1 }
+1914.1.1 = {
+	owner = SAF
+	controller = SAF
+	colonial = no
+}
+
+state_building = {
+	level = 1
+	building = manufacture_cement
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_glass
+	upgrade = yes
+}

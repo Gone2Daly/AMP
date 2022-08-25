@@ -1,0 +1,12 @@
+owner = FRA
+controller = FRA
+colonial = 2
+add_core = ALD
+trade_goods = grain
+life_rating = 35
+
+1914.1.1 = {
+	owner = FRA
+	controller = FRA
+	colonial = 3
+}

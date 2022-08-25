@@ -1,0 +1,113 @@
+#Luxembourg (172000)
+#In personal union with Netherlands in 1836
+#Luxembourg (172000/43000 POPS)
+397 = {
+	aristocrats = {
+		culture = north_german
+		religion = latin-german
+		size = 175
+	}
+
+	bureaucrats = {
+		culture = north_german
+		religion = latin-german
+		size = 25
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = latin-german
+		size = 150
+	}
+
+	artisans = {
+		culture = north_german
+		religion = latin-german
+		size = 750
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = latin-german
+		size = 2000
+	}
+
+	farmers = {
+		culture = north_german
+		religion = latin-german
+		size = 14900
+	}
+
+	aristocrats = {
+		culture = french
+		religion = latin-german
+		size = 250
+	}
+
+	officers = {
+		culture = french
+		religion = latin-german
+		size = 50
+	}
+
+	bureaucrats = {
+		culture = french
+		religion = latin-german
+		size = 50
+	}
+
+	clergymen = {
+		culture = french
+		religion = latin-german
+		size = 275
+	}
+
+	artisans = {
+		culture = french
+		religion = latin-german
+		size = 1750
+	}
+
+	soldiers = {
+		culture = french
+		religion = latin-german
+		size = 250
+	}
+
+	farmers = {
+		culture = french
+		religion = latin-german
+		size = 23375
+	}
+	craftsmen = {
+		culture = french
+		religion = latin-german
+		size = 150
+	}
+	clerks = {
+		culture = french
+		religion = latin-german
+		size = 150
+	}
+	capitalists = {
+		culture = french
+		religion = latin-german
+		size = 150
+	}
+	craftsmen = {
+		culture = north_german
+		religion = latin-german
+		size = 150
+	}
+	clerks = {
+		culture = north_german
+		religion = latin-german
+		size = 150
+	}
+	capitalists = {
+		culture = north_german
+		religion = latin-german
+		size = 150
+	}
+
+}

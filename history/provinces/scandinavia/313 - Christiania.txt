@@ -1,0 +1,24 @@
+owner = SWE
+controller = SWE
+add_core = SWE
+add_core = SCA
+add_core = NOR
+trade_goods = fish
+life_rating = 40
+naval_base = 1
+state_building = {
+	level = 1
+	building = canned_food_factory_fish
+	upgrade = yes
+}
+1861.1.1 = { railroad = 2 }
+state_building = {
+	level = 1
+	building = manufacture_luxury_clothes
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_paper
+	upgrade = yes
+}

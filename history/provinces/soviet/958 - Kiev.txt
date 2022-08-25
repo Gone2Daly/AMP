@@ -1,0 +1,22 @@
+owner = RUS
+controller = RUS
+add_core = RUS
+add_core = UKR
+add_core = PLC
+trade_goods = grain
+life_rating = 40
+#state_building = {
+#	level = 1
+#	building = glass_factory
+#	upgrade = yes
+#}
+state_building = {
+	level = 1
+	building = manufacture_fertilizer
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_iron
+	upgrade = yes
+}

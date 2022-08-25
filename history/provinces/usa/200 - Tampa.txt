@@ -1,0 +1,24 @@
+owner = USA
+controller = USA
+add_core = USA
+trade_goods = fruit
+life_rating = 42
+ 
+is_slave = yes
+naval_base = 1
+1861.1.1 = {
+	colony = 0
+	controller = CSA
+	owner = CSA
+	add_core = CSA
+}
+state_building = {
+	level = 1
+	building = manufacture_luxury_clothes
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_regular_clothes
+	upgrade = yes
+}

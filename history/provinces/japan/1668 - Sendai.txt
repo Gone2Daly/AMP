@@ -1,0 +1,15 @@
+owner = JAP
+controller = JAP
+add_core = JAP
+trade_goods = grain
+life_rating = 42
+state_building = {
+	level = 1
+	building = manufacture_artillery
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_steel
+	upgrade = yes
+}

@@ -1,0 +1,14 @@
+owner = RUS
+controller = RUS
+add_core = MOL
+add_core = ROM
+trade_goods = fish
+life_rating = 34
+1861.1.1 = {
+	controller = ROM
+	owner = ROM
+}
+1914.1.1 = {
+	owner = RUS
+	controller = RUS
+}

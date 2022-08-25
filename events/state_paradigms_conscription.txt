@@ -1,0 +1,811 @@
+#state_paradigms_conscription
+country_event = {
+	id = 100000211
+	title = "TITLE100000211"
+	desc = "DESC100000211"
+	picture = ""
+	trigger = {
+		has_country_flag = changing_conscription_1
+		has_country_modifier = recruiting
+		NOT = {
+			OR = {
+				has_country_modifier = no_draft_1_years_draft
+				has_country_modifier = 1_years_draft_no_draft
+				has_country_modifier = 1_years_draft_4_years_draft
+				has_country_modifier = 4_years_draft_1_years_draft
+				has_country_modifier = 4_years_draft_7_years_draft
+				has_country_modifier = 7_years_draft_4_years_draft
+				has_country_modifier = 7_years_draft_10_years_draft
+				has_country_modifier = 10_years_draft_7_years_draft
+				has_country_modifier = 10_years_draft_recruiting
+				has_country_modifier = recruiting_10_years_draft
+			}
+		}
+	}
+	immediate = {
+		clr_country_flag = changing_conscription_1
+		remove_country_modifier = recruiting
+	}
+	option = {
+		name = "OPTION1_100000211" #recruiting
+		#political_reform = recruiting
+		add_country_modifier = {
+			name = recruiting
+			duration = -1
+		}
+	}
+	option = {
+		name = "OPTION2_100000211" #10_years_draft
+		#political_reform = 10_years_draft
+		add_country_modifier = {
+			name = 10_years_draft
+			duration = -1
+		}
+		add_country_modifier = {
+			name = recruiting_10_years_draft
+			duration = 200
+		}
+	}
+	option = {
+		name = "OPTION3_100000211" #7_years_draft
+		#political_reform = 7_years_draft
+		add_country_modifier = {
+			name = 7_years_draft
+			duration = -1
+		}
+		add_country_modifier = {
+			name = recruiting_10_years_draft
+			duration = 200
+		}
+		add_country_modifier = {
+			name = 10_years_draft_7_years_draft
+			duration = 400
+		}
+	}
+	option = {
+		name = "OPTION4_100000211" #4_years_draft
+		#political_reform = 4_years_draft
+		add_country_modifier = {
+			name = 4_years_draft
+			duration = -1
+		}
+		add_country_modifier = {
+			name = recruiting_10_years_draft
+			duration = 200
+		}
+		add_country_modifier = {
+			name = 10_years_draft_7_years_draft
+			duration = 400
+		}
+		add_country_modifier = {
+			name = 7_years_draft_4_years_draft
+			duration = 600
+		}
+	}
+	option = {
+		name = "OPTION5_100000211" #1_years_draft
+		#political_reform = 1_years_draft
+		add_country_modifier = {
+			name = 1_years_draft
+			duration = -1
+		}
+		add_country_modifier = {
+			name = recruiting_10_years_draft
+			duration = 200
+		}
+		add_country_modifier = {
+			name = 10_years_draft_7_years_draft
+			duration = 400
+		}
+		add_country_modifier = {
+			name = 7_years_draft_4_years_draft
+			duration = 600
+		}
+		add_country_modifier = {
+			name = 4_years_draft_1_years_draft
+			duration = 800
+		}
+	}
+	option = {
+		name = "OPTION6_100000211" #no_draft
+		#political_reform = no_draft
+		add_country_modifier = {
+			name = no_draft
+			duration = -1
+		}
+		add_country_modifier = {
+			name = recruiting_10_years_draft
+			duration = 200
+		}
+		add_country_modifier = {
+			name = 10_years_draft_7_years_draft
+			duration = 400
+		}
+		add_country_modifier = {
+			name = 7_years_draft_4_years_draft
+			duration = 600
+		}
+		add_country_modifier = {
+			name = 4_years_draft_1_years_draft
+			duration = 800
+		}
+		add_country_modifier = {
+			name = 1_years_draft_no_draft
+			duration = 1000
+		}
+		
+	}
+}
+country_event = {
+	id = 100000212
+	title = "TITLE100000212"
+	desc = "DESC100000212"
+	picture = ""
+	trigger = {
+		has_country_flag = changing_conscription_1
+		has_country_modifier = 10_years_draft
+		NOT = {
+			OR = {
+				has_country_modifier = no_draft_1_years_draft
+				has_country_modifier = 1_years_draft_no_draft
+				has_country_modifier = 1_years_draft_4_years_draft
+				has_country_modifier = 4_years_draft_1_years_draft
+				has_country_modifier = 4_years_draft_7_years_draft
+				has_country_modifier = 7_years_draft_4_years_draft
+				has_country_modifier = 7_years_draft_10_years_draft
+				has_country_modifier = 10_years_draft_7_years_draft
+				has_country_modifier = 10_years_draft_recruiting
+				has_country_modifier = recruiting_10_years_draft
+			}
+		}
+	}
+	immediate = {
+		clr_country_flag = changing_conscription_1
+		remove_country_modifier = 10_years_draft
+	}
+	option = {
+		name = "OPTION1_100000212" #recruiting
+		#political_reform = recruiting
+		add_country_modifier = {
+			name = recruiting
+			duration = -1
+		}
+		add_country_modifier = {
+			name = 10_years_draft_recruiting
+			duration = 200
+		}
+	}
+	option = {
+		name = "OPTION2_100000212" #10_years_draft
+		#political_reform = 10_years_draft
+		add_country_modifier = {
+			name = 10_years_draft
+			duration = -1
+		}
+	}
+	option = {
+		name = "OPTION3_100000212" #7_years_draft
+		#political_reform = 7_years_draft
+		add_country_modifier = {
+			name = 7_years_draft
+			duration = -1
+		}
+		add_country_modifier = {
+			name = 10_years_draft_7_years_draft
+			duration = 200
+		}
+	}
+	option = {
+		name = "OPTION4_100000212" #4_years_draft
+		#political_reform = 4_years_draft
+		add_country_modifier = {
+			name = 4_years_draft
+			duration = -1
+		}
+		add_country_modifier = {
+			name = 10_years_draft_7_years_draft
+			duration = 200
+		}
+		add_country_modifier = {
+			name = 7_years_draft_4_years_draft
+			duration = 400
+		}
+	}
+	option = {
+		name = "OPTION5_100000212" #1_years_draft
+		#political_reform = 1_years_draft
+		add_country_modifier = {
+			name = 1_years_draft
+			duration = -1
+		}
+		add_country_modifier = {
+			name = 10_years_draft_7_years_draft
+			duration = 200
+		}
+		add_country_modifier = {
+			name = 7_years_draft_4_years_draft
+			duration = 400
+		}
+		add_country_modifier = {
+			name = 4_years_draft_1_years_draft
+			duration = 600
+		}
+	}
+	option = {
+		name = "OPTION6_100000212" #no_draft
+		#political_reform = no_draft
+		add_country_modifier = {
+			name = no_draft
+			duration = -1
+		}
+		add_country_modifier = {
+			name = 10_years_draft_7_years_draft
+			duration = 200
+		}
+		add_country_modifier = {
+			name = 7_years_draft_4_years_draft
+			duration = 400
+		}
+		add_country_modifier = {
+			name = 4_years_draft_1_years_draft
+			duration = 600
+		}
+		add_country_modifier = {
+			name = 1_years_draft_no_draft
+			duration = 800
+		}
+		
+	}
+}
+country_event = {
+	id = 100000213
+	title = "TITLE100000213"
+	desc = "DESC100000213"
+	picture = ""
+	trigger = {
+		has_country_flag = changing_conscription_1
+		has_country_modifier = 7_years_draft
+		NOT = {
+			OR = {
+				has_country_modifier = no_draft_1_years_draft
+				has_country_modifier = 1_years_draft_no_draft
+				has_country_modifier = 1_years_draft_4_years_draft
+				has_country_modifier = 4_years_draft_1_years_draft
+				has_country_modifier = 4_years_draft_7_years_draft
+				has_country_modifier = 7_years_draft_4_years_draft
+				has_country_modifier = 7_years_draft_10_years_draft
+				has_country_modifier = 10_years_draft_7_years_draft
+				has_country_modifier = 10_years_draft_recruiting
+				has_country_modifier = recruiting_10_years_draft
+			}
+		}
+	}
+	immediate = {
+		clr_country_flag = changing_conscription_1
+		remove_country_modifier = 7_years_draft
+	}
+	option = {
+		name = "OPTION1_100000213" #recruiting
+		#political_reform = recruiting
+		add_country_modifier = {
+			name = recruiting
+			duration = -1
+		}
+		add_country_modifier = {
+			name = 7_years_draft_10_years_draft
+			duration = 200
+		}
+		add_country_modifier = {
+			name = 10_years_draft_recruiting
+			duration = 400
+		}
+	}
+	option = {
+		name = "OPTION2_100000213" #10_years_draft
+		#political_reform = 10_years_draft
+		add_country_modifier = {
+			name = 10_years_draft
+			duration = -1
+		}
+		add_country_modifier = {
+			name = 7_years_draft_10_years_draft
+			duration = 200
+		}
+	}
+	option = {
+		name = "OPTION3_100000213" #7_years_draft
+		#political_reform = 7_years_draft
+		add_country_modifier = {
+			name = 7_years_draft
+			duration = -1
+		}
+	}
+	option = {
+		name = "OPTION4_100000213" #4_years_draft
+		#political_reform = 4_years_draft
+		add_country_modifier = {
+			name = 4_years_draft
+			duration = -1
+		}
+		add_country_modifier = {
+			name = 7_years_draft_4_years_draft
+			duration = 200
+		}
+	}
+	option = {
+		name = "OPTION5_100000213" #1_years_draft
+		#political_reform = 1_years_draft
+		add_country_modifier = {
+			name = 1_years_draft
+			duration = -1
+		}
+		add_country_modifier = {
+			name = 7_years_draft_4_years_draft
+			duration = 200
+		}
+		add_country_modifier = {
+			name = 4_years_draft_1_years_draft
+			duration = 400
+		}
+	}
+	option = {
+		name = "OPTION6_100000213" #no_draft
+		#political_reform = no_draft
+		add_country_modifier = {
+			name = no_draft
+			duration = -1
+		}
+		add_country_modifier = {
+			name = 7_years_draft_4_years_draft
+			duration = 200
+		}
+		add_country_modifier = {
+			name = 4_years_draft_1_years_draft
+			duration = 400
+		}
+		add_country_modifier = {
+			name = 1_years_draft_no_draft
+			duration = 600
+		}
+		
+	}
+}
+country_event = {
+	id = 100000214
+	title = "TITLE100000214"
+	desc = "DESC100000214"
+	picture = ""
+	trigger = {
+		has_country_flag = changing_conscription_1
+		has_country_modifier = 4_years_draft
+		NOT = {
+			OR = {
+				has_country_modifier = no_draft_1_years_draft
+				has_country_modifier = 1_years_draft_no_draft
+				has_country_modifier = 1_years_draft_4_years_draft
+				has_country_modifier = 4_years_draft_1_years_draft
+				has_country_modifier = 4_years_draft_7_years_draft
+				has_country_modifier = 7_years_draft_4_years_draft
+				has_country_modifier = 7_years_draft_10_years_draft
+				has_country_modifier = 10_years_draft_7_years_draft
+				has_country_modifier = 10_years_draft_recruiting
+				has_country_modifier = recruiting_10_years_draft
+			}
+		}
+	}
+	immediate = {
+		clr_country_flag = changing_conscription_1
+		remove_country_modifier = 4_years_draft
+	}
+	option = {
+		name = "OPTION1_100000214" #recruiting
+		#political_reform = recruiting
+		add_country_modifier = {
+			name = recruiting
+			duration = -1
+		}
+		add_country_modifier = {
+			name = 4_years_draft_7_years_draft
+			duration = 200
+		}
+		add_country_modifier = {
+			name = 7_years_draft_10_years_draft
+			duration = 400
+		}
+		add_country_modifier = {
+			name = 10_years_draft_recruiting
+			duration = 600
+		}
+	}
+	option = {
+		name = "OPTION2_100000214" #10_years_draft
+		#political_reform = 10_years_draft
+		add_country_modifier = {
+			name = 10_years_draft
+			duration = -1
+		}
+		add_country_modifier = {
+			name = 4_years_draft_7_years_draft
+			duration = 200
+		}
+		add_country_modifier = {
+			name = 7_years_draft_10_years_draft
+			duration = 400
+		}
+	}
+	option = {
+		name = "OPTION3_100000214" #7_years_draft
+		#political_reform = 7_years_draft
+		add_country_modifier = {
+			name = 7_years_draft
+			duration = -1
+		}
+		add_country_modifier = {
+			name = 4_years_draft_7_years_draft
+			duration = 200
+		}
+	}
+	option = {
+		name = "OPTION4_100000214" #4_years_draft
+		#political_reform = 4_years_draft
+		add_country_modifier = {
+			name = 4_years_draft
+			duration = -1
+		}
+	}
+	option = {
+		name = "OPTION5_100000214" #1_years_draft
+		#political_reform = 1_years_draft
+		add_country_modifier = {
+			name = 1_years_draft
+			duration = -1
+		}
+		add_country_modifier = {
+			name = 4_years_draft_1_years_draft
+			duration = 200
+		}
+	}
+	option = {
+		name = "OPTION6_100000214" #no_draft
+		#political_reform = no_draft
+		add_country_modifier = {
+			name = no_draft
+			duration = -1
+		}
+		add_country_modifier = {
+			name = 4_years_draft_1_years_draft
+			duration = 200
+		}
+		add_country_modifier = {
+			name = 1_years_draft_no_draft
+			duration = 400
+		}
+		
+	}
+}
+country_event = {
+	id = 100000215
+	title = "TITLE100000215"
+	desc = "DESC100000215"
+	picture = ""
+	trigger = {
+		has_country_flag = changing_conscription_1
+		has_country_modifier = 1_years_draft
+		NOT = {
+			OR = {
+				has_country_modifier = no_draft_1_years_draft
+				has_country_modifier = 1_years_draft_no_draft
+				has_country_modifier = 1_years_draft_4_years_draft
+				has_country_modifier = 4_years_draft_1_years_draft
+				has_country_modifier = 4_years_draft_7_years_draft
+				has_country_modifier = 7_years_draft_4_years_draft
+				has_country_modifier = 7_years_draft_10_years_draft
+				has_country_modifier = 10_years_draft_7_years_draft
+				has_country_modifier = 10_years_draft_recruiting
+				has_country_modifier = recruiting_10_years_draft
+			}
+		}
+	}
+	immediate = {
+		clr_country_flag = changing_conscription_1
+		remove_country_modifier = 1_years_draft
+	}
+	option = {
+		name = "OPTION1_100000215" #recruiting
+		#political_reform = recruiting
+		add_country_modifier = {
+			name = recruiting
+			duration = -1
+		}
+		add_country_modifier = {
+			name = 1_years_draft_4_years_draft
+			duration = 200
+		}
+		add_country_modifier = {
+			name = 4_years_draft_7_years_draft
+			duration = 400
+		}
+		add_country_modifier = {
+			name = 7_years_draft_10_years_draft
+			duration = 600
+		}
+		add_country_modifier = {
+			name = 10_years_draft_recruiting
+			duration = 800
+		}
+	}
+	option = {
+		name = "OPTION2_100000215" #10_years_draft
+		#political_reform = 10_years_draft
+		add_country_modifier = {
+			name = 10_years_draft
+			duration = -1
+		}
+		add_country_modifier = {
+			name = 1_years_draft_4_years_draft
+			duration = 200
+		}
+		add_country_modifier = {
+			name = 4_years_draft_7_years_draft
+			duration = 400
+		}
+		add_country_modifier = {
+			name = 7_years_draft_10_years_draft
+			duration = 600
+		}
+	}
+	option = {
+		name = "OPTION3_100000215" #7_years_draft
+		#political_reform = 7_years_draft
+		add_country_modifier = {
+			name = 7_years_draft
+			duration = -1
+		}
+		add_country_modifier = {
+			name = 1_years_draft_4_years_draft
+			duration = 200
+		}
+		add_country_modifier = {
+			name = 4_years_draft_7_years_draft
+			duration = 400
+		}
+	}
+	option = {
+		name = "OPTION4_100000215" #4_years_draft
+		#political_reform = 4_years_draft
+		add_country_modifier = {
+			name = 4_years_draft
+			duration = -1
+		}
+		add_country_modifier = {
+			name = 1_years_draft_4_years_draft
+			duration = 200
+		}
+	}
+	option = {
+		name = "OPTION5_100000215" #1_years_draft
+		#political_reform = 1_years_draft
+		add_country_modifier = {
+			name = 1_years_draft
+			duration = -1
+		}
+	}
+	option = {
+		name = "OPTION6_100000215" #no_draft
+		#political_reform = no_draft
+		add_country_modifier = {
+			name = no_draft
+			duration = -1
+		}
+		add_country_modifier = {
+			name = 1_years_draft_no_draft
+			duration = 200
+		}
+	}
+}
+country_event = {
+	id = 100000216
+	title = "TITLE100000216"
+	desc = "DESC100000216"
+	picture = ""
+	trigger = {
+		has_country_flag = changing_conscription_1
+		has_country_modifier = no_draft
+		NOT = {
+			OR = {
+				has_country_modifier = no_draft_1_years_draft
+				has_country_modifier = 1_years_draft_no_draft
+				has_country_modifier = 1_years_draft_4_years_draft
+				has_country_modifier = 4_years_draft_1_years_draft
+				has_country_modifier = 4_years_draft_7_years_draft
+				has_country_modifier = 7_years_draft_4_years_draft
+				has_country_modifier = 7_years_draft_10_years_draft
+				has_country_modifier = 10_years_draft_7_years_draft
+				has_country_modifier = 10_years_draft_recruiting
+				has_country_modifier = recruiting_10_years_draft
+			}
+		}
+	}
+	immediate = {
+		clr_country_flag = changing_conscription_1
+		remove_country_modifier = no_draft
+	}
+	option = {
+		name = "OPTION1_100000216" #recruiting
+		#political_reform = recruiting
+		add_country_modifier = {
+			name = recruiting
+			duration = -1
+		}
+		add_country_modifier = {
+			name = no_draft_1_years_draft
+			duration = 200
+		}
+		add_country_modifier = {
+			name = 1_years_draft_4_years_draft
+			duration = 400
+		}
+		add_country_modifier = {
+			name = 4_years_draft_7_years_draft
+			duration = 600
+		}
+		add_country_modifier = {
+			name = 7_years_draft_10_years_draft
+			duration = 800
+		}
+		add_country_modifier = {
+			name = 10_years_draft_recruiting
+			duration = 1000
+		}
+	}
+	option = {
+		name = "OPTION2_100000216" #10_years_draft
+		#political_reform = 10_years_draft
+		add_country_modifier = {
+			name = 10_years_draft
+			duration = -1
+		}
+		add_country_modifier = {
+			name = no_draft_1_years_draft
+			duration = 200
+		}
+		add_country_modifier = {
+			name = 1_years_draft_4_years_draft
+			duration = 400
+		}
+		add_country_modifier = {
+			name = 4_years_draft_7_years_draft
+			duration = 600
+		}
+		add_country_modifier = {
+			name = 7_years_draft_10_years_draft
+			duration = 800
+		}
+	}
+	option = {
+		name = "OPTION3_100000216" #7_years_draft
+		#political_reform = 7_years_draft
+		add_country_modifier = {
+			name = 7_years_draft
+			duration = -1
+		}
+		add_country_modifier = {
+			name = no_draft_1_years_draft
+			duration = 200
+		}
+		add_country_modifier = {
+			name = 1_years_draft_4_years_draft
+			duration = 400
+		}
+		add_country_modifier = {
+			name = 4_years_draft_7_years_draft
+			duration = 600
+		}
+	}
+	option = {
+		name = "OPTION4_100000216" #4_years_draft
+		#political_reform = 4_years_draft
+		add_country_modifier = {
+			name = 4_years_draft
+			duration = -1
+		}
+		add_country_modifier = {
+			name = no_draft_1_years_draft
+			duration = 200
+		}
+		add_country_modifier = {
+			name = 1_years_draft_4_years_draft
+			duration = 400
+		}
+	}
+	option = {
+		name = "OPTION5_100000216" #1_years_draft
+		#political_reform = 1_years_draft
+		add_country_modifier = {
+			name = 1_years_draft
+			duration = -1
+		}
+		add_country_modifier = {
+			name = no_draft_1_years_draft
+			duration = 200
+		}
+	}
+	option = {
+		name = "OPTION6_100000216" #no_draft
+		#political_reform = no_draft
+		add_country_modifier = {
+			name = no_draft
+			duration = -1
+		}
+	}
+}
+country_event = {
+	id = 100000217
+	title = "TITLE100000217"
+	desc = "DESC100000217"
+	picture = ""
+	trigger = {
+		has_country_flag = changing_conscription_1
+		NOT = {
+			OR = {
+				has_country_modifier = recruiting
+				has_country_modifier = 10_years_draft
+				has_country_modifier = 7_years_draft
+				has_country_modifier = 4_years_draft
+				has_country_modifier = 1_years_draft
+				has_country_modifier = no_draft
+			}
+		}
+	}
+	immediate = {
+		clr_country_flag = changing_conscription_1
+	}
+	option = {
+		name = "OPTION1_100000217" #recruiting
+		#political_reform = recruiting
+		add_country_modifier = {
+			name = recruiting
+			duration = -1
+		}
+	}
+	option = {
+		name = "OPTION2_100000217" #10_years_draft
+		#political_reform = 10_years_draft
+		add_country_modifier = {
+			name = 10_years_draft
+			duration = -1
+		}
+	}
+	option = {
+		name = "OPTION3_100000217" #7_years_draft
+		#political_reform = 7_years_draft
+		add_country_modifier = {
+			name = 7_years_draft
+			duration = -1
+		}
+	}
+	option = {
+		name = "OPTION4_100000217" #4_years_draft
+		#political_reform = 4_years_draft
+		add_country_modifier = {
+			name = 4_years_draft
+			duration = -1
+		}
+	}
+	option = {
+		name = "OPTION5_100000217" #1_years_draft
+		#political_reform = 1_years_draft
+		add_country_modifier = {
+			name = 1_years_draft
+			duration = -1
+		}
+	}
+	option = {
+		name = "OPTION6_100000217" #no_draft
+		#political_reform = no_draft
+		add_country_modifier = {
+			name = no_draft
+			duration = -1
+		}
+	}
+}

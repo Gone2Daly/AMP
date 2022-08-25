@@ -1,0 +1,20 @@
+add_core = CAN
+trade_goods = grain
+life_rating = 40
+owner = ENG
+controller = ENG
+ 
+1914.1.1 = {
+owner = CAN
+controller = CAN
+}
+state_building = {
+	level = 1
+	building = manufacture_regular_clothes
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_paper
+	upgrade = yes
+}

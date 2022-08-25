@@ -1,0 +1,15 @@
+owner = NET
+controller = NET
+add_core = JAV
+trade_goods = sulphur
+life_rating = 42
+state_building = {
+	level = 1
+	building = manufacture_ammunition
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_fertilizer
+	upgrade = yes
+}

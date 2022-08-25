@@ -1,0 +1,4 @@
+trade_goods = fish
+life_rating = tropical_wood
+owner = RUS
+controller = RUS

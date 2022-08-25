@@ -1,0 +1,16 @@
+owner = EGY
+controller = EGY
+add_core = EGY
+trade_goods = cotton
+life_rating = 47
+naval_base = 1
+state_building = {
+	level = 1
+	building = manufacture_luxury_clothes
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_clipper_convoy
+	upgrade = yes
+}

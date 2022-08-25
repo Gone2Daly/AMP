@@ -1,0 +1,25 @@
+telegraph_coordination = {
+	limit = { blue_and_brown_water_schools = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			army_professionalism = 1
+		}
+		modifier = {
+			factor = 2
+			early_railroad = 1
+		}
+	}
+	effect = {
+		guard = {
+			default_organisation = 5
+		}
+		infantry = {
+			default_organisation = 5
+		}
+		col_inf = {
+			default_organisation = 2.5
+		}
+	}
+}

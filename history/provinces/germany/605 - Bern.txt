@@ -1,0 +1,23 @@
+owner = SWI
+controller = SWI
+add_core = SWI
+trade_goods = iron
+life_rating = 50
+fort = 1
+state_building = {
+	level = 2
+	building = artillery_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}
+1861.1.1 = { railroad = 1 }
+1914.1.1 = { railroad = 3 }
+state_building = {
+	level = 1
+	building = manufacture_paper
+	upgrade = yes
+}

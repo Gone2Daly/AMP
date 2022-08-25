@@ -1,0 +1,15 @@
+owner = ATJ
+controller = ATJ
+add_core = ATJ
+trade_goods = tobacco
+life_rating = 42
+state_building = {
+	level = 1
+	building = manufacture_liquor
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_glass
+	upgrade = yes
+}

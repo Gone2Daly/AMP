@@ -1,0 +1,15 @@
+owner = JAP
+controller = JAP
+add_core = JAP
+trade_goods = tea
+life_rating = 45
+state_building = {
+	level = 1
+	building = manufacture_ammunition
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_steel
+	upgrade = yes
+}

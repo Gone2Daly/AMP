@@ -1,0 +1,144 @@
+immigration_focus = 
+{
+	immigration1 =
+	{
+		immigrant_push = 1
+		icon = 3
+		limit = {
+			NOT = { 
+				state_scope = { 
+					any_owned_province = { 
+						NOT = { 
+							controlled_by = THIS 
+						} 
+					} 
+				} 
+			}
+		}
+	}
+	
+	immigration =
+	{
+		immigrant_attract = 1
+		immigrant_push = -0.5
+		icon = 4
+	}
+	
+	popgrowth =
+	{
+		life_rating = 0.09
+		icon = 5
+		limit = { 
+			civilized = yes
+			state_scope = {
+					any_owned_province = {
+						NOT = {
+						life_rating = 39
+						}
+					}
+				
+			}
+		}
+	}
+
+}
+
+production_focus =
+{
+	factory_input_focus =
+	{
+		local_factory_input = -0.1
+		icon = 14
+		limit = {
+			state_scope = {
+				has_factories = yes
+			}
+		}
+	}
+
+	factory_output_focus =
+	{
+		local_factory_output = 0.1
+		icon = 14
+		limit = {
+			state_scope = {
+				has_factories = yes
+			}
+		}
+	}
+
+	factory_throughput_focus =
+	{
+		local_factory_throughput = 0.15
+		icon = 14
+		limit = {
+			state_scope = {
+				has_factories = yes
+			}
+		}
+	}
+
+	RGO_output_focus =
+	{
+		local_RGO_output = 0.1
+		icon = 15
+	}
+
+	RGO_throughput_focus =
+	{
+		local_RGO_throughput = 0.2
+		icon = 15
+	}
+}
+
+party_loyalty_focus =
+{
+	fascist_focus =
+	{
+		ideology = fascist
+		loyalty_value = 0.003 # By that much pops will be more loyal
+		icon = 28
+	}
+	
+	reactionary_focus =
+	{
+		ideology = reactionary
+		loyalty_value = 0.003 # By that much pops will be more loyal
+		icon = 29
+	}
+	
+	conservative_focus =
+	{
+		ideology = conservative
+		loyalty_value = 0.003 # By that much pops will be more loyal
+		icon = 30
+	}
+	
+	socialist_focus =
+	{
+		ideology = socialist
+		loyalty_value = 0.003 # By that much pops will be more loyal
+		icon = 31
+	}
+	
+	communist_focus =
+	{
+		ideology = communist
+		loyalty_value = 0.003 # By that much pops will be more loyal
+		icon = 32
+	}
+	
+	liberal_focus =
+	{
+		ideology = liberal
+		loyalty_value = 0.003 # By that much pops will be more loyal
+		icon = 33
+	}
+	
+	anarcho_liberal_focus =
+	{
+		ideology = anarcho_liberal
+		loyalty_value = 0.003 # By that much pops will be more loyal
+		icon = 34
+	}
+}

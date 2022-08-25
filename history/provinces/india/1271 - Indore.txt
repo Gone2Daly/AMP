@@ -1,0 +1,6 @@
+owner = OST  colonial = 2
+controller = OST
+add_core = HND
+add_core = MEW
+trade_goods = cotton
+life_rating = 32

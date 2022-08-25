@@ -1,0 +1,3963 @@
+EVTNAME91001; We took the naval blockade; X
+EVTDESC91001; cost of imported goods increased by 2.5 times; X
+EVTOPTA91001; Horror ;! X
+EVTNAME91002; naval blockade lifted; X
+EVTDESC91002; ; X
+EVTOPTA91002; Excellent ;! X
+EVTNAME91003; Opponent taken a naval blockade; X
+EVTDESC91003; The value of imports increased by 2.5 times for him; X
+EVTOPTA91003; Excellent ;! X
+EVTNAME91004; The enemy broke through the naval blockade; X
+EVTDESC91004; ; X
+EVTOPTA91004; Horror ;! X
+EVTNAME91005; crutch; X
+EVTDESC91005; you can not have a stock of more than 2000 units of the mechanisms. ; X
+EVTOPTA91005; Oak; X
+EVTNAME96666; Imperialism; X
+EVTDESC96666; technical, military, and cultural superiority of Western civilization over the rest of the world has reached an unprecedented separation. Now, nobody has the right to interfere with us to carry education and technology in the backward countries. Civilizing mission began. ; X
+EVTOPTA96666; It's time to expand ;! X
+EVTNAME100003; Mobilization ;! X
+EVTDESC100003; for victory in the civil war on the South American continent, we need all available forces ;. X
+EVTOPTA100003; Ur ;! X
+EVTNAME99999; war; X
+EVTDESC99999; Brazil is not going to join our Power ;! X
+EVTOPTA99999; there is only one way out; X
+EVTNAME100100; emissions; X
+EVTDESC100100; Select volume; X
+EVTOPTA100100; 10% of GDP; X
+EVTOPTB100100; 25% of GDP; X
+EVTOPTC100100; 50% of GDP; X
+EVTNAME100101; devaluation; X
+EVTDESC100101; Select volume; X
+EVTOPTA100101; 10% of GDP; X
+EVTOPTB100101; 25% of GDP; X
+EVTOPTC100101; 50% of GDP; X
+EVTNAME100102; small issue; X
+EVTDESC100102; first stage; X
+EVTNAME100103; small issue; X
+EVTDESC100103; second stage; X
+EVTNAME100104; small issue; X
+EVTDESC100104; third stage; X
+EVTNAME100105; average emissions; X
+EVTDESC100105; first stage; X
+EVTNAME100106; average emissions; X
+EVTDESC100106; second stage; X
+EVTNAME100107; average emissions; X
+EVTDESC100107; third stage; X
+EVTNAME100108; Major emissions; X
+EVTDESC100108; first stage; X
+EVTNAME100109; Major emissions; X
+EVTDESC100109; second stage; X
+EVTNAME100110; Major emissions; X
+EVTDESC100110; third stage; X
+EVTNAME100111; small devaluation; X
+EVTDESC100111; first stage; X
+EVTNAME100112; small devaluation; X
+EVTDESC100112; second stage; X
+EVTNAME100113; small devaluation; X
+EVTDESC100113; third stage; X
+EVTNAME100114; average devaluation; X
+EVTDESC100114; first stage; X
+EVTNAME100115; average devaluation; X
+EVTDESC100115; second stage; X
+EVTNAME100116; average devaluation; X
+EVTDESC100116; third stage; X
+EVTNAME100117; Major devaluation; X
+EVTDESC100117; first stage; X
+EVTNAME100118; Major devaluation; X
+EVTDESC100118; second stage; X
+EVTNAME100119; Major devaluation; X
+EVTDESC100119; third stage; X
+EVTNAME100120; monetary reform completed; X
+EVTDESC100120; ; X
+EVTNAME100400; foreign policy of Sardinia-Piedmont;
+EVTDESC100400; You can choose between two versions of the unification of Italy, or encourage the development of the economy;
+EVTOPTA100400; Suggest association under the terms of Confederation;
+EVTOPTB100400; support the Red Shirts;
+EVTOPTC100400; Postpone the issue, the country is not yet ready for it;
+EVTNAME100401; Sardinia-Piedmont proposed merger on the terms of Confederation;
+EVTDESC100401 ;;
+EVTOPTA100401; Agree;
+EVTOPTB100401; Takeout;
+EVTNAME100402; Unification of Italy: the status of the Confederation;
+EVTDESC100402; part of the Kingdom agree, but there were also those who are against. Now we need to select the next step;
+EVTOPTA100402; Conquer dissenting kingdom;
+EVTOPTB100402; support the Red Shirts;
+EVTNAME100403; Unification of Italy: the reactionary alliance;
+EVTDESC100403; Sardinia-Piedmont has established a confederation of Italian states and plans to expand their power on us;
+EVTOPTA100403; reactionary forces must unite;
+EVTNAME100404; Unification of Italy: the preparation for war;
+EVTDESC100404 ;;
+EVTOPTA100404 ;;
+EVTNAME100405; Unification of Italy: the beginning of the war;
+EVTDESC100405; Against us stands an alliance of reactionary forces;
+EVTOPTA100405; Go for Italy!;
+PolSys_start_1_title; state control panel; X
+PolSys_start_1_desc; ; X
+TITLE1000000; main bar; X
+DESC1000000; ; X
+OPTION1_1000000; population; X
+OPTION2_1000000; State; X
+TITLE1000001; population; X
+DESC1000001; ; X
+OPTION1_1000001; Limiting growth; X
+OPTION2_1000001; Limiting growth in satellites; X
+OPTION3_1000001; Internal Migration; X
+OPTION4_1000001; Remove modifiers; X
+TITLE1000002; State; X
+DESC1000002; ; X
+OPTION1_1000002; Paradigms; X
+OPTION2_1000002; ; X
+TITLE10000011; Limiting growth; X
+DESC10000011; ; X
+OPTION1_10000011; Europe; X
+OPTION2_10000011; Asia; X
+OPTION3_10000011; Africa; X
+OPTION4_10000011; Sev. America; X
+OPTION5_10000011; South. America; X
+OPTION6_10000011; Oceania; X
+OPTION7_10000011; Remove modifiers; X
+TITLE10000012; Limiting growth in satellites; X
+DESC10000012; ; X
+OPTION1_10000012; Europe; X
+OPTION2_10000012; Asia; X
+OPTION3_10000012; Africa; X
+OPTION4_10000012; Sev. America; X
+OPTION5_10000012; South. America; X
+OPTION6_10000012; Oceania; X
+OPTION7_10000012; Remove modifiers; X
+TITLE10000013; Internal Migration; X
+DESC10000013; ; X
+OPTION1_10000013; Europe; X
+OPTION2_10000013; Asia; X
+OPTION3_10000013; Africa; X
+OPTION4_10000013; Sev. America; X
+OPTION5_10000013; South. America; X
+OPTION6_10000013; Oceania; X
+OPTION7_10000013; Remove modifiers; X
+TITLE10000021; State paradigm; X
+DESC10000021; ; X
+OPTION1_10000021; Military; X
+OPTION2_10000021; ; X
+TITLE100000111; Limiting growth in Europe; X
+DESC100000111; ; X
+OPTION1_100000111; teachers; X
+OPTION2_100000111; Soldiers; X
+OPTION3_100000111; Workers; X
+OPTION4_100000111; Employees; X
+OPTION5_100000111; servicer; X
+OPTION6_100000111; Remove modifiers; X
+TITLE100000112; Limiting growth in Asia; X
+DESC100000112; ; X
+OPTION1_100000112; teachers; X
+OPTION2_100000112; Soldiers; X
+OPTION3_100000112; Workers; X
+OPTION4_100000112; Employees; X
+OPTION5_100000112; servicer; X
+OPTION6_100000112; Remove modifiers; X
+TITLE100000113; Limiting growth in Africa; X
+DESC100000113; ; X
+OPTION1_100000113; teachers; X
+OPTION2_100000113; Soldiers; X
+OPTION3_100000113; Workers; X
+OPTION4_100000113; Employees; X
+OPTION5_100000113; servicer; X
+OPTION6_100000113; Remove modifiers; X
+TITLE100000114; limited growth in the North. America; X
+DESC100000114; ; X
+OPTION1_100000114; teachers; X
+OPTION2_100000114; Soldiers; X
+OPTION3_100000114; Workers; X
+OPTION4_100000114; Employees; X
+OPTION5_100000114; servicer; X
+OPTION6_100000114; Remove modifiers; X
+TITLE100000115; Limiting growth in South. America; X
+DESC100000115; ; X
+OPTION1_100000115; teachers; X
+OPTION2_100000115; Soldiers; X
+OPTION3_100000115; Workers; X
+OPTION4_100000115; Employees; X
+OPTION5_100000115; servicer; X
+OPTION6_100000115; Remove modifiers; X
+TITLE100000116; Limiting growth in Oceania; X
+DESC100000116; ; X
+OPTION1_100000116; teachers; X
+OPTION2_100000116; Soldiers; X
+OPTION3_100000116; Workers; X
+OPTION4_100000116; Employees; X
+OPTION5_100000116; servicer; X
+OPTION6_100000116; Remove modifiers; X
+TITLE100000121; Growth Restriction among satellites in Europe; X
+DESC100000121; ; X
+OPTION1_100000121; teachers; X
+OPTION2_100000121; Soldiers; X
+OPTION3_100000121; Workers; X
+OPTION4_100000121; Employees; X
+OPTION5_100000121; servicer; X
+OPTION6_100000121 ;; X
+TITLE100000122; Growth Restriction among satellites in Asia; X
+DESC100000122; ; X
+OPTION1_100000122; teachers; X
+OPTION2_100000122; Soldiers; X
+OPTION3_100000122; Workers; X
+OPTION4_100000122; Employees; X
+OPTION5_100000122; servicer; X
+OPTION6_100000122; Remove modifiers; X
+TITLE100000123; Growth Restriction among satellites in Africa; X
+DESC100000123; ; X
+OPTION1_100000123; teachers; X
+OPTION2_100000123; Soldiers; X
+OPTION3_100000123; Workers; X
+OPTION4_100000123; Employees; X
+OPTION5_100000123; servicer; X
+OPTION6_100000123; Remove modifiers; X
+TITLE100000124; Limiting growth in the satellite in the North. America; X
+DESC100000124; ; X
+OPTION1_100000124; teachers; X
+OPTION2_100000124; Soldiers; X
+OPTION3_100000124; Workers; X
+OPTION4_100000124; Employees; X
+OPTION5_100000124; servicer; X
+OPTION6_100000124; Remove modifiers; X
+TITLE100000125; Growth Restriction among satellites in South. America; X
+DESC100000125; ; X
+OPTION1_100000125; teachers; X
+OPTION2_100000125; Soldiers; X
+OPTION3_100000125; Workers; X
+OPTION4_100000125; Employees; X
+OPTION5_100000125; servicer; X
+OPTION6_100000125; Remove modifiers; X
+TITLE100000126; Growth Restriction among satellites in Oceania; X
+DESC100000126; ; X
+OPTION1_100000126; teachers; X
+OPTION2_100000126; Soldiers; X
+OPTION3_100000126; Workers; X
+OPTION4_100000126; Employees; X
+OPTION5_100000126; servicer; X
+OPTION6_100000126; Remove modifiers; X
+TITLE100000131; migration in Europe; X
+DESC100000131; ; X
+OPTION1_100000131; Stop; X
+OPTION2_100000131 ;; X
+OPTION3_100000131; Remove modifiers; X
+TITLE100000132; Migration in Asia; X
+DESC100000132; ; X
+OPTION1_100000132; Stop; X
+OPTION2_100000132; Increase; X
+OPTION3_100000132; Remove modifiers; X
+TITLE100000133; Migration in Africa; X
+DESC100000133; ; X
+OPTION1_100000133; Stop; X
+OPTION2_100000133; Increase; X
+OPTION3_100000133; Remove modifiers; X
+TITLE100000134; Migration to the North. America; X
+DESC100000134; ; X
+OPTION1_100000134; Stop; X
+OPTION2_100000134; Increase; X
+OPTION3_100000134; Remove modifiers; X
+TITLE100000135; Migration to South. America; X
+DESC100000135; ; X
+OPTION1_100000135; Stop; X
+OPTION2_100000135; Increase; X
+OPTION3_100000135; Remove modifiers; X
+TITLE100000136; Migration in Oceania; X
+DESC100000136; ; X
+OPTION1_100000136; Stop; X
+OPTION2_100000136; Increase; X
+OPTION3_100000136; Remove modifiers; X
+TITLE100000211; Military; X
+DESC100000211; ; X
+OPTION1_100000211; conscription; X
+OPTION2_100000211; call for 10 years (200 days); X
+OPTION3_100000211; Call for 7 years (400 days); X
+OPTION4_100000211; 4 years Call (600 days); X
+OPTION5_100000211; call for 1 year (800 days); X
+OPTION6_100000211; Contract Army (1000 days); X
+TITLE100000212; Military; X
+DESC100000212; ; X
+OPTION1_100000212; conscription (200 days); X
+OPTION2_100000212; call for 10 years; X
+OPTION3_100000212; Call for 7 years (200 days); X
+OPTION4_100000212; 4 years Call (400 days); X
+OPTION5_100000212; call for 1 year (600 days); X
+OPTION6_100000212; contract army (800 days); X
+TITLE100000213; Military; X
+DESC100000213; ; X
+OPTION1_100000213; conscription (400 days); X
+OPTION2_100000213; call for 10 years (200 days); X
+OPTION3_100000213; Call for 7 years; X
+OPTION4_100000213; 4 years Call (200 days); X
+OPTION5_100000213; call for 1 year (400 days); X
+OPTION6_100000213; contract army (600 days); X
+TITLE100000214; Military; X
+DESC100000214; ; X
+OPTION1_100000214; conscription (600 days); X
+OPTION2_100000214; call for 10 years (400 days); X
+OPTION3_100000214; Call for 7 years (200 days); X
+OPTION4_100000214; call for 4 years; X
+OPTION5_100000214; call for 1 year (200 days); X
+OPTION6_100000214; contract army (400 days); X
+TITLE100000215; Military; X
+DESC100000215; ; X
+OPTION1_100000215; conscription (800 days); X
+OPTION2_100000215; call for 10 years (600 days); X
+OPTION3_100000215; Call for 7 years (400 days); X
+OPTION4_100000215; 4 years Call (200 days); X
+OPTION5_100000215; call for 1 year; X
+OPTION6_100000215; contract army (200 days); X
+TITLE100000216; Military; X
+DESC100000216; ; X
+OPTION1_100000216; conscription (1000 days); X
+OPTION2_100000216; call for 10 years (800 days); X
+OPTION3_100000216; Call for 7 years (600 days); X
+OPTION4_100000216; 4 years Call (400 days); X
+OPTION5_100000216; call for 1 year (200 days); X
+OPTION6_100000216; contract army; X
+TITLE100000217; Military; X
+DESC100000217; ; X
+OPTION1_100000217; conscription; X
+OPTION2_100000217; call for 10 years; X
+OPTION3_100000217; Call for 7 years; X
+OPTION4_100000217; call for 4 years; X
+OPTION5_100000217; call for 1 year; X
+OPTION6_100000217; contract army; X
+TITLE1000001111; Limitation teachers growth in Europe; X
+DESC1000001111; ; X
+OPTION1_1000001111;0%; X
+OPTION2_1000001111;1%; X
+OPTION3_1000001111;2%; X
+OPTION4_1000001111;3%; X
+OPTION5_1000001111; Remove modifiers; X
+TITLE1000001112; Limitation of the soldier growth in Europe; X
+DESC1000001112; ; X
+OPTION1_1000001112;0%; X
+OPTION2_1000001112;1%; X
+OPTION3_1000001112;2%; X
+OPTION4_1000001112;3%; X
+OPTION5_1000001112; Remove modifiers; X
+TITLE1000001113; Limitation proletarians growth in Europe; X
+DESC1000001113; ; X
+OPTION1_1000001113;0%; X
+OPTION2_1000001113;5%; X
+OPTION3_1000001113;10%; X
+OPTION4_1000001113;20%; X
+OPTION5_1000001113; Remove modifiers; X
+TITLE1000001114; Restricting employees growth in Europe; X
+DESC1000001114; ; X
+OPTION1_1000001114;0%; X
+OPTION2_1000001114;2%; X
+OPTION3_1000001114;4%; X
+OPTION4_1000001114;8%; X
+OPTION5_1000001114; Remove modifiers; X
+TITLE1000001115; Limitation servicers growth in Europe; X
+DESC1000001115; ; X
+OPTION1_1000001115;0%; X
+OPTION2_1000001115;5%; X
+OPTION3_1000001115;10%; X
+OPTION4_1000001115;20%; X
+OPTION5_1000001115; Remove modifiers; X
+TITLE1000001121; Limitation teachers growth in Asia; X
+DESC1000001121; ; X
+OPTION1_1000001121;0%; X
+OPTION2_1000001121;1%; X
+OPTION3_1000001121;2%; X
+OPTION4_1000001121;3%; X
+OPTION5_1000001121; Remove modifiers; X
+TITLE1000001122; Limitation of the soldier growth in Asia; X
+DESC1000001122; ; X
+OPTION1_1000001122;0%; X
+OPTION2_1000001122;1%; X
+OPTION3_1000001122;2%; X
+OPTION4_1000001122;3%; X
+OPTION5_1000001122; Remove modifiers; X
+TITLE1000001123; Limitation proletarians growth in Asia; X
+DESC1000001123; ; X
+OPTION1_1000001123;0%; X
+OPTION2_1000001123;5%; X
+OPTION3_1000001123;10%; X
+OPTION4_1000001123;20%; X
+OPTION5_1000001123; Remove modifiers; X
+TITLE1000001124; Restricting employees growth in Asia; X
+DESC1000001124; ; X
+OPTION1_1000001124;0%; X
+OPTION2_1000001124;2%; X
+OPTION3_1000001124;4%; X
+OPTION4_1000001124;8%; X
+OPTION5_1000001124; Remove modifiers; X
+TITLE1000001125; Limiting growth in Asia servicers; X
+DESC1000001125; ; X
+OPTION1_1000001125;0%; X
+OPTION2_1000001125;5%; X
+OPTION3_1000001125;10%; X
+OPTION4_1000001125;20%; X
+OPTION5_1000001125; Remove modifiers; X
+TITLE1000001131; Limitation teachers growth in Africa; X
+DESC1000001131; ; X
+OPTION1_1000001131;0%; X
+OPTION2_1000001131;1%; X
+OPTION3_1000001131;2%; X
+OPTION4_1000001131;3%; X
+OPTION5_1000001131; Remove modifiers; X
+TITLE1000001132; Limitation of the soldier growth in Africa; X
+DESC1000001132; ; X
+OPTION1_1000001132;0%; X
+OPTION2_1000001132;1%; X
+OPTION3_1000001132;2%; X
+OPTION4_1000001132;3%; X
+OPTION5_1000001132; Remove modifiers; X
+TITLE1000001133; Limitation proletarians growth in Africa; X
+DESC1000001133; ; X
+OPTION1_1000001133;0%; X
+OPTION2_1000001133;5%; X
+OPTION3_1000001133;10%; X
+OPTION4_1000001133;20%; X
+OPTION5_1000001133; Remove modifiers; X
+TITLE1000001134; Limiting the growth of civil servants in Africa; X
+DESC1000001134; ; X
+OPTION1_1000001134;0%; X
+OPTION2_1000001134;2%; X
+OPTION3_1000001134;4%; X
+OPTION4_1000001134;8%; X
+OPTION5_1000001134; Remove modifiers; X
+TITLE1000001135; Limitation servicers growth in Africa; X
+DESC1000001135; ; X
+OPTION1_1000001135;0%; X
+OPTION2_1000001135;5%; X
+OPTION3_1000001135;10%; X
+OPTION4_1000001135;20%; X
+OPTION5_1000001135; Remove modifiers; X
+TITLE1000001141; Limiting growth of teachers in the North. America; X
+DESC1000001141; ; X
+OPTION1_1000001141;0%; X
+OPTION2_1000001141;1%; X
+OPTION3_1000001141;2%; X
+OPTION4_1000001141;3%; X
+OPTION5_1000001141; Remove modifiers; X
+TITLE1000001142; Limitation of the soldier growth in the North. America; X
+DESC1000001142; ; X
+OPTION1_1000001142;0%; X
+OPTION2_1000001142;1%; X
+OPTION3_1000001142;2%; X
+OPTION4_1000001142;3%; X
+OPTION5_1000001142; Remove modifiers; X
+TITLE1000001143; Limitation proletarians growth in the North. America; X
+DESC1000001143; ; X
+OPTION1_1000001143;0%; X
+OPTION2_1000001143;5%; X
+OPTION3_1000001143;10%; X
+OPTION4_1000001143;20%; X
+OPTION5_1000001143; Remove modifiers; X
+TITLE1000001144; Restricting employees growth in the North. America; X
+DESC1000001144; ; X
+OPTION1_1000001144;0%; X
+OPTION2_1000001144;2%; X
+OPTION3_1000001144;4%; X
+OPTION4_1000001144;8%; X
+OPTION5_1000001144; Remove modifiers; X
+TITLE1000001145; Growth Restriction servicers in the North. America; X
+DESC1000001145; ; X
+OPTION1_1000001145;0%; X
+OPTION2_1000001145;5%; X
+OPTION3_1000001145;10%; X
+OPTION4_1000001145;20%; X
+OPTION5_1000001145; Remove modifiers; X
+TITLE1000001151; Limiting growth of teachers in the South. America; X
+DESC1000001151; ; X
+OPTION1_1000001151;0%; X
+OPTION2_1000001151;1%; X
+OPTION3_1000001151;2%; X
+OPTION4_1000001151;3%; X
+OPTION5_1000001151; Remove modifiers; X
+TITLE1000001152; Limitation of the soldier growth in the South. America; X
+DESC1000001152; ; X
+OPTION1_1000001152;0%; X
+OPTION2_1000001152;1%; X
+OPTION3_1000001152;2%; X
+OPTION4_1000001152;3%; X
+OPTION5_1000001152; Remove modifiers; X
+TITLE1000001153; Limiting growth in South proletarians. America; X
+DESC1000001153; ; X
+OPTION1_1000001153;0%; X
+OPTION2_1000001153;5%; X
+OPTION3_1000001153;10%; X
+OPTION4_1000001153;20%; X
+OPTION5_1000001153; Remove modifiers; X
+TITLE1000001154; Restricting employees growth in South. America; X
+DESC1000001154; ; X
+OPTION1_1000001154;0%; X
+OPTION2_1000001154;2%; X
+OPTION3_1000001154;4%; X
+OPTION4_1000001154;8%; X
+OPTION5_1000001154; Remove modifiers; X
+TITLE1000001155; Growth Restriction servicers in the South. America; X
+DESC1000001155; ; X
+OPTION1_1000001155;0%; X
+OPTION2_1000001155;5%; X
+OPTION3_1000001155;10%; X
+OPTION4_1000001155;20%; X
+OPTION5_1000001155; Remove modifiers; X
+TITLE1000001161; Limiting the growth of teachers in Oceania; X
+DESC1000001161; ; X
+OPTION1_1000001161;0%; X
+OPTION2_1000001161;1%; X
+OPTION3_1000001161;2%; X
+OPTION4_1000001161;3%; X
+OPTION5_1000001161; Remove modifiers; X
+TITLE1000001162; Limitation of the soldier growth in Oceania; X
+DESC1000001162; ; X
+OPTION1_1000001162;0%; X
+OPTION2_1000001162;1%; X
+OPTION3_1000001162;2%; X
+OPTION4_1000001162;3%; X
+OPTION5_1000001162; Remove modifiers; X
+TITLE1000001163; Limiting the growth of the proletariat in Oceania; X
+DESC1000001163; ; X
+OPTION1_1000001163;0%; X
+OPTION2_1000001163;5%; X
+OPTION3_1000001163;10%; X
+OPTION4_1000001163;20%; X
+OPTION5_1000001163; Remove modifiers; X
+TITLE1000001164; Limitation of employees Growth in Oceania; X
+DESC1000001164; ; X
+OPTION1_1000001164;0%; X
+OPTION2_1000001164;2%; X
+OPTION3_1000001164;4%; X
+OPTION4_1000001164;8%; X
+OPTION5_1000001164; Remove modifiers; X
+TITLE1000001165; Limiting growth servicers in Oceania; X
+DESC1000001165; ; X
+OPTION1_1000001165;0%; X
+OPTION2_1000001165;5%; X
+OPTION3_1000001165;10%; X
+OPTION4_1000001165;20%; X
+OPTION5_1000001165; Remove modifiers; X
+TITLE1000001211; teachers growth Limiting the satellites in Europe; X
+DESC1000001211; ; X
+OPTION1_1000001211;0%; X
+OPTION2_1000001211;1%; X
+OPTION3_1000001211;2%; X
+OPTION4_1000001211;3%; X
+OPTION5_1000001211; Remove modifiers; X
+TITLE1000001212; soldiers Growth Restriction among satellites in Europe; X
+DESC1000001212; ; X
+OPTION1_1000001212;0%; X
+OPTION2_1000001212;1%; X
+OPTION3_1000001212;2%; X
+OPTION4_1000001212;3%; X
+OPTION5_1000001212; Remove modifiers; X
+TITLE1000001213; proletarians Growth Restriction among satellites in Europe; X
+DESC1000001213; ; X
+OPTION1_1000001213;0%; X
+OPTION2_1000001213;5%; X
+OPTION3_1000001213;10%; X
+OPTION4_1000001213;20%; X
+OPTION5_1000001213; Remove modifiers; X
+TITLE1000001214; employees Growth Restriction of the satellites in Europe; X
+DESC1000001214; ; X
+OPTION1_1000001214;0%; X
+OPTION2_1000001214;2%; X
+OPTION3_1000001214;4%; X
+OPTION4_1000001214;8%; X
+OPTION5_1000001214; Remove modifiers; X
+TITLE1000001215; servicers Growth Restriction among satellites in Europe; X
+DESC1000001215; ; X
+OPTION1_1000001215;0%; X
+OPTION2_1000001215;5%; X
+OPTION3_1000001215;10%; X
+OPTION4_1000001215;20%; X
+OPTION5_1000001215; Remove modifiers; X
+TITLE1000001221; teachers Limiting growth in satellites in Asia; X
+DESC1000001221; ; X
+OPTION1_1000001221;0%; X
+OPTION2_1000001221;1%; X
+OPTION3_1000001221;2%; X
+OPTION4_1000001221;3%; X
+OPTION5_1000001221; Remove modifiers; X
+TITLE1000001222; Limitation of the soldier growth in satellites in Asia; X
+DESC1000001222; ; X
+OPTION1_1000001222;0%; X
+OPTION2_1000001222;1%; X
+OPTION3_1000001222;2%; X
+OPTION4_1000001222;3%; X
+OPTION5_1000001222; Remove modifiers; X
+TITLE1000001223; proletarians Growth Restriction among satellites in Asia; X
+DESC1000001223; ; X
+OPTION1_1000001223;0%; X
+OPTION2_1000001223;5%; X
+OPTION3_1000001223;10%; X
+OPTION4_1000001223;20%; X
+OPTION5_1000001223; Remove modifiers; X
+TITLE1000001224; employees Growth Restriction of the satellites in Asia; X
+DESC1000001224; ; X
+OPTION1_1000001224;0%; X
+OPTION2_1000001224;2%; X
+OPTION3_1000001224;4%; X
+OPTION4_1000001224;8%; X
+OPTION5_1000001224; Remove modifiers; X
+TITLE1000001225; servicers Growth Restriction among satellites in Asia; X
+DESC1000001225; ; X
+OPTION1_1000001225;0%; X
+OPTION2_1000001225;5%; X
+OPTION3_1000001225;10%; X
+OPTION4_1000001225;20%; X
+OPTION5_1000001225; Remove modifiers; X
+TITLE1000001231; teachers Limiting growth in the satellite in Africa; X
+DESC1000001231; ; X
+OPTION1_1000001231;0%; X
+OPTION2_1000001231;1%; X
+OPTION3_1000001231;2%; X
+OPTION4_1000001231;3%; X
+OPTION5_1000001231; Remove modifiers; X
+TITLE1000001232; Limitation of the soldier growth in the satellite in Africa; X
+DESC1000001232; ; X
+OPTION1_1000001232;0%; X
+OPTION2_1000001232;1%; X
+OPTION3_1000001232;2%; X
+OPTION4_1000001232;3%; X
+OPTION5_1000001232; Remove modifiers; X
+TITLE1000001233; Limiting the growth of the proletarians from satellites in Africa; X
+DESC1000001233; ; X
+OPTION1_1000001233;0%; X
+OPTION2_1000001233;5%; X
+OPTION3_1000001233;10%; X
+OPTION4_1000001233;20%; X
+OPTION5_1000001233; Remove modifiers; X
+TITLE1000001234; employees Growth Restriction of the satellites in Africa; X
+DESC1000001234; ; X
+OPTION1_1000001234;0%; X
+OPTION2_1000001234;2%; X
+OPTION3_1000001234;4%; X
+OPTION4_1000001234;8%; X
+OPTION5_1000001234; Remove modifiers; X
+TITLE1000001235; Limiting growth servicers have satellites in Africa; X
+DESC1000001235; ; X
+OPTION1_1000001235;0%; X
+OPTION2_1000001235;5%; X
+OPTION3_1000001235;10%; X
+OPTION4_1000001235;20%; X
+OPTION5_1000001235; Remove modifiers; X
+TITLE1000001241; teachers Limiting growth in the satellite in the North. America; X
+DESC1000001241; ; X
+OPTION1_1000001241;0%; X
+OPTION2_1000001241;1%; X
+OPTION3_1000001241;2%; X
+OPTION4_1000001241;3%; X
+OPTION5_1000001241; Remove modifiers; X
+TITLE1000001242; soldiers Growth Restriction from satellites in the North. America; X
+DESC1000001242; ; X
+OPTION1_1000001242;0%; X
+OPTION2_1000001242;1%; X
+OPTION3_1000001242;2%; X
+OPTION4_1000001242;3%; X
+OPTION5_1000001242; Remove modifiers; X
+TITLE1000001243; proletarians Growth Restriction from satellites in the North. America; X
+DESC1000001243; ; X
+OPTION1_1000001243;0%; X
+OPTION2_1000001243;5%; X
+OPTION3_1000001243;10%; X
+OPTION4_1000001243;20%; X
+OPTION5_1000001243; Remove modifiers; X
+TITLE1000001244; employees Growth Restriction of the satellites in the North. America; X
+DESC1000001244; ; X
+OPTION1_1000001244;0%; X
+OPTION2_1000001244;2%; X
+OPTION3_1000001244;4%; X
+OPTION4_1000001244;8%; X
+OPTION5_1000001244; Remove modifiers; X
+TITLE1000001245; servicers Growth Restriction from satellites in the North. America; X
+DESC1000001245; ; X
+OPTION1_1000001245;0%; X
+OPTION2_1000001245;5%; X
+OPTION3_1000001245;10%; X
+OPTION4_1000001245;20%; X
+OPTION5_1000001245; Remove modifiers; X
+TITLE1000001251; teachers Limiting growth in satellites in South. America; X
+DESC1000001251; ; X
+OPTION1_1000001251;0%; X
+OPTION2_1000001251;1%; X
+OPTION3_1000001251;2%; X
+OPTION4_1000001251;3%; X
+OPTION5_1000001251; Remove modifiers; X
+TITLE1000001252; soldiers Growth Restriction from satellites in the South. America; X
+DESC1000001252; ; X
+OPTION1_1000001252;0%; X
+OPTION2_1000001252;1%; X
+OPTION3_1000001252;2%; X
+OPTION4_1000001252;3%; X
+OPTION5_1000001252; Remove modifiers; X
+TITLE1000001253; proletarians Growth Restriction from satellites in the South. America; X
+DESC1000001253; ; X
+OPTION1_1000001253;0%; X
+OPTION2_1000001253;5%; X
+OPTION3_1000001253;10%; X
+OPTION4_1000001253;20%; X
+OPTION5_1000001253; Remove modifiers; X
+TITLE1000001254; employees Growth Restriction of the satellites in the South. America; X
+DESC1000001254; ; X
+OPTION1_1000001254;0%; X
+OPTION2_1000001254;2%; X
+OPTION3_1000001254;4%; X
+OPTION4_1000001254;8%; X
+OPTION5_1000001254; Remove modifiers; X
+TITLE1000001255; servicers Growth Restriction from satellites in the South. America; X
+DESC1000001255; ; X
+OPTION1_1000001255;0%; X
+OPTION2_1000001255;5%; X
+OPTION3_1000001255;10%; X
+OPTION4_1000001255;20%; X
+OPTION5_1000001255; Remove modifiers; X
+TITLE1000001261; Limiting the growth of teachers from satellites in Oceania; X
+DESC1000001261; ; X
+OPTION1_1000001261;0%; X
+OPTION2_1000001261;1%; X
+OPTION3_1000001261;2%; X
+OPTION4_1000001261;3%; X
+OPTION5_1000001261; Remove modifiers; X
+TITLE1000001262; Limitation of the soldier growth of the satellites in the Pacific; X
+DESC1000001262; ; X
+OPTION1_1000001262;0%; X
+OPTION2_1000001262;1%; X
+OPTION3_1000001262;2%; X
+OPTION4_1000001262;3%; X
+OPTION5_1000001262; Remove modifiers; X
+TITLE1000001263; Limiting the growth of the proletarians from satellites in Oceania; X
+DESC1000001263; ; X
+OPTION1_1000001263;0%; X
+OPTION2_1000001263;5%; X
+OPTION3_1000001263;10%; X
+OPTION4_1000001263;20%; X
+OPTION5_1000001263; Remove modifiers; X
+TITLE1000001264; Limiting growth in employees satellites in Oceania; X
+DESC1000001264; ; X
+OPTION1_1000001264;0%; X
+OPTION2_1000001264;2%; X
+OPTION3_1000001264;4%; X
+OPTION4_1000001264;8%; X
+OPTION5_1000001264; Remove modifiers; X
+TITLE1000001265; Limiting growth servicers have satellites in Oceania; X
+DESC1000001265; ; X
+OPTION1_1000001265;0%; X
+OPTION2_1000001265;5%; X
+OPTION3_1000001265;10%; X
+OPTION4_1000001265;20%; X
+OPTION5_1000001265; Remove modifiers; X
+pops_regionPOP_europe_servicers_0; Province Europe max 0% servicers; X
+pops_regionPOP_europe_servicers_1; Province Europe max 5% servicers; X
+pops_regionPOP_europe_servicers_2; Province Europe max 10% of servicers; X
+pops_regionPOP_europe_servicers_3; Province Europe max 15% of servicers; X
+pops_regionPOP_europe_clerks_0; Province Europe max 0% of employees; X
+pops_regionPOP_europe_clerks_1; Province Europe max 2% of employees; X
+pops_regionPOP_europe_clerks_2; Province Europe max 4% of employees; X
+pops_regionPOP_europe_clerks_3; Province Europe max 10% of employees; X
+pops_regionPOP_europe_craftsmen_0; Province Europe max 0% proletarians; X
+pops_regionPOP_europe_craftsmen_1; Province Europe max 5% of the proletarians; X
+pops_regionPOP_europe_craftsmen_2; Province Europe max 10% of the proletarians; X
+pops_regionPOP_europe_craftsmen_3; Province Europe max 20% of the proletarians; X
+pops_regionPOP_europe_soldiers_0; Province Europe 0% max soldiers; X
+pops_regionPOP_europe_soldiers_1; Province Europe max 1% of the soldiers; X
+pops_regionPOP_europe_soldiers_2; Province Europe max 2% of the soldiers; X
+pops_regionPOP_europe_soldiers_3; Province Europe max 3% of soldiers; X
+pops_regionPOP_europe_clergymen_0; Province Europe max 0% of teachers; X
+pops_regionPOP_europe_clergymen_1; Province Europe max 1% of teachers; X
+pops_regionPOP_europe_clergymen_2; Province Europe max 2% of teachers; X
+pops_regionPOP_europe_clergymen_3; Province Europe max 3% of teachers; X
+pops_regionPOP_asia_servicers_0; Asia Province 0% max servicers; X
+pops_regionPOP_asia_servicers_1; Asia province Servicer max 5%; X
+pops_regionPOP_asia_servicers_2; Asia province Servicer max 10%; X
+pops_regionPOP_asia_servicers_3; Asia province Servicer max 15%; X
+pops_regionPOP_asia_clerks_0; Province Asian max 0% of employees; X
+pops_regionPOP_asia_clerks_1; Province Asian max 2% of employees; X
+pops_regionPOP_asia_clerks_2; Province Asian max 4% of employees; X
+pops_regionPOP_asia_clerks_3; Province Asian max 10% of employees; X
+pops_regionPOP_asia_craftsmen_0; Asia Province 0% max proletarians; X
+pops_regionPOP_asia_craftsmen_1; Asia Province max 5% of the proletarians; X
+pops_regionPOP_asia_craftsmen_2; Province Asian max 10% of the proletarians; X
+pops_regionPOP_asia_craftsmen_3; Asia Province max 20% of the proletarians; X
+pops_regionPOP_asia_soldiers_0; Asia Province 0% max soldiers; X
+pops_regionPOP_asia_soldiers_1; Asia Province max 1% of the soldiers; X
+pops_regionPOP_asia_soldiers_2; Asia Province max 2% of the soldiers; X
+pops_regionPOP_asia_soldiers_3; Asia Province max 3% of soldiers; X
+pops_regionPOP_asia_clergymen_0; Province Asian max 0% of teachers; X
+pops_regionPOP_asia_clergymen_1; Asia Province max 1% of teachers; X
+pops_regionPOP_asia_clergymen_2; Province Asian max 2% of teachers; X
+pops_regionPOP_asia_clergymen_3; Province Asian max 3% of teachers; X
+pops_regionPOP_africa_servicers_0; African province Servicer% max 0; X
+pops_regionPOP_africa_servicers_1; African province Servicer max 5%; X
+pops_regionPOP_africa_servicers_2; African province Servicer max 10%; X
+pops_regionPOP_africa_servicers_3; African province Servicer max 15%; X
+pops_regionPOP_africa_clerks_0; max Africa Province 0% of employees; X
+pops_regionPOP_africa_clerks_1; Africa Province max 2% of employees; X
+pops_regionPOP_africa_clerks_2; Africa Province max 4% of employees; X
+pops_regionPOP_africa_clerks_3; Province of Africa max 10% of employees; X
+pops_regionPOP_africa_craftsmen_0; max Africa Province 0% proletarians; X
+pops_regionPOP_africa_craftsmen_1; Province of Africa max 5% of the proletarians; X
+pops_regionPOP_africa_craftsmen_2; Province of Africa max 10% of the proletarians; X
+pops_regionPOP_africa_craftsmen_3; Province of Africa max 20% of the proletarians; X
+pops_regionPOP_africa_soldiers_0; max Africa Province 0% of the soldiers; X
+pops_regionPOP_africa_soldiers_1; Province of Africa max 1% of the soldiers; X
+pops_regionPOP_africa_soldiers_2; Province of Africa max 2% of the soldiers; X
+pops_regionPOP_africa_soldiers_3; Province of Africa max 3% of soldiers; X
+pops_regionPOP_africa_clergymen_0; max Africa Province 0% of teachers; X
+pops_regionPOP_africa_clergymen_1; Africa Province max 1% of teachers; X
+pops_regionPOP_africa_clergymen_2; Africa Province max 2% of teachers; X
+pops_regionPOP_africa_clergymen_3; Africa Province max 3% of teachers; X
+pops_regionPOP_north_america_servicers_0; Northern Province. America max 0% servicers; X
+pops_regionPOP_north_america_servicers_1; Northern Province. America max 5% servicers; X
+pops_regionPOP_north_america_servicers_2; Northern Province. America max 10% of servicers; X
+pops_regionPOP_north_america_servicers_3; Northern Province. America max 15% of servicers; X
+pops_regionPOP_north_america_clerks_0; Northern Province. America max 0% of employees; X
+pops_regionPOP_north_america_clerks_1; Northern Province. America max 2% of employees; X
+pops_regionPOP_north_america_clerks_2; Northern Province. America max 4% of employees; X
+pops_regionPOP_north_america_clerks_3; Northern Province. America max 10% of employees; X
+pops_regionPOP_north_america_craftsmen_0; Northern Province. America max 0% proletarians; X
+pops_regionPOP_north_america_craftsmen_1; Northern Province. America max 5% of the proletarians; X
+pops_regionPOP_north_america_craftsmen_2; Northern Province. America max 10% of the proletarians; X
+pops_regionPOP_north_america_craftsmen_3; Northern Province. America max 20% of the proletarians; X
+pops_regionPOP_north_america_soldiers_0; Northern Province. Max 0% American soldiers; X
+pops_regionPOP_north_america_soldiers_1; Northern Province. America max 1% of the soldiers; X
+pops_regionPOP_north_america_soldiers_2; Northern Province. American soldiers max 2%; X
+pops_regionPOP_north_america_soldiers_3; Northern Province. American soldiers max 3%; X
+pops_regionPOP_north_america_clergymen_0; Northern Province. America max 0% of teachers; X
+pops_regionPOP_north_america_clergymen_1; Northern Province. America max 1% of teachers; X
+pops_regionPOP_north_america_clergymen_2; Northern Province. America max 2% of teachers; X
+pops_regionPOP_north_america_clergymen_3; Northern Province. America max 3% of teachers; X
+pops_regionPOP_south_america_servicers_0; South Province. America max 0% servicers; X
+pops_regionPOP_south_america_servicers_1; South Province. America max 5% servicers; X
+pops_regionPOP_south_america_servicers_2; South Province. America max 10% of servicers; X
+pops_regionPOP_south_america_servicers_3; South Province. America max 15% of servicers; X
+pops_regionPOP_south_america_clerks_0; South Province. America max 0% of employees; X
+pops_regionPOP_south_america_clerks_1; South Province. America max 2% of employees; X
+pops_regionPOP_south_america_clerks_2; South Province. America max 4% of employees; X
+pops_regionPOP_south_america_clerks_3; South Province. America max 10% of employees; X
+pops_regionPOP_south_america_craftsmen_0; South Province. America max 0% proletarians; X
+pops_regionPOP_south_america_craftsmen_1; South Province. America max 5% of the proletarians; X
+pops_regionPOP_south_america_craftsmen_2; South Province. America max 10% of the proletarians; X
+pops_regionPOP_south_america_craftsmen_3; South Province. America max 20% of the proletarians; X
+pops_regionPOP_south_america_soldiers_0; South Province. Max 0% American soldiers; X
+pops_regionPOP_south_america_soldiers_1; South Province. America max 1% of the soldiers; X
+pops_regionPOP_south_america_soldiers_2; South Province. American soldiers max 2%; X
+pops_regionPOP_south_america_soldiers_3; South Province. American soldiers max 3%; X
+pops_regionPOP_south_america_clergymen_0; South Province. America max 0% of teachers; X
+pops_regionPOP_south_america_clergymen_1; South Province. America max 1% of teachers; X
+pops_regionPOP_south_america_clergymen_2; South Province. America max 2% of teachers; X
+pops_regionPOP_south_america_clergymen_3; South Province. America max 3% of teachers; X
+pops_regionPOP_oceania_servicers_0; Province Oceania max 0% servicers; X
+pops_regionPOP_oceania_servicers_1; Oceania province Servicer max 5%; X
+pops_regionPOP_oceania_servicers_2; Province Oceania max 10% of servicers; X
+pops_regionPOP_oceania_servicers_3; Province Oceania max 15% of servicers; X
+pops_regionPOP_oceania_clerks_0; Province Oceania max 0% of employees; X
+pops_regionPOP_oceania_clerks_1; Province Oceania max 2% of employees; X
+pops_regionPOP_oceania_clerks_2; Province Oceania max 4% of employees; X
+pops_regionPOP_oceania_clerks_3; Province Oceania max 10% of employees; X
+pops_regionPOP_oceania_craftsmen_0; Province Oceania max 0% proletarians; X
+pops_regionPOP_oceania_craftsmen_1; Province Oceania max 5% of the proletarians; X
+pops_regionPOP_oceania_craftsmen_2; Province Oceania max 10% of the proletarians; X
+pops_regionPOP_oceania_craftsmen_3; Province Oceania max 20% of the proletarians; X
+pops_regionPOP_oceania_soldiers_0; Oceania Province 0% max soldiers; X
+pops_regionPOP_oceania_soldiers_1; Province Oceania max 1% of the soldiers; X
+pops_regionPOP_oceania_soldiers_2; Province Oceania max 2% of the soldiers; X
+pops_regionPOP_oceania_soldiers_3; Province Oceania max 3% of soldiers; X
+pops_regionPOP_oceania_clergymen_0; Province Oceania max 0% of teachers; X
+pops_regionPOP_oceania_clergymen_1; Province Oceania max 1% of teachers; X
+pops_regionPOP_oceania_clergymen_2; Province Oceania max 2% of teachers; X
+pops_regionPOP_oceania_clergymen_3; Province Oceania max 3% of teachers; X
+pops_satellitePOP_europe_servicers_0; Satellite Europe max 0% servicers; X
+pops_satellitePOP_europe_servicers_1; Satellite Europe max 5% servicers; X
+pops_satellitePOP_europe_servicers_2; Satellite Europe max 10% of servicers; X
+pops_satellitePOP_europe_servicers_3; Satellite Europe max 15% of servicers; X
+pops_satellitePOP_europe_clerks_0; Satellite Europe max 0% of employees; X
+pops_satellitePOP_europe_clerks_1; Satellite Europe max 2% of employees; X
+pops_satellitePOP_europe_clerks_2; Satellite Europe max 4% of employees; X
+pops_satellitePOP_europe_clerks_3; Satellite max Europe 10% of employees; X
+pops_satellitePOP_europe_craftsmen_0; Satellite Europe max 0% proletarians; X
+pops_satellitePOP_europe_craftsmen_1; Satellite Europe max 5% of the proletarians; X
+pops_satellitePOP_europe_craftsmen_2; Satellite Europe max 10% of the proletarians; X
+pops_satellitePOP_europe_craftsmen_3; Satellite Europe max 20% of the proletarians; X
+pops_satellitePOP_europe_soldiers_0; Satellite Europe 0% max soldiers; X
+pops_satellitePOP_europe_soldiers_1; Satellite Europe max 1% of the soldiers; X
+pops_satellitePOP_europe_soldiers_2; Satellite Europe max 2% of the soldiers; X
+pops_satellitePOP_europe_soldiers_3; Satellite Europe max 3% of soldiers; X
+pops_satellitePOP_europe_clergymen_0; Satellite Europe max 0% of teachers; X
+pops_satellitePOP_europe_clergymen_1; Satellite Europe max 1% of teachers; X
+pops_satellitePOP_europe_clergymen_2; Satellite Europe max 2% of teachers; X
+pops_satellitePOP_europe_clergymen_3; Satellite Europe max 3% of teachers; X
+pops_satellitePOP_asia_servicers_0; Asia Satellite max 0% servicers; X
+pops_satellitePOP_asia_servicers_1; Asia Satellite max 5% servicers; X
+pops_satellitePOP_asia_servicers_2; Asia Satellite max 10% of servicers; X
+pops_satellitePOP_asia_servicers_3; Asia Satellite max 15% of servicers; X
+pops_satellitePOP_asia_clerks_0; Asia Satellite max 0% of employees; X
+pops_satellitePOP_asia_clerks_1; Asia Satellite max 2% of employees; X
+pops_satellitePOP_asia_clerks_2; Asia Satellite max 4% of employees; X
+pops_satellitePOP_asia_clerks_3; Asia Satellite max 10% of employees; X
+pops_satellitePOP_asia_craftsmen_0; Asia Satellite max 0% proletarians; X
+pops_satellitePOP_asia_craftsmen_1; Asia Satellite max 5% of the proletarians; X
+pops_satellitePOP_asia_craftsmen_2; Asia Satellite max 10% of the proletarians; X
+pops_satellitePOP_asia_craftsmen_3; Asia Satellite max 20% of the proletarians; X
+pops_satellitePOP_asia_soldiers_0; Asia Satellite max 0% of the soldiers; X
+pops_satellitePOP_asia_soldiers_1; Asia Satellite max 1% of the soldiers; X
+pops_satellitePOP_asia_soldiers_2; Asia Satellite max 2% of the soldiers; X
+pops_satellitePOP_asia_soldiers_3; Asia Satellite max 3% of soldiers; X
+pops_satellitePOP_asia_clergymen_0; Asia Satellite max 0% of teachers; X
+pops_satellitePOP_asia_clergymen_1; Asia Satellite max 1% of teachers; X
+pops_satellitePOP_asia_clergymen_2; Asia Satellite max 2% of teachers; X
+pops_satellitePOP_asia_clergymen_3; Asia Satellite max 3% of teachers; X
+pops_satellitePOP_africa_servicers_0; Satellite Africa max 0% servicers; X
+pops_satellitePOP_africa_servicers_1; Satellite Africa max 5% servicers; X
+pops_satellitePOP_africa_servicers_2; Satellite Africa max 10% of servicers; X
+pops_satellitePOP_africa_servicers_3; Satellite Africa max 15% of servicers; X
+pops_satellitePOP_africa_clerks_0; Satellite Africa max 0% of employees; X
+pops_satellitePOP_africa_clerks_1; Satellite Africa max 2% of employees; X
+pops_satellitePOP_africa_clerks_2; African Satellite max 4% of employees; X
+pops_satellitePOP_africa_clerks_3; Satellite Africa max 10% of employees; X
+pops_satellitePOP_africa_craftsmen_0; Satellite Africa max 0% proletarians; X
+pops_satellitePOP_africa_craftsmen_1; Satellite Africa max 5% of the proletarians; X
+pops_satellitePOP_africa_craftsmen_2; Satellite Africa max 10% of the proletarians; X
+pops_satellitePOP_africa_craftsmen_3; Satellite Africa max 20% of the proletarians; X
+pops_satellitePOP_africa_soldiers_0; Satellite Africa max 0% of the soldiers; X
+pops_satellitePOP_africa_soldiers_1; Satellite Africa max 1% of the soldiers; X
+pops_satellitePOP_africa_soldiers_2; Satellite Africa max 2% of the soldiers; X
+pops_satellitePOP_africa_soldiers_3; Satellite Africa max 3% of soldiers; X
+pops_satellitePOP_africa_clergymen_0; Satellite Africa max 0% of teachers; X
+pops_satellitePOP_africa_clergymen_1; African Satellite max 1% of teachers; X
+pops_satellitePOP_africa_clergymen_2; Satellite Africa max 2% of teachers; X
+pops_satellitePOP_africa_clergymen_3; Satellite Africa max 3% of teachers; X
+pops_satellitePOP_north_america_servicers_0; Satellite North. America max 0% servicers; X
+pops_satellitePOP_north_america_servicers_1; Satellite North. America max 5% servicers; X
+pops_satellitePOP_north_america_servicers_2; Satellite North. America max 10% of servicers; X
+pops_satellitePOP_north_america_servicers_3; Satellite North. America max 15% of servicers; X
+pops_satellitePOP_north_america_clerks_0; Satellite North. America max 0% of employees; X
+pops_satellitePOP_north_america_clerks_1; Satellite North. America max 2% of employees; X
+pops_satellitePOP_north_america_clerks_2; Satellite North. America max 4% of employees; X
+pops_satellitePOP_north_america_clerks_3; Satellite North. America max 10% of employees; X
+pops_satellitePOP_north_america_craftsmen_0; Satellite North. America max 0% proletarians; X
+pops_satellitePOP_north_america_craftsmen_1; Satellite North. America max 5% of the proletarians; X
+pops_satellitePOP_north_america_craftsmen_2; Satellite North. America max 10% of the proletarians; X
+pops_satellitePOP_north_america_craftsmen_3; Satellite North. America max 20% of the proletarians; X
+pops_satellitePOP_north_america_soldiers_0; Satellite North. Max 0% American soldiers; X
+pops_satellitePOP_north_america_soldiers_1; Satellite North. America max 1% of the soldiers; X
+pops_satellitePOP_north_america_soldiers_2; Satellite North. American soldiers max 2%; X
+pops_satellitePOP_north_america_soldiers_3; Satellite North. American soldiers max 3%; X
+pops_satellitePOP_north_america_clergymen_0; Satellite North. America max 0% of teachers; X
+pops_satellitePOP_north_america_clergymen_1; Satellite North. America max 1% of teachers; X
+pops_satellitePOP_north_america_clergymen_2; Satellite North. America max 2% of teachers; X
+pops_satellitePOP_north_america_clergymen_3; Satellite North. America max 3% of teachers; X
+pops_satellitePOP_south_america_servicers_0; Satellite South. America max 0% servicers; X
+pops_satellitePOP_south_america_servicers_1; Satellite South. America max 5% servicers; X
+pops_satellitePOP_south_america_servicers_2; Satellite South. America max 10% of servicers; X
+pops_satellitePOP_south_america_servicers_3; Satellite South. America max 15% of servicers; X
+pops_satellitePOP_south_america_clerks_0; Satellite South. America max 0% of employees; X
+pops_satellitePOP_south_america_clerks_1; Satellite South. America max 2% of employees; X
+pops_satellitePOP_south_america_clerks_2; Satellite South. America max 4% of employees; X
+pops_satellitePOP_south_america_clerks_3; Satellite South. America max 10% of employees; X
+pops_satellitePOP_south_america_craftsmen_0; Satellite South. America max 0% proletarians; X
+pops_satellitePOP_south_america_craftsmen_1; Satellite South. America max 5% of the proletarians; X
+pops_satellitePOP_south_america_craftsmen_2; Satellite South. America max 10% of the proletarians; X
+pops_satellitePOP_south_america_craftsmen_3; Satellite South. America max 20% of the proletarians; X
+pops_satellitePOP_south_america_soldiers_0; Satellite South. Max 0% American soldiers; X
+pops_satellitePOP_south_america_soldiers_1; Satellite South. America max 1% of the soldiers; X
+pops_satellitePOP_south_america_soldiers_2; Satellite South. American soldiers max 2%; X
+pops_satellitePOP_south_america_soldiers_3; Satellite South. American soldiers max 3%; X
+pops_satellitePOP_south_america_clergymen_0; Satellite South. America max 0% of teachers; X
+pops_satellitePOP_south_america_clergymen_1; Satellite South. America max 1% of teachers; X
+pops_satellitePOP_south_america_clergymen_2; Satellite South. America max 2% of teachers; X
+pops_satellitePOP_south_america_clergymen_3; Satellite South. America max 3% of teachers; X
+pops_satellitePOP_oceania_servicers_0; Satellite Oceania max 0% servicers; X
+pops_satellitePOP_oceania_servicers_1; Satellite Oceania max 5% servicers; X
+pops_satellitePOP_oceania_servicers_2; Satellite Oceania max 10% of servicers; X
+pops_satellitePOP_oceania_servicers_3; Satellite Oceania max 15% of servicers; X
+pops_satellitePOP_oceania_clerks_0; Satellite Oceania max 0% of employees; X
+pops_satellitePOP_oceania_clerks_1; Satellite Oceania max 2% of employees; X
+pops_satellitePOP_oceania_clerks_2; Satellite Oceania max 4% of employees; X
+pops_satellitePOP_oceania_clerks_3; Satellite Oceania max 10% of employees; X
+pops_satellitePOP_oceania_craftsmen_0; Satellite Oceania max 0% proletarians; X
+pops_satellitePOP_oceania_craftsmen_1; Satellite Oceania max 5% of the proletarians; X
+pops_satellitePOP_oceania_craftsmen_2; Satellite Oceania max 10% of the proletarians; X
+pops_satellitePOP_oceania_craftsmen_3; Satellite Oceania max 20% of the proletarians; X
+pops_satellitePOP_oceania_soldiers_0; Satellite Oceania max 0% of the soldiers; X
+pops_satellitePOP_oceania_soldiers_1; Satellite Oceania max 1% of the soldiers; X
+pops_satellitePOP_oceania_soldiers_2; Satellite Oceania max 2% of the soldiers; X
+pops_satellitePOP_oceania_soldiers_3; Satellite Oceania max 3% of soldiers; X
+pops_satellitePOP_oceania_clergymen_0; Satellite Oceania max 0% of teachers; X
+pops_satellitePOP_oceania_clergymen_1; Satellite Oceania max 1% of teachers; X
+pops_satellitePOP_oceania_clergymen_2; Satellite Oceania max 2% of teachers; X
+pops_satellitePOP_oceania_clergymen_3; Satellite Oceania max 3% of teachers; X
+pops_migration_europe_0; no migration into Europe; X
+pops_migration_europe_1; increased migration into Europe; X
+pops_migration_asia_0; no migration into Asia; X
+pops_migration_asia_1; increased migration to Asia; X
+pops_migration_africa_0; no migration into Africa; X
+pops_migration_africa_1; increased migration to Africa; X
+pops_migration_north_america_0; No migration to the North. America; X
+pops_migration_north_america_1; Increased migration to the North. America; X
+pops_migration_south_america_0; No migration to South. America; X
+pops_migration_south_america_1; Increased migration to South. America; X
+pops_migration_oceania_0; No migration to Oceania; X
+pops_migration_oceania_1; increased migration to Oceania; X
+no_draft_1_years_draft; reform of the conscription; X
+1_years_draft_no_draft; reform of the conscription; X
+1_years_draft_4_years_draft; reform of the conscription; X
+4_years_draft_1_years_draft; reform of the conscription; X
+4_years_draft_7_years_draft; reform of the conscription; X
+7_years_draft_4_years_draft; reform of the conscription; X
+7_years_draft_10_years_draft; reform of the conscription; X
+10_years_draft_7_years_draft; reform of the conscription; X
+10_years_draft_recruiting; reform of the conscription; X
+recruiting_10_years_draft; reform of the conscription; X
+PROV313; Oslo; X
+PROV1086; Maoka; X
+PROV1087; Tomari-Aniva; X
+PROV1088; Para-mosiri; X
+PROV1089; Etorop; X
+PROV1469; Tuva; X
+PROV2617; Ussuri; X
+PROV3249; Vladivostok; X
+PROV3250; Ussuriisk; X
+PROV3251; Nakhodka; X
+PROV3252; Plastun; X
+PROV3253; Khabarovsk; X
+PROV3254; Komsomolsk-on-Amur; X
+PROV3255; harbor; X
+PROV3256; Qitaihe; X
+PROV3257; Harbin; X
+PROV3258; Hinggan Ling; X
+PROV3259; Shahtinskii; X
+PROV3260; Birobidzhan; X
+PROV3261; Qinhuangdao; X
+PROV3262; Tangshan; X
+PROV3263; Matadi; X
+PROV3264; Tonghua; X
+FRA_455; Roussillon; X
+AUS_619; Vienna; X
+AUS_6250; Sudeten; X
+AUS_6330; Carpathians; X
+TUR_810; Northern Bulgaria; X
+MOL_673; Western Moldova; X
+EGY_1754; Tripoli; X
+EGY_17541; Tobruk; X
+EGY_1827; Khartoum; x
+TUR_876; Ankara; x
+EGY_903; Homs; x
+EGY_910; Jordan; x
+USA_2472; Maine; x
+USA_2471; Vermont; x
+RUS_2590; Pacific Coast; x
+RUS_1069; Siberia; x
+AMP_england; England;
+AMP_scotland; Scotland;
+AMP_ireland; Ireland;
+AMP_brittain; the British Isles;
+AMP_spain; Spain; X
+AMP_italy; Italy; X
+AMP_lowlands; Low Countries; X
+AMP_belgium; Belgium; X
+AMP_netherlands; Netherlands; X
+AMP_swiss; Switzerland; X
+AMP_polen; Poland; X
+AMP_germany; Germany; X
+AMP_france; France; X
+AMP_northren_germany; Northern Germany;
+AMP_southern_germany; Southern Germany;
+AMP_austria; Austria;
+AMP_czech; Czech Republic;
+AMP_czechoslovakia; Czechoslovakia;
+AMP_croatia; Croatia;
+AMP_slovenia; Slovenia;
+AMP_bosnia; Bosnia;
+AMP_montenegro; Montenegro;
+AMP_serbia; Serbia;
+AMP_albania; Albania;
+AMP_bulgaria; Bulgaria;
+AMP_greece; Greece;
+AMP_yugoslavia; Yugoslavia;
+AMP_moldavia; Moldova;
+AMP_romania; Romania;
+AMP_hungary; Hungary;
+AMP_austrian_empire; Austrian Empire;
+AMP_slovakia; Slovakia;
+AMP_uruguai; Uruguay;
+AMP_chilie; Chile;
+AMP_bolivia; Bolivia;
+AMP_argentina; Argentina;
+AMP_paraguai; Paraguay;
+AMP_brazil; Brazil;
+AMP_peru; Peru;
+AMP_ecuador; Ecuador;
+AMP_columbia; Colombia;
+AMP_venezuela; Venezuela;
+AMP_carribean; Caribbean;
+AMP_centralamerica; Central America;
+AMP_mexico; Mexico;
+AMP_canada; Canada;
+AMP_nippon; Japan;
+AMP_korea; Korea;
+AMP_pacific; Pacific Islands;
+AMP_newzeland; New Zealand;
+AMP_australia; Australia;
+AMP_philipines; Philippines;
+AMP_indonesia; Indonesia;
+AMP_newgvinea; New Guinea;
+AMP_zondean; Sunda Islands;
+AMP_moluccas; Moluccas;
+AMP_borneo; Kalimantan;
+AMP_java; Java;
+AMP_sumatra; Sumatra;
+AMP_indochina; Indochina;
+AMP_vietnam; Vietnam;
+AMP_malay; Malaya;
+AMP_thai; Thailand;
+AMP_myanma; Myanmar;
+AMP_atlanticocean; Atlantic islands;
+AMP_indianocean; the Indian Ocean Islands;
+AMP_india; India;
+AMP_pakistan; Pakistan;
+AMP_afgan; Afghanistan;
+AMP_centralasia; Central Asia;
+AMP_turkestan; Turkestan;
+AMP_uzbek; Uzbekistan;
+AMP_tajik; Tajikistan;
+AMP_turkmen; Turkmenistan;
+AMP_kazakh; Kazakhstan;
+AMP_iran; Iran;
+AMP_omanyemen; Oman and Yemen;
+AMP_arabia; Arabia;
+AMP_iraq; Iraq;
+AMP_transjordan; Transjordan;
+AMP_siria_lebanon; Syria and Lebanon;
+AMP_turkey; Turkey;
+AMP_transcaucassian; Transkavkaz;
+AMP_armenia; Armenia;
+AMP_georgia; Georgia;
+AMP_azer; Azerbaijan;
+AMP_ukraine; Ukraine;
+AMP_belorussia; Belarus;
+AMP_baltic; Baltic States;
+AMP_scandinavia; Scandinavia;
+AMP_finland; Finland;
+AMP_sweden; Sweden;
+AMP_norway; Norway;
+AMP_denmark; Denmark;
+AMP_portugal; Portugal;
+AMP_kirgiz; Kyrgyzstan;
+AMP_usa; USA;
+AMP_pacificusa; Pacific states;
+AMP_mountainusa; Mountain states;
+AMP_westusa; US West;
+AMP_northwestusa; North-western states of the USA;
+AMP_northeastusa; US Northeast;
+AMP_midwestusa; Midwest;
+AMP_atlanticusa; Mid-Atlantic;
+AMP_newenglandusa; New England;
+AMP_northeastusa; US Northeast;
+AMP_southwestusa; South Atlantic states;
+AMP_southeastusa; South-eastern states;
+AMP_southatlanticusa; South Atlantic states;
+AMP_southusa; South USA;
+AMP_chinaports; Chinese concession;
+AMP_manchu; Manchuria;
+AMP_primorie; Primorye;
+AMP_fareast; Far East;
+AMP_northsiberia; Northern Siberia;
+AMP_southsiberia; Southern Siberia;
+AMP_ural; Ural Mountains;
+AMP_gayana; Guyana;
+AMP_northrenrussia; Northern Russia;
+AMP_centralrussia; Central Russia;
+AMP_southernrussia; South Russia;
+AMP_libya; Libya;
+AMP_tunis; Tunisia;
+AMP_algeria; Algeria;
+AMP_morocco; Morocco;
+AMP_egypt; Egypt;
+AMP_ethiopia; Ethiopia;
+AMP_sudan; Sudan;
+AMP_sahara; Sahara;
+AMP_westafrica; West Africa;
+AMP_centralafrica; Central Africa;
+AMP_southafrica; South Africa;
+AMP_eastafrica; East Africa;
+AMP_madagascar; Madagascar;
+AMP_mongolia; Mongolia;
+AMP_xinjiang; Xinjiang;
+AMP_tibet; Tibet;
+AMP_westchina; Western China;
+AMP_southernchina; South China;
+AMP_centralchina; Central China;
+AMP_northchina; North China;
+AMP_westukraine; Western Ukraine;
+AMP_eastkraine; Eastern Ukraine;
+AMP_rhein_germany; Rhineland;
+AMP_northwest_germany; West Germany;
+AMP_northeast_germany; East Germany;
+AMP_prussia; Prussia;
+AMP_germanpolen; German Poland;
+AMP_russianpolen; Russian Poland;
+AMP_austrianpolen; Galicia;
+AMP_Angola; Angola;
+AMP_Benin; Benin;
+AMP_Bostwana; Bostvana;
+AMP_Burkinafaso; Burkina Faso;
+AMP_Burundi; Burundi;
+AMP_Cameroun; Cameroon;
+AMP_Capeverde; Cape Verde;
+AMP_Centralafrica; CAR;
+AMP_Chad; Chad;
+AMP_Congofreestate; Democratic Republic of the Congo;
+AMP_Equatorialguinea; Equatorial Guinea;
+AMP_Gabon; Gabon;
+AMP_Ghana; Ghana;
+AMP_Guineabarsu; Guinea Bars;
+AMP_Guinea; Guinea;
+AMP_Invorycoast; Cote d'Ivoire;
+AMP_Kenya; Kenya;
+AMP_Malawi; Malawi;
+AMP_Mali; Mali;
+AMP_Mauritania; Mauritania;
+AMP_Mozambique; Mozambique;
+AMP_Nambia; Namibia;
+AMP_Niger; Niger;
+AMP_Nigeria; Nigeria;
+AMP_Republicofcongo; Republic of the Congo;
+AMP_Rwanda; Rwanda;
+AMP_Senegal; Senegal;
+AMP_Sierraleone; Sierra Leone;
+AMP_Somalia; Somalia;
+AMP_Tanzania; Tanzania;
+AMP_Togo; Togo;
+AMP_Uganda; Uganda;
+AMP_Zambia; Zambia;
+AMP_Zimbabwe; Zimbabwe;
+AMP_southafrica; Dominion of South Africa;
+AMP_Liberia; Liberia;
+boreal_forest; Snowy forest; X
+semi_desert; Semi-desert; X
+hilly_grassland; Hilly steppe; X
+scottish; Scots; X
+truesight; There TruSite merged million Russian soldiers unsuccessfully storming the garrison Savchenko; X
+liberal_rebels_title; liberals; X
+liberal_rebels_name; liberals; X
+absolute_monarchy_ruler; Emperor; X
+prussian_constitutionalism_ruler; Emperor; X
+artisans; Merchants; X
+clergymen; teachers; X
+craftsmen; Workers; X
+latin-german; Latinogermantsy; X
+slav; Slavs; X
+arabi-turk; Arabotyurki; X
+hindu; Hindus; X
+mongoloid; Mongoloids; X
+negroid; Negroid; X
+american_native; Indians; X
+iron_ore; Iron ore; X
+cooper_ore; Copper ore; X
+tin_ore; Tin Ore; X
+plumbum_ore; Lead ore; X
+nitrogen_ore; Nitrates; X
+tin; tin; X
+cooper; Copper; X
+lead; Lead; X
+engine; Engines; X
+list; Rental; X
+rubbers; Rubber; X
+rail; rails; X
+pipe; tubes; X
+cast_iron; iron; X
+bronze; bronze; X
+uniform; military form; X
+cooper_cooper_factory; Copper dressing; X
+lead_lead_factory; Lead dressing; X
+tin_tin_factory; Tin dressing; X
+bronze_factory; bronze casting plant; X
+cast_iron_factory; Iron Foundry; X
+pipe_factory; Tube Works; X
+list_factory; Casting and Rolling Plant; X
+rail_factory; Rail plant; X
+engine_factory; Motor Plant; X
+uniform_factory; for uniform production factory; X
+rubbers_factory; rubber vulcanization workshop; X
+bronze_list_factory; Bronze. Casting-rolling plant; X
+bronze_pipe_factory; Bronze. Pipe Plant; X
+canned_fish_factory; canned fish factory, X;
+canned_cattle_factory; canned meat plant, X;
+nitrogen_ore_RGO_SIZE; Size nitratovyh mines; X
+tin_ore_RGO_SIZE; Size tin-mining mines; X
+cooper_ore_RGO_SIZE; size copper mining shafts; X
+plumbum_ore_RGO_SIZE; Size svintsovodobyvayuschih mines; X
+iron_ore_RGO_SIZE; Size zhelezodobyvayuschih mines; X
+iron_cooper_factory; Gel. Copper in the ore; X
+iron_lead_factory; Gel. Ore in the lead; X
+iron_nitrogen_factory; Gel. Ore in nitrates; X
+cooper_iron_factory; Med. The ore into iron; X
+cooper_sulphur_factory; Med. Ore into sulfur; X
+cooper_nitrogen_factory; Med. Ore in nitrates; X
+lead_iron_factory; St. ore into iron; X
+lead_tin_factory; St. ore in the tin; X
+lead_nitrogen_factory; St. ore into nitrates; X
+tin_iron_factory; ol. The ore into iron; X
+tin_nitrogen_factory; ol. Ore in nitrates; X
+cooper_cooper_factory_desc; recycles copper ore into copper. The content of impurities in the ore - 40% X;
+lead_lead_factory_desc; recycles lead ore into lead. The content of impurities in the ore - 20%; X
+tin_tin_factory_desc; recycles tin ore in the tin. The content of impurities in the ore - 15% X;
+bronze_factory_desc; Produces bronze tin and copper. It is necessary for the production of ships and machinery, and also can be use as a replacement for steel, but higher costs in the production;. X
+cast_iron_factory_desc; Iron is essential for the production of engines and mechanisms. X;
+pipe_factory_desc; steel pipe used in the manufacture of engines, artillery and small arms,. X;
+list_factory_desc; steel sheets used in the production of rail vehicles, cars and tanks;. X
+bronze_pipe_factory_desc; Bronze pipes are identical in all steel, but their production is less profitable;. X
+bronze_list_factory_desc; bronze plates are identical in all steel, but their production is less profitable;. X
+rail_factory_desc; rails are used exclusively in the construction of railways. X;
+engine_factory_desc; Engines are necessary for the production of ships, vehicles, aircraft and tanks;. X
+canned_fish_factory_desc; These cans are made from fish, and are an alternative to meat. Canned food consumed by the army,. X;
+canned_cattle_factory_desc; These cans are made from the meat and are an alternative to fish. Canned food consumed by the army,. X;
+uniform_factory_desc; military form is required for the recruitment of infantry and its content;. X
+iron_cooper_factory_desc; recycles iron ore into copper. The copper content in iron ore - 10% X .;
+iron_lead_factory_desc; recycles iron ore in the lead. The lead content in iron ore - 10% X .;
+iron_nitrogen_factory_desc; recycles iron ore into nitrates. The nitrate content in iron ore - 5%; X
+cooper_iron_factory_desc; recycles copper ore into iron. The iron content of the copper ore - 20% X .;
+cooper_sulphur_factory_desc; recycles copper ore in sulfur. The sulfur content of the copper ore - 15% X;
+cooper_nitrogen_factory_desc; recycles copper ore into nitrates. The nitrate content in the copper ore - 5%; X
+lead_iron_factory_desc; recycles lead ore into iron. The iron content of the ore in a lead - 10% X;
+lead_tin_factory_desc; recycles lead ore in the tin. The tin content in lead ore - 5%; X
+lead_nitrogen_factory_desc; recycles lead ore into nitrates. Nitrate and lead ore - 5%; X
+tin_iron_factory_desc; recycles tin ore into iron. The iron content of the ore tin - 10% X;
+tin_nitrogen_factory_desc; recycles tin ore in nitrates. The nitrate content in the ore of tin - 5%; X
+coke_coal; Koksirovanny coal; X
+refined_iron; Iron; X
+iron_iron_factory; Iron dressing; X
+iron_iron_factory_desc; it recycles iron ore suitable for use in the iron industry;. X
+coke_coal_factory; coke oven; X
+coke_coal_factory_desc; it enriches coal to the state after which it is suitable for efficient use in the industry, and X;
+oil_rubber_factory; synthetic rubber plant; X
+oil_rubber_factory_desc; Produces rubber from petroleum;. X
+oil_silk_factory; synthetic silk factory; X
+oil_silk_factory_desc; it produces silk of oil;. X
+canned_food_factory_wool; Cannery (sheep); X
+canned_food_factory_fruit; Cannery (Fruko); X
+canned_food_factory_fish; Cannery (fish); X
+canned_food_factory_cattle; Cannery (meat); X
+transport_company; transport company; X
+transport_company_desc; ; X
+education_company; Institute; X
+education_company_desc; ; X
+culture_company; Museum; X
+culture_company_desc; ; X
+recreation_company; Travel agency; X
+recreation_company_desc; ; X
+financial_company; Financial Company; X
+financial_company_desc; ; X
+healthcare_company; Hospital; X
+healthcare_company_desc; ; X
+syntetic_fabric_factory; Plant synthetic fabric; X
+syntetic_fabric_factory_desc; ; X
+transport; Transport; X
+education; Education; X
+culture; Culture; X
+recreation; tourism and recreation; X
+financial_services; Financial Services; X
+healthcare; Health; X
+colinfantry; colonial infantry; X
+mobile_artillery; self-propelled artillery; X
+motorized_infantry; Motorized infantry; X
+light_artillery; light artillery; X
+popgrowth; Housing construction; X
+education_global; Building schools, X;
+immigration1; emigration; X
+army_training; Training of soldiers; X
+no_traning; no training; X
+little_traning; Minimanaya training; X
+medium_traning; Initial training; X
+advanced_traning; advanced training; X
+officers_training; Education officers; X
+minimal_officers_training; minimal training; X
+average_officers_training; Initial training; X
+medium_officers_training; advanced training; X
+advanced_officers_traning; comprehensive training; X
+army_doctrines; doctrine; X
+org_power; bet on a decisive battle; X
+neutrality_power; balanced; X
+reg_power; The rate of attrition; X
+state_power; device; X
+hehemony_power; hegemony; X
+empire_power; Empire; X
+unitary_power; unitary state; X
+federation_power; Federation; X
+army_doctrine; infantry; X
+conscription; Conscription; X
+conscription_desc ;; X
+recruiting; conscription; X
+10_years_draft; call for 10 years; X
+7_years_draft; Call for 7 years; X
+4_years_draft; call for 4 years; X
+1_years_draft; call for 1 year; X
+no_draft; contract army; X
+minorities; Minorities; X
+minorities_desc; Drinking unrecognized cultures; X
+apartheid; Apartheid; X
+apartheid_desc; Minorities are second-class citizens; X
+reservations; Reservations; X
+reservations_desc; Non-citizens forbidden to live close to the citizens; X
+same_rules; Equality; X
+same_rules_desc; representatives of all ethnic groups have equal rights; X
+protected; protection of minorities; X
+protected_desc; tolerance to others' cultural characteristics; X
+debt_law; debt obligations; X
+debt_law_desc; against the debtor in the country; X
+serfdom; Lifetime duty; X
+serfdom_desc; not being able to pay the debt, the citizen becomes a serf to the creditor; X
+peonage; Kabala; X
+peonage_desc; not being able to pay the debt, the creditor must serve the citizen until his death; X
+debtors_prisons; Debt prison; X
+debtors_prisons_desc; Debtors prosecuted criminally; X
+bankruptcy; bankruptcy; X
+bankruptcy_desc; Debtors are protected at the legislative level; X
+migration_law; Internal Migration; X
+migration_law_desc; migration policy in relation to the population; X
+only_high_strata_migration; the elite only; X
+only_high_strata_migration_desc; only the upper strata of the population have the right to freely change the place of residence; X
+mid_and_high_strata_migration; Secured classes; X
+mid_and_high_strata_migration_desc; only wealthy segments of the population have the right to freely change the place of residence; X
+all_strata_migration; The entire population has the right to change the place of residence; X
+all_strata_migration_desc; entire population; X
+british_early_capitalism; Early capitalism; X
+brirish_free_trade; Brit. protectionism; X
+post_napoleonic_thought; post-Napoleonic tactics; X
+strategic_mobility; brigade structure; X
+point_defense_system; freestanding structure; X
+army_doctrine_1; Tactics strike forces; X
+deep_defense_system; colonial troops; X
+army_doctrine_2; Preparation of reserves; X
+infiltration; static defense tactics; X
+modern_army_doctrine; mass appeal; X
+flintlock_rifles; Squadron structure; X
+muzzle_loaded_rifles; cavalry place on the battlefield; X
+breech_loaded_rifles; Engineering Brigade; X
+light_armament_1; Field Schools; X
+machine_guns; colonial troops; X
+light_armament_2; machine guns; X
+bolt_action_rifles; deep breakthrough tactics; X
+modern_divisional_structure; place aviation at the front; X
+bronze_muzzle_loaded_artillery; bronze implements; X
+iron_muzzle_loaded_artillery; Early torpedoes; X
+iron_breech_loaded_artillery; Dulnozaryadnye guns; X
+heavy_armament_1; coastal artillery; X
+steel_breech_loaded_artillery; Cannon Baranovsky; X
+heavy_armament_2; a new type of gun carriage; X
+indirect_artillery_fire; turrets; X
+heavy_armament_dunno; Mortars; X
+military_staff_system; denote supply; X
+military_plans; Organization of stores; X
+military_statistics; forage reserve; X
+military_science_1; First Aid; X
+military_logistics; Modern fort; X
+military_science_2; Marine Station; X
+military_directionism; Gardening tools; X
+aeronautics; Hand grenade; X
+army_command_principle; golden age of sail; X
+army_professionalism; Early steamers; X
+army_decision_making; Monitors; X
+army_leadership_1; Armadillo; X
+army_leadership_2; Cruising tactics; X
+army_risk_management; Battleships; X
+army_nco_training; Dreadnoughts; X
+great_war_experience; Land vehicles; X
+post_nelsonian_thought; winter quarters; X
+battleship_column_doctrine; cavalry raids; X
+raider_group_doctrine; bet on the cavalry; X
+naval_doctrine_1; Field exploration; X
+blue_and_brown_water_schools; Colonial network; X
+naval_doctrine_2; Implementation locomobile; X
+high_sea_battle_fleet; organization of logistics; X
+modern_naval_doctrine; mechanization of the army; X
+clipper_design; Recruitment; X
+steamers; Line infantry; X
+ship_construction_1; Classical army; X
+iron_steamers; German school; X
+steel_steamers; Foreign Legion; X
+ship_construction_2; Improving the ranks; X
+steam_turbine_ships; service elevator; X
+oil_driven_ships; experience of the world 's wars; X
+naval_design_bureaus; experience of guerrilla warfare; X
+fire_control_systems; introduction of a salary; X
+weapon_platforms; training of officers; X
+naval_engineering_1; bet on the non-commissioned officers; X
+main_armament; rigid hierarchy of service; X
+naval_engineering_2; Regulation of responsibilities; X
+advanced_naval_design; Advocacy; X
+modern_naval_design; People's War; X
+alphabetic_flag_signaling; Preparation of skirmishers; X
+naval_plans; target practice; X
+naval_statistics; Introduction of standards; X
+naval_science_1; military exercises; X
+naval_logistics; handling the experience of war; X
+naval_science_2; Officer program; X
+naval_directionism; personal combat skill; X
+naval_integration; assault group; X
+the_command_principle; Divizonnaya artillery; X
+naval_professionalism; generals rate; X
+naval_decision_making; in the Army Engineers; X
+naval_leadership_1; siege tactics; X
+naval_risk_management; Vertical subordination; X
+naval_leadership_2; innitsiativu role in the battle; X
+naval_nco_training; Trench warfare; X
+modern_naval_training; barrage; X
+financial_institutions_1; structuring taxation; X
+financial_institutions_2; offshore policy; X
+monetary_system_1; currency exchange; X
+monetary_system_2; Floating rate; X
+economic_thought_and_critique_1; equilibrium dynamics model; X
+economic_thought_and_critique_2; consumer society; X
+market_functionality_1; joint-stock company; X
+market_functionality_2; International trade; X
+tech_organization_1; Trusts; X
+tech_organization_2; Theory of production; X
+aesthetics_1; Pointillism; X
+aesthetics_2; Modern; X
+philosophy_1; Dualism; X
+philosophy_2; relativism; X
+social_thought_1; Marxism; X
+social_thought_2; Moral relativism; X
+political_thought_1; Colonialism; X
+political_thought_2; Theory of elites; X
+psychology_1; introspection; X
+psychology_2; Metapsychology; X
+tech_power_1 ;; X
+tech_power_2 ;; X
+mechanization_1 ;; X
+mechanization_2 ;; X
+metallurgy_1 ;; X
+metallurgy_2 ;; X
+tech_infrastructure_1; crushed stone road; X
+tech_infrastructure_2; Cast asphalt; X
+chemistry_and_electricity_1; Cellulose; X
+chemistry_and_electricity_2; Refining; X
+fort_activation; construction of fortresses; X
+colinfantry_activation; colonial infantry; X
+steam_transport_activation; Transports; X
+fort_activation; construction of fortresses; X
+annex_capital; Attach metropolis; X
+annex_one_state_short; Attach Power $ RECIPIENT $; X
+annex_one_state_setup; Power Connection $ RECIPIENT $; X
+annex_capital_short; Capture STATE $ $ Province; X
+annex_capital_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+human_state_short; Capture STATE $ $ Province; X
+human_state_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+human_colony_short; Capture STATE $ $ Province; X
+human_colony_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+annex_krakov_short; Attach Power $ RECIPIENT $; X
+annex_krakov_setup; Power Connection $ RECIPIENT $; X
+annex_montenegro_short; Attach Power $ RECIPIENT $; X
+annex_montenegro_setup; Power Connection $ RECIPIENT $; X
+reparations_short; Reparation of Powers $ RECIPIENT $ (6); X
+reparations_setup; Making reparations Power $ RECIPIENT $ (6); X
+acquire_state_short; Capture STATE $ $ Province; X
+acquire_state_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+acquire_port_china; Get concession; X
+acquire_port_china_short; Capture province $ STATE $ (4); X
+acquire_port_china_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $; X
+acquire_state_china; seizure of the Chinese region; X
+acquire_state_china_short; Capture STATE $ $ Province; X
+acquire_state_china_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $; X
+colony_100k; Capture colonies (<100k pops); X
+colony_100k_short; Capture STATE $ $ Province; X
+colony_100k_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $; X
+state_100k; Capture region (<100k pops); X
+state_100k_short; Capture STATE $ $ Province; X
+state_100k_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $; X
+install_fascism_gov_cb; Export fascism; X
+install_fascism_gov_cb_short; Export fascism; X
+install_fascism_gov_cb_setup; proclaim democratic government; X
+install_democracy_gov_cb; Export democracy; X
+install_democracy_gov_cb_short; Export democracy; X
+install_democracy_gov_cb_setup; proclaim fascist government; X
+switch_to_japanese_tech_title; the Japanese. school; X
+switch_to_japanese_tech_desc; ; X
+switch_to_german_tech_title; the German. school; X
+switch_to_german_tech_desc; ; X
+establish_protectorate_casus_belli_1; establishment of the Protectorate; X
+establish_protectorate_casus_belli_1_short; Accession ?netsivilizovannogo gosudarstva? and creation on its territory of its own protectorate;. X
+establish_protectorate_casus_belli_1_setup; Attach Power $ RECIPIENT $, establishing a protectorate on its territory;. X
+establish_protectorate_casus_belli_1_desc; Power Connection $ RECIPIENT $; X
+establish_protectorate_casus_belli_2; establishment of the Protectorate; X
+establish_protectorate_casus_belli_2_short; Accession ?netsivilizovannogo gosudarstva? and creation on its territory of its own protectorate;. X
+establish_protectorate_casus_belli_2_setup; Attach Power $ RECIPIENT $, establishing a protectorate on its territory;. X
+establish_protectorate_casus_belli_2_desc; Power Connection $ RECIPIENT $; X
+establish_protectorate_casus_belli_3; establishment of the Protectorate; X
+establish_protectorate_casus_belli_3_short; Accession ?netsivilizovannogo gosudarstva? and creation on its territory of its own protectorate;. X
+establish_protectorate_casus_belli_3_setup; Attach Power $ RECIPIENT $, establishing a protectorate on its territory;. X
+establish_protectorate_casus_belli_3_desc; Power Connection $ RECIPIENT $; X
+establish_protectorate_casus_belli_4; establishment of the Protectorate; X
+establish_protectorate_casus_belli_4_short; Accession ?netsivilizovannogo gosudarstva? and creation on its territory of its own protectorate;. X
+establish_protectorate_casus_belli_4_setup; Attach Power $ RECIPIENT $, establishing a protectorate on its territory;. X
+establish_protectorate_casus_belli_4_desc; Power Connection $ RECIPIENT $; X
+establish_protectorate_casus_belli_5; establishment of the Protectorate; X
+establish_protectorate_casus_belli_5_short; Accession ?netsivilizovannogo gosudarstva? and creation on its territory of its own protectorate;. X
+establish_protectorate_casus_belli_5_setup; Attach Power $ RECIPIENT $, establishing a protectorate on its territory;. X
+establish_protectorate_casus_belli_5_desc; Power Connection $ RECIPIENT $; X
+establish_protectorate_casus_belli_6; establishment of the Protectorate; X
+establish_protectorate_casus_belli_6_short; Accession ?netsivilizovannogo gosudarstva? and creation on its territory of its own protectorate;. X
+establish_protectorate_casus_belli_6_setup; Attach Power $ RECIPIENT $, establishing a protectorate on its territory;. X
+establish_protectorate_casus_belli_6_desc; Power Connection $ RECIPIENT $; X
+establish_protectorate_casus_belli_7; establishment of the Protectorate; X
+establish_protectorate_casus_belli_7_short; Accession ?netsivilizovannogo gosudarstva? and creation on its territory of its own protectorate;. X
+establish_protectorate_casus_belli_7_setup; Attach Power $ RECIPIENT $, establishing a protectorate on its territory;. X
+establish_protectorate_casus_belli_7_desc; Power Connection $ RECIPIENT $; X
+establish_protectorate_casus_belli_8; establishment of the Protectorate; X
+establish_protectorate_casus_belli_8_short; Accession ?netsivilizovannogo gosudarstva? and creation on its territory of its own protectorate;. X
+establish_protectorate_casus_belli_8_setup; Attach Power $ RECIPIENT $, establishing a protectorate on its territory;. X
+establish_protectorate_casus_belli_8_desc; Power Connection $ RECIPIENT $; X
+gain_state_europe; Capture Region (Europe); X
+gain_state_europe_short; Capture STATE $ $ Province; X
+gain_state_europe_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_asia; Capture region (Asia); X
+gain_state_asia_short; Capture STATE $ $ Province; X
+gain_state_asia_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_africa; Capture region (Africa); X
+gain_state_africa_short; Capture STATE $ $ Province; X
+gain_state_africa_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_north_america; Capture region (. North America); X
+gain_state_north_america_short; Capture STATE $ $ Province; X
+gain_state_north_america_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_south_america; Capture region (South America.); X
+gain_state_south_america_short; Capture STATE $ $ Province; X
+gain_state_south_america_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_oceania; region (Oceania) Capture; X
+gain_state_oceania_short; Capture STATE $ $ Province; X
+gain_state_oceania_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+annex_krakov; Capture of Krakow;
+annex_montenegro; Capture Montenegro;
+Reparations, Reparations (6);;
+annex_krakov_short; Krakow Accession;
+annex_montenegro_short; accession of Montenegro;
+reparations_short; Reparation of $ RECIPIENT $;
+annex_one_state; annexation of a province;
+annex_one_state_short; Connection $ RECIPIENT $;
+italian_civil_war; Unification of Italy;
+italian_civil_war_short; Unification of Italy; X
+acquire_all_cores; return all nat. Province (4); X
+acquire_all_cores_short; Return all national province; X
+acquire_all_cores_setup_all; Return all national provinces, wrested power $ RECIPIENT $ .; X
+add_to_sphere; Expanding (4); X
+add_to_sphere_short; Expanding on the power impact of $ RECIPIENT $ (4); X
+add_to_sphere_setup; expand the sphere of influence on power $ RECIPIENT $ .; X
+take_from_sphere; Reducing scope (4); X
+take_from_sphere_short; Exception Powers $ $ THIRD, from the sphere of influence (4); X
+take_from_sphere_setup; Exclude Power $ $ THIRD, from the sphere of influence of powers $ RECIPIENT $ .; X
+free_peoples; liberation of the people (50%); X
+free_peoples_short; region of the STATE Transfer $ $ $ Power THIRD, $ (50%); X
+free_peoples_setup; take away powers from $ RECIPIENT, region $ $ $ the STATE and pass it back to Power $ THIRD $ .; X
+humiliate; Humiliation (4); X
+humiliate_short; Humiliation Power $ RECIPIENT $ (4); X
+humiliate_setup; Humiliate Power $ RECIPIENT $ .; X
+release_puppet; vassal Exemption (6); X
+release_puppet_short; Exemption Powers THIRD, $ $ (6); X
+release_puppet_setup; Release the Power $ $ THIRD, from power Powers $ RECIPIENT $ (6); X
+release_puppet_desc; ?derzhavy? Exemption from the power of her sovereign;. X
+gain_state_brittain; Capture Province - British Isles; X
+gain_state_brittain_short; Capture province $ STATE $ (6); X
+gain_state_brittain_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_france; Capture Province - France; X
+gain_state_france_short; Capture province $ STATE $ (6); X
+gain_state_france_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_germany; Capture Province - Germany; X
+gain_state_germany_short; Capture province $ STATE $ (6); X
+gain_state_germany_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_polen; Capture Province - Poland; X
+gain_state_polen_short; Capture province $ STATE $ (4.5); X
+gain_state_polen_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_swiss; Capture of province - Switzerland; X
+gain_state_swiss_short; Capture province $ STATE $ (4); X
+gain_state_swiss_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_lowlands; Capture Province - Lower Earth; X
+gain_state_lowlands_short; Capture province $ STATE $ (6); X
+gain_state_lowlands_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_italy; Capture Province - Italy; X
+gain_state_italy_short; Capture province $ STATE $ (6); X
+gain_state_italy_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_spain; Capture Province - Spain; X
+gain_state_spain_short; Capture province $ STATE $ (6); X
+gain_state_spain_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_austria; Capture Province - Austria; X
+gain_state_austria_short; Capture province $ STATE $ (6); X
+gain_state_austria_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_czechoslovakia; Capture Province - Czechoslovakia; X
+gain_state_czechoslovakia_short; Capture STATE $ $ Province; X
+gain_state_czechoslovakia_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_yugoslavia; Capture Province - Yugoslavia; X
+gain_state_yugoslavia_short; Capture province $ STATE $ (3); X
+gain_state_yugoslavia_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_albania; Capture Province - Albania; X
+gain_state_albania_short; Capture province $ STATE $ (3); X
+gain_state_albania_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_bulgaria; Capture Province - Bulgaria; X
+gain_state_bulgaria_short; Capture province $ STATE $ (3); X
+gain_state_bulgaria_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_greece; Capture Province - Greece; X
+gain_state_greece_short; Capture province $ STATE $ (3); X
+gain_state_greece_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_romania; Capture Province - Romania; X
+gain_state_romania_short; Capture province $ STATE $ (3); X
+gain_state_romania_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_hungary; Capture Province - Hungary; X
+gain_state_hungary_short; Capture province $ STATE $ (3); X
+gain_state_hungary_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_portugal; Capture Province - Portugal; X
+gain_state_portugal_short; Capture province $ STATE $ (4); X
+gain_state_portugal_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_denmark; Capture Province - Denmark; X
+gain_state_denmark_short; Capture province $ STATE $ (4); X
+gain_state_denmark_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_norway; Capture Province - Norway; X
+gain_state_norway_short; Capture province $ STATE $ (4); X
+gain_state_norway_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_sweden; Capture Province - Sweden; X
+gain_state_sweden_short; Capture province $ STATE $ (6); X
+gain_state_sweden_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_finland; Capture of province - Finland; X
+gain_state_finland_short; Capture province $ STATE $ (3); X
+gain_state_finland_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_baltic; Capture Province - Baltic States; X
+gain_state_baltic_short; Capture province $ STATE $ (3); X
+gain_state_baltic_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_belorussia; Capture Province - Belarus; X
+gain_state_belorussia_short; Capture province $ STATE $ (3); X
+gain_state_belorussia_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_ukraine; Capture Province - Ukraine; X
+gain_state_ukraine_short; Capture province $ STATE $ (3); X
+gain_state_ukraine_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_azer; Capture Province - Azerbaijan; X
+gain_state_azer_short; Capture province $ STATE $ (3); X
+gain_state_azer_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_georgia; Capture Province - Georgia; X
+gain_state_georgia_short; Capture province $ STATE $ (3); X
+gain_state_georgia_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_armenia; Capture Province - Armenia; X
+gain_state_armenia_short; Capture province $ STATE $ (3); X
+gain_state_armenia_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_turkey; Capture Province - Turkey; X
+gain_state_turkey_short; Capture province $ STATE $ (6); X
+gain_state_turkey_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_siria_lebanon; Capture of province - Syria and Lebanon (2); X
+gain_state_siria_lebanon_short; Capture STATE $ $ Province; X
+gain_state_siria_lebanon_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_transjordan; Capture of province - Transjordan (2); X
+gain_state_transjordan_short; Capture STATE $ $ Province; X
+gain_state_transjordan_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_iraq; Capture Province - Iraq (2); X
+gain_state_iraq_short; Capture STATE $ $ Province; X
+gain_state_iraq_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_arabia; Capture of province - Arabia (2); X
+gain_state_arabia_short; Capture STATE $ $ Province; X
+gain_state_arabia_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_omanyemen; Capture of province - Oman and Yemen (2); X
+gain_state_omanyemen_short; Capture STATE $ $ Province; X
+gain_state_omanyemen_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_iran; Capture Province - Iran (3); X
+gain_state_iran_short; Capture STATE $ $ Province; X
+gain_state_iran_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_kazakh; Capture Province - Kazakhstan (2); X
+gain_state_kazakh_short; Capture STATE $ $ Province; X
+gain_state_kazakh_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_turkestan; Capture of province - Turkestan (2); X
+gain_state_turkestan_short; Capture STATE $ $ Province; X
+gain_state_turkestan_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_afgan; Capture Province - Afghanistan (2); X
+gain_state_afgan_short; Capture STATE $ $ Province; X
+gain_state_afgan_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_pakistan; Capture of province - Pakistan (2); X
+gain_state_pakistan_short; Capture STATE $ $ Province; X
+gain_state_pakistan_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+X; -; gain_state_india India (4) City Capture
+gain_state_india_short; Capture STATE $ $ Province; X
+gain_state_india_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_indianocean; Capture Province - Indian Ocean; X
+gain_state_indianocean_short; Capture province $ STATE $ (2); X
+gain_state_indianocean_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_atlanticocean; Capture Province - Atlantic; X
+gain_state_atlanticocean_short; Capture province $ STATE $ (2); X
+gain_state_atlanticocean_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_myanma; Capture Province - Myanmar; X
+gain_state_myanma_short; Capture province $ STATE $ (2); X
+gain_state_myanma_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_thai; Capture Province - Thailand; X
+gain_state_thai_short; Capture province $ STATE $ (2); X
+gain_state_thai_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_malay; Capture Province - Malaya; X
+gain_state_malay_short; Capture province $ STATE $ (2); X
+gain_state_malay_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_indochina; Capture Province - Indochina; X
+gain_state_indochina_short; Capture province $ STATE $ (2); X
+gain_state_indochina_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_sumatra; Capture Province - Sumatra; X
+gain_state_sumatra_short; Capture province $ STATE $ (2); X
+gain_state_sumatra_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_java; Capture Province - Java; X
+gain_state_java_short; Capture province $ STATE $ (6); X
+gain_state_java_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_borneo; Capture Province - Kalimantan; X
+gain_state_borneo_short; Capture province $ STATE $ (2); X
+gain_state_borneo_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_moluccas; Capture Province - Molukka; X
+gain_state_moluccas_short; Capture province $ STATE $ (2); X
+gain_state_moluccas_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_zondean; Capture Province - Sunda Islands; X
+gain_state_zondean_short; Capture province $ STATE $ (2); X
+gain_state_zondean_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_newgvinea; Capture Province - New Guinea; X
+gain_state_newgvinea_short; Capture province $ STATE $ (2); X
+gain_state_newgvinea_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_philipines; Capture Province - Philippines; X
+gain_state_philipines_short; Capture province $ STATE $ (2); X
+gain_state_philipines_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_australia; Capture Province - Australia; X
+gain_state_australia_short; Capture province $ STATE $ (2); X
+gain_state_australia_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_newzeland; Capture Province - New Zealand; X
+gain_state_newzeland_short; Capture province $ STATE $ (2); X
+gain_state_newzeland_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_pacific; Capture Province - Pacific Ocean; X
+gain_state_pacific_short; Capture province $ STATE $ (2); X
+gain_state_pacific_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_korea; Capture Province - Korea; X
+gain_state_korea_short; Capture province $ STATE $ (3); X
+gain_state_korea_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_nippon; Capture Province - Japan; X
+gain_state_nippon_short; Capture province $ STATE $ (6); X
+gain_state_nippon_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_canada; Capture Province - Canada; X
+gain_state_canada_short; Capture province $ STATE $ (2); X
+gain_state_canada_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_mexico; Capture Province - Mexico; X
+gain_state_mexico_short; Capture province $ STATE $ (2); X
+gain_state_mexico_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_centralamerica; Capture Province - Center. America; X
+gain_state_centralamerica_short; Capture province $ STATE $ (2); X
+gain_state_centralamerica_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_carribean; Capture Province - Caribbean; X
+gain_state_carribean_short; Capture province $ STATE $ (2); X
+gain_state_carribean_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_venezuela; Capture Province - Venezuela; X
+gain_state_venezuela_short; Capture province $ STATE $ (2); X
+gain_state_venezuela_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_columbia; Capture Province - Colombia; X
+gain_state_columbia_short; Capture province $ STATE $ (2); X
+gain_state_columbia_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_ecuador; Capture Province - Ecuador; X
+gain_state_ecuador_short; Capture province $ STATE $ (2); X
+gain_state_ecuador_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_peru; Capture Province - Peru; X
+gain_state_peru_short; Capture province $ STATE $ (2); X
+gain_state_peru_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_brazil; Capture Province - Brazil; X
+gain_state_brazil_short; Capture province $ STATE $ (2); X
+gain_state_brazil_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_paraguai; Capture Province - Paraguay; X
+gain_state_paraguai_short; Capture province $ STATE $ (2); X
+gain_state_paraguai_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_argentina; Capture Province - Argentina; X
+gain_state_argentina_short; Capture province $ STATE $ (2); X
+gain_state_argentina_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_bolivia; Capture Province - Bolivia; X
+gain_state_bolivia_short; Capture province $ STATE $ (2); X
+gain_state_bolivia_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_chilie; Capture Province - Chile; X
+gain_state_chilie_short; Capture province $ STATE $ (2); X
+gain_state_chilie_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_uruguai; Capture of province - Uruguay; X
+gain_state_uruguai_short; Capture province $ STATE $ (2); X
+gain_state_uruguai_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_westusa; Capture Province - US West; X
+gain_state_westusa_short; Capture province $ STATE $ (4); X
+gain_state_westusa_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_midwestusa; Capture Province - US Midwest; X
+gain_state_midwestusa_short; Capture province $ STATE $ (4); X
+gain_state_midwestusa_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_northeastusa; Capture Province - Northeast US; X
+gain_state_northeastusa_short; Capture province $ STATE $ (6); X
+gain_state_northeastusa_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_southusa; Capture Province - South US; X
+gain_state_southusa_short; Capture province $ STATE $ (4); X
+gain_state_southusa_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_manchu; Capture Province - Manchuria; X
+gain_state_manchu_short; Capture province $ STATE $ (3); X
+gain_state_manchu_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_primorie; Capture Province - Primorye; X
+gain_state_primorie_short; Capture province $ STATE $ (3); X
+gain_state_primorie_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_fareast; Capture Province - the Far East; X
+gain_state_fareast_short; Capture province $ STATE $ (3); X
+gain_state_fareast_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_northsiberia; Capture Province - Northern Siberia; X
+gain_state_northsiberia_short; Capture province $ STATE $ (2); X
+gain_state_northsiberia_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_southsiberia; Capture Province - South Siberia; X
+gain_state_southsiberia_short; Capture province $ STATE $ (3); X
+gain_state_southsiberia_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_ural; Capture Province - Ural; X
+gain_state_ural_short; Capture province $ STATE $ (4); X
+gain_state_ural_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_northrenrussia; Capture Province - North Russia; X
+gain_state_northrenrussia_short; Capture province $ STATE $ (4); X
+gain_state_northrenrussia_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_centralrussia; Capture Province - Central Russia; X
+gain_state_centralrussia_short; Capture province $ STATE $ (6); X
+gain_state_centralrussia_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_southernrussia; Capture Province - South Russia; X
+gain_state_southernrussia_short; Capture province $ STATE $ (4); X
+gain_state_southernrussia_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_gayana; Capture Province - Guyana; X
+gain_state_gayana_short; Capture province $ STATE $ (3); X
+gain_state_gayana_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_libya; Capture Province - Libya; X
+gain_state_libya_short; Capture province $ STATE $ (2); X
+gain_state_libya_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_tunis; Capture Province - Tunisia; X
+gain_state_tunis_short; Capture province $ STATE $ (2); X
+gain_state_tunis_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_algeria; Capture Province - Algeria; X
+gain_state_algeria_short; Capture province $ STATE $ (2); X
+gain_state_algeria_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_morocco; Capture Province - Morocco; X
+gain_state_morocco_short; Capture province $ STATE $ (2); X
+gain_state_morocco_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_egypt; Capture Province - Egypt; X
+gain_state_egypt_short; Capture province $ STATE $ (2); X
+gain_state_egypt_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_ethiopia; Capture Province - Ethiopia; X
+gain_state_ethiopia_short; Capture province $ STATE $ (2); X
+gain_state_ethiopia_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_sudan; Capture Province - Sudan; X
+gain_state_sudan_short; Capture province $ STATE $ (2); X
+gain_state_sudan_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_sahara; Capture Province - Sahara; X
+gain_state_sahara_short; Capture province $ STATE $ (2); X
+gain_state_sahara_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_westafrica; Capture Province - West Africa; X
+gain_state_westafrica_short; Capture province $ STATE $ (2); X
+gain_state_westafrica_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_centralafrica; Capture Province - Central Africa; X
+gain_state_centralafrica_short; Capture province $ STATE $ (2); X
+gain_state_centralafrica_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_southafrica; Capture Province - South Africa; X
+gain_state_southafrica_short; Capture province $ STATE $ (2); X
+gain_state_southafrica_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_eastafrica; Capture Province - East Africa; X
+gain_state_eastafrica_short; Capture province $ STATE $ (2); X
+gain_state_eastafrica_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_madagascar; Capture Province - Madagascar; X
+gain_state_madagascar_short; Capture province $ STATE $ (2); X
+gain_state_madagascar_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_mongolia; Capture Province - Mongolia; X
+gain_state_mongolia_short; Capture province $ STATE $ (2); X
+gain_state_mongolia_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_xinjiang; Capture Province - Xinjiang; X
+gain_state_xinjiang_short; Capture province $ STATE $ (2); X
+gain_state_xinjiang_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_tibet; Capture Province - Tibet; X
+gain_state_tibet_short; Capture province $ STATE $ (2); X
+gain_state_tibet_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_westchina; Capture Province - Western China; X
+gain_state_westchina_short; Capture province $ STATE $ (3); X
+gain_state_westchina_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_southernchina; Capture Province - South China; X
+gain_state_southernchina_short; Capture province $ STATE $ (3); X
+gain_state_southernchina_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_centralchina; Capture Province - Central China; X
+gain_state_centralchina_short; Capture province $ STATE $ (3); X
+gain_state_centralchina_setup; I Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_northchina; Capture Province - North China; X
+gain_state_northchina_short; Capture province $ STATE $ (3); X
+gain_state_northchina_setup; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_brittain_all; Region Capture - British Isles (36) (NMP); X
+gain_state_brittain_all_short; Capture British Isles region; X
+gain_state_brittain_all_setup_all; Capture region British Isles have powers $ RECIPIENT $ .; X
+gain_state_france_all; Capture Region - France (36) (NMP); X
+gain_state_france_all_short; Capture France region; X
+gain_state_france_all_setup_all; Capture region in France Power $ RECIPIENT $ .; X
+gain_state_germany_all; Capture Region - Germany (36) (NMP); X
+gain_state_germany_all_short; Capture region Germany; X
+gain_state_germany_all_setup_all; Seize Power in Germany region $ RECIPIENT $ .; X
+gain_state_polen_all; Capture the region - Poland (18); X
+gain_state_polen_all_short; region of Poland Accession (18); X
+gain_state_polen_all_setup_all; Capture region in Poland Power $ RECIPIENT $ .; X
+gain_state_swiss_all; Capture Region - Switzerland (12); X
+gain_state_swiss_all_short; Switzerland region Accession (12); X
+gain_state_swiss_all_setup_all; Capture Switzerland region in Power $ RECIPIENT $ .; X
+gain_state_lowlands_all; Capture region - Low Countries (24); X
+gain_state_lowlands_all_short; Capture Low Countries in the region (24); X
+gain_state_lowlands_all_setup_all; Capture the Lower Earth have powers $ RECIPIENT $ .; X
+gain_state_italy_all; Capture Region - Italy (36) (NMP); X
+gain_state_italy_all_short; Capture regions of Italy; X
+gain_state_italy_all_setup_all; Capture region in Italy Power $ RECIPIENT $ .; X
+gain_state_spain_all; Capture the region - Spain (36) (NMP); X
+gain_state_spain_all_short; Capture Spain in the region; X
+gain_state_spain_all_setup_all; Capture region in Spain Powers $ RECIPIENT $ .; X
+gain_state_austria_all; Capture Region - Austria (24) (NMP); X
+gain_state_austria_all_short; Capture region Austria; X
+gain_state_austria_all_setup_all; Capture region in Austria Powers $ RECIPIENT $ .; X
+gain_state_czechoslovakia_all; Capture region - Czechoslovakia (24); X
+gain_state_czechoslovakia_all_short; region Accession Czechoslovakia; X
+gain_state_czechoslovakia_all_setup_all; Capture a region of Czechoslovakia in Power $ RECIPIENT $ .; X
+gain_state_czech_all; Capture Region - Czech Republic (18); X
+gain_state_czech_all_short; region of the Czech Republic Accession (18); X
+gain_state_czech_all_setup_all; Seize the region in the Czech Republic Power $ RECIPIENT $ .; X
+gain_state_slovakia_all; Capture Region - Slovakia (12); X
+gain_state_slovakia_all_short; Capture Region Slovakia (12); X
+gain_state_slovakia_all_setup_all; Capture Slovakia region at Power $ RECIPIENT $ .; X
+gain_state_czech; Capture province - Czech Republic; X
+gain_state_czech_short; Capture STATE $ $ Province; X
+gain_state_czech_setup_all; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_slovakia; province Capture - Slovakia; X
+gain_state_slovakia_short; Capture STATE $ $ Province; X
+gain_state_slovakia_setup_all; Capture the province $ $ in the STATE Power $ RECIPIENT $ .; X
+gain_state_yugoslavia_all; Capture region - Yugoslavia (12); X
+gain_state_yugoslavia_all_short; Capture region of Yugoslavia (12); X
+gain_state_yugoslavia_all_setup_all; Capture the region of Yugoslavia in Power $ RECIPIENT $ .; X
+gain_state_albania_all; Capture the region - Albania (8); X
+gain_state_albania_all_short; region Albania Accession (8); X
+gain_state_albania_all_setup_all; Capture region in Albania Power $ RECIPIENT $ .; X
+gain_state_bulgaria_all; Capture the region - Bulgaria (12); X
+gain_state_bulgaria_all_short; Bulgaria (12) Accession of the region; X
+gain_state_bulgaria_all_setup_all; Seize Power in Bulgaria region $ RECIPIENT $ .; X
+gain_state_greece_all; Capture Region - Greece (12); X
+gain_state_greece_all_short; Capture Region Greece (12); X
+gain_state_greece_all_setup_all; Capture region in Greece Power $ RECIPIENT $ .; X
+gain_state_romania_all; Capture region - Romania (12); X
+gain_state_romania_all_short; Capture Region Romania (12); X
+gain_state_romania_all_setup_all; Capture region in Romania Power $ RECIPIENT $ .; X
+gain_state_hungary_all; Capture the region - Hungary (12); X
+gain_state_hungary_all_short; Accession Hungary region (12); X
+gain_state_hungary_all_setup_all; Capture region in Hungary Power $ RECIPIENT $ .; X
+gain_state_portugal_all; Capture the region - Portugal (12); X
+gain_state_portugal_all_short; Capture region Portugal (12); X
+gain_state_portugal_all_setup_all; Capture the STATE region $ $ y Power $ RECIPIENT $ .; X
+gain_state_denmark_all; Capture the region - Denmark (18); X
+gain_state_denmark_all_short; Capture region Denmark (18); X
+gain_state_denmark_all_setup_all; Capture region in Denmark Powers $ RECIPIENT $ .; X
+gain_state_norway_all; Capture Region - Norway (18); X
+gain_state_norway_all_short; Norway region Accession (18); X
+gain_state_norway_all_setup_all; Capture the region of Norway in Power $ RECIPIENT $ .; X
+gain_state_sweden_all; Capture region - Sweden (24) (NMP); X
+gain_state_sweden_all_short; region Accession Sweden; X
+gain_state_sweden_all_setup_all; Capture region in Sweden Power $ RECIPIENT $ .; X
+gain_state_finland_all; Capture region - Finland (12); X
+gain_state_finland_all_short; Capture Finland region (12); X
+gain_state_finland_all_setup_all; Capture region in Finland Power $ RECIPIENT $ .; X
+gain_state_baltic_all; Capture the region - the Baltic States (12); X
+gain_state_baltic_all_short; Accession Baltic region (12); X
+gain_state_baltic_all_setup_all; Seize the Baltic region in Power $ RECIPIENT $ .; X
+gain_state_belorussia_all; Capture region - Belarus (12); X
+gain_state_belorussia_all_short; Capture region Belarus (12); X
+gain_state_belorussia_all_setup_all; Seize Power in the region Belarus $ RECIPIENT $ .; X
+gain_state_ukraine_all; Capture region - Ukraine (24); X
+gain_state_ukraine_all_short; Capture regions of Ukraine (24); X
+gain_state_ukraine_all_setup_all; Capture region in Ukraine Power $ RECIPIENT $ .; X
+gain_state_azer_all; Capture the region - Azerbaijan (8); X
+gain_state_azer_all_short; Capture Region Azerbaijan (8); X
+gain_state_azer_all_setup_all; Capture regions of Azerbaijan in Power $ RECIPIENT $ .; X
+gain_state_georgia_all; Capture the region - Georgia (6); X
+gain_state_georgia_all_short; Capture Georgia region (6); X
+gain_state_georgia_all_setup_all; Grab Georgia region at Power $ RECIPIENT $ .; X
+gain_state_armenia_all; Capture the region - Armenia (8); X
+gain_state_armenia_all_short; region of Armenia Accession (8); X
+gain_state_armenia_all_setup_all; Capture region Armenia in Power $ RECIPIENT $ .; X
+gain_state_turkey_all; Capture the region - Turkey (24); X
+gain_state_turkey_all_short; Turkey Accession region (24); X
+gain_state_turkey_all_setup_all; Capture region Turkey have powers $ RECIPIENT $ .; X
+gain_state_siria_lebanon_all; Capture the region - Syria and Lebanon (4); X
+gain_state_siria_lebanon_all_short; Syria and Lebanon connection region (4); X
+gain_state_siria_lebanon_all_setup_all; Capture Region Syria and Lebanon at the Power $ RECIPIENT $ .; X
+gain_state_transjordan_all; Capture region - Transjordan (4); X
+gain_state_transjordan_all_short; Capture region of Transjordan (4); X
+gain_state_transjordan_all_setup_all; Capture the region of Transjordan from power $ RECIPIENT $ .; X
+gain_state_iraq_all; Capture Region - Iraq (6); X
+gain_state_iraq_all_short; Iraq connection region (6); X
+gain_state_iraq_all_setup_all; the invasion of Iraq in the region Powers $ RECIPIENT $ .; X
+gain_state_arabia_all; Region Capture - Arabia (6); X
+gain_state_arabia_all_short; Accession Arabia region (6); X
+gain_state_arabia_all_setup_all; Capture Arabia region near Powers $ RECIPIENT $ .; X
+gain_state_omanyemen_all; Capture region - Oman and Yemen (6); X
+gain_state_omanyemen_all_short; Oman and Yemen (6) Attaching the region; X
+gain_state_omanyemen_all_setup_all; Capture the region of Oman and Yemen have powers $ RECIPIENT $ .; X
+gain_state_iran_all; Capture the region - Iran (12); X
+gain_state_iran_all_short; Iran Capture region (12); X
+gain_state_iran_all_setup_all; Seize Iran in the region Powers $ RECIPIENT $ .; X
+gain_state_kazakh_all; Capture the region - Kazakhstan (6); X
+gain_state_kazakh_all_short; Accession Kazakhstan region (6); X
+gain_state_kazakh_all_setup_all; Capture region in Kazakhstan Power $ RECIPIENT $ .; X
+gain_state_turkestan_all; Capture region - Turkestan (6); X
+gain_state_turkestan_all_short; Accession Turkestan region (6); X
+gain_state_turkestan_all_setup_all; Capture Turkestan region have powers $ RECIPIENT $ .; X
+gain_state_afgan_all; Capture the region - Afghanistan (6); X
+gain_state_afgan_all_short; Accession Afghanistan region (6); X
+gain_state_afgan_all_setup_all; Capture region of Afghanistan from power $ RECIPIENT $ .; X
+gain_state_pakistan_all; Capture the region - Pakistan (8); X
+gain_state_pakistan_all_short; Pakistan region Accession (8); X
+gain_state_pakistan_all_setup_all; Seize Pakistan region in Power $ RECIPIENT $ .; X
+gain_state_india_all; Capture the region - India (24); X
+gain_state_india_all_short; Accession region, India (24); X
+gain_state_india_all_setup_all; Capture region in India Power $ RECIPIENT $ .; X
+gain_state_indianocean_all; Capture Region - Indian Ocean (6); X
+gain_state_indianocean_all_short; Capture Indian Ocean region (6); X
+gain_state_indianocean_all_setup_all; Capture the Indian Ocean region in Power $ RECIPIENT $ .; X
+gain_state_atlanticocean_all; Capture region - Atlantic (6); X
+gain_state_atlanticocean_all_short; Capture Atlantic region (6); X
+gain_state_atlanticocean_all_setup_all; Seize the Atlantic region have powers $ RECIPIENT $ .; X
+gain_state_myanma_all; Capture Region - Myanmar (6); X
+gain_state_myanma_all_short; Region Myanmar Accession (6); X
+gain_state_myanma_all_setup_all; Capture region in Myanmar Power $ RECIPIENT $ .; X
+gain_state_thai_all; Capture the region - Thailand (6); X
+gain_state_thai_all_short; Region Thailand Accession (6); X
+gain_state_thai_all_setup_all; Capture region of Thailand at the Power $ RECIPIENT $ .; X
+gain_state_malay_all; Capture region - Malaya (6); X
+gain_state_malay_all_short; Accession Malaya region (6); X
+gain_state_malay_all_setup_all; Capture region in Malaya Power $ RECIPIENT $ .; X
+gain_state_indochina_all; Region Capture - Indochina (6); X
+gain_state_indochina_all_short; Accession Indochina region (6); X
+gain_state_indochina_all_setup_all; Seize the Indochina region at the Power $ RECIPIENT $ .; X
+gain_state_sumatra_all; Region Capture - Sumatra (6); X
+gain_state_sumatra_all_short; Accession Sumatra region (6); X
+gain_state_sumatra_all_setup_all; Capture the region of Sumatra in Power $ RECIPIENT $ .; X
+gain_state_java_all; Region Capture - Java (12); X
+gain_state_java_all_short; region of Java Connection (12); X
+gain_state_java_all_setup_all; Capture Java region at Power $ RECIPIENT $ .; X
+gain_state_borneo_all; Region Capture - Kalimantan (6); X
+gain_state_borneo_all_short; Accession Kalimantan region (6); X
+gain_state_borneo_all_setup_all; Capture Kalimantan region at Power $ RECIPIENT $ .; X
+gain_state_moluccas_all; Region Capture - Molukka (6); X
+gain_state_moluccas_all_short; Molukka connection region (6); X
+gain_state_moluccas_all_setup_all; Seize Power in the region Molukka $ RECIPIENT $ .; X
+gain_state_zondean_all; Capture Region - Sunda Islands (6); X
+gain_state_zondean_all_short; Accession Sunda Islands region (6); X
+gain_state_zondean_all_setup_all; Capture Sunda Islands region at Power $ RECIPIENT $ .; X
+gain_state_newgvinea_all; Capture Region - New Guinea (6); X
+gain_state_newgvinea_all_short; Capture New Guinea region (6); X
+gain_state_newgvinea_all_setup_all; Capture New Guinea region at Power $ RECIPIENT $ .; X
+gain_state_philipines_all; Capture Region - Philippines (6); X
+gain_state_philipines_all_short; Capture region Philippines (6); X
+gain_state_philipines_all_setup_all; Capture region Philippines have powers $ RECIPIENT $ .; X
+gain_state_australia_all; Capture the region - Australia (12); X
+gain_state_australia_all_short; Capture region Australia (12); X
+gain_state_australia_all_setup_all; Capture region in Australia Power $ RECIPIENT $ .; X
+gain_state_newzeland_all; Capture Region - New Zealand (6); X
+gain_state_newzeland_all_short; Capture region New Zealand (6); X
+gain_state_newzeland_all_setup_all; Capture region in New Zealand Power $ RECIPIENT $ .; X
+gain_state_pacific_all; Capture region - Pacific (12); X
+gain_state_pacific_all_short; Capture Pacific region (12); X
+gain_state_pacific_all_setup_all; Capture region Pacific Ocean Power in $ RECIPIENT $ .; X
+gain_state_korea_all; Capture the region - South Korea (12); X
+gain_state_korea_all_short; Capture region of Korea (12); X
+gain_state_korea_all_setup_all; Capture region from Korea Power $ RECIPIENT $ .; X
+gain_state_nippon_all; Capture the region - Japan (36) (NMP); X
+gain_state_nippon_all_short; Japan region Accession; X
+gain_state_nippon_all_setup_all; Seize power in the region, Japan $ RECIPIENT $ .; X
+gain_state_canada_all; Capture the region - Canada (12); X
+gain_state_canada_all_short; Capture Canada region (12); X
+gain_state_canada_all_setup_all; Seize Power in Canada region $ RECIPIENT $ .; X
+gain_state_mexico_all; Capture the region - Mexico (18); X
+gain_state_mexico_all_short; Capture Mexico region (18); X
+gain_state_mexico_all_setup_all; Capture region in Mexico Power $ RECIPIENT $ .; X
+gain_state_centralamerica_all; Capture Region - Center. America (12); X
+gain_state_centralamerica_all_short; Capture Central American region (12); X
+gain_state_centralamerica_all_setup_all; Capture the region of Central America in Powers $ RECIPIENT $ .; X
+gain_state_carribean_all; Capture the region - the Caribbean (12); X
+gain_state_carribean_all_short; Capture Caribbean region (12); X
+gain_state_carribean_all_setup_all; Capture the Caribbean region in Power $ RECIPIENT $ .; X
+gain_state_venezuela_all; Capture the region - Venezuela (12); X
+gain_state_venezuela_all_short; Capture region of Venezuela (12); X
+gain_state_venezuela_all_setup_all; Seize Venezuela Region in Power $ RECIPIENT $ .; X
+gain_state_columbia_all; Capture the region - Colombia (12); X
+gain_state_columbia_all_short; Accession Columbia region (12); X
+gain_state_columbia_all_setup_all; Capture the DC power in the region $ RECIPIENT $ .; X
+gain_state_ecuador_all; Capture Region - Ecuador (12); X
+gain_state_ecuador_all_short; Capture region of Ecuador (12); X
+gain_state_ecuador_all_setup_all; Capture region in Ecuador Power $ RECIPIENT $ .; X
+gain_state_peru_all; Capture Region - Peru (12); X
+gain_state_peru_all_short; Capture Region Peru (12); X
+gain_state_peru_all_setup_all; Seize Power in Peru region $ RECIPIENT $ .; X
+gain_state_brazil_all; Capture Region - Brazil (24); X
+gain_state_brazil_all_short; region of Brazil connection (24); X
+gain_state_brazil_all_setup_all; Capture region in Brazil Power $ RECIPIENT $ .; X
+gain_state_paraguai_all; Capture region - Paraguay (12); X
+gain_state_paraguai_all_short; Capture region of Paraguay (12); X
+gain_state_paraguai_all_setup_all; Capture region of Paraguay have Power $ RECIPIENT $ .; X
+gain_state_argentina_all; Capture the region - Argentina (18); X
+gain_state_argentina_all_short; region Argentina fitting (18); X
+gain_state_argentina_all_setup_all; Capture region in Argentina Power $ RECIPIENT $ .; X
+gain_state_bolivia_all; Capture the region - Bolivia (12); X
+gain_state_bolivia_all_short; Capture Region Bolivia (12); X
+gain_state_bolivia_all_setup_all; Capture region of Bolivia have powers $ RECIPIENT $ .; X
+gain_state_chilie_all; Capture Region - Chile (12); X
+gain_state_chilie_all_short; Capture Region Chile (12); X
+gain_state_chilie_all_setup_all; Capture region of Chile in power $ RECIPIENT $ .; X
+gain_state_uruguai_all; Capture the region - Uruguay (12); X
+gain_state_uruguai_all_short; Capture region Uruguay (12); X
+gain_state_uruguai_all_setup_all; Seize Power in the region Uruguay $ RECIPIENT $ .; X
+gain_state_westusa_all; Capture Region - US West (18); X
+gain_state_westusa_all_short; Capture US West region (18); X
+gain_state_westusa_all_setup_all; Seize the region at US West power $ RECIPIENT $ .; X
+gain_state_midwestusa_all; Capture the region - the US Midwest (24); X
+gain_state_midwestusa_all_short; Capture region the US Midwest (24); X
+gain_state_midwestusa_all_setup_all; Capture a region the US Midwest in Power $ RECIPIENT $ .; X
+gain_state_northeastusa_all; Capture the region - the United States of the North-East (36) (NMP); X
+gain_state_northeastusa_all_short; Capture North-East region of the United States; X
+gain_state_northeastusa_all_setup_all; Seize the Northeast region of the United States have powers $ RECIPIENT $ .; X
+gain_state_southusa_all; Capture Region - US South (18); X
+gain_state_southusa_all_short; Capture US South region (18); X
+gain_state_southusa_all_setup_all; Seize the South region in the United States Power $ RECIPIENT $ .; X
+gain_state_manchu_all; Region Capture - Manzhouli (12); X
+gain_state_manchu_all_short; Accession Manchuria region (12); X
+gain_state_manchu_all_setup_all; Capture the region of Manchuria in Power $ RECIPIENT $ .; X
+gain_state_primorie_all; Region Capture - Primorye (12); X
+gain_state_primorie_all_short; Primorye region Accession (12); X
+gain_state_primorie_all_setup_all; Seize Power in Primorye region $ RECIPIENT $ .; X
+gain_state_fareast_all; Capture the region - the Far East (12); X
+gain_state_fareast_all_short; Capture Far East (12); X
+gain_state_fareast_all_setup_all; Capture the Far East in power $ RECIPIENT $ .; X
+gain_state_northsiberia_all; Capture Region - Northern Siberia (12); X
+gain_state_northsiberia_all_short; Northern Siberia connection region (12); X
+gain_state_northsiberia_all_setup_all; Capture the region of North Siberia in power $ RECIPIENT $ .; X
+gain_state_southsiberia_all; Capture the region - South Siberia (18); X
+gain_state_southsiberia_all_short; Southern Siberia connection region (18; X
+gain_state_southsiberia_all_setup_all; Capture region in southern Siberia Power $ RECIPIENT $ .; X
+gain_state_ural_all; Capture region - Ural (24); X
+gain_state_ural_all_short; Accession Ural region (24); X
+gain_state_ural_all_setup_all; Seize the Ural region in Power $ RECIPIENT $ .; X
+gain_state_northrenrussia_all; Capture Region - North Russia (18); X
+gain_state_northrenrussia_all_short; North of Russia Capture region (18); X
+gain_state_northrenrussia_all_setup_all; Capture region in northern Russia Power $ RECIPIENT $ .; X
+gain_state_centralrussia_all; Capture region - Central Russia (36); X
+gain_state_centralrussia_all_short; Capture regions of Central Russia (36); X
+gain_state_centralrussia_all_setup_all; Capture the region of Central Russia in Power $ RECIPIENT $ .; X
+gain_state_southernrussia_all; Capture the region - South Russia (18); X
+gain_state_southernrussia_all_short; South Russia Capture region (18); X
+gain_state_southernrussia_all_setup_all; Capture region in southern Russia Power $ RECIPIENT $ .; X
+gain_state_gayana_all; Capture Region - Guyana (12); X
+gain_state_gayana_all_short; Accession Guyana region (12); X
+gain_state_gayana_all_setup_all; Seize the Guyana region in Power $ RECIPIENT $ .; X
+gain_state_libya_all; Capture region - Libya (6); X
+gain_state_libya_all_short; Accession region, Libya (6); X
+gain_state_libya_all_setup_all; Capture a region of Libya from power $ RECIPIENT $ .; X
+gain_state_tunis_all; Capture the region - Tunisia (6); X
+gain_state_tunis_all_short; Capture Region Tunisia (6); X
+gain_state_tunis_all_setup_all; Capture region in Tunisia Power $ RECIPIENT $ .; X
+gain_state_algeria_all; Capture the region - Algeria (6); X
+gain_state_algeria_all_short; region Algeria Accession (6); X
+gain_state_algeria_all_setup_all; Capture region in Algeria Power $ RECIPIENT $ .; X
+gain_state_morocco_all; Capture the region - Morocco (6); X
+gain_state_morocco_all_short; Capture Morocco in the region (6); X
+gain_state_morocco_all_setup_all; Seize Power in Morocco region $ RECIPIENT $ .; X
+gain_state_egypt_all; Capture the region - Egypt (6); X
+gain_state_egypt_all_short; region Egypt Accession (6); X
+gain_state_egypt_all_setup_all; Seize Power in Egypt region $ RECIPIENT $ .; X
+gain_state_ethiopia_all; Capture region - Ethiopia (6); X
+gain_state_ethiopia_all_short; Region Ethiopia Accession (6); X
+gain_state_ethiopia_all_setup_all; Capture region in Ethiopia Powers $ RECIPIENT $ .; X
+gain_state_sudan_all; Capture region - Sudan (6); X
+gain_state_sudan_all_short; region of Sudan Accession (6); X
+gain_state_sudan_all_setup_all; Capture region of Sudan have powers $ RECIPIENT $ .; X
+gain_state_sahara_all; Capture Region - Sahara (6); X
+gain_state_sahara_all_short; Capture Sahara region (6); X
+gain_state_sahara_all_setup_all; Seize power in the Sahara region $ RECIPIENT $ .; X
+gain_state_westafrica_all; Capture Region - West Africa (12); X
+gain_state_westafrica_all_short; Capture West African region (12); X
+gain_state_westafrica_all_setup_all; Capture the region of West Africa at the Power $ RECIPIENT $ .; X
+gain_state_centralafrica_all; Capture Region - Central Africa (12); X
+gain_state_centralafrica_all_short; Capture Central African region (12); X
+gain_state_centralafrica_all_setup_all; Capture the region of Central Africa from the power $ RECIPIENT $ .; X
+gain_state_southafrica_all; Capture the region - South Africa (12); X
+gain_state_southafrica_all_short; South Africa (12) Accession of the region; X
+gain_state_southafrica_all_setup_all; Capture region in South Africa Power $ RECIPIENT $ .; X
+gain_state_eastafrica_all; Capture Region - East Africa (12); X
+gain_state_eastafrica_all_short; Capture Eastern African Region (12); X
+gain_state_eastafrica_all_setup_all; Capture the region of East Africa from the Power $ RECIPIENT $ .; X
+gain_state_madagascar_all; Capture region - Madagascar (4); X
+gain_state_madagascar_all_short; region of Madagascar fitting (4); X
+gain_state_madagascar_all_setup_all; Capture a region of Madagascar have powers $ RECIPIENT $ .; X
+gain_state_mongolia_all; Capture region - Mongolia (6); X
+gain_state_mongolia_all_short; Accession Mongolia region (6); X
+gain_state_mongolia_all_setup_all; Capture region in Mongolia Power $ RECIPIENT $ .; X
+gain_state_xinjiang_all; Capture Region - Xinjiang (6); X
+gain_state_xinjiang_all_short; Capture Xinjiang region (6); X
+gain_state_xinjiang_all_setup_all; Seize the Xinjiang region have powers $ RECIPIENT $ .; X
+gain_state_tibet_all; Capture Region - Tibet (6); X
+gain_state_tibet_all_short; Capture Tibet region (6); X
+gain_state_tibet_all_setup_all; Capture Tibet region have powers $ RECIPIENT $ .; X
+gain_state_westchina_all; Capture Region - Western China (12); X
+gain_state_westchina_all_short; Capture West China region (12); X
+gain_state_westchina_all_setup_all; Capture region in Western China Power $ RECIPIENT $ .; X
+gain_state_southernchina_all; Capture the region - South China (12); X
+gain_state_southernchina_all_short; Capture South China region (12); X
+gain_state_southernchina_all_setup_all; Capture region in Southern China Power $ RECIPIENT $ .; X
+gain_state_centralchina_all; Capture region - Central China (12); X
+gain_state_centralchina_all_short; Central China Accession Region (12); X
+gain_state_centralchina_all_setup_all; Capture region in Central China Power $ RECIPIENT $ .; X
+gain_state_northchina_all; Capture Region - North China (12); X
+gain_state_northchina_all_short; Capture North China region (12); X
+gain_state_northchina_all_setup_all; Capture region in North China Power $ RECIPIENT $ .; X
+gain_state_rhein_germany_all; Capture Region - Rhineland (18); X
+gain_state_rhein_germany_all_short; Accession Rhineland region (18); X
+gain_state_rhein_germany_all_setup_all; Seize Power in the region Rhineland $ RECIPIENT $ .; X
+gain_state_northwest_germany_all; Capture Region - West Germany (30); X
+gain_state_northwest_germany_all_short; Capture region West Germany (30); X
+gain_state_northwest_germany_all_setup_all; Capture region in West Germany Power $ RECIPIENT $ .; X
+gain_state_northeast_germany_all; Capture Region - East Germany (36); X
+gain_state_northeast_germany_all_short; Capture region East Germany (36); X
+gain_state_northeast_germany_all_setup_all; Capture region in East Germany Power $ RECIPIENT $ .; X
+gain_state_southern_germany_all; Capture the region - South Germany (30); X
+gain_state_southern_germany_all_short; Southern Germany Capture region (30); X
+gain_state_southern_germany_all_setup_all; Capture region in Southern Germany Power $ RECIPIENT $ .; X
+gain_state_westukraine_all; Capture Region - Western Ukraine (12); X
+gain_state_westukraine_all_short; Capture Region Western Ukraine (12); X
+gain_state_westukraine_all_setup_all; Capture region in Western Ukraine Power $ RECIPIENT $ .; X
+gain_state_eastkraine_all; Capture Region - East Ukraine (12); X
+gain_state_eastkraine_all_short; Capture region East Ukraine (12); X
+gain_state_eastkraine_all_setup_all; Capture region in eastern Ukraine power $ RECIPIENT $ .; X
+gain_state_prussia_all; Region Capture - Prussia (12); X
+gain_state_prussia_all_short; Capture region of Prussia (12); X
+gain_state_prussia_all_setup_all; Capture the region of Prussia in power $ RECIPIENT $ .; X
+gain_state_germanpolen_all; Region Capture - German Poland (12); X
+gain_state_germanpolen_all_short; Capture German Poland region (12); X
+gain_state_germanpolen_all_setup_all; Capture the German region of Poland at Power $ RECIPIENT $ .; X
+gain_state_russianpolen_all; Capture region - Russian Poland (12); X
+gain_state_russianpolen_all_short; Capture Russian Poland region (12); X
+gain_state_russianpolen_all_setup_all; Seize the Russian region of Poland at Power $ RECIPIENT $ .; X
+gain_state_austrianpolen_all; Capture region - Galicia (12); X
+gain_state_austrianpolen_all_short; Capture region of Galicia (12); X
+gain_state_austrianpolen_all_setup_all; Capture the region of Galicia in Power $ RECIPIENT $ .; X
+LAF_conservative; Progressivist party; X
+LAF_liberal; Progressive Republican Party; X
+LAF_reactionary; Party of National Mobilization; X
+LAF_anarcho_liberal; Libertarian Party; X
+LAF_socialist; Democratic Labor Party; X
+LAF_communist; Party of Socialism and Freedom; X
+LAF_fascist; Integralists; X
+LAF; South American Federation; X
+LAF_presidential_dictatorship; South American Federation; X
+LAF_bourgeois_dictatorship; South American Federation; X
+LAF_fascist_dictatorship; South American Union; X
+LAF_democracy; South American Federation; X
+LAF_absolute_monarchy; South American Empire; X
+LAF_hms_government; South American Empire; X
+LAF_proletarian_dictatorship; South American Republic; X
+LAF_ADJ; Latin;. X
+ANU; Andean Union; X
+ANU_ADJ; Latin;. X
+FRA_absolute_monarchy; French Empire; X
+FRA_hms_government; France; X
+FRA_proletarian_dictatorship; French Commune; X
+FRA_presidential_dictatorship; France; X
+FRA_bourgeois_dictatorship; France; X
+FRA_fascist_dictatorship; French Republic; X
+FRA_democracy; France; X
+TUR_fascist_dictatorship; Turkish Empire; X
+TUR_proletarian_dictatorship; Ottoman Republic; X
+JAP_absolute_monarchy; Japanese Empire; X
+JAP_hms_government; Japan; X
+JAP_proletarian_dictatorship; Japanese Union; X
+JAP_presidential_dictatorship; Japan; X
+JAP_bourgeois_dictatorship; Japan; X
+JAP_fascist_dictatorship; Japanese Empire; X
+JAP_democracy; the Japan Republic; X
+GER_fascist_dictatorship; Third Reich; X
+WEL; Wales; X
+KAZ; Kazakh Khanate; X
+JAP; Empire of Japan; X
+USA; United States; X
+CSA; Confederate States of America; X
+ENG_fascist_dictatorship; British Republic; X
+The ALS; Alsace-Lorraine; X
+OST; East India Company; X
+OST_ADJ; British;. X
+WHW; Weihai; X
+QDO; Qingdao; X
+SGH; Shanghai; X
+JXG; Jiaxing; X
+SXG; Shaoxing; X
+NGB; Ningbo; X
+HKG; Hong Kong; X
+MCO; Macau; X
+TWN; Taiwan; X
+BJG; Beijing; X
+TJG; Tyatszin; X
+GNG; Guangdong; X
+HNN; Hunan; X
+JXI; Jiangxi; X
+FJN; Fujian; X
+ZJG; Zhejiang; X
+HBI; Hebei; X
+AHI; Anhui; X
+HEN; Henan; X
+JXU; Jiangsu; X
+SHA; Shaoxing; X
+SHA_ADJ; chinese;. X
+WHW_ADJ; chinese;. X
+QDO_ADJ; chinese;. X
+SGH_ADJ; chinese;. X
+JXG_ADJ; chinese;. X
+SXG_ADJ; chinese;. X
+NGB_ADJ; chinese;. X
+HKG_ADJ; chinese;. X
+MCO_ADJ; chinese;. X
+TWN_ADJ; chinese;. X
+BJG_ADJ; chinese;. X
+TJG_ADJ; chinese;. X
+GNG_ADJ; chinese;. X
+HNN_ADJ; chinese;. X
+JXI_ADJ; chinese;. X
+FJN_ADJ; chinese;. X
+ZJG_ADJ; chinese;. X
+HBI_ADJ; chinese;. X
+AHI_ADJ; chinese;. X
+HEN_ADJ; chinese;. X
+JXU_ADJ; chinese;. X
+AUS; Austrian Empire; X
+HAB; Austria; X
+HAB_ADJ; Austrian;. X
+new_world_gates; Gateway to the West; X
+badboy_off; No dishonor; X
+korean_assimilation; Assimilation of Korea; X
+army_tech_research_bonus; Research in military affairs; X
+navy_tech_research_bonus; Studies in the doctrines; X
+extremely_low_cost_of_production; extremely low production costs; X
+lowest_cost_of_production; Very low cost of production; X
+lower_cost_of_production; Pretty low production costs; X
+low_cost_of_production; Low production costs; X
+medium_cost_of_production; average cost of production; X
+high_cost_of_production; high production costs; X
+higher_cost_of_production; rather high production costs; X
+veryhigh_cost_of_production; Very high production costs; X
+highest_cost_of_production; Extremely high production costs; X
+extremely_high_cost_of_production; highest production costs; X
+reform_cutoff; Nerf medreform; X
+reform_trinket_cutoff_10; Nerf medreform - 10; X
+reform_trinket_cutoff_15; Nerf medreform - 15; X
+reform_trinket_cutoff_20; Nerf medreform - 20; X
+reform_trinket_cutoff_25; Nerf medreform - 25; X
+reform_trinket_cutoff_30; Nerf medreform - 30; X
+reform_trinket_cutoff_32; Nerf medreform - 32; X
+reform_trinket_cutoff_35; Nerf medreform - 35; X
+reform_low_cutoff_10; Nerf medreform - 10; X
+reform_low_cutoff_15; Nerf medreform - 15; X
+reform_low_cutoff_20; Nerf medreform - 20; X
+reform_low_cutoff_25; Nerf medreform - 25; X
+reform_low_cutoff_30; Nerf medreform - 30; X
+reform_low_cutoff_32; Nerf medreform - 32; X
+reform_low_cutoff_35; Nerf medreform - 35; X
+reform_acceptable_cutoff_10; Nerf medreform - 10; X
+reform_acceptable_cutoff_15; Nerf medreform - 15; X
+reform_acceptable_cutoff_20; Nerf medreform - 20; X
+reform_acceptable_cutoff_25; Nerf medreform - 25; X
+reform_acceptable_cutoff_30; Nerf medreform - 30; X
+reform_acceptable_cutoff_32; Nerf medreform - 32; X
+reform_acceptable_cutoff_35; Nerf medreform - 35; X
+reform_good_cutoff_10; Nerf medreform - 10; X
+reform_good_cutoff_15; Nerf medreform - 15; X
+reform_good_cutoff_20; Nerf medreform - 20; X
+reform_good_cutoff_25; Nerf medreform - 25; X
+reform_good_cutoff_30; Nerf medreform - 30; X
+reform_good_cutoff_32; Nerf medreform - 32; X
+reform_good_cutoff_35; Nerf medreform - 35; X
+laf_mobilization; Mobilization; X
+patriots; Rise of the nationalists; X
+ire_disaster; Potato famine; X
+extremely_low_immigration; extremely low immigration; X
+lower_immigration; Very low immigration; X
+low_immigration; low immigration; X
+medium_immigration; average immigration; X
+high_immigration; high immigration; X
+higher_immigration; Very high immigration; X
+extremely_high_immigration; Extremely high immigration; X
+highest_immigration; Highest immigration; X
+issue_little_stage1; emissions - Stage 1; X
+issue_little_stage2; emissions - Stage 2; X
+issue_little_stage3; emissions - Stage 3; X
+issue_average_stage1; emissions - Stage 1; X
+issue_average_stage2; emissions - Stage 2; X
+issue_average_stage3; emissions - Stage 3; X
+issue_average_stage4; emissions - Stage 4; X
+issue_large_stage1; emissions - Stage 1; X
+issue_large_stage2; emissions - Stage 2; X
+issue_large_stage3; emissions - Stage 3; X
+issue_large_stage4; emissions - Stage 4; X
+devaluation_little_stage1; Devaluation - Stage 1; X
+devaluation_little_stage2; Devaluation - Stage 2; X
+devaluation_little_stage3; Devaluation - Stage 3; X
+devaluation_average_stage1; Devaluation - Stage 1; X
+devaluation_average_stage2; Devaluation - Stage 2; X
+devaluation_average_stage3; Devaluation - Stage 3; X
+devaluation_average_stage4; Devaluation - Stage 4; X
+devaluation_large_stage1; Devaluation - Stage 1; X
+devaluation_large_stage2; Devaluation - Stage 2; X
+devaluation_large_stage3; Devaluation - Stage 3; X
+devaluation_large_stage4; Devaluation - Stage 4; X
+social_reformed_nation; socialist state; X
+own_panama_canal; the Panama Canal; X
+own_suez_canal; the Suez Canal; X
+is_vassal_state; Satellite; X
+givemoney_on_title; View a list of transactions; X
+givemoney_on_desc; ; X
+givemoney_off_title; Close list transactions; X
+givemoney_off_desc; ; X
+givemoney_ENG_title; ; X
+givemoney_RUS_title; ; X
+givemoney_FRA_title; ; X
+givemoney_PRU_title; ; X
+givemoney_GER_title; ; X
+givemoney_AUS_title; ; X
+givemoney_KUK_title; ; X
+givemoney_SGF_title; ; X
+givemoney_USA_title; ; X
+givemoney_CSA_title; ; X
+givemoney_JAP_title; ; X
+givemoney_ITA_title; ; X
+givemoney_SWE_title; ; X
+givemoney_SCA_title; ; X
+givemoney_BEL_title; ; X
+givemoney_NET_title; ; X
+givemoney_SPA_title; ; X
+givemoney_SIC_title; ; X
+givemoney_TUR_title; ; X
+givemoney_CAN_title; ; X
+givemoney_COL_title; ; X
+givemoney_QUE_title; ; X
+givemoney_CLM_title; ; X
+givemoney_ANU_title; ; X
+givemoney_LAF_title; ; X
+givemoney_AST_title; ; X
+givemoney_NZL_title; ; X
+givemoney_GCO_title; ; X
+givemoney_NGF_title; ; X
+givemoney_SAR_title; ; X
+givemoney_PER_title; ; X
+givemoney_BRZ_title; ; X
+givemoney_GRE_title; ; X
+givemoney_SER_title; ; X
+givemoney_YUG_title; ; X
+givemoney_EGY_title; ; X
+givemoney_HND_title; ; X
+givemoney_POL_title; ; X
+givemoney_EST_title; ; X
+givemoney_LIT_title; ; X
+givemoney_LAT_title; ; X
+givemoney_UKR_title; ; X
+givemoney_BYE_title; ; X
+givemoney_PLC_title; ; X
+givemoney_UBD_title; ; X
+givemoney_FIN_title; ; X
+givemoney_SAR_desc; Send money; X
+givemoney_RUS_desc; Send money; X
+givemoney_FRA_desc; Send money; X
+givemoney_PRU_desc; Send money; X
+givemoney_NGF_desc; Send money; X
+givemoney_GER_desc; Send money; X
+givemoney_AUS_desc; Send money; X
+givemoney_KUK_desc; Send money; X
+givemoney_SGF_desc; Send money; X
+givemoney_USA_desc; Send money; X
+givemoney_CSA_desc; Send money; X
+givemoney_JAP_desc; Send money; X
+givemoney_ITA_desc; Send money; X
+givemoney_SWE_desc; Send money; X
+givemoney_SCA_desc; Send money; X
+givemoney_BEL_desc; Send money; X
+givemoney_NET_desc; Send money; X
+givemoney_SPA_desc; Send money; X
+givemoney_SIC_desc; Send money; X
+givemoney_TUR_desc; Send money; X
+givemoney_CAN_desc; Send money; X
+givemoney_COL_desc; Send money; X
+givemoney_QUE_desc; Send money; X
+givemoney_CLM_desc; Send money; X
+givemoney_ANU_desc; Send money; X
+givemoney_LAF_desc; Send money; X
+givemoney_AST_desc; Send money; X
+givemoney_NZL_desc; Send money; X
+givemoney_GCO_desc; Send money; X
+givemoney_ENG_desc; Send money; X
+givemoney_PER_desc; Send money; X
+givemoney_BRZ_desc; Send money; X
+givemoney_GRE_desc; Send money; X
+givemoney_SER_desc; Send money; X
+givemoney_YUG_desc; Send money; X
+givemoney_EGY_desc; Send money; X
+givemoney_HND_desc; Send money; X
+givemoney_POL_desc; Send money; X
+givemoney_EST_desc; Send money; X
+givemoney_LIT_desc; Send money; X
+givemoney_LAT_desc; Send money; X
+givemoney_UKR_desc; Send money; X
+givemoney_BYE_desc; Send money; X
+givemoney_PLC_desc; Send money; X
+givemoney_UBD_desc; Send money; X
+givemoney_FIN_desc; Send money; X
+concede_elsass_title; Waiver of Alsace; X
+concede_elsass_desc; ; X
+AdminTools_on_title; Open admin panel; X
+AdminTools_on_desc; ; X
+AdminTools_off_title; Close the admin panel; X
+AdminTools_off_desc; ; X
+AdminTools_penalty_on_title; Open bar fines; X
+AdminTools_penalty_on_desc; ; X
+AdminTools_penalty_off_title; fines Close panel; X
+AdminTools_penalty_off_desc; ; X
+AdminTools_bonus_on_title; Open bar bonuses; X
+AdminTools_bonus_on_desc; ; X
+AdminTools_bonus_off_title; Close panel bonuses; X
+AdminTools_bonus_off_desc; ; X
+AdminTools_rp_on_title; Open bar OI; X
+AdminTools_rp_on_desc; ; X
+AdminTools_rp_off_title; Close RI panel; X
+AdminTools_rp_off_desc; ; X
+admintools_penalty_ENG_title; United Kingdom; X
+admintools_penalty_RUS_title; Russia; X
+admintools_penalty_FRA_title; France; X
+admintools_penalty_PRU_title; Prussia; X
+admintools_penalty_NGF_title; the North German Confederation; X
+admintools_penalty_GER_title; Germany; X
+admintools_penalty_AUS_title; Austria; X
+admintools_penalty_KUK_title; Austria-Hungary; X
+admintools_penalty_SGF_title; the South German Union; X
+admintools_penalty_USA_title; USA; X
+admintools_penalty_CSA_title; CSA; X
+admintools_penalty_JAP_title; Japan; X
+admintools_penalty_ITA_title; Italy; X
+admintools_penalty_SWE_title; Sweden; X
+admintools_penalty_SCA_title; Scandinavia; X
+admintools_penalty_BEL_title; Belgium; X
+admintools_penalty_NET_title; Netherlands; X
+admintools_penalty_SPA_title; Spain; X
+admintools_penalty_SIC_title; Sicily; X
+admintools_penalty_TUR_title; Turkey; X
+admintools_penalty_CAN_title; Canada; X
+admintools_penalty_COL_title; Brit. Columbia; X
+admintools_penalty_QUE_title; Quebec; X
+admintools_penalty_CLM_title; Colombia; X
+admintools_penalty_ANU_title; Andean Union; X
+admintools_penalty_LAF_title; South American Federation; X
+admintools_penalty_AST_title; Australia; X
+admintools_penalty_NZL_title; New Zealand; X
+admintools_penalty_GCO_title; Gran Colombia; X
+admintools_penalty_SAR_title; Sardinia-Piedmont; X
+admintools_penalty_ENG_desc; -10 Prestige; X
+admintools_penalty_RUS_desc; -10 Prestige; X
+admintools_penalty_FRA_desc; -10 Prestige; X
+admintools_penalty_PRU_desc; -10 Prestige; X
+admintools_penalty_NGF_desc; -10 Prestige; X
+admintools_penalty_GER_desc; -10 Prestige; X
+admintools_penalty_AUS_desc; -10 Prestige; X
+admintools_penalty_KUK_desc; -10 Prestige; X
+admintools_penalty_SGF_desc; -10 Prestige; X
+admintools_penalty_USA_desc; -10 Prestige; X
+admintools_penalty_CSA_desc; -10 Prestige; X
+admintools_penalty_JAP_desc; -10 Prestige; X
+admintools_penalty_ITA_desc; -10 Prestige; X
+admintools_penalty_SWE_desc; -10 Prestige; X
+admintools_penalty_SCA_desc; -10 Prestige; X
+admintools_penalty_BEL_desc; -10 Prestige; X
+admintools_penalty_NET_desc; -10 Prestige; X
+admintools_penalty_SPA_desc; -10 Prestige; X
+admintools_penalty_SIC_desc; -10 Prestige; X
+admintools_penalty_TUR_desc; -10 Prestige; X
+admintools_penalty_CAN_desc; -10 Prestige; X
+admintools_penalty_COL_desc; -10 Prestige; X
+admintools_penalty_QUE_desc; -10 Prestige; X
+admintools_penalty_CLM_desc; -10 Prestige; X
+admintools_penalty_ANU_desc; -10 Prestige; X
+admintools_penalty_LAF_desc; -10 Prestige; X
+admintools_penalty_AST_desc; -10 Prestige; X
+admintools_penalty_NZL_desc; -10 Prestige; X
+admintools_penalty_GCO_desc; -10 Prestige; X
+admintools_penalty_SAR_desc; -10 Prestige; X
+admintools_bonus_ENG_title; United Kingdom; X
+admintools_bonus_RUS_title; Russia; X
+admintools_bonus_FRA_title; France; X
+admintools_bonus_PRU_title; Prussia; X
+admintools_bonus_NGF_title; the North German Confederation; X
+admintools_bonus_GER_title; Germany; X
+admintools_bonus_AUS_title; Austria; X
+admintools_bonus_KUK_title; Austria-Hungary; X
+admintools_bonus_SGF_title; the South German Union; X
+admintools_bonus_USA_title; USA; X
+admintools_bonus_CSA_title; CSA; X
+admintools_bonus_JAP_title; Japan; X
+admintools_bonus_ITA_title; Italy; X
+admintools_bonus_SWE_title; Sweden; X
+admintools_bonus_SCA_title; Scandinavia; X
+admintools_bonus_BEL_title; Belgium; X
+admintools_bonus_NET_title; Netherlands; X
+admintools_bonus_SPA_title; Spain; X
+admintools_bonus_SIC_title; Sicily; X
+admintools_bonus_TUR_title; Turkey; X
+admintools_bonus_CAN_title; Canada; X
+admintools_bonus_COL_title; Brit. Columbia; X
+admintools_bonus_QUE_title; Quebec; X
+admintools_bonus_CLM_title; Colombia; X
+admintools_bonus_ANU_title; Andean Union; X
+admintools_bonus_LAF_title; South American Federation; X
+admintools_bonus_AST_title; Australia; X
+admintools_bonus_NZL_title; New Zealand; X
+admintools_bonus_GCO_title; Gran Colombia; X
+admintools_bonus_SAR_title; Sardinia-Piedmont; X
+admintools_bonus_ENG_desc; 10 prestige; X
+admintools_bonus_RUS_desc; 10 prestige; X
+admintools_bonus_FRA_desc; 10 prestige; X
+admintools_bonus_PRU_desc; 10 prestige; X
+admintools_bonus_NGF_desc; 10 prestige; X
+admintools_bonus_GER_desc; 10 prestige; X
+admintools_bonus_AUS_desc; 10 prestige; X
+admintools_bonus_KUK_desc; 10 prestige; X
+admintools_bonus_SGF_desc; 10 prestige; X
+admintools_bonus_USA_desc; 10 prestige; X
+admintools_bonus_CSA_desc; 10 prestige; X
+admintools_bonus_JAP_desc; 10 prestige; X
+admintools_bonus_ITA_desc; 10 prestige; X
+admintools_bonus_SWE_desc; 10 prestige; X
+admintools_bonus_SCA_desc; 10 prestige; X
+admintools_bonus_BEL_desc; 10 prestige; X
+admintools_bonus_NET_desc; 10 prestige; X
+admintools_bonus_SPA_desc; 10 prestige; X
+admintools_bonus_SIC_desc; 10 prestige; X
+admintools_bonus_TUR_desc; 10 prestige; X
+admintools_bonus_CAN_desc; 10 prestige; X
+admintools_bonus_COL_desc; 10 prestige; X
+admintools_bonus_QUE_desc; 10 prestige; X
+admintools_bonus_CLM_desc; 10 prestige; X
+admintools_bonus_ANU_desc; 10 prestige; X
+admintools_bonus_LAF_desc; 10 prestige; X
+admintools_bonus_AST_desc; 10 prestige; X
+admintools_bonus_NZL_desc; 10 prestige; X
+admintools_bonus_GCO_desc; 10 prestige; X
+admintools_bonus_SAR_desc; 10 prestige; X
+admintools_rp_ENG_title; United Kingdom; X
+admintools_rp_RUS_title; Russia; X
+admintools_rp_FRA_title; France; X
+admintools_rp_PRU_title; Prussia; X
+admintools_rp_NGF_title; the North German Confederation; X
+admintools_rp_GER_title; Germany; X
+admintools_rp_AUS_title; Austria; X
+admintools_rp_KUK_title; Austria-Hungary; X
+admintools_rp_SGF_title; the South German Union; X
+admintools_rp_USA_title; USA; X
+admintools_rp_CSA_title; CSA; X
+admintools_rp_JAP_title; Japan; X
+admintools_rp_ITA_title; Italy; X
+admintools_rp_SWE_title; Sweden; X
+admintools_rp_SCA_title; Scandinavia; X
+admintools_rp_BEL_title; Belgium; X
+admintools_rp_NET_title; Netherlands; X
+admintools_rp_SPA_title; Spain; X
+admintools_rp_SIC_title; Sicily; X
+admintools_rp_TUR_title; Turkey; X
+admintools_rp_CAN_title; Canada; X
+admintools_rp_COL_title; Brit. Columbia; X
+admintools_rp_QUE_title; Quebec; X
+admintools_rp_CLM_title; Colombia; X
+admintools_rp_ANU_title; Andean Union; X
+admintools_rp_LAF_title; South American Federation; X
+admintools_rp_AST_title; Australia; X
+admintools_rp_NZL_title; New Zealand; X
+admintools_rp_GCO_title; Gran Colombia; X
+admintools_rp_SAR_title; Sardinia-Piedmont; X
+admintools_rp_ENG_desc; 100 days of OI; X
+admintools_rp_RUS_desc; 100 days of OI; X
+admintools_rp_FRA_desc; 100 days of OI; X
+admintools_rp_PRU_desc; 100 days of OI; X
+admintools_rp_NGF_desc; 100 days of OI; X
+admintools_rp_GER_desc; 100 days of OI; X
+admintools_rp_AUS_desc; 100 days of OI; X
+admintools_rp_KUK_desc; 100 days of OI; X
+admintools_rp_SGF_desc; 100 days of OI; X
+admintools_rp_USA_desc; 100 days of OI; X
+admintools_rp_CSA_desc; 100 days of OI; X
+admintools_rp_JAP_desc; 100 days of OI; X
+admintools_rp_ITA_desc; 100 days of OI; X
+admintools_rp_SWE_desc; 100 days of OI; X
+admintools_rp_SCA_desc; 100 days of OI; X
+admintools_rp_BEL_desc; 100 days of OI; X
+admintools_rp_NET_desc; 100 days of OI; X
+admintools_rp_SPA_desc; 100 days of OI; X
+admintools_rp_SIC_desc; 100 days of OI; X
+admintools_rp_TUR_desc; 100 days of OI; X
+admintools_rp_CAN_desc; 100 days of OI; X
+admintools_rp_COL_desc; 100 days of OI; X
+admintools_rp_QUE_desc; 100 days of OI; X
+admintools_rp_CLM_desc; 100 days of OI; X
+admintools_rp_ANU_desc; 100 days of OI; X
+admintools_rp_LAF_desc; 100 days of OI; X
+admintools_rp_AST_desc; 100 days of OI; X
+admintools_rp_NZL_desc; 100 days of OI; X
+admintools_rp_GCO_desc; 100 days of OI; X
+admintools_rp_SAR_desc; 100 days of OI; X
+Claim_AdminTools_title; Get administrator rights; X
+Claim_AdminTools_desc; Available only for organizer; X
+russia_rename_sakhalin_title; Rename Sakhalin; X
+russia_rename_sakhalin_desc; ; X
+japan_rename_sakhalin_title; Rename Sakhalin; X
+japan_rename_sakhalin_desc; ; X
+russia_rename_kuriles_title; Rename Kurils; X
+russia_rename_kuriles_desc; ; X
+japan_rename_kuriles_title; Rename Kurils; X
+japan_rename_kuriles_desc; ; X
+admintools_rp_CHI_title; China; X
+admintools_rp_CHI_desc; 100 days of OI; X
+admintools_bonus_CHI_title; China; X
+admintools_bonus_CHI_desc; 100 days of OI; X
+admintools_penalty_CHI_title; China; X
+admintools_penalty_CHI_desc; 100 days of OI; X
+givemoney_CHI_title; China; X
+givemoney_CHI_desc; Send money; X
+trade_on_title; Sign in trade regime; X
+trade_on_desc; Allows you to conduct barter trade with other non AI-nations. It is enough to follow the instructions and wait for a partner in the selected pool;. X
+trade_off_title; Exit the trade regime; X
+trade_off_desc; You will be charged marking, and other trade data; X
+trade_off_pool_1_host_title; Exit the trade regime; X
+trade_off_pool_1_host_desc; labeling and other trade data will be removed from you; X
+trade_off_pool_2_host_title; Exit the trade regime; X
+trade_off_pool_2_host_desc; labeling and other trade data will be removed from you; X
+trade_reboot_title; Reload trade; X
+trade_reboot_desc; For all countries will be rolled back trade variables, all transactions will be cleared; X
+united_andes_title; proclaim the Andean Union; X
+united_south_america_title; proclaim SAF; X
+united_south_america_desc; will start a war for the union; X
+laf_cores_title; Claims to Guyana and the Falklands; X
+united_andes_desc; ; X
+united_south_america_desc; ; X
+laf_cores_desc; ; X
+move_capital_to_tokyo_title; Decree on the restoration of the Imperial reign; X
+move_capital_to_tokyo_desc; ; X
+japan_rename_korea_title; New General Government Chosen; X
+japan_rename_korea_desc; ; X
+currency_issue_start_title; To declare currency issue; X
+currency_devaluation_start_title; To declare currency devaluation; X
+currency_issue_start_desc; ; X
+currency_devaluation_start_desc; ; X
+conscription_back_1year_title; Increase the length of military service; X
+conscription_back_4years_title; Increase the length of military service; X
+conscription_back_7years_title; Increase the length of military service; X
+conscription_back_10years_title; Increase the length of military service; X
+conscription_back_1year_desc; ; X
+conscription_back_4years_desc; ; X
+conscription_back_7years_desc; ; X
+conscription_back_10years_desc; ; X
+EVTNAME91001; We took the naval blockade; X
+EVTDESC91001; cost of imported goods increased by 2.5 times; X
+EVTOPTA91001; Horror;! X
+EVTNAME91002; naval blockade lifted; X
+EVTDESC91002; ; X
+EVTOPTA91002; Excellent;! X
+EVTNAME91003; Opponent taken a naval blockade; X
+EVTDESC91003; The value of imports increased by 2.5 times for him; X
+EVTOPTA91003; Excellent;! X
+EVTNAME91004; The enemy broke through the naval blockade; X
+EVTDESC91004; ; X
+EVTOPTA91004; Horror;! X
+EVTNAME91005; crutch; X
+EVTDESC91005; you can not have a stock of more than 2000 units of the mechanisms. ; X
+EVTOPTA91005; Oak; X
+EVTNAME96666; Imperialism; X
+EVTDESC96666; technical, military, and cultural superiority of Western civilization over the rest of the world has reached an unprecedented separation. Now, nobody has the right to interfere with us to carry education and technology in the backward countries. Civilizing mission began. ; X
+EVTOPTA96666; It's time to expand;! X
+EVTNAME100003; Mobilization;! X
+EVTDESC100003; for victory in the civil war on the South American continent, we need all available forces;. X
+EVTOPTA100003; Ur;! X
+EVTNAME99999; war; X
+EVTDESC99999; Brazil is not going to join our Power;! X
+EVTOPTA99999; there is only one way out; X
+EVTNAME100100; emissions; X
+EVTDESC100100; Select volume; X
+EVTOPTA100100; 10% of GDP; X
+EVTOPTB100100; 25% of GDP; X
+EVTOPTC100100; 50% of GDP; X
+EVTNAME100101; devaluation; X
+EVTDESC100101; Select volume; X
+EVTOPTA100101; 10% of GDP; X
+EVTOPTB100101; 25% of GDP; X
+EVTOPTC100101; 50% of GDP; X
+EVTNAME100102; small issue; X
+EVTDESC100102; first stage; X
+EVTNAME100103; small issue; X
+EVTDESC100103; second stage; X
+EVTNAME100104; small issue; X
+EVTDESC100104; third stage; X
+EVTNAME100105; average emissions; X
+EVTDESC100105; first stage; X
+EVTNAME100106; average emissions; X
+EVTDESC100106; second stage; X
+EVTNAME100107; average emissions; X
+EVTDESC100107; third stage; X
+EVTNAME100108; Major emissions; X
+EVTDESC100108; first stage; X
+EVTNAME100109; Major emissions; X
+EVTDESC100109; second stage; X
+EVTNAME100110; Major emissions; X
+EVTDESC100110; third stage; X
+EVTNAME100111; small devaluation; X
+EVTDESC100111; first stage; X
+EVTNAME100112; small devaluation; X
+EVTDESC100112; second stage; X
+EVTNAME100113; small devaluation; X
+EVTDESC100113; third stage; X
+EVTNAME100114; average devaluation; X
+EVTDESC100114; first stage; X
+EVTNAME100115; average devaluation; X
+EVTDESC100115; second stage; X
+EVTNAME100116; average devaluation; X
+EVTDESC100116; third stage; X
+EVTNAME100117; Major devaluation; X
+EVTDESC100117; first stage; X
+EVTNAME100118; Major devaluation; X
+EVTDESC100118; second stage; X
+EVTNAME100119; Major devaluation; X
+EVTDESC100119; third stage; X
+EVTNAME100120; monetary reform completed; X
+EVTDESC100120; ; X
+EVTNAME100400; foreign policy of Sardinia-Piedmont;
+EVTDESC100400; You can choose between two versions of the unification of Italy, or encourage the development of the economy;
+EVTOPTA100400; Suggest association under the terms of Confederation;
+EVTOPTB100400; support the Red Shirts;
+EVTOPTC100400; Postpone the issue, the country is not yet ready for it;
+EVTNAME100401; Sardinia-Piedmont proposed merger on the terms of Confederation;
+EVTDESC100401 ;;
+EVTOPTA100401; Agree;
+EVTOPTB100401; Takeout;
+EVTNAME100402; Unification of Italy: the status of the Confederation;
+EVTDESC100402; part of the Kingdom agree, but there were also those who are against. Now we need to select the next step;
+EVTOPTA100402; Conquer dissenting kingdom;
+EVTOPTB100402; support the Red Shirts;
+EVTNAME100403; Unification of Italy: the reactionary alliance;
+EVTDESC100403; Sardinia-Piedmont has established a confederation of Italian states and plans to expand their power on us;
+EVTOPTA100403; reactionary forces must unite;
+EVTNAME100404; Unification of Italy: the preparation for war;
+EVTDESC100404 ;;
+EVTOPTA100404 ;;
+EVTNAME100405; Unification of Italy: the beginning of the war;
+EVTDESC100405; Against us stands an alliance of reactionary forces;
+EVTOPTA100405; Go for Italy !;
+boston_amp;[City] Boston;
+newyorkcity_amp;[City] New-York;
+philadelphia_amp;[City] Philadelphia;
+baltimor_amp;[City] Baltimor;
+detroyt_amp;[City] Detroit;
+chicago_amp;[City] Chicago;
+indianopolis_amp;[City] Indianapolis;
+nasehvill_amp;[City] Nashville;
+charlotte_amp;[City] Charlotte;
+atlanta_amp;[City] Atlanta;
+miami_amp;[City] Miami;
+neworlean_amp;[City] New Orleans;
+houston_amp;[City] Houston;
+dallas_amp;[City] Dallas;
+sanantonio_amp;[City] San antonio;
+denver_amp;[City] Denver;
+fenix_amp;[City] Phoenix;
+lasvegas_amp;[City] Las Vegas;
+seatle_amp;[City] Seattle;
+montarray_amp;[City] Monterrey;
+losaengeles_amp;[City] Los Angeles;
+sandiego_amp;[City] San diego;
+sanfrancisco_amp;[City] San Francisco;
+guadalahara_amp;[City] Guadalajara;
+mexicosity_amp;[City] Mexico ;
+puebla_amp;[City] Puebla;
+monterrey_amp;[City] Monterey;
+vancouver_amp;[City] Vancouver;
+edmongton_amp;[City] Edmonton;
+calgari_amp;[City] Calgary;
+torronto_amp;[City] Toronto;
+ottava_amp;[City] Ottawa;
+monreal_amp;[City] Montreal;
+SPA_2209_amp;[City] Havana;
+bogota_amp;[City] Bogot?;
+balboa_amp;[City] Balboa;
+caracas_amp;[City] Caracas;
+lima_amp;[City] Lima;
+sabara_amp;[City] Sabara;
+saopaulo_amp;[City] Sao Paulo;
+rio_amp;[City] Rio de Janeiro;
+asuncion_amp;[City] Asuncion;
+buenosaires_amp;[City] Buenos Aires;
+santiago_amp;[City] Santiago;
+URU_2344_amp;[City] Montevideo;
+ECU_2279_amp;[City] Quito;
+stokholm_amp;[City] Stockholm;
+malmo_amp;[City] Malm?;
+uppsala_amp;[City] Uppsala;
+gothenburg_amp;[City] Gothenburg;
+vasteras_amp;[City] Westeros;
+oslo_amp;[City] Oslo;
+trondheim_amp;[City] Trondheim;
+bergen_amp;[City] Bergen;
+copenhagen_amp;[City] Copenhagen;
+arhus_amp;[City] Aarhus;
+helsinki_amp;[City] Helsinki;
+napel_amp;[City] Naples;
+rome_amp;[City] Rome;
+florence_amp;[City] Florence;
+niece_amp;[City] Nice;
+tourin_amp;[City] Turin;
+venice_amp;[City] Venice;
+milan_amp;[City] Milan;
+palemo_amp;[City] Palermo;
+bologna_amp;[City] Bologna;
+bari_amp;[City] Bari;
+padua_amp;[City] Padova;
+verona_amp;[City] Verona;
+parma_amp;[City] Parma;
+modena_amp;[City] Modena;
+athens_amp;[City] Athens;
+AUS_771_amp;[City] Zagreb;
+istambul_amp;[City] Istanbul;
+izmir_amp;[City] Izmir;
+bursa_amp;[City] Bursa;
+adana_amp;[City] Adana;
+ankara_amp;[City] Ankara;
+aleppo_amp;[City] Aleppo;
+damaskus_amp;[City] Damascus;
+beirut_amp;[City] Beirut;
+jaffa_amp;[City] Jaffa;
+baghdad_amp;[City] Baghdad;
+kuwait_amp;[City] Kuwait;
+iasi_amp;[City] Iasi;
+buharest_amp;[City] Bucharest;
+belgrade_amp;[City] Belgrade;
+TUR_853_amp;[City] Tirana;
+sofia_amp;[City] Sofia;
+madrid_amp;[City] Madrid;
+barselona_amp;[City] Barcelona;
+valencia_amp;[City] Valencia;
+seville_amp;[City] Seville;
+zaragoza_amp;[City] Zaragoza;
+lisbon_amp;[City] Lisbon;
+porto_amp;[City] Porto;
+london_amp;[City] London;
+southampton_amp;[City] Southampton;
+cardiff_amp;[City] Cardiff;
+birmingham_amp;[City] Birmingham;
+liverpool_amp;[City] Liverpool;
+manchester_amp;[City] Manchester;
+leeds_amp;[City] Leeds;
+edinburgh_amp;[City] Edinburgh;
+dublin_amp;[City] Dublin;
+newcastle_amp;[City] Newcastle;
+bristol_amp;[City] Bristol;
+nottingham_amp;[City] Nottingham;
+leicester_amp;[City] Leicester;
+glasgow_amp;[City] Glasgow;
+melbourne_amp;[City] Melbourne;
+sidney_amp;[City] Sydney;
+brisben_amp;[City] Brisbane;
+welington_amp;[City] Wellington;
+dubai_amp;[City] Dubai;
+riyadh_amp;[City] Riyadh;
+jidda_amp;[City] Jeddah;
+paris_amp;[City] Paris;
+lille_amp;[City] Lille;
+strasbourg_amp;[City] Strasbourg;
+bordeaux_amp;[City] Bordeaux;
+marseilles_amp;[City] Marseille;
+lyon_amp;[City] Lyon;
+brest_amp;[City] Brest;
+toulouse_amp;[City] Toulouse;
+nant_amp;[City] Nantes;
+toulon_amp;[City] Toulon;
+capetownamp;[City] Cape Town;
+durban_amp;[City] Durban;
+pretoria_amp;[City] Pretoria;
+johannesburg_amp;[City] Johannesburg;
+algiers_amp;[City] Algeria;
+tunis_amp;[City] Tunisia;
+alexandria_amp;[City] Alexandria;
+cairo_amp;[City] Cairo;
+khartoum_amp;[City] Khartoum;
+antwerp_amp;[City] Antwerp;
+brussels_amp;[City] Brussels;
+liege_amp;[City] Liege;
+charleroi_amp;[City] Charleroi;
+gent_amp;[City] Ghent;
+amsterdam_amp;[City] Amsterdam;
+rotterdam_amp;[City] Rotterdam;
+utrecht_amp;[City] Utrecht;
+eindhoven_amp;[City] Eindhoven;
+lugano_amp;[City] Lugano;
+zurich_amp;[City] Zurich;
+bern_amp;[City] Bern;
+geneva_amp;[City] Geneva;
+madras_amp;[City] Madras;
+bangalore_amp;[City] Bangalore;
+bombay_amp;[City] Bombay;
+calcutta_amp;[City] Calcutta;
+dacca_amp;[City] Dhaka;
+dehli_amp;[City] Delhi;
+lahore_amp;[City] Lahore;
+kaarachi_amp;[City] Karachi;
+rangoon_amp;[City] Yangon;
+bangkok_amp;[City] Bangkok;
+saigon_amp;[City] Saigon;
+haiphong_amp;[City] Haiphong;
+hanoi_amp;[City] Hanoi;
+singapore_amp;[City] Singapore;
+kualalumpur_amp;[City] Kuala Lumpur;
+medan_amp;[City] Medan;
+yoguakarta_amp;[City] Jakarta;
+surabaya_amp;[City] Surabay;
+AMP_borneo;[City] Brunei;
+manila_amp;[City] Manila;
+shiraz_amp;[City] Shiraz;
+ahvaz_amp;[City] Ahwaz;
+isfahan_amp;[City] Isfahan;
+teheran_amp;[City] Tehran;
+mashhad_amp;[City] Mashhad;
+tabriz_amp;[City] Tabrez;
+baku_amp;[City] Baku;
+tibilisi_amp;[City] Tbilisi;
+pyongyang_amp;[City] Pyongyang;
+seoul_amp;[City] Seoul;
+sapporo_amp;[City] Sapporo;
+sendai_amp;[City] Sendai;
+tokio_amp;[City] Tokyo;
+yokohama_amp;[City] Yokohama;
+nagoya_amp;[City] Nagoya;
+kyoto_amp;[City] Kyoto;
+osaka_amp;[City] Osaka;
+kobe_amp;[City] Kobe;
+hirosima_amp;[City] Hiroshima;
+fukuoka_amp;[City] Fukuoka;
+nagasaki_amp;[City] Nagasaki;
+canton_amp;[City] Guangzhou;
+zjanjiang_amp;[City] Gaozhou;
+chengdu_amp;[City] Chengdu;
+chongqing_amp;[City] Chongqing;
+wuchang_amp;[City] Wuhan;
+nanjing_amp;[City] Nanjing;
+hangzhou_amp;[City] Hangzhou;
+tianjin_amp;[City] Tianjin;
+beijing_amp;[City] Beijing;
+harbin_amp;[City] Harbin;
+taibei_amp;[City] Taipei;
+CHI_1496;[City] Hong Kong;
+CHI_14960;[City] Macau;
+CHI_1481;[City] Port Arthur;
+CHI_1566;[City] Qingdao;
+CHI_1569;[City] Wei hi-wei;
+CHI_1611_2;[City] Ningbo;
+CHI_1606;[City] Jiaxing;
+CHI_1538;[City] Shanghai;
+CHI_1611_3;[City] Shaoxing;
+riga_amp;[City] Riga;
+vilnus_amp;[City] Vilnius;
+tashkent_amp;[City] Tashkent;
+bishkek_amp;[City] Bishkek;
+almaata_amp;[City] Alma-Ata;
+krasnoyarsk_amp;[City] Krasnoyarsk;
+omsk_amp;[City] Omsk;
+tyumen_amp;[City] Tyumen;
+chelyabinsk_amp;[City] Chelyabinsk;
+ufa_amp;[City] Ufa;
+perm_amp;[City] Perm;
+ekaterinburg_amp;[City] Yekaterinburg;
+samara_amp;[City] Samara;
+kazan_amp;[City] Kazan;
+nizhniynovgorod_amp;[City] Nizhny Novgorod;
+uralsk_amp;[City] Uralsk;
+saratov_amp;[City] Saratov;
+tsaritsyn_amp;[City] Tsaritsyn;
+rostov_amp;[City] Rostov;
+kharkov_amp;[City] Kharkov;
+kursk_amp;[City] Kursk;
+moscow_amp;[City] Moscow;
+ekaterinoslav_amp;[City] Yekaterinoslav;
+odessa_amp;[City] Odessa;
+kiev_amp;[City] Kiev;
+minsk_amp;[City] Minsk;
+warshaw_amp;[City] Warsaw;
+smolensk_amp;[City] Smolensk;
+petersburg_amp;[City] St. Petersburg;
+khabarovsk_amp;[City] Khabarovsk;
+vladivostok_amp;[City] Vladivostok;
+petropavlovsk_amp;[City] Petropavlovsk;
+irkutsk_amp;[City] Irkutsk;
+budapest_amp;[City] Budapest;
+debrecen_amp;[City] Debrecen;
+szeged_amp;[City] Szeged;
+bratislava_amp;[City] Bratislava;
+vienna_amp;[City] Vienna;
+linz_amp;[City] Linz;
+graz_amp;[City] Graz;
+salzburg_amp;[City] Salzburg;
+prague_amp;[City] Prague;
+brno_amp;[City] Brno;
+troppau_amp;[City] Troppau;
+lwow_amp;[City] Lviv;
+krakow_amp;[City] Krakow;
+danzig_amp;[City] Danzig;
+breslau_amp;[City] Breslau;
+stettin_amp;[City] Stettin;
+konigsberg_amp;[City] Koenigsberg;
+berlin_amp;[City] Berlin;
+dresden_amp;[City] Dresden;
+leipzig_amp;[City] Leipzig;
+munich_amp;[City] Munich;
+stuttgart_amp;[City] Stuttgart;
+frankfurt_amp;[City] Frankfurt;
+cologne_amp;[City] Cologne;
+dusseldorf_amp;[City] Dusseldorf;
+dortmund_amp;[City] Dortmund;
+hanover_amp;[City] Hanover;
+hamburg_amp;[City] Hamburg;
+bremen_amp;[City] Bremen;
+nurnberg_amp;[City] Nuremberg;
+aachen_amp;[City] Aachen;
+wiesbaden_amp;[City] Wiesbaden;
+mainz_amp;[City] Mainz;
+karlsruhe_amp;[City] Karlsruhe;
+mannheim_amp;[City] Manheim;
+halle_amp;[City] Galle;
+magdeburg_amp;[City] Magdeburg;
+kiel_amp;[City] Kiel;
+chemnitz_amp;[City] Chemnitz;
+brunswick_amp;[City] Braunschweig;
+lubeck_amp;[City] Lubeck;
+sahalinsk_amp;[City] Yuzhno-Sakhalinsk;
+gain_state_burgyndy_all;Capture Region - Cyprus (4);
+gain_state_burgyndy_all_short;Capture Cyprus Region (4);
+gain_state_burgyndy_all_setup_all;Capture the region of Cyprus from the power of $ RECIPIENT $.;
+gain_state_burgyndy_all;Capture Region - Crete (4);
+gain_state_burgyndy_all_short;Capture Crete Region (4);
+gain_state_burgyndy_all_setup_all;Capture the Crete region from the power of $ RECIPIENT $.;
+gain_state_austrianitaly_all;Region Capture - Austrian Italy (12);
+gain_state_austrianitaly_all_short;Capture Austrian Italy Region (12);
+gain_state_austrianitaly_all_setup_all;Capture the region of Austrian Italy from the power of $ RECIPIENT $.;
+gain_state_elsas_all;Region Capture - Alsace (6);
+gain_state_elsas_all_short;Capture Alsace region (6);
+gain_state_elsas_all_setup_all;Capture the Alsace region from the power of $ RECIPIENT $.;
+gain_state_savoia_all;Capture the region of Savoy, Nice and Corsica (6);
+gain_state_savoia_all_short;Capture Savoy, Nice and Corsica region (6);
+gain_state_savoia_all_setup_all;Capture the region of Savoy, Nice and Corsica from the power of $ RECIPIENT $.;
+annex_zigmaringen;Region Capture - Sigmarinen (4);
+annex_zigmaringen_short;Capture Sigmaringen Region (4);
+annex_zigmaringen_setup_all;Capture the Sigmaringen region from the power of $ RECIPIENT $.;
+annex_suez;Capture the region - Suez (6);
+annex_suez_short;Capture Suez region (6);
+annex_suez_setup_all;Capture the Suez region from the power of $ RECIPIENT $.;
+annex_gibraltar;Capture Region - Gibraltar (6);
+annex_gibraltar_short;Capture Gibraltar Region (6);
+annex_gibraltar_setup_all;Capture the region of Gibraltar from the power of $ RECIPIENT $.;
+annex_panama;Capture Region - Panama (6);
+annex_panama_short;Capture Panama Region (6);
+annex_panama_setup_all;Capture the Panama region from the power of $ RECIPIENT $.;
+gain_state_serbia_all;Region Capture - Serbia (16);
+gain_state_serbia_all_short;Capture region of Serbia (16);
+gain_state_serbia_all_setup_all;Capture the region of Serbia from the power of $ RECIPIENT $.;
+gain_state_northserbia_all;Region Capture - Northern Serbia (12);
+gain_state_northserbia_all_short;Capture Region Northern Serbia (12);
+gain_state_northserbia_all_setup_all;Capture the region of Northern Serbia from the power of $ RECIPIENT $.;
+gain_state_yugoslavia_all;Capture the Region - Yugoslavia (24);
+gain_state_yugoslavia_all_short;Capture Yugoslavia region (24);
+gain_state_yugoslavia_all_setup_all;Capture the Yugoslav region from the power of $ RECIPIENT $.;
+gain_state_northyugoslavia_all;Region Capture - Northern Yugoslavia (12);
+gain_state_northyugoslavia_all_short;Capture North Yugoslavia region (12);
+gain_state_northyugoslavia_all_setup_all;Capture the region of North Yugoslavia from the power of $ RECIPIENT $.;
+gain_state_southyugoslavia_all;Region Capture - South Yugoslavia (12);
+gain_state_southyugoslavia_all_short;Capture South Yugoslavia region (12);
+gain_state_southyugoslavia_all_setup_all;Capture the region of South Yugoslavia from the power of $ RECIPIENT $.;
+gain_state_westyugoslavia_all;Capture the Region - Western Yugoslavia (12);
+gain_state_westyugoslavia_all_short;Capture West Yugoslavia region (12);
+gain_state_westyugoslavia_all_setup_all;Capture the region of Western Yugoslavia from the power of $ RECIPIENT $.;
+gain_state_centralyugoslavia_all;Region Capture - Central Yugoslavia (12);
+gain_state_centralyugoslavia_all_short;Capture Central Yugoslavia region (12);
+gain_state_centralyugoslavia_all_setup_all;Capture the Central Yugoslav region from the power of $ RECIPIENT $.;
+gain_state_belgium_all;Region Capture -Belgium (12);
+gain_state_liege_all;Region Capture -Liege (6);
+gain_state_liege_all_short;Capture Liege region (6);
+gain_state_liege_all_setup_all;Capture the region of Liege  from the power of $RECIPIENT$.;
+gain_state_wallonia_all;Region Capture -Wallonia (6);
+gain_state_wallonia_all_short;Capture Wallonia region (6);
+gain_state_wallonia_all_setup_all;Capture the region of Wallonia from the power of $RECIPIENT$.;
+gain_state_brussels_all;Region Capture -Brussels (6);
+gain_state_brussels_all_short;Capture Brussels region(6);
+gain_state_brussels_all_setup_all;Capture the region of Brussels from the power of $RECIPIENT$.;
+gain_state_netherlands_all;Region Capture -Netherlands (12);
+gain_state_netherlands_all_short;Capture Netherlands region(12);
+gain_state_netherlands_all_setup_all;Capture the region of Netherlands from the power of $RECIPIENT$.;
+gain_state_bosnia_all;Region Capture -Bosnia (6);
+gain_state_bosnia_all_short;Capture Bosnia region(6);
+gain_state_bosnia_all_setup_all;Capture the region of Bosnia from the power of $RECIPIENT$.;
+gain_state_transcaucassian_all;Region Capture -Caucassian (8);
+gain_state_transcaucassian_all_short;Capture Caucassian region (8);
+gain_state_transcaucassian_all_setup_all;Capture the region of Caucassian from the power of $RECIPIENT$.;
+gain_state_southindia_all;Region Capture -South India (12);
+gain_state_southindia_all_short;Capture South India region (12);
+gain_state_southindia_all_setup_all;Capture the region of South India from the power of $RECIPIENT$.;
+gain_state_northiran_all;Region Capture -North Iran (6);
+gain_state_northiran_all_short;Capture North Iran region (6);
+gain_state_northiran_all_setup_all;Capture the region of North Iran from the power of $RECIPIENT$.;
+gain_state_southiran_all;Region Capture -South Iran (6);
+gain_state_southiran_all_short;Capture South Iran region(6);
+gain_state_southiran_all_setup_all;Capture the region of South Iran from the power of $RECIPIENT$.;
+gain_state_croatia_all;Region Capture  — Croatia (10);
+gain_state_croatia_all_short;Capture Croatia region (10);
+gain_state_croatia_all_setup_all;Capture the region of Croatia from the power of $RECIPIENT$.;
+gain_state_slovenia_all;Region Capture — Slovenia (6);
+gain_state_slovenia_all_short;Capture Slovenia region (6);
+gain_state_slovenia_all_setup_all;Capture the region of Slovenia from the power of $RECIPIENT$.;
+AMP_alaska_state;Alaska;
+AMP_brussels;Brussels;
+AMP_wallonia;Wallonia;
+AMP_liege;Liege;
+AMP_burgundy;Burgundy;
+AMP_britishindia;Britishindia;
+AMP_burgyndy;Burgyndy;
+AMP_northserbia;Northserbia;
+AMP_southyugoslavia;South Yugoslavia;
+AMP_northyugoslavia;North Yugoslavia;
+AMP_westyugoslavia;West Yugoslavia;
+AMP_centralyugoslavia;Central Yugoslavia;
+AMP_eastindia;East India;
+AMP_southindia;South India;
+AMP_northiran;North Iran;
+AMP_southiran;South Iran;
+AMP_centralsiberia;Central Siberia;
+AMP_southafricaeng;South Africa;
+AMP_china;China;
+AMP_russia;Russia;
+AMP_russianempire;Russian empire;
+AMP_northafrica;North Africa;
+AMP_austrianitaly;Austrian Italy;
+AMP_elsas;Elsas;
+AMP_savoia;Savoia, Nice and Corsica;
+AMP_zigmaringen;Zigmaringen;
+AMP_suez;Suez;
+AMP_panama;Panama;
+AMP_gibraltar;Gibraltar;
+factory_input_focus;Factory consumption;
+factory_output_focus;Factory Issue;
+factory_throughput_focus;Factory productivity;
+RGO_output_focus;RGO_output_focus;
+RGO_throughput_focus;RGO_throughput_focus;
+country_debt;the maximum government debt;
+debt_5;Debt amount: 5%;
+debt_10;Debt amount: 10%;
+debt_25;Debt amount:  25%;
+debt_50;Debt amount: 50%;
+debt_75;Debt amount:  75%;
+debt_100;Debt amount: 100%;
+country_intrest;The percent of the government debt;
+intrest_15peryear;The debt percentage: 15%;
+intrest_20peryear;The debt percentage: 20%;
+intrest_25peryear;The debt percentage: 25%;
+intrest_30peryear;The debt percentage: 30%;
+intrest_35peryear;The debt percentage: 35%;
+intrest_40peryear;The debt percentage: 40%;
+intrest_45peryear;The debt percentage: 45%;
+army_doctrine_3;Infantry 1925;
+army_doctrine_4;Infantry 1940;
+army_doctrine_5;Infantry 1955;
+army_doctrine_6;Infantry 1970;
+light_armament_3;Motorized infantry;
+light_armament_4;Mobile units 1940;
+light_armament_5;Mobile units 1955;
+light_armament_6;Mobile units 1970;
+heavy_armament_3;Tanks;
+heavy_armament_4;Artillery 1940;
+heavy_armament_5;Artillery 1955;
+heavy_armament_6;Artillery 1970;
+military_science_3;Infrastructure 1925;
+military_science_4;Infrastructure 1940;
+military_science_5;Infrastructure 1955;
+military_science_6;Infrastructure 1970;
+army_leadership_3;Applied science 1925;
+army_leadership_4;Applied science 1940;
+army_leadership_5;Applied science 1955;
+army_leadership_6;Applied science 1970;
+naval_doctrine_3;Logistics 1925;
+naval_doctrine_4;Logistics 1940;
+naval_doctrine_5;Logistics 1955;
+naval_doctrine_6;Logistics 1970;
+ship_construction_3;Organization 1925;
+ship_construction_4;Organization 1940;
+ship_construction_5;Organization 1955;
+ship_construction_6;Organization 1970;
+naval_engineering_3;Applied psychology 1925;
+naval_engineering_4;Applied psychology 1940;
+naval_engineering_5;Applied psychology 1955;
+naval_engineering_6;Applied psychology 1970;
+naval_science_3;Preparation 1925;
+naval_science_4;Preparation 1940;
+naval_science_5;Preparation 1955;
+naval_science_6;Preparation 1970;
+naval_leadership_3;Interaction 1925;
+naval_leadership_4;Interaction 1940;
+naval_leadership_5;Interaction 1955;
+naval_leadership_6;Interaction 1970;
+financial_institutions_3;Cost management 1925;
+financial_institutions_4;Cost management 1940;
+financial_institutions_5;Cost management 1955;
+financial_institutions_6;Cost management 1970;
+monetary_system_3;Money system 1925;
+monetary_system_4;Money system 1940;
+monetary_system_5;Money system 1955;
+monetary_system_6;Money system1970;
+economic_thought_and_critique_3;Economic thought 1925;
+economic_thought_and_critique_4;Economic thought 1940;
+economic_thought_and_critique_5;Economic thought 1955;
+economic_thought_and_critique_6;Economic thought 1970;
+market_functionality_3;Market functionality 1925;
+market_functionality_4;Market functionality 1940;
+market_functionality_5;Market functionality 1955;
+market_functionality_6;Market functionality 1970;
+tech_organization_3;Organization 1925;
+tech_organization_4;Organization 1940;
+tech_organization_5;Organization 1955;
+tech_organization_6;Organization 1970;
+aesthetics_3;Aesthetics 1925;
+aesthetics_4;Aesthetics 1940;
+aesthetics_5;Aesthetics 1955;
+aesthetics_6;Aesthetics 1970;
+philosophy_3;Philosophy 1925;
+philosophy_4;Philosophy 1940;
+philosophy_5;Philosophy 1955;
+philosophy_6;Philosophy 1970;
+social_thought_3;Society 1925;
+social_thought_4;Society 1940;
+social_thought_5;Society 1955;
+social_thought_6;Society 1970;
+political_thought_3;Politics 1925;
+political_thought_4;Politics 1940;
+political_thought_5;Politics 1955;
+political_thought_6;Politics 1970;
+psychology_3;Psychology 1925;
+psychology_4;Psychology 1940;
+psychology_5;Psychology 1955;
+psychology_6;Psychology 1970;
+tech_power_1;Power 1865;
+tech_power_2;Power 1910;
+tech_power_3;Power 1925;
+tech_power_4;Power 1940;
+tech_power_5;Power 1955;
+tech_power_6;Power 1970;
+mechanization_1;Mechanization 1865;
+mechanization_2;Mechanization 1910;
+mechanization_3;Mechanization 1925;
+mechanization_4;Mechanization 1940;
+mechanization_5;Mechanization 1955;
+mechanization_6;Mechanization 1970;
+metallurgy_1;Metallurgy 1865;
+metallurgy_2;Metallurgy 1895;
+metallurgy_3;Metallurgy 1925;
+metallurgy_4;Metallurgy 1940;
+metallurgy_5;Metallurgy 1955;
+metallurgy_6;Metallurgy 1970;
+tech_infrastructure_3;Infrastructure 1925;
+tech_infrastructure_4;Infrastructure 1940;
+tech_infrastructure_5;Infrastructure 1955;
+tech_infrastructure_6;Infrastructure 1970;
+chemistry_and_electricity_3;Chemistry 1925;
+chemistry_and_electricity_4;Chemistry 1940;
+chemistry_and_electricity_5;Chemistry 1955;
+chemistry_and_electricity_6;Chemistry 1970;
+amp_annexcb_expand;Expand annexation area (0);
+amp_annexcb_expand_desc;If in the current war a CB was added to the annexation of a region that is controlled by several countries, using this CB you can expand the effect of the original CB on the desired countries for free;
+amp_annexcb_expand_short;Extension of the area of annexation set by CB to power $RECIPIENT$ (0);
+amp_annexcb_expand_setup;To expand the area of annexation of established design bureaus to a power $RECIPIENT$;
+annex_trade_company;To join concession (12);
+annex_trade_company_desc;Full accession of the entire territory of the enemy concession to your concession;
+annex_trade_company_short;Accession power concession  $RECIPIENT$ (12);
+annex_trade_company_setup;To join power concession $RECIPIENT$;
+reparations;Reparations (6);
+gain_state_india;Region Capture — India (4);
+gain_state_belgium_all_short;Capture Belgium region  (12);
+gain_state_belgium_all_setup_all;Capture the region of  Belgium from the power of $RECIPIENT$.;
+gain_state_eastindia_all;Region Capture — East India (12);
+gain_state_eastindia_all_short;Capture East India region(12);
+gain_state_eastindia_all_setup_all;Capture the region of East India from the power of  $RECIPIENT$.;
+gain_state_indonesia_all;Region Capture —  Indonesia (18);
+gain_state_indonesia_all_short;Capture Indonesia region (18);
+gain_state_indonesia_all_setup_all;Capture the region of  Indonesia from the power of  $RECIPIENT$.;
+LAF_one_party_socialist_republic;South American Socialist Workers Union;
+LAF_socialist_republic;South American Federation;
+CHB;British concession;
+CHG;German concession;
+CHR;Russian concession;
+CHF;French concession;
+CHH;Austrian concession;
+CHU;American concession;
+CHJ;Japanese concession;
+CIH;Italian concession;
+CHS;Spanish concession;
+ANG;Angola;
+BEN;Benin;
+BST;Bostwana;
+BRN;Burundi;
+BRF;Burkina Faso;
+CAR;Central African Republic;
+CGO;Congo;
+CNG;Democratic Republic of the Congo;
+CHD;Chad;
+CMR;Cameroon;
+CPV;Capo verde;
+EQG;Equatorial Guinea;
+GAB;Gabon;
+GBS;Guinea Barsu;
+GNE;Guinea;
+GHN;Ghana;
+IVC;Cote D Yvoire;
+KNY;Kenya;
+MLW;Malawi;
+MOZ;Mozambique;
+MAL;Mali;
+MAR;Mauritania;
+NAM;Nambia;
+NIG;Niger;
+NGR;Nigeria;
+RWA;Rwanda;
+SLE;Sierra leone;
+SNG;Senegal;
+SML;Somalia;
+SDN;Sudan;
+TNZ;Tanzania;
+TOG;Togo;
+UGD;Uganda;
+ZAM;Zambia;
+ZMB;Zimbabwe;
+colonial_company;Colonial company;
+SPA_absolute_monarchy ;Spanish empire;
+SPA_one_party_socialist_republic;Iberian Federation of Workers;
+BAV_one_party_socialist_republic;Bavarian Soviet Republic;
+ITA_absolute_monarchy;Kingdom of Italy;
+ITA_one_party_socialist_republic;Italian Union;
+ITA_socialist_republic;People's Republic of Italy;
+ITA_democracy;Italian Republic;
+BAV_proletarian_dictatorship;Bavarian Soviet Republic;
+KOR_democracy;The Republic of Korea;
+KOR_proletarian_dictatorship;DPRK;
+KOR_one_party_socialist_republic;DPRK;
+KOR_socialist_republic;Republic of Korea;
+PRU_socialist_republic;Prussian People's Republic;
+TUR_socialist_republic;Turkish People's Republic;
+TUR_one_party_socialist_republic;Turkish People's Republic;
+ENG_socialist_republic;British federation;
+ENG_one_party_socialist_republic;BSFSR;
+ENG_hms_government;Great Britain;
+SWI_bourgeois_dictatorship;Helvetic Republic;
+JAP_one_party_socialist_republic;People's Republic of Japan;
+JAP_socialist_republic;Republic of Japan;
+GER_one_party_socialist_republic;German Democratic Republic;
+GER_proletarian_dictatorship;German Soviet Republic;
+GER_socialist_republic;Germany;
+GER_bourgeois_dictatorship;Revolutionary Germany;
+KUK_socialist_republic;Danube Federation;
+KUK_democracy;Danube Federation;
+KUK_proletarian_dictatorship;Danube Workers' Union;
+KUK_one_party_socialist_republic;Danube People's Union;
+NET_one_party_socialist_republic;Union Benelux;
+NET_fascist_dictatorship;Netherlands;
+NET_proletarian_dictatorship;NNSB;
+SCA_fascist_dictatorship;Northern Kingdom;
+SCA_absolute_monarchy;Scandinavian empire;
+BUR_democracy;Myanmar;
+BUR_one_party_socialist_republic;Union of Burma;
+BUR_fascist_dictatorship;Myanmar;
+SCA_socialist_republic;Socialist Scandinavia;
+CAM_one_party_socialist_republic;Republic of Kampuchea;
+CAM_socialist_republic;Khmer Cambodia;
+MEX_absolute_monarchy;Mexican Empire;
+MEX_fascist_dictatorship;New Aztec Empire;
+SIA_fascist_dictatorship;Indochina;
+ETH_prussian_constitutionalism;Ethiopian Empire;
+SIA_one_party_socialist_republic;Socialist Republic of Thailand;
+ETH_hms_government;Ethiopia;
+ETH_absolute_monarchy;Ethiopia;
+MOL_one_party_socialist_republic;Moldavian People's Republic;
+WAL_one_party_socialist_republic;Wallachian Communes;
+SER_fascist_dictatorship;United Serbia;
+SER_one_party_socialist_republic;Serbian People's Republic;
+ETH_proletarian_dictatorship;Workers 'and Peasants' State of Ethiopia;
+SER_democracy;Serbian Republic;
+ETH_fascist_dictatorship;Empire of the Red Sea;
+ETH_one_party_socialist_republic;Ethiopian Democratic Republic;
+PAP_democracy;Rome;
+PAP_fascist_dictatorship;Kingdom of god;
+PAP_one_party_socialist_republic;Roman Socialist Republic;
+PAP_socialist_republic;Roman Socialist Republic;
+PAP_proletarian_dictatorship;Workers' Union of Rome;
+SIA_proletarian_dictatorship;Thai Proletarian Union;
+SIA_socialist_republic;Socialist Republic of Thailand;
+SIA_democracy;Republic of thailand;
+SIA_hms_government;Thailand;
+MEX_hms_government;Kingdom of Mexico;
+MEX_presidential_dictatorship;Mexican United States;
+MEX_bourgeois_dictatorship;Mexican United States;
+MEX_proletarian_dictatorship;Soviet Republic of Mexico;
+MEX_one_party_socialist_republic;Mexican Soviet Republic;
+SIC_democracy;Republic of Naples;
+SIC_socialist_republic;Sicilian Republic;
+SIC_proletarian_dictatorship;Red Edge;
+BRA_absolute_monarchy;Brazilian Empire;
+BRA_fascist_dictatorship;New Brazil;
+BRA_hms_government;Kingdom of Brazil;
+SCA_one_party_socialist_republic;Union of Northern Peoples;
+BRA_one_party_socialist_republic;Brazilian Syndicalist Republic;
+CHI_one_party_socialist_republic;People's Republic of China;
+SWE_one_party_socialist_republic;Swedish Socialist Republic;
+PER_one_party_socialist_republic;Iranian People's Republic;
+RUS_democracy;Russian Republic;
+RUS_hms_government;Russia;
+USA_hms_government;United Kingdom of America;
+DAI_fascist_dictatorship;Vietnamese empire;
+DAI_one_party_socialist_republic;Wed Vietnam;
+DAI_democracy;Vietnam;
+DAI_proletarian_dictatorship;Red vietnam;
+USA_proletarian_dictatorship;Soviet States of America;
+ROM_prussian_constitutionalism;Kingdom of Romania;
+ROM_hms_government;Kingdom of Romania;
+USA_one_party_socialist_republic;Socialist States of America;
+RUS_bourgeois_dictatorship;Bourgeois Russia;
+FIN_fascist_dictatorship;Greater Finland;
+FIN_one_party_socialist_republic;Finnish People's Republic;
+FIN_hms_government;Kingdom of Finland;
+RUS_fascist_dictatorship;Holy Russian Empire;
+RUS_socialist_republic;Russian Socialist Republic;
+RUS_presidential_dictatorship;Russian Federation;
+RUS_one_party_socialist_republic;Soviet Union;
+RUS_proletarian_dictatorship;RSFSR;
+ROM_proletarian_dictatorship;Bolshevik Romania;
+ROM_one_party_socialist_republic;Socialist Republic of Romania;
+ROM_socialist_republic;Socialist Republic of Romania;
+PER_socialist_republic;Working Republic of Iran;
+PER_democracy;Islamic Republic of Iran;
+PER_hms_government;Kingdom of Iran;
+SWE_hms_government;Kingdom of Sweden;
+KAZ_proletarian_dictatorship;Kazakhstan Soviet Republic;
+KAZ_one_party_socialist_republic;Kazakhstan Soviet Republic;
+KAZ_presidential_dictatorship;Nur-Sultan;
+KAZ_socialist_republic;Kazakhstan;
+KAZ_democracy;Kazakhstan;
+ALS;Alsace-Lorraine;
+SYR;Syria;
+AUS_fascist_dictatorship;Austria;
+AUS_bourgeois_dictatorship;Revolutionary Austria;
+AUS_one_party_socialist_republic;Austrian People's Republic;
+AUS_socialist_republic;Austrian republic;
+AUS_democracy;Austria;
+government_democracy;Democracy;
+government_hms_government;A constitutional monarchy;
+government_prussian_constitutionalism;Limited monarchy;
+government_absolute_monarchy;Absolute monarchy;
+government_fascist_dictatorship;Fascism;
+government_bourgeois_dictatorship;Plutocracy;
+government_presidential_dictatorship;Dictatorship;
+government_proletarian_dictatorship;Communism;
+badboy_1;Diplomatic freedom 1;
+badboy_2;Diplomatic Freedom 2;
+badboy_3;Diplomatic Freedom 3;
+Arising_Prussia;The heyday of Prussia;
+Autumn;Fall;
+Summer;Summer;
+Spring;Spring;
+Winter1;Winter;
+Winter;Winter;
+literacy_0;Literacy 0%;
+literacy_10;Literacy 10%;
+literacy_20;Literacy 20%;
+literacy_30;Literacy 30%;
+literacy_40;Literacy 40%;
+literacy_50;Literacy 50%;
+literacy_60;Literacy 60%;
+literacy_70;Literacy 70%;
+literacy_80;Literacy 80%;
+literacy_90;Literacy 90%;
+literacy_100;Literacy 100%;
+industrial_revolution_stage_1;Industrial Revolution Stage 1;
+industrial_revolution_stage_2;Industrial Revolution Stage 2;
+industrial_revolution_stage_3;Industrial Revolution Stage 3;
+industrial_revolution_stage_4;Industrial Revolution Stage 4;
+industrial_revolution_stage_5;Industrial Revolution Stage 5;
+industrial_revolution_stage_6;Industrial Revolution Stage 6;
+industrial_revolution_stage_7;Industrial Revolution Stage 7;
+industrial_revolution_stage_8;Industrial Revolution Stage 8;
+industrial_revolution_stage_9;Industrial Revolution Stage 9;
+industrial_revolution_stage_10;Industrial Revolution Stage 10;
+second_industrial_revolution_stage_1;Second industrial revolution, stage 1;
+second_industrial_revolution_stage_2;Second industrial revolution, stage 2;
+second_industrial_revolution_stage_3;Second industrial revolution, stage 3;
+second_industrial_revolution_stage_4;Second industrial revolution, stage 4;
+second_industrial_revolution_stage_5;Second industrial revolution, stage 5;
+second_industrial_revolution_stage_6;Second industrial revolution, stage 6;
+second_industrial_revolution_stage_7;Second industrial revolution, stage 7;
+second_industrial_revolution_stage_8;Second industrial revolution, stage 8;
+second_industrial_revolution_stage_9;Second industrial revolution, stage 9;
+second_industrial_revolution_stage_10;Second industrial revolution, stage 10;
+ENG_getting_company_desc;Create a China Trading Company;
+ENG_getting_company_america_desc;Our strengthening in China allows us to organize a trade concession in this state.;
+RUS_getting_company_desc;Create a China Trading Company;
+RUS_getting_company_america_desc;Our strengthening in China allows us to organize a trade concession in this state.;
+FRA_getting_company_desc;Create a China Trading Company;
+FRA_getting_company_america_desc;Our strengthening in China allows us to organize a trade concession in this state.;
+GER_getting_company_desc;Create a China Trading Company;
+GER_getting_company_america_desc;Our strengthening in China allows us to organize a trade concession in this state.;
+KUK_getting_company_desc;Create a China Trading Company;
+KUK_getting_company_america_desc;Our strengthening in China allows us to organize a trade concession in this state.;
+USA_getting_company_desc;Create a China Trading Company;
+USA_getting_company_america_desc;Our strengthening in China allows us to organize a trade concession in this state.;
+JAP_getting_company_desc;Create a China Trading Company;
+JAP_getting_company_america_desc;Our strengthening in China allows us to organize a trade concession in this state.;
+ITA_getting_company_desc;Create a China Trading Company;
+ITA_getting_company_america_desc;Our strengthening in China allows us to organize a trade concession in this state.;
+SPA_getting_company_desc;Create a China Trading Company;
+SPA_getting_company_america_desc;Our strengthening in China allows us to organize a trade concession in this state.;
+TITLE100602;Territories transferred to a trading company;
+DESC100602;The territory we acquired in China has been transferred to better manage our Chinese concession.;
+OPTION1_100602;Okay;
+TITLE100604;Territories transferred to a trading company;
+DESC100604;The territory we acquired in China has been transferred for better management of our Chinese concession.;
+OPTION1_100604;Okay;
+TITLE100606;Chinese trading company established;
+DESC100606;Britain decided to form its own concession in China from the territories conquered there.;
+OPTION1_100606;Okay;
+TITLE100607;Chinese trading company established;
+DESC100607;Germany decided to form its own concession in China from the territories conquered there.;
+OPTION1_100607;Okay;
+TITLE100609;Chinese trading company established;
+DESC100609;Russia has decided to form its own concession in China from the territories conquered there.;
+OPTION1_100609;Okay;
+TITLE100611;Chinese trading company established;
+DESC100611;France decided to form its own concession in China from the territories conquered there.;
+OPTION1_100611;Okay;
+TITLE100613;Chinese trading company established;
+DESC100613;Austria-Hungary decided to form its own concession in China from the territories conquered there.;
+OPTION1_100613;Okay;
+TITLE100615;Chinese trading company established;
+DESC100615;The United States of America decided to form its own concession in China from the territories conquered there.;
+OPTION1_100615;Okay;
+TITLE100617;Chinese trading company established;
+DESC100617;Japan decided to form its own concession in China from the territories conquered there.;
+OPTION1_100617;Okay;
+TITLE100619;Chinese trading company established;
+DESC100619;Italy decided to form its own concession in China from the territories conquered there.;
+OPTION1_100619;Okay;
+TITLE100624;Chinese trading company established;
+DESC100624;Spain decided to form its own concession in China from the territories conquered there.;
+OPTION1_100624;Okay;
+TITLE100626;Chinese trading company established;
+DESC100626;The Netherlands decided to form its own concession in China from the territories conquered there.;
+OPTION1_100626;Okay;
+TITLE100628;Chinese trading company established;
+DESC100628;Turkey has decided to form its own concession in China from the territories conquered there.;
+OPTION1_100628;Okay;
+TITLE100630;Chinese trading company established;
+DESC100630;The South American Federation decided to form its own concession in China from the territories conquered there.;
+OPTION1_100630;Okay;
+TITLE100701;Mandate for Ethiopia;
+DESC100701;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100702;Mandate for Liberia;
+DESC100702;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100703;Mandate for South Africa;
+DESC100703;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100704;Mandate for Sudan;
+DESC100704;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100705;Mandate for Morocco;
+DESC100705;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100706;Mandate for Algeria;
+DESC100706;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100707;Mandate for Libya;
+DESC100707;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100708;Mandate for Zimbabwe;
+DESC100708;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100709;Mandate for Zambia;
+DESC100709;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100710;Mandate for Uganda;
+DESC100710;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100711;Mandate for Togo;
+DESC100711;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100712;Mandate for Tanzania;
+DESC100712;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100713;Mandate for Somalia;
+DESC100713;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100714;Mandate for Sierra Leone;
+DESC100714;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100715;Mandate for Senegal;
+DESC100715;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100716;Mandate for Rwanda;
+DESC100716;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100717;Mandate for Congo;
+DESC100717;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100718;Mandate for Nigeria;
+DESC100718;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100719;Mandate for Niger;
+DESC100719;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100720;Mandate for Nambia;
+DESC100720;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100721;Mandate for Mozambique;
+DESC100721;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100722;Mandate for Mauritania;
+DESC100722;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100723;Mandate for Mali;
+DESC100723;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100724;Mandate for Malawi;
+DESC100724;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100725;Mandate for Kenya;
+DESC100725;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100726;Mandate for Ivory Coast;
+DESC100726;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100727;Mandate for Guinea;
+DESC100727;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100728;Mandate for Guinea Barsa;
+DESC100728;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100729;Mandate for Ghana;
+DESC100729;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100730;Mandate for Gabon;
+DESC100730;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100731;Mandate for Equatorial Guinea;
+DESC100731;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100732;Mandate for Congo;
+DESC100732;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100733;Mandate for Chad;
+DESC100733;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100734;Mandate for Central Africa;
+DESC100734;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100735;Mandate for Cape Verde;
+DESC100735;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100736;Mandate for Cameroon;
+DESC100736;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100737;Mandate for Burundi;
+DESC100737;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100738;Mandate for Burkina Faso;
+DESC100738;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100739;Mandate for Bostwana;
+DESC100739;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100740;Mandate for Benin;
+DESC100740;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100741;Mandate for Angola;
+DESC100741;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+TITLE100742;Mandate for Algeria;
+DESC100742;Our dominant position in the region entitles us to a mandate to rule undividedly over it.;
+ING;German Company;
+INR;Russian Company;
+INF;French Company;
+INA;Austrian Company;
+INU;American Company;
+INJ;Japanese Company;
+INI;Italian Company;
+INS;Spanish Company;
+INH;Dutch Company;
+INT;Turkish Company;
+ILA;South American Company;
+socialist_republic;Socialist republic;
+one_party_socialist_republic;One-party social republic;
+communist_propaganda;Communist propaganda;
+expropriation;Expropriation;
+socialist_republic_ruler;The president;
+metallurgy_6_desc;By paying, you will accelerate the adoption of this technology, and you will not have to wait for 1985.;
+metallurgy_6_title;Metallurgy level 6;
+metallurgy_5_desc;By paying, you will accelerate the adoption of this technology, and you will not have to wait for 1970.;
+metallurgy_5_title;Metallurgy level 5;
+metallurgy_4_desc;By paying, you will accelerate the implementation of this technology, and you will not have to wait until 1955.;
+metallurgy_4_title;Metallurgy level 4;
+metallurgy_3_desc;By paying, you will accelerate the adoption of this technology, and you will not have to wait for 1940.;
+metallurgy_3_title;Metallurgy level 3;
+one_party_socialist_republic_ruler;Secretary General;
+steam_turbine_desc;By paying, by paying, you will speed up the introduction of steam turbines, and you will not have to wait for 1865.;
+electric_furnace_desc;By paying, you will accelerate the implementation of this technology, and you will not have to wait for 1925.;
+tech_power_desc;By paying, you will accelerate the implementation of this technology, and you will not have to wait for 1880.;
+electric_furnace_title;Electric oven;
+metallurgy_2_desc;By paying, you will accelerate the implementation of this technology, and you will not have to wait for 1910.;
+metallurgy_2_title;Metallurgy level 2;
+advanced_metallurgy_desc;By paying, you will accelerate the adoption of this technology, and you will not have to wait for 1895.;
+advanced_metallurgy_title;Advanced metallurgy;
+metallurgy_1_desc;By paying, you will accelerate the implementation of this technology, and you will not have to wait for 1880.;
+metallurgy_1_title;Metallurgy level 1;
+cheap_steel_desc;By paying, you will accelerate the adoption of this technology, and you will not have to wait for 1865.;
+cheap_steel_title;Cheap steel;
+mechanization_6_desc;By paying, you will accelerate the adoption of this technology, and you will not have to wait for 1985.;
+mechanization_5_desc;By paying, you will accelerate the adoption of this technology, and you will not have to wait for 1970.;
+mechanization_4_desc;By paying, you will accelerate the implementation of this technology, and you will not have to wait until 1955.;
+mechanization_3_desc;By paying, you will accelerate the adoption of this technology, and you will not have to wait for 1940.;
+mechanization_6_title;Mechanization of modern times;
+mechanization_5_title;Level 5 mechanization;
+mechanization_4_title;Level 4 mechanization;
+mechanization_3_title;Level 3 mechanization;
+mechanization_2_desc;By paying, you will accelerate the implementation of this technology, and you will not have to wait for 1925.;
+mechanization_2_title;Level 2 mechanization;
+combustion_engine_desc;By paying, you will accelerate the adoption of this technology, and you will not have to wait for 1895.;
+shift_work_desc;By paying, you will accelerate the implementation of this technology, and you will not have to wait for 1910.;
+shift_work_title;Shift work;
+tech_power_4_desc;By paying, you will accelerate the implementation of this technology, and you will not have to wait until 1955.;
+tech_power_5_desc;By paying, you will accelerate the adoption of this technology, and you will not have to wait for 1970.;
+semi_automatization_desc;By paying, you will accelerate the adoption of this technology, and you will not have to wait for 1865.;
+semi_automatization_title;Semi-automation;
+tech_power_6_title;Those. The power of modern times;
+tech_power_6_desc;By paying, you will accelerate the adoption of this technology, and you will not have to wait for 1985.;
+assembly_line_desc;By paying, you will accelerate the introduction of this technology, and you will not have to wait for 1895.;
+assembly_line_title;Assembly conveyor;
+mechanization_1_desc;By paying, you will accelerate the adoption of this technology, and you will not have to wait for 1880.;
+mechanization_1_title;Mechanization;
+tech_power_5_title;Those. The power of the 70s;
+tech_power_4_title;Tech. Force of the 50s;
+tech_power_3_desc;By paying, you will accelerate the adoption of this technology, and you will not have to wait for 1940.;
+tech_power_3_title;Those. The power of the 40s;
+tech_power_2_desc;By paying, you will accelerate the implementation of this technology, and you will not have to wait for 1925.;
+tech_power_2_title;Those. The power of Interbellum;
+electrical_power_generation_desc;By paying, you will accelerate the implementation of this technology, and you will not have to wait for 1910.;
+electrical_power_generation_title;Power generation;
+combustion_engine_title;Internal combustion engine;
+tech_power_title;Those. force;
+steam_turbine_title;;
+communist_propaganda_title;Communist propaganda;
+communist_propaganda_desc;"To support our young Soviet Republic, it is vital to get the people to accept our ideas. To this end, an unprecedented propaganda campaign should be launched among Soviet citizens. ""Proletarians of all countries, unite!"", ""The Party is the mind, honor and conscience of our epoch!"", ""The people and the Party are one!"", ""Soviet means great!"" So ... Our goals are clear, the tasks are defined - for work, comrades!";
+expropriation_title;Expropriation;
+expropriation_desc;"In economic science, the term ""expropriation"" is understood as the deprivation of property and social status by one social stratum or class of another stratum or class. In our country, the recently formed Soviet government was one of its first decisions to issue a decree ""On expropriation."" It means the forcible withdrawal of all means of production from private property, including land, and transferring them to state property. The government assigned the responsibility for the implementation of the decree to the new law enforcement agencies, and also called on all conscientious citizens to join the acts of expropriation. In practice, this resulted in the pogroms of most shops, restaurants, banks and other establishments owned by one or another entrepreneur. People in expensive clothes were attacked and checked both by citizens and by law enforcement officers. Many of those who resisted were shot on the spot. The number of victims is not known exactly. All factories and production facilities were transferred to workers' self-government. All over the world, criticism is heard against our government, but it is adamant in its will to build socialism and has already declared that it will stop at nothing.";
+EVTNAME60060;Left turn;
+EVTDESC60060;The victory of the left bloc in the last elections made it possible to carry out radical transformations in the political and economic systems of the country. However, in spite of the fact that the left forces have received huge scope for implementing their program, there is still resistance from the liberal opposition. The success of all further transformations now depends on whether the communists and socialists can come to an agreement.;
+EVTOPTA60060;Forward to a brighter future!;
+EVTNAME60003;Consolidation of power;
+EVTDESC60003;Gradually strengthening their positions, the communists achieved complete dominance in the Soviets. Now that neither the liberals, nor the other leftists any longer pose any danger to the regime, the Communist Party can begin implementing its extensive program of rebuilding the world.;
+EVTOPTA60003;The party leads to victory!;
+EVTNAME60004;Restoration of the republic;
+EVTDESC60004;With the victory of the liberal bloc in the last parliamentary elections, noticeable changes in the style of the country's leadership began to be felt. State control in the economy was weakened, and censorship in print media gradually disappeared. Finally, the time has come to officially declare - we are a democratic rule of law with a republican form of government!;
+EVTOPTA60004;Long live the Republic!;
+EVTNAME100901;Restructuring;
+EVTDESC100901;The reshuffle in the Central Committee of our Communist Party led to the victory of the liberal faction and the subsequent series of political and economic reforms. Finally, the party leadership announced the proclamation of a democratic republic.;
+EVTOPTA100901;Democracy and Glasnost!;
+gain_state_fraverden_all;Verdun-Epinal (12);
+AMP_fraverden;Verdun-Epinal;
+AMP_fraprovans;French alps;
+gain_state_fraprovans_all;French Alps (18);
+AMP_frapirinei; French pyrenees;
+gain_state_frapirinei_all; French Pyrenees (12);
+gain_state_katalony_all; Barcelona and Catalonia (18);
+AMP_katalony; Catalonia and Barcelona;
+AMP_kars; Kars and Batum;
+gain_state_kars_all; Kars and Batum (6);
+AMP_turin; Piedmont;
+gain_state_turin_all; Piedmont (18);
+gain_state_sardiny_all; Sardinia Island (12);
+AMP_sardiny; Sardinia island;
+gain_state_taivan_all; Taiwan and Bonin Islands (12);
+AMP_taivan; Taiwan and Bonin Islands;
+AMP_kysy; Kyushu island;
+gain_state_kysy_all; Kyushu Island (24);
+gain_state_hokkaido_all; Hokkaido Island (12);
+AMP_hokkaido; Hokkaido island;
+plane_activation; Air bombs and bombing;
+infantry_activation; Army unification;
+fort_upgrade_1; Post-Napoleonic Forts;
+naval_base_upgrade_1; Port modernization;
+fort_upgrade_2; Modernization of fortresses;
+naval_base_upgrade_2; Cement foundation;
+fort_upgrade_3; Equipping fortresses with machine guns;
+naval_base_upgrade_3; Modern technologies in maritime business;
+fort_upgrade_4; Trench Wars;
+naval_base_upgrade_4; Heavy ship support;
+fort_upgrade_5; Walled cities;
+naval_base_upgrade_5; Modern ports;
+tank_activation; Wedges and tanks;
+AMP_karelia; Karelia and Vyborg;
+gain_state_karelia_all; Karelia and Vyborg (12);
+gain_state_lubek_all; Kiel and Lubeck (8);
+AMP_lubek; Keel and Lubeck;
+AMP_peterburg; Ingria and Novgorod;
+gain_state_peterburg_all; Ingria and Novgorod (12);
+gain_state_kustrin_all;Capture Kustrin (12);
+gain_state_kustrin_all_short;Capture Kustrin (12);
+gain_state_kustrin_all_setup_all;Capture Kustrin  $RECIPIENT$.;
+gain_state_silesia_all;Capture Silesia (12);
+gain_state_silesia_all_short;Capture Silesia (12);
+gain_state_silesia_all_setup_all;Silesia $RECIPIENT$.;

@@ -1,0 +1,511 @@
+#Ceylon (1224000) #now Sri Lanka
+#Under rule of Britain 1836
+#Colombo (400000/100000 POPS)
+1321 = {
+	aristocrats = {
+		culture = assamese
+		religion = malay
+		size = 800
+	}
+
+	bureaucrats = {
+		culture = assamese
+		religion = malay
+		size = 150
+	}
+
+	clergymen = {
+		culture = assamese
+		religion = malay
+		size = 750
+	}
+
+	artisans = {
+		culture = assamese
+		religion = malay
+		size = 800
+	}
+
+	soldiers = {
+		culture = assamese
+		religion = malay
+		size = 750
+	}
+
+	farmers = {
+		culture = assamese
+		religion = malay
+		size = 67750
+	}
+
+	aristocrats = {
+		culture = assamese
+		religion = hindu
+		size = 125
+	}
+
+	bureaucrats = {
+		culture = assamese
+		religion = hindu
+		size = 100
+	}
+
+	clergymen = {
+		culture = assamese
+		religion = hindu
+		size = 125
+	}
+
+	artisans = {
+		culture = assamese
+		religion = hindu
+		size = 750
+	}
+
+	soldiers = {
+		culture = assamese
+		religion = hindu
+		size = 100
+	}
+
+	labourers = {
+		culture = assamese
+		religion = hindu
+		size = 9800
+	}
+
+	clergymen = {
+		culture = assamese
+		religion = hindu
+		size = 50
+	}
+
+	artisans = {
+		culture = assamese
+		religion = hindu
+		size = 500
+	}
+
+	soldiers = {
+		culture = assamese
+		religion = hindu
+		size = 50
+	}
+
+	labourers = {
+		culture = assamese
+		religion = hindu
+		size = 6400
+	}
+
+	clergymen = {
+		culture = assamese
+		religion = hindu
+		size = 25
+	}
+
+	artisans = {
+		culture = assamese
+		religion = hindu
+		size = 750
+	}
+
+	soldiers = {
+		culture = assamese
+		religion = hindu
+		size = 25
+	}
+
+	labourers = {
+		culture = assamese
+		religion = hindu
+		size = 1200
+	}
+
+	aristocrats = {
+		culture = mashriqi
+		religion = hindu
+		size = 25
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = hindu
+		size = 75
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = hindu
+		size = 1500
+	}
+
+	soldiers = {
+		culture = mashriqi
+		religion = hindu
+		size = 25
+	}
+
+	labourers = {
+		culture = mashriqi
+		religion = hindu
+		size = 3375
+	}
+
+	aristocrats = {
+		culture = malay
+		religion = hindu
+		size = 25
+	}
+
+	clergymen = {
+		culture = malay
+		religion = hindu
+		size = 25
+	}
+
+	artisans = {
+		culture = malay
+		religion = hindu
+		size = 1100
+	}
+
+	soldiers = {
+		culture = malay
+		religion = hindu
+		size = 50
+	}
+
+	farmers = {
+		culture = malay
+		religion = hindu
+		size = 1900
+	}
+
+	aristocrats = {
+		culture = british
+		religion = latin-german
+		size = 25
+	}
+
+	bureaucrats = {
+		culture = british
+		religion = latin-german
+		size = 50
+	}
+
+	clergymen = {
+		culture = british
+		religion = latin-german
+		size = 50
+	}
+
+	artisans = {
+		culture = british
+		religion = latin-german
+		size = 1100
+	}
+
+	soldiers = {
+		culture = british
+		religion = latin-german
+		size = 100
+	}
+
+	farmers = {
+		culture = british
+		religion = latin-german
+		size = 675
+	}
+}
+#Jaffna (288000/72000 POPS)
+1322 = {
+	aristocrats = {
+		culture = assamese
+		religion = malay
+		size = 500
+	}
+
+	clergymen = {
+		culture = assamese
+		religion = malay
+		size = 500
+	}
+
+	artisans = {
+		culture = assamese
+		religion = malay
+		size = 4000
+	}
+
+	soldiers = {
+		culture = assamese
+		religion = malay
+		size = 500
+	}
+
+	farmers = {
+		culture = assamese
+		religion = malay
+		size = 42500
+	}
+
+	aristocrats = {
+		culture = assamese
+		religion = hindu
+		size = 250
+	}
+
+	clergymen = {
+		culture = assamese
+		religion = hindu
+		size = 250
+	}
+
+	artisans = {
+		culture = assamese
+		religion = hindu
+		size = 2000
+	}
+
+	soldiers = {
+		culture = assamese
+		religion = hindu
+		size = 500
+	}
+
+	labourers = {
+		culture = assamese
+		religion = hindu
+		size = 21000
+	}
+}
+#Kandy (304000/76000 POPS)
+1323 = {
+	aristocrats = {
+		culture = assamese
+		religion = malay
+		size = 750
+	}
+
+	clergymen = {
+		culture = assamese
+		religion = malay
+		size = 750
+	}
+
+	artisans = {
+		culture = assamese
+		religion = malay
+		size = 4000
+	}
+
+	soldiers = {
+		culture = assamese
+		religion = malay
+		size = 750
+	}
+
+	farmers = {
+		culture = assamese
+		religion = malay
+		size = 69250
+	}
+}
+#Trincomalee (208000/52000 POPS)
+1324 = {
+	aristocrats = {
+		culture = assamese
+		religion = malay
+		size = 250
+	}
+
+	clergymen = {
+		culture = assamese
+		religion = malay
+		size = 225
+	}
+
+	artisans = {
+		culture = assamese
+		religion = malay
+		size = 500
+	}
+
+	soldiers = {
+		culture = assamese
+		religion = malay
+		size = 200
+	}
+
+	farmers = {
+		culture = assamese
+		religion = malay
+		size = 19825
+	}
+
+	aristocrats = {
+		culture = assamese
+		religion = hindu
+		size = 250
+	}
+
+	clergymen = {
+		culture = assamese
+		religion = hindu
+		size = 250
+	}
+
+	artisans = {
+		culture = assamese
+		religion = hindu
+		size = 500
+	}
+
+	soldiers = {
+		culture = assamese
+		religion = hindu
+		size = 250
+	}
+
+	labourers = {
+		culture = assamese
+		religion = hindu
+		size = 22750
+	}
+
+	clergymen = {
+		culture = assamese
+		religion = hindu
+		size = 25
+	}
+
+	artisans = {
+		culture = assamese
+		religion = hindu
+		size = 250
+	}
+
+	soldiers = {
+		culture = assamese
+		religion = hindu
+		size = 25
+	}
+
+	labourers = {
+		culture = assamese
+		religion = hindu
+		size = 700
+	}
+
+	clergymen = {
+		culture = assamese
+		religion = hindu
+		size = 50
+	}
+
+	artisans = {
+		culture = assamese
+		religion = hindu
+		size = 500
+	}
+
+	soldiers = {
+		culture = assamese
+		religion = hindu
+		size = 25
+	}
+
+	labourers = {
+		culture = assamese
+		religion = hindu
+		size = 1475
+	}
+
+	clergymen = {
+		culture = malay
+		religion = hindu
+		size = 25
+	}
+
+	artisans = {
+		culture = malay
+		religion = hindu
+		size = 250
+	}
+
+	soldiers = {
+		culture = malay
+		religion = hindu
+		size = 50
+	}
+
+	labourers = {
+		culture = malay
+		religion = hindu
+		size = 675
+	}
+
+	aristocrats = {
+		culture = mashriqi
+		religion = hindu
+		size = 25
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = hindu
+		size = 50
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = hindu
+		size = 750
+	}
+
+	soldiers = {
+		culture = mashriqi
+		religion = hindu
+		size = 25
+	}
+
+	labourers = {
+		culture = mashriqi
+		religion = hindu
+		size = 2150
+	}
+}
+#Maldives (24000/6000 POPS) #now independent
+1325 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = hindu
+		size = 50
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = hindu
+		size = 50
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = hindu
+		size = 500
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = hindu
+		size = 75
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = hindu
+		size = 5325
+	}
+
+}

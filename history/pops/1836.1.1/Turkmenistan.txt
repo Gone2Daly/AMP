@@ -1,0 +1,213 @@
+1195 = {
+	aristocrats = {
+		culture = turkmen
+		religion = mongoloid
+		size = 262
+	}
+	clergymen = {
+		culture = turkmen
+		religion = mongoloid
+		size = 112
+	}
+	artisans = {
+		culture = turkmen
+		religion = mongoloid
+		size = 675
+	}
+	soldiers = {
+		culture = turkmen
+		religion = mongoloid
+		size = 150
+	}
+	farmers = {
+		culture = turkmen
+		religion = mongoloid
+		size = 13800
+	}
+	craftsmen = {
+		culture = turkmen
+		religion = mongoloid
+		size = 150
+	}
+	clerks = {
+		culture = turkmen
+		religion = mongoloid
+		size = 150
+	}
+	capitalists = {
+		culture = turkmen
+		religion = mongoloid
+		size = 150
+	}
+}
+1204 = {
+	aristocrats = {
+		culture = turkmen
+		religion = mongoloid
+		size = 750
+	}
+	clergymen = {
+		culture = turkmen
+		religion = mongoloid
+		size = 412
+	}
+	artisans = {
+		culture = turkmen
+		religion = mongoloid
+		size = 1875
+	}
+	soldiers = {
+		culture = turkmen
+		religion = mongoloid
+		size = 450
+	}
+	farmers = {
+		culture = turkmen
+		religion = mongoloid
+		size = 38512
+	}
+	clergymen = {
+		culture = persian
+		religion = mongoloid
+		size = 37
+	}
+	artisans = {
+		culture = persian
+		religion = mongoloid
+		size = 300
+	}
+	soldiers = {
+		culture = persian
+		religion = mongoloid
+		size = 37
+	}
+	farmers = {
+		culture = persian
+		religion = mongoloid
+		size = 5625
+	}
+}
+1205 = {
+	aristocrats = {
+		culture = turkmen
+		religion = mongoloid
+		size = 562
+	}
+	clergymen = {
+		culture = turkmen
+		religion = mongoloid
+		size = 262
+	}
+	artisans = {
+		culture = turkmen
+		religion = mongoloid
+		size = 1275
+	}
+	soldiers = {
+		culture = turkmen
+		religion = mongoloid
+		size = 300
+	}
+	farmers = {
+		culture = turkmen
+		religion = mongoloid
+		size = 26100
+	}
+	clergymen = {
+		culture = persian
+		religion = mongoloid
+		size = 37
+	}
+	artisans = {
+		culture = persian
+		religion = mongoloid
+		size = 225
+	}
+	soldiers = {
+		culture = persian
+		religion = mongoloid
+		size = 37
+	}
+	farmers = {
+		culture = persian
+		religion = mongoloid
+		size = 4200
+	}
+}
+1206 = {
+	aristocrats = {
+		culture = tajik
+		religion = mongoloid
+		size = 37
+	}
+	clergymen = {
+		culture = tajik
+		religion = mongoloid
+		size = 37
+	}
+	artisans = {
+		culture = tajik
+		religion = mongoloid
+		size = 150
+	}
+	soldiers = {
+		culture = tajik
+		religion = mongoloid
+		size = 37
+	}
+	farmers = {
+		culture = tajik
+		religion = mongoloid
+		size = 2737
+	}
+	aristocrats = {
+		culture = turkmen
+		religion = mongoloid
+		size = 600
+	}
+	clergymen = {
+		culture = turkmen
+		religion = mongoloid
+		size = 337
+	}
+	artisans = {
+		culture = turkmen
+		religion = mongoloid
+		size = 1650
+	}
+	soldiers = {
+		culture = turkmen
+		religion = mongoloid
+		size = 375
+	}
+	farmers = {
+		culture = turkmen
+		religion = mongoloid
+		size = 31537
+	}
+	aristocrats = {
+		culture = persian
+		religion = mongoloid
+		size = 75
+	}
+	clergymen = {
+		culture = persian
+		religion = mongoloid
+		size = 75
+	}
+	artisans = {
+		culture = persian
+		religion = mongoloid
+		size = 600
+	}
+	soldiers = {
+		culture = persian
+		religion = mongoloid
+		size = 112
+	}
+	farmers = {
+		culture = persian
+		religion = mongoloid
+		size = 11137
+	}
+}

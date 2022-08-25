@@ -1,0 +1,48 @@
+mobile_artillery = { 
+	icon = 24
+	
+	type = land
+	sprite = Tank
+	active = no
+	unit_type = support
+	floating_flag = no
+	primary_culture = yes
+
+	#Core Abilities
+	priority = 20
+	max_strength = 3
+	default_organisation = 30
+	maximum_speed = 10.00
+	weighted_value = 5.0
+	fort = {
+	attack = 0.1
+	}
+
+
+	#Building Costs
+	build_time = 110
+	build_cost = {
+		barrels = 20
+		artillery = 20
+		regular_clothes = 20
+	}
+	
+	supply_consumption = 1.9
+	supply_cost = {
+		barrels = 0.15
+		artillery = 0.2
+		canned_food = 0.4 #3.6
+		fuel = 0.6
+		ammunition = 0.12
+	}
+	
+
+	#Land Abilties
+	reconnaissance = 0
+	attack = 5
+	defence = 7.5
+	discipline = 1.0
+	support = 4.7
+	maneuver = 5
+	siege = 0.5
+}

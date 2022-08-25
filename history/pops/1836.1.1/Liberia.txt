@@ -1,0 +1,404 @@
+#Liberia Region (880000) 
+#under the rule of Liberia in 1836
+#Monrovia (252000/63000 POPS) 
+1887 = {
+	bureaucrats = {
+		culture = afro_american
+		religion = negroid
+		size = 5
+	}
+
+	officers = {
+		culture = afro_american
+		religion = negroid
+		size = 10
+	}
+
+	clergymen = {
+		culture = afro_american
+		religion = negroid
+		size = 50
+	}
+
+	artisans = {
+		culture = afro_american
+		religion = negroid
+		size = 100
+	}
+
+	soldiers = {
+		culture = afro_american
+		religion = negroid
+		size = 25
+	}
+
+	farmers = {
+		culture = afro_american
+		religion = negroid
+		size = 810
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = negroid
+		size = 25
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = negroid
+		size = 200
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = negroid
+		size = 1100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = negroid
+		size = 2775
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = negroid
+		size = 875
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = negroid
+		size = 450
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = negroid
+		size = 2350
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = negroid
+		size = 450
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = negroid
+		size = 40875
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = negroid
+		size = 150
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = negroid
+		size = 75
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = negroid
+		size = 450
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = negroid
+		size = 100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = negroid
+		size = 8225
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = negroid
+		size = 75
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = negroid
+		size = 50
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = negroid
+		size = 200
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = negroid
+		size = 50
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = negroid
+		size = 3625
+	}
+}
+#Harper (204000/51000 POPS) 
+1888 = {
+	aristocrats = {
+		culture = african_minor
+		religion = negroid
+		size = 750
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = negroid
+		size = 375
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = negroid
+		size = 1900
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = negroid
+		size = 375
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = negroid
+		size = 34600
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = negroid
+		size = 250
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = negroid
+		size = 125
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = negroid
+		size = 650
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = negroid
+		size = 125
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = negroid
+		size = 11850
+	}
+}
+#uncolonized in 1836
+#Bopulu (124000/31000 POPS) 
+1889 = {
+	aristocrats = {
+		culture = african_minor
+		religion = negroid
+		size = 475
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = negroid
+		size = 250
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = negroid
+		size = 1250
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = negroid
+		size = 250
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = negroid
+		size = 22775
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = negroid
+		size = 100
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = negroid
+		size = 50
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = negroid
+		size = 300
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = negroid
+		size = 75
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = negroid
+		size = 5475
+	}
+}
+#Gbarnga (132000/33000 POPS) 
+1890 = {
+	aristocrats = {
+		culture = african_minor
+		religion = negroid
+		size = 200
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = negroid
+		size = 100
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = negroid
+		size = 550
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = negroid
+		size = 125
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = negroid
+		size = 10025
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = negroid
+		size = 425
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = negroid
+		size = 225
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = negroid
+		size = 1100
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = negroid
+		size = 225
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = negroid
+		size = 20025
+	}
+}
+#Zwedru (168000/42000 POPS) 
+1891 = {
+	aristocrats = {
+		culture = african_minor
+		religion = negroid
+		size = 425
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = negroid
+		size = 250
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = negroid
+		size = 1150
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = negroid
+		size = 250
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = negroid
+		size = 20975
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = negroid
+		size = 350
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = negroid
+		size = 200
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = negroid
+		size = 950
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = negroid
+		size = 200
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = negroid
+		size = 17300
+	}
+
+}

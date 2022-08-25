@@ -1,0 +1,29 @@
+owner = AUS
+controller = AUS
+add_core = AUS
+add_core = HAB
+trade_goods = sulphur
+life_rating = 40
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	owner = KUK
+	controller = KUK
+	add_core = KUK
+	railroad = 4
+}
+1923.1.1 = {
+	owner = HAB
+	controller = HAB
+	remove_core = KUK
+	remove_core = AUS
+}
+state_building = {
+	level = 1
+	building = manufacture_luxury_clothes
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_paper
+	upgrade = yes
+}

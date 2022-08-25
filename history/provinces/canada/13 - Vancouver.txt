@@ -1,0 +1,22 @@
+owner = ENG
+controller = ENG
+add_core = CAN
+add_core = COL
+trade_goods = fish
+life_rating = 40
+
+1914.1.1 = {
+	owner = CAN
+	controller = CAN
+	colonial = no
+}
+state_building = {
+	level = 1
+	building = manufacture_furniture
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_luxury_furniture
+	upgrade = yes
+}

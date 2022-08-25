@@ -1,0 +1,18 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+trade_goods = grain
+life_rating = 40
+#terrain = good_farmland
+1861.1.1 = { railroad = 2 }
+1914.1.1 = { railroad = 4 fort = 2 }
+state_building = {
+	level = 1
+	building = manufacture_clipper_convoy
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_artillery
+	upgrade = yes
+}

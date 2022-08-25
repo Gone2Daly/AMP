@@ -1,0 +1,720 @@
+1384 = {
+	clergymen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 75
+	}
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 3675
+	}
+	farmers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 750
+	}
+	clergymen = {
+		culture = malay
+		religion = malay
+		size = 75
+	}
+	artisans = {
+		culture = malay
+		religion = malay
+		size = 375
+	}
+	farmers = {
+		culture = malay
+		religion = malay
+		size = 7050
+	}
+	artisans = {
+		culture = assamese
+		religion = hindu
+		size = 1650
+	}
+	craftsmen = {
+		culture = british
+		religion = latin-german
+		size = 150
+	}
+	clerks = {
+		culture = british
+		religion = latin-german
+		size = 150
+	}
+	capitalists = {
+		culture = british
+		religion = latin-german
+		size = 150
+	}
+	craftsmen = {
+		culture = malay
+		religion = malay
+		size = 150
+	}
+	clerks = {
+		culture = malay
+		religion = malay
+		size = 150
+	}
+	capitalists = {
+		culture = malay
+		religion = malay
+		size = 150
+	}
+
+	craftsmen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 150
+	}
+	clerks = {
+		culture = beifaren
+		religion = mongoloid
+		size = 150
+	}
+	capitalists = {
+		culture = beifaren
+		religion = mongoloid
+		size = 150
+	}
+}
+1386 = {
+	clergymen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 75
+	}
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 2175
+	}
+	farmers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 2250
+	}
+	aristocrats = {
+		culture = british
+		religion = latin-german
+		size = 262
+	}
+	bureaucrats = {
+		culture = british
+		religion = latin-german
+		size = 37
+	}
+	clergymen = {
+		culture = malay
+		religion = malay
+		size = 150
+	}
+	artisans = {
+		culture = malay
+		religion = malay
+		size = 750
+	}
+	soldiers = {
+		culture = malay
+		religion = malay
+		size = 150
+	}
+	farmers = {
+		culture = malay
+		religion = malay
+		size = 13950
+	}
+}
+1388 = {
+	clergymen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 75
+	}
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 5812
+	}
+	farmers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 3112
+	}
+	clergymen = {
+		culture = malay
+		religion = malay
+		size = 225
+	}
+	artisans = {
+		culture = malay
+		religion = malay
+		size = 1125
+	}
+	soldiers = {
+		culture = malay
+		religion = malay
+		size = 300
+	}
+	farmers = {
+		culture = malay
+		religion = malay
+		size = 20850
+	}
+}
+1385 = {
+	aristocrats = {
+		culture = malay
+		religion = malay
+		size = 375
+	}
+	bureaucrats = {
+		culture = malay
+		religion = malay
+		size = 187
+	}
+	officers = {
+		culture = malay
+		religion = malay
+		size = 112
+	}
+	clergymen = {
+		culture = malay
+		religion = malay
+		size = 375
+	}
+	artisans = {
+		culture = malay
+		religion = malay
+		size = 1875
+	}
+	soldiers = {
+		culture = malay
+		religion = malay
+		size = 1650
+	}
+	farmers = {
+		culture = malay
+		religion = malay
+		size = 33075
+	}
+	clergymen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 75
+	}
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 2175
+	}
+	farmers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 750
+	}
+}
+1387 = {
+	aristocrats = {
+		culture = malay
+		religion = malay
+		size = 225
+	}
+	clergymen = {
+		culture = malay
+		religion = malay
+		size = 225
+	}
+	artisans = {
+		culture = malay
+		religion = malay
+		size = 1125
+	}
+	soldiers = {
+		culture = malay
+		religion = malay
+		size = 1650
+	}
+	labourers = {
+		culture = malay
+		religion = malay
+		size = 19425
+	}
+	clergymen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 75
+	}
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 1425
+	}
+	farmers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 1650
+	}
+	craftsmen = {
+		culture = malay
+		religion = malay
+		size = 150
+	}
+	clerks = {
+		culture = malay
+		religion = malay
+		size = 150
+	}
+	capitalists = {
+		culture = malay
+		religion = malay
+		size = 150
+	}
+
+	craftsmen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 150
+	}
+	clerks = {
+		culture = beifaren
+		religion = mongoloid
+		size = 150
+	}
+	capitalists = {
+		culture = beifaren
+		religion = mongoloid
+		size = 150
+	}
+}
+1390 = {
+	aristocrats = {
+		culture = malay
+		religion = malay
+		size = 112
+	}
+	clergymen = {
+		culture = malay
+		religion = malay
+		size = 112
+	}
+	artisans = {
+		culture = malay
+		religion = malay
+		size = 600
+	}
+	soldiers = {
+		culture = malay
+		religion = malay
+		size = 112
+	}
+	labourers = {
+		culture = malay
+		religion = malay
+		size = 11062
+	}
+}
+2575 = {
+	aristocrats = {
+		culture = malay
+		religion = malay
+		size = 450
+	}
+	clergymen = {
+		culture = malay
+		religion = malay
+		size = 450
+	}
+	artisans = {
+		culture = malay
+		religion = malay
+		size = 2250
+	}
+	soldiers = {
+		culture = malay
+		religion = malay
+		size = 1650
+	}
+	labourers = {
+		culture = malay
+		religion = malay
+		size = 38850
+	}
+	clergymen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 112
+	}
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 1387
+	}
+	farmers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 3000
+	}
+}
+1389 = {
+	aristocrats = {
+		culture = malay
+		religion = malay
+		size = 450
+	}
+	clergymen = {
+		culture = malay
+		religion = malay
+		size = 450
+	}
+	artisans = {
+		culture = malay
+		religion = malay
+		size = 2025
+	}
+	soldiers = {
+		culture = malay
+		religion = malay
+		size = 375
+	}
+	farmers = {
+		culture = malay
+		religion = malay
+		size = 37200
+	}
+	clergymen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 75
+	}
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 1425
+	}
+	farmers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 1650
+	}
+}
+1391 = {
+	aristocrats = {
+		culture = malay
+		religion = malay
+		size = 600
+	}
+	clergymen = {
+		culture = malay
+		religion = malay
+		size = 637
+	}
+	artisans = {
+		culture = malay
+		religion = malay
+		size = 3000
+	}
+	soldiers = {
+		culture = malay
+		religion = malay
+		size = 525
+	}
+	farmers = {
+		culture = malay
+		religion = malay
+		size = 55237
+	}
+	clergymen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 75
+	}
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 1425
+	}
+	farmers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 1650
+	}
+}
+1393 = {
+	aristocrats = {
+		culture = malay
+		religion = malay
+		size = 112
+	}
+	bureaucrats = {
+		culture = malay
+		religion = malay
+		size = 75
+	}
+	officers = {
+		culture = malay
+		religion = malay
+		size = 37
+	}
+	clergymen = {
+		culture = malay
+		religion = malay
+		size = 75
+	}
+	artisans = {
+		culture = malay
+		religion = malay
+		size = 450
+	}
+	soldiers = {
+		culture = malay
+		religion = malay
+		size = 112
+	}
+	farmers = {
+		culture = malay
+		religion = malay
+		size = 8137
+	}
+}
+1394 = {
+	aristocrats = {
+		culture = malay
+		religion = malay
+		size = 150
+	}
+	clergymen = {
+		culture = malay
+		religion = malay
+		size = 150
+	}
+	artisans = {
+		culture = malay
+		religion = malay
+		size = 750
+	}
+	soldiers = {
+		culture = malay
+		religion = malay
+		size = 1650
+	}
+	farmers = {
+		culture = malay
+		religion = malay
+		size = 12450
+	}
+	aristocrats = {
+		culture = asian_minor
+		religion = malay
+		size = 187
+	}
+	clergymen = {
+		culture = asian_minor
+		religion = malay
+		size = 150
+	}
+	artisans = {
+		culture = asian_minor
+		religion = malay
+		size = 787
+	}
+	soldiers = {
+		culture = asian_minor
+		religion = malay
+		size = 187
+	}
+	farmers = {
+		culture = asian_minor
+		religion = malay
+		size = 15187
+	}
+	clergymen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 37
+	}
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 712
+	}
+	farmers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 750
+	}
+}
+1395 = {
+	aristocrats = {
+		culture = malay
+		religion = malay
+		size = 37
+	}
+	clergymen = {
+		culture = malay
+		religion = malay
+		size = 75
+	}
+	artisans = {
+		culture = malay
+		religion = malay
+		size = 225
+	}
+	soldiers = {
+		culture = malay
+		religion = malay
+		size = 75
+	}
+	farmers = {
+		culture = malay
+		religion = malay
+		size = 4087
+	}
+	aristocrats = {
+		culture = asian_minor
+		religion = malay
+		size = 150
+	}
+	clergymen = {
+		culture = asian_minor
+		religion = malay
+		size = 112
+	}
+	artisans = {
+		culture = asian_minor
+		religion = malay
+		size = 525
+	}
+	soldiers = {
+		culture = asian_minor
+		religion = malay
+		size = 150
+	}
+	farmers = {
+		culture = asian_minor
+		religion = malay
+		size = 11062
+	}
+}
+1396 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = malay
+		size = 75
+	}
+	clergymen = {
+		culture = asian_minor
+		religion = malay
+		size = 75
+	}
+	artisans = {
+		culture = asian_minor
+		religion = malay
+		size = 375
+	}
+	soldiers = {
+		culture = asian_minor
+		religion = malay
+		size = 112
+	}
+	farmers = {
+		culture = asian_minor
+		religion = malay
+		size = 8362
+	}
+	aristocrats = {
+		culture = malay
+		religion = malay
+		size = 112
+	}
+	clergymen = {
+		culture = malay
+		religion = malay
+		size = 112
+	}
+	artisans = {
+		culture = malay
+		religion = malay
+		size = 525
+	}
+	soldiers = {
+		culture = malay
+		religion = malay
+		size = 112
+	}
+	farmers = {
+		culture = malay
+		religion = malay
+		size = 9637
+	}
+	clergymen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 37
+	}
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 750
+	}
+	farmers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 712
+	}
+}
+1397 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = malay
+		size = 112
+	}
+	clergymen = {
+		culture = asian_minor
+		religion = malay
+		size = 112
+	}
+	artisans = {
+		culture = asian_minor
+		religion = malay
+		size = 450
+	}
+	soldiers = {
+		culture = asian_minor
+		religion = malay
+		size = 112
+	}
+	farmers = {
+		culture = asian_minor
+		religion = malay
+		size = 9712
+	}
+	aristocrats = {
+		culture = malay
+		religion = malay
+		size = 37
+	}
+	clergymen = {
+		culture = malay
+		religion = malay
+		size = 75
+	}
+	artisans = {
+		culture = malay
+		religion = malay
+		size = 225
+	}
+	soldiers = {
+		culture = malay
+		religion = malay
+		size = 37
+	}
+	farmers = {
+		culture = malay
+		religion = malay
+		size = 4125
+	}
+}

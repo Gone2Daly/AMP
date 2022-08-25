@@ -1,0 +1,5086 @@
+
+### Factories #####################################################################################
+
+factory_template = {
+	efficiency = {
+		crates = 0.5
+		cement = 0.5 #8
+		machine_parts = 0.12 #3.65
+		currency = 5 #5
+		# total = 19.85
+	}
+	owner =
+	{
+		poptype = capitalists 
+		effect = input
+		effect_multiplier = -2.5
+	}
+	
+	employees = {		
+		{ 
+			poptype = craftsmen
+			effect = throughput
+			amount = 0.8
+		}		
+		{
+			poptype = clerks 
+			effect = output
+			effect_multiplier = 1.5
+			amount = 0.2
+		}
+	
+	}
+	type = factory
+	workforce = 5000 
+}
+
+bank_template = {
+	efficiency = {
+		cement = 0.6 #8
+		luxury_clothes = 0.02
+		regular_clothes = 0.4 #2
+		furniture = 0.4 #2
+		# total = 15.2
+	}
+	owner =
+	{
+		poptype = financiers 
+		effect = input
+		effect_multiplier = -5
+	}
+	
+	employees = {		
+		{
+			poptype = clerks 
+			effect = throughput
+			amount = 1
+		}
+	
+	}
+	type = factory
+	workforce = 500
+}
+
+machine_part_user_template = {
+	efficiency = {
+		cement = 0.5 #8
+		crates = 0.5
+		currency = 5 #5
+		# total = 16.2
+	}
+	
+	owner =
+	{
+		poptype = capitalists 
+		effect = input
+		effect_multiplier = -2.5
+	}
+	
+	employees = {		
+		{ 
+			poptype = craftsmen
+			effect = throughput
+			amount = 0.8
+		}		
+		{ 
+			poptype = clerks 
+			effect = output
+			effect_multiplier = 1.5
+			amount = 0.2
+		}
+	
+	}
+	type = factory
+	workforce = 5000 
+}
+
+cement_template = {
+	efficiency = {
+		machine_parts = 0.05 #1.825
+		crates = 0.5
+		currency = 5 #5
+		glass = 0.68 #2
+		# total = 8.825
+	}
+	
+	owner =
+	{
+		poptype = capitalists 
+		effect = input
+		effect_multiplier = -2.5
+	}
+	
+	employees = {		
+		{ 
+			poptype = craftsmen
+			effect = throughput
+			amount = 0.8
+		}		
+		{ 
+			poptype = clerks 
+			effect = output
+			effect_multiplier = 1.5
+			amount = 0.2
+		}
+	
+	}
+	type = factory
+	workforce = 5000 
+}
+
+crate_template = {
+	efficiency = {
+		machine_parts = 0.05 #1.825
+		cement = 0.5
+		currency = 5 #5
+		glass = 0.68 #2
+		# total = 8.825
+	}
+	
+	owner =
+	{
+		poptype = capitalists 
+		effect = input
+		effect_multiplier = -2.5
+	}
+	
+	employees = {		
+		{ 
+			poptype = craftsmen
+			effect = throughput
+			amount = 0.8
+		}		
+		{ 
+			poptype = clerks 
+			effect = output
+			effect_multiplier = 1.5
+			amount = 0.2
+		}
+	
+	}
+	type = factory
+	workforce = 5000 
+}
+
+company_template = {
+	efficiency = {
+		financial_services = 0.04 #4
+		cement = 0.06 #1
+		lumber = 0.2
+		luxury_clothes = 0.01
+		glass = 0.34 #1
+		regular_clothes = 0.17 #1
+		furniture = 0.2 #1
+		currency = 4 #4
+		# total = 12
+	}
+	
+	owner = {
+		poptype = financiers	
+		effect = input
+		effect_multiplier = -5
+
+	}
+	employees = {		
+		{ 
+			poptype = servicers
+			effect = throughput
+			amount = 0.8
+		}		
+		{
+			poptype = clerks 
+			effect = output
+			effect_multiplier = 1.25
+			amount = 0.2
+		}
+	
+	}
+	type = factory
+	workforce = 5000
+}
+heavy_industry_template = {
+	efficiency = {
+		cement = 0.5 #8
+		crates = 1
+		machine_parts = 0.2 #3.65
+		currency = 5 #5
+		# total = 19.85
+	}
+	
+	owner =
+	{
+		poptype = capitalists 
+		effect = input
+		effect_multiplier = -2.5
+	}
+	
+	employees = {		
+		{ 
+			poptype = craftsmen
+			effect = throughput
+			amount = 0.8
+		}		
+		{ 
+			poptype = clerks 
+			effect = output
+			effect_multiplier = 1.5
+			amount = 0.2
+		}
+	
+	}
+	type = factory
+	workforce = 5000 
+}
+advanced_industry_template = {
+	efficiency = {
+		cement = 0.5 #6
+		glass = 1.5 #2
+		crates = 1
+		machine_parts = 0.2 #3.65
+		electric_gear = 0.3 #3.2
+		currency = 5 #5
+		# total = 19.85
+	}
+	
+	owner =
+	{
+		poptype = capitalists 
+		effect = input
+		effect_multiplier = -2.5
+	}
+	
+	employees = {		
+		{ 
+			poptype = craftsmen
+			effect = throughput
+			amount = 0.8
+		}		
+		{ 
+			poptype = clerks 
+			effect = output
+			effect_multiplier = 1.5
+			amount = 0.2
+		}
+	
+	}
+	type = factory
+	workforce = 5000 
+}
+light_industry_template = {
+	efficiency = {
+		cement = 0.2 #2
+		crates = 0.2
+		regular_clothes = 0.25 #2
+		furniture = 0.4 #2
+		machine_parts = 0.05 #1.825
+		currency = 5 #5
+		# total = 14.825
+	}
+	
+	owner =
+	{
+		poptype = capitalists 
+		effect = input
+		effect_multiplier = -2.5
+	}
+	
+	employees = {		
+		{ 
+			poptype = craftsmen
+			effect = throughput
+			amount = 0.8
+		}		
+		{ 
+			poptype = clerks 
+			effect = output
+			effect_multiplier = 1.5
+			amount = 0.2
+		}
+	
+	}
+	type = factory
+	workforce = 5000 
+}
+manufacture_template = {
+	efficiency = {
+		crates = 0.05
+		cement = 0.05
+	}
+	
+	owner =
+	{
+		poptype = capitalists 
+		effect = input
+		effect_multiplier = -2.5
+	}
+	
+	employees = {		
+		{ 
+			poptype = craftsmen
+			effect = throughput
+			amount = 0.8
+		}		
+		{ 
+			poptype = clerks 
+			effect = output
+			effect_multiplier = 1.5
+			amount = 0.2
+		}	
+	
+	}
+	type = factory
+	workforce = 1000 
+}
+manufacture_fabric = {
+	template = manufacture_template
+	input_goods = {
+		cotton = 3
+	}
+	output_goods = fabric
+	value = 5.22
+}
+manufacture_regular_clothes = {
+	template = manufacture_template
+	input_goods = {
+		fabric = 3
+	}
+	output_goods = regular_clothes
+	value = 1.58
+}
+manufacture_luxury_clothes = {
+	template = manufacture_template
+	input_goods = {
+		regular_clothes = 0.072
+		silk = 0.312	
+	}
+	output_goods = luxury_clothes
+	value = 0.11
+}
+manufacture_paper = {
+	template = manufacture_template
+	input_goods = {
+		lumber = 2
+	}
+	output_goods = paper
+	value = 1.64
+}
+manufacture_furniture = {
+	template = manufacture_template
+	input_goods = {
+		lumber = 2.85
+	}
+	output_goods = furniture
+	value = 1.34
+}
+manufacture_luxury_furniture = {
+	template = manufacture_template
+	input_goods = {
+		furniture = 0.16
+		tropical_wood = 0.6
+	}
+	output_goods = luxury_furniture
+	value = 0.116
+}
+manufacture_steel = {
+	template = manufacture_template
+	input_goods = {    
+		refined_iron = 1
+		coke_coal = 0.25
+	}
+	output_goods = steel 
+	value = 1.72
+}
+manufacture_ammunition = {
+	template = manufacture_template
+	input_goods = {    
+		sulphur = 0.3
+		steel = 0.42
+	}
+	output_goods = ammunition 
+	value = 0.444
+}
+manufacture_explosives = {
+	template = manufacture_template
+	input_goods = {    
+		fertilizer = 0.15
+		ammunition = 0.03
+	}
+	output_goods = explosives 
+	value = 0.29
+}
+manufacture_artillery = {
+	template = manufacture_template
+	input_goods = {    
+		explosives = 0.1
+		steel = 0.4
+	}
+	output_goods = artillery 
+	value = 0.344
+}
+manufacture_small_arms = {
+	template = manufacture_template
+	input_goods = {    
+		ammunition = 0.05
+		steel = 0.1
+	}
+	output_goods = small_arms 
+	value = 0.144
+}
+manufacture_machine_parts = {
+	template = manufacture_template
+	input_goods = {    
+		steel = 1.25	
+		coke_coal = 0.75
+	}
+	output_goods = machine_parts 
+	value = 0.45
+}
+manufacture_clipper_convoy = {
+	template = manufacture_template
+	input_goods = {    
+		fabric = 5
+		timber = 5
+		steel = 0.75
+	}
+	output_goods = clipper_convoy 
+	value = 0.5
+}
+manufacture_grain_canned_food = {
+	template = manufacture_template
+	input_goods = {    
+		grain = 0.5
+		coke_coal = 0.001
+	}
+	output_goods = food 
+	value = 20
+}
+manufacture_cattle_canned_food = {
+	template = manufacture_template
+	input_goods = {    
+		refined_iron = 0.02
+		cattle = 1.124
+	}
+	output_goods = food 
+	value = 5.46
+}
+manufacture_fish_canned_food = {
+	template = manufacture_template
+	input_goods = {    
+		refined_iron = 0.02
+		fish = 1.5
+	}
+	output_goods = food 
+	value = 5.46
+}
+manufacture_fruit_canned_food = {
+	template = manufacture_template
+	input_goods = {    
+		refined_iron = 0.02
+		fruit = 1.25
+	}
+	output_goods = food 
+	value = 5.46
+}
+manufacture_wool_canned_food = {
+	template = manufacture_template
+	input_goods = {    
+		refined_iron = 0.02
+		wool = 3.2
+	}
+	output_goods = food 
+	value = 5.46
+}
+manufacture_liquor = {
+	template = manufacture_template
+	input_goods = {    
+		grain = 1
+		glass = 0.8
+	}
+	output_goods = liquor 
+	value = 1.092
+}
+manufacture_wine = {
+	template = manufacture_template
+	input_goods = {    
+		fruit = 1
+		glass = 1
+	}
+	output_goods = wine 
+	value = 0.864
+}
+manufacture_lumber = {
+	template = manufacture_template
+	input_goods = {    
+		timber = 7.5
+	}
+	output_goods = lumber 
+	value = 10
+}
+manufacture_cement = {
+	template = manufacture_template
+	input_goods = {    
+		coke_coal = 4.8
+	}
+	output_goods = cement 
+	value = 0.936
+}
+manufacture_glass = {
+	template = manufacture_template
+	input_goods = {    
+		coke_coal = 1.68
+	}
+	output_goods = glass 
+	value = 2.62
+}
+manufacture_fertilizer = {
+	template = manufacture_template
+	input_goods = {    
+		sulphur = 0.9
+	}
+	output_goods = fertilizer 
+	value = 0.88
+}
+manufacture_iron = {
+	template = manufacture_template
+	input_goods = {    
+		iron = 1
+	}
+	output_goods = refined_iron 
+	value = 1.85
+}
+manufacture_coal = {
+	template = manufacture_template
+	input_goods = {    
+		coal = 1.5
+	}
+	output_goods = coke_coal 
+	value = 2.84
+}
+### Services #####################################################################################
+
+transport_company = {
+	template = company_template
+	input_goods = {
+		financial_services = 0.008 #0.5
+		aeroplanes = 0.025 #2.75
+		automobiles = 0.025 #1.75
+	}
+	output_goods = transport
+	value = 0.4 #35
+	
+# expenses : 5
+# maintenance: 12
+# total input: 17
+# output: 35
+}
+education_company = {
+	template = company_template
+	input_goods = {
+		financial_services = 0.020 #2.5
+		paper = 3 #5.1
+	}
+	output_goods = education
+	value = 0.4 #37.6 
+	
+# expenses : 7.6
+# maintenance: 12
+# total input: 19.6
+# output: 37.6
+}
+culture_company = {
+	template = company_template
+	input_goods = {
+		financial_services = 0.03 #2.5
+		radio = 0.15 #5
+		paper = 1
+	}
+	output_goods = culture
+	value = 0.4 #35.85
+    
+# expenses : 7.5
+# maintenance: 12
+# total input: 19.5
+# output: 35.85
+}
+recreation_company = {
+	template = company_template
+	input_goods = {
+		financial_services = 0.025 #0.5
+		steamer_convoy = 0.05 #1.62
+		aeroplanes = 0.001 #2.75
+		clipper_convoy = 0.005 #2.1
+	}
+	output_goods = recreation
+	value = 0.8 #36.97
+    
+# expenses : 6.975
+# maintenance: 12
+# total input: 18.97
+# output: 36.97
+}
+financial_company = {
+	template = company_template
+	input_goods = {
+		currency = 15 #4
+	}
+	output_goods = financial_services
+	value = 0.6 #33.4
+    
+# expenses : 7.4
+# maintenance: 12
+# total input: 19.4
+# output: 33.4
+}
+healthcare_company = {
+	template = company_template
+	input_goods = {
+		financial_services = 0.015 #2.5
+		opium = 1 #3.2
+		telephones = 0.005 #1.6
+		electric_gear = 0.02
+		
+	}
+	output_goods = healthcare
+	value = 0.4 #36.85
+    
+# expenses : 7.3
+# maintenance: 12
+# total input: 19.3
+# output: 36.85
+}
+bank = {
+	template = bank_template
+	input_goods = {
+		paper = 4 #17
+	}
+	output_goods = currency
+	value = 50 #50
+	bonus = {
+		trigger = {
+		OR = {
+				has_building = paper_mill
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = paper 
+					}
+					state_scope = { 
+						produces = paper
+					}
+					location = {
+						has_building = paper_mill 
+					}
+					state_scope = { 
+						has_building = paper_mill
+					}
+					location = {
+						trade_goods = paper
+					}
+					state_scope = { 
+						trade_goods = paper 
+					}
+					}
+				}
+			}
+		}
+		value = 0.1
+	}
+# expenses : 17
+# maintenance: 15.2
+# total input: 32.2
+# output: 50
+}
+
+############# LATE GAME FACTORIES
+
+aeroplane_factory = {     
+	template = machine_part_user_template
+	input_goods = {
+		machine_parts = 0.7 #20.075
+		electric_gear = 1 #16
+		rubber = 0.35 #3.5
+		lumber = 1.65 #1.65
+	}
+	output_goods = aeroplanes
+	value = 0.6 #60.5
+	bonus = {
+		trigger = {
+		OR = {
+				has_building = machine_parts_factory 
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = machine_parts 
+					}
+					state_scope = { 
+						produces = machine_parts 
+					}
+					location = {
+						has_building = machine_parts_factory 
+					}
+					state_scope = { 
+						has_building = machine_parts_factory 
+					}
+					location = {
+						trade_goods = machine_parts 
+					}
+					state_scope = { 
+						trade_goods = machine_parts 
+					}
+					}
+				}
+			}
+		}
+		value = 0.2
+	}
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = electric_gear_factory 
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = electric_gear 
+					}
+					state_scope = { 
+						produces = electric_gear 
+					}
+					location = {
+						has_building = electric_gear_factory 
+					}
+					state_scope = { 
+						has_building = electric_gear_factory 
+					}
+					location = {
+						trade_goods = electric_gear 
+					}
+					state_scope = { 
+						trade_goods = electric_gear 
+					}
+					}
+				}
+			}
+		}
+		value = 0.1
+	}
+    
+# expenses : 41.9
+# maintenance: 16.2
+# total input: 58.1
+# output: 60.5
+}
+
+barrel_factory = {  
+	template = machine_part_user_template
+	input_goods = {   
+		automobiles = 0.15 #10.5
+		machine_parts = 0.42 #15.33
+		electric_gear = 0.5 #8
+		rubber = 0.5 #3.5
+	}
+	output_goods = barrels 
+	value = 0.6 #58.8
+	bonus = {
+		trigger = { 
+			OR = {
+				has_building = automobile_factory 
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = automobiles 
+					}
+					state_scope = { 
+						produces = automobiles 
+					}
+					location = {
+						has_building = automobile_factory 
+					}
+					state_scope = { 
+						has_building = automobile_factory 
+					}
+					location = {
+						trade_goods = automobiles 
+					}
+					state_scope = { 
+						trade_goods = automobiles 
+					}
+					}
+				}
+			}
+		}
+		value = 0.1
+	}
+	bonus = {
+		trigger = { 
+			OR = {
+				has_building = machine_parts_factory 
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = machine_parts 
+					}
+					state_scope = { 
+						produces = machine_parts 
+					}
+					location = {
+						has_building = machine_parts_factory 
+					}
+					state_scope = { 
+						has_building = machine_parts_factory 
+					}
+					location = {
+						trade_goods = machine_parts 
+					}
+					state_scope = { 
+						trade_goods = machine_parts 
+					}
+					}
+				}
+			}
+		}
+		value = 0.1
+	}
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = electric_gear_factory 
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = electric_gear 
+					}
+					state_scope = { 
+						produces = electric_gear 
+					}
+					location = {
+						has_building = electric_gear_factory 
+					}
+					state_scope = { 
+						has_building = electric_gear_factory 
+					}
+					location = {
+						trade_goods = electric_gear 
+					}
+					state_scope = { 
+						trade_goods = electric_gear 
+					}
+					}
+				}
+			}
+		}
+		value = 0.05
+	}
+    
+# expenses : 37.33
+# maintenance: 16.2
+# total input: 53.53
+# output: 58.8
+}
+
+automobile_factory = {      
+	template = machine_part_user_template
+	input_goods = {     
+		machine_parts = 1.5 #18.98
+		electric_gear = 0.5 #12
+		rubber = 0.4 #3.5
+		steel = 1.5 #5.6
+	}
+	
+	output_goods = automobiles 
+	value = 0.8 #63
+	bonus = {
+		trigger = {
+		OR = {
+				has_building = machine_parts_factory 
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = machine_parts 
+					}
+					state_scope = { 
+						produces = machine_parts 
+					}
+					location = {
+						has_building = machine_parts_factory 
+					}
+					state_scope = { 
+						has_building = machine_parts_factory 
+					}
+					location = {
+						trade_goods = machine_parts 
+					}
+					state_scope = { 
+						trade_goods = machine_parts 
+					}
+					}
+				}
+			}
+		}
+		value = 0.15
+	}
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = steel_factory 
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = steel 
+					}
+					state_scope = { 
+						produces = steel 
+					}
+					location = {
+						has_building = steel_factory 
+					}
+					state_scope = { 
+						has_building = steel_factory 
+					}
+					location = {
+						trade_goods = steel 
+					}
+					state_scope = { 
+						trade_goods = steel 
+					}
+					}
+				}
+			}
+		}
+		value = 0.15
+	}
+	bonus = {
+		trigger = { 
+			OR = {
+				has_building = electric_gear_factory 
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = electric_gear 
+					}
+					state_scope = { 
+						produces = electric_gear 
+					}
+					location = {
+						has_building = electric_gear_factory 
+					}
+					state_scope = { 
+						has_building = electric_gear_factory 
+					}
+					location = {
+						trade_goods = electric_gear 
+					}
+					state_scope = { 
+						trade_goods = electric_gear 
+					}
+					}
+				}
+			}
+		}
+		value = 0.1
+	}
+    
+# expenses : 40.08
+# maintenance: 16.2
+# total input: 56.28
+# output: 63
+}
+
+radio_factory = {      
+	template = factory_template
+	input_goods = {      
+		glass = 5 #14.5
+		electric_gear = 1.5 #24
+	}
+	output_goods = radio 
+	value = 4 #64
+	bonus = {
+		trigger = { 
+			OR = {
+				has_building = electric_gear_factory 
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = electric_gear 
+					}
+					state_scope = { 
+						produces = electric_gear 
+					}
+					location = {
+						has_building = electric_gear_factory 
+					}
+					state_scope = { 
+						has_building = electric_gear_factory 
+					}
+					location = {
+						trade_goods = electric_gear 
+					}
+					state_scope = { 
+						trade_goods = electric_gear 
+					}
+					}
+				}
+			}
+		}
+		value = 0.15
+	}
+		bonus = {
+		trigger = {
+			OR = {
+				has_building = glass_factory 
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = glass 
+					}
+					state_scope = { 
+						produces = glass 
+					}
+					location = {
+						has_building = glass_factory 
+					}
+					state_scope = { 
+						has_building = glass_factory 
+					}
+					location = {
+						trade_goods = glass 
+					}
+					state_scope = { 
+						trade_goods = glass 
+					}
+					}
+				}
+			}
+		}
+		value = 0.1
+	}
+    
+# expenses : 38.5
+# maintenance: 19.85
+# total input: 58.35
+# output: 64
+}
+
+telephone_factory = {
+	template = factory_template
+	input_goods = {       
+		glass = 5 #21.75
+		electric_gear = 2.15 #20
+	}
+	output_goods = telephones 
+	value = 5 #66
+		bonus = {
+		trigger = { 
+			OR = {
+				has_building = electric_gear_factory 
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = electric_gear 
+					}
+					state_scope = { 
+						produces = electric_gear 
+					}
+					location = {
+						has_building = electric_gear_factory 
+					}
+					state_scope = { 
+						has_building = electric_gear_factory 
+					}
+					location = {
+						trade_goods = electric_gear 
+					}
+					state_scope = { 
+						trade_goods = electric_gear 
+					}
+					}
+				}
+			}
+		}
+		value = 1
+	}
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = glass_factory 
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = glass 
+					}
+					state_scope = { 
+						produces = glass 
+					}
+					location = {
+						has_building = glass_factory 
+					}
+					state_scope = { 
+						has_building = glass_factory 
+					}
+					location = {
+						trade_goods = glass 
+					}
+					state_scope = { 
+						trade_goods = glass 
+					}
+					}
+				}
+			}
+		}
+		value = 0.1
+	}
+    
+# expenses : 41.75
+# maintenance: 19.85
+# total input: 61.6
+# output: 66
+}
+
+############# STRATEGIC FACTORIES
+
+food_grain = {
+	template = light_industry_template
+	input_goods = {
+		grain = 7		#44+0.86=44.86
+	}
+	output_goods = food
+	value = 5			#50
+	bonus = {
+		trigger = {
+			OR = {
+				trade_goods_in_state = grain
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = grain 
+					}
+					state_scope = { 
+						produces = grain 
+					}
+					location = {
+						trade_goods = grain 
+					}
+					state_scope = { 
+						trade_goods = grain 
+					}
+					}
+				}
+			}
+		}
+		value = 5
+	}
+}
+
+food_fruit = {
+	template = light_industry_template
+	input_goods = {
+		fruit = 7		#44+0.86=44.86
+	}
+	output_goods = food
+	value = 5			#50
+	bonus = {
+		trigger = {
+			OR = {
+				trade_goods_in_state = fish
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = fish 
+					}
+					state_scope = { 
+						produces = fish 
+					}
+					location = {
+						trade_goods = fish 
+					}
+					state_scope = { 
+						trade_goods = fish 
+					}
+					}
+				}
+			}
+		}
+		value = 5
+	}
+}
+
+food_wool = {
+	template = light_industry_template
+	input_goods = {
+		wool = 7		#44+0.86=44.86
+	}
+	output_goods = food
+	value = 5			#50
+	bonus = {
+		trigger = {
+			OR = {
+				trade_goods_in_state = wool
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = wool 
+					}
+					state_scope = { 
+						produces = wool 
+					}
+					location = {
+						trade_goods = wool 
+					}
+					state_scope = { 
+						trade_goods = wool 
+					}
+					}
+				}
+			}
+		}
+		value = 5
+	}
+}
+
+food_fish = {
+	template = light_industry_template
+	input_goods = {
+		fish = 7		#44+0.86=44.86
+	}
+	output_goods = food
+	value = 5			#50
+	bonus = {
+		trigger = {
+			OR = {
+				trade_goods_in_state = fish
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = fish 
+					}
+					state_scope = { 
+						produces = fish 
+					}
+					location = {
+						trade_goods = fish 
+					}
+					state_scope = { 
+						trade_goods = fish 
+					}
+					}
+				}
+			}
+		}
+		value = 5
+	}
+}
+
+food_cattle = {
+	template = light_industry_template
+	input_goods = {
+		cattle = 7		#44+0.86=44.86
+	}
+	output_goods = food
+	value = 5			#50
+	bonus = {
+		trigger = {
+			OR = {
+				trade_goods_in_state = cattle
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = cattle 
+					}
+					state_scope = { 
+						produces = cattle 
+					}
+					location = {
+						trade_goods = cattle 
+					}
+					state_scope = { 
+						trade_goods = cattle 
+					}
+					}
+				}
+			}
+		}
+		value = 5
+	}
+}
+
+fabric_wool = {
+	template = factory_template
+	input_goods = {
+		wool = 10	        #40+24=64
+		dye = 1
+	}
+	output_goods = fabric
+	value = 24			#72
+	bonus = {
+		trigger = {
+			OR = {
+				trade_goods_in_state = wool
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = wool
+					}
+					state_scope = { 
+						produces = wool
+					}
+					location = {
+						trade_goods = wool
+					}
+					state_scope = { 
+						trade_goods = wool
+					}
+					}
+				}
+			}
+		}
+		value = 0.3
+	}  
+}
+tobacco_product = {
+	template = factory_template
+	input_goods = {
+		tobacco = 8		#38.5
+		paper = 2
+	}
+	output_goods = tobacco_products
+	value = 4			#46.2
+	bonus = {
+		trigger = {
+			OR = {
+				trade_goods_in_state = tobacco
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = tobacco
+					}
+					state_scope = { 
+						produces = tobacco
+					}
+					location = {
+						trade_goods = tobacco
+					}
+					state_scope = { 
+						trade_goods = tobacco
+					}
+					}
+				}
+			}
+		}
+		value = 0.3
+	}  
+}
+
+polygraphy_factory = {
+	template = factory_template
+	input_goods = {
+		paper = 7
+		dye = 0.005
+	}
+	output_goods = printing_products
+	value = 3.7			
+	bonus = {
+		trigger = {
+		OR = {
+				has_building = paper_mill
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = paper 
+					}
+					state_scope = { 
+						produces = paper
+					}
+					location = {
+						has_building = paper_mill 
+					}
+					state_scope = { 
+						has_building = paper_mill
+					}
+					location = {
+						trade_goods = paper
+					}
+					state_scope = { 
+						trade_goods = paper
+					}
+					}
+				}
+			}
+		}
+		value = 0.3
+	}
+}
+
+crate = {
+	template = crate_template
+	input_goods = {
+		lumber = 12		#25.5+1.8=27.3
+		refined_iron = 2
+	}
+	output_goods = crates
+	value = 6			#35.7
+	bonus = {
+		trigger = {
+		OR = {
+				has_building = lumber_mill
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = lumber 
+					}
+					state_scope = { 
+						produces = lumber
+					}
+					location = {
+						has_building = lumber_mill 
+					}
+					state_scope = { 
+						has_building = lumber_mill
+					}
+					location = {
+						trade_goods = lumber
+					}
+					state_scope = { 
+						trade_goods = lumber
+					}
+					}
+				}
+			}
+		}
+		value = 0.2
+	}
+}
+
+luxury_jewelry_factory = {
+	template = factory_template
+	input_goods = {
+		precious_metal = 4		#25.5+1.8=27.3
+	}
+	output_goods = luxury_jewelry
+	value = 2			#35.7
+	bonus = {
+		trigger = {
+		OR = {
+				has_building = precious_metal_mine
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = precious_metal 
+					}
+					state_scope = { 
+						produces = precious_metal
+					}
+					location = {
+						has_building = precious_metal_mine 
+					}
+					state_scope = { 
+						has_building = lumber_mill
+					}
+					location = {
+						trade_goods = precious_metal
+					}
+					state_scope = { 
+						trade_goods = precious_metal
+					}
+					}
+				}
+			}
+		}
+		value = 0.15
+	}
+}
+
+electric_gear_factory = {
+	template = advanced_industry_template
+	input_goods = { 
+		rubber = 1.5 #14
+		coke_coal = 0.5 #6.5
+		refined_iron = 4.5 #10
+		steel = 1
+
+	}
+	output_goods = electric_gear 
+	value = 4 #54
+	bonus = {
+		trigger = { 
+			OR = {
+				trade_goods_in_state = rubber 
+				has_building = oil_rubber_factory
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = rubber 
+					}
+					state_scope = { 
+						produces = rubber 
+					}
+					location = {
+						has_building = oil_rubber_factory 
+					}
+					state_scope = { 
+						has_building = oil_rubber_factory 
+					}
+					location = {
+						trade_goods = rubber 
+					}
+					state_scope = { 
+						trade_goods = rubber 
+					}
+					}
+				}
+			}
+		}
+		value = 0.1
+	}
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = coke_coal_factory
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = coke_coal 
+					}
+					state_scope = { 
+						produces = coke_coal 
+					}
+					location = {
+						has_building = coke_coal_factory 
+					}
+					state_scope = { 
+						has_building = coke_coal_factory 
+					}
+					location = {
+						trade_goods = coke_coal 
+					}
+					state_scope = { 
+						trade_goods = coke_coal 
+					}
+					}
+				}
+			}
+		}
+		value = 0.05
+	}
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = iron_iron_factory 
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = refined_iron 
+					}
+					state_scope = { 
+						produces = refined_iron 
+					}
+					location = {
+						has_building = iron_iron_factory 
+					}
+					state_scope = { 
+						has_building = iron_iron_factory 
+					}
+					location = {
+						trade_goods = refined_iron 
+					}
+					state_scope = { 
+						trade_goods = refined_iron 
+					}
+					}
+				}
+			}
+		}
+		value = 0.15
+	}
+    
+# expenses : 30.5
+# maintenance: 19.85
+# total input: 50.35
+# output: 54
+}
+
+machine_parts_factory = {      
+	template = heavy_industry_template
+	input_goods = {    
+		steel = 8 #31.25		
+		coke_coal = 4.25 #9.75
+	}
+	output_goods = machine_parts 
+	value = 2.2
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = steel_factory 
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = steel 
+					}
+					state_scope = { 
+						produces = steel 
+					}
+					location = {
+						has_building = steel_factory 
+					}
+					state_scope = { 
+						has_building = steel_factory 
+					}
+					location = {
+						trade_goods = steel 
+					}
+					state_scope = { 
+						trade_goods = steel 
+					}
+					}
+				}
+			}
+		}
+		value = 0.3
+	}
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = coke_coal_factory
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = coke_coal 
+					}
+					state_scope = { 
+						produces = coke_coal 
+					}
+					location = {
+						has_building = coke_coal_factory 
+					}
+					state_scope = { 
+						has_building = coke_coal_factory 
+					}
+					location = {
+						trade_goods = coke_coal 
+					}
+					state_scope = { 
+						trade_goods = coke_coal 
+					}
+					}
+				}
+			}
+		}
+		value = 0.3
+	}
+    
+# expenses : 41
+# maintenance: 19.85
+# total input: 60.85
+# output: 64
+}
+
+synthetic_oil_factory = {   
+	template = heavy_industry_template
+	input_goods = { 
+		coke_coal = 5 #15.6
+	}
+	output_goods = oil 
+	value = 1.55 #18
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = coke_coal_factory
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = coke_coal 
+					}
+					state_scope = { 
+						produces = coke_coal 
+					}
+					location = {
+						has_building = coke_coal_factory 
+					}
+					state_scope = { 
+						has_building = coke_coal_factory 
+					}
+					location = {
+						trade_goods = coke_coal 
+					}
+					state_scope = { 
+						trade_goods = coke_coal 
+					}
+					}
+				}
+			}
+		}
+		value = 0.25
+	}
+    
+# expenses : 15.6
+# maintenance: 19.85
+# total input: 35.45
+# output: 18
+}
+
+############# ADVANCED FACTORIES
+
+fuel_refinery = {
+	template = heavy_industry_template
+	input_goods = { 
+		oil = 0.8 #10.8		
+	}
+	output_goods = fuel
+	value = 1.4 #34	
+	bonus = {
+		trigger = { 
+			OR = {
+				trade_goods_in_state = oil 
+				has_building = synthetic_oil_factory
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = oil 
+					}
+					state_scope = { 
+						produces = oil 
+					}
+					location = {
+						has_building = synthetic_oil_factory 
+					}
+					state_scope = { 
+						has_building = synthetic_oil_factory 
+					}
+					location = {
+						trade_goods = oil 
+					}
+					state_scope = { 
+						trade_goods = oil 
+					}
+					}
+				}
+			}
+		}
+		value = 0.25
+	}
+    
+# expenses : 10.8
+# maintenance: 19.85
+# total input: 30.65
+# output: 34
+}
+
+steamer_shipyard = {     
+	template = heavy_industry_template
+	input_goods = { 
+		steel = 4 #27.5
+		machine_parts = 0.8
+	}
+	output_goods = steamer_convoy 
+	is_coastal = yes
+	value = 0.9 #70
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = steel_factory 
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = steel 
+					}
+					state_scope = { 
+						produces = steel 
+					}
+					location = {
+						has_building = steel_factory 
+					}
+					state_scope = { 
+						has_building = steel_factory 
+					}
+					location = {
+						trade_goods = steel 
+					}
+					state_scope = { 
+						trade_goods = steel 
+					}
+					}
+				}
+			}
+		}
+		value = 0.2
+	}
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = machine_parts_factory
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = machine_parts 
+					}
+					state_scope = { 
+						produces = machine_parts 
+					}
+					location = {
+						has_building = machine_parts_factory 
+					}
+					state_scope = { 
+						has_building = machine_parts_factory 
+					}
+					location = {
+						trade_goods = machine_parts 
+					}
+					state_scope = { 
+						trade_goods = machine_parts 
+					}
+					}
+				}
+			}
+		}
+		value = 0.6
+	}
+    
+# expenses : 47
+# maintenance: 19.85
+# total input: 66.85
+# output: 70
+}
+
+############# LUXURY GOODS FACTORIES
+
+luxury_clothes_factory = {  
+	template = light_industry_template
+	input_goods = {   
+		regular_clothes = 0.5 #2.088
+		silk = 1.1 #15.6	
+		fabric = 0.4
+	}
+	output_goods = luxury_clothes 
+	value = 0.6 #36			
+	bonus = {
+		trigger = { has_building = regular_clothes_factory }
+		value = 0.3
+	}
+	bonus = {
+		trigger = { 
+			OR = {
+				has_building = oil_silk_factory 
+				trade_goods_in_state = silk 
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = silk 
+					}
+					state_scope = { 
+						produces = silk 
+					}
+					location = {
+						has_building = oil_silk_factory 
+					}
+					state_scope = { 
+						has_building = oil_silk_factory 
+					}
+					location = {
+						trade_goods = silk 
+					}
+					state_scope = { 
+						trade_goods = silk 
+					}
+					}
+				}
+			}
+		}
+		value = 0.2
+	}
+    
+# expenses : 17.688
+# maintenance: 14.825
+# total input: 32.513
+# output: 36
+}
+
+luxury_furniture_factory = {  
+	template = light_industry_template
+	input_goods = { 
+		furniture = 1	#3.92
+		tropical_wood = 1 #16.2
+	}
+	output_goods = luxury_furniture 
+	value = 0.7 #38
+	bonus = {
+		trigger = {
+		OR = {
+				has_building = furniture_factory 
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = furniture 
+					}
+					state_scope = { 
+						produces = furniture 
+					}
+					location = {
+						has_building = furniture_factory 
+					}
+					state_scope = { 
+						has_building = furniture_factory 
+					}
+					location = {
+						trade_goods = furniture 
+					}
+					state_scope = { 
+						trade_goods = furniture 
+					}
+					}
+				}
+			}
+		}
+		value = 0.3
+	}
+	bonus = {
+		trigger = {
+		OR = {
+				trade_goods_in_state = tropical_wood 
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = tropical_wood 
+					}
+					state_scope = { 
+						produces = tropical_wood 
+					}
+					location = {
+						trade_goods = tropical_wood 
+					}
+					state_scope = { 
+						trade_goods = tropical_wood 
+					}
+					}
+				}
+			}
+		}
+		value = 0.4
+	}
+    
+# expenses : 20.12
+# maintenance: 14.825
+# total input: 34.945
+# output: 38
+}
+
+############# MEDIUM FACTORIES
+
+steel_factory = {
+	template = heavy_industry_template
+	input_goods = { 
+		refined_iron = 4 #20
+		coke_coal = 1.25 #3.25
+	}
+
+	output_goods = steel
+	value = 8 #45
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = iron_iron_factory
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = refined_iron 
+					}
+					state_scope = { 
+						produces = refined_iron 
+					}
+					location = {
+						has_building = iron_iron_factory 
+					}
+					state_scope = { 
+						has_building = iron_iron_factory 
+					}
+					location = {
+						trade_goods = refined_iron 
+					}
+					state_scope = { 
+						trade_goods = refined_iron 
+					}
+					}
+				}
+			}
+		}
+		value = 0.13
+	}
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = coke_coal_factory
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = coke_coal 
+					}
+					state_scope = { 
+						produces = coke_coal 
+					}
+					location = {
+						has_building = coke_coal_factory 
+					}
+					state_scope = { 
+						has_building = coke_coal_factory 
+					}
+					location = {
+						trade_goods = coke_coal 
+					}
+					state_scope = { 
+						trade_goods = coke_coal 
+					}
+					}
+				}
+			}
+		}
+		value = 0.13
+	}
+    
+# expenses : 23.25
+# maintenance: 19.85
+# total input: 43.1
+# output: 45
+}
+
+artillery_factory = {  
+	template = heavy_industry_template
+	input_goods = { 
+		explosives = 0.3 #10
+		steel = 5 #20
+	}
+	output_goods = artillery 
+	value = 0.7 #55
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = steel_factory 
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = steel 
+					}
+					state_scope = { 
+						produces = steel 
+					}
+					location = {
+						has_building = steel_factory 
+					}
+					state_scope = { 
+						has_building = steel_factory 
+					}
+					location = {
+						trade_goods = steel 
+					}
+					state_scope = { 
+						trade_goods = steel 
+					}
+					}
+				}
+			}
+		}
+		value = 0.2
+	}
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = explosives_factory
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = explosives 
+					}
+					state_scope = { 
+						produces = explosives 
+					}
+					location = {
+						has_building = explosives_factory 
+					}
+					state_scope = { 
+						has_building = explosives_factory 
+					}
+					location = {
+						trade_goods = explosives 
+					}
+					state_scope = { 
+						trade_goods = explosives 
+					}
+					}
+				}
+			}
+		}
+		value = 0.3
+	}
+    
+# expenses : 30
+# maintenance: 19.85
+# total input: 49.85
+# output: 55
+}
+
+clipper_shipyard = {   
+	template = light_industry_template
+	input_goods = {     
+		fabric = 25 #45
+		timber = 25 #22.5
+		steel = 4 #18.75
+		machine_parts = 0.005
+	}
+	output_goods = clipper_convoy 
+	is_coastal = yes
+	value = 2.4 #105
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = fabric_factory 
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = fabric 
+					}
+					state_scope = { 
+						produces = fabric 
+					}
+					location = {
+						has_building = fabric_factory 
+					}
+					state_scope = { 
+						has_building = fabric_factory 
+					}
+					location = {
+						trade_goods = fabric 
+					}
+					state_scope = { 
+						trade_goods = fabric 
+					}
+					}
+				}
+			}
+		}
+		value = 0.3
+	}
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = steel_factory 
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = steel 
+					}
+					state_scope = { 
+						produces = steel 
+					}
+					location = {
+						has_building = steel_factory 
+					}
+					state_scope = { 
+						has_building = steel_factory 
+					}
+					location = {
+						trade_goods = steel 
+					}
+					state_scope = { 
+						trade_goods = steel 
+					}
+					}
+				}
+			}
+		}
+		value = 0.05
+	}
+	bonus = {
+		trigger = {
+			OR = {
+				trade_goods_in_state = timber
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = timber 
+					}
+					state_scope = { 
+						produces = timber 
+					}
+					location = {
+						trade_goods = timber 
+					}
+					state_scope = { 
+						trade_goods = timber 
+					}
+					}
+				}
+			}
+		}
+		value = 0.3
+	}
+    
+# expenses : 86.25
+# maintenance: 14.825
+# total input: 101.075
+# output: 105
+}
+
+small_arms_factory = {
+	template = heavy_industry_template
+	input_goods = {        
+		ammunition = 0.20 #4.375
+		steel = 0.75 #2.5
+		timber = 0.05
+	}
+	output_goods = small_arms 
+	value = 0.9 #33.3
+
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = steel_factory 
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = steel 
+					}
+					state_scope = { 
+						produces = steel 
+					}
+					location = {
+						has_building = steel_factory 
+					}
+					state_scope = { 
+						has_building = steel_factory 
+					}
+					location = {
+						trade_goods = steel 
+					}
+					state_scope = { 
+						trade_goods = steel 
+					}
+					}
+				}
+			}
+		}
+		value = 0.25
+	}
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = ammunition_factory 
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = ammunition 
+					}
+					state_scope = { 
+						produces = ammunition 
+					}
+					location = {
+						has_building = ammunition_factory 
+					}
+					state_scope = { 
+						has_building = ammunition_factory 
+					}
+					location = {
+						trade_goods = ammunition 
+					}
+					state_scope = { 
+						trade_goods = ammunition 
+					}
+					}
+				}
+			}
+		}
+		value = 0.1
+	}
+    
+# expenses : 6.875
+# maintenance: 19.85
+# total input: 26.725
+# output: 33.3
+}
+
+############# COMMON FACTORIES
+
+furniture_factory = {   
+	template = light_industry_template
+	input_goods = { 
+		lumber = 12	#14.25
+	}
+	output_goods = furniture 
+	value = 6 # 34.3
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = lumber_mill 
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = lumber 
+					}
+					state_scope = { 
+						produces = lumber 
+					}
+					location = {
+						has_building = lumber_mill 
+					}
+					state_scope = { 
+						has_building = lumber_mill 
+					}
+					location = {
+						trade_goods = lumber 
+					}
+					state_scope = { 
+						trade_goods = lumber 
+					}
+					}
+				}
+			}
+		}
+		value = 0.2
+	}
+	bonus = {
+		trigger = {
+			OR = {
+				trade_goods_in_state = timber
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = timber 
+					}
+					state_scope = { 
+						produces = timber 
+					}
+					location = {
+						trade_goods = timber 
+					}
+					state_scope = { 
+						trade_goods = timber 
+					}
+					}
+				}
+			}
+		}
+		value = 0.2
+	}
+# expenses : 14.25
+# maintenance: 14.825
+# total input: 29.075
+# output: 34.3
+}
+
+paper_mill = {
+	template = light_industry_template
+	input_goods = { 
+		lumber = 7.2 #10.12
+	}
+	output_goods = paper 
+	value = 9.6 #29.7
+	bonus = {
+		trigger = {
+			OR = {
+				trade_goods_in_state = timber
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = timber 
+					}
+					state_scope = { 
+						produces = timber 
+					}
+					location = {
+						trade_goods = timber 
+					}
+					state_scope = { 
+						trade_goods = timber 
+					}
+					}
+				}
+			}
+		}
+		value = 0.25
+	}
+    
+# expenses : 10.12
+# maintenance: 14.825
+# total input: 24.945
+# output: 29.7
+}
+
+regular_clothes_factory = {     
+	template = light_industry_template
+	input_goods = {  
+		fabric = 20 #27		
+	}
+	output_goods = regular_clothes 
+	value = 8 #46	
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = fabric_factory 
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = fabric 
+					}
+					state_scope = { 
+						produces = fabric 
+					}
+					location = {
+						has_building = fabric_factory 
+					}
+					state_scope = { 
+						has_building = fabric_factory 
+					}
+					location = {
+						trade_goods = fabric 
+					}
+					state_scope = { 
+						trade_goods = fabric 
+					}
+					}
+				}
+			}
+		}
+		value = 0.25
+	}
+    
+# expenses : 27
+# maintenance: 14.825
+# total input: 41.825
+# output: 46
+}
+       
+explosives_factory = {
+	template = heavy_industry_template
+	input_goods = {   
+		fertilizer = 0.5 #7.5	
+		ammunition = 0.4 #2.625
+	}
+	output_goods = explosives 
+	value = 2 #38
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = fertilizer_factory 
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = fertilizer 
+					}
+					state_scope = { 
+						produces = fertilizer 
+					}
+					location = {
+						has_building = fertilizer_factory 
+					}
+					state_scope = { 
+						has_building = fertilizer_factory 
+					}
+					location = {
+						trade_goods = fertilizer 
+					}
+					state_scope = { 
+						trade_goods = fertilizer 
+					}
+					}
+				}
+			}
+		}
+		value = 0.15
+	}
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = ammunition_factory 
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = ammunition 
+					}
+					state_scope = { 
+						produces = ammunition 
+					}
+					location = {
+						has_building = ammunition_factory 
+					}
+					state_scope = { 
+						has_building = ammunition_factory 
+					}
+					location = {
+						trade_goods = ammunition 
+					}
+					state_scope = { 
+						trade_goods = ammunition 
+					}
+					}
+				}
+			}
+		}
+		value = 0.1
+	}
+    
+# expenses : 10.125
+# maintenance: 19.85
+# total input: 29.975
+# output: 38
+}
+
+############# CHEAP FACTORIES
+
+ammunition_factory = {
+	template = heavy_industry_template
+	input_goods = {      
+		sulphur = 1.35 #9	
+		steel = 3 #10.5
+	}
+	output_goods = ammunition 
+	value = 2.6 #42	
+	bonus = {
+		trigger = {
+			OR = {
+				trade_goods_in_state = sulphur
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = sulphur 
+					}
+					state_scope = { 
+						produces = sulphur 
+					}
+					location = {
+						trade_goods = sulphur 
+					}
+					state_scope = { 
+						trade_goods = sulphur 
+					}
+					}
+				}
+			}
+		}
+		value = 0.1
+	}
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = steel_factory 
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = steel 
+					}
+					state_scope = { 
+						produces = steel 
+					}
+					location = {
+						has_building = steel_factory 
+					}
+					state_scope = { 
+						has_building = steel_factory 
+					}
+					location = {
+						trade_goods = steel 
+					}
+					state_scope = { 
+						trade_goods = steel 
+					}
+					}
+				}
+			}
+		}
+		value = 0.15
+	}
+    
+# expenses : 19.5
+# maintenance: 19.85
+# total input: 39.35
+# output: 42
+}
+
+canned_food_factory = { 
+	template = light_industry_template
+	input_goods = { 
+		refined_iron = 0.1 #0.48
+		grain = 4 #11
+	}
+	output_goods = canned_food 
+	value = 4.5 #38
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = iron_iron_factory
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = refined_iron 
+					}
+					state_scope = { 
+						produces = refined_iron 
+					}
+					location = {
+						has_building = iron_iron_factory 
+					}
+					state_scope = { 
+						has_building = iron_iron_factory 
+					}
+					location = {
+						trade_goods = refined_iron 
+					}
+					state_scope = { 
+						trade_goods = refined_iron 
+					}
+					}
+				}
+			}
+		}
+		value = 0.1
+	}
+	bonus = {
+		trigger = {
+			OR = {
+				trade_goods_in_state = grain
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = grain 
+					}
+					state_scope = { 
+						produces = grain 
+					}
+					location = {
+						trade_goods = grain 
+					}
+					state_scope = { 
+						trade_goods = grain 
+					}
+					}
+				}
+			}
+		}
+		value = 0.15
+	}
+ 
+    
+# expenses : 11.48
+# maintenance: 14.825
+# total input: 26.305
+# output: 40
+}
+canned_food_factory_cattle = {
+	template = light_industry_template
+	input_goods = { 
+		refined_iron = 0.1 #0.48
+		cattle = 4 #11.24
+	}
+	output_goods = canned_food 
+	value = 4 #38
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = iron_iron_factory
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = refined_iron 
+					}
+					state_scope = { 
+						produces = refined_iron 
+					}
+					location = {
+						has_building = iron_iron_factory 
+					}
+					state_scope = { 
+						has_building = iron_iron_factory 
+					}
+					location = {
+						trade_goods = refined_iron 
+					}
+					state_scope = { 
+						trade_goods = refined_iron 
+					}
+					}
+				}
+			}
+		}
+		value = 0.1
+	}
+	bonus = {
+		trigger = {
+			OR = {
+				trade_goods_in_state = cattle
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = cattle
+					}
+					state_scope = { 
+						produces = cattle
+					}
+					location = {
+						trade_goods = cattle 
+					}
+					state_scope = { 
+						trade_goods = cattle 
+					}
+					}
+				}
+			}
+		}
+		value = 0.15
+	}
+ 
+    
+# expenses : 11.72
+# maintenance: 14.825
+# total input: 26.545
+# output: 40
+}
+canned_food_factory_fish = {   
+	template = light_industry_template
+	input_goods = { 
+		refined_iron = 0.1 #0.48
+		fish = 4.5 #11.25
+	}
+	output_goods = canned_food 
+	value = 4.5 #38
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = iron_iron_factory
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = refined_iron 
+					}
+					state_scope = { 
+						produces = refined_iron 
+					}
+					location = {
+						has_building = iron_iron_factory 
+					}
+					state_scope = { 
+						has_building = iron_iron_factory 
+					}
+					location = {
+						trade_goods = refined_iron 
+					}
+					state_scope = { 
+						trade_goods = refined_iron 
+					}
+					}
+				}
+			}
+		}
+		value = 0.1
+	}
+	bonus = {
+		trigger = {
+			OR = {
+				trade_goods_in_state = fish
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = fish
+					}
+					state_scope = { 
+						produces = fish
+					}
+					location = {
+						trade_goods = fish
+					}
+					state_scope = { 
+						trade_goods = fish
+					}
+					}
+				}
+			}
+		}
+		value = 0.15
+	}    
+
+    
+# expenses : 11.73
+# maintenance: 14.825
+# total input: 26.555
+# output: 40
+}
+canned_food_factory_fruit = {   
+	template = light_industry_template
+	input_goods = { 
+		refined_iron = 0.1 #0.48
+		fruit = 4.25 #11.25
+	}
+	output_goods = canned_food 
+	value = 4 #38
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = iron_iron_factory
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = refined_iron 
+					}
+					state_scope = { 
+						produces = refined_iron 
+					}
+					location = {
+						has_building = iron_iron_factory 
+					}
+					state_scope = { 
+						has_building = iron_iron_factory 
+					}
+					location = {
+						trade_goods = refined_iron 
+					}
+					state_scope = { 
+						trade_goods = refined_iron 
+					}
+					}
+				}
+			}
+		}
+		value = 0.1
+	}
+	bonus = {
+		trigger = {
+			OR = {
+				trade_goods_in_state = fruit
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = fruit
+					}
+					state_scope = { 
+						produces = fruit
+					}
+					location = {
+						trade_goods = fruit
+					}
+					state_scope = { 
+						trade_goods = fruit
+					}
+					}
+				}
+			}
+		}
+		value = 0.15
+	}  
+    
+# expenses : 11.73
+# maintenance: 14.825
+# total input: 26.555
+# output: 40
+}
+canned_food_factory_wool = {   
+	template = light_industry_template
+	input_goods = { 
+		refined_iron = 0.1 #0.48
+		wool = 5 #11.235
+	}
+	output_goods = canned_food 
+	value = 4 #38
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = iron_iron_factory
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = refined_iron 
+					}
+					state_scope = { 
+						produces = refined_iron 
+					}
+					location = {
+						has_building = iron_iron_factory 
+					}
+					state_scope = { 
+						has_building = iron_iron_factory 
+					}
+					location = {
+						trade_goods = refined_iron 
+					}
+					state_scope = { 
+						trade_goods = refined_iron 
+					}
+					}
+				}
+			}
+		}
+		value = 0.1
+	}
+	bonus = {
+		trigger = {
+			OR = {
+				trade_goods_in_state = wool
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = wool
+					}
+					state_scope = { 
+						produces = wool
+					}
+					location = {
+						trade_goods = wool
+					}
+					state_scope = { 
+						trade_goods = wool
+					}
+					}
+				}
+			}
+		}
+		value = 0.15
+	}  
+    
+# expenses : 11.715
+# maintenance: 14.825
+# total input: 26.54
+# output: 40
+}
+       
+dye_factory = {
+	template = light_industry_template
+	input_goods = {     
+		coke_coal = 8 #13
+	}
+	output_goods = dye 
+	value = 3 #30
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = coke_coal_factory
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = coke_coal 
+					}
+					state_scope = { 
+						produces = coke_coal 
+					}
+					location = {
+						has_building = coke_coal_factory 
+					}
+					state_scope = { 
+						has_building = coke_coal_factory 
+					}
+					location = {
+						trade_goods = coke_coal 
+					}
+					state_scope = { 
+						trade_goods = coke_coal 
+					}
+					}
+				}
+			}
+		}
+		value = 0.15
+	}
+    
+# expenses : 13
+# maintenance: 14.825
+# total input: 27.825
+# output: 30
+}
+     
+
+liquor_distillery = {    
+	template = light_industry_template
+	input_goods = {        
+		grain = 6 #11
+		glass = 5 #11.6 
+	}
+	output_goods = liquor 
+	value = 6.3 #40.5
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = glass_factory
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = glass 
+					}
+					state_scope = { 
+						produces = glass 
+					}
+					location = {
+						has_building = glass_factory 
+					}
+					state_scope = { 
+						has_building = glass_factory 
+					}
+					location = {
+						trade_goods = glass 
+					}
+					state_scope = { 
+						trade_goods = glass 
+					}
+					}
+				}
+			}
+		}
+		value = 0.15
+	}
+	bonus = {
+		trigger = {
+			OR = {
+				trade_goods_in_state = grain
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = grain 
+					}
+					state_scope = { 
+						produces = grain 
+					}
+					location = {
+						trade_goods = grain 
+					}
+					state_scope = { 
+						trade_goods = grain 
+					}
+					}
+				}
+			}
+		}
+		value = 0.1
+	}
+    
+# expenses : 22.6
+# maintenance: 14.825
+# total input: 37.425
+# output: 40.5
+}
+
+winery = {
+	template = light_industry_template
+	input_goods = {  	
+		fruit = 7 #9
+		glass = 6 #14.5
+	}
+	output_goods = wine 
+	value = 5 #42
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = glass_factory
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = glass 
+					}
+					state_scope = { 
+						produces = glass 
+					}
+					location = {
+						has_building = glass_factory 
+					}
+					state_scope = { 
+						has_building = glass_factory 
+					}
+					location = {
+						trade_goods = glass 
+					}
+					state_scope = { 
+						trade_goods = glass 
+					}
+					}
+				}
+			}
+		}
+		value = 0.15
+	}
+	bonus = {
+		trigger = {
+			OR = {
+				trade_goods_in_state = fruit
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = fruit 
+					}
+					state_scope = { 
+						produces = fruit 
+					}
+					location = {
+						trade_goods = fruit 
+					}
+					state_scope = { 
+						trade_goods = fruit 
+					}
+					}
+				}
+			}
+		}
+		value = 0.1
+	}
+    
+# expenses : 23.5
+# maintenance: 14.825
+# total input: 38.325
+# output: 42
+}
+
+############# BASIC FACTORIES 
+
+lumber_mill = {
+	template = light_industry_template
+	input_goods = {       
+		timber = 30 #33.75
+	}
+	output_goods = lumber 
+	
+	value = 46 #50
+	bonus = {
+		trigger = {
+			OR = {
+				trade_goods_in_state = timber
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = timber 
+					}
+					state_scope = { 
+						produces = timber 
+					}
+					location = {
+						trade_goods = timber 
+					}
+					state_scope = { 
+						trade_goods = timber 
+					}
+					}
+				}
+			}
+		}
+		value = 0.25
+	}
+    
+# expenses : 33.75
+# maintenance: 14.825
+# total input: 48.575
+# output: 50
+}
+
+lumber_mill_tropical_wood = {
+	template = light_industry_template
+	input_goods = {       
+		tropical_wood = 8 #33.75
+	}
+	output_goods = lumber 
+	
+	value = 15 #50
+	bonus = {
+		trigger = {
+			OR = {
+				trade_goods_in_state = tropical_wood
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = tropical_wood 
+					}
+					state_scope = { 
+						produces = tropical_wood 
+					}
+					location = {
+						trade_goods = tropical_wood 
+					}
+					state_scope = { 
+						trade_goods = tropical_wood 
+					}
+					}
+				}
+			}
+		}
+		value = 0.25
+	}
+    
+# expenses : 33.75
+# maintenance: 14.825
+# total input: 48.575
+# output: 50
+}
+
+fabric_factory = {    
+	template = light_industry_template
+	input_goods = {     
+		cotton = 10 #18
+		dye = 1 #12
+	}
+	output_goods = fabric 
+	value = 27 #47
+	bonus = {
+		trigger = {
+			OR = {
+				trade_goods_in_state = cotton
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = cotton 
+					}
+					state_scope = { 
+						produces = cotton 
+					}
+					location = {
+						trade_goods = cotton 
+					}
+					state_scope = { 
+						trade_goods = cotton 
+					}
+					}
+				}
+			}
+		}
+		value = 0.15
+	}
+	bonus = {
+		trigger = {
+			OR = {
+				trade_goods_in_state = dye 
+				has_building = dye_factory
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = dye 
+					}
+					state_scope = { 
+						produces = dye 
+					}
+					location = {
+						has_building = dye_factory 
+					}
+					state_scope = { 
+						has_building = dye_factory 
+					}
+					location = {
+						trade_goods = dye 
+					}
+					state_scope = { 
+						trade_goods = dye 
+					}
+					}
+				}
+			}
+		}
+		value = 0.15
+	}
+    
+# expenses : 30
+# maintenance: 14.825
+# total input: 44.825
+# output: 47
+}
+
+syntetic_fabric_factory = {    
+	template = heavy_industry_template
+	input_goods = {     
+		oil = 0.8 #19.2		
+		dye = 1	#12		
+	}
+	output_goods = fabric 
+	value = 30 #51
+	bonus = {
+		trigger = {
+			OR = {
+				trade_goods_in_state = oil
+				has_building = synthetic_oil_factory
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = oil 
+					}
+					state_scope = { 
+						produces = oil 
+					}
+					location = {
+						has_building = synthetic_oil_factory 
+					}
+					state_scope = { 
+						has_building = synthetic_oil_factory 
+					}
+					location = {
+						trade_goods = oil 
+					}
+					state_scope = { 
+						trade_goods = oil 
+					}
+					}
+				}
+			}
+		}
+		value = 0.125
+	}
+	bonus = {
+		trigger = {
+			OR = {
+				trade_goods_in_state = dye 
+				has_building = dye_factory
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = dye 
+					}
+					state_scope = { 
+						produces = dye 
+					}
+					location = {
+						has_building = dye_factory 
+					}
+					state_scope = { 
+						has_building = dye_factory 
+					}
+					location = {
+						trade_goods = dye 
+					}
+					state_scope = { 
+						trade_goods = dye 
+					}
+					}
+				}
+			}
+		}
+		value = 0.125
+	}
+    
+# expenses : 31.2
+# maintenance: 19.85
+# total input: 51.05
+# output: 51
+}
+
+cement_factory = {   
+	template = cement_template
+	input_goods = {           
+		coke_coal = 30 #62.4
+	} 
+	output_goods = cement 
+	value = 4.4 #75
+	bonus = {
+		trigger = { 
+			OR = {
+				has_building = coke_coal_factory
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = coke_coal 
+					}
+					state_scope = { 
+						produces = coke_coal 
+					}
+					location = {
+						has_building = coke_coal_factory
+					}
+					state_scope = { 
+						has_building = coke_coal_factory
+					}
+					location = {
+						trade_goods = coke_coal 
+					}
+					state_scope = { 
+						trade_goods = coke_coal 
+					}
+					}
+				}
+			}
+		}
+		value = 0.2
+	}
+    
+# expenses : 62.4
+# maintenance: 8.825  
+# total input: 71.225 
+# output: 75
+}
+
+glass_factory = {
+	template = light_industry_template
+	input_goods = {            
+		coke_coal = 7 #21.84
+	}
+	output_goods = glass 
+	value = 11 #38
+	bonus = {
+		trigger = { 
+			OR = {
+				has_building = coke_coal_factory
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = coke_coal 
+					}
+					state_scope = { 
+						produces = coke_coal 
+					}
+					location = {
+						has_building = coke_coal_factory
+					}
+					state_scope = { 
+						has_building = coke_coal_factory
+					}
+					location = {
+						trade_goods = coke_coal 
+					}
+					state_scope = { 
+						trade_goods = coke_coal 
+					}
+					}
+				}
+			}
+		}
+		value = 0.25
+	}
+    
+# expenses : 21.84
+# maintenance: 14.825  
+# total input: 36.665 
+# output: 38
+}
+
+fertilizer_factory = {    
+	template = light_industry_template
+	input_goods = {   
+		sulphur = 3.5 #27	
+	}
+	output_goods = fertilizer 
+	value = 5 #44	
+	bonus = {
+		trigger = { 
+			OR = {
+				trade_goods_in_state = sulphur
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = sulphur 
+					}
+					state_scope = { 
+						produces = sulphur 
+					}
+					location = {
+						trade_goods = sulphur 
+					}
+					state_scope = { 
+						trade_goods = sulphur 
+					}
+					}
+				}
+			}
+		}
+		value = 0.25
+	}
+    
+# expenses : 27
+# maintenance: 14.825  
+# total input: 41.825 
+# output: 44
+}
+
+iron_iron_factory = {    
+	template = heavy_industry_template
+	input_goods = {   
+		iron = 5 #17.5
+	}
+	output_goods = refined_iron 
+	value = 9.25 #37
+	bonus = {
+		trigger = {
+			OR = {
+				trade_goods_in_state = iron
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = iron 
+					}
+					state_scope = { 
+						produces = iron 
+					}
+					location = {
+						trade_goods = iron 
+					}
+					state_scope = { 
+						trade_goods = iron 
+					}
+					}
+				}
+			}
+		}
+		value = 0.1
+	}
+    
+# expenses : 17.5
+# maintenance: 19.85  
+# total input: 37.35 
+# output: 37
+}
+
+coke_coal_factory = { 
+	template = heavy_industry_template
+	input_goods = {   
+		coal = 7.5 #17.25
+	}
+	output_goods = coke_coal 
+	value = 14.2 #37
+	bonus = {
+		trigger = {
+			OR = {
+				trade_goods_in_state = coal
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = coal 
+					}
+					state_scope = { 
+						produces = coal 
+					}
+					location = {
+						trade_goods = coal 
+					}
+					state_scope = { 
+						trade_goods = coal 
+					}
+					}
+				}
+			}
+		}
+		value = 0.1
+	}
+    
+# expenses : 17.25
+# maintenance: 19.85  
+# total input: 37.1 
+# output: 37
+}
+
+oil_rubber_factory = {     
+	template = heavy_industry_template
+	input_goods = {   
+		oil = 1 #12
+	}
+	output_goods = rubber 
+	value = 4 #28
+	bonus = {
+		trigger = {
+			OR = {
+				trade_goods_in_state = oil 
+				has_building = synthetic_oil_factory
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = oil 
+					}
+					state_scope = { 
+						produces = oil 
+					}
+					location = {
+						has_building = synthetic_oil_factory 
+					}
+					state_scope = { 
+						has_building = synthetic_oil_factory 
+					}
+					location = {
+						trade_goods = oil 
+					}
+					state_scope = { 
+						trade_goods = oil 
+					}
+					}
+				}
+			}
+		}
+		value = 0.25
+	}
+    
+# expenses : 12
+# maintenance: 19.85  
+# total input: 31.85 
+# output: 24.5
+}
+
+oil_silk_factory = {    
+	template = heavy_industry_template
+	input_goods = {   
+		oil = 0.8 #6
+	}
+	output_goods = silk 
+	value = 3 #25
+	bonus = {
+		trigger = {
+			OR = {
+				trade_goods_in_state = oil 
+				has_building = synthetic_oil_factory
+				any_neighbor_province = {
+					OR = {
+					location = {
+						produces = oil 
+					}
+					state_scope = { 
+						produces = oil 
+					}
+					location = {
+						has_building = synthetic_oil_factory 
+					}
+					state_scope = { 
+						has_building = synthetic_oil_factory 
+					}
+					location = {
+						trade_goods = oil 
+					}
+					state_scope = { 
+						trade_goods = oil 
+					}
+					}
+				}
+			}
+		}
+		value = 0.25
+	}
+    
+# expenses : 6
+# maintenance: 19.85
+# total input: 25.85
+# output: 25
+}
+
+
+### RGOs #####################################################################################
+
+RGO_template_farmers = {
+	owner =
+	{
+		poptype = aristocrats 
+		effect = output
+	}
+		
+	employees = {
+		{ 
+			poptype = farmers 
+			effect = throughput
+			amount = 1
+		}
+		{ 
+			poptype = slaves 
+			effect = output
+			amount = 1
+		}
+	}
+	
+	type = rgo
+	workforce = 40000
+}
+
+RGO_template_labourers = {
+	owner =
+	{
+		poptype = aristocrats 
+		effect = output
+	}
+		
+	employees = {
+		{ 
+			poptype = labourers 
+			effect = throughput
+			amount = 1
+		}
+		{ 
+			poptype = slaves 
+			effect = output
+			amount = 1
+		}
+	}
+	
+	type = rgo
+	workforce = 40000
+}
+
+
+cattle_ranch = {
+	template = RGO_template_farmers
+	output_goods = cattle 
+	value = 3.6 #7.2
+	farm = yes
+}
+
+coal_mine = {
+	template = RGO_template_labourers
+	output_goods = coal 
+	value = 0.9 #4.14
+	mine = yes
+}
+
+coffee_plantation = {
+	template = RGO_template_farmers
+	output_goods = coffee 
+	value = 2 #4.1
+	farm = yes
+}
+
+cotton_plantation = {
+	template = RGO_template_farmers
+	output_goods = cotton 
+	value = 1.5 #3
+	farm = yes
+}
+
+dye_plantation = {
+	template = RGO_template_farmers
+	output_goods = dye 
+	value = 0.22 #2.64
+	farm = yes
+}
+
+fishing_wharf = {
+	template = RGO_template_farmers
+	output_goods = fish 
+	value = 3.4 #5.2
+	farm = yes
+}
+
+grain_farm = {
+	template = RGO_template_farmers
+	output_goods = grain 
+	value = 2 #4.4
+	farm = yes
+}
+
+iron_mine = {
+	template = RGO_template_labourers
+	output_goods = iron
+	value = 0.4 #3.8
+	mine = yes
+}
+
+oil_rig = {
+	template = RGO_template_labourers
+	output_goods = oil 
+	value = 1.5 #18
+	mine = yes
+}
+
+opium_plantation = {
+	template = RGO_template_farmers
+	output_goods = opium 
+	value = 1.6 #5.12
+	farm = yes
+}
+
+orchard = {
+	template = RGO_template_farmers
+	output_goods = fruit 
+	value = 2.8 #5.04
+	farm = yes
+}
+
+precious_metal_mine = {
+	template = RGO_template_labourers
+	output_goods = precious_metal 
+	value = 1.7 #13.6
+	mine = yes
+}
+
+rubber_lodge = {
+	template = RGO_template_labourers
+	output_goods = rubber 
+	value = 0.75 #5.25
+	farm = yes
+}
+
+sheep_ranch = {
+	template = RGO_template_farmers
+	output_goods = wool 
+	value = 7.5 #5.25
+	farm = yes
+}
+
+silkworm_ranch = {
+	template = RGO_template_farmers
+	output_goods = silk 
+	value = 0.4 #4
+	farm = yes
+}
+
+sulphur_mine = {
+	template = RGO_template_labourers
+	output_goods = sulphur 
+	value = 1.5 #9
+	mine = yes
+}
+
+tea_plantation = {
+	template = RGO_template_farmers
+	output_goods = tea 
+	value = 1.9 #5.51
+	farm = yes
+}
+
+timber_lodge = {
+	template = RGO_template_labourers
+	output_goods = timber 
+	value = 7.12 #6.075
+	farm = yes
+}
+
+tobacco_plantation = {
+	template = RGO_template_farmers
+	output_goods = tobacco 
+	value = 8 #4
+	farm = yes
+}
+
+tropical_wood_lodge = {
+	template = RGO_template_labourers
+	output_goods = tropical_wood 
+	value = 2 #10.8
+	farm = yes
+}
+
+### Artisans #####################################################################################
+
+artisan_aeroplane = {       
+	input_goods = {
+		machine_parts = 1.06	#38.69
+		electric_gear = 2	#32
+		rubber = 1  		#7
+		lumber = 3.3 		#3.3	total input+maint = 90
+	}
+	output_goods = aeroplanes
+	value = 0.91			#100
+	
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+	
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_barrel = {       
+	input_goods = {   
+		automobiles = 0.3	#21
+		machine_parts = 0.8	#29.2
+		electric_gear = 1	#16
+		rubber = 1		#7
+	}
+	output_goods = barrels 
+	value = 1.0			#98	total input+maint = 83
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_automobile = {       
+	input_goods = {     
+		machine_parts = 1	#36.5
+		electric_gear = 1.5	#24
+		rubber = 1		#7
+		steel = 2.25		#10.58	total input+maint = 89
+	}
+	
+	output_goods = automobiles 
+	value = 1.43			#100
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_radio = {       
+	input_goods = {      
+		glass = 10 		#29
+		electric_gear = 3	#48  	total input+maint = 87
+	}
+	output_goods = radio 
+	value = 6.5			#104
+	
+	owner = {
+		poptype = artisan  
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_telephone = {       
+	input_goods = {       
+		glass = 15 		#43.5
+		electric_gear = 2.5	#40 	total input+maint = 93.5
+	}
+	output_goods = telephones 
+	value = 6.5			#104
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+############# STRATEGIC FACTORIES
+
+artisan_electric_gear = {       
+	input_goods = { 
+		rubber = 4		#28
+		coke_coal = 5		#11.5
+		refined_iron = 5		#17.5	total input+maint = 67
+	}
+	output_goods = electric_gear 
+	value = 5			#80
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_machine_parts = {       
+	input_goods = {    
+		steel = 18		#42.3
+		coke_coal = 10		#11.5  total input+maint = 66
+	}
+	output_goods = machine_parts 
+	value = 4			#73
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+############# ADVANCED FACTORIES
+
+artisan_fuel = {       
+	input_goods = { 
+		oil = 2.5			#30	total input+maint = 40
+	}
+	output_goods = fuel
+	value = 2			#50
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_steamer = {       
+	input_goods = { 
+		steel = 22		#94
+		coke_coal = 30		#69 (huhuhuhuh) total input+maint = 182
+	}
+	output_goods = steamer_convoy 
+	is_coastal = yes
+	value = 3			#195
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+
+	workforce = 10000
+}
+
+############# LUXURY GOODS FACTORIES
+
+artisan_luxury_clothes = {       
+	input_goods = {   
+		regular_clothes = 0.9	#5.22
+		silk = 3.9		#39	total input+maint = 54
+	}
+	output_goods = luxury_clothes 
+	value = 1			#65
+
+
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_luxury_furniture = {       
+	input_goods = { 
+		furniture = 2	 	#45.08
+		tropical_wood = 7.5 #8.1	total input+maint = 53.18
+	}
+	output_goods = luxury_furniture 
+	value = 1.1			#64.9
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+
+artisan_luxury_jewelry = {       
+	input_goods = { 
+		precious_metal = 6 #8.1	total input+maint = 53.18
+	}
+	output_goods = luxury_jewelry 
+	value = 1.2		#64.9
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+############# MEDIUM FACTORIES
+
+artisan_steel = {       
+	input_goods = { 
+		refined_iron = 20		#70
+		coke_coal = 5		#11.5	total input+maint = 81.5
+	}
+	
+	output_goods = steel 		#94 
+	value = 20
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+		
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_artillery = {       
+	input_goods = { 
+		explosives = 1		#20
+		steel = 8		#37.6   total input+maint = 67.6
+	}
+	output_goods = artillery 
+	value = 1.3			#78
+
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_clipper = {       
+	input_goods = {         
+		fabric = 100		#162
+		timber = 100		#90
+		steel = 30		#141		total input+maint = 393
+	}
+	output_goods = clipper_convoy 
+	is_coastal = yes
+	value = 10			#420
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+
+	workforce = 10000
+}
+
+artisan_small_arms = {       
+	input_goods = {        
+		ammunition = 2.0	#35
+		steel = 3.0		#14.1		total input+maint = 60
+	}
+	output_goods = small_arms 
+	value = 2			#74
+
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+############# COMMON FACTORIES
+artisan_tobacco_products = {       
+	input_goods = { 
+		tobacco = 5	#20
+	}
+	output_goods = tobacco_products 
+	value = 1.3			#58.8
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_furniture = {       
+	input_goods = { 
+		lumber = 20		#20
+		timber = 20		#18		total input+maint = 48
+	}
+	output_goods = furniture 
+	value = 12			#58.8
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_paper = {       
+	input_goods = { 
+		timber = 37.5		#45	total input+maint = 55
+	}
+	output_goods = paper 
+	value = 15			#68
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_regular_clothes = {       
+	input_goods = {  
+		fabric = 40		#72	total input+maint = 72
+	}
+	output_goods = regular_clothes 
+	value = 15			#87
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_explosives = {       
+	input_goods = {   
+		fertilizer = 3		#30
+		ammunition = 0.8	#14	total input+maint = 54
+	}
+	output_goods = explosives 
+	value = 3			#60
+	
+	owner = {
+		poptype = artisan
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+############# CHEAP FACTORIES
+
+artisan_ammunition = {       
+	input_goods = {      
+		sulphur = 2		#12
+		coke_coal = 2		#4.6
+		refined_iron = 5		#17.5	total input+maint = 44
+	}
+	output_goods = ammunition 
+	value = 3			#52.5
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_grain_food = {       
+	input_goods = { 
+		grain = 30
+	}
+	output_goods = food 
+	value = 22.5
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_fruit_food = {       
+	input_goods = { 
+		fruit = 30
+	}
+	output_goods = food 
+	value = 22.5
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_wool_food = {       
+	input_goods = { 
+		wool = 30
+	}
+	output_goods = food 
+	value = 24.5
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_fish_food = {       
+	input_goods = { 
+		fish = 30
+	}
+	output_goods = food 
+	value = 24.5
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_cattle_food = {       
+	input_goods = { 
+		cattle = 30
+	}
+	output_goods = food 
+	value = 24.5
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_canned_food = {       
+	input_goods = { 
+		grain = 25
+	}
+	output_goods = canned_food 
+	value = 10
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_canned_food_cattle = {       
+	input_goods = { 
+		cattle = 25
+	}
+	output_goods = canned_food 
+	value = 25
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_canned_food_fish = {       
+	input_goods = { 
+		fish = 25
+	}
+	output_goods = canned_food 
+	value = 22.5
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_canned_food_wool = {       
+	input_goods = { 
+		wool = 25
+	}
+	output_goods = canned_food 
+	value = 8.75
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_canned_food_fruit = {    
+	input_goods = { 
+		fruit = 25
+	}
+	output_goods = canned_food 
+	value = 22.5
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_liquor = {       
+	input_goods = {        
+		grain = 10		#22
+		glass = 8		#23.2	total input+maint = 55
+	}
+	output_goods = liquor 
+	value = 10			#64
+	
+	owner = {
+		poptype = artisan  
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_winery = {       
+
+	input_goods = {  	
+		fruit = 10		#18
+		glass = 10		#29	total input+maint = 57
+	}
+	output_goods = wine 
+	value = 7			#67.9
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+############# BASIC FACTORIES 
+artisan_crates = {
+	input_goods = {       
+		timber = 15
+		lumber = 8
+		refined_iron = 2
+	}
+	output_goods = crates 
+	
+	value = 10
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+}
+
+artisan_lumber = {       
+	input_goods = {       
+		timber = 50
+	}
+	output_goods = lumber 
+	
+	value = 55
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_fabric = {       
+	input_goods = {     
+		cotton = 18		
+		dye = 2			
+	}
+	output_goods = fabric 
+	value = 45			#81
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_cement = {       
+	input_goods = {           
+		coke_coal = 36		#27.6		total input+maint = 37
+	} 
+	output_goods = cement 
+	value = 9			#48
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_glass = {       
+	input_goods = {            
+		coke_coal = 14		#32.2		total input+maint = 42
+	}
+	output_goods = glass 
+	value = 18			#52.2
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_fertilizer = {       
+	input_goods = {   
+		sulphur = 6		#36		total input+maint = 46
+	}
+	output_goods = fertilizer 
+	value = 5			#50
+
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_refined_iron = {       
+	input_goods = {   
+		iron = 3.75
+	}
+	output_goods = refined_iron 
+	value = 6.18
+
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_coke_coal = {       
+	input_goods = {   
+		coal = 7.5		#17.25		total input+maint = 27.25
+	}
+	output_goods = coke_coal 
+	value = 12.5			#28.75
+
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_transport = {       
+	input_goods = {   
+		financial_services = 0.01
+		aeroplanes = 0.05
+		automobiles = 0.05
+	}
+	output_goods = transport 
+	value = 0.3
+
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+artisan_education = {       
+	input_goods = {
+		financial_services = 0.05
+		paper = 3
+	}
+	output_goods = education 
+	value = 0.3
+
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+artisan_culture = {       
+	input_goods = {
+		financial_services = 0.05
+		luxury_clothes = 0.1
+	}
+	output_goods = culture 
+	value = 0.3
+
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+artisan_recreation = {       
+	input_goods = {   
+		financial_services = 0.01
+		steamer_convoy = 0.05
+		automobiles = 0.05
+		aeroplanes = 0.05
+	}
+	output_goods = recreation 
+	value = 0.3
+
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_financial_services = {       
+	input_goods = {   
+		paper = 2
+	}
+	output_goods = financial_services 
+	value = 0.3
+
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_healthcare = {       
+	input_goods = {   
+		financial_services = 0.05
+		glass = 3
+	}
+	output_goods = healthcare 
+	value = 0.3
+
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	employees = {		
+		{ 
+			poptype = artisan
+			effect = throughput
+		}
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+### AMP free peasants #####################################################################################
+#farmers_grain = {
+#	input_goods = {
+#		fertilizer = 0.2 #2
+#	}
+#	output_goods = grain
+#	value = 4.5 #10
+#	
+#	owner = {
+#		poptype = artisan
+#		effect = output
+#	}
+#	
+#	type = artisan
+#	
+#	workforce = 40000
+#}
+
+#farmers_cattle = {
+#	input_goods = {
+#		grain = 0.9 #2
+#	}
+#	output_goods = cattle
+#	value = 5 #10
+#	
+#	owner = {
+#		poptype = artisan
+#		effect = output
+#	}
+#	
+#	type = artisan
+#	
+#	workforce = 40000
+#}
+
+#farmers_fish = {
+#	input_goods = {
+#		fabric = 1.1 #2
+#	}
+#	output_goods = fish
+#	value = 6.6 #10
+#	is_coastal = yes
+#	
+#	owner = {
+#		poptype = artisan
+#		effect = output
+#	}
+#	
+#	type = artisan
+#	
+#	workforce = 40000
+#}
+
+#farmers_wool = {
+#	input_goods = {
+#		grain = 0.45 #1
+#	}
+#	output_goods = wool
+#	value = 12.8 #9
+#	is_coastal = yes
+#	
+#	owner = {
+#		poptype = artisan
+#		effect = output
+#	}
+#	
+#	type = artisan
+#	
+#	workforce = 40000
+#}
+
+#farmers_fruit = {
+#	input_goods = {
+#		fertilizer = 0.2 #2
+#	}
+#	output_goods = fruit
+#	value = 5.5 #10
+#	is_coastal = yes
+#	
+#	owner = {
+#		poptype = artisan
+#		effect = output
+#	}
+#	
+#	type = artisan
+#	
+#	workforce = 40000
+#}

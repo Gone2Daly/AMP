@@ -1,0 +1,18 @@
+#satellite
+country_event = {
+	id = 1000003
+	title = "TITLE1000003"
+	desc = "DESC1000003"
+	picture = ""
+	is_triggered_only = yes
+	immediate = {
+	}
+	option = {
+		name = "OPTION1_1000003" #china
+		country_event = 10000031
+	}
+	option = {
+		name = "OPTION2_1000003" #india
+		country_event = 10000032
+	}
+}

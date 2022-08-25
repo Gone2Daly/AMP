@@ -1,0 +1,17 @@
+owner = SWE
+controller = SWE
+add_core = SWE
+add_core = SCA
+trade_goods = grain
+life_rating = 42
+1861.1.1 = { railroad = 3 }
+state_building = {
+	level = 1
+	building = manufacture_iron
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_coal
+	upgrade = yes
+}

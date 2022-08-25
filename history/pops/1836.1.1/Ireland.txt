@@ -1,0 +1,519 @@
+254 = {
+	aristocrats = {
+		culture = british
+		religion = latin-german
+		size = 1650
+	}
+	officers = {
+		culture = british
+		religion = latin-german
+		size = 375
+	}
+	bureaucrats = {
+		culture = british
+		religion = latin-german
+		size = 1687
+	}
+	clergymen = {
+		culture = british
+		religion = latin-german
+		size = 750
+	}
+	soldiers = {
+		culture = british
+		religion = latin-german
+		size = 1875
+	}
+	artisans = {
+		culture = british
+		religion = latin-german
+		size = 15000
+	}
+	artisans = {
+		culture = british
+		religion = latin-german
+		size = 3000
+	}
+	farmers = {
+		culture = british
+		religion = latin-german
+		size = 131812
+	}
+	clergymen = {
+		culture = irish
+		religion = latin-german
+		size = 375
+	}
+	artisans = {
+		culture = irish
+		religion = latin-german
+		size = 8250
+	}
+	labourers = {
+		culture = irish
+		religion = latin-german
+		size = 37875
+	}
+}
+255 = {
+	clergymen = {
+		culture = irish
+		religion = latin-german
+		size = 562
+	}
+	artisans = {
+		culture = irish
+		religion = latin-german
+		size = 2250
+	}
+	soldiers = {
+		culture = irish
+		religion = latin-german
+		size = 750
+	}
+	labourers = {
+		culture = irish
+		religion = latin-german
+		size = 69937
+	}
+	aristocrats = {
+		culture = british
+		religion = latin-german
+		size = 750
+	}
+	clergymen = {
+		culture = british
+		religion = latin-german
+		size = 375
+	}
+	artisans = {
+		culture = british
+		religion = latin-german
+		size = 7500
+	}
+	soldiers = {
+		culture = british
+		religion = latin-german
+		size = 1650
+	}
+	farmers = {
+		culture = british
+		religion = latin-german
+		size = 112875
+	}
+}
+256 = {
+	aristocrats = {
+		culture = british
+		religion = latin-german
+		size = 375
+	}
+	clergymen = {
+		culture = british
+		religion = latin-german
+		size = 375
+	}
+	artisans = {
+		culture = british
+		religion = latin-german
+		size = 3750
+	}
+	soldiers = {
+		culture = british
+		religion = latin-german
+		size = 1650
+	}
+	labourers = {
+		culture = british
+		religion = latin-german
+		size = 64500
+	}
+	clergymen = {
+		culture = irish
+		religion = latin-german
+		size = 375
+	}
+	artisans = {
+		culture = irish
+		religion = latin-german
+		size = 750
+	}
+	soldiers = {
+		culture = irish
+		religion = latin-german
+		size = 375
+	}
+	labourers = {
+		culture = irish
+		religion = latin-german
+		size = 30750
+	}
+}
+257 = {
+	aristocrats = {
+		culture = irish
+		religion = latin-german
+		size = 375
+	}
+	clergymen = {
+		culture = irish
+		religion = latin-german
+		size = 375
+	}
+	artisans = {
+		culture = irish
+		religion = latin-german
+		size = 5625
+	}
+	soldiers = {
+		culture = irish
+		religion = latin-german
+		size = 750
+	}
+	labourers = {
+		culture = irish
+		religion = latin-german
+		size = 154875
+	}
+	clergymen = {
+		culture = british
+		religion = latin-german
+		size = 75
+	}
+	artisans = {
+		culture = british
+		religion = latin-german
+		size = 3375
+	}
+	soldiers = {
+		culture = british
+		religion = latin-german
+		size = 187
+	}
+	farmers = {
+		culture = british
+		religion = latin-german
+		size = 24862
+	}
+}
+258 = {
+	aristocrats = {
+		culture = irish
+		religion = latin-german
+		size = 750
+	}
+	clergymen = {
+		culture = irish
+		religion = latin-german
+		size = 1875
+	}
+	artisans = {
+		culture = irish
+		religion = latin-german
+		size = 10500
+	}
+	soldiers = {
+		culture = irish
+		religion = latin-german
+		size = 2250
+	}
+	farmers = {
+		culture = irish
+		religion = latin-german
+		size = 190125
+	}
+}
+259 = {
+	bureaucrats = {
+		culture = british
+		religion = latin-german
+		size = 750
+	}
+	bureaucrats = {
+		culture = irish
+		religion = latin-german
+		size = 375
+	}
+	aristocrats = {
+		culture = irish
+		religion = latin-german
+		size = 1650
+	}
+	clergymen = {
+		culture = irish
+		religion = latin-german
+		size = 3000
+	}
+	artisans = {
+		culture = irish
+		religion = latin-german
+		size = 14250
+	}
+	soldiers = {
+		culture = irish
+		religion = latin-german
+		size = 3750
+	}
+	farmers = {
+		culture = irish
+		religion = latin-german
+		size = 264375
+	}
+}
+260 = {
+	aristocrats = {
+		culture = irish
+		religion = latin-german
+		size = 900
+	}
+	bureaucrats = {
+		culture = irish
+		religion = latin-german
+		size = 3000
+	}
+	officers = {
+		culture = irish
+		religion = latin-german
+		size = 750
+	}
+	clergymen = {
+		culture = irish
+		religion = latin-german
+		size = 2250
+	}
+	artisans = {
+		culture = irish
+		religion = latin-german
+		size = 15000
+	}
+	artisans = {
+		culture = irish
+		religion = latin-german
+		size = 15000
+	}
+	artisans = {
+		culture = irish
+		religion = latin-german
+		size = 3000
+	}
+	soldiers = {
+		culture = irish
+		religion = latin-german
+		size = 2250
+	}
+	farmers = {
+		culture = irish
+		religion = latin-german
+		size = 282525
+	}
+	aristocrats = {
+		culture = british
+		religion = latin-german
+		size = 1350
+	}
+	bureaucrats = {
+		culture = british
+		religion = latin-german
+		size = 1125
+	}
+	officers = {
+		culture = british
+		religion = latin-german
+		size = 375
+	}
+	soldiers = {
+		culture = british
+		religion = latin-german
+		size = 750
+	}
+	farmers = {
+		culture = british
+		religion = latin-german
+		size = 7875
+	}
+}
+261 = {
+	aristocrats = {
+		culture = irish
+		religion = latin-german
+		size = 1650
+	}
+	clergymen = {
+		culture = irish
+		religion = latin-german
+		size = 2250
+	}
+	artisans = {
+		culture = irish
+		religion = latin-german
+		size = 15000
+	}
+	artisans = {
+		culture = irish
+		religion = latin-german
+		size = 6000
+	}
+	soldiers = {
+		culture = irish
+		religion = latin-german
+		size = 2250
+	}
+	farmers = {
+		culture = irish
+		religion = latin-german
+		size = 279750
+	}
+}
+262 = {
+	aristocrats = {
+		culture = irish
+		religion = latin-german
+		size = 750
+	}
+	clergymen = {
+		culture = irish
+		religion = latin-german
+		size = 1125
+	}
+	artisans = {
+		culture = irish
+		religion = latin-german
+		size = 10500
+	}
+	soldiers = {
+		culture = irish
+		religion = latin-german
+		size = 1650
+	}
+	farmers = {
+		culture = irish
+		religion = latin-german
+		size = 187125
+	}
+}
+263 = {
+	aristocrats = {
+		culture = british
+		religion = latin-german
+		size = 1050
+	}
+	bureaucrats = {
+		culture = british
+		religion = latin-german
+		size = 937
+	}
+	aristocrats = {
+		culture = irish
+		religion = latin-german
+		size = 450
+	}
+	bureaucrats = {
+		culture = irish
+		religion = latin-german
+		size = 3000
+	}
+	officers = {
+		culture = irish
+		religion = latin-german
+		size = 750
+	}
+	clergymen = {
+		culture = irish
+		religion = latin-german
+		size = 3375
+	}
+	soldiers = {
+		culture = irish
+		religion = latin-german
+		size = 3750
+	}
+	artisans = {
+		culture = irish
+		religion = latin-german
+		size = 15000
+	}
+	artisans = {
+		culture = irish
+		religion = latin-german
+		size = 15000
+	}
+	artisans = {
+		culture = irish
+		religion = latin-german
+		size = 15000
+	}
+	artisans = {
+		culture = irish
+		religion = latin-german
+		size = 15000
+	}
+	artisans = {
+		culture = irish
+		religion = latin-german
+		size = 15000
+	}
+	artisans = {
+		culture = irish
+		religion = latin-german
+		size = 3000
+	}
+	farmers = {
+		culture = irish
+		religion = latin-german
+		size = 231562
+	}
+}
+264 = {
+	aristocrats = {
+		culture = british
+		religion = latin-german
+		size = 525
+	}
+	aristocrats = {
+		culture = irish
+		religion = latin-german
+		size = 225
+	}
+	artisans = {
+		culture = irish
+		religion = latin-german
+		size = 9750
+	}
+	soldiers = {
+		culture = irish
+		religion = latin-german
+		size = 2250
+	}
+	farmers = {
+		culture = irish
+		religion = latin-german
+		size = 186750
+	}
+}
+265 = {
+	aristocrats = {
+		culture = british
+		religion = latin-german
+		size = 525
+	}
+	aristocrats = {
+		culture = irish
+		religion = latin-german
+		size = 225
+	}
+	artisans = {
+		culture = irish
+		religion = latin-german
+		size = 8250
+	}
+	soldiers = {
+		culture = irish
+		religion = latin-german
+		size = 1650
+	}
+	labourers = {
+		culture = irish
+		religion = latin-german
+		size = 156000
+	}
+}

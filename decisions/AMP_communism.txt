@@ -1,0 +1,211 @@
+political_decisions = {
+	communist_propaganda = {
+		alert = yes 
+		potential = { 
+			OR = {
+				government = proletarian_dictatorship
+				government = socialist_republic
+				government = one_party_socialist_republic
+			}
+		} 
+		allow = { 
+			money = 250000
+			NOT = {
+				has_country_modifier = communist_propaganda
+			}
+		} 
+		effect = { 
+			money = -250000
+			set_country_flag = communist_propaganda
+			add_country_modifier = {
+				name = communist_propaganda
+				duration = 1000
+			}
+		}
+	}
+	expropriation = {
+		alert = yes 
+		potential = { 
+			OR = {
+				government = proletarian_dictatorship
+				government = one_party_socialist_republic
+			}
+			NOT = {
+				has_country_modifier = expropriation
+			}
+		} 
+		allow = { 
+			cilivized = yes
+		} 
+		effect = { 
+			set_country_flag = expropriation_started
+			add_country_modifier = {
+				name = expropriation
+				duration = -1
+			}
+			any_owned = {
+				limit = {
+					has_pop_type = capitalists
+				}
+				capitalists = {
+					money = -5000
+					pop_type = clerks
+				}
+				
+				THIS = { add_tax_relative_income = 0.5 }
+			}
+			any_owned = {
+				limit = {
+					has_pop_type = financiers
+				}
+				financiers = {
+					money = -5000
+					pop_type = clerks
+				}
+				THIS = { add_tax_relative_income = 0.5 }
+			}
+		}
+	}
+	allow_marxism = {
+		alert = no 
+		potential = { 
+			ai = no
+			communist = 0.2
+			is_independant = yes
+			NOT = {
+				has_country_modifier = allowed_marxism
+				has_country_flag = socialist_revolution_occured
+				OR = {
+					government = socialist_republic
+					government = one_party_socialist_republic
+					government = proletarian_dictatorship
+				}
+			}
+		} 
+		allow = { 
+			money = 100000
+			communist = 1
+		} 
+		effect = { 
+			money = -100000
+			prestige = -50
+			set_country_flag = communist_propaganda
+			add_country_modifier = {
+				name = allowed_marxism
+				duration = -1
+			}
+		}
+	}
+	disallow_marxism = {
+		alert = no 
+		potential = {
+			ai = no 
+			is_independant = yes
+			has_country_modifier = allowed_marxism
+		} 
+		allow = {
+			money = 100000
+			has_country_modifier = allowed_marxism
+		} 
+		effect = { 
+			money = -100000
+			prestige = 10
+			clr_country_flag = communist_propaganda
+			remove_country_modifier = allowed_marxism
+		}
+	}
+	restore_capitalism = {
+		alert = yes 
+		potential = {
+			ai = no
+			is_independant = yes
+			OR = {
+				government = socialist_republic
+				government = one_party_socialist_republic
+				government = proletarian_dictatorship
+			}
+			NOT = {
+				has_country_modifier = socialist_revolution
+			}
+		} 
+		allow = { 
+			money = 500000
+		} 
+		effect = { 
+			money = -500000
+			government = bourgeois_dictatorship
+			political_reform = none_voting
+			prestige = 10
+			militancy = 60
+			clr_country_flag = communist_propaganda
+			clr_country_flag = expropriation_started
+			clr_country_flag = socialist_republic
+			clr_country_flag = one_party_socialist_republic
+			clr_country_flag = proletarian_dictatorship
+			remove_country_modifier = expropriation
+			remove_country_modifier = communist_propaganda
+			add_country_modifier = {
+				name = capitalist_restoration
+				duration = 1200
+			}
+		}
+	}
+	unite_government = {
+		alert = yes 
+		potential = { 
+			is_independant = yes
+			government = socialist_republic
+		} 
+		allow = {
+			money = 500000
+			communist = 20
+			upper_house = {
+				ideology = communist
+				value = 0.20
+			}
+		}
+		effect = { 
+			money = -500000
+			government = one_party_socialist_republic
+			set_country_flag = one_party_socialist_republic
+			political_reform = none_voting
+			political_reform = harassment
+			prestige = 40
+			militancy = 40
+			badboy = 10
+			upper_house = {
+				ideology = communist
+				value = 1
+			}
+		}
+	}
+	build_socialism = {
+		alert = yes 
+		potential = { 
+			is_independant = yes
+			government = one_party_socialist_republic
+		} 
+		allow = { 
+			money = 2000000
+			communist = 30
+			industrial_score = 7000
+			literacy = 0.75
+			wage_reform = good_minimum_wage
+			safety_regulations = good_safety
+			unemployment_subsidies = good_subsidies
+			pensions = good_pensions
+			school_reforms = good_schools
+			OR = {
+				health_care = acceptable_health_care
+				health_care = good_health_care
+			}
+		} 
+		effect = { 
+			money = -2000000
+			government = proletarian_dictatorship
+			set_country_flag = proletarian_dictatorship
+			prestige = 100
+			militancy = -10
+		}
+	}
+}

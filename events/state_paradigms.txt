@@ -1,0 +1,18 @@
+#state_paradigms
+country_event = {
+	id = 10000021
+	title = "TITLE10000021"
+	desc = "DESC10000021"
+	picture = ""
+	is_triggered_only = yes
+	immediate = {
+	}
+	option = {
+		name = "OPTION1_10000021" # 221 conscription
+		set_country_flag = changing_conscription_1
+	}
+	#option = {
+	#	name = "OPTION2_10000021" #state
+	#	country_event = 100000222
+	#}
+}

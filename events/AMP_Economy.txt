@@ -1,0 +1,149 @@
+country_event = {
+	id = 76547
+	title = "EVTNAME76547"
+	desc = "EVTDESC76547"
+	picture = "greatpowers"
+	fire_only_once = yes
+	trigger = {
+		AI = yes
+		year = 1895
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		any_country = {
+			any_owned = {
+				limit = {
+					trade_goods = dye
+				}
+				trade_goods = grain
+			}
+		}
+		any_owned = {
+			limit = {
+				trade_goods = dye
+			}
+			trade_goods = grain
+		}
+	}
+	option = {
+		name = "EVTOPTA76547"
+	}
+}
+country_event = {
+	id = 76548
+	title = "EVTNAME76548"
+	desc = "EVTDESC76548"
+	picture = "greatpowers"
+	fire_only_once = yes
+	trigger = {
+		AI = yes
+		year = 1905
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		any_country = {
+			any_owned = {
+				limit = {
+					trade_goods = silk
+				}
+				trade_goods = tea
+			}
+		}
+		any_owned = {
+			limit = {
+				trade_goods = silk
+			}
+			trade_goods = tea
+		}
+	}
+	option = {
+		name = "EVTOPTA76547"
+	}
+}
+country_event = {
+	id = 76549
+	title = "EVTNAME76549"
+	desc = "EVTDESC76549"
+	picture = "greatpowers"
+	fire_only_once = yes
+	trigger = {
+		AI = yes
+		year = 1910
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		any_country = {
+			any_owned = {
+				limit = {
+					trade_goods = silk
+				}
+				trade_goods = tea
+			}
+		}
+		any_owned = {
+			limit = {
+				trade_goods = silk
+			}
+			trade_goods = tea
+		}
+	}
+	option = {
+		name = "EVTOPTA76547"
+	}
+}
+country_event = {
+	id = 76545
+	title = "EVTNAME76545"
+	desc = "1"
+	fire_only_once = yes
+	trigger = {
+		tag = ENG
+		year = 1843
+	}
+	mean_time_to_happen = {
+		days = 720
+	}
+	option = {
+		name = "Dam"
+		any_owned = {
+			limit = {
+				is_core = IRE
+			}
+			add_province_modifier = {
+					name = ire_disaster
+					duration = 1700
+			}
+		}
+	}
+}
+country_event = {
+	id = 100622
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		AND = {
+			is_vassal = yes
+			money = 110000
+			AI = yes
+			NOT = {
+				has_country_modifier = stop_sending_money
+			}
+		}
+	}
+	immediate = {
+	}
+	option = {
+		name = " "
+		money = -100000
+		sphere_owner = {
+			money = 100000
+		}
+	}
+}

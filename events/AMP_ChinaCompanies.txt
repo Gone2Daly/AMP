@@ -1,0 +1,1403 @@
+#100599-100649 IDs
+country_event = {
+	id = 100599
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		government = colonial_company
+		is_vassal = no
+	}
+	immediate = {
+		set_country_flag = destroyed_trade_company
+		clr_country_flag = startupped_trade_company
+	}
+	option = {
+		name = " "
+		government = democracy
+		
+		release = WHW
+		release = QDO
+		release = SGH
+		release = JXG
+		release = SXG
+		release = NGB
+		release = HKG
+		release = MCO
+		release = TWN
+		release = BJG
+		release = TJG
+		release = GXI
+		release = SXI
+		release = YNN
+		release = XBI
+		release = GNG
+		release = HNN
+		release = JXI
+		release = FJN
+		release = ZJG
+		release = HBI
+		release = AHI
+		release = HEN
+		release = JXU
+		release = SHA
+		release = AWA
+		release = BAS
+		release = BER
+		release = BHO
+		release = BIK
+		release = BUN
+		release = GWA
+		release = HYD
+		release = IND
+		release = JAI
+		release = JAS
+		release = JOD
+		release = KAL
+		release = KAS
+		release = KUT
+		release = LAD
+		release = MAK
+		release = MEW
+		release = MYS
+		release = NAG
+		release = NEP
+		release = ORI
+		release = PAN
+		release = SHI
+		release = SIK
+		release = SIN
+		release = TRA
+		release = MUG
+	}
+}
+country_event = {
+	id = 100600
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		government = democracy
+		is_vassal = no
+		any_owned_province = {
+			region = AMP_britishindia
+		}
+		has_country_flag = destroyed_trade_company
+	}
+	immediate = {
+		clr_country_flag = destroyed_trade_company
+		any_country = {
+			limit = {
+				has_country_flag = has_trade_company
+				is_culture_group = THIS
+			}
+		clr_country_flag = has_trade_company
+	    }
+	} 
+	option = {
+		name = " "
+		annex_to = HND
+	}
+}
+country_event = {
+	id = 100602
+	title = "TITLE100602"
+	desc = "DESC100602"
+	picture = ""
+	trigger = {
+		any_owned_province = {
+			region = AMP_china
+		}
+		OR = {
+			is_our_vassal = CHB
+			is_our_vassal = CHG
+			is_our_vassal = CHR
+			is_our_vassal = CHF
+			is_our_vassal = CHH
+			is_our_vassal = CHU
+			is_our_vassal = CHJ
+			is_our_vassal = CIH
+			is_our_vassal = CHS
+			is_our_vassal = CHO
+			is_our_vassal = COT
+			is_our_vassal = CLA
+			is_our_vassal = CHK
+		}
+	}
+	immediate = {
+		any_country = {
+			limit = {
+				government = colonial_company
+				vassal_of = THIS
+				NOT = {
+				    tag = OST
+				    tag = ING
+				    tag = INR
+				    tag = INF
+				    tag = INA
+				    tag = INU
+				    tag = INJ
+				    tag = INI
+				    tag = INS
+				    tag = INH
+				    tag = IOT
+				    tag = ILA
+					tag = INK
+				}
+			}
+			country_event = 100603
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100602"
+	}
+}
+country_event = {
+	id = 100603
+	title = " "
+	desc = " "
+	picture = ""
+	is_triggered_only = yes
+	immediate = {
+		FROM = {
+			any_owned = {
+				limit = {
+					region = AMP_china
+				}
+				secede_province = THIS
+				change_owner = THIS
+			}
+		}
+	}
+	option = {
+		name = " "
+	}
+}
+country_event = {
+	id = 100606
+	title = "TITLE100606"
+	desc = "DESC100606"
+	picture = ""
+	trigger = {
+		tag = ENG
+		any_owned_province = {
+			region = AMP_china
+		}
+		NOT = {
+			is_our_vassal = CHB
+			exists = CHB
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_china
+			}
+			secede_province = CHB
+			change_owner = CHB
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100606"
+	}
+}
+country_event = {
+	id = 100601
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = CHB
+		ENG = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = british
+			religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			ENG = { 
+				create_vassal = CHB 
+				diplomatic_influence = {
+					who = CHB
+					value = 400
+				}
+			}
+			create_alliance = ENG
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100607
+	title = "TITLE100607"
+	desc = "DESC100607"
+	picture = ""
+	trigger = {
+		tag = GER
+		any_owned_province = {
+			region = AMP_china
+		}
+		NOT = {
+			is_our_vassal = CHG
+			exists = CHG
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_china
+			}
+			secede_province = CHG
+			change_owner = CHG
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100607"
+	}
+}
+country_event = {
+	id = 100608
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = CHG
+		GER = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = north_german
+			religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			GER = { 
+				create_vassal = CHG 
+				diplomatic_influence = {
+					who = CHG
+					value = 400
+				}
+			}
+			create_alliance = GER
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100609
+	title = "TITLE100609"
+	desc = "DESC100609"
+	picture = ""
+	trigger = {
+		tag = RUS
+		any_owned_province = {
+			region = AMP_china
+		}
+		NOT = {
+			is_our_vassal = CHR
+			exists = CHR
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_china
+			}
+			secede_province = CHR
+			change_owner = CHR
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100609"
+	}
+}
+country_event = {
+	id = 100610
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = CHR
+		RUS = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = russian
+			religion = slav
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			RUS = { 
+				create_vassal = CHR 
+				diplomatic_influence = {
+					who = CHR
+					value = 400
+				}
+			}
+			create_alliance = RUS
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100611
+	title = "TITLE100611"
+	desc = "DESC100611"
+	picture = ""
+	trigger = {
+		tag = FRA
+		any_owned_province = {
+			region = AMP_china
+		}
+		NOT = {
+			is_our_vassal = CHF
+			exists = CHF
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_china
+			}
+			secede_province = CHF
+			change_owner = CHF
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100611"
+	}
+}
+country_event = {
+	id = 100612
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = CHF
+		FRA = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = french
+			religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			FRA = { 
+				create_vassal = CHF 
+				diplomatic_influence = {
+					who = CHF
+					value = 400
+				}
+			}
+			create_alliance = FRA
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100613
+	title = "TITLE100613"
+	desc = "DESC100613"
+	picture = ""
+	trigger = {
+		tag = KUK
+		any_owned_province = {
+			region = AMP_china
+		}
+		NOT = {
+			is_our_vassal = CHH
+			exists = CHH
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_china
+			}
+			secede_province = CHH
+			change_owner = CHH
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100613"
+	}
+}
+country_event = {
+	id = 100614
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = CHH
+		KUK = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = north_german
+			religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			KUK = { 
+				create_vassal = CHH 
+				diplomatic_influence = {
+					who = CHH
+					value = 400
+				}
+			}
+			create_alliance = KUK
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100615
+	title = "TITLE100615"
+	desc = "DESC100615"
+	picture = ""
+	trigger = {
+		tag = USA
+		any_owned_province = {
+			region = AMP_china
+		}
+		NOT = {
+			is_our_vassal = CHU
+			exists = CHU
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_china
+			}
+			secede_province = CHU
+			change_owner = CHU
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100615"
+	}
+}
+country_event = {
+	id = 100616
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = CHU
+		USA = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = yankee
+			religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			USA = { 
+				create_vassal = CHU 
+				diplomatic_influence = {
+					who = CHU
+					value = 400
+				}
+			}
+			create_alliance = USA
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100617
+	title = "TITLE100617"
+	desc = "DESC100617"
+	picture = ""
+	trigger = {
+		tag = JAP
+		any_owned_province = {
+			region = AMP_china
+		}
+		NOT = {
+			is_our_vassal = CHJ
+			exists = CHJ
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_china
+			}
+			secede_province = CHJ
+			change_owner = CHJ
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100617"
+	}
+}
+country_event = {
+	id = 100618
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = CHJ
+		JAP = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = japanese
+			religion = mongoloid
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			JAP = { 
+				create_vassal = CHJ 
+				diplomatic_influence = {
+					who = CHJ
+					value = 400
+				}
+			}
+			create_alliance = JAP
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100619
+	title = "TITLE100619"
+	desc = "DESC100619"
+	picture = ""
+	trigger = {
+		tag = ITA
+		any_owned_province = {
+			region = AMP_china
+		}
+		NOT = {
+			is_our_vassal = CIH
+			exists = CIH
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_china
+			}
+			secede_province = CIH
+			change_owner = CIH
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100619"
+	}
+}
+country_event = {
+	id = 100620
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = CIH
+		ITA = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = north_italian
+			religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			ITA = { 
+				create_vassal = CIH 
+				diplomatic_influence = {
+					who = CIH
+					value = 400
+				}
+			}
+			create_alliance = ITA
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100623
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		OR = {
+			tag = CHB
+			tag = CHG
+			tag = CHR
+			tag = CHF
+			tag = CHH
+			tag = CHU
+			tag = CHJ
+			tag = CIH
+			tag = CHS
+			tag = CHO
+			tag = COT
+			tag = CLA
+			tag = CHK
+		}
+		government = democracy
+		has_country_flag = destroyed_trade_company
+	}
+	immediate = {
+		clr_country_flag = destroyed_trade_company
+		any_country = {
+			limit = {
+				has_country_flag = has_trade_company
+				is_culture_group = THIS
+			}
+			clr_country_flag = has_trade_company
+		}
+	}
+	option = {
+		name = " "
+		annex_to = CHI
+	}
+}
+country_event = {
+	id = 100624
+	title = "TITLE100624"
+	desc = "DESC100624"
+	picture = ""
+	trigger = {
+		tag = SPA
+		any_owned_province = {
+			region = AMP_china
+		}
+		NOT = {
+			is_our_vassal = CHS
+			exists = CHS
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_china
+			}
+			secede_province = CHS
+			change_owner = CHS
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100624"
+	}
+}
+country_event = {
+	id = 100625
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = CHS
+		SPA = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = spanish
+			religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			SPA = { 
+				create_vassal = CHS 
+				diplomatic_influence = {
+					who = CHS
+					value = 400
+				}
+			}
+			create_alliance = SPA
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100626
+	title = "TITLE100626"
+	desc = "DESC100626"
+	picture = ""
+	trigger = {
+		tag = NET
+		any_owned_province = {
+			region = AMP_china
+		}
+		NOT = {
+			is_our_vassal = CHO
+			exists = CHO
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_china
+			}
+			secede_province = CHO
+			change_owner = CHO
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100626"
+	}
+}
+country_event = {
+	id = 100627
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = CHO
+		NET = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = dutch
+			religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			NET = { 
+				create_vassal = CHO 
+				diplomatic_influence = {
+					who = CHO
+					value = 400
+				}
+			}
+			create_alliance = NET
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100628
+	title = "TITLE100628"
+	desc = "DESC100628"
+	picture = ""
+	trigger = {
+		tag = TUR
+		any_owned_province = {
+			region = AMP_china
+		}
+		NOT = {
+			is_our_vassal = COT
+			exists = COT
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_china
+			}
+			secede_province = COT
+			change_owner = COT
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100630"
+	}
+}
+country_event = {
+	id = 100629
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = COT
+		TUR = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = turkish
+			religion = arabi-turk
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			TUR = { 
+				create_vassal = COT 
+				diplomatic_influence = {
+					who = COT
+					value = 400
+				}
+			}
+			create_alliance = TUR
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100630
+	title = "TITLE100630"
+	desc = "DESC100630"
+	picture = ""
+	trigger = {
+		tag = LAF
+		any_owned_province = {
+			region = AMP_china
+		}
+		NOT = {
+			is_our_vassal = CLA
+			exists = CLA
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_china
+			}
+			secede_province = CLA
+			change_owner = CLA
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100630"
+	}
+}
+country_event = {
+	id = 100631
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = CLA
+		LAF = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = south_american_cultures
+			religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			LAF = { 
+				create_vassal = CLA 
+				diplomatic_influence = {
+					who = CLA
+					value = 400
+				}
+			}
+			create_alliance = LAF
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100632
+	title = "TITLE100613"
+	desc = "DESC100613"
+	picture = ""
+	trigger = {
+		tag = AUS
+		any_owned_province = {
+			region = AMP_china
+		}
+		NOT = {
+			is_our_vassal = CHH
+			exists = CHH
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_china
+			}
+			secede_province = CHH
+			change_owner = CHH
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100613"
+	}
+}
+country_event = {
+	id = 100633
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = CHH
+		AUS = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = north_german
+			religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			AUS = { 
+				create_vassal = CHH 
+				diplomatic_influence = {
+					who = CHH
+					value = 400
+				}
+			}
+			create_alliance = AUS
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100634
+	title = "TITLE100607"
+	desc = "DESC100607"
+	picture = ""
+	trigger = {
+		tag = PRU
+		any_owned_province = {
+			region = AMP_china
+		}
+		NOT = {
+			is_our_vassal = CHG
+			exists = CHG
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_china
+			}
+			secede_province = CHG
+			change_owner = CHG
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100607"
+	}
+}
+country_event = {
+	id = 100635
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = CHG
+		PRU = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = north_german
+			religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			PRU = { 
+				create_vassal = CHG 
+				diplomatic_influence = {
+					who = CHG
+					value = 400
+				}
+			}
+			create_alliance = PRU
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100636
+	title = "TITLE100607"
+	desc = "DESC100607"
+	picture = ""
+	trigger = {
+		tag = NGF
+		any_owned_province = {
+			region = AMP_china
+		}
+		NOT = {
+			is_our_vassal = CHG
+			exists = CHG
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_china
+			}
+			secede_province = CHG
+			change_owner = CHG
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100607"
+	}
+}
+country_event = {
+	id = 100637
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = CHG
+		NGF = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = north_german
+			religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			NGF = { 
+				create_vassal = CHG 
+				diplomatic_influence = {
+					who = CHG
+					value = 400
+				}
+			}
+			create_alliance = NGF
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100638
+	title = "TITLE100613"
+	desc = "DESC100613"
+	picture = ""
+	trigger = {
+		tag = SGF
+		any_owned_province = {
+			region = AMP_china
+		}
+		NOT = {
+			is_our_vassal = CHH
+			exists = CHH
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_china
+			}
+			secede_province = CHH
+			change_owner = CHH
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100613"
+	}
+}
+country_event = {
+	id = 100639
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = CHH
+		SGF = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = north_german
+			religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			SGF = { 
+				create_vassal = CHH 
+				diplomatic_influence = {
+					who = CHH
+					value = 400
+				}
+			}
+			create_alliance = SGF
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100640
+	title = "TITLE100613"
+	desc = "DESC100613"
+	picture = ""
+	trigger = {
+		tag = SCA
+		any_owned_province = {
+			region = AMP_china
+		}
+		NOT = {
+			is_our_vassal = CHK
+			exists = CHK
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_china
+			}
+			secede_province = CHK
+			change_owner = CHK
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100613"
+	}
+}
+country_event = {
+	id = 100641
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = CHK
+		SCA = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = swedish
+			religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			SCA = { 
+				create_vassal = CHK 
+				diplomatic_influence = {
+					who = CHK
+					value = 400
+				}
+			}
+			create_alliance = SCA
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100642
+	title = "TITLE100613"
+	desc = "DESC100613"
+	picture = ""
+	trigger = {
+		tag = SWE
+		any_owned_province = {
+			region = AMP_china
+		}
+		NOT = {
+			is_our_vassal = CHK
+			exists = CHK
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_china
+			}
+			secede_province = CHK
+			change_owner = CHK
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100613"
+	}
+}
+country_event = {
+	id = 100643
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = CHK
+		SWE = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = swedish
+			religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			SWE = { 
+				create_vassal = CHK 
+				diplomatic_influence = {
+					who = CHK
+					value = 400
+				}
+			}
+			create_alliance = SWE
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}

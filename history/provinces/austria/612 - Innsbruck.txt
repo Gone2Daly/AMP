@@ -1,0 +1,39 @@
+owner = AUS
+controller = AUS
+add_core = AUS
+add_core = HAB
+trade_goods = tropical_wood
+life_rating = 38
+#state_building = {
+#	level = 1
+#	building = lumber_mill
+#	upgrade = yes
+#}
+1914.1.1 = {
+	owner = KUK
+	controller = KUK
+	add_core = KUK
+	railroad = 3
+	fort = 3
+	state_building = {
+		level = 1
+		building = barrel_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = luxury_clothes_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = lumber_mill
+		upgrade = yes
+	}
+}
+1923.1.1 = {
+	owner = HAB
+	controller = HAB
+	remove_core = KUK
+	remove_core = AUS
+}

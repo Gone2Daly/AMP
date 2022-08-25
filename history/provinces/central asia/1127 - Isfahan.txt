@@ -1,0 +1,15 @@
+owner = PER
+controller = PER
+add_core = PER
+trade_goods = cotton
+life_rating = 40
+state_building = {
+	level = 1
+	building = manufacture_furniture
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_explosives
+	upgrade = yes
+}

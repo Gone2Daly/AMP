@@ -1,0 +1,1317 @@
+political_decisions = {
+############   ENG
+	ENG_getting_indian_company = {
+		potential = {
+			tag = ENG
+		}
+		allow = {
+			money = 500000
+			prestige = 100
+			war = no
+			AMP_britishindia = {
+				controller = { 
+					NOT = { tag = OST }
+					war = no
+					in_sphere = ENG
+					OR = {
+						neighbour = CHB
+						neighbour = ENG
+						neighbour = OST
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -500000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_britishindia
+					}
+					NOT = {
+						OR = {
+							tag = OST 
+							tag = ING 
+							tag = INR 
+							tag = INF 
+							tag = INA 
+							tag = INU 
+							tag = INJ 
+							tag = INI 
+							tag = INS 
+							tag = INH 
+							tag = IOT 
+							tag = ILA 
+							tag = INK 
+						}
+					}
+					in_sphere = ENG
+					war = no
+					OR = {
+						neighbour = ENG
+						neighbour = OST
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 150000
+					}
+				}
+				annex_to = OST
+			}
+			set_country_flag = has_trade_company
+			OST = { clr_country_flag = destroyed_trade_company }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+		############   GER
+	GER_getting_indian_company = {
+		potential = {
+			tag = GER
+		}
+		allow = {
+			money = 500000
+			prestige = 100
+			war = no
+			AMP_britishindia = {
+				controller = { 
+					NOT = { tag = ING }
+					war = no
+					in_sphere = GER
+					OR = {
+						neighbour = CHG
+						neighbour = GER
+						neighbour = ING
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -500000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_britishindia
+					}
+					NOT = {
+						OR = {
+							tag = OST 
+							tag = ING 
+							tag = INR 
+							tag = INF 
+							tag = INA 
+							tag = INU 
+							tag = INJ 
+							tag = INI 
+							tag = INS 
+							tag = INH 
+							tag = IOT 
+							tag = ILA 
+							tag = INK 
+						}
+					}
+					in_sphere = GER
+					war = no
+					OR = {
+						neighbour = GER
+						neighbour = ING
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 150000
+					}
+				}
+				annex_to = ING
+			}
+			set_country_flag = has_trade_company
+			ING = { clr_country_flag = destroyed_trade_company }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+		############   RUS
+	RUS_getting_indian_company = {
+		potential = {
+			tag = RUS
+		}
+		allow = {
+			money = 500000
+			prestige = 100
+			war = no
+			AMP_britishindia = {
+				controller = { 
+					NOT = { tag = INR }
+					war = no
+					in_sphere = RUS
+					OR = {
+						neighbour = CHR
+						neighbour = RUS
+						neighbour = INR
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -500000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_britishindia
+					}
+					NOT = {
+						OR = {
+							tag = OST 
+							tag = ING 
+							tag = INR 
+							tag = INF 
+							tag = INA 
+							tag = INU 
+							tag = INJ 
+							tag = INI 
+							tag = INS 
+							tag = INH 
+							tag = IOT 
+							tag = ILA 
+							tag = INK 
+						}
+					}
+					in_sphere = RUS
+					war = no
+					OR = {
+						neighbour = RUS
+						neighbour = INR
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 150000
+					}
+				}
+				annex_to = INR
+			}
+			set_country_flag = has_trade_company
+			INR = { clr_country_flag = destroyed_trade_company }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+		############   FRA
+	FRA_getting_indian_company = {
+		potential = {
+			tag = FRA
+		}
+		allow = {
+			money = 500000
+			prestige = 100
+			war = no
+			AMP_britishindia = {
+				controller = { 
+					NOT = { tag = INF }
+					war = no
+					in_sphere = FRA
+					OR = {
+						neighbour = CHF
+						neighbour = FRA
+						neighbour = INF
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -500000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_britishindia
+					}
+					NOT = {
+						OR = {
+							tag = OST 
+							tag = ING 
+							tag = INR 
+							tag = INF 
+							tag = INA 
+							tag = INU 
+							tag = INJ 
+							tag = INI 
+							tag = INS 
+							tag = INH 
+							tag = IOT 
+							tag = ILA 
+							tag = INK 
+						}
+					}
+					in_sphere = FRA
+					war = no
+					OR = {
+						neighbour = FRA
+						neighbour = INF
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 150000
+					}
+				}
+				annex_to = INF
+			}
+			set_country_flag = has_trade_company
+			INF = { clr_country_flag = destroyed_trade_company }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+		############   KUK
+	KUK_getting_indian_company = {
+		potential = {
+			tag = KUK
+		}
+		allow = {
+			money = 500000
+			prestige = 100
+			war = no
+			AMP_britishindia = {
+				controller = { 
+					NOT = { tag = INA }
+					war = no
+					in_sphere = KUK
+					OR = {
+						neighbour = CHH
+						neighbour = KUK
+						neighbour = INA
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -500000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_britishindia
+					}
+					NOT = {
+						OR = {
+							tag = OST 
+							tag = ING 
+							tag = INR 
+							tag = INF 
+							tag = INA 
+							tag = INU 
+							tag = INJ 
+							tag = INI 
+							tag = INS 
+							tag = INH 
+							tag = IOT 
+							tag = ILA 
+							tag = INK 
+						}
+					}
+					in_sphere = KUK
+					war = no
+					OR = {
+						neighbour = KUK
+						neighbour = INA
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 150000
+					}
+				}
+				annex_to = INA
+			}
+			
+			KUK = { set_country_flag = has_trade_company }
+			INA = { clr_country_flag = destroyed_trade_company }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	    ############   AUS
+	AUS_getting_indian_company = {
+		potential = {
+			tag = AUS
+		}
+		allow = {
+			money = 500000
+			prestige = 100
+			war = no
+			AMP_britishindia = {
+				controller = { 
+					NOT = { tag = INA }
+					war = no
+					in_sphere = AUS
+					OR = {
+						neighbour = CHH
+						neighbour = AUS
+						neighbour = INA
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -500000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_britishindia
+					}
+					NOT = {
+						OR = {
+							tag = OST 
+							tag = ING 
+							tag = INR 
+							tag = INF 
+							tag = INA 
+							tag = INU 
+							tag = INJ 
+							tag = INI 
+							tag = INS 
+							tag = INH 
+							tag = IOT 
+							tag = ILA 
+							tag = INK 
+						}
+					}
+					in_sphere = AUS
+					war = no
+					OR = {
+						neighbour = AUS
+						neighbour = INA
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 150000
+					}
+				}
+				annex_to = INA
+			}
+			set_country_flag = has_trade_company
+			INA = { clr_country_flag = destroyed_trade_company }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+		############   USA
+	USA_getting_indian_company = {
+		potential = {
+			tag = USA
+		}
+		allow = {
+			money = 500000
+			prestige = 100
+			war = no
+			AMP_britishindia = {
+				controller = { 
+					NOT = { tag = INU }
+					war = no
+					in_sphere = USA
+					OR = {
+						neighbour = CHU
+						neighbour = USA
+						neighbour = INU
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -500000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_britishindia
+					}
+					NOT = {
+						OR = {
+							tag = OST 
+							tag = ING 
+							tag = INR 
+							tag = INF 
+							tag = INA 
+							tag = INU 
+							tag = INJ 
+							tag = INI 
+							tag = INS 
+							tag = INH 
+							tag = IOT 
+							tag = ILA 
+							tag = INK 
+						}
+					}
+					in_sphere = USA
+					war = no
+					OR = {
+						neighbour = USA
+						neighbour = INU
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 150000
+					}
+				}
+				annex_to = INU
+			}
+			set_country_flag = has_trade_company
+			INU = { clr_country_flag = destroyed_trade_company }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+		############   JAP
+	JAP_getting_indian_company = {
+		potential = {
+			tag = JAP
+		}
+		allow = {
+			money = 500000
+			prestige = 100
+			war = no
+			AMP_britishindia = {
+				controller = { 
+					NOT = { tag = INJ }
+					war = no
+					in_sphere = JAP
+					OR = {
+						neighbour = CHJ
+						neighbour = JAP
+						neighbour = INJ
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -500000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_britishindia
+					}
+					NOT = {
+						OR = {
+							tag = OST 
+							tag = ING 
+							tag = INR 
+							tag = INF 
+							tag = INA 
+							tag = INU 
+							tag = INJ 
+							tag = INI 
+							tag = INS 
+							tag = INH 
+							tag = IOT 
+							tag = ILA 
+							tag = INK 
+						}
+					}
+					in_sphere = JAP
+					war = no
+					OR = {
+						neighbour = JAP
+						neighbour = INJ
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 150000
+					}
+				}
+				annex_to = INJ
+			}
+			set_country_flag = has_trade_company
+			INJ = { clr_country_flag = destroyed_trade_company }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+		############   ITA
+	ITA_getting_indian_company = {
+		potential = {
+			tag = ITA
+		}
+		allow = {
+			money = 500000
+			prestige = 100
+			war = no
+			AMP_britishindia = {
+				controller = { 
+					NOT = { tag = INI }
+					war = no
+					in_sphere = ITA
+					OR = {
+						neighbour = CIH
+						neighbour = ITA
+						neighbour = INI
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -500000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_britishindia
+					}
+					NOT = {
+						OR = {
+							tag = OST 
+							tag = ING 
+							tag = INR 
+							tag = INF 
+							tag = INA 
+							tag = INU 
+							tag = INJ 
+							tag = INI 
+							tag = INS 
+							tag = INH 
+							tag = IOT 
+							tag = ILA 
+							tag = INK 
+						}
+					}
+					in_sphere = ITA
+					war = no
+					OR = {
+						neighbour = ITA
+						neighbour = INI
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 150000
+					}
+				}
+				annex_to = INI
+			}
+			set_country_flag = has_trade_company
+			INI = { clr_country_flag = destroyed_trade_company }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+		############   SPA
+	SPA_getting_indian_company = {
+		potential = {
+			tag = SPA
+		}
+		allow = {
+			money = 500000
+			prestige = 100
+			war = no
+			AMP_britishindia = {
+				controller = { 
+					NOT = { tag = INS }
+					war = no
+					in_sphere = SPA
+					OR = {
+						neighbour = CHS
+						neighbour = SPA
+						neighbour = INS
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -500000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_britishindia
+					}
+					NOT = {
+						OR = {
+							tag = OST 
+							tag = ING 
+							tag = INR 
+							tag = INF 
+							tag = INA 
+							tag = INU 
+							tag = INJ 
+							tag = INI 
+							tag = INS 
+							tag = INH 
+							tag = IOT 
+							tag = ILA 
+							tag = INK
+						}
+					}
+					in_sphere = SPA
+					war = no
+					OR = {
+						neighbour = SPA
+						neighbour = INS
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 150000
+					}
+				}
+				annex_to = INS
+			}
+			set_country_flag = has_trade_company
+			INS = { clr_country_flag = destroyed_trade_company }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+		############   TUR
+	TUR_getting_indian_company = {
+		potential = {
+			tag = TUR
+		}
+		allow = {
+			money = 500000
+			prestige = 100
+			war = no
+			AMP_britishindia = {
+				controller = { 
+					NOT = { tag = IOT }
+					war = no
+					in_sphere = TUR
+					OR = {
+						neighbour = COT
+						neighbour = TUR
+						neighbour = IOT
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -500000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_britishindia
+					}
+					NOT = {
+						OR = {
+							tag = OST 
+							tag = ING 
+							tag = INR 
+							tag = INF 
+							tag = INA 
+							tag = INU 
+							tag = INJ 
+							tag = INI 
+							tag = INS 
+							tag = INH 
+							tag = IOT 
+							tag = ILA 
+							tag = INK 
+						}
+					}
+					in_sphere = TUR
+					war = no
+					OR = {
+						neighbour = TUR
+						neighbour = IOT
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 150000
+					}
+				}
+				annex_to = IOT
+			}
+			set_country_flag = has_trade_company
+			IOT = { clr_country_flag = destroyed_trade_company }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+		############   LAF
+	LAF_getting_indian_company = {
+		potential = {
+			tag = LAF
+		}
+		allow = {
+			money = 500000
+			prestige = 100
+			war = no
+			AMP_britishindia = {
+				controller = { 
+					NOT = { tag = ILA }
+					war = no
+					in_sphere = LAF
+					OR = {
+						neighbour = CLA
+						neighbour = LAF
+						neighbour = ILA
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -500000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_britishindia
+					}
+					NOT = {
+						OR = {
+							tag = OST 
+							tag = ING 
+							tag = INR 
+							tag = INF 
+							tag = INA 
+							tag = INU 
+							tag = INJ 
+							tag = INI 
+							tag = INS 
+							tag = INH 
+							tag = IOT 
+							tag = ILA 
+							tag = INK
+						}
+					}
+					in_sphere = LAF
+					war = no
+					OR = {
+						neighbour = LAF
+						neighbour = ILA
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 150000
+					}
+				}
+				annex_to = ILA
+			}
+			set_country_flag = has_trade_company
+			ILA = { clr_country_flag = destroyed_trade_company }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+		############   NET
+	NET_getting_indian_company = {
+		potential = {
+			tag = NET
+		}
+		allow = {
+			money = 500000
+			prestige = 100
+			war = no
+			AMP_britishindia = {
+				controller = { 
+					NOT = { tag = INH }
+					war = no
+					in_sphere = NET
+					OR = {
+						neighbour = CHO
+						neighbour = NET
+						neighbour = INH
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -500000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_britishindia
+					}
+					NOT = {
+						OR = {
+							tag = OST 
+							tag = ING 
+							tag = INR 
+							tag = INF 
+							tag = INA 
+							tag = INU 
+							tag = INJ 
+							tag = INI 
+							tag = INS 
+							tag = INH 
+							tag = IOT 
+							tag = ILA 
+							tag = INK 
+						}
+					}
+					in_sphere = NET
+					war = no
+					OR = {
+						neighbour = NET
+						neighbour = INH
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 150000
+					}
+				}
+				annex_to = INH
+			}
+			set_country_flag = has_trade_company
+			INH = { clr_country_flag = destroyed_trade_company }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   ############   PRU
+	PRU_getting_indian_company = {
+		potential = {
+			tag = PRU
+		}
+		allow = {
+			money = 500000
+			prestige = 100
+			war = no
+			AMP_britishindia = {
+				controller = { 
+					NOT = { tag = ING }
+					war = no
+					in_sphere = PRU
+					OR = {
+						neighbour = CHG
+						neighbour = PRU
+						neighbour = ING
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -500000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_britishindia
+					}
+					NOT = {
+						OR = {
+							tag = OST 
+							tag = ING 
+							tag = INR 
+							tag = INF 
+							tag = INA 
+							tag = INU 
+							tag = INJ 
+							tag = INI 
+							tag = INS 
+							tag = INH 
+							tag = IOT 
+							tag = ILA 
+							tag = INK 
+						}
+					}
+					in_sphere = PRU
+					war = no
+					OR = {
+						neighbour = PRU
+						neighbour = ING
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 150000
+					}
+				}
+				annex_to = ING
+			}
+			set_country_flag = has_trade_company
+			ING = { clr_country_flag = destroyed_trade_company }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   ############   NGF
+	NGF_getting_indian_company = {
+		potential = {
+			tag = NGF
+		}
+		allow = {
+			money = 500000
+			prestige = 100
+			war = no
+			AMP_britishindia = {
+				controller = { 
+					NOT = { tag = ING }
+					war = no
+					in_sphere = NGF
+					OR = {
+						neighbour = CHG
+						neighbour = NGF
+						neighbour = ING
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -500000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_britishindia
+					}
+					NOT = {
+						OR = {
+							tag = OST 
+							tag = ING 
+							tag = INR 
+							tag = INF 
+							tag = INA 
+							tag = INU 
+							tag = INJ 
+							tag = INI 
+							tag = INS 
+							tag = INH 
+							tag = IOT 
+							tag = ILA 
+							tag = INK
+						}
+					}
+					in_sphere = NGF
+					war = no
+					OR = {
+						neighbour = NGF
+						neighbour = ING
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 150000
+					}
+				}
+				annex_to = ING
+			}
+			set_country_flag = has_trade_company
+			ING = { clr_country_flag = destroyed_trade_company }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   ############   SGF
+	SGF_getting_indian_company = {
+		potential = {
+			tag = SGF
+		}
+		allow = {
+			money = 500000
+			prestige = 100
+			war = no
+			AMP_britishindia = {
+				controller = { 
+					NOT = { tag = INA }
+					war = no
+					in_sphere = SGF
+					OR = {
+						neighbour = CHH
+						neighbour = SGF
+						neighbour = INA
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -500000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_britishindia
+					}
+					NOT = {
+						OR = {
+							tag = OST 
+							tag = ING 
+							tag = INR 
+							tag = INF 
+							tag = INA 
+							tag = INU 
+							tag = INJ 
+							tag = INI 
+							tag = INS 
+							tag = INH 
+							tag = IOT 
+							tag = ILA 
+							tag = INK
+						}
+					}
+					in_sphere = SGF
+					war = no
+					OR = {
+						neighbour = SGF
+						neighbour = INA
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 150000
+					}
+				}
+				annex_to = INA
+			}
+			set_country_flag = has_trade_company
+			INA = { clr_country_flag = destroyed_trade_company }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   ############   SCA
+	SCA_getting_indian_company = {
+		potential = {
+			tag = SCA
+		}
+		allow = {
+			money = 500000
+			prestige = 100
+			war = no
+			AMP_britishindia = {
+				controller = { 
+					NOT = { tag = INK }
+					war = no
+					in_sphere = SCA
+					OR = {
+						neighbour = CHK
+						neighbour = SCA
+						neighbour = INK
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -500000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_britishindia
+					}
+					NOT = {
+						OR = {
+							tag = OST 
+							tag = ING 
+							tag = INR 
+							tag = INF 
+							tag = INA 
+							tag = INU 
+							tag = INJ 
+							tag = INI 
+							tag = INS 
+							tag = INH 
+							tag = IOT 
+							tag = ILA 
+							tag = INK
+						}
+					}
+					in_sphere = SCA
+					war = no
+					OR = {
+						neighbour = SCA
+						neighbour = INK
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 150000
+					}
+				}
+				annex_to = INK
+			}
+			set_country_flag = has_trade_company
+			INK = { clr_country_flag = destroyed_trade_company }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   ############   SWE
+	SWE_getting_indian_company = {
+		potential = {
+			tag = SWE
+		}
+		allow = {
+			money = 500000
+			prestige = 100
+			war = no
+			AMP_britishindia = {
+				controller = { 
+					NOT = { tag = INK }
+					war = no
+					in_sphere = SWE
+					OR = {
+						neighbour = CHK
+						neighbour = SWE
+						neighbour = INK
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -500000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_britishindia
+					}
+					NOT = {
+						OR = {
+							tag = OST 
+							tag = ING 
+							tag = INR 
+							tag = INF 
+							tag = INA 
+							tag = INU 
+							tag = INJ 
+							tag = INI 
+							tag = INS 
+							tag = INH 
+							tag = IOT 
+							tag = ILA 
+							tag = INK
+						}
+					}
+					in_sphere = SWE
+					war = no
+					OR = {
+						neighbour = SWE
+						neighbour = INK
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 150000
+					}
+				}
+				annex_to = INK
+			}
+			set_country_flag = has_trade_company
+			INK = { clr_country_flag = destroyed_trade_company }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

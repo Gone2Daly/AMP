@@ -1,0 +1,16 @@
+owner = CHI
+controller = CHI
+add_core = CHI
+add_core = HBI
+trade_goods = iron
+life_rating = 35
+state_building = {
+	level = 1
+	building = manufacture_steel
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_coal
+	upgrade = yes
+}

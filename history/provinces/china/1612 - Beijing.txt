@@ -1,0 +1,17 @@
+owner = CHI
+controller = CHI
+add_core = CHI
+add_core = BJG
+trade_goods = tea
+life_rating = 45
+fort = 1
+state_building = {
+	level = 1
+	building = manufacture_small_arms
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_ammunition
+	upgrade = yes
+}

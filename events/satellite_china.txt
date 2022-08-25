@@ -1,0 +1,18 @@
+#satellite_china
+country_event = {
+	id = 10000031
+	title = "TITLE10000031"
+	desc = "DESC10000031"
+	picture = ""
+	is_triggered_only = yes
+	immediate = {
+	}
+	option = {
+		name = "OPTION1_1000003" #
+		create_vassal = ENG
+	}
+	option = {
+		name = "OPTION2_1000003" #
+		country_event = 10000032
+	}
+}

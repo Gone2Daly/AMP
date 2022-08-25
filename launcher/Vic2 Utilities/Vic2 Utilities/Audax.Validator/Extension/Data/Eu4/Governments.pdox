@@ -1,0 +1,430 @@
+
+
+(Validator Governments) = {
+	Type = GroupValidator
+	FriendlyName = "Governmental"
+	
+	Validator = {
+		Type = Default
+		(FileGroup "common\governments" "*.txt")
+		ValidatorName = GovernmentFile
+	}
+	
+	Validator = {
+		Type = Default
+		(FileGroup "common\factions" "*.txt")
+		ValidatorName = FactionFile
+	}
+	
+	Validator = {
+		Type = Default
+		(FileGroup "common\ideas" "*.txt")
+		ValidatorName = IdeasFile
+	}
+	
+	Validator = {
+		Type = Default
+		(FileGroup "common\policies" "*.txt")
+		ValidatorName = PolicyFile
+	}
+	
+	Validator = {
+		Type = Default
+		(FileGroup "common\native_advancement" "*.txt")
+		ValidatorName = NativeIdeasFile
+	}
+	
+	Validator = {
+		Type = Default
+		(FileGroup "common\fervor" "*.txt")
+		ValidatorName = FervorFile
+	}
+	
+	Validator = {
+		Type = Default
+		(FileGroup "common\client_states" "*.txt")
+		ValidatorName = ClientStatesFile
+	}
+	
+	Validator = {
+		Type = Default
+		(FileGroup "common\custom_ideas" "*.txt")
+		ValidatorName = CustomIdeasFile
+	}
+	
+	Validator = {
+		Type = Default
+		(FileGroup "common\diplomatic_actions" "*.txt")
+		ValidatorName = DiplomaticActionsFile
+	}
+	
+	Validator = {
+		Type = Default
+		(FileGroup "common\government_names" "*.txt")
+		ValidatorName = GovernmentNamesFile
+	}
+	
+	Validator = {
+		Type = Default
+		(FileGroup "common\parliament_bribes" "*.txt")
+		ValidatorName = ParliamentBribesFile
+	}
+	
+	Validator = {
+		Type = Default
+		(FileGroup "common\parliament_issues" "*.txt")
+		ValidatorName = ParliamentIssuesFile
+	}
+	
+	Validator = {
+		Type = Default
+		(FileGroup "common\estates" "*.txt")
+		ValidatorName = EstateFile
+	}
+}
+
+(Type GovernmentFile) = {
+	(Ch N N) = { Left = { Type = String } Right = GovernmentDef UniqueId = Left }
+}
+
+(Type GovernmentDef) = {
+	(CheckKey "*" Left IfNot = NoCheckKey)
+	(CheckKey "*_ruler" Left IfNot = NoCheckKey)
+	(CheckKey "*_ruler_female" Left IfNot = NoCheckKey)
+	(CheckKey "*_desc" Left IfNot = NoCheckKey)
+	
+	Optional = { Left = "monarchy" Right = Bool }
+	Optional = { Left = "monastic" Right = Bool }
+	Optional = { Left = "valid_for_new_country" Right = Bool }
+	Optional = { Left = "republican_name" Right = Bool }
+	Optional = { Left = "republic" Right = Bool }
+	Optional = { Left = "dictatorship" Right = Bool }
+	Optional = { Left = "royal_marriage" Right = Bool }
+	Optional = { Left = "tribal" Right = Bool }
+	Optional = { Left = "allow_convert" Right = Bool }
+	Optional = { Left = "allow_vassal_alliance" Right = Bool }
+	Optional = { Left = "allow_vassal_war" Right = Bool }
+	Optional = { Left = "nomad" Right = Bool }
+	Optional = { Left = "religion" Right = Bool }
+	Optional = { Left = "papacy" Right = Bool }
+	Optional = { Left = "allow_westernize" Right = Bool }
+	Optional = { Left = "allow_migration" Right = Bool }
+	Optional = { Left = "native_mechanic" Right = Bool }
+	Optional = { Left = "boost_income" Right = Bool }
+	Optional = { Left = "dutch_mechanics" Right = Bool }
+	Optional = { Left = "is_elective" Right = Bool }
+	Optional = { Left = "can_use_trade_post" Right = Bool }
+	Optional = { Left = "rulers_can_be_generals" Right = Bool }
+	Optional = { Left = "can_form_trade_league" Right = Bool }
+	Optional = { Left = "heirs_can_be_generals" Right = Bool }
+
+	Optional = { Left = "duration" Right = Int }
+	Optional = { Left = "ai_importance" Right = Int }
+	Optional = { Left = "min_autonomy" Right = Int }
+	Optional = { Left = "max_states" Right = Int }
+	Optional = { Left = "color" Right = Color }
+
+	Optional = { Left = "ai_will_do" Right = AiWillDo }
+	
+	Optional = { Left = "valid_for_nation_designer" Right = Bool }
+	Optional = { Left = "nation_designer_cost" Right = Int }
+	Optional = { Left = "nation_designer_trigger" Right = CountryTrigger }
+	
+	(Ch N Y) = { Left = "faction" Right = Faction }
+	
+	Optional = { Left = "fixed_rank" Right = GovernmentRank }
+	Single = { Left = "rank" Right = {
+		(Ch Y N) = { Left = { Type = GovernmentRank } Right = CountryModifierDef }
+	} }
+	
+	Optional = { Left = "has_parliament" Right = Bool }
+	Optional = { Left = "free_city" Right = Bool }
+	Optional = { Left = "has_devotion" Right = Bool }
+	Optional = { Left = "unique_government" Right = Bool }
+	
+	Inherits = CountryModifierDef
+}
+
+(Type AiWillDo) = {
+	Optional = { Left = "factor" Right = NnDbl }
+	(Ch N Y) = { Left = "modifier" Right = Modifier }
+}
+
+(Type Modifier) = {
+	Inherits = FactorModifier
+	Optional = { Left = "factor" Right = NnDbl }
+	
+	Inherits = CountryTrigger
+	
+}
+
+(Type FervorFile) = {
+	(Ch N N) = { Left = { Type = String } Right = FervorDef UniqueId = Left }
+}
+
+(Type FervorDef) = {
+	(CheckKey "*" Left IfNot = NoCheckKey)
+	(CheckKey "*_short" Left IfNot = NoCheckKey)
+
+	Single = { Left = "cost" Right = Int }
+	Single = { Left = "effect" Right = CountryModifierDef }
+	Single = { Left = "ai_will_do" Right = AiWillDo }
+}
+
+(Type ClientStatesFile) = {
+	(Ch N N) = { Left = { Type = String } Right = ClientStateDef UniqueId = Left }
+}
+
+(Type ClientStateDef) = {
+	Optional = { Left = "region" Right = Region }
+	Optional = { Left = "area" Right = Area }
+	Optional = { Left = "province_group" Right = ProvinceGroup }
+	OneOf = { region area province_group }
+	AtMostOne = { region area province_group }
+	
+	(Ch N N) = { Left = "name" Right = ClientNameDef }
+}
+
+(Type ClientNameDef) = {
+	Single = { Left = "name" Right = Key }
+	Single = { Left = "trigger" Right = ClientNameCountryTrigger }
+}
+
+(Type ClientNameCountryTrigger) = {
+	ContextValidator = ClientNameCountryTrigger
+}
+
+(ContextValidator ClientNameCountryTrigger) = {
+	Inherits = CountryTrigger
+	FromTarget = Country
+}
+
+(Type CustomIdeasFile) = {
+	(Ch N N) = { Left = { Type = String } Right = CustomIdeaGroupDef UniqueId = Left }
+}
+
+(Type CustomIdeaGroupDef) = {
+	Single = { Left = "category" Right = Trait }
+	(Ch N N) = {
+		Left = { Type = String }
+		Right = CustomIdeaDef
+		UniqueId = Left
+		(CheckKey "*" Left IfNot = NoCheckKey)
+		(CheckKey "*_desc" Left IfNot = NoCheckKey)
+	}
+	
+}
+
+(Type CustomIdeaDef) = {
+	Optional = { Left = "max_level" Right = Int }
+	Optional = { Left = "default" Right = Int }
+	(Ch Y N) = { Left = { Type = LevelCostString } Right = Int }
+	Optional = { Left = "chance" Right = AiWillDo }
+	
+	CheckLevelCostInRange
+
+	Inherits = CountryModifierDef
+}
+
+(Type DiplomaticActionsFile) = {
+	(Ch N N) = { Left = { Type = String } Right = DiplomaticActionDef UniqueId = Left }
+}
+
+(Type DiplomaticActionDef) = {
+	(Ch N Y) = { Left = "condition" Right = {
+		Single = { Left = "tooltip" Right = Key }
+		Single = { Left = "potential" Right = ClientNameCountryTrigger }
+		Single = { Left = "allow" Right = ClientNameCountryTrigger }
+	} }
+	
+	Optional = { Left = "effect" Right = CountryCommandFromCountry }
+}
+
+(Type CountryCommandFromCountry) = {
+	ContextValidator = CountryCommandFromCountry
+}
+
+(ContextValidator CountryCommandFromCountry) = {
+	Inherits = CountryCommand
+	FromTarget = Country
+}
+
+(Type GovernmentNamesFile) = {
+	(Ch N N) = {
+		Left = { Type = String }
+		Right = GovernmentNamesDef
+		(UniqueId IfNot = GovernmentNames.NoCheckUniqueKey) = Left
+	}
+}
+
+(Type GovernmentNamesDef) = {
+	# If GovernmentNames.NoCheckUniqueKey is set should these be optional?
+	Single = { Left = "rank" Right = RankList }
+	Single = { Left = "ruler_male" Right = RankList }
+	Single = { Left = "ruler_female" Right = RankList }
+	Single = { Left = "trigger" Right = CountryTrigger }
+}
+
+(Type RankList) = {
+	(Ch Y N) = { Left = { Type = GovernmentRank } Right = Key }
+}
+
+(Type ParliamentBribesFile) = {
+	(Ch N N) = {
+		Left = { Type = String }
+		Right = ParliamentBribeDef
+		UniqueId = Left
+		(CheckKey "*" Left IfNot = NoCheckKey)
+	}
+
+}
+
+(Type ParliamentBribeDef) = {
+	Single = { Left = "trigger" Right = CountryTriggerProvFrom }
+	Single = { Left = "effect" Right = CountryCommandProvFrom }
+	Single = { Left = "ai_will_do" Right = AiWillDo }
+}
+
+(Type CountryCommandProvFrom) = {
+	ContextValidator = CountryCommandProvFrom
+}
+
+(ContextValidator CountryCommandProvFrom) = {
+	Inherits = CountryCommand
+	FromTarget = Province
+}
+
+(Type CountryTriggerProvFrom) = {
+	ContextValidator = CountryTriggerProvFrom
+}
+
+(ContextValidator CountryTriggerProvFrom) = {
+	Inherits = CountryTrigger
+	FromTarget = Province
+}
+
+(Type ParliamentIssuesFile) = {
+	(Ch N N) = {
+		Left = { Type = String }
+		Right = ParliamentIssuesDef
+		UniqueId = Left
+		(CheckKey "*" Left IfNot = NoCheckKey)
+	}
+}
+
+(Type ParliamentIssuesDef) = {
+	Single = { Left = "category" Right = PInt }
+	Single = { Left = "allow" Right = CountryTrigger }
+	Single = { Left = "effect" Right = CountryCommand }
+	Single = { Left = "modifier" Right = CountryModifierDef }
+	Single = { Left = "ai_will_do" Right = AiWillDo }
+	Optional = { Left = "on_issue_taken" Right = CountryCommand }
+	Optional = { Left = "chance" Right = AiWillDo }
+
+}
+
+
+
+(Type EstateFile) = {
+	(Ch N N) = { Left = { Type = String } Right = EstateDef UniqueId = Left }
+}
+
+(Type EstateDef) = {
+	(CheckKey "*" Left IfNot = NoCheckKey)
+	(CheckKey "*_desc" Left IfNot = NoCheckKey)
+	
+	Single = { Left = "icon" Right = { IconRef = GFX_estates_icons } }
+	Single = { Left = "color" Right = Color }
+	
+	Optional = { Left = "keep_on_conquest" Right = Bool }
+	Optional = { Left = "always_remove_on_religious_conquest" Right = Bool }
+	
+	Optional = { Left = "min_territory" Right = NnInt }
+	Optional = { Left = "min_provinces_to_want_territory" Right = NnInt }
+	(Ch N Y) = { Left = "wanted_territory_modifier" Right = {
+		Single = { Left = "desc" Right = Key }
+		Single = { Left = "trigger" Right = CountryTrigger }
+		Single = { Left = "value" Right = Int }
+	} }
+	
+	Single = { Left = "trigger" Right = CountryTrigger }
+	Single = { Left = "province_trigger" Right = ProvinceTrigger }
+	
+	Optional = { Left = "independence_trigger" Right = ProvinceTrigger }
+	Optional = { Left = "territory_power_modifier" Right = Double }
+	Optional = { Left = "independence_government" Right = Government }
+	Optional = { Left = "independence_tech_group" Right = TechGroup }
+	
+	Single = { Left = "min_autonomy" Right = NnInt }
+	
+	Single = { Left = "country_modifier_happy" Right = CountryModifierDef }
+	Single = { Left = "country_modifier_neutral" Right = CountryModifierDef }
+	Single = { Left = "country_modifier_angry" Right = CountryModifierDef }
+	
+	Single = { Left = "province_modifier_happy" Right = ProvinceModifierDef }
+	Single = { Left = "province_modifier_neutral" Right = ProvinceModifierDef }
+	Single = { Left = "province_modifier_angry" Right = ProvinceModifierDef }
+	
+	(Ch N Y) = { Left = "autonomy_does_not_affect" Right = { ProvinceModifierDoubleKey CountryModifierDoubleKey } }
+	
+	Optional = { Left = "raze_power_gain" Right = Double }
+	
+	Single = { Left = "base_influence" Right = Int }
+	(Ch N Y) = { Left = "influence_modifier" Right = {
+		Single = { Left = "desc" Right = Key }
+		Single = { Left = "trigger" Right = CountryTrigger }
+		Single = { Left = "influence" Right = Int }
+	} }
+	
+	(Ch N Y) = { Left = "loyalty_modifier" Right = {
+		Single = { Left = "desc" Right = Key }
+		Single = { Left = "trigger" Right = CountryTrigger }
+		Single = { Left = "loyalty" Right = Int }
+	} }
+	
+	(Ch N Y) = { Left = "ai_territory_modifier" Right = {
+		Single = { Left = "trigger" Right = CountryTrigger }
+		Single = { Left = "value" Right = Int }
+	} }
+	
+	(Ch N Y) = { Left = "custom_name" Right = {
+		Single = { Left = "desc" Right = Key }
+		Single = { Left = "trigger" Right = CountryTrigger }
+	} }
+	
+	Single = { Left = "ai_grant_province" Right = {
+		Optional = { Left = "factor" Right = NnDbl }
+		(Ch N Y) = { Left = "modifier" Right = {
+			Inherits = FactorModifier
+			Single = { Left = "factor" Right = NnDbl }
+			
+			Inherits = ProvinceTrigger
+		} }
+	} }
+	
+	(Ch N Y) = { Left = "interaction" Right = {
+		Single = { Left = "name" Right = Key }
+		Single = { Left = "icon" Right = { IconRef = interaction } }
+		Single = { Left = "years_between_use" Right = PInt }
+		Single = { Left = "trigger" Right = CountryTrigger }
+		Single = { Left = "effect" Right = CountryCommand }
+		Optional = { Left = "potential" Right = CountryTrigger }
+		Single = { Left = "ai_will_do" Right = {
+			Optional = { Left = "factor" Right = NnDbl }
+			(Ch N Y) = { Left = "modifier" Right = {
+				Inherits = FactorModifier
+				Single = { Left = "factor" Right = NnDbl }
+				
+				Inherits = CountryTrigger
+			} }
+		} }
+	} }
+}
+
+
+
+
+
+
+
+

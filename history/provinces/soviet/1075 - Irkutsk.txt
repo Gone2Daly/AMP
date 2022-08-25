@@ -1,0 +1,15 @@
+owner = RUS
+controller = RUS
+add_core = RUS
+trade_goods = coal
+life_rating = 40
+state_building = {
+	level = 1
+	building = manufacture_iron
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_coal
+	upgrade = yes
+}

@@ -1,0 +1,15 @@
+owner = NEJ
+controller = NEJ
+add_core = NEJ
+trade_goods = wool
+life_rating = 40
+state_building = {
+	level = 1
+	building = manufacture_regular_clothes
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_furniture
+	upgrade = yes
+}

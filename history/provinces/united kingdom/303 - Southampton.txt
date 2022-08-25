@@ -1,0 +1,20 @@
+owner = ENG
+controller = ENG
+add_core = ENG
+trade_goods = fish
+life_rating = 42
+naval_base = 2
+1861.1.1 = { 
+	railroad = 3 
+	naval_base = 4 #Portsmouth
+}
+state_building = {
+	level = 1
+	building = manufacture_explosives
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_artillery
+	upgrade = yes
+}

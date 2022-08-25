@@ -1,0 +1,15 @@
+trade_goods = cattle
+life_rating = 40
+owner = USA
+controller = USA
+add_core = USA
+state_building = {
+	level = 1
+	building = manufacture_regular_clothes
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_luxury_clothes
+	upgrade = yes
+}

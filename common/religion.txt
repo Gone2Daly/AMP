@@ -1,0 +1,48 @@
+# If you add religions, and use those tags, do not change them without changing everywhere they are used.
+
+# Uses all 'modifiers' possible thats exported as a Modifier.
+
+indoeuropean = {
+	latin-german = {
+		icon = 1
+		color = { 248 248 255 }
+	}
+	slav = {
+		icon = 2
+		color = { 238 213 210 }
+	}
+	arabi-turk = {
+		icon = 3
+		color = { 202 255 112 }
+	}
+	jewish = {
+		icon = 4
+		color = { 175 238 238 }
+	}	
+	hindu = {
+		color = { 238 154 73 }
+		icon = 5
+	}
+}
+panasian = {
+	mongoloid = {
+		color = { 255 246 143 }
+		icon = 6
+	}
+	malay = {
+		color = { 238 154 73 }
+		icon = 7
+	}
+}
+panafrican = {
+	negroid = {
+		icon = 8
+		color = { 28 28 28 }
+	}
+}
+american = {
+	american_native = {
+		icon = 9
+		color = { 255 222 173 }
+	}
+}

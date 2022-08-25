@@ -1,0 +1,31 @@
+owner = SIN
+controller = SIN
+add_core = SIN
+add_core = HND
+trade_goods = fruit
+life_rating = 45
+1861.1.1 = {
+	owner = OST
+	controller = OST
+	colonial = 2
+	railroad = 2 
+}
+
+1914.1.1 = {
+	owner = OST
+	controller = OST
+	add_core = PAK
+	remove_core = HND
+	
+	naval_base = 3
+}
+state_building = {
+	level = 1
+	building = manufacture_wine
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_glass
+	upgrade = yes
+}

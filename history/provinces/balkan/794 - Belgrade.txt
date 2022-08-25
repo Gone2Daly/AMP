@@ -1,0 +1,17 @@
+owner = SER
+controller = SER
+add_core = SER
+add_core = YUG
+trade_goods = grain
+life_rating = 45
+#terrain = good_farmland
+state_building = {
+	level = 1
+	building = manufacture_small_arms
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_liquor
+	upgrade = yes
+}

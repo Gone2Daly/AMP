@@ -1,0 +1,50 @@
+monitor = {
+	icon = 10
+	naval_icon = 7
+	
+	type = naval
+	sprite = Monitor
+	unit_type = big_ship
+	floating_flag = yes
+	active = no
+	move_sound = steam_move
+	select_sound = steam_selected
+	colonial_points = 10
+
+
+	#Core Abilities
+	priority = 30
+	max_strength = 100
+	default_organisation = 30
+	maximum_speed = 6 #10
+	weighted_value = 10.0
+	can_build_overseas = yes
+
+	#Building Costs
+	build_time = 1040
+	build_cost = {
+		steamer_convoy = 30 #1950
+		artillery = 10 #800
+		canned_food = 10 #10
+		#2760
+	}
+	min_port_level = 2
+	limit_per_port = -1
+	supply_consumption_score = 0
+	
+	supply_consumption = 1.0
+	supply_cost = {
+		steamer_convoy = 0.3 #13
+		artillery = 0.3 #12
+		canned_food = 0.4 #5.4
+		#28
+	}
+	
+	#Naval Abilties
+	hull = 20
+	gun_power = 30
+	fire_range = 0.55
+	evasion = 0
+	torpedo_attack = 0
+}
+

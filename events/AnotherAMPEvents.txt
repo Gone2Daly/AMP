@@ -1,0 +1,39 @@
+##ID 11300000-11400000
+
+province_event = {
+	
+	id = 11300001
+	title = "EVTNAME11300001"
+	desc = "EVTDESC11300001"
+	picture = "Celebration"
+	fire_only_once = yes
+
+	trigger = {
+		exists = ITA
+		or = {
+			province_id = 750			# Viterbo
+			province_id = 748			# Grocetto
+			province_id = 2567			# Geto
+			province_id = 732			# Udine
+		}
+		not = { trade_goods = tobacco }
+	}
+
+	mean_time_to_happen =  {
+		months = 24
+	}
+
+	option = {
+		name = "EVTOPTA11300001"
+		trade_goods = tobacco
+        any_pop = {
+			militancy = 3
+			consciousness = 2
+		}
+	}
+
+    option = {
+		name = "EVTOPTB11300001"
+		prestige = 15
+	}
+}

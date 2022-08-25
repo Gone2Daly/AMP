@@ -1,0 +1,1975 @@
+#army_doctrine
+post_napoleonic_thought = {
+	area = army_doctrine
+	year = 1836
+	cost = 3000
+	unciv_military = yes
+		infantry = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		colinfantry = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		guard = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		irregular = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		cuirassier = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		dragoon = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		hussar = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		cavalry = {
+			attack = 0.5
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		engineer = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#infantry 4 4
+	#colinfantry 3 3
+	#guard 5 5
+	#irregular 3 3
+}
+
+strategic_mobility = {
+	area = army_doctrine
+	year = 1836
+	cost = 6000
+	unciv_military = yes
+		activate_unit = guard
+		infantry = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		colinfantry = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		guard = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		irregular = {
+			attack = 0.5
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+			cuirassier = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		dragoon = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		hussar = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		cavalry = {
+			attack = 0.5
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		engineer = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#infantry 5 5
+	#colinfantry 4 4
+	#guard 6 6
+	#irregular 3.5 3.5
+}
+
+point_defense_system = {
+	area = army_doctrine
+	year = 1836
+	cost = 9000
+	unciv_military = yes
+		infantry = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		colinfantry = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		guard = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		irregular = {
+			attack = 0.5
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+			dragoon = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		hussar = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		cavalry = {
+			attack = 0.5
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		engineer = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+	ai_chance = {
+		factor = 2.0
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#infantry 6 6
+	#colinfantry 5 5
+	#guard 7 7
+	#irregular 4 4
+
+}
+army_doctrine_1 = {
+	area = army_doctrine
+	year = 1850
+	cost = 12000
+	unciv_military = yes
+		infantry = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		colinfantry = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		guard = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		irregular = {
+			attack = 0.5
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+			dragoon = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		hussar = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		cavalry = {
+			attack = 0.5
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		engineer = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+	ai_chance = {
+		factor = 2.0
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#infantry 7 7
+	#colinfantry 6 6
+	#guard 8 8
+	#irregular 5 5
+
+}
+deep_defense_system = {
+	area = army_doctrine
+	year = 1865
+	cost = 15000
+	unciv_military = yes
+		infantry = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		colinfantry = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		guard = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		irregular = {
+			attack = 0.5
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+			dragoon = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		hussar = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		cavalry = {
+			attack = 0.5
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		engineer = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+	ai_chance = {
+		factor = 2.0
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#infantry 8 8
+	#colinfantry 7 7
+	#guard 9 9
+	#irregular 6 6
+}
+army_doctrine_2 = {
+	area = army_doctrine
+	year = 1880
+	cost = 18000
+	unciv_military = yes
+		infantry = {
+			attack = 1
+			defence = 2
+			supply_consumption = 0.15
+		}
+		colinfantry = {
+			attack = 1
+			defence = 2
+			supply_consumption = 0.15
+		}
+		guard = {
+			attack = 1
+			defence = 2
+			supply_consumption = 0.15
+		}
+		irregular = {
+			attack = 0.5
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+			dragoon = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		hussar = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		cavalry = {
+			attack = 0.5
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		engineer = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		unit = 1
+	ai_chance = {
+		factor = 2.0
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#infantry 9 9
+	#colinfantry 8 8
+	#guard 10 10
+	#irregular 7 7
+}
+infiltration = {
+	area = army_doctrine
+	year = 1895
+	cost = 21000
+	unciv_military = yes
+		infantry = {
+			attack = 2
+			defence = 1
+			supply_consumption = 0.15
+		}
+		colinfantry = {
+			attack = 2
+			defence = 1
+			supply_consumption = 0.15
+		}
+		guard = {
+			attack = 2
+			defence = 1
+			supply_consumption = 0.15
+		}
+		irregular = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+			dragoon = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		hussar = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		cavalry = {
+			attack = 0.5
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		engineer = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#infantry 10 10
+	#colinfantry 9 9
+	#guard 11 11
+	#irregular 8 8
+
+}
+modern_army_doctrine = {
+	area = army_doctrine
+	year = 1910
+	cost = 24000
+	unciv_military = yes
+		infantry = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		colinfantry = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		guard = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		irregular = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		cuirassier = {
+			attack = 0.5
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		dragoon = {
+			attack = 0.5
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		hussar = {
+			attack = 0.5
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		cavalry = {
+			attack = 0.5
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		engineer = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#infantry 11 11
+	#colinfantry 10 10
+	#guard 12 12
+	#irregular 9 9
+}
+army_doctrine_3 = {
+	area = army_doctrine
+	year = 1925
+	cost = 27000
+	unciv_military = yes
+		infantry = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		colinfantry = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		guard = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		irregular = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		cuirassier = {
+			attack = 0.5
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		dragoon = {
+			attack = 0.5
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		hussar = {
+			attack = 0.5
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		cavalry = {
+			attack = 0.5
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		engineer = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		unit = 2
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#infantry 12 12
+	#colinfantry 11 11
+	#guard 13 13
+	#irregular 10 10
+
+}
+army_doctrine_4 = {
+	area = army_doctrine
+	year = 1940
+	cost = 30000
+	unciv_military = yes
+		infantry = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		colinfantry = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		guard = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		irregular = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		engineer = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		motorized_infantry = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		plane = {
+			attack = 10
+			supply_consumption = 0.15
+		}
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#infantry 13 13
+	#colinfantry 12 12
+	#guard 14 14
+	#irregular 11 11 
+
+}
+army_doctrine_5 = {
+	area = army_doctrine
+	year = 1955
+	cost = 33000
+	unciv_military = yes
+		infantry = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		colinfantry = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		guard = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		irregular = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		engineer = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		motorized_infantry = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		plane = {
+			attack = 10
+			supply_consumption = 0.15
+		}
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#infantry 14 14
+	#colinfantry 13 13
+	#guard 15 15
+	#irregular 12 12
+
+}
+army_doctrine_6 = {
+	area = army_doctrine
+	year = 1970
+	cost = 36000
+	unciv_military = yes
+		infantry = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		colinfantry = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		guard = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		irregular = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		engineer = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		motorized_infantry = {
+			attack = 1
+			defence = 1
+			supply_consumption = 0.15
+		}
+		plane = {
+			attack = 10
+			supply_consumption = 0.15
+		}
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#infantry 15 15
+	#colinfantry 14 14
+	#guard 16 16
+	#irregular 13 13
+
+}
+
+#light_armament
+flintlock_rifles = {
+	area = light_armament
+	year = 1836
+	cost = 3000
+	unciv_military = yes
+		army_base = {
+		maximum_speed = 0.25
+	}
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	
+}
+muzzle_loaded_rifles = {
+	area = light_armament
+	year = 1836
+	cost = 6000
+	unciv_military = yes
+	army_base = {
+		maximum_speed = 0.25
+	}
+	unit_recruitment_time = -0.05
+	dragoon = {
+		reconnaissance = 1
+	}
+	hussar = {
+		reconnaissance = 1
+	}
+	engineer = {
+		reconnaissance = 1
+	}
+		engineer = {
+			defence = 1
+		}
+		activate_unit = engineer
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	
+}
+breech_loaded_rifles = {
+	area = light_armament
+	year = 1836
+	cost = 9000
+	unciv_military = yes
+		army_base = {
+		maximum_speed = 0.25
+	}
+	unit_recruitment_time = -0.05
+	dragoon = {
+		maneuver = 1
+	}
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	
+}
+light_armament_1 = {
+	area = light_armament
+	year = 1850
+	cost = 12000
+		army_base = {
+		maximum_speed = 0.25
+	}
+	unit_recruitment_time = -0.05
+	dragoon = {
+		reconnaissance = 1
+	}
+	hussar = {
+		reconnaissance = 1
+	}
+
+	unciv_military = yes
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	
+}
+machine_guns = {
+	area = light_armament
+	year = 1865
+	cost = 15000
+	unciv_military = yes
+		army_base = {
+		maximum_speed = 0.25
+	}
+	unit_recruitment_time = -0.05
+	dragoon = {
+		reconnaissance = 0.5
+	}
+	hussar = {
+		reconnaissance = 0.5
+	}
+	engineer = {
+			defence = 0.5
+		}
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+
+	
+}
+light_armament_2 = {
+	area = light_armament
+	year = 1880
+	cost = 18000
+	unciv_military = yes
+		army_base = {
+		maximum_speed = 0.25
+	}
+	unit_recruitment_time = -0.05
+	dragoon = {
+		reconnaissance = 0.5
+	}
+	hussar = {
+		reconnaissance = 0.5
+	}
+	engineer = {
+			defence = 0.5
+		}
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	
+	
+}
+bolt_action_rifles = {
+	area = light_armament
+	year = 1895
+	cost = 21000
+	unciv_military = yes
+		army_base = {
+		maximum_speed = 0.25
+	}
+	unit_recruitment_time = -0.05
+	dragoon = {
+		reconnaissance = 0.5
+	}
+	hussar = {
+		reconnaissance = 0.5
+	}
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#cuirassier 10 10
+	#dragoon 11 11
+	#hussar 11 9
+	#cavalry 6.5 5.5
+	#engineer 9 13
+}
+modern_divisional_structure = {
+	area = light_armament
+	year = 1910
+	cost = 24000
+	unciv_military = yes
+		army_base = {
+		maximum_speed = 0.25
+		reconnaissance = 2
+	}
+		activate_unit = plane
+		
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#cuirassier 10.5 10.5
+	#dragoon 11.5 11.5
+	#hussar 11.5 9.5
+	#cavalry 7 6
+	#engineer 10 14
+}
+light_armament_3 = {
+	area = light_armament
+	year = 1925
+	cost = 27000
+		activate_unit = motorized_infantry
+		army_base = {
+		maximum_speed = 0.25
+		reconnaissance = 2
+	}
+	unit_recruitment_time = -0.05
+	unciv_military = yes
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#cuirassier 11 11
+	#dragoon 12 12
+	#hussar 12 10
+	#cavalry 7.5 6.5
+	#engineer 11 15
+	#motorized_infantry 14 14
+	#plane 5 50
+}
+light_armament_4 = {
+	area = light_armament
+	year = 1940
+	cost = 30000
+		army_base = {
+		maximum_speed = 0.25
+		reconnaissance = 2
+	}
+	unit_recruitment_time = -0.05
+	unciv_military = yes
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#engineer 12 16
+	#motorized_infantry 15 15
+	#plane 15 50
+}
+light_armament_5 = {
+	area = light_armament
+	year = 1955
+	cost = 33000
+		army_base = {
+		maximum_speed = 0.25
+		reconnaissance = 2
+	}
+	unit_recruitment_time = -0.05
+	unciv_military = yes
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#engineer 13 17
+	#motorized_infantry 16 16
+	#plane 25 50
+}
+light_armament_6 = {
+	area = light_armament
+	year = 1970
+	cost = 36000
+		army_base = {
+		maximum_speed = 0.25
+		reconnaissance = 2
+	}
+	unit_recruitment_time = -0.05
+	unciv_military = yes
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#engineer 14 18
+	#motorized_infantry 16 16
+	#plane 35 50
+}
+
+
+#heavy_armament
+bronze_muzzle_loaded_artillery = {
+	area = heavy_armament
+	year = 1836
+	cost = 3000
+	unciv_military = yes
+		activate_unit = light_artillery
+		light_artillery = {
+			attack = 0.3
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		commerce_raider = {
+			torpedo_attack = 3
+		}
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#light_artillery 1.3 2.5
+}
+iron_muzzle_loaded_artillery = {
+	area = heavy_armament
+	year = 1836
+	cost = 6000
+	unciv_military = yes
+		light_artillery = {
+			attack = 0.3
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		commerce_raider = {
+			torpedo_attack = 3
+		}
+	
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#light_artillery 1.6 3
+}
+iron_breech_loaded_artillery = {
+	area = heavy_armament
+	year = 1836
+	cost = 9000
+	unciv_military = yes
+		light_artillery = {
+			attack = 0.3
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		commerce_raider = {
+			torpedo_attack = 3
+		}
+		navy_base = {
+			supply_consumption = 0.15
+		}
+		
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#light_artillery 1.9 3
+}
+heavy_armament_1 = {
+	area = heavy_armament
+	year = 1850
+	cost = 12000
+	unciv_military = yes
+		activate_unit = artillery
+		artillery = {
+			attack = 0.3
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		light_artillery = {
+			attack = 0.3
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		monitor = {
+			gun_power = 5
+		}		
+		commerce_raider = {
+			fire_range = 0.15
+		}
+		navy_base = {
+			supply_consumption = 0.15
+		}
+	ai_chance = {
+		factor = 3
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#light_artillery 2.2 3.5
+	#artillery 3.2 4.5
+}
+steel_breech_loaded_artillery = {
+	area = heavy_armament
+	year = 1865
+	cost = 15000
+	unciv_military = yes
+		artillery = {
+			attack = 0.3
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		light_artillery = {
+			attack = 0.3
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		ironclad = {
+			gun_power = 6
+		}		
+		navy_base = {
+			supply_consumption = 0.15
+		}
+		
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#light_artillery 2.5 4
+	#artillery 3.5 5
+}
+heavy_armament_2 = {
+	area = heavy_armament
+	year = 1880
+	cost = 18000
+	unciv_military = yes
+		artillery = {
+			attack = 0.3
+			defence = 1
+			supply_consumption = 0.15
+		}
+		light_artillery = {
+			attack = 0.3
+			defence = 1
+			supply_consumption = 0.15
+		}
+		cruiser = {
+			torpedo_attack = 8
+			gun_power = 10
+		}		
+		navy_base = {
+			supply_consumption = 0.15
+		}
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#light_artillery 2.8 4.5
+	#artillery 3.8 5.5
+}
+indirect_artillery_fire = {
+	area = heavy_armament
+	year = 1895
+	cost = 21000
+	unciv_military = yes
+		artillery = {
+			attack = 0.3
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		light_artillery = {
+			attack = 0.3
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		battleship = {
+			gun_power = 15
+		}	
+		cruiser = {
+			torpedo_attack = 5
+		}
+		navy_base = {
+			supply_consumption = 0.15
+		}
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#light_artillery 3.1 5
+	#artillery 4.1 6
+}
+heavy_armament_dunno = {
+	area = heavy_armament
+	year = 1910
+	cost = 24000
+	unciv_military = yes
+		artillery = {
+			attack = 0.3
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		light_artillery = {
+			attack = 0.3
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		dreadnought = {
+			hull = 40
+			gun_power = 20
+		}	
+		navy_base = {
+			supply_consumption = 0.15
+		}
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#light_artillery 3.4 5.5
+	#artillery 4.4 6.5
+}
+heavy_armament_3 = {
+	area = heavy_armament
+	year = 1925
+	cost = 27000
+	unciv_military = yes
+		activate_unit = mobile_artillery
+		activate_building = barrel_factory 
+		artillery = {
+			attack = 0.3
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		light_artillery = {
+			attack = 0.3
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		ironclad = {
+			hull = 11
+			gun_power = 11
+		}		
+		navy_base = {
+			supply_consumption = 0.15
+		}
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#light_artillery 3.7 6
+	#artillery 4.7 7
+	#mobile_artillery 5 7.5
+	#tank 15 20
+}
+heavy_armament_4 = {
+	area = heavy_armament
+	year = 1940
+	cost = 30000
+	unciv_military = yes
+		artillery = {
+			attack = 0.3
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		light_artillery = {
+			attack = 0.3
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		mobile_artillery = {
+			attack = 0.3
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		tank = {
+			attack = 1
+			defence = 2
+			supply_consumption = 0.15
+		}
+		ironclad = {
+			hull = 11
+			gun_power = 11
+		}		
+		navy_base = {
+			supply_consumption = 0.15
+		}
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#light_artillery 4 6.5
+	#artillery 5 7.5
+	#mobile_artillery 5.3 8
+	#tank 16 22
+}
+heavy_armament_5 = {
+	area = heavy_armament
+	year = 1955
+	cost = 33000
+	unciv_military = yes
+		artillery = {
+			attack = 0.3
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		light_artillery = {
+			attack = 0.3
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		mobile_artillery = {
+			attack = 0.3
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		tank = {
+			attack = 1
+			defence = 2
+			supply_consumption = 0.15
+		}
+		ironclad = {
+			hull = 11
+			gun_power = 11
+		}		
+		navy_base = {
+			supply_consumption = 0.15
+		}
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#light_artillery 4.3 7
+	#artillery 5.3 8
+	#mobile_artillery 5.6 8.5
+	#tank 17 24
+}
+heavy_armament_6 = {
+	area = heavy_armament
+	year = 1970
+	cost = 36000
+	unciv_military = yes
+		artillery = {
+			attack = 0.3
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		light_artillery = {
+			attack = 0.3
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		mobile_artillery = {
+			attack = 0.3
+			defence = 0.5
+			supply_consumption = 0.15
+		}
+		tank = {
+			attack = 1
+			defence = 2
+			supply_consumption = 0.15
+		}
+		ironclad = {
+			hull = 11
+			gun_power = 11
+		}		
+		navy_base = {
+			supply_consumption = 0.15
+		}
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			war = yes
+		}
+	}
+	#light_artillery 4.6 7.5
+	#artillery 5.6 8.5
+	#mobile_artillery 5.9 9
+	#tank 18 26
+}
+
+
+#military_science
+military_staff_system = {
+	area = military_science
+	year = 1836
+	cost = 3000
+	unciv_military = yes
+	activate_building = fort
+	supply_range = 0.10
+	soldier_to_pop_loss = 0.01
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+military_plans = {
+	area = military_science
+	year = 1836
+	cost = 6000
+	unciv_military = yes
+	
+	supply_range = 0.10
+	dig_in_cap = 1
+	soldier_to_pop_loss = 0.01
+		engineer = {
+			siege = 0.2
+		}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+military_statistics = {
+	area = military_science
+	year = 1836
+	cost = 9000
+	unciv_military = yes
+	
+	supply_range = 0.10
+	dig_in_cap = 1
+	soldier_to_pop_loss = 0.01
+		engineer = {
+			siege = 0.2
+		}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+military_science_1 = {
+	area = military_science
+	year = 1850
+	cost = 12000
+	unciv_military = yes
+	
+	supply_range = 0.10
+	dig_in_cap = 1
+	soldier_to_pop_loss = 0.01
+		engineer = {
+			siege = 0.2
+		}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+military_logistics = {
+	area = military_science
+	year = 1865
+	cost = 15000
+	unciv_military = yes
+	
+	supply_range = 0.10
+	dig_in_cap = 1
+	soldier_to_pop_loss = 0.01
+		engineer = {
+			siege = 0.2
+		}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+military_science_2 = {
+	area = military_science
+	year = 1880
+	cost = 18000
+	unciv_military = yes
+	
+	supply_range = 0.10
+	dig_in_cap = 1
+	soldier_to_pop_loss = 0.01
+		engineer = {
+			siege = 0.2
+		}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+military_directionism = {
+	area = military_science
+	year = 1895
+	cost = 21000
+	unciv_military = yes
+	
+	supply_range = 0.10
+	soldier_to_pop_loss = 0.01
+		engineer = {
+			siege = 0.4
+		}
+
+	ai_chance = {
+		factor = 1
+	}
+}
+aeronautics = {
+	area = military_science
+	year = 1910
+	cost = 24000
+	
+	supply_range = 0.10
+	soldier_to_pop_loss = 0.01
+		engineer = {
+			siege = 0.8
+		}
+	
+	unciv_military = yes
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+military_science_3 = {
+	area = military_science
+	year = 1925
+	cost = 27000
+	unciv_military = yes
+	
+	supply_range = 0.10
+	dig_in_cap = 1
+	soldier_to_pop_loss = 0.01
+		engineer = {
+			siege = 1
+		}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+military_science_4 = {
+	area = military_science
+	year = 1940
+	cost = 30000
+	unciv_military = yes
+	
+	supply_range = 0.10
+	dig_in_cap = 1
+	soldier_to_pop_loss = 0.01
+		engineer = {
+			siege = 1
+		}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+military_science_5 = {
+	area = military_science
+	year = 1955
+	cost = 33000
+	unciv_military = yes
+	
+	supply_range = 0.10
+	dig_in_cap = 1
+	soldier_to_pop_loss = 0.01
+		engineer = {
+			siege = 1
+		}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+military_science_6 = {
+	area = military_science
+	year = 1970
+	cost = 36000
+	unciv_military = yes
+	
+	supply_range = 0.10
+	dig_in_cap = 1
+	soldier_to_pop_loss = 0.01
+		engineer = {
+			siege = 1
+		}
+	
+	ai_chance = {
+		factor = 1
+	}
+}
+
+
+#army_leadership
+army_command_principle = {
+	area = army_leadership
+	year = 1836
+	cost = 3000
+
+	activate_building = naval_base 
+
+	ai_chance = {
+		factor = 3
+	}
+}
+army_professionalism = {
+	area = army_leadership
+	year = 1836
+	cost = 6000
+	unciv_military = yes
+	
+	activate_building = steamer_shipyard 
+	
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 10
+		}
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 20
+		}
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 30
+		}
+		modifier = {
+			factor = 0.01
+			NOT = {
+				year = 1845
+			}
+			OR = {
+				tag = RUS
+				tag = TUR
+				tag = SPA
+			}
+		}
+	}
+}
+army_decision_making = {
+	area = army_leadership
+	year = 1836
+	cost = 9000
+	unciv_military = yes
+	
+	activate_unit = commerce_raider 
+
+	steam_transport = {
+		maximum_speed = 2 #10
+	}
+	commerce_raider = {
+		maximum_speed = 2 #12
+	}
+	
+	
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 10
+		}
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 20
+		}
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 30
+		}
+	}
+}
+army_leadership_1 = {
+	area = army_leadership
+	year = 1850
+	cost = 12000
+	unciv_military = yes
+	
+	activate_unit = monitor 
+	
+	steam_transport = {
+		maximum_speed = 2 #12
+	}
+	commerce_raider = {
+		maximum_speed = 2 #14
+	}
+	monitor = {
+		maximum_speed = 2 #8
+	}	
+	
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 10
+		}
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 20
+		}
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 30
+		}
+	}
+}
+army_leadership_2 = {
+	area = army_leadership
+	year = 1865
+	cost = 15000
+	unciv_military = yes
+	
+	activate_unit = ironclad 
+	
+	steam_transport = {
+		maximum_speed = 2 #14
+	}
+	commerce_raider = {
+		maximum_speed = 2 #16
+	}
+	monitor = {
+		maximum_speed = 2 #8
+	}
+	ironclad = {
+		maximum_speed = 2 #11
+	}
+	
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 10
+		}
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 20
+		}
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 30
+		}
+	}
+}
+army_risk_management = {
+	area = army_leadership
+	year = 1880
+	cost = 18000
+	unciv_military = yes
+	
+	activate_unit = cruiser
+	
+	steam_transport = {
+		maximum_speed = 2 #16
+	}
+	commerce_raider = {
+		maximum_speed = 2 #18
+	}
+	monitor = {
+		maximum_speed = 2 #10
+	}
+	ironclad = {
+		maximum_speed = 2 #13
+	}
+	cruiser = {
+		maximum_speed = 2 #22
+	}
+	
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 10
+		}
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 20
+		}
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 30
+		}
+	}
+}
+army_nco_training = {
+	area = army_leadership
+	year = 1895
+	cost = 21000
+	unciv_military = yes
+	
+	activate_unit = battleship 
+	
+	steam_transport = {
+		maximum_speed = 2 #18
+	}
+	commerce_raider = {
+		maximum_speed = 2 #20
+	}
+	ironclad = {
+		maximum_speed = 2 #15
+	}
+	cruiser = {
+		maximum_speed = 2 #24
+	}
+	
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 10
+		}
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 20
+		}
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 30
+		}
+	}
+}
+great_war_experience = {
+	area = army_leadership
+	year = 1910
+	cost = 24000
+	unciv_military = yes
+	
+	activate_unit = dreadnought 
+	
+	steam_transport = {
+		maximum_speed = 2 #20
+	}
+	commerce_raider = {
+		maximum_speed = 2 #22
+	}
+	battleship = {
+		maximum_speed = 2 #18
+	}
+	dreadnought = {
+		maximum_speed = 2 #16
+	}
+	
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 10
+		}
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 20
+		}
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 30
+		}
+	}
+}
+army_leadership_3 = {
+	area = army_leadership
+	year = 1925
+	cost = 27000
+	unciv_military = yes
+	
+
+	navy_base = {
+		maximum_speed = 1
+	}
+		
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 10
+		}
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 20
+		}
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 30
+		}
+	}
+}
+army_leadership_4 = {
+	area = army_leadership
+	year = 1940
+	cost = 30000
+	unciv_military = yes
+	
+	navy_base = {
+		maximum_speed = 1
+	}
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 10
+		}
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 20
+		}
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 30
+		}
+	}
+}
+army_leadership_5 = {
+	area = army_leadership
+	year = 1955
+	cost = 33000
+	unciv_military = yes
+	
+	navy_base = {
+		maximum_speed = 1
+	}
+	
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 10
+		}
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 20
+		}
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 30
+		}
+	}
+}
+army_leadership_6 = {
+	area = army_leadership
+	year = 1970
+	cost = 36000
+	unciv_military = yes
+	
+	navy_base = {
+		maximum_speed = 1
+	}
+
+	
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 10
+		}
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 20
+		}
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 30
+		}
+	}
+}
+
+

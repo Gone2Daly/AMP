@@ -1,0 +1,13 @@
+owner = KOK
+controller = KOK
+add_core = KOK
+add_core = KAZ
+trade_goods = grain
+life_rating = 45
+
+1914.1.1 = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	trade_goods = oil
+}

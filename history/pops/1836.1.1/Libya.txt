@@ -1,0 +1,1048 @@
+#Tripolitania Region (396000)  
+#under the rule of Ottoman Empire in 1836  
+#Tripoli (172000/43000 POPS) 
+1731 = {
+	aristocrats = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 550
+	}
+
+	bureaucrats = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 50
+	}
+
+	officers = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 75
+	}
+
+	clergymen = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 275
+	}
+
+	artisans = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 3150
+	}
+
+	soldiers = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 1100
+	}
+
+	farmers = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 22900
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 125
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 75
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 350
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 75
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 63075
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = negroid
+		size = 6500
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 25
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 1475
+	}
+	craftsmen = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 150
+	}
+	clerks = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 150
+	}
+	capitalists = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 150
+	}
+
+	craftsmen = {
+		culture = sephardic
+		religion = jewish
+		size = 150
+	}
+	clerks = {
+		culture = sephardic
+		religion = jewish
+		size = 150
+	}
+	capitalists = {
+		culture = sephardic
+		religion = jewish
+		size = 150
+	}
+}
+#Gharyan (40000/10000 POPS)
+1732 = {
+	aristocrats = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 50
+	}
+
+	clergymen = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 75
+	}
+
+	artisans = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 150
+	}
+
+	soldiers = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 1100
+	}
+
+	farmers = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 1725
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 75
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 75
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 250
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 50
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 4550
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = negroid
+		size = 2000
+	}
+}
+#Misratah (84000/21000 POPS)
+1733 = {
+	aristocrats = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 175
+	}
+
+	clergymen = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 100
+	}
+
+	artisans = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 500
+	}
+
+	soldiers = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 100
+	}
+
+	farmers = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 10125
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 125
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 50
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 275
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 1100
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 4250
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = negroid
+		size = 5000
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 10
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 490
+	}
+}
+#Sirt (100000/25000 POPS)
+1734 = {
+	aristocrats = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 150
+	}
+
+	clergymen = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 75
+	}
+
+	artisans = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 400
+	}
+
+	soldiers = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 75
+	}
+
+	farmers = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 7300
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 225
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 125
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 650
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 1100
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 11000
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = negroid
+		size = 4000
+	}
+}
+#Cyrenaica Region (232000)  
+#under the rule of Ottoman Empire in 1836  
+#Benghazi (124000/31000 POPS)
+1735 = {
+	aristocrats = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 275
+	}
+
+	bureaucrats = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 25
+	}
+
+	officers = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 25
+	}
+
+	clergymen = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 150
+	}
+
+	artisans = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 735
+	}
+
+	soldiers = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 1100
+	}
+
+	farmers = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 14025
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 175
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 75
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 500
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 100
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 9150
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = negroid
+		size = 6000
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 5
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 245
+	}
+}
+#Darnah (60000/15000 POPS)
+1736 = {
+	aristocrats = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 75
+	}
+
+	clergymen = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 50
+	}
+
+	artisans = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 250
+	}
+
+	soldiers = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 50
+	}
+
+	farmers = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 4575
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 125
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 75
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 400
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 75
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 7325
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = negroid
+		size = 2000
+	}
+}
+#Tobruk (48000/12000 POPS)
+1737 = {
+	aristocrats = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 25
+	}
+
+	clergymen = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 50
+	}
+
+	artisans = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 150
+	}
+
+	soldiers = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 25
+	}
+
+	farmers = {
+		culture = maghrebi
+		religion = arabi-turk
+		size = 2700
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 100
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 50
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 300
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 50
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 5500
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = negroid
+		size = 3000
+	}
+}
+#Kufrah Region (48000)  
+#uncolonized in 1836
+#Jaghbub (12000/3000 POPS)
+1738 = {
+	aristocrats = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 25
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 50
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 150
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 25
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 2750
+	}
+}
+#Kufra (16000/4000 POPS)
+1739 = {
+	aristocrats = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 25
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 50
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 150
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 25
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 2750
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 15
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 25
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 50
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 10
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 900
+	}
+}
+#Waddan (16000/4000 POPS)
+1740 = {
+	aristocrats = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 25
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 50
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 150
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 25
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 2750
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 15
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 25
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 50
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 10
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 900
+	}
+}
+#Matan al Sarah (4000/1000 POPS)
+2585 = {
+	aristocrats = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 15
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 25
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 50
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 10
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 900
+	}
+}
+#Fezzan Region (70000)  
+#under the indirect rule of Ottoman Empire in 1836  
+#Murzuk (16000/4000 POPS)
+1741 = {
+	aristocrats = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 15
+	}
+
+	bureaucrats = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 5
+	}
+
+	officers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 15
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 25
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 50
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 10
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 880
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 25
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 25
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 100
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 25
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 1875
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = negroid
+		size = 1100
+	}
+}
+#Sabha (14000/3500 POPS)
+1742 = {
+	aristocrats = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 15
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 25
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 50
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 10
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 900
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 25
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 25
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 100
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 25
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 1875
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = negroid
+		size = 500
+	}
+}
+#Ghat (16000/4000 POPS)
+1743 = {
+	aristocrats = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 15
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 25
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 50
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 10
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 900
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 25
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 25
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 100
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 1100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 900
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = negroid
+		size = 1100
+	}
+}
+#Ghadamis (24000/6000 POPS)
+1744 = {
+	aristocrats = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 50
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 50
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 150
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 1100
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = arabi-turk
+		size = 1750
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 15
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 25
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 50
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 10
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = arabi-turk
+		size = 900
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = negroid
+		size = 2000
+	}
+
+}

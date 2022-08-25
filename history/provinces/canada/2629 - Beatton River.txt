@@ -1,0 +1,11 @@
+add_core = CAN
+add_core = COL
+trade_goods = tropical_wood
+life_rating = 30
+owner = ENG
+controller = ENG
+ 
+1914.1.1 = {
+owner = CAN
+controller = CAN
+}

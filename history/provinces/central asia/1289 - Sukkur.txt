@@ -1,0 +1,14 @@
+owner = SIN
+controller = SIN
+add_core = SIN
+add_core = HND
+trade_goods = grain
+life_rating = 35
+
+1861.1.1 = {
+	owner = OST
+	controller = OST
+	colonial = 2
+	add_core = PAK
+	remove_core = HND
+}

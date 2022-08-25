@@ -1,0 +1,376 @@
+#100400-100499 IDs
+#99999
+#100003
+######################  AUS
+country_event = {
+	id = 100407
+	title = "EVTNAME100407"
+	desc = "EVTDESC100407"
+	picture = "greatpowers"
+	trigger = {
+		OR = {
+			tag = AUS
+			tag = KUK
+		}
+		NOT = {
+			capital = 619
+		}
+		641 = {
+			OR = {
+				owned_by = AUS
+				owned_by = KUK
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 10
+	}
+	option = {
+		name = "EVTOPTA100407"
+		capital = 641
+	}
+}
+country_event = {
+	id = 100408
+	title = "EVTNAME100408"
+	desc = "EVTDESC100408"
+	picture = "greatpowers"
+	trigger = {
+		capital = 641
+		NOT = {
+			tag = HUN
+		}
+	}
+	mean_time_to_happen = {
+		days = 10
+	}
+	immediate = {
+		release = RUT
+		release = POL
+		release = SLV
+		release = BOH
+		release = BOS
+		release = SER
+		release = MON
+		release = SLO
+		release = TRE
+		release = VEN
+		release = LOM
+		release = HAB
+	}
+	option = {
+		name = "EVTOPTA100408"
+		any_country = {
+			any_owned = {
+				remove_core = AUS
+			}
+		}
+		any_owned = {
+			remove_core = AUS
+		}
+		change_tag = HUN
+	}
+}
+######################  ITA
+country_event = {
+	id = 100400
+	title = "EVTNAME100400"
+	desc = "EVTDESC100400"
+	picture = "greatpowers"
+	fire_only_once = yes
+	trigger = {
+		tag = SAR
+		year = 1840
+	}
+	mean_time_to_happen = {
+		days = 365
+	}
+	immediate = {
+	}
+	option = {
+		name = "EVTOPTA100400" #˜˜˜˜˜˜˜˜˜˜ ˜˜˜˜˜˜˜˜˜˜˜˜˜˜
+		any_country = {
+			limit = {
+				primary_culture = north_italian
+				NOT = {
+					OR = {
+						tag = SAR
+						tag = SIC
+					}
+				}
+			}
+			country_event = { id=100401 days = 12 }
+		}
+		country_event = { id=100402 days = 36 }
+		ai_chance = {
+			factor = 20
+		}
+	}
+	
+	option = {
+		name = "EVTOPTC100400" #˜˜˜˜˜˜˜˜˜˜
+		country_event = { id=100400 days = 1000 }
+		money = 150000
+		ai_chance = {
+			factor = 60
+		}
+	}
+}
+country_event = {
+	id = 100401
+	title = "EVTNAME100401"
+	desc = "EVTDESC100401"
+	picture = "greatpowers"
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+		SIC = {
+			set_country_flag = ita_decline
+		}
+	}
+	option = {
+		name = "EVTOPTA100401" #˜˜˜˜˜˜˜˜˜˜˜
+		ai_chance = {
+			factor = 50
+		}
+		neutrality = yes
+		AUS = {
+			diplomatic_influence = {
+				who = THIS
+				value = -200
+			}
+		}
+		FRA = {
+			diplomatic_influence = {
+				who = THIS
+				value = -200
+			}
+		}
+		FROM = {
+			create_vassal = THIS
+			create_alliance = THIS
+		}
+		THIS = { set_country_flag = ita_accept }
+	}
+	option = {
+		name = "EVTOPTB100401" #˜˜˜˜˜˜˜˜˜˜
+		ai_chance = {
+			factor = 50
+		}
+		AUS = {
+			diplomatic_influence = {
+				who = THIS
+				value = -200
+			}
+		}
+		FRA = {
+			diplomatic_influence = {
+				who = THIS
+				value = -200
+			}
+		}
+		THIS = { set_country_flag = ita_decline }
+	}
+}
+country_event = {
+	id = 100402
+	title = "EVTNAME100402"
+	desc = "EVTDESC100402"
+	picture = "greatpowers"
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+	}
+	option = {
+		name = "EVTOPTA100402"
+		ai_chance = {
+			factor = 95
+		}
+		any_country = {
+			limit = {
+				has_country_flag = ita_decline
+			}
+			country_event = { id=100403 days=4 }
+		}
+		any_country = {
+			limit = {
+				tag = SIC
+			}
+			country_event = { id=100404 days=12 }
+		}
+	}
+	
+		}
+	
+country_event = {
+	id = 100403
+	title = "EVTNAME100403"
+	desc = "EVTDESC100403"
+	picture = "greatpowers"
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+		any_country = {
+			limit = {
+				has_country_flag = ita_decline
+			}
+			neutrality = yes
+		}
+		
+	}
+	option = {
+		name = "EVTOPTA100403"
+		any_country = {
+			limit = {
+				has_country_flag = ita_decline
+			}
+			relation = {
+				who = THIS
+				value = 400
+			}
+			create_alliance = THIS
+		}
+		any_country = {
+			limit = {
+				has_country_flag = ita_accept
+			}
+			relation = {
+				who = THIS
+				value = -400
+			}
+			leave_alliance = THIS
+		}
+	}
+}
+country_event = {
+	id = 100404
+	title = "EVTNAME100404"
+	desc = "EVTDESC100404"
+	picture = "greatpowers"
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+	}
+	option = {
+		name = "EVTOPTA100405"
+		any_country = {
+			limit = {
+				tag = SAR
+			}
+			country_event = { id=100405 days=1 }
+		}
+		any_country = {
+			limit = {
+				NOT = {
+					primary_culture = north_italian
+				}
+			}
+		}
+		leave_alliance = THIS
+	}
+}
+country_event = {
+	id = 100405
+	title = "EVTNAME100405"
+	desc = "EVTDESC100405"
+	picture = "greatpowers"
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+		war = {
+			target = FROM
+			attacker_goal = {
+				casus_belli = italian_civil_war
+			}
+			defender_goal = {
+				casus_belli = make_puppet
+			}
+			call_ally = yes
+		}
+	}
+	option = {
+		name = "EVTOPTA100405"
+	}
+}
+country_event = {
+	id = 100406
+	title = "EVTNAME100406"
+	desc = "EVTDESC100406"
+	picture = "greatpowers"
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+		war = {
+			target = FROM
+			attacker_goal = {
+				casus_belli = italian_civil_war
+			}
+			defender_goal = {
+				casus_belli = make_puppet
+			}
+			call_ally = yes
+		}
+	}
+	option = {
+		name = "EVTOPTA100406"
+	}
+}
+######################  LAF
+country_event = {
+	id = 100003
+	title = "EVTNAME100003"
+	desc = "EVTDESC100003"
+	picture = "greatpowers"
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = "EVTOPTA100003"
+		money = 10000
+		add_country_modifier = {
+			name = laf_mobilization
+			duration = 360
+		}
+		relation = {
+			who = ARG
+			value = 400
+		}
+		relation = {
+			who = URU
+			value = 400
+		}
+		relation = {
+			who = PRG
+			value = 400
+		}
+		relation = {
+			who = BRZ
+			value = 400
+		}
+		LAF = {
+			release_vassal = BRZ
+			release_vassal = URU
+			release_vassal = PRG
+			release_vassal = ARG
+		}
+	}
+}
+country_event = {
+	id = 99999
+	title = "EVTNAME99999"
+	desc = "EVTDESC99999"
+	picture = "greatpowers"
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA99999"
+		war = {
+		target = BRZ
+			attacker_goal = {
+				casus_belli = unification_annex_casus_belli
+			}
+			defender = {
+				casus_belli = reparations
+			}
+			call_ally = yes
+		}
+	}
+}

@@ -1,0 +1,16 @@
+owner = RUS
+controller = RUS
+add_core = RUS
+add_core = KAZ
+trade_goods = wool
+life_rating = 40
+state_building = {
+	level = 1
+	building = manufacture_cement
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_glass
+	upgrade = yes
+}

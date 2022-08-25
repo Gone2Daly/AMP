@@ -1,0 +1,5 @@
+This tool will analyse a Victoria instal and do some validation on the map:
+- It will check that all the coordinates entered in position.txt (of the city, factory, soldier, etc) are part of the appropriate province in provinces.bmp. Naval bases are the exception, as they are generally in a nearby sea province instead.
+- It will check that every land province is in one and only one state
+
+Handling of errors to ignore: For the first check, there is in vanilla 1.2 a number of "errors" (for example, the position of the text of St Pierre et Miquelon is in the sea zone next to the province, not over the province itself). To prevent new errors made by a modder to be drowned in those false warning, MapChecker will ignore any error listed in the text box to the left. By default, those are the vanilla 1.2 error, but the list can be customised if need be.

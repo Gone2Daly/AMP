@@ -1,0 +1,9 @@
+trade_goods = fish
+life_rating = 10
+add_core = MOR
+
+1914.1.1 = {
+	owner = SPA
+	controller = SPA
+	colonial = 3
+}

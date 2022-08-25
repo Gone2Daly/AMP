@@ -1,0 +1,1342 @@
+ ##########################################
+# Issues that parties have.
+##########################################
+party_issues = {
+	trade_policy = {
+		protectionism = {
+			max_tariff = 1
+			min_tariff = 0
+			import_cost = 0.05
+		}
+		free_trade = {
+			max_tariff = 0.3
+			min_tariff = -1
+			import_cost = -0.05
+		}
+	}
+	economic_policy = {
+		laissez_faire = {
+			max_tax = 0.5
+			import_cost = -0.15
+			factory_throughput = 0.1
+			factory_output = 0.1
+			factory_owner_cost = 0.6
+			
+			rules = {
+				build_factory = no
+				expand_factory = no
+				open_factory = no
+				destroy_factory = no
+				build_railway = yes
+				factory_priority = no
+				can_subsidise = no
+				pop_build_factory = yes
+				pop_expand_factory = yes
+				pop_open_factory = yes
+				delete_factory_if_no_input = yes
+				pop_build_factory_invest = yes
+				pop_expand_factory_invest = yes
+				open_factory_invest = yes
+				allow_foreign_investment = yes
+				build_railway_invest = yes
+				can_invest_in_pop_projects = no
+			}
+		}
+		interventionism = {
+			import_cost = -0.05
+			max_tax = 0.8
+			factory_output = 0.05
+			factory_throughput = 0.05
+			factory_owner_cost = 0.7
+			
+			rules = {
+				build_factory = yes
+				expand_factory = yes
+				open_factory = yes
+				destroy_factory = yes
+				build_railway = yes
+				factory_priority = yes
+				can_subsidise = yes
+				pop_build_factory = yes
+				pop_expand_factory = yes
+				pop_open_factory = yes
+				delete_factory_if_no_input = no
+				pop_build_factory_invest = yes
+				pop_expand_factory_invest = yes
+				open_factory_invest = yes
+				build_factory_invest = yes
+				expand_factory_invest = yes
+				build_railway_invest = yes
+				allow_foreign_investment = yes
+				can_invest_in_pop_projects = yes
+			}
+		}
+		state_capitalism = {
+			import_cost = 0.05
+			factory_owner_cost = 0.85
+			rules = {
+				build_factory = yes
+				expand_factory = no
+				open_factory = yes
+				destroy_factory = yes		
+				build_railway = yes
+				factory_priority = yes
+				can_subsidise = yes
+				pop_build_factory = no
+				pop_expand_factory = yes
+				pop_open_factory = yes
+				delete_factory_if_no_input = no
+				build_factory_invest = yes
+				expand_factory_invest = yes
+				build_railway_invest = yes
+				allow_foreign_investment = yes
+				can_invest_in_pop_projects = yes
+			}
+		}
+		state_monopolism = {
+			min_tax = 0.15
+			max_tax = 0.85
+			import_cost = 0.1
+			factory_owner_cost = 1
+			rules = {
+				build_factory = yes
+				expand_factory = yes
+				open_factory = yes
+				destroy_factory = yes		
+				build_railway = yes
+				factory_priority = yes
+				can_subsidise = yes
+				pop_build_factory = no
+				pop_expand_factory = yes
+				pop_open_factory = yes
+				delete_factory_if_no_input = no
+				build_factory_invest = yes
+				expand_factory_invest = yes
+				build_railway_invest = yes
+				allow_foreign_investment = yes
+				can_invest_in_pop_projects = yes
+			}
+		}
+		planned_economy = {
+			min_tax = 0.25
+			import_cost = 0.2
+			factory_throughput = 0.1
+			factory_input = -0.05
+			factory_owner_cost = -1
+			rules = {
+				build_factory = yes
+				expand_factory = yes
+				open_factory = yes
+				destroy_factory = yes		
+				build_railway = yes
+				factory_priority = yes
+				can_subsidise = yes
+				pop_build_factory = no
+				pop_expand_factory = no
+				pop_open_factory = no				
+				delete_factory_if_no_input = no		
+				build_factory_invest = yes
+				expand_factory_invest = yes
+				build_railway_invest = yes
+				allow_foreign_investment = no
+				can_invest_in_pop_projects = no
+			}
+		}
+	}
+	
+	religious_policy = {
+		pro_atheism = {
+			global_assimilation_rate = 0.5
+		}
+		secularized = {
+			global_assimilation_rate = 0.1
+		}
+		pluralism = {
+			global_assimilation_rate = -0.25
+		}
+		moralism = {
+			global_assimilation_rate = -0.5
+		}
+	}
+	citizenship_policy = {
+		residency = {
+			non_accepted_pop_militancy_modifier = 0.02
+			rules = { primary_culture_voting = yes }
+		}
+		limited_citizenship = {
+			global_assimilation_rate = 0.10
+			rules = { culture_voting = yes }
+		}
+		full_citizenship = {
+			global_assimilation_rate = 0.25
+			non_accepted_pop_militancy_modifier = -0.04
+			global_pop_militancy_modifier = 0.02
+			rules = { all_voting = yes }
+		}
+	}
+	war_policy = {
+		jingoism = {
+			max_military_spending = 1.0
+			supply_consumption = 0.1
+			war_exhaustion_effect = 0.5
+			is_jingoism = yes
+			cb_generation_speed_modifier = 0.3
+			mobilization_impact = 1
+			org_regain = 0.3
+			reinforce_speed = 0.3
+			war_exhaustion = -0.01
+		}
+		pro_military = {
+			max_military_spending = 1
+			war_exhaustion_effect = 0.7
+			cb_generation_speed_modifier = 0.2
+			mobilization_impact = 1
+			org_regain = 0.2
+			reinforce_speed = 0.2
+			war_exhaustion = -0.02
+		}
+		anti_military = {
+			max_military_spending = 1
+			supply_consumption = -0.25
+			war_exhaustion_effect = 1.2
+			cb_generation_speed_modifier = -0.2
+			mobilization_impact = 1
+			global_pop_militancy_modifier = -0.02
+			war_exhaustion = -0.03
+		}
+		pacifism = {
+			max_military_spending = 1
+			supply_consumption = -0.5
+			war_exhaustion_effect = 1.5
+			cb_generation_speed_modifier = -0.4
+			mobilization_impact = 1
+			org_regain = -0.1
+			reinforce_speed = -0.1
+			global_pop_militancy_modifier = -0.04
+			war_exhaustion = -0.04
+		}
+	}
+}
+
+##########################################
+# Political reforms.
+##########################################
+political_reforms = {
+	slavery = {
+		yes_slavery = {
+			rules = { slavery_allowed = yes }
+		}
+		no_slavery = {
+			rules = { slavery_allowed = no }
+			allow = {
+				OR = {
+					NOT = {
+						OR = {
+							has_country_flag = the_slavery_debate
+							tag = USA
+						}
+					}
+					year = 1875
+				}
+				NOT = {
+					OR = {
+						has_country_flag = proletarian_dictatorship
+						has_country_flag = one_party_socialist_republic
+						has_country_flag = fascist_dictatorship
+					}
+				}
+			}
+
+			global_immigrant_attract = 0.01
+		}
+	}
+
+	vote_franschise = {
+		next_step_only = no
+		none_voting = {
+			rich_vote = 0
+			middle_vote = 0
+			poor_vote = 0
+			cb_generation_speed_modifier = 0.3
+		}
+		landed_voting = {
+			allow = {
+				NOT = {
+					OR = {
+						has_country_flag = proletarian_dictatorship
+						has_country_flag = one_party_socialist_republic
+						has_country_flag = fascist_dictatorship
+					}
+				}
+			}
+			rich_vote = 1
+			middle_vote = 0
+			poor_vote = 0
+			global_immigrant_attract = 0.01
+			cb_generation_speed_modifier = 0.2
+		}
+		wealth_weighted_voting = {
+			allow = {
+				NOT = {
+					OR = {
+						has_country_flag = proletarian_dictatorship
+						has_country_flag = one_party_socialist_republic
+						has_country_flag = fascist_dictatorship
+					}
+				}
+			}
+			rich_vote = 8
+			middle_vote = 1
+			poor_vote = 0
+			global_immigrant_attract = 0.02
+			cb_generation_speed_modifier = 0.1
+		}
+		wealth_voting = {
+			allow = {
+				NOT = {
+					OR = {
+						has_country_flag = proletarian_dictatorship
+						has_country_flag = one_party_socialist_republic
+						has_country_flag = fascist_dictatorship
+					}
+				}
+			}
+			rich_vote = 1
+			middle_vote = 1
+			poor_vote = 0
+			global_immigrant_attract = 0.03
+		}
+		universal_weighted_voting = {
+			allow = {
+				NOT = {
+					OR = {
+						has_country_flag = proletarian_dictatorship
+						has_country_flag = one_party_socialist_republic
+						has_country_flag = fascist_dictatorship
+					}
+				}
+			}
+			rich_vote = 30
+			middle_vote = 6
+			poor_vote = 1
+			cb_generation_speed_modifier = -0.1
+			global_immigrant_attract = 0.04
+		}
+		universal_voting = {
+			allow = {
+				OR = {
+					NOT = {
+						OR = {
+							has_country_flag = proletarian_dictatorship
+							has_country_flag = one_party_socialist_republic
+							has_country_flag = fascist_dictatorship
+						}
+					}
+					AND = {
+						has_country_flag = one_party_socialist_republic
+						has_country_flag = communism_reforming
+					}
+				}
+			}
+			rich_vote = 1
+			middle_vote = 1
+			poor_vote = 1
+			cb_generation_speed_modifier = -0.2
+			global_immigrant_attract = 0.05
+		}
+	}
+	
+	
+	upper_house_composition = {
+		party_appointed = {
+			rules = { same_as_ruling_party = yes }
+			allow = {
+				OR = {
+					has_country_flag = proletarian_dictatorship
+					has_country_flag = one_party_socialist_republic
+					has_country_flag = fascist_dictatorship
+				}
+			}
+		}
+		appointed = {
+			allow = {
+				NOT = {
+					OR = {
+						has_country_flag = proletarian_dictatorship
+						has_country_flag = one_party_socialist_republic
+						has_country_flag = fascist_dictatorship
+					}
+				}
+			}
+			rules = { rich_only = yes }
+			global_immigrant_attract = 0.01
+		}
+		state_equal_weight = {
+			rules = { state_vote = yes }
+			allow = { 
+				NOT = { vote_franschise = none_voting }
+				NOT = {
+					OR = {
+						has_country_flag = proletarian_dictatorship
+						has_country_flag = one_party_socialist_republic
+						has_country_flag = fascist_dictatorship
+					}
+				}
+			}
+			global_immigrant_attract = 0.02
+		}
+		population_equal_weight = {
+			rules = { population_vote = yes }
+			allow = {
+				NOT = { vote_franschise = none_voting }
+				NOT = {
+					OR = {
+						has_country_flag = proletarian_dictatorship
+						has_country_flag = fascist_dictatorship
+					}
+				}
+			}
+			global_immigrant_attract = 0.03
+		}
+	}
+
+	voting_system = {
+		first_past_the_post = {
+			rules = { largest_share = yes }
+			allow = { 
+				NOT = { vote_franschise = none_voting }
+			}
+		}
+		jefferson_method = {
+			rules = { dhont = yes }
+			allow = { 
+				NOT = { vote_franschise = none_voting }
+			}
+		}
+		proportional_representation = {
+			rules = { sainte_laque = yes }
+			allow = { 
+				NOT = { vote_franschise = none_voting }
+			}			
+		}
+	}
+	public_meetings = {
+		no_meeting = {
+			suppression_points_modifier = 0.5
+			issue_change_speed = -0.5
+		}
+		yes_meeting = {
+			issue_change_speed = 0.75
+			global_immigrant_attract = 0.01
+			suppression_points_modifier = -0.25
+		}
+
+	}
+	press_rights = {
+		next_step_only = yes
+		state_press = {
+			literacy_con_impact = -0.25
+			suppression_points_modifier = 0.25
+			cb_generation_speed_modifier = 0.1
+		}
+		censored_press = {
+			issue_change_speed = 0.25
+			global_immigrant_attract = 0.01
+		}
+		free_press = {
+			allow = {
+				NOT = {
+					OR = {
+						has_country_flag = proletarian_dictatorship
+						has_country_flag = one_party_socialist_republic
+						has_country_flag = fascist_dictatorship
+					}
+				}
+			}
+			literacy_con_impact = 0.25
+			issue_change_speed = 0.5
+			global_immigrant_attract = 0.02
+			suppression_points_modifier = -0.25
+			cb_generation_speed_modifier = -0.1
+		}
+	}
+	trade_unions = {
+		next_step_only = yes
+		no_trade_unions = {
+			allow = {
+				NOT = {
+					OR = {
+						has_country_flag = proletarian_dictatorship
+						has_country_flag = one_party_socialist_republic
+					}
+				}
+			}
+			#no immediate effect
+		}
+		state_controlled = {
+			social_reform_desire = 0.1
+			global_immigrant_attract = 0.01
+		}
+		non_socialist = {
+			social_reform_desire = 0.2
+			global_immigrant_attract = 0.02
+		}
+		all_trade_unions = {
+			social_reform_desire = 0.3
+			global_immigrant_attract = 0.03
+		}
+	}
+	
+	political_parties = {
+		next_step_only = yes
+		underground_parties = {
+			ruling_party_support = 0.2
+			global_immigrant_attract = 0.01
+		}
+		harassment = {
+			ruling_party_support = 0.15
+			global_immigrant_attract = 0.02
+		}
+		gerrymandering = {
+			allow = {
+				NOT = {
+					OR = {
+						has_country_flag = proletarian_dictatorship
+						has_country_flag = one_party_socialist_republic
+						has_country_flag = fascist_dictatorship
+					}
+				}
+			}
+			ruling_party_support = 0.10
+			global_immigrant_attract = 0.03
+		}
+		non_secret_ballots = {
+			allow = {
+				NOT = {
+					OR = {
+						has_country_flag = proletarian_dictatorship
+						has_country_flag = one_party_socialist_republic
+						has_country_flag = fascist_dictatorship
+					}
+				}
+			}
+			ruling_party_support = 0.05
+			global_immigrant_attract = 0.04
+		}
+		secret_ballots = {
+			allow = {
+				NOT = {
+					OR = {
+						has_country_flag = proletarian_dictatorship
+						has_country_flag = one_party_socialist_republic
+						has_country_flag = fascist_dictatorship
+					}
+				}
+			}
+			global_immigrant_attract = 0.05
+		}
+	}
+	
+}
+
+##########################################
+# Social reforms.
+##########################################
+social_reforms = {
+	wage_reform = {
+		administrative = yes
+		next_step_only = yes
+		no_minimum_wage = {
+			minimum_wage = 0.20
+		}
+		trinket_wage = {
+			minimum_wage = 0.40
+			administrative_multiplier = 1
+			global_immigrant_attract = 0.01
+			global_pop_consciousness_modifier = 0.01
+		}
+		low_minimum_wage = {
+			minimum_wage = 0.60
+			administrative_multiplier = 2
+			global_immigrant_attract = 0.02
+			global_pop_militancy_modifier = -0.01
+			global_pop_consciousness_modifier = 0.01
+		}
+		acceptable_minimum_wage = {
+			minimum_wage = 0.80
+			administrative_multiplier = 3
+			global_immigrant_attract = 0.03
+			global_pop_militancy_modifier = -0.01
+			global_pop_consciousness_modifier = 0.02
+			
+		}
+		good_minimum_wage = {
+			minimum_wage = 1
+			administrative_multiplier = 4
+			global_immigrant_attract = 0.04
+			global_pop_militancy_modifier = -0.02
+			global_pop_consciousness_modifier = 0.02
+		}
+	}
+	work_hours = {
+		administrative = yes
+		next_step_only = yes
+		no_work_hour_limit = {
+		}
+		fourteen_hours = {
+			factory_throughput = -0.05
+			global_pop_militancy_modifier = -0.01
+			administrative_multiplier = 1
+			global_immigrant_attract = 0.01
+		}
+		twelve_hours = {
+			factory_throughput = -0.10
+			global_pop_militancy_modifier = -0.02
+			global_pop_consciousness_modifier = 0.01
+			administrative_multiplier = 2
+			global_immigrant_attract = 0.02
+		}
+		ten_hours = {
+			factory_throughput = -0.15
+			global_pop_militancy_modifier = -0.03
+			global_pop_consciousness_modifier = 0.02
+			administrative_multiplier = 3
+			global_immigrant_attract = 0.03
+		}
+		eight_hours = {
+			factory_throughput = -0.20
+			global_pop_militancy_modifier = -0.04
+			global_pop_consciousness_modifier = 0.02
+			administrative_multiplier = 4
+			global_immigrant_attract = 0.04
+		}
+	}
+	safety_regulations = {
+		administrative = yes
+		next_step_only = yes
+		no_safety = {
+		}
+		trinket_safety = {
+
+			global_pop_militancy_modifier = -0.01
+			administrative_multiplier = 1
+			global_immigrant_attract = 0.01
+		}
+		low_safety = {
+
+			administrative_multiplier = 2
+			global_pop_militancy_modifier = -0.01
+			global_immigrant_attract = 0.02
+		}
+		acceptable_safety = {
+
+			global_pop_militancy_modifier = -0.02
+			global_pop_consciousness_modifier = 0.01
+			administrative_multiplier = 3
+			global_immigrant_attract = 0.03
+		}
+		good_safety = {
+
+			administrative_multiplier = 4
+			global_pop_militancy_modifier = -0.02
+			global_pop_consciousness_modifier = 0.02
+			global_immigrant_attract = 0.04
+		}
+	}
+	
+	unemployment_subsidies = {
+		next_step_only = yes
+		no_subsidies = {
+		}
+		trinket_subsidies = {
+			allow = {
+				NOT = { has_country_flag = colonial_company }
+			}
+			unemployment_benefit = 0.25
+			global_immigrant_attract = 0.01
+			global_pop_consciousness_modifier = 0.01
+		}
+		low_subsidies = {
+			allow = {
+				NOT = { has_country_flag = colonial_company }
+			}
+			unemployment_benefit = 0.50
+			global_immigrant_attract = 0.02
+			global_pop_consciousness_modifier = 0.01
+		}
+		acceptable_subsidies = {
+			allow = {
+				NOT = { has_country_flag = colonial_company }
+			}
+			unemployment_benefit = 0.75
+			global_immigrant_attract = 0.03
+			global_pop_consciousness_modifier = 0.02
+			global_pop_militancy_modifier = -0.01
+		}
+		good_subsidies = {
+			allow = {
+				NOT = { has_country_flag = colonial_company }
+			}
+			unemployment_benefit = 1.0
+			global_immigrant_attract = 0.04
+			global_pop_consciousness_modifier = 0.02
+			global_pop_militancy_modifier = -0.01
+		}
+	}
+	pensions = {
+		next_step_only = yes
+		no_pensions = {
+			pension_level	= 0.05
+		}
+		trinket_pensions = {
+			allow = {
+				NOT = { has_country_flag = colonial_company }
+			}
+			pension_level	= 1.25
+			global_immigrant_attract = 0.01
+			global_pop_militancy_modifier = -0.01
+		}
+		low_pensions = {
+			allow = {
+				NOT = { has_country_flag = colonial_company }
+			}
+			pension_level	= 2.5
+			global_immigrant_attract = 0.02
+			global_pop_consciousness_modifier = -0.01
+			global_pop_militancy_modifier = -0.01
+		}
+		acceptable_pensions = {
+			allow = {
+				NOT = { has_country_flag = colonial_company }
+			}
+			pension_level	= 3.75
+			global_immigrant_attract = 0.03
+			global_pop_consciousness_modifier = -0.01
+			global_pop_militancy_modifier = -0.02
+		}
+		good_pensions = {
+			allow = {
+				NOT = { has_country_flag = colonial_company }
+			}
+			pension_level	= 5
+			global_immigrant_attract = 0.04
+			global_pop_consciousness_modifier = -0.02
+			global_pop_militancy_modifier = -0.02
+		}
+	}	
+	health_care = {
+		administrative = yes
+		next_step_only = yes
+		no_health_care = {
+			
+		}
+		trinket_health_care = {
+			allow = {
+				OR = {
+					has_country_flag = industrial_revolution_stage_2 
+					has_country_flag = industrial_revolution_stage_3
+					has_country_flag = industrial_revolution_stage_4
+					has_country_flag = industrial_revolution_stage_5
+					has_country_flag = industrial_revolution_stage_6
+					has_country_flag = industrial_revolution_stage_7
+					has_country_flag = industrial_revolution_stage_8
+					has_country_flag = industrial_revolution_stage_9
+					has_country_flag = industrial_revolution_stage_10
+				}
+			}
+			global_population_growth = 0.001
+			administrative_multiplier = 1
+			global_immigrant_attract = 0.01
+			
+		}
+		low_health_care = {
+			allow = {
+				OR = {
+					has_country_flag = industrial_revolution_stage_4
+					has_country_flag = industrial_revolution_stage_5
+					has_country_flag = industrial_revolution_stage_6
+					has_country_flag = industrial_revolution_stage_7
+					has_country_flag = industrial_revolution_stage_8
+					has_country_flag = industrial_revolution_stage_9
+					has_country_flag = industrial_revolution_stage_10
+				}
+			}
+			global_population_growth = 0.002
+			global_pop_consciousness_modifier = 0.01
+			administrative_multiplier = 2
+			global_immigrant_attract = 0.02
+		}
+		acceptable_health_care = {
+			allow = {
+				OR = {
+					has_country_flag = industrial_revolution_stage_6
+					has_country_flag = industrial_revolution_stage_7
+					has_country_flag = industrial_revolution_stage_8
+					has_country_flag = industrial_revolution_stage_9
+					has_country_flag = industrial_revolution_stage_10
+				}
+			}
+			global_population_growth = 0.003
+			global_pop_consciousness_modifier = 0.01
+			administrative_multiplier = 3
+			global_immigrant_attract = 0.03
+		}
+		good_health_care = {
+			allow = {
+				OR = {
+					has_country_flag = industrial_revolution_stage_8
+					has_country_flag = industrial_revolution_stage_9
+					has_country_flag = industrial_revolution_stage_10
+				}
+			}
+			global_population_growth = 0.004
+			global_pop_consciousness_modifier = 0.02
+			administrative_multiplier = 4
+			global_immigrant_attract = 0.04
+		}
+	}
+
+	school_reforms = {
+		next_step_only = yes
+		administrative = yes
+		no_schools = {
+		}
+		low_schools = {
+			education_efficiency_modifier = 0.1
+			global_pop_consciousness_modifier = 0.01
+			global_immigrant_attract = 0.01
+			administrative_multiplier = 1.5
+		}
+		acceptable_schools = {
+			education_efficiency_modifier = 0.2
+			global_immigrant_attract = 0.02
+			global_pop_consciousness_modifier = 0.02
+			administrative_multiplier = 3
+		}
+		good_schools = {
+			education_efficiency_modifier = 0.3
+			global_immigrant_attract = 0.03
+			global_pop_consciousness_modifier = 0.03
+			administrative_multiplier = 4.5
+		}
+	}
+}
+
+economic_reforms = {
+	land_reform = {
+		no_land_reform = {
+			farm_rgo_size = 0.25
+			mine_rgo_size = 0.25
+			global_pop_militancy_modifier = -0.005
+		}
+		yes_land_reform = {
+			technology_cost = 8000
+			farm_rgo_eff = 0.25
+			mine_rgo_eff = 0.25
+			civilization_progress_modifier = 0.15
+			
+			on_execute = {
+				effect = {
+					activate_technology = private_banks
+					any_pop = {
+						scaled_militancy = {
+							ideology = liberal
+							factor = 0.5
+						}
+						scaled_militancy = {
+							ideology = conservative
+							factor = 1
+						}
+						scaled_militancy = {
+							ideology = reactionary
+							factor = 3
+						}
+					}
+				}
+			}
+		}
+	}
+	admin_reform = {
+		no_admin_reform = {
+				global_pop_militancy_modifier = -0.005
+		}
+		yes_admin_reform = {
+			technology_cost = 10000
+			administrative_efficiency_modifier = 0.1
+			civilization_progress_modifier = 0.15
+			
+			on_execute = {
+				effect = {
+					activate_technology = no_standard
+					any_pop = {
+						scaled_militancy = {
+							ideology = liberal
+							factor = 0.5
+						}
+						scaled_militancy = {
+							ideology = conservative
+							factor = 1
+						}
+						scaled_militancy = {
+							ideology = reactionary
+							factor = 3
+						}
+					}
+				}
+			}
+		}
+	}
+	finance_reform = {
+		next_step_only = yes
+		no_finance_reform = {
+			max_loan_modifier = -1.0 # no loan 4 u
+			global_pop_militancy_modifier = -0.005
+		}
+		yes_finance_reform = {
+			technology_cost = 10000
+			tax_efficiency = 0.1
+			civilization_progress_modifier = 0.15
+			max_loan_modifier = -1.0 # no loan 4 u
+			
+			on_execute = {
+				effect = {
+					activate_technology = freedom_of_trade
+					any_pop = {
+						scaled_militancy = {
+							ideology = liberal
+							factor = 0.5
+						}
+						scaled_militancy = {
+							ideology = conservative
+							factor = 1
+						}
+						scaled_militancy = {
+							ideology = reactionary
+							factor = 3
+						}
+					}
+				}
+			}
+		}
+		finance_reform_two = {
+			technology_cost = 15000
+			tax_efficiency = 0.1
+			civilization_progress_modifier = 0.35
+			
+			max_loan_modifier = -0.9 # 80% loans
+			
+			on_execute = {
+				effect = {
+					activate_technology = market_structure
+					any_pop = {
+						scaled_militancy = {
+							ideology = liberal
+							factor = 0.5
+						}
+						scaled_militancy = {
+							ideology = conservative
+							factor = 0.5
+						}
+						scaled_militancy = {
+							ideology = reactionary
+							factor = 2
+						}
+					}
+				}
+			}
+		}
+	}	
+	education_reform = {
+		no_education_reform = {
+			global_pop_militancy_modifier = -0.005
+	
+		}
+		yes_education_reform = {
+			education_efficiency_modifier = 0.15
+			technology_cost = 10000
+			civilization_progress_modifier = 0.15
+			
+			on_execute = {
+				effect = {
+					activate_technology = malthusian_thought
+					any_pop = {
+						scaled_militancy = {
+							ideology = liberal
+							factor = 0.5
+						}
+						scaled_militancy = {
+							ideology = conservative
+							factor = 1
+						}
+						scaled_militancy = {
+							ideology = reactionary
+							factor = 3
+						}
+					}
+				}
+			}
+		}
+	}	
+	transport_improv = {
+		no_transport_improv = {
+			global_pop_militancy_modifier = -0.005
+	
+		}
+		yes_transport_improv = {
+			technology_cost = 10000
+			farm_rgo_eff = 0.25
+			mine_rgo_eff = 0.25
+			civilization_progress_modifier = 0.15
+			on_execute = {
+				trigger = {
+					can_build_railway_in_capital = {
+						in_whole_capital_state = yes # no = just in main capital province.
+						limit_to_world_greatest_level = yes
+					}
+				}
+				effect = {
+					activate_technology = experimental_railroad
+					build_railway_in_capital = {
+						in_whole_capital_state = yes # no = just in main capital province.
+						limit_to_world_greatest_level = yes
+						}
+					
+					any_pop = {
+						scaled_militancy = {
+							ideology = liberal
+							factor = 1
+						}
+						scaled_militancy = {
+							ideology = conservative
+							factor = 2
+						}
+						scaled_militancy = {
+							ideology = reactionary
+							factor = 3
+						}
+					}
+				}
+			}
+		}
+	}	
+	pre_indust = {
+		no_pre_indust = {
+			global_pop_militancy_modifier = -0.005
+	
+		}
+		yes_pre_indust = {
+			technology_cost = 15000
+			civilization_progress_modifier = 0.2
+			on_execute = {
+				trigger = {
+					can_build_factory_in_capital_state = fabric_factory # example, no trigger needed here
+				}
+				effect = {
+					activate_technology = water_wheel_power
+					build_factory_in_capital_state = fabric_factory
+					any_pop = {
+						scaled_militancy = {
+							ideology = liberal
+							factor = 1
+						}
+						scaled_militancy = {
+							ideology = conservative
+							factor = 2
+						}
+						scaled_militancy = {
+							ideology = reactionary
+							factor = 3
+						}
+					}
+				}
+			}
+		}
+	}	
+	industrial_construction = {
+		no_industrial_construction = {
+			global_pop_militancy_modifier = -0.005
+	
+		}
+		yes_industrial_construction = {
+			technology_cost = 17500
+			civilization_progress_modifier = 0.25
+			on_execute = {
+				effect = {
+					build_factory_in_capital_state = cement_factory
+					
+					any_pop = {
+						scaled_militancy = {
+							ideology = liberal
+							factor = 1
+						}
+						scaled_militancy = {
+							ideology = conservative
+							factor = 2
+						}
+						scaled_militancy = {
+							ideology = reactionary
+							factor = 3
+						}
+					}
+				}
+			}
+		}	
+	}
+}
+
+military_reforms = {
+	foreign_training = {
+		
+		no_foreign_training = {
+					global_pop_militancy_modifier = -0.005
+		}
+		yes_foreign_training = {
+			#unit stats improve	
+			land_organisation = 0.1
+			technology_cost = 8000
+			civilization_progress_modifier = 0.1
+			research_points_on_conquer = 0.25
+			
+			on_execute = {
+				effect = {
+					activate_technology = post_napoleonic_thought
+					any_pop = {
+						scaled_militancy = {
+							ideology = liberal
+							factor = 2
+						}
+						scaled_militancy = {
+							ideology = conservative
+							factor = 1
+						}
+						scaled_militancy = {
+							ideology = reactionary
+							factor = 3
+						}
+					}
+				}
+			}
+		}
+	}
+	foreign_weapons = {
+		no_foreign_weapons = {
+			global_pop_militancy_modifier = -0.005	
+		}
+		yes_foreign_weapons = {
+			land_defense_modifier = 0.1
+			technology_cost = 10000
+			civilization_progress_modifier = 0.1
+			research_points_on_conquer = 0.25
+						
+			on_execute = {
+				effect = {
+					activate_technology = flintlock_rifles
+					any_pop = {
+						scaled_militancy = {
+							ideology = liberal
+							factor = 2
+						}
+						scaled_militancy = {
+							ideology = conservative
+							factor = 1
+						}
+						scaled_militancy = {
+							ideology = reactionary
+							factor = 3
+						}
+					}
+				}
+			}
+		}
+	}
+	military_constructions = {
+		no_military_constructions = {
+				global_pop_militancy_modifier = -0.005
+		}
+		yes_military_constructions = {
+			technology_cost = 10000
+			civilization_progress_modifier = 0.1
+			research_points_on_conquer = 0.25
+			
+			on_execute = {
+				trigger = {
+					can_build_fort_in_capital = {
+						in_whole_capital_state = no # no = just in main capital province.
+						limit_to_world_greatest_level = yes
+					}
+				}
+				effect = {
+					activate_technology = military_staff_system
+					build_fort_in_capital = {
+						in_whole_capital_state = no # no = just in main capital province.
+						limit_to_world_greatest_level = yes
+					}
+						
+					any_pop = {
+						scaled_militancy = {
+							ideology = liberal
+							factor = 2
+						}
+						scaled_militancy = {
+							ideology = conservative
+							factor = 1
+						}
+						scaled_militancy = {
+							ideology = reactionary
+							factor = 3
+						}
+					}
+				}
+			}
+		}
+	}	
+	foreign_officers = {
+		no_foreign_officers = {
+				global_pop_militancy_modifier = -0.005
+		}
+		yes_foreign_officers = {
+			leadership_modifier = 0.1
+			technology_cost = 10000
+			civilization_progress_modifier = 0.1
+			research_points_on_conquer = 0.25
+			
+			on_execute = {
+				effect = {
+					activate_technology = clipper_design
+					any_pop = {
+						scaled_militancy = {
+							ideology = liberal
+							factor = 2
+						}
+						scaled_militancy = {
+							ideology = conservative
+							factor = 1
+						}
+						scaled_militancy = {
+							ideology = reactionary
+							factor = 3
+						}
+					}
+				}
+			}
+		}
+	}	
+	army_schools = {
+		no_army_schools = {
+				global_pop_militancy_modifier = -0.005
+		}
+		yes_army_schools = {
+			land_unit_start_experience = 10
+			technology_cost = 10000
+			civilization_progress_modifier = 0.1
+			
+			on_execute = {
+				effect = {
+					any_pop = {
+						scaled_militancy = {
+							ideology = liberal
+							factor = 2
+						}
+						scaled_militancy = {
+							ideology = conservative
+							factor = 1
+						}
+						scaled_militancy = {
+							ideology = reactionary
+							factor = 3
+						}
+					}
+				}
+			}
+		}
+	}	
+	foreign_naval_officers = {
+		no_foreign_naval_officers = {
+				global_pop_militancy_modifier = -0.005
+		}
+		yes_foreign_naval_officers = {
+			tariff_efficiency_modifier = 0.2
+			technology_cost = 10000
+			civilization_progress_modifier = 0.1
+			
+			on_execute = {
+				effect = {
+					any_pop = {
+						scaled_militancy = {
+							ideology = liberal
+							factor = 2
+						}
+						scaled_militancy = {
+							ideology = conservative
+							factor = 1
+						}
+						scaled_militancy = {
+							ideology = reactionary
+							factor = 3
+						}
+					}
+				}
+			}
+		}
+	}
+	naval_schools = {
+		no_naval_schools = {
+				global_pop_militancy_modifier = -0.005
+		}
+		yes_naval_schools = {
+			naval_unit_start_experience = 10
+			technology_cost = 10000
+			civilization_progress_modifier = 0.1
+			
+			on_execute = {
+				effect = {
+					any_pop = {
+						scaled_militancy = {
+							ideology = liberal
+							factor = 2
+						}
+						scaled_militancy = {
+							ideology = conservative
+							factor = 1
+						}
+						scaled_militancy = {
+							ideology = reactionary
+							factor = 3
+						}
+					}
+				}
+			}
+		}	
+	}
+	foreign_navies = {
+		no_foreign_navies = {
+				global_pop_militancy_modifier = -0.005
+		}
+		yes_foreign_navies = {
+			naval_attack_modifier = 0.2
+			naval_defense_modifier = 0.2
+			technology_cost = 10000
+			civilization_progress_modifier = 0.1
+			
+			on_execute = {
+				effect = {
+					activate_technology = army_command_principle
+					any_pop = {
+						scaled_militancy = {
+							ideology = liberal
+							factor = 2
+						}
+						scaled_militancy = {
+							ideology = conservative
+							factor = 1
+						}
+						scaled_militancy = {
+							ideology = reactionary
+							factor = 3
+						}
+					}
+				}
+			}
+		}
+	}	
+}

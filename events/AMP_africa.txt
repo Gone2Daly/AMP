@@ -1,0 +1,1473 @@
+#100700-100799 IDs
+country_event = {
+	id = 100700
+	title = "TITLE100700"
+	desc = "DESC100700"
+	picture = ""
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+	}
+	option = {
+		any_country = {
+			any_owned = {
+				secede_province = THIS
+			}
+		}
+	}
+}
+country_event = {
+	id = 100701
+	title = "TITLE100701"
+	desc = "DESC100701"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+			check_variable = { which = "claim_on_AMP_ethiopia" value = 11 }
+		}
+		invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_ethiopia = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_ethiopia = {
+			add_core = ETH
+			
+		}
+		1864 = {
+			life_rating = 20
+		}
+		1866 = {
+			life_rating = 20
+		}
+		1867 = {
+			life_rating = 20
+		}
+		ETH = {
+			##
+		}
+		set_global_flag = ethiopia_established
+	}
+}
+country_event = {
+	id = 100702
+	title = "TITLE100702"
+	desc = "DESC100702"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+			check_variable = { which = "claim_on_AMP_Liberia" value = 3 }
+		}
+		invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Liberia = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Liberia = {
+			add_core = LIB
+		}
+		1889 = {
+			life_rating = 20
+		}
+		1890 = {
+			life_rating = 20
+		}
+		1891 = {
+			life_rating = 20
+		}
+		LIB = {
+			##
+		}
+		set_global_flag = Liberia_established
+	}
+}
+country_event = {
+	id = 100703
+	title = "TITLE100703"
+	desc = "DESC100703"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_southafricaeng" value = 15
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_southafricaeng = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_southafricaeng = {
+			add_core = SAF
+		}
+		2088 = {
+			life_rating = 20
+		}
+		2094 = {
+			life_rating = 20
+		}
+		2095 = {
+			life_rating = 20
+		}
+		SAF = {
+			##
+		}
+		set_global_flag = southafricaeng_established
+	}
+}
+country_event = {
+	id = 100704
+	title = "TITLE100704"
+	desc = "DESC100704"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_sudan" value = 11
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_sudan = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_sudan = {
+			add_core = SDN
+		}
+		1842 = {
+			life_rating = 25
+		}
+		1841 = {
+			life_rating = 20
+		}
+		1843 = {
+			life_rating = 20
+		}
+		1844 = {
+			life_rating = 20
+		}
+		1845 = {
+			life_rating = 20
+		}
+		1846 = {
+			life_rating = 20
+		}
+		1847 = {
+			life_rating = 20
+		}
+		SDN = {
+			##
+		}
+		set_global_flag = sudan_established
+	}
+}
+country_event = {
+	id = 100705
+	title = "TITLE100705"
+	desc = "DESC100705"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_morocco" value = 13
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_morocco = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_morocco = {
+			add_core = MOR
+		}
+		1773 = {
+			life_rating = 25
+		}
+		1774 = {
+			life_rating = 25
+		}
+		MOR = {
+			##
+		}
+		set_global_flag = morocco_established
+	}
+}
+country_event = {
+	id = 100706
+	title = "TITLE100706"
+	desc = "DESC100706"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_algeria" value = 15
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_algeria = {
+			secede_province = THIS
+		}
+		set_global_flag = algeria_established
+	}
+	option = {
+	}
+}
+country_event = {
+	id = 100707
+	title = "TITLE100707"
+	desc = "DESC100707"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_libya" value = 8
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_libya = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_libya = {
+			add_core = TRI
+		}
+		TRI = {
+			##
+		}
+		set_global_flag = libya_established
+	}
+}
+country_event = {
+	id = 100708
+	title = "TITLE100708"
+	desc = "DESC100708"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Zimbabwe" value = 4
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Zimbabwe = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Zimbabwe = {
+			add_core = ZMB
+			life_rating = 20
+		}
+		ZMB = {
+			##
+		}
+		set_global_flag = Zimbabwe_established
+	}
+}
+country_event = {
+	id = 100709
+	title = "TITLE100709"
+	desc = "DESC100709"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Zambia" value = 4
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Zambia = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Zambia = {
+			add_core = ZAM
+			life_rating = 20
+		}
+		ZAM = {
+			##
+		}
+		set_global_flag = Zambia_established
+	}
+}
+country_event = {
+	id = 100710
+	title = "TITLE100710"
+	desc = "DESC100710"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Uganda" value = 3
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Uganda = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Uganda = {
+			add_core = UGD
+			life_rating = 20
+		}
+		UGD = {
+			##
+		}
+		set_global_flag = Uganda_established
+	}
+}
+country_event = {
+	id = 100711
+	title = "TITLE100711"
+	desc = "DESC100711"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Togo" value = 15
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Togo = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Togo = {
+			add_core = TOG
+			life_rating = 20
+		}
+		TOG = {
+			##
+		}
+		set_global_flag = Togo_established
+	}
+}
+country_event = {
+	id = 100712
+	title = "TITLE100712"
+	desc = "DESC100712"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Tanzania" value = 8
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Tanzania = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Tanzania = {
+			add_core = TNZ
+			life_rating = 20
+		}
+		2029 = {
+			life_rating = -20
+		}
+		2036 = {
+			life_rating = -20
+		}
+		2037 = {
+			life_rating = -20
+		}
+		2048 = {
+			life_rating = -20
+		}
+		TNZ = {
+			##
+		}
+		set_global_flag = Tanzania_established
+	}
+}
+country_event = {
+	id = 100713
+	title = "TITLE100713"
+	desc = "DESC100713"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Somalia" value = 4
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Somalia = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Somalia = {
+			add_core = SML
+			life_rating = 20
+		}
+		1868 = {
+			life_rating = -20
+		}
+		SML = {
+			##
+		}
+		set_global_flag = Somalia_established
+	}
+}
+country_event = {
+	id = 100714
+	title = "TITLE100714"
+	desc = "DESC100714"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Sierraleone" value = 2
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Sierraleone = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Sierraleone = {
+			add_core = SLE
+			life_rating = 20
+		}
+		1884 = {
+			life_rating = -20
+		}
+		SLE = {
+			##
+		}
+		set_global_flag = Sierraleone_established
+	}
+}
+country_event = {
+	id = 100715
+	title = "TITLE100715"
+	desc = "DESC100715"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Senegal" value = 6
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Senegal = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Senegal = {
+			add_core = SNG
+			life_rating = 20
+		}
+		1784 = {
+			life_rating = -20
+		}
+		1785 = {
+			life_rating = -20
+		}
+		1789 = {
+			life_rating = -20
+		}
+		SNG = {
+			##
+		}
+		set_global_flag = Senegal_established
+	}
+}
+country_event = {
+	id = 100716
+	title = "TITLE100716"
+	desc = "DESC100716"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Rwanda" value = 1
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Rwanda = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Rwanda = {
+			add_core = RWA
+			life_rating = 20
+		}
+		RWA = {
+			##
+		}
+		set_global_flag = Rwanda_established
+	}
+}
+country_event = {
+	id = 100717
+	title = "TITLE100717"
+	desc = "DESC100717"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Republicofcongo" value = 3
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Republicofcongo = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Republicofcongo = {
+			add_core = CGO
+			life_rating = 20
+		}
+		CGO = {
+			##
+		}
+		set_global_flag = Republicofcongo_established
+	}
+}
+country_event = {
+	id = 100718
+	title = "TITLE100718"
+	desc = "DESC100718"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Nigeria" value = 17
+			}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Nigeria = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Nigeria = {
+			add_core = NGR
+			life_rating = 20
+		}
+		1923 = {
+			life_rating = 10
+		}
+		NGR = {
+			##
+		}
+		set_global_flag = Nigeria_established
+	}
+}
+country_event = {
+	id = 100719
+	title = "TITLE100719"
+	desc = "DESC100719"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Niger" value = 5
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Niger = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Niger = {
+			add_core = NIG
+			life_rating = 20
+		}
+		NIG = {
+			##
+		}
+		set_global_flag = Niger_established
+	}
+}
+country_event = {
+	id = 100720
+	title = "TITLE100720"
+	desc = "DESC100720"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Nambia" value = 5
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Nambia = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Nambia = {
+			add_core = NAM
+			life_rating = 20
+		}
+		NAM = {
+			##
+		}
+		set_global_flag = Nambia_established
+	}
+}
+country_event = {
+	id = 100721
+	title = "TITLE100721"
+	desc = "DESC100721"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Mozambique" value = 9
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Mozambique = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Mozambique = {
+			add_core = MOZ
+		}
+		2052 = {
+			life_rating = 20
+		}
+		2058 = {
+			life_rating = 20
+		}
+		2055 = {
+			life_rating = 20
+		}
+		2056 = {
+			life_rating = 20
+		}
+		2054 = {
+			life_rating = 20
+		}
+		2064 = {
+			life_rating = 20
+		}
+		2581 = {
+			life_rating = 20
+		}
+		MOZ = {
+			##
+		}
+		set_global_flag = Mozambique_established
+	}
+}
+country_event = {
+	id = 100722
+	title = "TITLE100722"
+	desc = "DESC100722"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Mauritania" value = 4
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Mauritania = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Mauritania = {
+			add_core = MAR
+			life_rating = 20
+		}
+		MAR = {
+			##
+		}
+		set_global_flag = Mauritania_established
+	}
+}
+country_event = {
+	id = 100723
+	title = "TITLE100723"
+	desc = "DESC100723"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Mali" value = 8
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Mali = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Mali = {
+			add_core = MAL
+			life_rating = 20
+		}
+		MAL = {
+			##
+		}
+		set_global_flag = Mali_established
+	}
+}
+country_event = {
+	id = 100724
+	title = "TITLE100724"
+	desc = "DESC100724"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Malawi" value = 1
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Malawi = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Malawi = {
+			add_core = MLW
+			life_rating = 20
+		}
+		MLW = {
+			##
+		}
+		set_global_flag = Malawi_established
+	}
+}
+country_event = {
+	id = 100725
+	title = "TITLE100725"
+	desc = "DESC100725"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Kenya" value = 4
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Kenya = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Kenya = {
+			add_core = KNY
+			life_rating = 20
+		}
+		KNY = {
+			##
+		}
+		set_global_flag = Kenya_established
+	}
+}
+country_event = {
+	id = 100726
+	title = "TITLE100726"
+	desc = "DESC100726"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Invorycoast" value = 5
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Invorycoast = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Invorycoast = {
+			add_core = IVC
+			life_rating = 20
+		}
+		1894 = {
+			life_rating = -20
+		}
+		IVC = {
+			##
+		}
+		set_global_flag = Invorycoast_established
+	}
+}
+country_event = {
+	id = 100727
+	title = "TITLE100727"
+	desc = "DESC100727"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Guinea" value = 3
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Guinea = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Guinea = {
+			add_core = GNE
+			life_rating = 20
+		}
+		GNE = {
+			##
+		}
+		set_global_flag = Guinea_established
+	}
+}
+country_event = {
+	id = 100728
+	title = "TITLE100728"
+	desc = "DESC100728"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Guineabarsu" value = 1
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Guineabarsu = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Guineabarsu = {
+			add_core = GBS
+			life_rating = 20
+		}
+		2581 = {
+			life_rating = -20
+		}
+		GBS = {
+			##
+		}
+		set_global_flag = Guineabarsu_established
+	}
+}
+country_event = {
+	id = 100729
+	title = "TITLE100729"
+	desc = "DESC100729"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Ghana" value = 4
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Ghana = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Ghana = {
+			add_core = GHN
+			life_rating = 20
+		}
+		1907 = {
+			life_rating = -20
+		}
+		1908 = {
+			life_rating = -20
+		}
+		1909 = {
+			life_rating = -20
+		}
+		GHN = {
+			##
+		}
+		set_global_flag = Ghana_established
+	}
+}
+country_event = {
+	id = 100730
+	title = "TITLE100730"
+	desc = "DESC100730"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Gabon" value = 2
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Gabon = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Gabon = {
+			add_core = GAB
+			life_rating = 20
+		}
+		GAB = {
+			##
+		}
+		set_global_flag = Gabon_established
+	}
+}
+country_event = {
+	id = 100731
+	title = "TITLE100731"
+	desc = "DESC100731"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Equatorialguinea" value = 2
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Equatorialguinea = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Equatorialguinea = {
+			add_core = EQG
+			life_rating = 20
+		}
+		1955 = {
+			life_rating = -20
+		}
+		1954 = {
+			life_rating = -20
+		}
+		EQG = {
+			##
+		}
+		set_global_flag = Equatorialguinea_established
+	}
+}
+country_event = {
+	id = 100732
+	title = "TITLE100732"
+	desc = "DESC100732"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Congofreestate" value = 9
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Congofreestate = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Congofreestate = {
+			add_core = CNG
+			life_rating = 20
+		}
+		CNG = {
+			##
+		}
+		set_global_flag = Congofreestate_established
+	}
+}
+country_event = {
+	id = 100733
+	title = "TITLE100733"
+	desc = "DESC100733"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Chad" value = 5
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Chad = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Chad = {
+			add_core = CHD
+			life_rating = 20
+		}
+		CHD = {
+			##
+		}
+		set_global_flag = Chad_established
+	}
+}
+country_event = {
+	id = 100734
+	title = "TITLE100734"
+	desc = "DESC100734"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Centralafrica" value = 4
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Centralafrica = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Centralafrica = {
+			add_core = CAR
+			life_rating = 20
+		}
+		CAR = {
+			##
+		}
+		set_global_flag = Centralafrica_established
+	}
+}
+country_event = {
+	id = 100735
+	title = "TITLE100735"
+	desc = "DESC100735"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Capeverde" value = 1
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Capeverde = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Capeverde = {
+			add_core = CPV
+		}
+		CPV = {
+			##
+		}
+		set_global_flag = Capeverde_established
+	}
+}
+country_event = {
+	id = 100736
+	title = "TITLE100736"
+	desc = "DESC100736"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Cameroun" value = 4
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Cameroun = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Cameroun = {
+			add_core = CMR
+			life_rating = 20
+		}
+		CMR = {
+			##
+		}
+		set_global_flag = Cameroun_established
+	}
+}
+country_event = {
+	id = 100737
+	title = "TITLE100737"
+	desc = "DESC100737"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Burundi" value = 1
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Burundi = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Burundi = {
+			add_core = BRN
+			life_rating = 20
+		}
+		BRN = {
+			##
+		}
+		set_global_flag = Burundi_established
+	}
+}
+country_event = {
+	id = 100738
+	title = "TITLE100738"
+	desc = "DESC100738"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Burkinafaso" value = 3
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Burkinafaso = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Burkinafaso = {
+			add_core = BRF
+			life_rating = 20
+		}
+		BRF = {
+			##
+		}
+		set_global_flag = Burkinafaso_established
+	}
+}
+country_event = {
+	id = 100739
+	title = "TITLE100739"
+	desc = "DESC100739"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Bostwana" value = 3
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Bostwana = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Bostwana = {
+			add_core = BST
+			life_rating = 20
+		}
+		BST = {
+			##
+		}
+		set_global_flag = Bostwana_established
+	}
+}
+country_event = {
+	id = 100740
+	title = "TITLE100740"
+	desc = "DESC100740"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Benin" value = 2
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Benin = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Benin = {
+			add_core = BEN
+			life_rating = 20
+		}
+		BEN = {
+			##
+		}
+		set_global_flag = Benin_established
+	}
+}
+country_event = {
+	id = 100741
+	title = "TITLE100741"
+	desc = "DESC100741"
+	picture = ""
+	fire_only_once = yes
+	trigger = {
+		THIS = {
+check_variable = { which = "claim_on_AMP_Angola" value = 6
+		}
+		} invention = colonial_negotiations
+	}
+	immediate = {
+		AMP_Angola = {
+			secede_province = THIS
+		}
+	}
+	option = {
+		AMP_Angola = {
+			add_core = ANG
+			life_rating = 20
+		}
+		2001 = {
+			life_rating = -20
+		}
+		1999 = {
+			life_rating = -20
+		}
+		2003 = {
+			life_rating = -20
+		}
+		2004 = {
+			life_rating = -20
+		}
+		ANG = {
+			##
+		}
+		set_global_flag = Angola_established
+	}
+}
+country_event = {
+	id = 100742
+	title = "TITLE100742"
+	desc = "DESC100742"
+	picture = ""
+	allow_multiple_instances = yes
+	trigger = {
+		in_sphere = ENG
+		is_vassal = yes
+		NOT = { accepted_culture = british }
+	}
+	immediate = {
+		add_accepted_culture = british
+	}
+	option = {
+		remove_accepted_culture = north_german
+		remove_accepted_culture = dutch
+		remove_accepted_culture = north_italian
+		remove_accepted_culture = spanish
+		remove_accepted_culture = french
+		remove_accepted_culture = russian
+		remove_accepted_culture = japanese
+		remove_accepted_culture = yankee
+	}
+}
+country_event = {
+	id = 100743
+	title = "TITLE100743"
+	desc = "DESC100743"
+	picture = ""
+	allow_multiple_instances = yes
+	trigger = {
+		OR = {
+			in_sphere = GER
+			in_sphere = NGF
+			in_sphere = PRU
+		}
+		is_vassal = yes
+		NOT = { accepted_culture = north_german }
+	}
+	immediate = {
+		add_accepted_culture = north_german
+	}
+	option = {
+		remove_accepted_culture = british
+		remove_accepted_culture = dutch
+		remove_accepted_culture = north_italian
+		remove_accepted_culture = spanish
+		remove_accepted_culture = french
+		remove_accepted_culture = russian
+		remove_accepted_culture = japanese
+		remove_accepted_culture = yankee
+	}
+}
+country_event = {
+	id = 100744
+	title = "TITLE100744"
+	desc = "DESC100744"
+	picture = ""
+	allow_multiple_instances = yes
+	trigger = {
+		in_sphere = FRA
+		is_vassal = yes
+		NOT = { accepted_culture = french }
+	}
+	immediate = {
+		add_accepted_culture = french
+	}
+	option = {
+		remove_accepted_culture = british
+		remove_accepted_culture = north_german
+		remove_accepted_culture = dutch
+		remove_accepted_culture = north_italian
+		remove_accepted_culture = spanish
+		remove_accepted_culture = russian
+		remove_accepted_culture = japanese
+		remove_accepted_culture = yankee
+	}
+}
+country_event = {
+	id = 100745
+	title = "TITLE100745"
+	desc = "DESC100745"
+	picture = ""
+	allow_multiple_instances = yes
+	trigger = {
+		in_sphere = NET
+		is_vassal = yes
+		NOT = { accepted_culture = dutch }
+	}
+	immediate = {
+		add_accepted_culture = dutch
+	}
+	option = {
+		remove_accepted_culture = british
+		remove_accepted_culture = north_german
+		remove_accepted_culture = french
+		remove_accepted_culture = north_italian
+		remove_accepted_culture = spanish
+		remove_accepted_culture = russian
+		remove_accepted_culture = japanese
+		remove_accepted_culture = yankee
+	}
+}
+country_event = {
+	id = 100746
+	title = "TITLE100746"
+	desc = "DESC100746"
+	picture = ""
+	allow_multiple_instances = yes
+	trigger = {
+		in_sphere = ITA
+		is_vassal = yes
+		NOT = { accepted_culture = north_italian }
+	}
+	immediate = {
+		add_accepted_culture = north_italian
+	}
+	option = {
+		remove_accepted_culture = british
+		remove_accepted_culture = north_german
+		remove_accepted_culture = french
+		remove_accepted_culture = dutch
+		remove_accepted_culture = spanish
+		remove_accepted_culture = russian
+		remove_accepted_culture = japanese
+		remove_accepted_culture = yankee
+	}
+}
+country_event = {
+	id = 100747
+	title = "TITLE100747"
+	desc = "DESC100747"
+	picture = ""
+	allow_multiple_instances = yes
+	trigger = {
+		in_sphere = SPA
+		is_vassal = yes
+		NOT = { accepted_culture = spanish }
+	}
+	immediate = {
+		add_accepted_culture = spanish
+	}
+	option = {
+		remove_accepted_culture = british
+		remove_accepted_culture = north_german
+		remove_accepted_culture = french
+		remove_accepted_culture = dutch
+		remove_accepted_culture = north_italian
+		remove_accepted_culture = russian
+		remove_accepted_culture = japanese
+		remove_accepted_culture = yankee
+	}
+}
+country_event = {
+	id = 100748
+	title = "TITLE100748"
+	desc = "DESC100748"
+	picture = ""
+	allow_multiple_instances = yes
+	trigger = {
+		OR = {
+			in_sphere = AUS
+			in_sphere = KUK
+		}
+		is_vassal = yes
+		NOT = { accepted_culture = north_german }
+	}
+	immediate = {
+		add_accepted_culture = north_german
+	}
+	option = {
+		remove_accepted_culture = british
+		remove_accepted_culture = north_german
+		remove_accepted_culture = french
+		remove_accepted_culture = dutch
+		remove_accepted_culture = north_italian
+		remove_accepted_culture = russian
+		remove_accepted_culture = japanese
+		remove_accepted_culture = yankee
+		remove_accepted_culture = spanish
+	}
+}

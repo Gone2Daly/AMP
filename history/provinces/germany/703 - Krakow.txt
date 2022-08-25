@@ -1,0 +1,35 @@
+owner = KRA
+controller = KRA
+add_core = KRA
+add_core = POL
+add_core = PLC
+trade_goods = coal
+life_rating = 40
+1861.1.1 = {
+	owner = AUS
+	controller = AUS
+	railroad = 3
+}
+1914.1.1 = {
+	owner = KUK
+	controller = KUK
+	add_core = KUK
+	remove_core = PLC
+	railroad = 4
+	fort = 2
+}
+1923.1.1 = {
+	owner = POL
+	controller = POL
+	remove_core = KUK
+}
+state_building = {
+	level = 1
+	building = manufacture_ammunition
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_steel
+	upgrade = yes
+}

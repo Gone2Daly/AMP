@@ -1,0 +1,23 @@
+owner = BRE
+controller = BRE
+add_core = BRE
+add_core = GER
+trade_goods = fish
+life_rating = 42
+naval_base = 1
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+owner = GER		
+controller = GER	
+railroad = 5	
+}
+state_building = {
+	level = 1
+	building = manufacture_artillery
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_small_arms
+	upgrade = yes
+}

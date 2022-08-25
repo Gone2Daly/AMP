@@ -1,0 +1,13 @@
+owner = ENG
+controller = ENG
+add_core = ENG
+trade_goods = coal
+life_rating = 35
+
+state_building = {
+    level = 2
+	building = polygraphy_factory
+	upgrade = yes
+}
+
+fort = 1

@@ -1,0 +1,25 @@
+(Validator Events) = {
+	Type = Default
+	(FileGroup "events" "*.txt")
+	FriendlyName = "@Events"
+	ValidatorName = EventFile
+}
+
+(Type EventFile) = {
+	(Ch N Y) = { Left = "namespace" Right = String }
+	
+	Child = { Left = "character_event" Right = CharEvent }
+	Child = { Left = "letter_event" Right = CharEvent }
+	Child = { Left = "narrative_event" Right = CharEvent }
+	Child = { Left = "diploresponse_event" Right = CharEvent }
+	Child = { Left = "long_character_event" Right = CharEvent }
+	Child = { Left = "province_event" Right = ProvEvent }
+	Child = { Left = "unit_event" Right = UnitEvent }
+	
+	# TODO: actually add checking, if anyone cares about it
+	Child = { Left = "unit_event" Right = Untyped }
+}
+
+(Import "CharEvent" From "EventsHelper" WithFlag "c")
+(Import "ProvEvent" From "EventsHelper" WithFlag "p")
+(Import "UnitEvent" From "EventsHelper" WithFlag "u")

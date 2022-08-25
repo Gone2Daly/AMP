@@ -1,0 +1,1603 @@
+country_event = {
+	id = 100000
+	title = "100000"
+	desc = "100000"
+	picture = "greatpowers"
+	allow_multiple_instances = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = XPR
+	}
+	immediate = {
+		any_country = {
+			any_owned = {
+				remove_province_modifier = extremely_low_immigration
+				remove_province_modifier = lower_immigration
+				remove_province_modifier = low_immigration
+				remove_province_modifier = medium_immigration
+				remove_province_modifier = high_immigration
+				remove_province_modifier = higher_immigration
+				remove_province_modifier = extremely_high_immigration 
+				remove_province_modifier = highest_immigration
+				
+				remove_province_modifier = literacy_0
+				remove_province_modifier = literacy_10
+				remove_province_modifier = literacy_20
+				remove_province_modifier = literacy_30
+				remove_province_modifier = literacy_40
+				remove_province_modifier = literacy_50
+				remove_province_modifier = literacy_60
+				remove_province_modifier = literacy_70
+				remove_province_modifier = literacy_80
+				remove_province_modifier = literacy_90
+				
+				remove_province_modifier = recruiting_shipfix
+				remove_province_modifier = recruiting_10_years_draft_shipfix
+				remove_province_modifier = 10_years_draft_recruiting_shipfix
+				remove_province_modifier = 10_years_draft_shipfix
+				remove_province_modifier = 10_years_draft_7_years_draft_shipfix
+				remove_province_modifier = 7_years_draft_10_years_draft_shipfix
+				remove_province_modifier = 7_years_draft_shipfix
+				remove_province_modifier = 7_years_draft_4_years_draft_shipfix
+				remove_province_modifier = 4_years_draft_7_years_draft_shipfix
+				remove_province_modifier = 4_years_draft_shipfix
+				remove_province_modifier = 4_years_draft_1_years_draft_shipfix
+				remove_province_modifier = 1_years_draft_4_years_draft_shipfix
+				remove_province_modifier = 1_years_draft_shipfix
+				remove_province_modifier = 1_years_draft_no_draft_shipfix
+				remove_province_modifier = no_draft_1_years_draft_shipfix
+				remove_province_modifier = no_draft_shipfix
+				
+				remove_province_modifier = urbanization
+				
+				remove_province_modifier = craftsmen_clerk_workspace_in_state
+				remove_province_modifier = servicers_workspace_in_state
+				remove_province_modifier = farmers_workspace_in_state
+				remove_province_modifier = labourers_workspace_in_state
+			}
+			clr_country_flag = urbanization
+			
+			remove_country_modifier = industrial_revolution_stage_1
+			remove_country_modifier = industrial_revolution_stage_2
+			remove_country_modifier = industrial_revolution_stage_3
+			remove_country_modifier = industrial_revolution_stage_4
+			remove_country_modifier = industrial_revolution_stage_5
+			remove_country_modifier = industrial_revolution_stage_6
+			remove_country_modifier = industrial_revolution_stage_7
+			remove_country_modifier = industrial_revolution_stage_8
+			remove_country_modifier = industrial_revolution_stage_9
+			remove_country_modifier = industrial_revolution_stage_10
+			remove_country_modifier = second_industrial_revolution_stage_1
+			remove_country_modifier = second_industrial_revolution_stage_2
+			remove_country_modifier = second_industrial_revolution_stage_3
+			remove_country_modifier = second_industrial_revolution_stage_4
+			remove_country_modifier = second_industrial_revolution_stage_5
+			remove_country_modifier = second_industrial_revolution_stage_6
+			remove_country_modifier = second_industrial_revolution_stage_7
+			remove_country_modifier = second_industrial_revolution_stage_8
+			remove_country_modifier = second_industrial_revolution_stage_9
+			remove_country_modifier = second_industrial_revolution_stage_10
+			
+			clr_country_flag = industrial_revolution_stage_1
+			clr_country_flag = industrial_revolution_stage_2
+			clr_country_flag = industrial_revolution_stage_3
+			clr_country_flag = industrial_revolution_stage_4
+			clr_country_flag = industrial_revolution_stage_5
+			clr_country_flag = industrial_revolution_stage_6
+			clr_country_flag = industrial_revolution_stage_7
+			clr_country_flag = industrial_revolution_stage_8
+			clr_country_flag = industrial_revolution_stage_9
+			clr_country_flag = industrial_revolution_stage_10
+			clr_country_flag = second_industrial_revolution_stage_1
+			clr_country_flag = second_industrial_revolution_stage_2
+			clr_country_flag = second_industrial_revolution_stage_3
+			clr_country_flag = second_industrial_revolution_stage_4
+			clr_country_flag = second_industrial_revolution_stage_5
+			clr_country_flag = second_industrial_revolution_stage_6
+			clr_country_flag = second_industrial_revolution_stage_7
+			clr_country_flag = second_industrial_revolution_stage_8
+			clr_country_flag = second_industrial_revolution_stage_9
+			clr_country_flag = second_industrial_revolution_stage_10
+			
+			clr_country_flag = soldiers_fix
+			clr_country_flag = stateemployees_fix
+		}
+	}
+	option = {
+		name = "100000"
+		any_country = {
+			limit = {
+				soldiers = 0.07
+			}
+			set_country_flag = soldiers_fix
+		}
+		any_country = {
+			limit = {
+				OR = {
+					clergymen = 0.045
+					bureaucrats = 0.045
+				}
+			}
+			set_country_flag = stateemployees_fix
+		}
+		any_country = {
+			limit = {
+				government = one_party_socialist_republic
+				upper_house_composition = population_equal_weight
+			}
+			set_country_flag = communism_reforming
+		}
+		any_country = {
+			limit = {
+				government = fascist_dictatorship
+			}
+			set_country_flag = fascist_dictatorship
+		}
+		any_country = {
+			limit = {
+				NOT = { government = fascist_dictatorship }
+			}
+			clr_country_flag = fascist_dictatorship
+		}
+		any_country = {
+			limit = {
+				government = one_party_socialist_republic
+			}
+			set_country_flag = one_party_socialist_republic
+		}
+		any_country = {
+			limit = {
+				NOT = { government = one_party_socialist_republic }
+			}
+			clr_country_flag = one_party_socialist_republic
+		}
+		any_country = {
+			limit = {
+				government = proletarian_dictatorship
+			}
+			set_country_flag = proletarian_dictatorship
+		}
+		any_country = {
+			limit = {
+				NOT = { government = proletarian_dictatorship }
+			}
+			clr_country_flag = proletarian_dictatorship
+		}
+		any_country = {
+			limit = {
+				government = colonial_company
+			}
+			set_country_flag = colonial_company
+		}
+		any_country = {
+			limit = {
+				NOT = { government = colonial_company }
+			}
+			clr_country_flag = colonial_company
+		}
+		any_country = {
+			limit = {
+				has_country_modifier = recruiting
+			}
+			any_owned = {
+				limit = {
+					port = yes
+				}
+				add_province_modifier = {
+					name = recruiting_shipfix
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_modifier = recruiting_10_years_draft
+			}
+			any_owned = {
+				limit = {
+					port = yes
+				}
+				add_province_modifier = {
+					name = recruiting_10_years_draft_shipfix
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_modifier = 10_years_draft_recruiting
+			}
+			any_owned = {
+				limit = {
+					port = yes
+				}
+				add_province_modifier = {
+					name = 10_years_draft_recruiting_shipfix
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_modifier = 10_years_draft
+			}
+			any_owned = {
+				limit = {
+					port = yes
+				}
+				add_province_modifier = {
+					name = 10_years_draft_shipfix
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_modifier = 10_years_draft_7_years_draft
+			}
+			any_owned = {
+				limit = {
+					port = yes
+				}
+				add_province_modifier = {
+					name = 10_years_draft_7_years_draft_shipfix
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_modifier = 7_years_draft_10_years_draft
+			}
+			any_owned = {
+				limit = {
+					port = yes
+				}
+				add_province_modifier = {
+					name = 7_years_draft_10_years_draft_shipfix
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_modifier = 7_years_draft
+			}
+			any_owned = {
+				limit = {
+					port = yes
+				}
+				add_province_modifier = {
+					name = 7_years_draft_shipfix
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_modifier = 7_years_draft_4_years_draft
+			}
+			any_owned = {
+				limit = {
+					port = yes
+				}
+				add_province_modifier = {
+					name = 7_years_draft_4_years_draft_shipfix
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_modifier = 4_years_draft_7_years_draft
+			}
+			any_owned = {
+				limit = {
+					port = yes
+				}
+				add_province_modifier = {
+					name = 4_years_draft_7_years_draft_shipfix
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_modifier = 4_years_draft
+			}
+			any_owned = {
+				limit = {
+					port = yes
+				}
+				add_province_modifier = {
+					name = 4_years_draft_shipfix
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_modifier = 4_years_draft_1_years_draft
+			}
+			any_owned = {
+				limit = {
+					port = yes
+				}
+				add_province_modifier = {
+					name = 4_years_draft_1_years_draft_shipfix
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_modifier = 1_years_draft_4_years_draft
+			}
+			any_owned = {
+				limit = {
+					port = yes
+				}
+				add_province_modifier = {
+					name = 1_years_draft_4_years_draft_shipfix
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_modifier = 1_years_draft
+			}
+			any_owned = {
+				limit = {
+					port = yes
+				}
+				add_province_modifier = {
+					name = 1_years_draft_shipfix
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_modifier = 1_years_draft_no_draft
+			}
+			any_owned = {
+				limit = {
+					port = yes
+				}
+				add_province_modifier = {
+					name = 1_years_draft_no_draft_shipfix
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_modifier = no_draft_1_years_draft
+			}
+			any_owned = {
+				limit = {
+					port = yes
+				}
+				add_province_modifier = {
+					name = no_draft_1_years_draft_shipfix
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_modifier = no_draft
+			}
+			any_owned = {
+				limit = {
+					port = yes
+				}
+				add_province_modifier = {
+					name = no_draft_shipfix
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					AND = {
+						state_scope = {
+							has_factories = yes
+						}
+						OR = {
+							NOT = {
+								unemployment_by_type = {
+									type = craftsmen
+									value = 0.01
+								}
+							}
+						}
+					}
+				}
+				add_province_modifier = {
+					name = urbanization
+					duration = -1
+				}
+				set_country_flag = urbanization
+			}
+		}
+
+		any_country = {
+			any_owned = {
+				limit = {
+					state_scope = {
+						OR = {
+							has_building = machine_parts_factory
+							has_building = steel_factory
+							has_building = cement_factory
+							has_building = iron_iron_factory
+							has_building = artillery_factory
+							has_building = small_arms_factory
+							has_building = ammunition_factory
+							has_building = explosives_factory
+							has_building = electric_gear_factory
+							has_building = aeroplane_factory
+							has_building = barrel_factory
+							has_building = automobile_factory
+							has_building = radio_factory
+							has_building = telephone_factory
+							has_building = oil_rubber_factory
+							has_building = synthetic_oil_factory
+							has_building = fuel_refinery
+							has_building = luxury_clothes_factory
+							has_building = regular_clothes_factory
+							has_building = fabric_factory
+							has_building = syntetic_fabric_factory
+							has_building = dye_factory
+							has_building = oil_silk_factory
+							has_building = luxury_furniture_factory
+							has_building = furniture_factory
+							has_building = lumber_mill
+							has_building = paper_mill
+							has_building = liquor_distillery
+							has_building = winery
+							has_building = glass_factory
+							has_building = steamer_shipyard
+							has_building = clipper_shipyard
+							has_building = fertilizer_factory
+							has_building = canned_food_factory
+							has_building = canned_food_factory_wool
+							has_building = canned_food_factory_fruit
+							has_building = canned_food_factory_fish
+							has_building = canned_food_factory_cattle
+							has_building = furniture_factory
+							has_building = lumber_mill
+							has_building = paper_mill
+							has_building = liquor_distillery
+						}
+					}
+				}
+				add_province_modifier = {
+					name = craftsmen_clerk_workspace_in_state
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					AND = {
+						OR = {
+							has_building = transport_company
+							has_building = education_company
+							has_building = culture_company
+							has_building = recreation_company
+							has_building = financial_company
+							has_building = healthcare_company
+						}
+					}
+				}
+				add_province_modifier = {
+					name = servicers_workspace_in_state
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					AND = {
+						OR = {
+							trade_goods = cattle
+							trade_goods = coffee
+							trade_goods = cotton
+							trade_goods = dye
+							trade_goods = fish
+							trade_goods = grain
+							trade_goods = opium
+							trade_goods = fruit
+							trade_goods = wool
+							trade_goods = silk
+							trade_goods = tea
+							trade_goods = tobacco
+						}
+					}
+				}
+				add_province_modifier = {
+					name = farmers_workspace_in_state
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					AND = {
+						OR = {
+							trade_goods = iron
+							trade_goods = oil
+							trade_goods = precious_metal
+							trade_goods = sulphur
+							trade_goods = coal
+							trade_goods = timber
+							trade_goods = rubber
+							trade_goods = tropical_wood
+						}
+					}
+				}
+				add_province_modifier = {
+					name = labourers_workspace_in_state
+					duration = -1
+				}
+			}
+		}
+		
+		##########################Literacy Impact##################################
+		any_country = {
+			limit = {
+			}
+			any_owned = {
+				limit = {
+					literacy = 0
+					NOT = {
+						literacy = 0.1
+					}
+				}
+				add_province_modifier = {
+					name = literacy_0
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+			}
+			any_owned = {
+				limit = {
+					literacy = 0.1
+					NOT = {
+						literacy = 0.2
+					}
+				}
+				add_province_modifier = {
+					name = literacy_10
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+			}
+			any_owned = {
+				limit = {
+					literacy = 0.2
+					NOT = {
+						literacy = 0.3
+					}
+				}
+				add_province_modifier = {
+					name = literacy_20
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+			}
+			any_owned = {
+				limit = {
+					literacy = 0.3
+					NOT = {
+						literacy = 0.4
+					}
+				}
+				add_province_modifier = {
+					name = literacy_30
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+			}
+			any_owned = {
+				limit = {
+					literacy = 0.4
+					NOT = {
+						literacy = 0.5
+					}
+				}
+				add_province_modifier = {
+					name = literacy_40
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+			}
+			any_owned = {
+				limit = {
+					literacy = 0.5
+					NOT = {
+						literacy = 0.6
+					}
+				}
+				add_province_modifier = {
+					name = literacy_50
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+			}
+			any_owned = {
+				limit = {
+					literacy = 0.6
+					NOT = {
+						literacy = 0.7
+					}
+				}
+				add_province_modifier = {
+					name = literacy_60
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+			}
+			any_owned = {
+				limit = {
+					literacy = 0.7
+					NOT = {
+						literacy = 0.8
+					}
+				}
+				add_province_modifier = {
+					name = literacy_70
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+			}
+			any_owned = {
+				limit = {
+					literacy = 0.8
+					NOT = {
+						literacy = 0.9
+					}
+				}
+				add_province_modifier = {
+					name = literacy_80
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+			}
+			any_owned = {
+				limit = {
+					literacy = 0.9
+				}
+				add_province_modifier = {
+					name = literacy_90
+					duration = -1
+				}
+			}
+		}
+		##########################Industrial Impact##################################
+		any_country = {
+			limit = {
+				invention = industrial_revolution_stage_1
+				NOT = {
+					invention = industrial_revolution_stage_2
+				}
+			}
+			add_country_modifier = {
+				name = industrial_revolution_stage_1
+				duration = -1
+			}
+			set_country_flag = industrial_revolution_stage_1
+		}
+		any_country = {
+			limit = {
+				invention = industrial_revolution_stage_2
+				NOT = {
+					invention = industrial_revolution_stage_3
+				}
+			}
+			add_country_modifier = {
+				name = industrial_revolution_stage_2
+				duration = -1
+			}
+			set_country_flag = industrial_revolution_stage_2
+		}
+		any_country = {
+			limit = {
+				invention = industrial_revolution_stage_3
+				NOT = {
+					invention = industrial_revolution_stage_4
+				}
+			}
+			add_country_modifier = {
+				name = industrial_revolution_stage_3
+				duration = -1
+			}
+			set_country_flag = industrial_revolution_stage_3
+		}
+		any_country = {
+			limit = {
+				invention = industrial_revolution_stage_4
+				NOT = {
+					invention = industrial_revolution_stage_5
+				}
+			}
+			set_country_flag = industrial_revolution_stage_4
+			add_country_modifier = {
+				name = industrial_revolution_stage_4
+				duration = -1
+			}
+		}
+		any_country = {
+			limit = {
+				invention = industrial_revolution_stage_5
+				NOT = {
+					invention = industrial_revolution_stage_6
+				}
+			}
+			set_country_flag = industrial_revolution_stage_5
+			add_country_modifier = {
+				name = industrial_revolution_stage_5
+				duration = -1
+			}
+		}
+		any_country = {
+			limit = {
+				invention = industrial_revolution_stage_6
+				NOT = {
+					invention = industrial_revolution_stage_7
+				}
+			}
+			set_country_flag = industrial_revolution_stage_6
+			add_country_modifier = {
+				name = industrial_revolution_stage_6
+				duration = -1
+			}
+		}
+		any_country = {
+			limit = {
+				invention = industrial_revolution_stage_7
+				NOT = {
+					invention = industrial_revolution_stage_8
+				}
+			}
+			set_country_flag = industrial_revolution_stage_7
+			add_country_modifier = {
+				name = industrial_revolution_stage_7
+				duration = -1
+			}
+		}
+		any_country = {
+			limit = {
+				invention = industrial_revolution_stage_8
+				NOT = {
+					invention = industrial_revolution_stage_9
+				}
+			}
+			set_country_flag = industrial_revolution_stage_8
+			add_country_modifier = {
+				name = industrial_revolution_stage_8
+				duration = -1
+			}
+		}
+		any_country = {
+			limit = {
+				invention = industrial_revolution_stage_9
+				NOT = {
+					invention = industrial_revolution_stage_10
+				}
+			}
+			
+			set_country_flag = industrial_revolution_stage_9
+			add_country_modifier = {
+				name = industrial_revolution_stage_9
+				duration = -1
+			}
+		}
+		any_country = {
+			limit = {
+				invention = industrial_revolution_stage_10
+			}
+			
+			set_country_flag = industrial_revolution_stage_10
+			add_country_modifier = {
+				name = industrial_revolution_stage_10
+				duration = -1
+			}
+		}
+		any_country = {
+			limit = {
+				invention = second_industrial_revolution_stage_1
+				NOT = {
+					invention = second_industrial_revolution_stage_2
+				}
+			}
+			add_country_modifier = {
+				name = second_industrial_revolution_stage_1
+				duration = -1
+			}
+		}
+		any_country = {
+			limit = {
+				invention = second_industrial_revolution_stage_2
+				NOT = {
+					invention = second_industrial_revolution_stage_3
+				}
+			}
+			add_country_modifier = {
+				name = second_industrial_revolution_stage_2
+				duration = -1
+			}
+		}
+		any_country = {
+			limit = {
+				invention = second_industrial_revolution_stage_3
+				NOT = {
+					invention = second_industrial_revolution_stage_4
+				}
+			}
+			add_country_modifier = {
+				name = second_industrial_revolution_stage_3
+				duration = -1
+			}
+		}
+		any_country = {
+			limit = {
+				invention = second_industrial_revolution_stage_4
+				NOT = {
+					invention = second_industrial_revolution_stage_5
+				}
+			}
+			add_country_modifier = {
+				name = second_industrial_revolution_stage_4
+				duration = -1
+			}
+		}
+		any_country = {
+			limit = {
+				invention = second_industrial_revolution_stage_5
+				NOT = {
+					invention = second_industrial_revolution_stage_6
+				}
+			}
+			add_country_modifier = {
+				name = second_industrial_revolution_stage_5
+				duration = -1
+			}
+		}
+		any_country = {
+			limit = {
+				invention = second_industrial_revolution_stage_6
+				NOT = {
+					invention = second_industrial_revolution_stage_7
+				}
+			}
+			add_country_modifier = {
+				name = second_industrial_revolution_stage_6
+				duration = -1
+			}
+		}
+		any_country = {
+			limit = {
+				invention = second_industrial_revolution_stage_7
+				NOT = {
+					invention = second_industrial_revolution_stage_8
+				}
+			}
+			add_country_modifier = {
+				name = second_industrial_revolution_stage_7
+				duration = -1
+			}
+		}
+		any_country = {
+			limit = {
+				invention = second_industrial_revolution_stage_8
+				NOT = {
+					invention = second_industrial_revolution_stage_9
+				}
+			}
+			add_country_modifier = {
+				name = second_industrial_revolution_stage_8
+				duration = -1
+			}
+		}
+		any_country = {
+			limit = {
+				invention = second_industrial_revolution_stage_9
+				NOT = {
+					invention = second_industrial_revolution_stage_10
+				}
+			}
+			add_country_modifier = {
+				name = second_industrial_revolution_stage_9
+				duration = -1
+			}
+		}
+		any_country = {
+			limit = {
+				invention = second_industrial_revolution_stage_10
+			}
+			add_country_modifier = {
+				name = second_industrial_revolution_stage_10
+				duration = -1
+			}
+		}
+	}
+}
+country_event = {
+	id = 100501
+	title = "TITLE100501"
+	desc = "DESC100501"
+	picture = ""
+	allow_multiple_instances = yes
+	is_triggered_only = yes
+	trigger = {
+		year = 1870
+		OR = {
+			AND = {
+				any_owned_province = {
+					region = AMP_ethiopia
+				}
+				NOT = { has_global_flag = ethiopia_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Liberia
+				}
+				NOT = { has_global_flag = Liberia_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_southafricaeng
+				}
+				NOT = { has_global_flag = southafricaeng_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_sudan
+				}
+				NOT = { has_global_flag = sudan_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_morocco
+				}
+				NOT = { has_global_flag = morocco_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_algeria
+				}
+				NOT = { has_global_flag = algeria_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_libya
+				}
+				NOT = { has_global_flag = libya_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Zimbabwe
+				}
+				NOT = { has_global_flag = Zimbabwe_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Zambia
+				}
+				NOT = { has_global_flag = Zambia_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Togo
+				}
+				NOT = { has_global_flag = Togo_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Uganda
+				}
+				NOT = { has_global_flag = Uganda_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Tanzania
+				}
+				NOT = { has_global_flag = Tanzania_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Somalia
+				}
+				NOT = { has_global_flag = Somalia_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Sierraleone
+				}
+				NOT = { has_global_flag = Sierraleone_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Senegal
+				}
+				NOT = { has_global_flag = Senegal_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Rwanda
+				}
+				NOT = { has_global_flag = Rwanda_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Republicofcongo
+				}
+				NOT = { has_global_flag = Republicofcongo_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Gabon
+				}
+				NOT = { has_global_flag = Gabon_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Nigeria
+				}
+				NOT = { has_global_flag = Nigeria_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Niger
+				}
+				NOT = { has_global_flag = Niger_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Nambia
+				}
+				NOT = { has_global_flag = Nambia_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Mozambique
+				}
+				NOT = { has_global_flag = Mozambique_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Mauritania
+				}
+				NOT = { has_global_flag = Mauritania_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Mali
+				}
+				NOT = { has_global_flag = Mali_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Malawi
+				}
+				NOT = { has_global_flag = Malawi_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Kenya
+				}
+				NOT = { has_global_flag = Kenya_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Invorycoast
+				}
+				NOT = { has_global_flag = Invorycoast_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Guinea
+				}
+				NOT = { has_global_flag = Guinea_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Guineabarsu
+				}
+				NOT = { has_global_flag = Guineabarsu_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Ghana
+				}
+				NOT = { has_global_flag = Ghana_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Gabon
+				}
+				NOT = { has_global_flag = Gabon_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Equatorialguinea
+				}
+				NOT = { has_global_flag = Equatorialguinea_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Congofreestate
+				}
+				NOT = { has_global_flag = Congofreestate_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Chad
+				}
+				NOT = { has_global_flag = Chad_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Centralafrica
+				}
+				NOT = { has_global_flag = Centralafrica_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Capeverde
+				}
+				NOT = { has_global_flag = Capeverde_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Cameroun
+				}
+				NOT = { has_global_flag = Cameroun_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Burundi
+				}
+				NOT = { has_global_flag = Burundi_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Burkinafaso
+				}
+				NOT = { has_global_flag = Burkinafaso_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Bostwana
+				}
+				NOT = { has_global_flag = Bostwana_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Benin
+				}
+				NOT = { has_global_flag = Benin_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_Angola
+				}
+				NOT = { has_global_flag = Angola_established }
+			}
+			AND = {
+				any_owned_province = {
+					region = AMP_algeria
+				}
+				NOT = { has_global_flag = algeria_established }
+			}
+		}
+	}
+	immediate = {
+			set_variable = { which = "claim_on_AMP_ethiopia" value = 0 }
+			set_variable = { which = "claim_on_AMP_Liberia" value = 0 }
+			set_variable = { which = "claim_on_AMP_southafricaeng" value = 0 }
+			set_variable = { which = "claim_on_AMP_sudan" value = 0 }
+			set_variable = { which = "claim_on_AMP_morocco" value = 0 }
+			set_variable = { which = "claim_on_AMP_algeria" value = 0 }
+			set_variable = { which = "claim_on_AMP_libya" value = 0 }
+			set_variable = { which = "claim_on_AMP_Zimbabwe" value = 0 }
+			set_variable = { which = "claim_on_AMP_Zambia" value = 0 }
+			set_variable = { which = "claim_on_AMP_Uganda" value = 0 }
+			set_variable = { which = "claim_on_AMP_Togo" value = 0 }
+			set_variable = { which = "claim_on_AMP_Tanzania" value = 0 }
+			set_variable = { which = "claim_on_AMP_Somalia" value = 0 }
+			set_variable = { which = "claim_on_AMP_Sierraleone" value = 0 }
+			set_variable = { which = "claim_on_AMP_Senegal" value = 0 }
+			set_variable = { which = "claim_on_AMP_Rwanda" value = 0 }
+			set_variable = { which = "claim_on_AMP_Republicofcongo" value = 0 }
+			set_variable = { which = "claim_on_AMP_Nigeria" value = 0 }
+			set_variable = { which = "claim_on_AMP_Niger" value = 0 }
+			set_variable = { which = "claim_on_AMP_Nambia" value = 0 }
+			set_variable = { which = "claim_on_AMP_Mozambique" value = 0 }
+			set_variable = { which = "claim_on_AMP_Mauritania" value = 0 }
+			set_variable = { which = "claim_on_AMP_Mali" value = 0 }
+			set_variable = { which = "claim_on_AMP_Malawi" value = 0 }
+			set_variable = { which = "claim_on_AMP_Kenya" value = 0 }
+			set_variable = { which = "claim_on_AMP_Invorycoast" value = 0 }
+			set_variable = { which = "claim_on_AMP_Guinea" value = 0 }
+			set_variable = { which = "claim_on_AMP_Guineabarsu" value = 0 }
+			set_variable = { which = "claim_on_AMP_Ghana" value = 0 }
+			set_variable = { which = "claim_on_AMP_Gabon" value = 0 }
+			set_variable = { which = "claim_on_AMP_Equatorialguinea" value = 0 }
+			set_variable = { which = "claim_on_AMP_Congofreestate" value = 0 }
+			set_variable = { which = "claim_on_AMP_Chad" value = 0 }
+			set_variable = { which = "claim_on_AMP_Centralafrica" value = 0 }
+			set_variable = { which = "claim_on_AMP_Capeverde" value = 0 }
+			set_variable = { which = "claim_on_AMP_Cameroun" value = 0 }
+			set_variable = { which = "claim_on_AMP_Burundi" value = 0 }
+			set_variable = { which = "claim_on_AMP_Burkinafaso" value = 0 }
+			set_variable = { which = "claim_on_AMP_Bostwana" value = 0 }
+			set_variable = { which = "claim_on_AMP_Benin" value = 0 }
+			set_variable = { which = "claim_on_AMP_Angola" value = 0 }
+			set_variable = { which = "claim_on_AMP_Aldjazair" value = 0 }
+			
+			
+	}
+	option = {
+		name = "OPTIONA100501"
+		any_owned = {
+				limit = {
+					region = AMP_ethiopia
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_ethiopia" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Liberia
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Liberia" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_southafricaeng
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_southafricaeng" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_sudan
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_sudan" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_morocco
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_morocco" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_algeria
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_algeria" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_libya
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_libya" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Zimbabwe
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Zimbabwe" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Zambia
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Zambia" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Uganda
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Uganda" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Togo
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Togo" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Tanzania
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Tanzania" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Somalia
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Somalia" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Sierraleone
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Sierraleone" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Senegal
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Senegal" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Rwanda
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Rwanda" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Republicofcongo
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Republicofcongo" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Gabon
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Gabon" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Nigeria
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Nigeria" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Niger
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Niger" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Nambia
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Nambia" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Mozambique
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Mozambique" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Mauritania
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Mauritania" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Mali
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Mali" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Malawi
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Malawi" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Kenya
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Kenya" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Invorycoast
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Invorycoast" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Guinea
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Guinea" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Guineabarsu
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Guineabarsu" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Ghana
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Ghana" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Gabon
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Gabon" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Equatorialguinea
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Equatorialguinea" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Congofreestate
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Congofreestate" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Chad
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Chad" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Centralafrica
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Centralafrica" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Capeverde
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Capeverde" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Cameroun
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Cameroun" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Burundi
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Burundi" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Burkinafaso
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Burkinafaso" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Bostwana
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Bostwana" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Benin
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Benin" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_Angola
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_Angola" value = 1 } }
+			}
+			any_owned = {
+				limit = {
+					region = AMP_algeria
+					owned_by = THIS
+				}
+				THIS = { change_variable = { which = "claim_on_AMP_algeria" value = 1 } }
+			}
+	}
+}
+country_event = {
+	id = 100502
+	title = "100502"
+	desc = "100502"
+	picture = "greatpowers"
+	allow_multiple_instances = yes
+	trigger = {
+		tag = XPR
+		NOT = { exists = AUS }
+	}
+	immediate = {
+		any_country = {
+			any_owned = {
+				limit = {
+					is_core = AUS
+				}
+				remove_core = AUS
+			}
+		}
+	}
+	option = {
+		name = "OPTIONA100502"
+	}
+}

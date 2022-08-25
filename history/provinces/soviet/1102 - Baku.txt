@@ -1,0 +1,15 @@
+owner = RUS
+controller = RUS
+add_core = AZB
+trade_goods = grain
+life_rating = 42
+state_building = {
+	level = 1
+	building = manufacture_luxury_furniture
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_steel
+	upgrade = yes
+}

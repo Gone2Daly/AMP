@@ -1,0 +1,1273 @@
+#100650-100699 IDs
+country_event = {
+	id = 100651
+	title = "TITLE100651"
+	desc = "DESC100651"
+	picture = ""
+	trigger = {
+		any_owned_province = {
+			region = AMP_britishindia
+		}
+		OR = {
+			is_our_vassal = OST
+			is_our_vassal = ING
+			is_our_vassal = INR
+			is_our_vassal = INF
+			is_our_vassal = INA
+			is_our_vassal = INU
+			is_our_vassal = INJ
+			is_our_vassal = INI
+			is_our_vassal = INS
+			is_our_vassal = INH
+			is_our_vassal = IOT
+			is_our_vassal = ILA
+			is_our_vassal = INK
+		}
+	}
+	immediate = {
+		any_country = {
+			limit = {
+				government = colonial_company
+				vassal_of = THIS
+				NOT = {
+					tag = CHB
+					tag = CHG
+					tag = CHR
+					tag = CHF
+					tag = CHH
+					tag = CHU
+					tag = CHJ
+					tag = CIH
+					tag = CHS
+					tag = CHO
+					tag = COT
+					tag = CLA
+					tag = CHK
+				}
+			}
+			country_event = 100652
+		}
+	}
+	option = {
+		name = "OPTION1_100651"
+	}
+}
+country_event = {
+	id = 100652
+	title = " "
+	desc = " "
+	picture = ""
+	is_triggered_only = yes
+	immediate = {
+		FROM = {
+			any_owned = {
+				limit = {
+					region = AMP_britishindia
+				}
+				secede_province = THIS
+				change_owner = THIS
+			}
+		}
+	}
+	option = {
+		name = " "
+	}
+}
+country_event = {
+	id = 100653
+	title = "TITLE100653"
+	desc = "DESC100653"
+	picture = ""
+	trigger = {
+		tag = ENG
+		any_owned_province = {
+			region = AMP_britishindia
+		}
+		NOT = {
+			is_our_vassal = OST
+			exists = OST
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_britishindia
+			}
+			secede_province = OST
+			change_owner = OST
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100653"
+	}
+}
+country_event = {
+	id = 100654
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = OST
+		ENG = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = british
+			religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			ENG = { 
+				create_vassal = OST 
+				diplomatic_influence = {
+					who = OST
+					value = 400
+				}
+			}
+			create_alliance = ENG
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100655
+	title = "TITLE100655"
+	desc = "DESC100655"
+	picture = ""
+	trigger = {
+		tag = GER
+		any_owned_province = {
+			region = AMP_britishindia
+		}
+		NOT = {
+			is_our_vassal = ING
+			exists = ING
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_britishindia
+			}
+			secede_province = ING
+			change_owner = ING
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100655"
+	}
+}
+country_event = {
+	id = 100656
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = ING
+		GER = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = north_german
+			religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			GER = { 
+				create_vassal = ING 
+				diplomatic_influence = {
+					who = ING
+					value = 400
+				}
+			}
+			create_alliance = GER
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100657
+	title = "TITLE100657"
+	desc = "DESC100657"
+	picture = ""
+	trigger = {
+		tag = RUS
+		any_owned_province = {
+			region = AMP_britishindia
+		}
+		NOT = {
+			is_our_vassal = INR
+			exists = INR
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_britishindia
+			}
+			secede_province = INR
+			change_owner = INR
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100657"
+	}
+}
+country_event = {
+	id = 100658
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = INR
+		RUS = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = russian
+			religion = slav
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			RUS = { 
+				create_vassal = INR 
+				diplomatic_influence = {
+					who = INR
+					value = 400
+				}
+			}
+			create_alliance = RUS
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100659
+	title = "TITLE100659"
+	desc = "DESC100659"
+	picture = ""
+	trigger = {
+		tag = FRA
+		any_owned_province = {
+			region = AMP_britishindia
+		}
+		NOT = {
+			is_our_vassal = INF
+			exists = INF
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_britishindia
+			}
+			secede_province = INF
+			change_owner = INF
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100659"
+	}
+}
+country_event = {
+	id = 100660
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = INF
+		FRA = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = french
+			religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			FRA = { 
+				create_vassal = INF 
+				diplomatic_influence = {
+					who = INF
+					value = 400
+				}
+			}
+			create_alliance = FRA
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100661
+	title = "TITLE100661"
+	desc = "DESC100661"
+	picture = ""
+	trigger = {
+        tag = KUK
+		any_owned_province = {
+			region = AMP_britishindia
+		}
+		NOT = {
+			is_our_vassal = INA
+			exists = INA
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_britishindia
+			}
+			secede_province = INA
+			change_owner = INA
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100661"
+	}
+}
+country_event = {
+	id = 100662
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = INA
+		KUK = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = north_german
+			religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			KUK = { 
+			create_vassal = INA 
+			diplomatic_influence = {
+					who = INA
+					value = 400
+				}
+			}
+			create_alliance = KUK	
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100663
+	title = "TITLE100663"
+	desc = "DESC100663"
+	picture = ""
+	trigger = {
+		tag = USA
+		any_owned_province = {
+			region = AMP_britishindia
+		}
+		NOT = {
+			is_our_vassal = INU
+			exists = INU
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_britishindia
+			}
+			secede_province = INU
+			change_owner = INU
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100663"
+	}
+}
+country_event = {
+	id = 100664
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = INU
+		USA = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = yankee
+			religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			USA = { 
+				create_vassal = INU 
+				diplomatic_influence = {
+					who = INU
+					value = 400
+				}
+			}
+			create_alliance = USA
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100665
+	title = "TITLE100665"
+	desc = "DESC100665"
+	picture = ""
+	trigger = {
+		tag = JAP
+		any_owned_province = {
+			region = AMP_britishindia
+		}
+		NOT = {
+			is_our_vassal = INJ
+			exists = INJ
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_britishindia
+			}
+			secede_province = INJ
+			change_owner = INJ
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100665"
+	}
+}
+country_event = {
+	id = 100666
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = INJ
+		JAP = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = japanese
+			religion = mongoloid
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			JAP = { 
+				create_vassal = INJ 
+				diplomatic_influence = {
+					who = INJ
+					value = 400
+				}
+			}
+			create_alliance = JAP
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100667
+	title = "TITLE100667"
+	desc = "DESC100667"
+	picture = ""
+	trigger = {
+		tag = ITA
+		any_owned_province = {
+			region = AMP_britishindia
+		}
+		NOT = {
+			is_our_vassal = INI
+			exists = INI
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_britishindia
+			}
+			secede_province = INI
+			change_owner = INI
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100667"
+	}
+}
+country_event = {
+	id = 100668
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = INI
+		ITA = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = north_italian
+			religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			ITA = { 
+				create_vassal = INI
+				diplomatic_influence = {
+					who = INI
+					value = 400
+				}
+			}
+			create_alliance = ITA
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100669
+	title = "TITLE100669"
+	desc = "DESC100669"
+	picture = ""
+	trigger = {
+		tag = SPA
+		any_owned_province = {
+			region = AMP_britishindia
+		}
+		NOT = {
+			is_our_vassal = INS
+			exists = INS
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_britishindia
+			}
+			secede_province = INS
+			change_owner = INS
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100669"
+	}
+}
+country_event = {
+	id = 100670
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = INS
+		SPA = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = spanish
+			religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			SPA = { 
+				create_vassal = INS 
+				diplomatic_influence = {
+					who = INS
+					value = 400
+				}
+			}
+			create_alliance = SPA
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100671
+	title = "TITLE100671"
+	desc = "DESC100671"
+	picture = ""
+	trigger = {
+		tag = NET
+		any_owned_province = {
+			region = AMP_britishindia
+		}
+		NOT = {
+			is_our_vassal = INH
+			exists = INH
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_britishindia
+			}
+			secede_province = INH
+			change_owner = INH
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100671"
+	}
+}
+country_event = {
+	id = 100672
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = INH
+		NET = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = dutch
+			religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			NET = { 
+				create_vassal = INH 
+				diplomatic_influence = {
+					who = INH
+					value = 400
+				}
+			}
+			create_alliance = NET
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100673
+	title = "TITLE100673"
+	desc = "DESC100673"
+	picture = ""
+	trigger = {
+		tag = TUR
+		any_owned_province = {
+			region = AMP_britishindia
+		}
+		NOT = {
+			is_our_vassal = IOT
+			exists = IOT
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_britishindia
+			}
+			secede_province = IOT
+			change_owner = IOT
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100673"
+	}
+}
+country_event = {
+	id = 100674
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = IOT
+		TUR = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = turkish
+			religion = arabi-turk
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			TUR = { 
+				create_vassal = IOT 
+				diplomatic_influence = {
+					who = IOT
+					value = 400
+				}
+			}
+			create_alliance = TUR
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100675
+	title = "TITLE100675"
+	desc = "DESC100675"
+	picture = ""
+	trigger = {
+		tag = LAF
+		any_owned_province = {
+			region = AMP_britishindia
+		}
+		NOT = {
+			is_our_vassal = ILA
+			exists = ILA
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_britishindia
+			}
+			secede_province = ILA
+			change_owner = ILA
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100675"
+	}
+}
+country_event = {
+	id = 100676
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = ILA
+		LAF = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = south_american_cultures
+			religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			LAF = { 
+				create_vassal = ILA 
+				diplomatic_influence = {
+					who = ILA
+					value = 400
+				}
+			}
+			create_alliance = LAF
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100681
+	title = "TITLE100681"
+	desc = "DESC100681"
+	picture = ""
+	trigger = {
+        tag = AUS
+		any_owned_province = {
+			region = AMP_britishindia
+		}
+		NOT = {
+			is_our_vassal = INA
+			exists = INA
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_britishindia
+			}
+			secede_province = INA
+			change_owner = INA
+		}
+		AUS ={
+			set_country_flag = has_trade_company
+		}
+	}
+	option = {
+		name = "OPTION1_100681"
+	}
+}
+country_event = {
+	id = 100682
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = INA
+		AUS = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = north_german
+			religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			AUS = { 
+			create_vassal = INA 
+			diplomatic_influence = {
+					who = INA
+					value = 400
+				}
+			}
+			create_alliance = AUS	
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100683
+	title = "TITLE100655"
+	desc = "DESC100655"
+	picture = ""
+	trigger = {
+		tag = PRU
+		any_owned_province = {
+			region = AMP_britishindia
+		}
+		NOT = {
+			is_our_vassal = ING
+			exists = ING
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_britishindia
+			}
+			secede_province = ING
+			change_owner = ING
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100655"
+	}
+}
+country_event = {
+	id = 100684
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = ING
+		PRU = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = north_german
+			religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			PRU = { 
+				create_vassal = ING 
+				diplomatic_influence = {
+					who = ING
+					value = 400
+				}
+			}
+			create_alliance = PRU
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100685
+	title = "TITLE100655"
+	desc = "DESC100655"
+	picture = ""
+	trigger = {
+		tag = NGF
+		any_owned_province = {
+			region = AMP_britishindia
+		}
+		NOT = {
+			is_our_vassal = ING
+			exists = ING
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_britishindia
+			}
+			secede_province = ING
+			change_owner = ING
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "OPTION1_100655"
+	}
+}
+country_event = {
+	id = 100686
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = ING
+		NGF = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = north_german
+			religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			NGF = { 
+				create_vassal = ING 
+				diplomatic_influence = {
+					who = ING
+					value = 400
+				}
+			}
+			create_alliance = NGF
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100687
+	title = "TITLE100681"
+	desc = "DESC100681"
+	picture = ""
+	trigger = {
+        tag = SGF
+		any_owned_province = {
+			region = AMP_britishindia
+		}
+		NOT = {
+			is_our_vassal = INA
+			exists = INA
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_britishindia
+			}
+			secede_province = INA
+			change_owner = INA
+		}
+		SGF ={
+			set_country_flag = has_trade_company
+		}
+	}
+	option = {
+		name = "OPTION1_100681"
+	}
+}
+country_event = {
+	id = 100688
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = INA
+		SGF = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = north_german
+			religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			SGF = { 
+			create_vassal = INA 
+			diplomatic_influence = {
+					who = INA
+					value = 400
+				}
+			}
+			create_alliance = SGF	
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100689
+	title = "TITLE100681"
+	desc = "DESC100681"
+	picture = ""
+	trigger = {
+        tag = SCA
+		any_owned_province = {
+			region = AMP_britishindia
+		}
+		NOT = {
+			is_our_vassal = INK
+			exists = INK
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_britishindia
+			}
+			secede_province = INK
+			change_owner = INK
+		}
+		SCA ={
+			set_country_flag = has_trade_company
+		}
+	}
+	option = {
+		name = "OPTION1_100681"
+	}
+}
+country_event = {
+	id = 100690
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = INK
+		SCA = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = swedish
+            religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+	        military_constructions = yes_military_constructions
+			SCA = { 
+			create_vassal = INK
+			diplomatic_influence = {
+					who = INK
+					value = 400
+				}
+			}
+			create_alliance = SCA	
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}
+country_event = {
+	id = 100691
+	title = "TITLE100681"
+	desc = "DESC100681"
+	picture = ""
+	trigger = {
+        tag = SWE
+		any_owned_province = {
+			region = AMP_britishindia
+		}
+		NOT = {
+			is_our_vassal = INK
+			exists = INK
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				region = AMP_britishindia
+			}
+			secede_province = INK
+			change_owner = INK
+		}
+		SCA ={
+			set_country_flag = has_trade_company
+		}
+	}
+	option = {
+		name = "OPTION1_100681"
+	}
+}
+country_event = {
+	id = 100692
+	title = " "
+	desc = " "
+	picture = ""
+	trigger = {
+		tag = INK
+		SWE = { has_country_flag = has_trade_company }
+		NOT = { has_country_flag = destroyed_trade_company }
+		NOT = { has_country_flag = startupped_trade_company }
+	}
+	immediate = {
+			primary_culture = swedish
+            religion = latin-german
+			government = colonial_company
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			economic_reform = yes_education_reform
+			economic_reform = yes_transport_improv
+			economic_reform = yes_pre_indust
+			economic_reform = yes_finance_reform
+			military_constructions = yes_military_constructions
+			SWE = { 
+			create_vassal = INK
+			diplomatic_influence = {
+					who = INK
+					value = 400
+				}
+			}
+			create_alliance = SWE	
+			set_country_flag = startupped_trade_company
+			
+	}
+	option = {
+		name = " "
+		government = colonial_company
+	}
+}

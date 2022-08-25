@@ -1,0 +1,20 @@
+owner = ENG
+controller = ENG
+add_core = NZL
+trade_goods = cattle
+life_rating = 45
+
+1914.1.1 = {
+	owner = NZL
+	controller = NZL
+}
+state_building = {
+	level = 1
+	building = manufacture_glass
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_cement
+	upgrade = yes
+}

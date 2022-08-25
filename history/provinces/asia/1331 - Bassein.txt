@@ -1,0 +1,13 @@
+owner = BUR
+controller = BUR
+add_core = BUR
+trade_goods = fish
+life_rating = 35
+1861.1.1 = {
+	owner = OST
+	controller = OST
+	colonial = 2
+}
+1914.1.1 = {
+	naval_base = 3
+}

@@ -1,0 +1,196 @@
+﻿# Make sure you have read the "Read-Me.txt" file !
+# If using notepad++ then switch in language to "C" or "C++" then press Alt+1,2,3,4 in a row .
+
+democracy = 
+{
+	# Upper house :
+	liberal = 33
+	conservative = 34
+	socialist = 33
+
+	# Political Reforms :
+	slavery = no_slavery
+	vote_franschise = population_equal_weight
+	upper_house_composition = proportional_representation
+	voting_system = first_past_the_post
+	public_meetings = yes_meeting
+	press_rights = free_press
+	trade_unions = all_trade_unions
+	political_parties = secret_ballots
+
+	# Social Reforms :
+	wage_reform = good_minimum_wage
+	work_hours = eight_hours
+	safety_regulations = good_safety
+	unemployment_subsidies = good_subsidies
+	pensions = good_pensions
+	health_care = good_health_care
+	school_reforms = good_schools
+}
+hms_government = 
+{
+	# Upper house :
+	liberal = 10
+	conservative = 60
+	reactionary = 20
+	socialist = 10
+
+	# Political Reforms :
+	slavery = no_slavery
+	vote_franschise = wealth_weighted_voting
+	upper_house_composition = appointed
+	voting_system = jefferson_method
+	public_meetings = yes_meeting
+	press_rights = censored_press
+	trade_unions = non_socialist
+	political_parties = gerrymandering
+
+	# Social Reforms :
+	wage_reform = trinket_wage
+	work_hours = fourteen_hours
+	safety_regulations = trinket_safety
+	unemployment_subsidies = trinket_subsidies
+	pensions = trinket_pensions
+	health_care = trinket_health_care
+	school_reforms = low_schools
+}
+absolute_monarchy = 
+{
+	# Upper house :
+	conservative = 60
+	reactionary = 40
+}
+prussian_constitutionalism = 
+{
+	# Upper house :
+	liberal = 15
+	conservative = 55
+	reactionary = 25
+	socialist = 5
+
+	# Political Reforms :
+	slavery = no_slavery
+	vote_franschise = landed_voting
+	upper_house_composition = party_appointed
+	voting_system = first_past_the_post
+	public_meetings = no_meeting
+	press_rights = state_press
+	trade_unions = state_controlled
+	political_parties = harassment
+
+	# Social Reforms :
+	wage_reform = trinket_wage
+	work_hours = fourteen_hours
+	safety_regulations = trinket_safety
+	unemployment_subsidies = trinket_subsidies
+	pensions = trinket_pensions
+	health_care = trinket_health_care
+	school_reforms = low_schools
+}
+presidential_dictatorship = 
+{
+	# Upper house :
+	liberal = 15
+	conservative = 55
+	anarcho_liberal = 25
+	socialist = 5
+
+	# Political Reforms :
+	slavery = no_slavery
+
+	# Social Reforms :
+	wage_reform = low_minimum_wage
+	work_hours = twelve_hours
+	safety_regulations = low_safety
+	unemployment_subsidies = low_subsidies
+	pensions = low_pensions
+	health_care = low_health_care
+	school_reforms = acceptable_schools
+}
+bourgeois_dictatorship = 
+{
+	# Upper house :
+	liberal = 15
+	conservative = 25
+	anarcho_liberal = 55
+	socialist = 5
+
+	# Political Reforms :
+	slavery = no_slavery
+
+	# Social Reforms :
+	wage_reform = low_minimum_wage
+	work_hours = twelve_hours
+	safety_regulations = low_safety
+	unemployment_subsidies = low_subsidies
+	pensions = low_pensions
+	health_care = low_health_care
+	school_reforms = acceptable_schools
+
+}
+proletarian_dictatorship = 
+{
+	# Upper house :
+	socialist = 10
+	communist = 90
+
+	# Political Reforms :
+	slavery = no_slavery
+
+	# Social Reforms :
+	wage_reform = good_minimum_wage
+	work_hours = eight_hours
+	safety_regulations = good_safety
+	unemployment_subsidies = good_subsidies
+	pensions = good_pensions
+	health_care = good_health_care
+	school_reforms = good_schools
+}
+fascist_dictatorship = 
+{
+	# Upper house :
+	fascist = 90
+	socialist = 10
+
+	# Political Reforms :
+	slavery = no_slavery
+
+	# Social Reforms :
+	wage_reform = acceptable_minimum_wage
+	work_hours = ten_hours
+	safety_regulations = acceptable_safety
+	unemployment_subsidies = acceptable_subsidies
+	pensions = acceptable_pensions
+	health_care = acceptable_health_care
+	school_reforms = good_schools
+}
+default = 
+{
+	# Upper house :
+	fascist = 0
+	socialist = 0
+	communist = 0
+	conservative = 0
+	reactionary = 0
+	liberal = 0
+	anarcho_liberal = 0
+
+	# Political Reforms :
+	slavery = yes_slavery
+	vote_franschise = none_voting
+	upper_house_composition = party_appointed
+	voting_system = first_past_the_post
+	public_meetings = no_meeting
+	press_rights = state_press
+	trade_unions = no_trade_unions
+	political_parties = underground_parties
+
+	# Social Reforms :
+	wage_reform = no_minimum_wage
+	work_hours = no_work_hour_limit
+	safety_regulations = no_safety
+	unemployment_subsidies = no_subsidies
+	pensions = no_pensions
+	health_care = no_health_care
+	school_reforms = no_schools
+}

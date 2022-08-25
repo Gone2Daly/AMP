@@ -1,0 +1,47 @@
+color = { 0 0 0}
+graphical_culture = Generic
+
+party = {
+	name = "XPR_conservative"
+	start_date = 1830.1.1
+	end_date = 1910.1.1
+
+	ideology = conservative
+
+	economic_policy = laissez_faire
+	trade_policy = free_trade
+	religious_policy = pluralism
+	citizenship_policy = limited_citizenship
+	war_policy = jingoism
+}
+unit_names = {
+	dreadnought = {
+		XPR
+		
+	}
+	ironclad = {
+		XPR
+		
+	}
+	manowar = {
+		XPR
+	}
+	cruiser = {
+		XPR
+	}
+	frigate = {
+		XPR
+	}
+	monitor = {
+		XPR
+	}
+	clipper_transport = {
+		
+	}
+	steam_transport = {
+		
+	}
+	commerce_raider = {
+		XPR
+	}
+}

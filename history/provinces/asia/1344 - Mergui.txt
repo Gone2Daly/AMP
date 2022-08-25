@@ -1,0 +1,6 @@
+owner = OST
+controller = OST
+add_core = BUR
+trade_goods = fish
+life_rating = 35
+colonial = 2

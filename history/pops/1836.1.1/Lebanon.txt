@@ -1,0 +1,353 @@
+912 = {
+	aristocrats = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 262
+	}
+	clergymen = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 150
+	}
+	artisans = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 750
+	}
+	soldiers = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 262
+	}
+	farmers = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 13575
+	}
+	clergymen = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 75
+	}
+	artisans = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 450
+	}
+	farmers = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 8175
+	}
+	clergymen = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 37
+	}
+	artisans = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 75
+	}
+	farmers = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 1387
+	}
+}
+913 = {
+	aristocrats = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 225
+	}
+	bureaucrats = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 112
+	}
+	officers = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 75
+	}
+	clergymen = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 225
+	}
+	artisans = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 1050
+	}
+	soldiers = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 487
+	}
+	farmers = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 18075
+	}
+	clergymen = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 112
+	}
+	artisans = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 375
+	}
+	farmers = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 7012
+	}
+	aristocrats = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 150
+	}
+	clergymen = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 150
+	}
+	artisans = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 675
+	}
+	farmers = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 12525
+	}
+	clergymen = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 37
+	}
+	artisans = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 150
+	}
+	farmers = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 2812
+	}
+	clergymen = {
+		culture = armenian
+		religion = arabi-turk
+		size = 37
+	}
+	artisans = {
+		culture = armenian
+		religion = arabi-turk
+		size = 150
+	}
+	farmers = {
+		culture = armenian
+		religion = arabi-turk
+		size = 2812
+	}
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 15
+	}
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 735
+	}
+	craftsmen = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 150
+	}
+	clerks = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 150
+	}
+	capitalists = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 150
+	}
+	craftsmen = {
+		culture = greek
+		religion = latin-german
+		size = 150
+	}
+	clerks = {
+		culture = greek
+		religion = latin-german
+		size = 150
+	}
+	capitalists = {
+		culture = greek
+		religion = latin-german
+		size = 150
+	}
+	craftsmen = {
+		culture = sephardic
+		religion = jewish
+		size = 150
+	}
+	clerks = {
+		culture = sephardic
+		religion = jewish
+		size = 150
+	}
+	capitalists = {
+		culture = sephardic
+		religion = jewish
+		size = 150
+	}
+}
+914 = {
+	aristocrats = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 187
+	}
+	clergymen = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 150
+	}
+	artisans = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 750
+	}
+	soldiers = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 150
+	}
+	farmers = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 13762
+	}
+	clergymen = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 37
+	}
+	artisans = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 150
+	}
+	farmers = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 2812
+	}
+}
+915 = {
+	aristocrats = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 37
+	}
+	clergymen = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 75
+	}
+	artisans = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 150
+	}
+	soldiers = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 37
+	}
+	farmers = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 3000
+	}
+	clergymen = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 37
+	}
+	artisans = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 75
+	}
+	farmers = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 1387
+	}
+	aristocrats = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 112
+	}
+	clergymen = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 75
+	}
+	artisans = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 375
+	}
+	farmers = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 7575
+	}
+	clergymen = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 112
+	}
+	artisans = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 300
+	}
+	farmers = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 5587
+	}
+	aristocrats = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 150
+	}
+	clergymen = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 112
+	}
+	artisans = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 675
+	}
+	farmers = {
+		culture = mashriqi
+		religion = arabi-turk
+		size = 12525
+	}
+}

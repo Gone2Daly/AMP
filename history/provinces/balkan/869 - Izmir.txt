@@ -1,0 +1,15 @@
+owner = TUR
+controller = TUR
+add_core = TUR
+trade_goods = fish
+life_rating = 42
+state_building = {
+	level = 1
+	building = manufacture_furniture
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_luxury_furniture
+	upgrade = yes
+}

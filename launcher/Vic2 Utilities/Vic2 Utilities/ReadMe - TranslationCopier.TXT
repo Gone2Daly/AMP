@@ -1,0 +1,5 @@
+This utility works by drag-and-dropping files from the localisation folder to it. It will then produce a copy of it (in the same directory, with "Processed " added to the name) with the possible following modifications:
+- "Copy English to empty French and German": the English text will be duplicated for use in the French or German version of the game if there is no existing French or German version. Use it when you cannot provide a proper translation, to have at least the English version show up instead.
+- "Copy English to all French and German": the English version will overwrite any existing text in the French and German slots. To be used when there is only one text for all three languages (party names in local languages for instance, or often province names)
+
+Additionaly, if the "Append numbers to province names" option is checked, the IDs of provinces will be added to their name, for easier debugging. You can swap the "normal" province name files with the one produced with this option to have the IDs displayed when working on a mod and not displayed when releasing it to the public.

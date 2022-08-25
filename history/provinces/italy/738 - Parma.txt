@@ -1,0 +1,22 @@
+owner = PAR
+controller = PAR
+add_core = PAR
+add_core = ITA
+trade_goods = iron
+life_rating = 40
+1861.1.1 = {
+	controller = ITA
+	owner = ITA
+	add_core = ITA
+}
+1861.1.1 = { railroad = 3 }
+state_building = {
+	level = 1
+	building = manufacture_ammunition
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_steel
+	upgrade = yes
+}

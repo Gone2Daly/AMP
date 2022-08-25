@@ -1,0 +1,32 @@
+owner = AUS
+controller = AUS
+add_core = AUS
+add_core = BOH
+add_core = CZH
+trade_goods = grain
+life_rating = 40
+#terrain = deciduous_forest_mountains
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+	owner = KUK
+	controller = KUK
+	add_core = KUK
+	remove_core = AUS
+	railroad = 4
+	fort = 2
+}
+1923.1.1 = {
+	owner = CZH
+	controller = CZH
+	remove_core = KUK
+}
+state_building = {
+	level = 1
+	building = manufacture_iron
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_coal
+	upgrade = yes
+}

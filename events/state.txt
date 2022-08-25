@@ -1,0 +1,18 @@
+#state
+country_event = {
+	id = 1000002
+	title = "TITLE1000002"
+	desc = "DESC1000002"
+	picture = ""
+	is_triggered_only = yes
+	immediate = {
+	}
+	option = {
+		name = "OPTION1_1000002" #paradigms
+		country_event = 10000021
+	}
+	#option = {
+	#	name = "OPTION2_1000002" #state
+	#	country_event = 10000022
+	#}
+}

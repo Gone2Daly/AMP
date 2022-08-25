@@ -1,0 +1,139 @@
+political_decisions = {
+	united_andes = {
+		potential = {
+			primary_culture = north_andean
+			NOT = {
+				exists = ANU
+				exists = LAF
+			}
+		}
+		allow = {
+			war = no
+			ANU = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							OR = {
+								vassal_of = THIS
+								in_sphere = THIS
+							}
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			prestige = 15
+			add_accepted_culture = south_andean
+			change_tag = ANU
+			any_country = {
+				limit = {
+					OR = {
+						primary_culture = north_andean
+						primary_culture = south_andean
+					}
+					OR = {
+						vassal_of = THIS
+						in_sphere = THIS
+						}
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			any_owned = {
+				limit = {
+					continent = south_america
+				}
+				add_core = ANU
+			}
+		}
+	}
+	
+	united_south_america = {
+		potential = {
+			tag = ANU
+		}
+		allow = {
+		}
+		effect = {
+			prestige = 5
+			change_tag = LAF
+			set_global_flag = latin_war
+			add_accepted_culture = platinean
+			add_accepted_culture = brazilian
+			country_event = 100003
+			country_event = { id = 99999 days = 3 }
+			any_country = {
+				limit = {
+					capital_scope = {
+						continent = south_america
+					}
+				}
+				any_owned = {
+					add_core = LAF
+				}
+				create_alliance = BRZ
+				create_alliance = ARG
+				create_alliance = URU
+				create_alliance = PRG
+				country_event = 100003
+			}
+			any_owned = {
+				add_core = LAF
+			}
+		}
+	}
+	
+	
+	
+	laf_cores = {
+		potential = {
+			tag = LAF
+			NOT = {
+				has_country_flag = laf_cores
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+		}
+		
+		effect = {
+			prestige = 10
+			set_country_flag = laf_cores
+			1979 = {
+				add_core = LAF
+			}
+			2131 = {
+				add_core = LAF
+			}
+			2239 = {
+				add_core = LAF
+			}
+			1979 = {
+				add_core = LAF
+			}
+			2240 = {
+				add_core = LAF
+			}
+			2241 = {
+				add_core = LAF
+			}
+			2242 = {
+				add_core = LAF
+			}
+			2243 = {
+				add_core = LAF
+			}
+			2245 = {
+				add_core = LAF
+			}
+			2246 = {
+				add_core = LAF
+			}
+		}
+	}
+}

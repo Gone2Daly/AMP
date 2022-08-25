@@ -1,0 +1,704 @@
+791 = {
+	clergymen = {
+		culture = serb
+		religion = slav
+		size = 225
+	}
+	artisans = {
+		culture = serb
+		religion = slav
+		size = 1125
+	}
+	soldiers = {
+		culture = serb
+		religion = slav
+		size = 375
+	}
+	farmers = {
+		culture = serb
+		religion = slav
+		size = 23775
+	}
+	clergymen = {
+		culture = croat
+		religion = slav
+		size = 112
+	}
+	artisans = {
+		culture = croat
+		religion = slav
+		size = 300
+	}
+	soldiers = {
+		culture = croat
+		religion = slav
+		size = 75
+	}
+	farmers = {
+		culture = croat
+		religion = slav
+		size = 5512
+	}
+	aristocrats = {
+		culture = north_german
+		religion = latin-german
+		size = 450
+	}
+	clergymen = {
+		culture = north_german
+		religion = latin-german
+		size = 75
+	}
+	artisans = {
+		culture = north_german
+		religion = latin-german
+		size = 525
+	}
+	soldiers = {
+		culture = north_german
+		religion = latin-german
+		size = 112
+	}
+	farmers = {
+		culture = north_german
+		religion = latin-german
+		size = 7837
+	}
+}
+792 = {
+	clergymen = {
+		culture = serb
+		religion = slav
+		size = 375
+	}
+	artisans = {
+		culture = serb
+		religion = slav
+		size = 1650
+	}
+	soldiers = {
+		culture = serb
+		religion = slav
+		size = 450
+	}
+	farmers = {
+		culture = serb
+		religion = slav
+		size = 36487
+	}
+	aristocrats = {
+		culture = hungarian
+		religion = latin-german
+		size = 900
+	}
+	clergymen = {
+		culture = hungarian
+		religion = latin-german
+		size = 150
+	}
+	artisans = {
+		culture = hungarian
+		religion = latin-german
+		size = 750
+	}
+	soldiers = {
+		culture = hungarian
+		religion = latin-german
+		size = 150
+	}
+	farmers = {
+		culture = hungarian
+		religion = latin-german
+		size = 13050
+	}
+	aristocrats = {
+		culture = north_german
+		religion = latin-german
+		size = 1650
+	}
+	clergymen = {
+		culture = north_german
+		religion = latin-german
+		size = 300
+	}
+	artisans = {
+		culture = north_german
+		religion = latin-german
+		size = 1650
+	}
+	soldiers = {
+		culture = north_german
+		religion = latin-german
+		size = 300
+	}
+	farmers = {
+		culture = north_german
+		religion = latin-german
+		size = 26400
+	}
+	clergymen = {
+		culture = romanian
+		religion = latin-german
+		size = 150
+	}
+	artisans = {
+		culture = romanian
+		religion = latin-german
+		size = 750
+	}
+	soldiers = {
+		culture = romanian
+		religion = latin-german
+		size = 150
+	}
+	farmers = {
+		culture = romanian
+		religion = latin-german
+		size = 15450
+	}
+}
+2538 = {
+	officers = {
+		culture = serb
+		religion = slav
+		size = 112
+	}
+	clergymen = {
+		culture = serb
+		religion = slav
+		size = 412
+	}
+	artisans = {
+		culture = serb
+		religion = slav
+		size = 1875
+	}
+	soldiers = {
+		culture = serb
+		religion = slav
+		size = 450
+	}
+	farmers = {
+		culture = serb
+		religion = slav
+		size = 39262
+	}
+	aristocrats = {
+		culture = hungarian
+		religion = latin-german
+		size = 2100
+	}
+	clergymen = {
+		culture = hungarian
+		religion = latin-german
+		size = 450
+	}
+	artisans = {
+		culture = hungarian
+		religion = latin-german
+		size = 2250
+	}
+	soldiers = {
+		culture = hungarian
+		religion = latin-german
+		size = 450
+	}
+	farmers = {
+		culture = hungarian
+		religion = latin-german
+		size = 39750
+	}
+	clergymen = {
+		culture = croat
+		religion = slav
+		size = 112
+	}
+	artisans = {
+		culture = croat
+		religion = slav
+		size = 375
+	}
+	soldiers = {
+		culture = croat
+		religion = slav
+		size = 75
+	}
+	farmers = {
+		culture = croat
+		religion = slav
+		size = 6937
+	}
+	clergymen = {
+		culture = slovak
+		religion = slav
+		size = 112
+	}
+	artisans = {
+		culture = slovak
+		religion = slav
+		size = 675
+	}
+	soldiers = {
+		culture = slovak
+		religion = slav
+		size = 150
+	}
+	farmers = {
+		culture = slovak
+		religion = slav
+		size = 14062
+	}
+	aristocrats = {
+		culture = north_german
+		religion = latin-german
+		size = 1650
+	}
+	clergymen = {
+		culture = north_german
+		religion = latin-german
+		size = 337
+	}
+	artisans = {
+		culture = north_german
+		religion = latin-german
+		size = 1725
+	}
+	soldiers = {
+		culture = north_german
+		religion = latin-german
+		size = 375
+	}
+	farmers = {
+		culture = north_german
+		religion = latin-german
+		size = 30562
+	}
+}
+794 = {
+	bureaucrats = {
+		culture = serb
+		religion = slav
+		size = 450
+	}
+	officers = {
+		culture = serb
+		religion = slav
+		size = 375
+	}
+	clergymen = {
+		culture = serb
+		religion = slav
+		size = 1237
+	}
+	artisans = {
+		culture = serb
+		religion = slav
+		size = 6000
+	}
+	soldiers = {
+		culture = serb
+		religion = slav
+		size = 1650
+	}
+	farmers = {
+		culture = serb
+		religion = slav
+		size = 113437
+	}
+	capitalists = {
+		culture = serb
+		religion = slav
+		size = 150
+	}
+	craftsmen = {
+		culture = serb
+		religion = slav
+		size = 150
+	}
+	clerks = {
+		culture = serb
+		religion = slav
+		size = 150
+	}
+}
+795 = {
+	clergymen = {
+		culture = serb
+		religion = slav
+		size = 825
+	}
+	artisans = {
+		culture = serb
+		religion = slav
+		size = 4125
+	}
+	soldiers = {
+		culture = serb
+		religion = slav
+		size = 1650
+	}
+	farmers = {
+		culture = serb
+		religion = slav
+		size = 76050
+	}
+}
+796 = {
+	clergymen = {
+		culture = serb
+		religion = slav
+		size = 675
+	}
+	artisans = {
+		culture = serb
+		religion = slav
+		size = 3525
+	}
+	soldiers = {
+		culture = serb
+		religion = slav
+		size = 1650
+	}
+	farmers = {
+		culture = serb
+		religion = slav
+		size = 64800
+	}
+}
+797 = {
+	clergymen = {
+		culture = serb
+		religion = slav
+		size = 262
+	}
+	artisans = {
+		culture = serb
+		religion = slav
+		size = 1350
+	}
+	soldiers = {
+		culture = serb
+		religion = slav
+		size = 1650
+	}
+	farmers = {
+		culture = serb
+		religion = slav
+		size = 23887
+	}
+}
+798 = {
+	clergymen = {
+		culture = serb
+		religion = slav
+		size = 675
+	}
+	artisans = {
+		culture = serb
+		religion = slav
+		size = 3000
+	}
+	farmers = {
+		culture = serb
+		religion = slav
+		size = 74325
+	}
+	clergymen = {
+		culture = bulgarian
+		religion = slav
+		size = 75
+	}
+	artisans = {
+		culture = bulgarian
+		religion = slav
+		size = 225
+	}
+	farmers = {
+		culture = bulgarian
+		religion = slav
+		size = 5700
+	}
+	aristocrats = {
+		culture = turkish
+		religion = arabi-turk
+		size = 1762
+	}
+	bureaucrats = {
+		culture = turkish
+		religion = arabi-turk
+		size = 225
+	}
+	officers = {
+		culture = turkish
+		religion = arabi-turk
+		size = 225
+	}
+	clergymen = {
+		culture = turkish
+		religion = arabi-turk
+		size = 112
+	}
+	artisans = {
+		culture = turkish
+		religion = arabi-turk
+		size = 4500
+	}
+	soldiers = {
+		culture = turkish
+		religion = arabi-turk
+		size = 1650
+	}
+	farmers = {
+		culture = turkish
+		religion = arabi-turk
+		size = 5175
+	}
+}
+799 = {
+	clergymen = {
+		culture = serb
+		religion = slav
+		size = 487
+	}
+	artisans = {
+		culture = serb
+		religion = slav
+		size = 2250
+	}
+	farmers = {
+		culture = serb
+		religion = slav
+		size = 58987
+	}
+	clergymen = {
+		culture = bulgarian
+		religion = slav
+		size = 75
+	}
+	artisans = {
+		culture = bulgarian
+		religion = slav
+		size = 375
+	}
+	farmers = {
+		culture = bulgarian
+		religion = slav
+		size = 12075
+	}
+	aristocrats = {
+		culture = turkish
+		religion = arabi-turk
+		size = 1275
+	}
+	clergymen = {
+		culture = turkish
+		religion = arabi-turk
+		size = 112
+	}
+	artisans = {
+		culture = turkish
+		religion = arabi-turk
+		size = 3750
+	}
+	soldiers = {
+		culture = turkish
+		religion = arabi-turk
+		size = 1650
+	}
+	farmers = {
+		culture = turkish
+		religion = arabi-turk
+		size = 5362
+	}
+}
+802 = {
+	clergymen = {
+		culture = serb
+		religion = slav
+		size = 300
+	}
+	artisans = {
+		culture = serb
+		religion = slav
+		size = 1350
+	}
+	farmers = {
+		culture = serb
+		religion = slav
+		size = 34350
+	}
+	aristocrats = {
+		culture = turkish
+		religion = arabi-turk
+		size = 1275
+	}
+	bureaucrats = {
+		culture = turkish
+		religion = arabi-turk
+		size = 225
+	}
+	officers = {
+		culture = turkish
+		religion = arabi-turk
+		size = 225
+	}
+	clergymen = {
+		culture = turkish
+		religion = arabi-turk
+		size = 75
+	}
+	artisans = {
+		culture = turkish
+		religion = arabi-turk
+		size = 3000
+	}
+	soldiers = {
+		culture = turkish
+		religion = arabi-turk
+		size = 1650
+	}
+	farmers = {
+		culture = turkish
+		religion = arabi-turk
+		size = 2700
+	}
+	clergymen = {
+		culture = albanian
+		religion = arabi-turk
+		size = 300
+	}
+	artisans = {
+		culture = albanian
+		religion = arabi-turk
+		size = 1650
+	}
+	soldiers = {
+		culture = albanian
+		religion = arabi-turk
+		size = 1650
+	}
+	farmers = {
+		culture = albanian
+		religion = arabi-turk
+		size = 29700
+	}
+}
+803 = {
+	clergymen = {
+		culture = serb
+		religion = slav
+		size = 150
+	}
+	artisans = {
+		culture = serb
+		religion = slav
+		size = 900
+	}
+	farmers = {
+		culture = serb
+		religion = slav
+		size = 22650
+	}
+	aristocrats = {
+		culture = turkish
+		religion = arabi-turk
+		size = 1125
+	}
+	clergymen = {
+		culture = turkish
+		religion = arabi-turk
+		size = 75
+	}
+	artisans = {
+		culture = turkish
+		religion = arabi-turk
+		size = 2625
+	}
+	soldiers = {
+		culture = turkish
+		religion = arabi-turk
+		size = 1650
+	}
+	farmers = {
+		culture = turkish
+		religion = arabi-turk
+		size = 6225
+	}
+	clergymen = {
+		culture = albanian
+		religion = arabi-turk
+		size = 300
+	}
+	artisans = {
+		culture = albanian
+		religion = arabi-turk
+		size = 1650
+	}
+	soldiers = {
+		culture = albanian
+		religion = arabi-turk
+		size = 1650
+	}
+	farmers = {
+		culture = albanian
+		religion = arabi-turk
+		size = 35325
+	}
+	clergymen = {
+		culture = greek
+		religion = latin-german
+		size = 112
+	}
+	artisans = {
+		culture = greek
+		religion = latin-german
+		size = 150
+	}
+	farmers = {
+		culture = greek
+		religion = latin-german
+		size = 2737
+	}
+}
+804 = {
+	clergymen = {
+		culture = serb
+		religion = slav
+		size = 150
+	}
+	artisans = {
+		culture = serb
+		religion = slav
+		size = 600
+	}
+	farmers = {
+		culture = serb
+		religion = slav
+		size = 18000
+	}
+	aristocrats = {
+		culture = bosniak
+		religion = slav
+		size = 600
+	}
+	clergymen = {
+		culture = bosniak
+		religion = slav
+		size = 75
+	}
+	artisans = {
+		culture = bosniak
+		religion = slav
+		size = 750
+	}
+	soldiers = {
+		culture = bosniak
+		religion = slav
+		size = 1650
+	}
+	farmers = {
+		culture = bosniak
+		religion = slav
+		size = 5325
+	}
+}

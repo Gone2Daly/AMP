@@ -1,0 +1,22 @@
+owner = WEI
+controller = WEI
+add_core = WEI
+add_core = GER
+trade_goods = sulphur
+life_rating = 39
+1861.1.1 = { railroad = 3 }
+1914.1.1 = {
+owner = GER		
+controller = GER	
+railroad = 5	
+}
+state_building = {
+	level = 1
+	building = manufacture_ammunition
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_steel
+	upgrade = yes
+}

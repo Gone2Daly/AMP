@@ -1,0 +1,19 @@
+owner = CHI
+controller = CHI
+add_core = CHI
+trade_goods = precious_metal
+life_rating = 40
+1914.1.1 = {
+	owner = JAP
+	controller = JAP
+}
+state_building = {
+	level = 1
+	building = manufacture_steel
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_luxury_clothes
+	upgrade = yes
+}

@@ -1,0 +1,1658 @@
+#############################
+#        INVENTIONS         #
+#############################
+country_event = {
+
+	id = 1070
+
+	trigger = {
+		invention=cotton_gin
+		any_owned_province = {
+		   
+		   trade_goods=cotton
+		}
+		NOT={has_country_flag=cotton_gin_flag}
+	}
+
+	mean_time_to_happen =  {
+		months = 24
+	}
+
+	title = "Изобретение коттон-джина и внедрение его в $COUNTRY_ADJ$ хлопкоробстве!"
+	desc = "Наша хлопкозаготовительная промышленность переживает невероятный бум! Недавнее изобретение хлопкоочистительной машины и её внедрение произвело революцию в обработке хлопка!"
+	picture = "cotton_gin"
+
+	option = {
+		name = "Хлопок озолотит нас!"
+                set_country_flag=cotton_gin_flag
+		any_owned = {
+		   limit = {
+		      
+		      trade_goods=cotton
+                      NOT={has_province_modifier=cotton_gin_modifier}
+		   }
+		   add_province_modifier={name=cotton_gin_modifier duration=-1}
+		}
+	}
+}
+province_event = {
+
+	id = 1071
+
+	trigger = {
+		
+		owner={has_country_flag=cotton_gin_flag}
+		trade_goods=cotton
+		NOT={has_province_modifier=cotton_gin_modifier}
+	}
+	mean_time_to_happen = { months = 12 }
+
+	title = "Внедрение коттон-джина в регионе $STATENAME$"
+	desc = "Научная революция дошла и до региона $STATENAME$, где началось внедрение коттон=джина, который позволит произвести революцию в переработке хлопка."
+
+	option = {
+		name = "Хлопок озолотит нас!"
+		state_scope = {
+		   any_owned = {
+		      limit = {
+		         
+		         trade_goods=cotton
+                         NOT={has_province_modifier=cotton_gin_modifier}
+		      }
+		      add_province_modifier={name=cotton_gin_modifier duration=-1}
+		   }
+		}
+	}
+}
+country_event = {
+
+	id = 1072
+
+	trigger = {
+		invention=tulls_seed_drill
+		any_owned_province = {
+		   
+		   OR={trade_goods=grain trade_goods=fruit}
+		}
+		NOT={has_country_flag=tulls_seed_drill_flag}
+	}
+
+	mean_time_to_happen =  {
+		months = 24
+	}
+
+	title = "Изобретение и внедрение сеялки Талла в $COUNTRY_ADJ$ сельском хозяйстве!"
+	desc = "Наше сельское хозяйство получило возможность внедрения нового изобретения - сеялки Талла, которая позволит серьёзно увеличить производительность труда на селе."
+	picture = "tulls_seed_drill"
+
+	option = {
+		name = "Больше продовольствия - больше налогоплательщиков"
+                set_country_flag=tulls_seed_drill_flag
+		any_owned = {
+		   limit = {
+		      
+		      OR={trade_goods=grain trade_goods=fruit}
+                      NOT={has_province_modifier=tulls_seed_drill_modifier}
+		   }
+		   add_province_modifier={name=tulls_seed_drill_modifier duration=-1}
+		}
+	}
+}
+province_event = {
+
+	id = 1073
+
+	trigger = {
+		
+		owner={has_country_flag=tulls_seed_drill_flag}
+		OR={trade_goods=grain trade_goods=fruit}
+		NOT={has_province_modifier=tulls_seed_drill_modifier}
+	}
+	mean_time_to_happen = { months = 12 }
+
+	title = "Внедрение сеялки Талла в регионе $STATENAME$"
+	desc = "Научная революция дошла и до региона $STATENAME$, где началось внедрение сеялки Талла, которая позволит существенно увеличить производительность труда в сельском хозяйстве."
+
+	option = {
+		name = "Больше продовольствия - больше налогоплательщиков"
+		state_scope = {
+		   any_owned = {
+		      limit = {
+		         
+		         OR={trade_goods=grain trade_goods=fruit}
+                         NOT={has_province_modifier=tulls_seed_drill_modifier}
+		      }
+		      add_province_modifier={name=tulls_seed_drill_modifier duration=-1}
+		   }
+		}
+	}
+}
+country_event = {
+
+	id = 1074
+
+	trigger = {
+		invention=rotherham_plough
+		any_owned_province = {
+		   
+		   trade_goods=grain
+		}
+		NOT={has_country_flag=rotherham_plough_flag}
+	}
+
+	mean_time_to_happen =  {
+		months = 36
+	}
+
+	title = "Изобретение и внедрение Ротерхэмского плуга в $COUNTRY_ADJ$ сельском хозяйстве!"
+	desc = "Наше сельское хозяйство получило возможность внедрения нового изобретения - Ротерхэмского плуга, который позволит серьёзно увеличить производительность труда на селе."
+	picture = "rotherham_plough"
+
+	option = {
+		name = "Крестьяне будут наконец-то сытыми"
+		prestige = 3
+                set_country_flag=rotherham_plough_flag
+		any_owned = {
+		   limit = {
+		      
+		      trade_goods=grain
+                      NOT={has_province_modifier=rotherham_plough_modifier}
+		   }
+		   add_province_modifier={name=rotherham_plough_modifier duration=-1}
+		}
+	}
+}
+province_event = {
+
+	id = 1075
+
+	trigger = {
+		
+		owner={has_country_flag=rotherham_plough_flag}
+		trade_goods=grain
+		NOT={has_province_modifier=rotherham_plough_modifier}
+	}
+	mean_time_to_happen = { months = 12 }
+
+	title = "Использование Ротерхэмского плуга в регионе $STATENAME$"
+	desc = "Научная революция дошла и до региона $STATENAME$, где началось внедрение Ротерхэмского плуга, который позволит существенно увеличить производительность труда в сельском хозяйстве."
+
+	option = {
+		name = "Крестьяне будут наконец-то сытыми"
+		state_scope = {
+		   any_owned = {
+		      limit = {
+		         
+		         trade_goods=grain
+                         NOT={has_province_modifier=rotherham_plough_modifier}
+		      }
+		      add_province_modifier={name=rotherham_plough_modifier duration=-1}
+		   }
+		}
+	}
+}
+country_event = {
+
+	id = 1076
+
+	trigger = {
+		invention=electric_machinery
+		any_owned_province = {
+		   
+		   OR={trade_goods=timber trade_goods=tropical_wood}
+		}
+		NOT={has_country_flag=electric_machinery_flag}
+	}
+
+	mean_time_to_happen =  {
+		months = 36
+	}
+
+	title = "Внедрение электрического машинного оборудования в $COUNTRY_ADJ$ лесозаготовке"
+	desc = "Наша лесозаготовительная промышленность начинает массовое внедрение электрического машинного оборудования, которое позволит им существенно повысить производительность труда."
+	picture = "mechanical_saw"
+
+	option = {
+		name = "Наше лесное хозяйство переживает бум"
+		prestige = 3
+                set_country_flag=electric_machinery_flag
+		any_owned = {
+		   limit = {
+		      
+		      OR={trade_goods=timber trade_goods=tropical_wood}
+                      NOT={has_province_modifier=electric_machinery_modifier}
+		   }
+		   add_province_modifier={name=electric_machinery_modifier duration=-1}
+		}
+	}
+}
+province_event = {
+
+	id = 1077
+
+	trigger = {
+		
+		owner={has_country_flag=electric_machinery_flag}
+		OR={trade_goods=timber trade_goods=tropical_wood}
+		NOT={has_province_modifier=electric_machinery_modifier}
+	}
+	mean_time_to_happen = { months = 12 }
+
+	title = "Внедрение электрического машинного оборудования в регионе $STATENAME$"
+	desc = "Научная революция дошла и до региона $STATENAME$, где началось внедрение электрического машинного оборудования, которое позволит существенно увеличить производительность труда в лесозаготовительной промышленности."
+
+	option = {
+		name = "Наше лесное хозяйство переживает бум"
+		state_scope = {
+		   any_owned = {
+		      limit = {
+		         
+		         OR={trade_goods=timber trade_goods=tropical_wood}
+                         NOT={has_province_modifier=electric_machinery_modifier}
+		      }
+		      add_province_modifier={name=electric_machinery_modifier duration=-1}
+		   }
+		}
+	}
+}
+country_event = {
+
+	id = 1078
+
+	trigger = {
+		invention=refrigerator_technology
+		any_owned_province = {
+		   
+		   OR={trade_goods=cattle trade_goods=fruit trade_goods=fish}
+		}
+		NOT={has_country_flag=uses_refrigerator_flag}
+	}
+
+	mean_time_to_happen =  {
+		months = 36
+	}
+
+	title = "Внедрение холодильных установок в $COUNTRY_ADJ$ логистике"
+	desc = "В нашей стране происходит внедрение холодильных установок в транспортировке мяса, рыбы и фруктов. Это позволит нам сохранить ценный груз во время длительных перевозок и тем самым увеличить выпуск продукции."
+	picture = "refrigerator_technology"
+
+	option = {
+		name = "Я всегда смогу покушать свежий стэйк?"
+		prestige = 3
+                set_country_flag=uses_refrigerator_flag
+		any_owned = {
+		   limit = {
+		      
+		      OR={trade_goods=cattle trade_goods=fruit trade_goods=fish}
+                      NOT={has_province_modifier=uses_refrigerator}
+		   }
+		   add_province_modifier={name=uses_refrigerator duration=-1}
+		}
+	}
+}
+province_event = {
+
+	id = 1079
+
+	trigger = {
+		
+		owner={has_country_flag=uses_refrigerator_flag}
+		OR={trade_goods=cattle trade_goods=fruit trade_goods=fish}
+		NOT={has_province_modifier=uses_refrigerator}
+	}
+	mean_time_to_happen = { months = 12 }
+
+	title = "Внедрение холодильных установок в регионе $STATENAME$"
+	desc = "Научная революция дошла и до региона $STATENAME$, где началось повсеместное внедрение холодильных установок. Это позволит нам сохранить ценный груз во время длительных перевозок и тем самым увеличить выпуск продукции."
+
+	option = {
+		name = "Продукты на столе теперь будут только свежими"
+		state_scope = {
+		   any_owned = {
+		      limit = {
+		         
+		         OR={trade_goods=cattle trade_goods=fruit trade_goods=fish}
+                         NOT={has_province_modifier=uses_refrigerator}
+		      }
+		      add_province_modifier={name=uses_refrigerator duration=-1}
+		   }
+		}
+	}
+}
+country_event = {
+
+	id = 1080
+
+	trigger = {
+		invention=drying_techniques
+		any_owned_province = {
+		   
+		   OR={trade_goods=tobacco trade_goods=tea trade_goods=coffee}
+		}
+		NOT={has_country_flag=drying_techniques_flag}
+	}
+
+	mean_time_to_happen =  {
+		months = 36
+	}
+
+	title = "Применение новой технологии высушивания в $COUNTRY_ADJ$ сельском хозяйстве"
+	desc = "Наши химики изобрели новый способ высушивания листьев табака и чая, а так же кофейных зёрен. Наши плантации табака, чая и кофе смогут серьёзно увеличить свою прибыль, применив эту новую технологию."
+	picture = "drying_techniques"
+
+	option = {
+		name = "Мы ведь сможем увеличить их экспорт?"
+		prestige = 3
+                set_country_flag=drying_techniques_flag
+		any_owned = {
+		   limit = {
+		      
+		      OR={trade_goods=tobacco trade_goods=tea trade_goods=coffee}
+                      NOT={has_province_modifier=drying_techniques_modifier}
+		   }
+		   add_province_modifier={name=drying_techniques_modifier duration=-1}
+		}
+	}
+}
+province_event = {
+
+	id = 1081
+
+	trigger = {
+		
+		owner={has_country_flag=drying_techniques_flag}
+		OR={trade_goods=tobacco trade_goods=tea trade_goods=coffee}
+		NOT={has_province_modifier=drying_techniques_modifier}
+	}
+	mean_time_to_happen = { months = 12 }
+
+	title = "Применение новой технологии высушивания в регионе $STATENAME$"
+	desc = "Научная революция дошла и до региона $STATENAME$, где началось использование новой технологии высушивания табака, чая и кофе."
+
+	option = {
+		name = "Мы ведь сможем увеличить их экспорт?"
+		state_scope = {
+		   any_owned = {
+		      limit = {
+		         
+		         OR={trade_goods=tobacco trade_goods=tea trade_goods=coffee}
+                         NOT={has_province_modifier=drying_techniques_modifier}
+		      }
+		      add_province_modifier={name=drying_techniques_modifier duration=-1}
+		   }
+		}
+	}
+}
+country_event = {
+
+	id = 1082
+
+	trigger = {
+		invention=mechanized_slaughtering_block
+		any_owned_province = {
+		   
+		   trade_goods=cattle
+		}
+		NOT={has_country_flag=mechanized_slaughtering_block_flag}
+	}
+
+	mean_time_to_happen =  {
+		months = 36
+	}
+
+	title = "Механизация $COUNTRY_ADJ$ скотобоен"
+	desc = "$COUNTRY_ADJ$ животноводство переживает бум производительности! Начинается механизация скотобоен, которая позволит серьёзно увеличить выпуск мяса крупного рогатого скота."
+	picture = "slaughtering_block"
+
+	option = {
+		name = "Мясо станет доступнее нашему населению"
+		prestige = 3
+                set_country_flag=mechanized_slaughtering_block_flag
+		any_owned = {
+		   limit = {
+		      
+		      trade_goods=cattle
+                      NOT={has_province_modifier=mechanized_slaughtering_block_modifier}
+		   }
+		   add_province_modifier={name=mechanized_slaughtering_block_modifier duration=-1}
+		}
+	}
+}
+province_event = {
+
+	id = 1083
+
+	trigger = {
+		
+		owner={has_country_flag=mechanized_slaughtering_block_flag}
+		trade_goods=cattle
+		NOT={has_province_modifier=mechanized_slaughtering_block_modifier}
+	}
+	mean_time_to_happen = { months = 12 }
+
+	title = "Производится механизация скотобоен в регионе $STATENAME$"
+	desc = "Научная революция дошла и до региона $STATENAME$, где началась массовая механизация скотобен. Это позволит серьёзно увеличить выпуск мяса крупного рогатого скота."
+
+	option = {
+		name = "Мясо станет доступнее нашему населению"
+		state_scope = {
+		   any_owned = {
+		      limit = {
+		         
+		         trade_goods=cattle
+                         NOT={has_province_modifier=mechanized_slaughtering_block_modifier}
+		      }
+		      add_province_modifier={name=mechanized_slaughtering_block_modifier duration=-1}
+		   }
+		}
+	}
+}
+country_event = {
+
+	id = 1084
+
+	trigger = {
+		invention=hussey_n_mccormicks_reaping_machine
+		invention=pitts_threshing_machine
+		any_owned_province = {
+		   
+		   OR={trade_goods=grain trade_goods=fruit trade_goods=tea trade_goods=coffee trade_goods=cotton}
+		}
+		NOT={has_country_flag=reaping_machine_and_threshing_machine}
+	}
+
+	mean_time_to_happen =  {
+		months = 36
+	}
+
+	title = "Внедрение молотилки Питта, а так же жатки Хасси и Маккормика"
+	desc = "В нашей стране повсеместно внедряется применение молотилки Питта и жатки Хасси и Маккормика. Это позволит увеличить производительность труда в $COUNTRY_ADJ$ сельском хозяйстве."
+	picture = "reaping_machine_and_threshing_machine"
+
+	option = {
+		name = "Великолепно!"
+		prestige = 3
+                set_country_flag=reaping_machine_and_threshing_machine
+		any_owned = {
+		   limit = {
+		      
+		      OR={trade_goods=grain trade_goods=fruit trade_goods=tea trade_goods=coffee trade_goods=cotton}
+                      NOT={has_province_modifier=reaping_machine_and_threshing_machine_modifier}
+		   }
+		   add_province_modifier={name=reaping_machine_and_threshing_machine_modifier duration=-1}
+		}
+	}
+}
+province_event = {
+
+	id = 1085
+
+	trigger = {
+		
+		owner={has_country_flag=reaping_machine_and_threshing_machine}
+		OR={trade_goods=grain trade_goods=fruit trade_goods=tea trade_goods=coffee trade_goods=cotton}
+		NOT={has_province_modifier=reaping_machine_and_threshing_machine_modifier}
+	}
+	mean_time_to_happen = { months = 12 }
+
+	title = "Молотилка и жатка начали применяться в регионе $STATENAME$"
+	desc = "Научная революция дошла и до региона $STATENAME$, где началось повсеместное применение новоизобретённых молотилки Питта и жатки Хасси и Маккормика. Это позволит увеличить производительность труда в $COUNTRY_ADJ$ сельском хозяйстве."
+
+	option = {
+		name = "Великолепно!"
+		state_scope = {
+		   any_owned = {
+		      limit = {
+		         
+		         OR={trade_goods=grain trade_goods=fruit trade_goods=tea trade_goods=coffee trade_goods=cotton}
+                         NOT={has_province_modifier=reaping_machine_and_threshing_machine_modifier}
+		      }
+		      add_province_modifier={name=reaping_machine_and_threshing_machine_modifier duration=-1}
+		   }
+		}
+	}
+}
+country_event = {
+
+	id = 1086
+
+	trigger = {
+		invention=mechanized_fishing_vessels
+		any_owned_province = {
+		   
+		   trade_goods=fish
+		}
+		NOT={has_country_flag=fishing_vessels_mechanized}
+	}
+
+	mean_time_to_happen =  {
+		months = 36
+	}
+
+	title = "Механизация $COUNTRY_ADJ$ рыболовства"
+	desc = "Последние достижения науки и техники, позволяют нашим рыбным промыслам произвести массовую механизацию рыболовных судов. Это позволит очень серьёзно увеличить вылов рыбы."
+	picture = "mechanized_fishing"
+
+	option = {
+		name = "Морепродукты появятся на всех рынках!"
+		prestige = 3
+                set_country_flag=fishing_vessels_mechanized
+		any_owned = {
+		   limit = {
+		      
+		      trade_goods=fish
+                      NOT={has_province_modifier=mechanized_fishing_vessels_modifier}
+		   }
+		   add_province_modifier={name=mechanized_fishing_vessels_modifier duration=-1}
+		}
+	}
+}
+province_event = {
+
+	id = 1087
+
+	trigger = {
+		
+		owner={has_country_flag=fishing_vessels_mechanized}
+		trade_goods=fish
+		NOT={has_province_modifier=mechanized_fishing_vessels_modifier}
+	}
+	mean_time_to_happen = { months = 12 }
+
+	title = "Механизация рыболовства в регионе $STATENAME$"
+	desc = "Научная революция дошла и до региона $STATENAME$, где начала происходить массовая механизация рыболовных судов, что позволит нашим промышленникам серьёзно увеличить вылов рыбы."
+
+	option = {
+		name = "Морепродукты появятся на всех рынках!"
+		state_scope = {
+		   any_owned = {
+		      limit = {
+		         
+		         trade_goods=fish
+                         NOT={has_province_modifier=mechanized_fishing_vessels_modifier}
+		      }
+		      add_province_modifier={name=mechanized_fishing_vessels_modifier duration=-1}
+		   }
+		}
+	}
+}
+country_event = {
+
+	id = 1088
+
+	trigger = {
+		invention=mechanical_saw
+		invention=mechanical_precision_saw
+		any_owned_province = {
+		   
+		   OR={trade_goods=timber trade_goods=tropical_wood}
+		}
+		NOT={has_country_flag=lumber_camp_mechanization_introduced}
+	}
+
+	mean_time_to_happen =  {
+		months = 36
+	}
+
+	title = "Механизация $COUNTRY_ADJ$ лесозаготовки"
+	desc = "Лесозаготовка в нашей славной державе теперь имеет более высокую производительность, благодаря её механизации. Научная революция превносит так же революцию и в повседневную жизнь."
+	picture = "mechanical_saw"
+
+	option = {
+		name = "Мебель станет теперь доступнее?"
+		prestige = 3
+                set_country_flag=lumber_camp_mechanization_introduced
+		any_owned = {
+		   limit = {
+		      
+		      OR={trade_goods=timber trade_goods=tropical_wood}
+                      NOT={has_province_modifier=lumber_camp_mechanization}
+		   }
+		   add_province_modifier={name=lumber_camp_mechanization duration=-1}
+		}
+	}
+}
+province_event = {
+
+	id = 1089
+
+	trigger = {
+		
+		owner={has_country_flag=lumber_camp_mechanization_introduced}
+		OR={trade_goods=timber trade_goods=tropical_wood}
+		NOT={has_province_modifier=lumber_camp_mechanization}
+	}
+	mean_time_to_happen = { months = 12 }
+
+	title = "Механизированная лесозаготовка в регионе $STATENAME$"
+	desc = "Научная революция дошла и до региона $STATENAME$, где произошла с большими усилиями механизация лесозаготовки, что позволит нашим добывающим предприятиям повысить свою производительность в добыче древесины."
+
+	option = {
+		name = "Мебель станет теперь доступнее?"
+		state_scope = {
+		   any_owned = {
+		      limit = {
+		         
+		         OR={trade_goods=timber trade_goods=tropical_wood}
+                         NOT={has_province_modifier=lumber_camp_mechanization}
+		      }
+		      add_province_modifier={name=lumber_camp_mechanization duration=-1}
+		   }
+		}
+	}
+}
+country_event = {
+
+	id = 1090
+
+	trigger = {
+		invention=carbon_soil_enrichment
+		any_owned_province = {
+		   
+		   OR={trade_goods=cotton trade_goods=fruit trade_goods=grain trade_goods=tea trade_goods=tobacco trade_goods=coffee trade_goods=opium}
+		}
+		NOT={has_country_flag=carbon_enrichment_introduced}
+	}
+
+	mean_time_to_happen =  {
+		months = 36
+	}
+
+	title = "Применение в $COUNTRY_ADJ$ сельском хозяйстве углеродных удобрений"
+	desc = "В $COUNTRY_ADJ$ сельском хозяйстве началось повсеместное применение углеродных удобрений. Они позволяют серьёзно увеличить урожайность нашей прекрасной земли!"
+	picture = "fertillizer"
+
+	option = {
+		name = "Наша земля теперь прокормит каждого!"
+		prestige = 3
+                set_country_flag=carbon_enrichment_introduced
+		any_owned = {
+		   limit = {
+		      
+		      OR={trade_goods=cotton trade_goods=fruit trade_goods=grain trade_goods=tea trade_goods=tobacco trade_goods=coffee trade_goods=opium}
+                      NOT={has_province_modifier=carbon_enrichment_modifier}
+		   }
+		   add_province_modifier={name=carbon_enrichment_modifier duration=-1}
+		}
+	}
+}
+province_event = {
+
+	id = 1091
+
+	trigger = {
+		
+		owner={has_country_flag=carbon_enrichment_introduced}
+		OR={trade_goods=cotton trade_goods=fruit trade_goods=grain trade_goods=tea trade_goods=tobacco trade_goods=coffee trade_goods=opium}
+		NOT={has_province_modifier=carbon_enrichment_modifier}
+	}
+	mean_time_to_happen = { months = 12 }
+
+	title = "Углеродные удобрения в регионе $STATENAME$"
+	desc = "Научная революция дошла и до региона $STATENAME$, где началось повсеместное применение углеродных удобрений, позволяющих нашим фермерам добиться серьёзного увеличения урожайности."
+
+	option = {
+		name = "Наша земля теперь прокормит каждого!"
+		state_scope = {
+		   any_owned = {
+		      limit = {
+		         
+		         OR={trade_goods=cotton trade_goods=fruit trade_goods=grain trade_goods=tea trade_goods=tobacco trade_goods=coffee trade_goods=opium}
+                         NOT={has_province_modifier=carbon_enrichment_modifier}
+		      }
+		      add_province_modifier={name=carbon_enrichment_modifier duration=-1}
+		   }
+		}
+	}
+}
+country_event = {
+
+	id = 1092
+
+	trigger = {
+		invention=barbwire
+		any_owned_province = {
+		   
+		   trade_goods=cattle
+		}
+		NOT={has_country_flag=barbwire_introduced}
+	}
+
+	mean_time_to_happen =  {
+		months = 24
+	}
+
+	title = "Удешевление производства колючей проволоки"
+	desc = "В нашей славной державе был изобретён способ очень дешёвого производства колючей проволоки, благодаря чему внедряется её массовое применение в $COUNTRY_ADJ$ скотоводстве."
+	picture = "barbwire"
+
+	option = {
+		name = "Великий день для скотоводства!"
+		prestige = 3
+                set_country_flag=barbwire_introduced
+		any_owned = {
+		   limit = {
+		      
+		      trade_goods=cattle
+                      NOT={has_province_modifier=barwire_modifier}
+		   }
+		   add_province_modifier={name=barwire_modifier duration=-1}
+		}
+	}
+}
+province_event = {
+
+	id = 1093
+
+	trigger = {
+		
+		owner={has_country_flag=barbwire_introduced}
+		trade_goods=cattle
+		NOT={has_province_modifier=barwire_modifier}
+	}
+	mean_time_to_happen = { months = 12 }
+
+	title = "Применение колючей проволоки в регионе $STATNAME$"
+	desc = "Научная революция дошла и до региона $STATENAME$, где началось массовое применение колючей проволоки. Это позволить увеличить выпуск крупного рогатого скота."
+
+	option = {
+		name = "Счастье для скотоводов"
+		state_scope = {
+		   any_owned = {
+		      limit = {
+		         
+		         trade_goods=cattle
+                         NOT={has_province_modifier=barwire_modifier}
+		      }
+		      add_province_modifier={name=barwire_modifier duration=-1}
+		   }
+		}
+	}
+}
+country_event = {
+
+	id = 1094
+
+	trigger = {
+		invention=direct_current
+		invention=alternating_current
+		invention=polyphase_system
+		any_owned_province = {
+		   
+		   OR={trade_goods=iron trade_goods=coal trade_goods=sulphur trade_goods=timber trade_goods=tropical_wood trade_goods=oil trade_goods=precious_metal}
+		}
+		NOT={has_country_flag=electrification_has_happened}
+	}
+
+	mean_time_to_happen =  {
+		months = 24
+	}
+
+	title = "Массовая электрификация добывающих предприятий"
+	desc = "В нашей славной державе происходит массовая электрификация добывающих предприятий, которая позволяет нам улучшить условия труда и увеличить производительность рабочих."
+	picture = "electrification"
+
+	option = {
+		name = "Научная революция шагает по планете!"
+		prestige = 3
+                set_country_flag=electrification_has_happened
+		any_owned = {
+		   limit = {
+		      
+		      OR={trade_goods=coal trade_goods=sulphur trade_goods=timber trade_goods=tropical_wood trade_goods=oil trade_goods=precious_metal}
+                      NOT={has_province_modifier=electrification}
+		   }
+		   add_province_modifier={name=electrification duration=-1}
+		}
+		any_owned = {
+		   limit = {
+		      
+		      trade_goods=iron
+                      NOT={has_province_modifier=electrification_iron}
+		   }
+		   add_province_modifier={name=electrification_iron duration=-1}
+		}
+	}
+}
+province_event = {
+
+	id = 1095
+
+	trigger = {
+		
+		owner={has_country_flag=electrification_has_happened}
+		OR = {
+			AND = {
+				OR={trade_goods=coal trade_goods=sulphur trade_goods=timber trade_goods=tropical_wood trade_goods=oil trade_goods=precious_metal}
+				NOT={has_province_modifier=electrification}
+			}
+			AND = {
+				trade_goods=iron
+				NOT={has_province_modifier=electrification_iron}
+			}
+		}
+	}
+	mean_time_to_happen = { months = 12 }
+
+	title = "Электрификация ДП в регионе $STATENAME$"
+	desc = "Научная революция дошла и до региона $STATENAME$, где началась массовая электрификация добывающих предприятий."
+
+	option = {
+		name = "Научная революция шагает по планете!"
+		state_scope = {
+		   any_owned = {
+		      limit = {
+		         
+		         OR={trade_goods=coal trade_goods=sulphur trade_goods=timber trade_goods=tropical_wood trade_goods=oil trade_goods=precious_metal}
+                         NOT={has_province_modifier=electrification}
+		      }
+		      add_province_modifier={name=electrification duration=-1}
+		   }
+		}
+		state_scope = {
+		   any_owned = {
+		      limit = {
+		         
+		         trade_goods=iron
+                         NOT={has_province_modifier=electrification_iron}
+		      }
+		      add_province_modifier={name=electrification_iron duration=-1}
+		   }
+		}
+	}
+}
+country_event = {
+
+	id = 1096
+
+	trigger = {
+		invention=nitroglycerin
+		any_owned_province = {
+		   OR={
+		      AND={trade_goods=iron NOT={has_province_modifier=nitroglycerin_iron}}
+		      AND={trade_goods=coal NOT={has_province_modifier=nitroglycerin_coal}}
+		   }
+		}
+		NOT={has_country_flag=nitroglycerin_introduced}
+	}
+
+	mean_time_to_happen =  {
+		months = 36
+		modifier = {
+			factor = 0.50
+			cheap_iron = 1
+		}
+		modifier = {
+			factor = 0.25
+			cheap_steel = 1
+		}
+		modifier = {
+			factor = 0.05
+			advanced_metallurgy = 1
+		}
+	}
+
+
+	title = "Массовое применение нитроглицерина"
+	desc = "$COUNTRY_ADJ$ горнодобывающие компании недавно осознали всю пользу от новоизобретённого нитроглицерина. Он позволяет с гораздо меньшими затратами разрабатывать открытым способом неглубоко залегающие залежи угля и железной руды."
+	picture = "nitroglycerin"
+
+	option = {
+		name = "Внедряйте инновацию"
+		prestige = 3
+                set_country_flag=nitroglycerin_introduced
+		any_owned = {
+		   limit = {
+		      
+                      trade_goods = iron
+                      NOT={has_province_modifier=nitroglycerin_iron}
+		   }
+		   add_province_modifier={name=nitroglycerin_iron duration=-1}
+		}
+		any_owned = {
+		   limit = {
+		      
+                      trade_goods = coal
+                      NOT={has_province_modifier=nitroglycerin_coal}
+		   }
+		   add_province_modifier={name=nitroglycerin_coal duration=-1}
+		}
+	}
+}
+province_event = {
+
+	id = 1097
+
+	trigger = {
+		
+		owner={has_country_flag=nitroglycerin_introduced}
+		OR = {
+		   AND={trade_goods=iron NOT={has_province_modifier=nitroglycerin_iron}}
+		   AND={trade_goods=coal NOT={has_province_modifier=nitroglycerin_coal}}
+		}
+	}
+	mean_time_to_happen = { months = 12 }
+
+	title = "Внедрение нитроглицерина на производстве"
+	desc = "Научная революция дошла и до региона $STATENAME$, где началось массовое внедрение нитроглицерина в добыче полезных ископаемых."
+
+	option = {
+		name = "Внедряйте инновацию"
+		state_scope = {
+		   any_owned = {
+		      limit = {
+		         
+                         trade_goods = iron
+                         NOT={has_province_modifier=nitroglycerin_iron}
+		      }
+		      add_province_modifier={name=nitroglycerin_iron duration=-1}
+		   }
+		   any_owned = {
+		      limit = {
+		         
+                         trade_goods = coal
+                         NOT={has_province_modifier=nitroglycerin_coal}
+		      }
+		      add_province_modifier={name=nitroglycerin_coal duration=-1}
+		   }
+		}
+	}
+}
+country_event = {
+
+	id = 1098
+
+	trigger = {
+		invention=tractors
+		any_owned_province = {
+		   
+		   trade_goods=grain
+                   NOT={has_province_modifier=tractors_modifier}
+		}
+		NOT={has_country_flag=mechanization_has_happened}
+	}
+
+	mean_time_to_happen =  {
+		months = 36
+	}
+
+	title = "Массовая механизация $COUNTRY_ADJ$ сельского хозяйства"
+	desc = "С изобретением тракторов, на селе по достоинству оценили возможности новой техники, повышающей производительность труда многократно. Происходит массовая механизация сельского хозяйства в нашей стране."
+	picture = "tractors"
+
+	option = {
+		name = "Прекрасно!"
+		prestige = 3
+                set_country_flag=mechanization_has_happened
+		any_owned = {
+		   limit = {
+		      
+                      trade_goods=grain
+                      NOT={has_province_modifier=tractors_modifier}
+		   }
+		   add_province_modifier={name=tractors_modifier duration=-1}
+		}
+	}
+}
+province_event = {
+
+	id = 1099
+
+	trigger = {
+		
+		owner={has_country_flag=mechanization_has_happened}
+		trade_goods=grain
+		NOT={has_province_modifier=tractors_modifier}
+	}
+	mean_time_to_happen = { months = 12 }
+
+	title = "Механизация сельского хозяйства в регионе $STATENAME$"
+	desc = "Научная революция дошла и до региона $STATENAME$, где происходит механизация $COUNTRY_ADJ$ сельского хозяйства."
+
+	option = {
+		name = "Прекрасно!"
+		state_scope = {
+		   any_owned = {
+		      limit = {
+		         
+			 trade_goods=grain
+                         NOT={has_province_modifier=tractors_modifier}
+		      }
+		      add_province_modifier={name=tractors_modifier duration=-1}
+		   }
+		}
+	}
+}
+country_event = {
+
+	id = 1100
+
+	trigger = {
+		invention=electric_pump
+		any_owned_province = {
+		   
+		   OR={
+			AND={OR={trade_goods=coal trade_goods=oil}NOT={has_province_modifier=electric_pump_modifier}}
+			AND={trade_goods=iron NOT={has_province_modifier=electric_pump_iron_modifier}}
+		   }
+		}
+		NOT={has_country_flag=electric_pump_introduced}
+	}
+
+	mean_time_to_happen =  {
+		months = 36
+	}
+
+	title = "Внедрение электронасосов в $COUNTRY_ADJ$ народном хозяйстве"
+	desc = "Изобретение электродвигателя позволило установить его в том числе и на насосы, имеющеие широчайшее применение в народном хозяйстве. Это упростит добычу полезных ископаемых, находящихся под землёй."
+	picture = "electric_pump"
+
+	option = {
+		name = "Природные богатства станут доступнее?"
+		prestige = 3
+                set_country_flag=electric_pump_introduced
+		any_owned = {
+		   limit = {
+		      
+                      OR={trade_goods=coal trade_goods=oil}
+                      NOT={has_province_modifier=electric_pump_modifier}
+		   }
+		   add_province_modifier={name=electric_pump_modifier duration=-1}
+		}
+		any_owned = {
+		   limit = {
+		      
+                      trade_goods=iron
+                      NOT={has_province_modifier=electric_pump_iron_modifier}
+		   }
+		   add_province_modifier={name=electric_pump_iron_modifier duration=-1}
+		}
+	}
+}
+province_event = {
+
+	id = 1101
+
+	trigger = {
+		
+		owner={has_country_flag=electric_pump_introduced}
+		OR={
+		   AND={OR={trade_goods=coal trade_goods=oil}NOT={has_province_modifier=electric_pump_modifier}}
+		   AND={trade_goods=iron NOT={has_province_modifier=electric_pump_iron_modifier}}
+		}
+	}
+	mean_time_to_happen = { months = 12 }
+
+	title = "Внедрение электронасосов в регионе $STATENAME$"
+	desc = "Научная революция дошла и до региона $STATENAME$, где началось использование электронасосов в $COUNTRY_ADJ$ горнодобыче."
+
+	option = {
+		name = "Природные богатства станут доступнее?"
+		state_scope = {
+		   any_owned = {
+		      limit = {
+		         
+			 OR={trade_goods=coal trade_goods=oil}
+                         NOT={has_province_modifier=electric_pump_modifier}
+		      }
+		      add_province_modifier={name=electric_pump_modifier duration=-1}
+		   }
+		   any_owned = {
+		      limit = {
+		         
+			 trade_goods=iron
+                         NOT={has_province_modifier=electric_pump_iron_modifier}
+		      }
+		      add_province_modifier={name=electric_pump_iron_modifier duration=-1}
+		   }
+		}
+	}
+}
+country_event = {
+
+	id = 1102
+
+	trigger = {
+		invention=mechanization_of_mines
+		any_owned_province = {
+		   
+		   OR={
+			AND={trade_goods=coal NOT={has_province_modifier=mechanization_of_mines_modifier}}
+			AND={trade_goods=iron NOT={has_province_modifier=mechanization_of_mines_iron_modifier}}
+		   }
+		}
+		NOT={has_country_flag=mechanization_of_mines_introduced}
+	}
+
+	mean_time_to_happen =  {
+		months = 36
+	}
+
+	title = "Комплексная механизация шахт в $COUNTRY_ADJ$ горнодобыче"
+	desc = "Используя плоды современной научной мысли, мы можем начать комлексную механизацию шахт, что позволит нашему горнодобывающему сектору значительно увеличить производство угля и железной руды."
+	picture = "mechanization_of_mines"
+
+	option = {
+		name = "Земля поделится с нами углём и железом!"
+		prestige = 3
+                set_country_flag=mechanization_of_mines_introduced
+		any_owned = {
+		   limit = {
+		      
+                      trade_goods=coal
+                      NOT={has_province_modifier=mechanization_of_mines_modifier}
+		   }
+		   add_province_modifier={name=mechanization_of_mines_modifier duration=-1}
+		}
+		any_owned = {
+		   limit = {
+		      
+                      trade_goods=iron
+                      NOT={has_province_modifier=mechanization_of_mines_iron_modifier}
+		   }
+		   add_province_modifier={name=mechanization_of_mines_iron_modifier duration=-1}
+		}
+	}
+}
+province_event = {
+
+	id = 1103
+
+	trigger = {
+		
+		owner={has_country_flag=mechanization_of_mines_introduced}
+		OR={
+		   AND={trade_goods=coal NOT={has_province_modifier=mechanization_of_mines_modifier}}
+		   AND={trade_goods=iron NOT={has_province_modifier=mechanization_of_mines_iron_modifier}}
+		}
+	}
+	mean_time_to_happen = { months = 12 }
+
+	title = "Внедрение комплексной механизации шахт в регионе $STATENAME$"
+	desc = "Научная революция дошла и до региона $STATENAME$, где началась комплексная механизация шахт в $COUNTRY_ADJ$ горнодобыче."
+
+	option = {
+		name = "Земля поделится с нами углём и железом!"
+		state_scope = {
+		   any_owned = {
+		      limit = {
+		         
+			 trade_goods=coal
+                         NOT={has_province_modifier=mechanization_of_mines_modifier}
+		      }
+		      add_province_modifier={name=mechanization_of_mines_modifier duration=-1}
+		   }
+		   any_owned = {
+		      limit = {
+		         
+			 trade_goods=iron
+                         NOT={has_province_modifier=mechanization_of_mines_iron_modifier}
+		      }
+		      add_province_modifier={name=mechanization_of_mines_iron_modifier duration=-1}
+		   }
+		}
+	}
+}
+country_event = {
+
+	id = 1104
+
+	trigger = {
+		invention=chainsaw
+		any_owned_province = {
+		   	OR={trade_goods=timber trade_goods=tropical_wood}
+		}
+		NOT={has_country_flag=chainsaw_introduced}
+	}
+
+	mean_time_to_happen =  {
+		months = 36
+	}
+
+	title = "Внедрение бензопилы в $COUNTRY_ADJ$ лесозаготовке"
+	desc = "Недавно $COUNTRY_ADJ$ учёными была изобретена бензопила, которую мы сможем использовать в лесозаготовке. Это позволит нам невероятно увеличить производительность труда лесорубов и серьёзно повысит наши доходы в этой отрасли."
+	picture = "chainsaw"
+
+	option = {
+		name = "Похоже, что нам грозит обезлесение..."
+		prestige = 3
+                set_country_flag=chainsaw_introduced
+		any_owned = {
+		   limit = {
+		      
+                      OR={trade_goods=timber trade_goods=tropical_wood}
+                      NOT={has_province_modifier=chainsaw_modifier}
+		   }
+		   add_province_modifier={name=chainsaw_modifier duration=-1}
+		}
+	}
+}
+province_event = {
+
+	id = 1105
+
+	trigger = {
+		owner={has_country_flag=chainsaw_introduced}
+		OR={trade_goods=timber trade_goods=tropical_wood} 
+		NOT={has_province_modifier=chainsaw_modifier}
+	}
+	mean_time_to_happen = { months = 12 }
+
+	title = "Внедрение бензопилы в регионе $STATENAME$"
+	desc = "Научная революция дошла и до региона $STATENAME$, где началось использование бензопилы в $COUNTRY_ADJ$ лесозаготовке."
+
+	option = {
+		name = "Похоже, что нам грозит обезлесение..."
+		state_scope = {
+		   any_owned = {
+		      limit = {
+		         
+			 		OR={trade_goods=timber trade_goods=tropical_wood}
+					NOT={has_province_modifier=chainsaw_modifier}
+		      }
+		      add_province_modifier={name=chainsaw_modifier duration=-1}
+		   }
+		}
+	}
+}
+country_event = {
+
+	id = 1106
+
+	trigger = {
+		invention=electric_saw
+		any_owned_province = {
+		   
+		OR={trade_goods=timber trade_goods=tropical_wood}
+		NOT={has_province_modifier=electric_saw_modifier}
+		}
+		NOT={has_country_flag=electric_saw_introduced}
+	}
+
+	mean_time_to_happen =  {
+		months = 36
+	}
+
+	title = "Изобретение и активное внедрение электропилы в $COUNTRY_ADJ$ лесозаготовке"
+	desc = "Внедрение недавно изобретённой электропилы в $COUNTRY_ADJ$ лесозаготовке не заставило себя долго ждать. Мы уже начинаем извлекать огромную выгоду от изобретения генераторов и использования электричества для приведения пилы в действие."
+	picture = "electrical_chainsaw"
+
+	option = {
+		name = "Мы точно не истребим все деревья?"
+		prestige = 3
+                set_country_flag=electric_saw_introduced
+		any_owned = {
+		   limit = {
+		      
+                      OR={trade_goods=timber trade_goods=tropical_wood}
+                      NOT={has_province_modifier=electric_saw_modifier}
+		   }
+		   add_province_modifier={name=electric_saw_modifier duration=-1}
+		}
+	}
+}
+province_event = {
+
+	id = 1107
+
+	trigger = {
+		owner={has_country_flag=electric_saw_introduced}
+		OR={trade_goods=timber trade_goods=tropical_wood} 
+		NOT={has_province_modifier=electric_saw_modifier}
+	}
+	mean_time_to_happen = { months = 12 }
+
+	title = "Внедрение электропилы в регионе $STATENAME$"
+	desc = "Научная революция дошла и до региона $STATENAME$, где началось использование электропилы в $COUNTRY_ADJ$ лесозаготовке."
+
+	option = {
+		name = "Мы точно не истребим все деревья?"
+		state_scope = {
+		   any_owned = {
+		      limit = {
+		         
+			 	OR={trade_goods=timber trade_goods=tropical_wood}
+                         NOT={has_province_modifier=electric_saw_modifier}
+		      }
+		      add_province_modifier={name=electric_saw_modifier duration=-1}
+		   }
+		}
+	}
+}
+#############################
+#        GOLD EVENTS        #
+#############################
+province_event = {
+	
+	id = 11000
+
+	trigger = {
+		or = {
+			province_id = 1				# Sitka
+			province_id = 2				# Yakutat
+			province_id = 766			# Sassari
+			province_id = 769			# Postojna
+			province_id = 773			# Karlovac
+			province_id = 1387			# Kuala Lumpur
+			province_id = 1390			# Kuantan
+			province_id = 1422			# Muraleve
+			province_id = 1440			# Sumbawa
+			province_id = 1564			# Caozhou
+			province_id = 1884			# Freetown
+			province_id = 2501			# Kimberley
+			province_id = 2153			# Durango
+			province_id = 2157			# Culiacan
+			province_id = 2179			# Acapulco
+			province_id = 2295			# Lima
+			province_id = 2323			# La Serena
+			province_id = 2500			# Kalgoorlie
+			province_id = 2503			# Wiluna
+			province_id = 2575			# Ipoh
+			province_id = 2601			# Sandy Desert
+			province_id = 2605			# Gibson's Desert
+			province_id = 1659			# Kobe
+			province_id = 2142			# Chihuahua
+			province_id = 2255			# Barranquilla
+			province_id = 88			# Mariposa
+			province_id = 695			# Konigsberg
+			province_id = 1084			# Utchan
+			province_id = 93			# Pocatello
+			province_id = 2106
+			province_id = 6				# Whitehorse
+			province_id = 7				# Dawson
+			province_id = 2599			# Fairbanks
+			province_id = 2630			# Cordova
+			province_id = 2084			# Angra Pequeja
+			province_id = 2091			# Mossel Bay
+			province_id = 2092			# Beaufort
+			province_id = 1697			# Figuig
+			province_id = 2108			# Mosega
+			province_id = 2107			# Klerksdorp
+			province_id = 2097			# Graaf Reinet
+			province_id = 1849			# Massawa
+			province_id = 2068			# Salisbury
+		}
+		not = { trade_goods = precious_metal }
+	}
+
+	mean_time_to_happen =  {
+		months = 72
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		trade_goods = precious_metal
+		remove_province_modifier = tractors_modifier
+		remove_province_modifier = nitroglycerin_iron
+		remove_province_modifier = nitroglycerin_coal
+		remove_province_modifier = barwire_modifier
+		remove_province_modifier = carbon_enrichment_modifier
+		remove_province_modifier = lumber_camp_mechanization
+		remove_province_modifier = mechanized_fishing_vessels_modifier
+		remove_province_modifier = reaping_machine_and_threshing_machine_modifier
+		remove_province_modifier = mechanized_slaughtering_block_modifier
+		remove_province_modifier = drying_techniques_modifier
+		remove_province_modifier = uses_refrigerator
+		remove_province_modifier = electric_machinery_modifier
+		remove_province_modifier = rotherham_plough_modifier
+		remove_province_modifier = tulls_seed_drill_modifier
+		remove_province_modifier = electrification
+		remove_province_modifier = electrification_iron
+		remove_province_modifier = electric_pump_modifier
+		remove_province_modifier = electric_pump_iron_modifier
+		remove_province_modifier = mechanization_of_mines_modifier
+		remove_province_modifier = mechanization_of_mines_iron_modifier
+		remove_province_modifier = chainsaw_modifier
+		remove_province_modifier = electric_saw_modifier
+		add_province_modifier = {
+			name = gold_rush
+			duration = 2920
+		}
+	}
+}
+###############################
+#        RUBBER EVENTS        #
+###############################
+province_event = {
+	
+	id = 11070
+
+	trigger = {
+		year = 1870
+		or = {
+			province_id = 1354
+			province_id = 1364
+			province_id = 1367
+			province_id = 1382
+			province_id = 1384
+			province_id = 1385
+			province_id = 1386
+			province_id = 1389
+			province_id = 1402
+			province_id = 1404
+			province_id = 1827
+			province_id = 1829
+			province_id = 1833
+			province_id = 1836
+			province_id = 1837
+			province_id = 1848
+			province_id = 1850
+			province_id = 1890
+			province_id = 1891
+			province_id = 1923
+			province_id = 1321
+			province_id = 1398
+			province_id = 1421
+			province_id = 1985
+			province_id = 1406
+			province_id = 1318
+			province_id = 2057
+			province_id = 1426
+			province_id = 2058
+			province_id = 977
+			province_id = 1978
+			province_id = 1980
+			province_id = 1981
+			province_id = 2624
+			province_id = 1926
+			province_id = 1929
+			province_id = 1931
+			province_id = 1932
+			province_id = 1957
+			province_id = 1986
+			province_id = 1988
+			province_id = 1989
+			province_id = 1996
+			province_id = 2192
+			province_id = 2317
+			province_id = 2318
+			province_id = 2319
+			province_id = 2321
+			province_id = 2402
+			province_id = 2404
+			province_id = 2405
+			province_id = 2549
+			province_id = 2550
+			province_id = 2600
+                        
+		}
+		not = { trade_goods = rubber }
+                OR = {
+                   AND = {
+                      owner = {
+                         OR = {
+                            invention = daimlers_automobile
+                            invention = edison_light_bulb
+                         }
+                      }
+                   }
+                   AND = {
+	              part_of_sphere = yes
+                      owner = {
+                         sphere_owner = {
+                            OR = {
+                               invention = daimlers_automobile
+                               invention = edison_light_bulb
+                            }
+                         }
+                      }
+                   }
+                   AND = {
+                      any_greater_power = {
+                         OR = {
+                            invention = daimlers_automobile
+                            invention = edison_light_bulb
+                         }
+                      }
+                   }
+                }
+	}
+
+	mean_time_to_happen =  {
+		months = 36
+
+	}
+
+	title = "EVTNAME1107"
+	desc = "EVTDESC1107"
+
+	option = {
+		name = "EVTOPTA1107"
+		trade_goods = rubber
+		remove_province_modifier = tractors_modifier
+		remove_province_modifier = nitroglycerin_iron
+		remove_province_modifier = nitroglycerin_coal
+		remove_province_modifier = barwire_modifier
+		remove_province_modifier = carbon_enrichment_modifier
+		remove_province_modifier = lumber_camp_mechanization
+		remove_province_modifier = mechanized_fishing_vessels_modifier
+		remove_province_modifier = reaping_machine_and_threshing_machine_modifier
+		remove_province_modifier = mechanized_slaughtering_block_modifier
+		remove_province_modifier = drying_techniques_modifier
+		remove_province_modifier = uses_refrigerator
+		remove_province_modifier = electric_machinery_modifier
+		remove_province_modifier = rotherham_plough_modifier
+		remove_province_modifier = tulls_seed_drill_modifier
+		remove_province_modifier = electrification
+		remove_province_modifier = electrification_iron
+		remove_province_modifier = electric_pump_modifier
+		remove_province_modifier = electric_pump_iron_modifier
+		remove_province_modifier = mechanization_of_mines_modifier
+		remove_province_modifier = mechanization_of_mines_iron_modifier
+		remove_province_modifier = chainsaw_modifier
+		remove_province_modifier = electric_saw_modifier
+	}
+}
+############################
+#        OIL EVENTS        #
+############################
+province_event = {
+	id = 11071
+	trigger = {
+		year = 1870
+                OR = {
+					province_id = 1102		# Baku
+					province_id = 1205		# Kizil Arvat
+					province_id = 89		# Los Angeles
+					province_id = 3252		# Long Beach
+					province_id = 133		# Austin
+					province_id = 132		# Houston
+					province_id = 134		# Dallas
+					province_id = 3253		# Santa Maria
+					province_id = 90		# San Diego
+					province_id = 87		# Monterey
+					province_id = 1104		# Sheki
+					province_id = 1186		# Alma Ata
+					province_id = 1202		# Kokand
+					province_id = 1107		# Lankaran
+					province_id = 667		# Tirgoviste
+					province_id = 672		# Bacau
+					province_id = 1168		# Dubai
+					province_id = 110		# Cheyenne
+					province_id = 126		# Topeka
+					province_id = 1399		# Palembang
+					province_id = 1055		# Grozny
+					province_id = 1393		# Brunei
+					province_id = 1401		# Siak
+					province_id = 1425		# Tarakan
+					province_id = 1432		# Mamuju
+					province_id = 1335		# Kyaukse
+					province_id = 705		# Przemysl
+					province_id = 1260		# Dibrugarh
+					province_id = 1086		# Pogobi
+					province_id = 129		# Oklahoma City
+					province_id = 1680		# Fez
+					province_id = 2173		# Queretaro
+					province_id = 2162		# Veracruz
+					province_id = 2163		# Tampico
+					province_id = 702		# Lvov
+					province_id = 1397		# Sandakan
+					province_id = 2237		# Trinidad
+					province_id = 2396		# Rawson
+					province_id = 1131		# Ahvaz
+					province_id = 1732		# Ghayran
+					province_id = 1720		# Timimoun
+					province_id = 1167		# Abu Dhabi
+					province_id = 1163		# Qatif
+					province_id = 2270		# Maracaibo
+					province_id = 1170		# Nizwa 
+					province_id = 1132		# Abadan
+					province_id = 26		# Calgary
+					province_id = 2291		# Piura
+					province_id = 849		# Tirana
+					province_id = 928		# Mendeli
+					province_id = 923		# Mosul
+                }
+		not = { trade_goods = oil }
+                owner = { civilized = yes }
+                OR = {
+                   owner = {
+		      invention = cracking
+                   }
+		   owner = {
+		      part_of_sphere = yes
+		      sphere_owner = {
+		         invention = cracking
+                      }
+		   }
+                   any_greater_power = { invention = cracking }
+                }
+	}
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		remove_province_modifier = tractors_modifier
+		remove_province_modifier = nitroglycerin_iron
+		remove_province_modifier = nitroglycerin_coal
+		remove_province_modifier = barwire_modifier
+		remove_province_modifier = carbon_enrichment_modifier
+		remove_province_modifier = lumber_camp_mechanization
+		remove_province_modifier = mechanized_fishing_vessels_modifier
+		remove_province_modifier = reaping_machine_and_threshing_machine_modifier
+		remove_province_modifier = mechanized_slaughtering_block_modifier
+		remove_province_modifier = drying_techniques_modifier
+		remove_province_modifier = uses_refrigerator
+		remove_province_modifier = electric_machinery_modifier
+		remove_province_modifier = rotherham_plough_modifier
+		remove_province_modifier = tulls_seed_drill_modifier
+		remove_province_modifier = electrification
+		remove_province_modifier = electrification_iron
+		remove_province_modifier = electric_pump_modifier
+		remove_province_modifier = electric_pump_iron_modifier
+		remove_province_modifier = mechanization_of_mines_modifier
+		remove_province_modifier = mechanization_of_mines_iron_modifier
+		remove_province_modifier = chainsaw_modifier
+		remove_province_modifier = electric_saw_modifier
+	}
+}

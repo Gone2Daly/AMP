@@ -1,0 +1,258 @@
+# All global modifiers are here.  They are applied from certain game-features.
+#
+# Effects are fully scriptable here.
+
+
+#these names can NOT be removed or changes, as the code uses them....
+
+##########################################################################
+# Difficulty Modifiers
+##########################################################################
+
+
+
+very_easy_player = {
+	supply_consumption = -0.5
+	research_points_modifier = 0.5
+	war_exhaustion = -0.1
+	leadership_modifier = 0.5
+	factory_output = 0.20
+}
+
+easy_player = {
+	supply_consumption = -0.25
+	research_points_modifier = 0.25
+	leadership_modifier = 0.25
+	factory_output = 0.10
+}
+
+hard_player = {
+	supply_consumption = 0.5
+}
+
+very_hard_player = {
+	supply_consumption = 1.0
+}
+
+
+
+
+very_easy_ai = {
+	land_organisation = -0.25
+	naval_organisation = -0.25
+
+}
+
+easy_ai = {
+}
+
+hard_ai = {
+	badboy = -0.02
+	research_points_modifier = 0.5
+	land_organisation = 0.25
+	naval_organisation = 0.25
+	leadership_modifier = 0.5
+	global_pop_militancy_modifier = -0.02
+	factory_output = 0.10
+}
+
+very_hard_ai = {
+	badboy = -0.05
+	research_points_modifier = 1.0
+	land_organisation = 0.5
+	naval_organisation = 0.5
+	leadership_modifier = 1.0
+	global_pop_militancy_modifier = -0.04
+	factory_output = 0.20
+}
+
+
+##########################################################################
+# Provincial Static Modifiers
+##########################################################################
+
+overseas = {
+}
+
+coastal = {
+}
+
+non_coastal = {
+}
+
+coastal_sea = {
+	supply_limit = 100
+}
+
+sea_zone = {
+	max_attrition = 5			#Maximum Attrition is 5
+	supply_limit = 30
+}
+
+land_province = {
+	max_attrition = 6			#Maximum Attrition is 6
+	supply_limit = 6				
+}
+
+
+
+blockaded = 
+{
+	RGO_throughput = -0.001
+	factory_throughput = -0.001
+}
+
+no_adjacent_controlled = {
+}
+
+
+core = {
+}
+
+has_siege = {
+	supply_limit = -50
+	farm_rgo_eff = -0.5
+	mine_rgo_eff = -0.5
+}
+
+occupied = {
+	pop_militancy_modifier = 0.005
+}
+
+nationalism = {
+	pop_militancy_modifier = 0.005
+	farm_rgo_eff = -0.04
+	mine_rgo_eff = -0.04
+}
+
+infrastructure = {
+	local_factory_throughput = 0.6
+	local_rgo_output = 0.8
+	supply_limit = 5
+	mine_rgo_size = 1.2
+	farm_rgo_size = 1.2
+}
+
+
+
+##########################################################################
+# Global Static Modifiers
+##########################################################################
+
+base_values = {
+	supply_limit = 5
+}
+
+war = {
+	max_war_exhaustion = 100			#base max at war.
+	#war_exhaustion = 0.1
+	badboy = -0.033
+	supply_consumption = 0.25
+}
+
+peace = {
+	max_war_exhaustion = 50			#base max at peace.
+	supply_consumption = -0.5
+	war_exhaustion = -1
+	badboy = -0.1
+}
+
+disarming = {
+        mobilisation_size = -0.50
+}
+
+war_exhaustion = {
+	factory_throughput = -0.01
+	RGO_throughput = -0.01
+	cb_generation_speed_modifier = -0.02
+	global_immigrant_attract = -0.02
+	global_assimilation_rate = -0.04
+	unit_recruitment_time = 0.01
+}
+
+
+badboy = {
+	global_immigrant_attract = -0.03
+	factory_throughput = -0.005
+	loan_interest = 0.015
+	global_assimilation_rate = -0.005
+	global_pop_consciousness_modifier = 0.001
+	non_accepted_pop_militancy_modifier = 0.002
+	cb_generation_speed_modifier = -0.015
+	diplomatic_points_modifier = -0.008
+	prestige = -0.015
+}
+
+
+debt_default_to = {
+	loan_interest = 0.1
+}
+
+bad_debter = {
+	loan_interest = 0.2
+}
+
+great_power = {
+	prestige = 1
+	research_points = 1.25
+	diplomatic_points_modifier = 1.0
+	leadership = 1.5
+	mine_rgo_eff = 0.3
+	farm_rgo_eff = 0.3
+}
+
+second_power = {
+	prestige = 0.75
+	research_points = 1
+	diplomatic_points_modifier = 0.5
+	leadership = 1.0
+	max_loan_modifier = -0.5
+	mine_rgo_eff = 0.3
+	farm_rgo_eff = 0.3
+}
+
+civ_nation = {
+	prestige = 0.5
+	research_points = 1
+	leadership = 0.5
+	max_loan_modifier = -0.75
+	mine_rgo_eff = 0.3
+	farm_rgo_eff = 0.3
+}
+
+unciv_nation = {
+	mobilisation_size = -0.1
+	diplomatic_points_modifier = -0.25
+	cb_generation_speed_modifier = 0.8
+	badboy = -0.1
+	mine_rgo_eff = 0.3
+	farm_rgo_eff = 0.3
+}
+
+
+average_literacy = {
+	research_points_modifier = 1.5
+	self_unciv_economic_modifier = -0.5
+	self_unciv_military_modifier = -0.5
+	education_efficiency_modifier = -0.25
+}
+
+plurality = { 
+	research_points_modifier = 0.02
+}
+
+generalised_debt_default = {
+	
+}
+
+total_occupation = {
+	war_exhaustion = 0.05				#increased by war exhaustion.
+}
+
+total_blockaded = {
+	factory_throughput = -0.1
+}
+
+in_bankrupcy = {
+	cb_generation_speed_modifier = -1
+}

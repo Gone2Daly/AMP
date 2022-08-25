@@ -1,0 +1,169 @@
+#Taiwan Region (2980000) 
+#under the rule of China in 1836  
+#Taipei (1452000/363000 POPS) #now part of Taiwan   
+1485 = {
+	aristocrats = {
+		culture = beifaren
+		religion = mongoloid
+		size = 1500
+	}
+
+	bureaucrats = {
+		culture = beifaren
+		religion = mongoloid
+		size = 400
+	}
+
+	officers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 725
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 1225
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 6150
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 1250
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 110625
+	}
+
+	aristocrats = {
+		culture = beifaren
+		religion = mongoloid
+		size = 3000
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 2400
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 10000
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 2000
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 2400
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 220200
+	}
+
+	bureaucrats = {
+		culture = manchu
+		religion = mongoloid
+		size = 50
+	}
+
+	officers = {
+		culture = manchu
+		religion = mongoloid
+		size = 25
+	}
+
+	soldiers = {
+		culture = manchu
+		religion = mongoloid
+		size = 50
+	}
+}
+#Tainan (1528000/382000 POPS) #now part of Taiwan  
+2562 = {
+	aristocrats = {
+		culture = beifaren
+		religion = mongoloid
+		size = 1525
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 1325
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 6600
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 1325
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 121225
+	}
+
+	aristocrats = {
+		culture = beifaren
+		religion = mongoloid
+		size = 3500
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 2500
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 10000
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 2500
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 2500
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 229000
+	}
+
+}

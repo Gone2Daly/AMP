@@ -1,0 +1,104 @@
+army = {
+	name = "5th Indian Division"
+	location = 1236
+	regiment = {
+		name= "1.5th Indian Division"
+		type = colinfantry
+		home = 1236
+	}
+
+	regiment = {
+		name= "2.5th Indian Division"
+		type = colinfantry
+		home = 1239
+	}
+
+	regiment = {
+		name= "3.5th Indian Division"
+		type = colinfantry
+		home = 1251
+	}
+
+}
+army = {
+	name = "The Calcutta Army"
+	location = 1256
+
+	regiment = {
+		name= "1.3rd Indian Division"
+		type = colinfantry
+		home = 1251
+	}
+
+	regiment = {
+		name= "2.3rd Indian Division"
+		type = colinfantry
+		home = 1247
+	}
+
+	regiment = {
+		name= "3.3rd Indian Division"
+		type = colinfantry
+		home = 1254
+	}
+
+	regiment = {
+		name= "1.4th Indian Division"
+		type = colinfantry
+		home = 1240
+	}
+
+	regiment = {
+		name= "2.4th Indian Division"
+		type = colinfantry
+		home = 1248
+	}
+
+	regiment = {
+		name= "3.4th Indian Division"
+		type = colinfantry
+		home = 1243
+	}
+
+}
+army = {
+	name = "The Bombay Army"
+	location = 1297
+
+	regiment = {
+		name= "1.1st Indian Division"
+		type = colinfantry
+		home = 1297
+	}
+
+	regiment = {
+		name= "2.1st Indian Division"
+		type = colinfantry
+		home = 1291
+	}
+
+	regiment = {
+		name= "3.1st Indian Division"
+		type = colinfantry
+		home = 1299
+	}
+
+	regiment = {
+		name= "1.2nd Indian Division"
+		type = colinfantry
+		home = 1316
+	}
+
+	regiment = {
+		name= "2.2nd Indian Division"
+		type = colinfantry
+		home = 1317
+	}
+
+	regiment = {
+		name= "3.2nd Indian Division"
+		type = colinfantry
+		home = 1317
+	}
+
+}

@@ -1,0 +1,19 @@
+owner = DAI
+controller = DAI
+add_core = DAI
+trade_goods = grain
+life_rating = 42
+1861.1.1 = {
+	owner = FRA
+	controller = FRA
+}
+state_building = {
+	level = 1
+	building = manufacture_artillery
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_luxury_clothes
+	upgrade = yes
+}

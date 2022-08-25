@@ -1,0 +1,1976 @@
+##################################################################################################
+# scriptable and usable for event-system below.
+##################################################################################################
+
+##### POLITICAL EVENTS ######
+government_sanitarium = {
+	population_growth = 0.005
+	icon = 19
+}
+
+##### TECH SCHOOLS ######
+academic_confusion = {
+	research_points_modifier = -0.01
+	prestige = -0.01
+	icon = 6
+}
+
+##### LIBERAL REVOLUTIONS #####
+liberal_agitation = {
+	pop_consciousness_modifier = 0.1
+	icon = 4
+}
+
+springtime_of_nations = {
+	core_pop_militancy_modifier = 0.3
+	icon = 8
+}
+
+global_liberal_agitation = {
+	core_pop_militancy_modifier = 0.02
+	global_pop_consciousness_modifier = 0.05
+	icon = 4
+}
+
+potato_blight = {
+	population_growth = -0.02
+	pop_militancy_modifier = 0.01
+	icon = 20
+}
+
+anti_jacobin_tract = {
+	core_pop_consciousness_modifier = -0.05
+	icon = 3
+}
+
+cholera_epidemic_small = {
+	population_growth = -0.01
+	icon = 20
+}
+
+cholera_epidemic_big = {
+	population_growth = -0.02
+	icon = 20
+}
+
+conservative_reaction = {
+	pop_consciousness_modifier = 0.01
+	icon = 4
+}
+
+liberal_reaction = {
+	pop_consciousness_modifier = 0.01
+	icon = 4
+}
+
+national_tragedy = {
+	pop_consciousness_modifier = 0.01
+	icon = 15
+}
+
+##### CIVILIZATION AND GUNBOATS #####
+western_influences = {
+	global_pop_militancy_modifier = 0.1
+	global_pop_consciousness_modifier = 0.05
+	research_points_modifier = 0.2
+	icon = 10
+}
+
+uncivilized_isolationism = {
+	global_pop_militancy_modifier = -0.1
+	global_pop_consciousness_modifier = -0.05
+	research_points_modifier = -0.2
+	icon = 10
+}
+
+western_presence = {
+	pop_militancy_modifier = 0.1
+	research_points_modifier = 0.01
+	icon = 9
+}
+
+foreign_smugglers = {
+	poor_life_needs = -0.05
+	middle_life_needs = -0.05
+	rich_life_needs = -0.05
+	icon = 12
+}
+
+foreign_trading_post = {
+	poor_life_needs = -0.1
+	middle_life_needs = -0.1
+	rich_life_needs = -0.1
+	icon = 11
+}
+
+silk_famine = {
+	farm_rgo_eff = -0.5
+	icon = 14
+}
+
+dissatisfied_workers = {
+	farm_rgo_eff = -0.25
+	mine_rgo_eff = -0.25
+	icon = 20
+}
+
+naval_school = {
+	research_points_modifier = 0.01
+	icon = 17
+}
+
+trade_restrictions = {
+	poor_life_needs = 0.05
+	middle_life_needs = 0.05
+	rich_life_needs = 0.05
+	pop_consciousness_modifier = -0.05
+	icon = 10
+}
+
+colonial_dry_spell = {
+	pop_militancy_modifier = 0.05
+	farm_RGO_eff = -0.20
+	icon = 14
+}
+
+colonial_exploitation = {
+	farm_RGO_eff = 0.10
+	mine_RGO_eff = 0.10
+	pop_militancy_modifier = 0.1
+	icon = 18
+}
+
+colonial_museum_of_natural_history = {
+	research_points_modifier = 0.02
+	icon = 5
+}
+
+colonial_mismanagement = {
+	pop_militancy_modifier = -0.02
+	farm_rgo_eff = -0.5
+	mine_rgo_eff = -0.5
+	icon = 2
+}
+
+colonial_recruitment = {
+	immigrant_attract = 1		#100%
+	life_rating = 0.1
+	population_growth = 0.01
+	assimilation_rate = 0.25
+	icon = 9
+}
+
+baby_boom = {
+	population_growth = 0.01
+	icon = 19
+}
+
+loyal_askaris = {
+	pop_militancy_modifier = -0.05
+	pop_consciousness_modifier = -0.05
+	prestige = 0.01
+	icon = 17
+}
+
+muhammad_alis_reforms = {
+	research_points_modifier = 0.5
+	pop_consciousness_modifier = 0.05
+	icon = 5
+}
+
+##### SUFFRAGETTE MOVEMENTS #####
+
+female_suffrage = {
+	poor_vote = 0.05
+	middle_vote = 0.02
+	rich_vote = -0.01
+	core_pop_militancy_modifier = -0.02
+	icon = 7
+}
+
+##### SOCIALISM AND FACISM #####
+
+labor_union = {
+	core_pop_consciousness_modifier = 0.05
+	farm_rgo_eff = 0.05
+	mine_rgo_eff = 0.05
+	icon = 4
+}
+
+militant_trade_union = {
+	core_pop_militancy_modifier = 0.05
+	farm_rgo_eff = 0.05
+	mine_rgo_eff = 0.05
+	icon = 4
+}
+
+worker_union = {
+	poor_everyday_needs = -0.1
+	farm_rgo_eff = -0.05
+	mine_rgo_eff = -0.05
+	pop_militancy_modifier = 0.2
+	icon = 4
+}
+
+strike_solution = {
+	farm_rgo_eff = 0.25
+	mine_rgo_eff = 0.25
+	icon = 4
+}
+
+province_strike = {
+	pop_militancy_modifier = 0.2
+	icon = 4
+}
+
+may_day = {
+	farm_rgo_eff = -0.1
+	mine_rgo_eff = -0.1
+	pop_militancy_modifier = -0.2
+	icon = 4
+}
+
+national_workshops = {
+	farm_rgo_eff = -0.02
+	mine_rgo_eff = -0.02
+	prestige = 0.02
+	icon = 13
+}
+
+worker_revolt = {
+	farm_rgo_eff = -0.2
+	mine_rgo_eff = -0.2
+	icon = 20
+}
+
+black_shirts = {
+	pop_militancy_modifier = 0.4
+	icon = 18
+}
+
+free_corps = {
+	pop_militancy_modifier = 0.2
+	icon = 18
+}
+
+am_everywhere = {
+	prestige = 0.01
+	icon = 16
+}
+
+the_massacre = {
+	poor_everyday_needs = -0.2
+	population_growth = -0.01
+	icon = 18
+}
+fascist_welfare = {
+	poor_everyday_needs = -0.1
+	population_growth = 0.001
+	icon = 12
+}
+
+beer_hall_putsch = {
+	population_growth = -0.001	
+	pop_militancy_modifier = 0.2
+	icon = 18
+}
+
+##### Civilization & Gunboats #####
+local_opium_habit = {
+	mine_rgo_eff = -0.2
+	farm_rgo_eff = -0.2
+	pop_consciousness_modifier = -0.01
+	icon = 20
+}
+
+sayings_of_the_dutch = {
+	research_points_modifier = 0.05
+	icon = 5
+}
+
+european_military_mission = {
+	research_points_modifier = 0.02
+	pop_militancy_modifier = 0.1
+	icon = 17
+}
+
+extraterritoriality_granted = {
+	pop_militancy_modifier = 0.15
+	icon = 10
+}
+
+military_reform = {
+	leadership_modifier = 0.2
+	pop_militancy_modifier = 0.3
+	icon = 18
+}
+
+educational_reform = {
+	research_points_modifier = 0.05
+	pop_militancy_modifier = 0.07
+	icon = 5
+}
+
+legation_quarter = {
+	pop_militancy_modifier = 0.03
+	icon = 8
+}
+
+kettler_denkmal = {
+	prestige = -0.07
+	pop_militancy_modifier = 0.03
+	icon = 8
+}
+
+local_economic_downturn = {
+	local_RGO_output = -0.2
+	pop_consciousness_modifier = 0.5
+	icon = 12
+}
+
+##### AMERICAN CIVIL WAR #####
+free_staters = {
+	life_rating = -0.02
+	pop_militancy_modifier = 0.05
+	icon = 1
+}
+
+border_ruffians = {
+	life_rating = -0.02
+	pop_militancy_modifier = 0.05
+	icon = 18
+}
+
+underground_railroad = {
+	pop_militancy_modifier = 0.05
+	pop_consciousness_modifier = 0.025
+	icon = 4
+}
+
+abolitionist_society = {
+	pop_militancy_modifier = 0.01
+	pop_consciousness_modifier = 0.025
+	icon = 8
+}
+
+knights_of_the_golden_circle = {
+	pop_consciousness_modifier = 0.1
+	pop_militancy_modifier = 0.1
+	icon = 18
+}
+
+american_anti_slavery_society = {
+	pop_consciousness_modifier = 0.1
+	icon = 8
+}
+
+copperhead_democrats = {
+	pop_consciousness_modifier = 0.1
+	icon = 20
+}
+
+anaconda_plan = {
+	war_exhaustion = 0.05
+	icon = 18
+}
+
+the_homestead_act = {
+	global_immigrant_attract = 0.25
+	icon = 9
+}
+
+the_slavery_debate = {
+	global_pop_consciousness_modifier = 0.05
+	icon = 4
+}
+
+the_bonnie_blue_flag = {
+	leadership = 2
+	mobilisation_economy_impact = -0.25
+	mobilisation_size = 0.1
+	icon = 15
+}
+
+##### WORKPLACE EVENTS #####
+silk_famine = {
+	farm_rgo_eff = -0.5
+	icon = 14
+}
+
+blood_and_iron_mine = {
+	mine_rgo_eff = 1
+	pop_militancy_modifier = 0.01
+	icon = 14
+}
+
+##### TEMPERANCE LEAGUE #####
+libertine_culture = {
+	prestige = -0.01
+	farm_rgo_eff = -0.05
+	mine_rgo_eff = -0.05
+	icon = 19
+}
+
+temperance_league = {
+	poor_everyday_needs = -0.05
+	prestige = 0.01
+	global_pop_militancy_modifier = 0.01
+	farm_rgo_eff = 0.05
+	mine_rgo_eff = 0.05
+	icon = 2
+}
+
+beer_halls = {
+	farm_rgo_eff = -0.05
+	mine_rgo_eff = -0.05
+	pop_militancy_modifier = -0.02
+	icon = 15
+}
+
+destitution_and_poverty = {
+	farm_rgo_eff = -0.05
+	mine_rgo_eff = -0.05
+	pop_militancy_modifier = 0.02
+	icon = 19
+}
+
+liquor_prohibition = {
+	pop_militancy_modifier = 0.05
+	tax_efficiency = -0.05
+	icon = 2
+}
+
+
+##### NATIONALIST UPRISINGS #####
+minority_building_restrictions = {
+	non_accepted_pop_militancy_modifier = 0.05
+	assimilation_rate = 0.25
+	icon = 16
+}
+
+dryzymalas_wagon = {
+	pop_militancy_modifier = 0.05
+	pop_consciousness_modifier = 0.02
+	icon = 8
+}
+
+discriminatory_school_system = {
+	research_points_modifier = -0.1
+	assimilation_rate = 0.25
+	icon = 8
+}
+
+flying_university = {
+	research_points_modifier = 0.05
+	pop_consciousness_modifier = 0.2
+	pop_militancy_modifier = 0.2
+	icon = 5
+}
+
+organic_work = {
+	farm_rgo_eff = 0.04
+	mine_rgo_eff = 0.04
+	icon = 13
+}
+
+##### GREAT POWERS #####
+protector_of_eastern_christendom = {
+	prestige = 0.1
+	icon = 17
+}
+
+egyptian_excavations = {
+	prestige = 0.1
+	icon = 5
+}
+
+international_negotiations = {
+	badboy = 0.01
+	icon = 17
+}
+
+the_statue_of_liberty = {
+	global_immigrant_attract = 0.15
+	icon = 15
+}
+
+the_congo_reform_association = {
+	badboy = 0.2
+	icon = 17
+}
+
+### GER - GERMANY, PRU - PRUSSIA ###
+germania_werft = {
+	local_repair = 0.5
+	local_ship_build = -0.05
+	icon = 15
+}
+
+ruhr_boom = {
+	factory_owner_cost = -0.5
+	global_population_growth = 0.001
+	factory_throughput = 0.05
+	icon = 11
+}
+
+prussian_general_staff = {
+	org_regain = 0.1
+	land_organisation = 0.05
+	land_unit_start_experience = 0.5
+	supply_consumption = -0.05
+	icon = 15
+}
+
+##### Boer War #####
+trek_boers = {
+	immigrant_attract = 2		#200%
+	icon = 19
+}
+
+boer_exodus = {
+	immigrant_push = 0.5
+	icon = 20
+}
+
+gold_rush = {
+	immigrant_attract = 0.1	
+	icon = 11
+}
+
+witwatersrand_gold_rush = {
+	prestige = 0.01
+	icon = 11
+}
+
+##### RGO Spread Events #####
+local_tractors = {
+	farm_RGO_eff = 0.25
+	icon = 13
+}
+
+local_electricity = {
+	mine_RGO_eff = 0.25
+	local_factory_throughput = 0.05
+	icon = 13
+}
+
+local_nitroglycerin = {
+	mine_RGO_eff = 0.25
+	icon = 13
+}
+
+local_distribution_channels = {
+	farm_RGO_eff = 0.25
+	icon = 11
+}
+
+local_machine_tools = {
+	mine_RGO_eff = 0.25
+	local_factory_throughput = 0.05
+	icon = 13
+}
+
+##### Diseases & Famines #####
+pandemic_influenza = {
+	global_population_growth = -0.01
+	global_pop_consciousness_modifier = 0.1
+	icon = 18
+}
+
+##### Crime & Punishment #####
+trustee_system = {
+	pop_militancy_modifier = 0.01
+	pop_consciousness_modifier = 0.02
+	farm_RGO_eff = 0.1
+	mine_RGO_eff = 0.1
+	icon = 20
+}
+
+penal_colonies = {
+	core_pop_militancy_modifier = -0.01
+	prestige = 0.01
+	icon = 9
+}
+
+##### Economic Events #####
+stock_market_crash = {
+	factory_throughput = -0.2
+	rgo_output = -0.2
+	loan_interest = 0.25
+	icon = 12
+}
+
+great_depression = {
+	factory_throughput = -0.3
+	rgo_output = -0.3
+	tax_efficiency = -0.05
+	loan_interest = 0.25
+	pop_militancy_modifier = 0.2
+	pop_consciousness_modifier = 0.2
+	icon = 12
+}
+
+central_bank_established = {
+	loan_interest = -0.1
+	icon = 11
+}
+
+local_stock_exchange = {
+	local_rgo_output = 0.05
+	pop_militancy_modifier = -0.02
+	icon = 11
+}
+
+economic_boom = {
+	factory_throughput = 0.05
+	rgo_output = 0.05
+	icon = 11
+}
+
+#### ENG - ENGLAND #####
+corn_laws_repealed = {
+	max_tariff = -0.05
+	global_pop_militancy_modifier = -0.02
+	global_pop_consciousness_modifier = 0.01
+	icon = 1
+}
+
+the_yard = {
+	prestige = 0.01
+	icon = 1
+}
+
+#### SPA - Spain ####
+la_guardia_civil = {
+	tax_efficiency = 0.01
+	icon = 1
+}
+
+#### FRA - France ####
+the_french_foreign_legion = {
+	prestige = 0.01
+	global_immigrant_attract = 0.6
+	icon = 17
+}
+
+the_eiffel_tower = {
+	prestige = 0.05
+	icon = 15
+}
+
+#### SWI - Switzerland ####
+signed_the_geneva_convention = {
+	war_exhaustion = -0.02
+	org_regain = 0.1
+	badboy = 0.01
+	icon = 7
+}
+
+#### SWE - Sweden ####
+folkis_educates = {
+	research_points_modifier = 0.01
+	icon = 5
+}
+
+motala_verkstad = {
+	local_factory_throughput = 0.05
+	icon = 13
+}
+
+### NEN - New England ###
+miskatonic_campus = {
+	research_points_modifier = 0.1
+	pop_consciousness_modifier = 0.01
+	icon = 5
+}
+
+### BAV - Bavaria ###
+the_walhalla = {
+	prestige = 0.01
+	icon = 15
+}
+
+######CB generation######
+ CB_gen_plus = {
+	cb_generation_speed_modifier = 0.25
+ }
+ 
+  CB_gen_minus = {
+	cb_generation_speed_modifier = -0.25
+ }
+ 
+ ##more event modifiers
+ recent_safari = {
+	prestige = 0.001
+ }
+ recent_safari2 = {
+	prestige = 0.001
+ }
+ 
+ free_press_promised = {
+	prestige = 0.001
+	icon = 17
+ }
+ 
+ yes_meeting_promised = {
+	prestige = 0.001
+	icon = 17
+ }
+ 
+ trade_unions_promised = {
+	prestige = 0.001
+	icon = 17
+ }
+ 
+ ##
+ meiji_restoration_boost = {
+	research_points_modifier = 0.3
+	icon = 5
+}
+
+ dar_al_funun = {
+	research_points_modifier = 0.2
+	icon = 5
+}
+
+french_growth_nerf = {
+	global_population_growth = -0.01
+	icon = 18
+}
+
+nationalist_agitation = {
+	pop_consciousness_modifier = 0.25
+	pop_militancy_modifier = 0.05
+	icon = 4
+}
+
+apache_raiders	= {
+	population_growth = -0.002	
+	pop_militancy_modifier = 0.2
+	icon = 18
+}
+
+liberian_research_boost = {
+	research_points_modifier = 0.15
+	icon = 5
+}
+badboy_off = {
+	badboy = -0.3
+	icon = 17
+}
+new_world_gates = {
+	immigrant_attract = 0.25
+	life_rating = 0.20
+	icon = 17
+}
+korean_assimilation = {
+	assimilation_rate = 0.1
+	pop_militancy_modifier = 0.01
+	icon = 9
+}
+new_world_rgo_fix = {
+	mine_rgo_size = -9
+	farm_rgo_size = -8
+	icon = 9
+}
+sca_rgo_fix = {
+	mine_rgo_size = 3
+	icon = 9
+}
+
+######## Medicine
+
+reform_cutoff = {
+	population_growth = -0.001
+	icon = 20
+}
+
+### 1
+
+reform_trinket_cutoff_10 = {
+	life_rating = 2.9
+	icon = 20
+}
+reform_trinket_cutoff_15 = {
+	life_rating = 1.6
+	icon = 20
+}
+reform_trinket_cutoff_20 = {
+	life_rating = 0.95
+	icon = 20
+}
+reform_trinket_cutoff_25 = {
+	life_rating = 0.56
+	icon = 20
+}
+reform_trinket_cutoff_30 = {
+	life_rating = 0.3
+	icon = 20
+}
+reform_trinket_cutoff_32 = {
+	life_rating = 0.21
+	icon = 20
+}
+reform_trinket_cutoff_35 = {
+	life_rating = 0.11
+	icon = 20
+}
+### 2
+reform_low_cutoff_10 = {
+	life_rating = 2.7
+	icon = 20
+}
+reform_low_cutoff_15 = {
+	life_rating = 1.46
+	icon = 20
+}
+reform_low_cutoff_20 = {
+	life_rating = 0.85
+	icon = 20
+}
+reform_low_cutoff_25 = {
+	life_rating = 0.48
+	icon = 20
+}
+reform_low_cutoff_30 = {
+	life_rating = 0.23
+	icon = 20
+}
+reform_low_cutoff_32 = {
+	life_rating = 0.15
+	icon = 20
+}
+reform_low_cutoff_35 = {
+	life_rating = 0.05
+	icon = 20
+}
+### 3
+reform_acceptable_cutoff_10 = {
+	life_rating = 2.5
+	icon = 20
+}
+reform_acceptable_cutoff_15 = {
+	life_rating = 1.33
+	icon = 20
+}
+reform_acceptable_cutoff_20 = {
+	life_rating = 0.75
+	icon = 20
+}
+reform_acceptable_cutoff_25 = {
+	life_rating = 0.4
+	icon = 20
+}
+reform_acceptable_cutoff_30 = {
+	life_rating = 0.16
+	icon = 20
+}
+reform_acceptable_cutoff_32 = {
+	life_rating = 0.09
+	icon = 20
+}
+### 4
+reform_good_cutoff_10 = {
+	life_rating = 2.3
+	icon = 20
+}
+reform_good_cutoff_15 = {
+	life_rating = 1.2
+	icon = 20
+}
+reform_good_cutoff_20 = {
+	life_rating = 0.65
+	icon = 20
+}
+reform_good_cutoff_25 = {
+	life_rating = 0.32
+	icon = 20
+}
+reform_good_cutoff_30 = {
+	life_rating = 0.1
+	icon = 20
+}
+reform_good_cutoff_32 = {
+	life_rating = 0.03
+	icon = 20
+}
+####
+laf_mobilization = {
+	mobilisation_size = 0.2
+	icon = 20
+}
+patriots = {
+	icon = 20
+}
+truesight = {
+	icon = 20
+}
+ire_disaster = {
+	immigrant_push = 3
+	local_rgo_output = -1
+	icon = 20
+}
+####
+extremely_low_immigration = {
+	icon = 20
+	immigrant_attract = -0.6
+	immigrant_push = 0.45
+	local_ruling_party_support = -0.15
+	assimilation_rate = -0.2
+}
+lower_immigration = {
+	icon = 20
+	immigrant_attract = -0.3
+	immigrant_push = 0.3
+	local_ruling_party_support = -0.1
+	assimilation_rate = -0.1
+}
+low_immigration = {
+	icon = 20
+	immigrant_attract = -0.2
+	immigrant_push = 0.15
+	local_ruling_party_support = -0.05
+	assimilation_rate = -0.05
+}
+medium_immigration = {
+	icon = 19
+	immigrant_attract = 0.1
+	immigrant_push = -0.05
+}
+high_immigration = {
+	icon = 19
+	immigrant_attract = 0.3
+	immigrant_push = -0.15
+	local_ruling_party_support = 0.05
+	assimilation_rate = 0.05
+}
+higher_immigration = {
+	icon = 19
+	immigrant_attract = 0.5
+	immigrant_push = -0.3
+	local_ruling_party_support = 0.1
+	assimilation_rate = 0.1
+}
+extremely_high_immigration = { 
+	icon = 19
+	immigrant_attract = 0.7
+	immigrant_push = -0.45
+	local_ruling_party_support = 0.15
+	assimilation_rate = 0.15
+}
+highest_immigration = { 
+	icon = 19
+	immigrant_attract = 0.9
+	immigrant_push = -0.55
+	local_ruling_party_support = 0.2
+	assimilation_rate = 0.2
+}
+####inflation
+##issue
+#1 -35
+issue_little_stage1 = { 
+	icon = 12
+	factory_throughput = -0.05
+	RGO_throughput = -0.05
+}
+issue_little_stage2 = { 
+	icon = 12
+	factory_throughput = -0.05
+	RGO_throughput = -0.05
+	core_pop_militancy_modifier = 0.01
+}
+issue_little_stage3 = { 
+	icon = 12
+	factory_throughput = -0.15
+	RGO_throughput = -0.15
+	core_pop_militancy_modifier = 0.02
+	core_pop_consciousness_modifier = 0.01
+}
+#2 -50
+issue_average_stage1 = { 
+	icon = 12
+	factory_throughput = -0.1
+	RGO_throughput = -0.1
+}
+issue_average_stage2 = { 
+	icon = 12
+	factory_throughput = -0.15
+	RGO_throughput = -0.15
+	core_pop_militancy_modifier = 0.02
+}
+issue_average_stage3 = { 
+	icon = 12
+	factory_throughput = -0.15
+	RGO_throughput = -0.15
+	core_pop_militancy_modifier = 0.02
+	core_pop_consciousness_modifier = 0.02
+}
+issue_average_stage4 = { 
+	icon = 12
+	factory_throughput = -0.1
+	RGO_throughput = -0.1
+}
+#3 -70
+issue_large_stage1 = { 
+	icon = 12
+	factory_throughput = -0.15
+	RGO_throughput = -0.15
+}
+issue_large_stage2 = { 
+	icon = 12
+	factory_throughput = -0.2
+	RGO_throughput = -0.2
+	core_pop_militancy_modifier = 0.03
+}
+issue_large_stage3 = { 
+	icon = 12
+	factory_throughput = -0.2
+	RGO_throughput = -0.2
+	core_pop_militancy_modifier = 0.02
+	core_pop_consciousness_modifier = 0.03
+}
+issue_large_stage4 = { 
+	icon = 12
+	factory_throughput = -0.15
+	RGO_throughput = -0.15
+	core_pop_militancy_modifier = 0.01
+}
+##devaluation
+#1 +25
+devaluation_little_stage1 = { 
+	icon = 11
+	factory_throughput = 0.05
+	RGO_throughput = 0.05
+}
+devaluation_little_stage2 = { 
+	icon = 11
+	factory_throughput = 0.05
+	RGO_throughput = 0.05
+	core_pop_militancy_modifier = 0.01
+}
+devaluation_little_stage3 = { 
+	icon = 11
+	factory_throughput = 0.1
+	RGO_throughput = 0.1
+	core_pop_militancy_modifier = 0.02
+}
+#2 +35
+devaluation_average_stage1 = { 
+	icon = 11
+	factory_throughput = 0.05
+	RGO_throughput = 0.05
+}
+devaluation_average_stage2 = { 
+	icon = 11
+	factory_throughput = 0.1
+	RGO_throughput = 0.1
+	core_pop_militancy_modifier = 0.02
+}
+devaluation_average_stage3 = { 
+	icon = 11
+	factory_throughput = 0.15
+	RGO_throughput = 0.15
+	core_pop_militancy_modifier = 0.02
+	core_pop_consciousness_modifier = 0.01
+}
+devaluation_average_stage4 = { 
+	icon = 11
+	factory_throughput = 0.05
+	RGO_throughput = 0.05
+}
+#3 +50
+devaluation_large_stage1 = { 
+	icon = 11
+	factory_throughput = 0.1
+	RGO_throughput = 0.1
+}
+devaluation_large_stage2 = { 
+	icon = 11
+	factory_throughput = 0.15
+	RGO_throughput = 0.15
+	core_pop_militancy_modifier = 0.03
+}
+devaluation_large_stage3 = { 
+	icon = 11
+	factory_throughput = 0.15
+	RGO_throughput = 0.15
+	core_pop_militancy_modifier = 0.02
+	core_pop_consciousness_modifier = 0.02
+}
+devaluation_large_stage4 = { 
+	icon = 11
+	factory_throughput = 0.1
+	RGO_throughput = 0.1
+	core_pop_militancy_modifier = 0.01
+}
+uca_nationalism = { 
+	icon = 11
+	pop_militancy_modifier = 10
+	pop_consciousness_modifier = 10
+}
+frozen_base = { 
+	icon = 15
+	local_ship_build = 10
+	local_repair = -10
+}
+redshirts = {
+	icon = 11
+	pop_militancy_modifier = 0.2
+}
+redshirts_low = {
+	icon = 11
+	pop_militancy_modifier = 0.1
+}
+dyn_rebels = {
+	icon = 11
+}
+##### Apocalypse 1836 #####
+
+state_of_emergency = {
+	mobilisation_size = 0.05
+	land_organisation = 0.05
+	naval_organisation = 0.05
+	org_regain = 0.1
+	icon = 15
+}
+
+zombie_outbreak = {
+	immigrant_attract = -1
+	immigrant_push = 3
+	pop_consciousness_modifier = -0.3
+	pop_militancy_modifier = 0.5
+	population_growth = -0.025
+	icon = 20
+}
+####################AMP_PolSys#####################
+pops_regionPOP_europe_servicers_0 = { icon = 2 }
+pops_regionPOP_europe_servicers_1 = { icon = 2 }
+pops_regionPOP_europe_servicers_2 = { icon = 2 }
+pops_regionPOP_europe_servicers_3 = { icon = 2 }
+pops_regionPOP_europe_clerks_0 = { icon = 2 }
+pops_regionPOP_europe_clerks_1 = { icon = 2 }
+pops_regionPOP_europe_clerks_2 = { icon = 2 }
+pops_regionPOP_europe_clerks_3 = { icon = 2 }
+pops_regionPOP_europe_craftsmen_0 = { icon = 2 }
+pops_regionPOP_europe_craftsmen_1 = { icon = 2 }
+pops_regionPOP_europe_craftsmen_2 = { icon = 2 }
+pops_regionPOP_europe_craftsmen_3 = { icon = 2 }
+pops_regionPOP_europe_soldiers_0 = { icon = 2 }
+pops_regionPOP_europe_soldiers_1 = { icon = 2 }
+pops_regionPOP_europe_soldiers_2 = { icon = 2 }
+pops_regionPOP_europe_soldiers_3 = { icon = 2 }
+pops_regionPOP_europe_clergymen_0 = { icon = 2 }
+pops_regionPOP_europe_clergymen_1 = { icon = 2 }
+pops_regionPOP_europe_clergymen_2 = { icon = 2 }
+pops_regionPOP_europe_clergymen_3 = { icon = 2 }
+pops_regionPOP_asia_servicers_0 = { icon = 2 }
+pops_regionPOP_asia_servicers_1 = { icon = 2 }
+pops_regionPOP_asia_servicers_2 = { icon = 2 }
+pops_regionPOP_asia_servicers_3 = { icon = 2 }
+pops_regionPOP_asia_clerks_0 = { icon = 2 }
+pops_regionPOP_asia_clerks_1 = { icon = 2 }
+pops_regionPOP_asia_clerks_2 = { icon = 2 }
+pops_regionPOP_asia_clerks_3 = { icon = 2 }
+pops_regionPOP_asia_craftsmen_0 = { icon = 2 }
+pops_regionPOP_asia_craftsmen_1 = { icon = 2 }
+pops_regionPOP_asia_craftsmen_2 = { icon = 2 }
+pops_regionPOP_asia_craftsmen_3 = { icon = 2 }
+pops_regionPOP_asia_soldiers_0 = { icon = 2 }
+pops_regionPOP_asia_soldiers_1 = { icon = 2 }
+pops_regionPOP_asia_soldiers_2 = { icon = 2 }
+pops_regionPOP_asia_soldiers_3 = { icon = 2 }
+pops_regionPOP_asia_clergymen_0 = { icon = 2 }
+pops_regionPOP_asia_clergymen_1 = { icon = 2 }
+pops_regionPOP_asia_clergymen_2 = { icon = 2 }
+pops_regionPOP_asia_clergymen_3 = { icon = 2 }
+pops_regionPOP_africa_servicers_0 = { icon = 2 }
+pops_regionPOP_africa_servicers_1 = { icon = 2 }
+pops_regionPOP_africa_servicers_2 = { icon = 2 }
+pops_regionPOP_africa_servicers_3 = { icon = 2 }
+pops_regionPOP_africa_clerks_0 = { icon = 2 }
+pops_regionPOP_africa_clerks_1 = { icon = 2 }
+pops_regionPOP_africa_clerks_2 = { icon = 2 }
+pops_regionPOP_africa_clerks_3 = { icon = 2 }
+pops_regionPOP_africa_craftsmen_0 = { icon = 2 }
+pops_regionPOP_africa_craftsmen_1 = { icon = 2 }
+pops_regionPOP_africa_craftsmen_2 = { icon = 2 }
+pops_regionPOP_africa_craftsmen_3 = { icon = 2 }
+pops_regionPOP_africa_soldiers_0 = { icon = 2 }
+pops_regionPOP_africa_soldiers_1 = { icon = 2 }
+pops_regionPOP_africa_soldiers_2 = { icon = 2 }
+pops_regionPOP_africa_soldiers_3 = { icon = 2 }
+pops_regionPOP_africa_clergymen_0 = { icon = 2 }
+pops_regionPOP_africa_clergymen_1 = { icon = 2 }
+pops_regionPOP_africa_clergymen_2 = { icon = 2 }
+pops_regionPOP_africa_clergymen_3 = { icon = 2 }
+pops_regionPOP_north_america_servicers_0 = { icon = 2 }
+pops_regionPOP_north_america_servicers_1 = { icon = 2 }
+pops_regionPOP_north_america_servicers_2 = { icon = 2 }
+pops_regionPOP_north_america_servicers_3 = { icon = 2 }
+pops_regionPOP_north_america_clerks_0 = { icon = 2 }
+pops_regionPOP_north_america_clerks_1 = { icon = 2 }
+pops_regionPOP_north_america_clerks_2 = { icon = 2 }
+pops_regionPOP_north_america_clerks_3 = { icon = 2 }
+pops_regionPOP_north_america_craftsmen_0 = { icon = 2 }
+pops_regionPOP_north_america_craftsmen_1 = { icon = 2 }
+pops_regionPOP_north_america_craftsmen_2 = { icon = 2 }
+pops_regionPOP_north_america_craftsmen_3 = { icon = 2 }
+pops_regionPOP_north_america_soldiers_0 = { icon = 2 }
+pops_regionPOP_north_america_soldiers_1 = { icon = 2 }
+pops_regionPOP_north_america_soldiers_2 = { icon = 2 }
+pops_regionPOP_north_america_soldiers_3 = { icon = 2 }
+pops_regionPOP_north_america_clergymen_0 = { icon = 2 }
+pops_regionPOP_north_america_clergymen_1 = { icon = 2 }
+pops_regionPOP_north_america_clergymen_2 = { icon = 2 }
+pops_regionPOP_north_america_clergymen_3 = { icon = 2 }
+pops_regionPOP_south_america_servicers_0 = { icon = 2 }
+pops_regionPOP_south_america_servicers_1 = { icon = 2 }
+pops_regionPOP_south_america_servicers_2 = { icon = 2 }
+pops_regionPOP_south_america_servicers_3 = { icon = 2 }
+pops_regionPOP_south_america_clerks_0 = { icon = 2 }
+pops_regionPOP_south_america_clerks_1 = { icon = 2 }
+pops_regionPOP_south_america_clerks_2 = { icon = 2 }
+pops_regionPOP_south_america_clerks_3 = { icon = 2 }
+pops_regionPOP_south_america_craftsmen_0 = { icon = 2 }
+pops_regionPOP_south_america_craftsmen_1 = { icon = 2 }
+pops_regionPOP_south_america_craftsmen_2 = { icon = 2 }
+pops_regionPOP_south_america_craftsmen_3 = { icon = 2 }
+pops_regionPOP_south_america_soldiers_0 = { icon = 2 }
+pops_regionPOP_south_america_soldiers_1 = { icon = 2 }
+pops_regionPOP_south_america_soldiers_2 = { icon = 2 }
+pops_regionPOP_south_america_soldiers_3 = { icon = 2 }
+pops_regionPOP_south_america_clergymen_0 = { icon = 2 }
+pops_regionPOP_south_america_clergymen_1 = { icon = 2 }
+pops_regionPOP_south_america_clergymen_2 = { icon = 2 }
+pops_regionPOP_south_america_clergymen_3 = { icon = 2 }
+pops_regionPOP_oceania_servicers_0 = { icon = 2 }
+pops_regionPOP_oceania_servicers_1 = { icon = 2 }
+pops_regionPOP_oceania_servicers_2 = { icon = 2 }
+pops_regionPOP_oceania_servicers_3 = { icon = 2 }
+pops_regionPOP_oceania_clerks_0 = { icon = 2 }
+pops_regionPOP_oceania_clerks_1 = { icon = 2 }
+pops_regionPOP_oceania_clerks_2 = { icon = 2 }
+pops_regionPOP_oceania_clerks_3 = { icon = 2 }
+pops_regionPOP_oceania_craftsmen_0 = { icon = 2 }
+pops_regionPOP_oceania_craftsmen_1 = { icon = 2 }
+pops_regionPOP_oceania_craftsmen_2 = { icon = 2 }
+pops_regionPOP_oceania_craftsmen_3 = { icon = 2 }
+pops_regionPOP_oceania_soldiers_0 = { icon = 2 }
+pops_regionPOP_oceania_soldiers_1 = { icon = 2 }
+pops_regionPOP_oceania_soldiers_2 = { icon = 2 }
+pops_regionPOP_oceania_soldiers_3 = { icon = 2 }
+pops_regionPOP_oceania_clergymen_0 = { icon = 2 }
+pops_regionPOP_oceania_clergymen_1 = { icon = 2 }
+pops_regionPOP_oceania_clergymen_2 = { icon = 2 }
+pops_regionPOP_oceania_clergymen_3 = { icon = 2 }
+pops_satellitePOP_europe_servicers_0 = { icon = 2 }
+pops_satellitePOP_europe_servicers_1 = { icon = 2 }
+pops_satellitePOP_europe_servicers_2 = { icon = 2 }
+pops_satellitePOP_europe_servicers_3 = { icon = 2 }
+pops_satellitePOP_europe_clerks_0 = { icon = 2 }
+pops_satellitePOP_europe_clerks_1 = { icon = 2 }
+pops_satellitePOP_europe_clerks_2 = { icon = 2 }
+pops_satellitePOP_europe_clerks_3 = { icon = 2 }
+pops_satellitePOP_europe_craftsmen_0 = { icon = 2 }
+pops_satellitePOP_europe_craftsmen_1 = { icon = 2 }
+pops_satellitePOP_europe_craftsmen_2 = { icon = 2 }
+pops_satellitePOP_europe_craftsmen_3 = { icon = 2 }
+pops_satellitePOP_europe_soldiers_0 = { icon = 2 }
+pops_satellitePOP_europe_soldiers_1 = { icon = 2 }
+pops_satellitePOP_europe_soldiers_2 = { icon = 2 }
+pops_satellitePOP_europe_soldiers_3 = { icon = 2 }
+pops_satellitePOP_europe_clergymen_0 = { icon = 2 }
+pops_satellitePOP_europe_clergymen_1 = { icon = 2 }
+pops_satellitePOP_europe_clergymen_2 = { icon = 2 }
+pops_satellitePOP_europe_clergymen_3 = { icon = 2 }
+pops_satellitePOP_asia_servicers_0 = { icon = 2 }
+pops_satellitePOP_asia_servicers_1 = { icon = 2 }
+pops_satellitePOP_asia_servicers_2 = { icon = 2 }
+pops_satellitePOP_asia_servicers_3 = { icon = 2 }
+pops_satellitePOP_asia_clerks_0 = { icon = 2 }
+pops_satellitePOP_asia_clerks_1 = { icon = 2 }
+pops_satellitePOP_asia_clerks_2 = { icon = 2 }
+pops_satellitePOP_asia_clerks_3 = { icon = 2 }
+pops_satellitePOP_asia_craftsmen_0 = { icon = 2 }
+pops_satellitePOP_asia_craftsmen_1 = { icon = 2 }
+pops_satellitePOP_asia_craftsmen_2 = { icon = 2 }
+pops_satellitePOP_asia_craftsmen_3 = { icon = 2 }
+pops_satellitePOP_asia_soldiers_0 = { icon = 2 }
+pops_satellitePOP_asia_soldiers_1 = { icon = 2 }
+pops_satellitePOP_asia_soldiers_2 = { icon = 2 }
+pops_satellitePOP_asia_soldiers_3 = { icon = 2 }
+pops_satellitePOP_asia_clergymen_0 = { icon = 2 }
+pops_satellitePOP_asia_clergymen_1 = { icon = 2 }
+pops_satellitePOP_asia_clergymen_2 = { icon = 2 }
+pops_satellitePOP_asia_clergymen_3 = { icon = 2 }
+pops_satellitePOP_africa_servicers_0 = { icon = 2 }
+pops_satellitePOP_africa_servicers_1 = { icon = 2 }
+pops_satellitePOP_africa_servicers_2 = { icon = 2 }
+pops_satellitePOP_africa_servicers_3 = { icon = 2 }
+pops_satellitePOP_africa_clerks_0 = { icon = 2 }
+pops_satellitePOP_africa_clerks_1 = { icon = 2 }
+pops_satellitePOP_africa_clerks_2 = { icon = 2 }
+pops_satellitePOP_africa_clerks_3 = { icon = 2 }
+pops_satellitePOP_africa_craftsmen_0 = { icon = 2 }
+pops_satellitePOP_africa_craftsmen_1 = { icon = 2 }
+pops_satellitePOP_africa_craftsmen_2 = { icon = 2 }
+pops_satellitePOP_africa_craftsmen_3 = { icon = 2 }
+pops_satellitePOP_africa_soldiers_0 = { icon = 2 }
+pops_satellitePOP_africa_soldiers_1 = { icon = 2 }
+pops_satellitePOP_africa_soldiers_2 = { icon = 2 }
+pops_satellitePOP_africa_soldiers_3 = { icon = 2 }
+pops_satellitePOP_africa_clergymen_0 = { icon = 2 }
+pops_satellitePOP_africa_clergymen_1 = { icon = 2 }
+pops_satellitePOP_africa_clergymen_2 = { icon = 2 }
+pops_satellitePOP_africa_clergymen_3 = { icon = 2 }
+pops_satellitePOP_north_america_servicers_0 = { icon = 2 }
+pops_satellitePOP_north_america_servicers_1 = { icon = 2 }
+pops_satellitePOP_north_america_servicers_2 = { icon = 2 }
+pops_satellitePOP_north_america_servicers_3 = { icon = 2 }
+pops_satellitePOP_north_america_clerks_0 = { icon = 2 }
+pops_satellitePOP_north_america_clerks_1 = { icon = 2 }
+pops_satellitePOP_north_america_clerks_2 = { icon = 2 }
+pops_satellitePOP_north_america_clerks_3 = { icon = 2 }
+pops_satellitePOP_north_america_craftsmen_0 = { icon = 2 }
+pops_satellitePOP_north_america_craftsmen_1 = { icon = 2 }
+pops_satellitePOP_north_america_craftsmen_2 = { icon = 2 }
+pops_satellitePOP_north_america_craftsmen_3 = { icon = 2 }
+pops_satellitePOP_north_america_soldiers_0 = { icon = 2 }
+pops_satellitePOP_north_america_soldiers_1 = { icon = 2 }
+pops_satellitePOP_north_america_soldiers_2 = { icon = 2 }
+pops_satellitePOP_north_america_soldiers_3 = { icon = 2 }
+pops_satellitePOP_north_america_clergymen_0 = { icon = 2 }
+pops_satellitePOP_north_america_clergymen_1 = { icon = 2 }
+pops_satellitePOP_north_america_clergymen_2 = { icon = 2 }
+pops_satellitePOP_north_america_clergymen_3 = { icon = 2 }
+pops_satellitePOP_south_america_servicers_0 = { icon = 2 }
+pops_satellitePOP_south_america_servicers_1 = { icon = 2 }
+pops_satellitePOP_south_america_servicers_2 = { icon = 2 }
+pops_satellitePOP_south_america_servicers_3 = { icon = 2 }
+pops_satellitePOP_south_america_clerks_0 = { icon = 2 }
+pops_satellitePOP_south_america_clerks_1 = { icon = 2 }
+pops_satellitePOP_south_america_clerks_2 = { icon = 2 }
+pops_satellitePOP_south_america_clerks_3 = { icon = 2 }
+pops_satellitePOP_south_america_craftsmen_0 = { icon = 2 }
+pops_satellitePOP_south_america_craftsmen_1 = { icon = 2 }
+pops_satellitePOP_south_america_craftsmen_2 = { icon = 2 }
+pops_satellitePOP_south_america_craftsmen_3 = { icon = 2 }
+pops_satellitePOP_south_america_soldiers_0 = { icon = 2 }
+pops_satellitePOP_south_america_soldiers_1 = { icon = 2 }
+pops_satellitePOP_south_america_soldiers_2 = { icon = 2 }
+pops_satellitePOP_south_america_soldiers_3 = { icon = 2 }
+pops_satellitePOP_south_america_clergymen_0 = { icon = 2 }
+pops_satellitePOP_south_america_clergymen_1 = { icon = 2 }
+pops_satellitePOP_south_america_clergymen_2 = { icon = 2 }
+pops_satellitePOP_south_america_clergymen_3 = { icon = 2 }
+pops_satellitePOP_oceania_servicers_0 = { icon = 2 }
+pops_satellitePOP_oceania_servicers_1 = { icon = 2 }
+pops_satellitePOP_oceania_servicers_2 = { icon = 2 }
+pops_satellitePOP_oceania_servicers_3 = { icon = 2 }
+pops_satellitePOP_oceania_clerks_0 = { icon = 2 }
+pops_satellitePOP_oceania_clerks_1 = { icon = 2 }
+pops_satellitePOP_oceania_clerks_2 = { icon = 2 }
+pops_satellitePOP_oceania_clerks_3 = { icon = 2 }
+pops_satellitePOP_oceania_craftsmen_0 = { icon = 2 }
+pops_satellitePOP_oceania_craftsmen_1 = { icon = 2 }
+pops_satellitePOP_oceania_craftsmen_2 = { icon = 2 }
+pops_satellitePOP_oceania_craftsmen_3 = { icon = 2 }
+pops_satellitePOP_oceania_soldiers_0 = { icon = 2 }
+pops_satellitePOP_oceania_soldiers_1 = { icon = 2 }
+pops_satellitePOP_oceania_soldiers_2 = { icon = 2 }
+pops_satellitePOP_oceania_soldiers_3 = { icon = 2 }
+pops_satellitePOP_oceania_clergymen_0 = { icon = 2 }
+pops_satellitePOP_oceania_clergymen_1 = { icon = 2 }
+pops_satellitePOP_oceania_clergymen_2 = { icon = 2 }
+pops_satellitePOP_oceania_clergymen_3 = { icon = 2 }
+pops_migration_europe_0 = { icon = 19 }
+pops_migration_europe_1 = { icon = 17 }
+pops_migration_asia_0 = { icon = 19 }
+pops_migration_asia_1 = { icon = 17 }
+pops_migration_africa_0 = { icon = 19 }
+pops_migration_africa_1 = { icon = 17 }
+pops_migration_north_america_0 = { icon = 19 }
+pops_migration_north_america_1 = { icon = 17 }
+pops_migration_south_america_0 = { icon = 19 }
+pops_migration_south_america_1 = { icon = 17 }
+pops_migration_oceania_0 = { icon = 19 }
+pops_migration_oceania_1 = { icon = 17 }
+####################################################
+
+###conscription
+		recruiting = {############
+			icon = 15
+			education_efficiency_modifier = -0.25
+			global_immigrant_attract = -0.15
+			land_unit_start_experience = 25
+			mobilisation_size = 0
+			unit_recruitment_time = -0.6
+			land_organisation = 0.2
+			org_regain = 0.2
+		}
+		recruiting_10_years_draft = {
+			education_efficiency_modifier = -0.05
+			global_immigrant_attract = -0.05
+			 land_unit_start_experience = 10
+			mobilisation_size = 0.01
+			unit_recruitment_time = -0.3
+			land_organisation = 0.05
+			org_regain = 0.05
+		}
+		10_years_draft_recruiting = {
+			education_efficiency_modifier = 0.05
+			global_immigrant_attract = 0.05
+			 land_unit_start_experience = -10
+			mobilisation_size = -0.01
+			unit_recruitment_time = 0.3
+			land_organisation = -0.05
+			org_regain = -0.05
+		}
+		10_years_draft = {#############
+			icon = 15
+			education_efficiency_modifier = -0.2
+			global_immigrant_attract = -0.1
+			land_unit_start_experience = 20
+			mobilisation_size = -0.01
+			unit_recruitment_time = -0.3
+			land_organisation = 0.15
+			org_regain = 0.15
+			#land_defense_modifier = 0.1
+			#land_attack_modifier = 0.1
+		}
+		10_years_draft_7_years_draft = {
+			education_efficiency_modifier = -0.05
+			global_immigrant_attract = -0.05
+			 land_unit_start_experience = 10
+			mobilisation_size = 0.01
+			unit_recruitment_time = -0.2
+			land_organisation = 0.05
+			org_regain = 0.05
+		}
+		7_years_draft_10_years_draft = {
+			education_efficiency_modifier = 0.05
+			global_immigrant_attract = 0.05
+			 land_unit_start_experience = -10
+			mobilisation_size = -0.01
+			unit_recruitment_time = 0.2
+			land_organisation = -0.05
+			org_regain = -0.05
+		}
+		7_years_draft = {#############
+			icon = 15
+			education_efficiency_modifier = -0.15
+			global_immigrant_attract = -0.05
+			land_unit_start_experience = 15
+			mobilisation_size = -0.02
+			unit_recruitment_time = -0.1
+			land_organisation = 0.1
+			org_regain = 0.1
+		}
+		7_years_draft_4_years_draft = {
+			education_efficiency_modifier = -0.05
+			global_immigrant_attract = -0.05
+			 land_unit_start_experience = 10
+			mobilisation_size = 0.01
+			unit_recruitment_time = -0.35
+			land_organisation = 0.05
+			org_regain = 0.05
+		}
+		4_years_draft_7_years_draft = {
+			education_efficiency_modifier = 0.05
+			global_immigrant_attract = 0.05
+			 land_unit_start_experience = -10
+			mobilisation_size = -0.01
+			unit_recruitment_time = 0.35
+			land_organisation = -0.05
+			org_regain = -0.05
+		}
+		4_years_draft = {###########
+			icon = 15
+			education_efficiency_modifier = -0.1
+			global_immigrant_attract = 0
+			land_unit_start_experience = 10
+			mobilisation_size = -0.03
+			unit_recruitment_time = 0.25
+			land_organisation = 0.05
+			org_regain = 0.05
+		}
+		4_years_draft_1_years_draft = {
+			education_efficiency_modifier = -0.05
+			global_immigrant_attract = -0.05
+			 land_unit_start_experience = 10
+			mobilisation_size = 0.02
+			unit_recruitment_time = -0.25
+			land_organisation = 0.05
+			org_regain = 0.05
+		}
+		1_years_draft_4_years_draft = {
+			education_efficiency_modifier = 0.05
+			global_immigrant_attract = -0.05
+			 land_unit_start_experience = -10
+			mobilisation_size = -0.02
+			unit_recruitment_time = 0.25
+			land_organisation = -0.05
+			org_regain = -0.05
+		}
+		1_years_draft = {#############
+			icon = 15
+			education_efficiency_modifier = -0.05
+			global_immigrant_attract = 0.05
+			land_unit_start_experience = 5
+			mobilisation_size = -0.05
+			unit_recruitment_time = 0.5
+			land_organisation = 0
+			org_regain = 0
+		}
+		1_years_draft_no_draft = {
+			education_efficiency_modifier = -0.05
+			global_immigrant_attract = 0.05
+			 land_unit_start_experience = 10
+			mobilisation_size = 0.05
+			unit_recruitment_time = -0.3
+			land_organisation = 0.05
+			org_regain = 0.05
+		}
+		no_draft_1_years_draft = {
+			education_efficiency_modifier = 0.05
+			global_immigrant_attract =-0.05
+			 land_unit_start_experience = -10
+			mobilisation_size = -0.05
+			unit_recruitment_time = 0.3
+			land_organisation = -0.05
+			org_regain = -0.05
+		}
+		no_draft = {###########
+			icon = 15
+			education_efficiency_modifier = 0
+			global_immigrant_attract = 0.1
+			land_unit_start_experience = 0
+			mobilisation_size = -0.1
+			unit_recruitment_time = 0.8
+			land_organisation = -0.05
+			org_regain = -0.05
+		}
+		
+		recruiting_shipfix = {
+			icon = 15
+			local_ship_build = 0.6
+		}
+		recruiting_10_years_draft_shipfix = {
+			icon = 15
+			local_ship_build = 0.3
+		}
+		10_years_draft_recruiting_shipfix = {
+			icon = 15
+			local_ship_build = -0.3
+		}
+		10_years_draft_shipfix = {
+			icon = 15
+			local_ship_build = 0.3
+		}
+		10_years_draft_7_years_draft_shipfix = {
+			icon = 15
+			local_ship_build = 0.2
+		}
+		7_years_draft_10_years_draft_shipfix = {
+			icon = 15
+			local_ship_build = -0.2
+		}
+		7_years_draft_shipfix = {
+			icon = 15
+			local_ship_build = 0.1
+		}
+		7_years_draft_4_years_draft_shipfix = {
+			icon = 15
+			local_ship_build = 0.35
+		}
+		4_years_draft_7_years_draft_shipfix = {
+			icon = 15
+			local_ship_build = -0.35
+		}
+		4_years_draft_shipfix = {
+			icon = 15
+			local_ship_build = -0.25
+		}
+		4_years_draft_1_years_draft_shipfix = {
+			icon = 15
+			local_ship_build = 0.25
+		}
+		1_years_draft_4_years_draft_shipfix = {
+			icon = 15
+			local_ship_build = -0.25
+		}
+		1_years_draft_shipfix = {
+			icon = 15
+			local_ship_build = -0.5
+		}
+		1_years_draft_no_draft_shipfix = {
+			icon = 15
+			local_ship_build = 0.3
+		}
+		no_draft_1_years_draft_shipfix = {
+			icon = 15
+			local_ship_build = -0.3
+		}
+		no_draft_shipfix = {
+			icon = 15
+			local_ship_build = -0.8
+		}
+#####################
+########## literacy_impact
+	literacy_0 = {
+		icon = 10
+		local_artisan_output = -0.13
+		local_factory_throughput = -0.13
+		local_RGO_throughput = -0.13
+	}
+	literacy_10 = {
+		icon = 10
+		local_artisan_output = -0.1
+		local_factory_throughput = -0.1
+		local_RGO_throughput = -0.1
+	}
+	literacy_20 = {
+		icon = 10
+		local_artisan_output = -0.07
+		local_factory_throughput = -0.07
+		local_RGO_throughput = -0.07
+	}
+	literacy_30 = {
+		icon = 10
+		local_artisan_output = -0.04
+		local_factory_throughput = -0.04
+		local_RGO_throughput = -0.04
+	}
+	literacy_40 = {
+		icon = 10
+		local_artisan_output = -0.01
+		local_factory_throughput = -0.01
+		local_RGO_throughput = -0.01
+	}
+	literacy_50 = {
+		icon = 9
+		local_artisan_output = 0.02
+		local_factory_throughput = 0.02
+		local_RGO_throughput = 0.02
+	}
+	literacy_60 = {
+		icon = 9
+		local_artisan_output = 0.05
+		local_factory_throughput = 0.05
+		local_RGO_throughput = 0.05
+	}
+	literacy_70 = {
+		icon = 9
+		local_artisan_output = 0.08
+		local_factory_throughput = 0.08
+		local_RGO_throughput = 0.08
+	}
+	literacy_80 = {
+		icon = 9
+		local_artisan_output = 0.11
+		local_factory_throughput = 0.11
+		local_RGO_throughput = 0.11
+	}
+	literacy_90 = {
+		icon = 9
+		local_artisan_output = 0.14
+		local_factory_throughput = 0.14
+		local_RGO_throughput = 0.14
+	}
+	literacy_100 = {
+		icon = 9
+		local_artisan_output = 0.17
+		local_factory_throughput = 0.17
+		local_RGO_throughput = 0.17
+	}
+###economical_doctrine
+
+		laissezfaire_economical_doctrine = {
+			icon = 3
+		}
+		mercantilism_economical_doctrine = {
+			icon = 3
+		}
+		
+cb_forced = {
+	icon = 3
+}
+
+overseas_naval_production = {
+	icon = 15
+	local_ship_build = 2
+}
+
+urbanization = {
+	icon = 3
+}
+craftsmen_clerk_workspace_in_state = {
+	icon = 3
+}
+servicers_workspace_in_state = {
+	icon = 3
+}
+farmers_workspace_in_state = {
+	icon = 3
+}
+labourers_workspace_in_state = {
+	icon = 3
+}
+stop_sending_money = {
+	icon = 3
+}
+########## industrial_revolution_wages_impact
+industrial_revolution_stage_1 = {
+	icon = 11
+	minimum_wage = 0.2
+	goods_demand = 0.1
+	global_population_growth = -0.001
+}
+industrial_revolution_stage_2 = {
+	icon = 11
+	minimum_wage = 0.4
+	goods_demand = 0.2
+	global_population_growth = -0.002
+}
+industrial_revolution_stage_3 = {
+	icon = 11
+	minimum_wage = 0.6
+	goods_demand = 0.3
+	global_population_growth = -0.003
+}
+industrial_revolution_stage_4 = {
+	icon = 11
+	minimum_wage = 0.8
+	goods_demand = 0.4
+	global_population_growth = -0.004
+}
+industrial_revolution_stage_5 = {
+	icon = 11
+	minimum_wage = 1.0
+	goods_demand = 0.5
+	global_population_growth = -0.005
+}
+industrial_revolution_stage_6 = {
+	icon = 11
+	minimum_wage = 1.2
+	goods_demand = 0.6
+	global_population_growth = -0.006
+}
+industrial_revolution_stage_7 = {
+	icon = 11
+	minimum_wage = 1.4
+	goods_demand = 0.7
+	global_population_growth = -0.007
+}
+industrial_revolution_stage_8 = {
+	icon = 11
+	minimum_wage = 1.6
+	goods_demand = 0.8
+	global_population_growth = -0.008
+}
+industrial_revolution_stage_9 = {
+	icon = 11
+	minimum_wage = 1.8
+	goods_demand = 0.9
+	global_population_growth = -0.009
+}
+industrial_revolution_stage_10 = {
+	icon = 11
+	minimum_wage = 2.0
+	goods_demand = 1
+	global_population_growth = -0.01
+}
+second_industrial_revolution_stage_1 = {
+	icon = 11
+	minimum_wage = 0.2
+	goods_demand = 0.1
+	global_population_growth = -0.001
+}
+second_industrial_revolution_stage_2 = {
+	icon = 11
+	minimum_wage = 0.4
+	goods_demand = 0.2
+	global_population_growth = -0.002
+}
+second_industrial_revolution_stage_3 = {
+	icon = 11
+	minimum_wage = 0.6
+	goods_demand = 0.3
+	global_population_growth = -0.003
+}
+second_industrial_revolution_stage_4 = {
+	icon = 11
+	minimum_wage = 0.8
+	goods_demand = 0.4
+	global_population_growth = -0.004
+}
+second_industrial_revolution_stage_5 = {
+	icon = 11
+	minimum_wage = 1.0
+	goods_demand = 0.5
+	global_population_growth = -0.005
+}
+second_industrial_revolution_stage_6 = {
+	icon = 11
+	minimum_wage = 1.2
+	goods_demand = 0.6
+	global_population_growth = -0.006
+}
+second_industrial_revolution_stage_7 = {
+	icon = 11
+	minimum_wage = 1.4
+	goods_demand = 0.7
+	global_population_growth = -0.007
+}
+second_industrial_revolution_stage_8 = {
+	icon = 11
+	minimum_wage = 1.6
+	goods_demand = 0.8
+	global_population_growth = -0.008
+}
+second_industrial_revolution_stage_9 = {
+	icon = 11
+	minimum_wage = 1.8
+	goods_demand = 0.9
+	global_population_growth = -0.009
+}
+second_industrial_revolution_stage_10 = {
+	icon = 11
+	minimum_wage = 2.0
+	goods_demand = 1
+	global_population_growth = -0.01
+}
+
+communist_propaganda = {
+	icon = 3
+	issue_change_speed = 1
+	global_pop_militancy_modifier = 0.03
+}
+expropriation = {
+	icon = 11
+	minimum_wage = 10
+}
+dynamics_working = {
+	icon = 11
+}
+allowed_marxism = {
+	icon = 3
+	non_accepted_pop_consciousness_modifier = 0.01
+	pop_consciousness_modifier = 0.01
+	mobilisation_size = -0.01
+	factory_throughput = -0.02
+	global_pop_militancy_modifier = 0.01
+}
+socialist_revolution = {
+	icon = 3
+	mobilisation_size = 0.02
+	land_organisation = 0.05
+	factory_throughput = 0.1
+	import_cost = 0.05
+	tax_efficiency = -0.05
+	global_pop_militancy_modifier = 0.17
+}
+capitalist_restoration = {
+	icon = 3
+	mobilisation_size = -0.02
+	factory_throughput = -0.05
+	tax_efficiency = -0.05
+	ruling_party_support = -0.05
+	global_pop_militancy_modifier = 0.03
+}
+###################
+mechanization_of_mines_modifier = {
+	icon = 13
+	local_RGO_output = 0.5
+}
+mechanization_of_mines_iron_modifier = {
+	icon = 13
+	local_RGO_output = 0.2
+}
+electric_pump_modifier = {
+	icon = 5
+	local_RGO_output = 0.5
+}
+electric_pump_iron_modifier = {
+	icon = 5
+	local_RGO_output = 0.2
+}
+tractors_modifier = {
+	icon = 13
+	local_RGO_output = 0.7
+	local_RGO_throughput = 0.3
+}
+nitroglycerin_coal = {
+	icon = 13
+	local_RGO_output = 1.4
+}
+nitroglycerin_iron = {
+	icon = 13
+	local_RGO_output = 0.5
+}
+electrification = {
+	icon = 5
+	local_RGO_output = 0.5
+}
+electrification_iron = {
+	icon = 5
+	local_RGO_output = 0.2
+}
+barwire_modifier = {
+	icon = 5
+	local_RGO_output = 0.25
+}
+carbon_enrichment_modifier = {
+	icon = 5
+	local_RGO_output = 0.25
+}
+lumber_camp_mechanization = {
+	icon = 13
+	local_RGO_output = 0.25
+}
+chainsaw_modifier = {
+	icon = 5
+	local_RGO_output = 0.25
+	local_RGO_throughput = 0.1
+}
+electric_saw_modifier = {
+	icon = 5
+	local_RGO_output = 0.25
+	local_RGO_throughput = 0.1
+}
+mechanized_fishing_vessels_modifier = {
+	icon = 13
+	local_RGO_output = 0.50
+}
+reaping_machine_and_threshing_machine_modifier = {
+	icon = 13
+	local_RGO_output = 0.25
+}
+mechanized_slaughtering_block_modifier = {
+	icon = 13
+	local_RGO_output = 0.25
+}
+drying_techniques_modifier = {
+	icon = 5
+	local_RGO_output = 0.25
+}
+uses_refrigerator = {
+	icon = 13
+	local_RGO_output = 0.25
+}
+electric_machinery_modifier = {
+	icon = 13
+	local_RGO_output = 0.25
+}
+rotherham_plough_modifier = {
+	icon = 5
+	local_RGO_output = 0.1
+}
+tulls_seed_drill_modifier = {
+	icon = 5
+	local_RGO_output = 0.1
+}
+cotton_gin_modifier = {
+	icon = 5
+	local_RGO_output = 0.5
+}

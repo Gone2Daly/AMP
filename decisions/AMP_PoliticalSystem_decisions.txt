@@ -1,0 +1,14 @@
+political_decisions = {
+	PolSys_start_1 = {
+		alert = no 
+		potential = {
+			AI = no
+		}
+		allow = {
+			AI = no
+		}
+		effect = {
+			country_event = 1000000
+		}
+	}
+}

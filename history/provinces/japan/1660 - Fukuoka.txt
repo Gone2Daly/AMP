@@ -1,0 +1,15 @@
+owner = JAP
+controller = JAP
+add_core = JAP
+trade_goods = wool
+life_rating = 42
+state_building = {
+	level = 1
+	building = manufacture_wool_canned_food
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_lumber
+	upgrade = yes
+}

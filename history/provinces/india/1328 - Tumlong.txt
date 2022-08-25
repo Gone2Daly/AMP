@@ -1,0 +1,6 @@
+owner = OST  colonial = 2
+controller = OST
+add_core = SIK
+add_core = HND
+trade_goods = wool
+life_rating = 25

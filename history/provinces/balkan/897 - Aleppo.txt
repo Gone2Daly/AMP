@@ -1,0 +1,16 @@
+owner = EGY
+controller = EGY
+add_core = TUR
+add_core = SYR
+trade_goods = grain
+life_rating = 40
+state_building = {
+	level = 1
+	building = manufacture_liquor
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_cement
+	upgrade = yes
+}

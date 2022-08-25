@@ -1,0 +1,20 @@
+owner = ENG
+controller = ENG
+add_core = AST
+trade_goods = cattle
+life_rating = 40
+
+1914.1.1 = {	
+owner = AST	
+controller = AST	
+}
+state_building = {
+	level = 1
+	building = manufacture_furniture
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_ammunition
+	upgrade = yes
+}

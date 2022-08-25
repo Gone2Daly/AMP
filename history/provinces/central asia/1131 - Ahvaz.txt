@@ -1,0 +1,18 @@
+owner = PER
+controller = PER
+add_core = PER
+trade_goods = grain
+life_rating = 40
+1914.1.1 = {
+	trade_goods = oil
+}
+state_building = {
+	level = 1
+	building = manufacture_paper
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_artillery
+	upgrade = yes
+}

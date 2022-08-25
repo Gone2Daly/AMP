@@ -1,0 +1,15 @@
+owner = MCK
+controller = MCK
+add_core = CHI
+add_core = MCK
+trade_goods = cattle
+life_rating = 34
+
+1914.1.1 = {
+	owner = MCK
+	controller = MCK
+}
+1923.1.1 = {
+	owner = MCK
+	controller = MCK
+}

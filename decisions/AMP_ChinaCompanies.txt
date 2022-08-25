@@ -1,0 +1,1280 @@
+political_decisions = {
+############   ENG
+	ENG_getting_company = {
+		potential = {
+			has_global_flag = the_dragon_wakes
+			tag = ENG
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+			AMP_china = {
+				controller = { 
+					NOT = { tag = CHB }
+					war = no
+					in_sphere = ENG
+					OR = {
+						neighbour = OST
+						neighbour = ENG
+						neighbour = CHB
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_china
+					}
+					NOT = {
+						OR = {
+							tag = CHB 
+							tag = CHG 
+							tag = CHR 
+							tag = CHF 
+							tag = CHH 
+							tag = CHU 
+							tag = CHJ 
+							tag = CIH 
+							tag = CHS 
+							tag = CHO 
+							tag = COT 
+							tag = CLA
+							tag = CHK 
+						}
+					}
+					in_sphere = ENG
+					war = no
+					OR = {
+						neighbour = ENG
+						neighbour = CHB
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 300000
+					}
+				}
+				annex_to = CHB
+			}
+			set_country_flag = has_trade_company
+			CHB = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+############   GER
+	GER_getting_company = {
+		potential = {
+			has_global_flag = the_dragon_wakes
+			tag = GER
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+			AMP_china = {
+				controller = { 
+					NOT = { tag = CHG }
+					war = no
+					in_sphere = GER
+					OR = {
+						neighbour = ING
+						neighbour = GER
+						neighbour = CHG
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_china
+					}
+					NOT = {
+						OR = {
+							tag = CHB 
+							tag = CHG 
+							tag = CHR 
+							tag = CHF 
+							tag = CHH 
+							tag = CHU 
+							tag = CHJ 
+							tag = CIH 
+							tag = CHS 
+							tag = CHO 
+							tag = COT 
+							tag = CLA
+							tag = CHK 
+						}
+					}
+					in_sphere = GER
+					war = no
+					OR = {
+						neighbour = GER
+						neighbour = CHG
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 300000
+					}
+				}
+				annex_to = CHG
+			}
+			set_country_flag = has_trade_company
+			CHG = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+############   RUS
+	RUS_getting_company = {
+		potential = {
+			has_global_flag = the_dragon_wakes
+			tag = RUS
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+			AMP_china = {
+				controller = { 
+					NOT = { tag = CHR }
+					war = no
+					in_sphere = RUS
+					OR = {
+						neighbour = IHR
+						neighbour = RUS
+						neighbour = CHR
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_china
+					}
+					NOT = {
+						OR = {
+							tag = CHB 
+							tag = CHG 
+							tag = CHR 
+							tag = CHF 
+							tag = CHH 
+							tag = CHU 
+							tag = CHJ 
+							tag = CIH 
+							tag = CHS 
+							tag = CHO 
+							tag = COT 
+							tag = CLA
+							tag = CHK
+						}
+					}
+					in_sphere = RUS
+					war = no
+					OR = {
+						neighbour = RUS
+						neighbour = CHR
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 300000
+					}
+				}
+				annex_to = CHR
+			}
+			set_country_flag = has_trade_company
+			CHR = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+############   FRA
+	FRA_getting_company = {
+		potential = {
+			has_global_flag = the_dragon_wakes
+			tag = FRA
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+			AMP_china = {
+				controller = { 
+					NOT = { tag = CHF }
+					war = no
+					in_sphere = FRA
+					OR = {
+						neighbour = INF
+						neighbour = FRA
+						neighbour = CHF
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_china
+					}
+					NOT = {
+						OR = {
+							tag = CHB 
+							tag = CHG 
+							tag = CHR 
+							tag = CHF 
+							tag = CHH 
+							tag = CHU 
+							tag = CHJ 
+							tag = CIH 
+							tag = CHS 
+							tag = CHO 
+							tag = COT 
+							tag = CLA
+							tag = CHK
+						}
+					}
+					in_sphere = FRA
+					war = no
+					OR = {
+						neighbour = FRA
+						neighbour = CHF
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 300000
+					}
+				}
+				annex_to = CHF
+			}
+			set_country_flag = has_trade_company
+			CHF = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+############   KUK
+	KUK_getting_company = {
+		potential = {
+			has_global_flag = the_dragon_wakes
+			tag = KUK
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+			AMP_china = {
+				controller = { 
+					NOT = { tag = CHH }
+					war = no
+					in_sphere = KUK
+					OR = {
+						neighbour = INA
+						neighbour = KUK
+						neighbour = CHH
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_china
+					}
+					NOT = {
+						OR = {
+							tag = CHB 
+							tag = CHG 
+							tag = CHR 
+							tag = CHF 
+							tag = CHH 
+							tag = CHU 
+							tag = CHJ 
+							tag = CIH 
+							tag = CHS 
+							tag = CHO 
+							tag = COT 
+							tag = CLA
+							tag = CHK
+						}
+					}
+					in_sphere = KUK
+					war = no
+					OR = {
+						neighbour = KUK
+						neighbour = CHH
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 300000
+					}
+				}
+				annex_to = CHH
+			}
+			set_country_flag = has_trade_company
+			CHH = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+############   USA
+	USA_getting_company = {
+		potential = {
+			has_global_flag = the_dragon_wakes
+			tag = USA
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+			AMP_china = {
+				controller = { 
+					NOT = { tag = CHU }
+					war = no
+					in_sphere = USA
+					OR = {
+						neighbour = INU
+						neighbour = USA
+						neighbour = CHU
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_china
+					}
+					NOT = {
+						OR = {
+							tag = CHB 
+							tag = CHG 
+							tag = CHR 
+							tag = CHF 
+							tag = CHH 
+							tag = CHU 
+							tag = CHJ 
+							tag = CIH 
+							tag = CHS 
+							tag = CHO 
+							tag = COT 
+							tag = CLA
+							tag = CHK
+						}
+					}
+					in_sphere = USA
+					war = no
+					OR = {
+						neighbour = USA
+						neighbour = CHU
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 300000
+					}
+				}
+				annex_to = CHU
+			}
+			set_country_flag = has_trade_company
+			CHU = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+############   JAP
+	JAP_getting_company = {
+		potential = {
+			has_global_flag = the_dragon_wakes
+			tag = JAP
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+			AMP_china = {
+				controller = { 
+					NOT = { tag = CHJ }
+					war = no
+					in_sphere = JAP
+					OR = {
+						neighbour = INJ
+						neighbour = JAP
+						neighbour = CHJ
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_china
+					}
+					NOT = {
+						OR = {
+							tag = CHB 
+							tag = CHG 
+							tag = CHR 
+							tag = CHF 
+							tag = CHH 
+							tag = CHU 
+							tag = CHJ 
+							tag = CIH 
+							tag = CHS 
+							tag = CHO 
+							tag = COT 
+							tag = CLA
+							tag = CHK 
+						}
+					}
+					in_sphere = JAP
+					war = no
+					OR = {
+						neighbour = JAP
+						neighbour = CHJ
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 300000
+					}
+				}
+				annex_to = CHJ
+			}
+			set_country_flag = has_trade_company
+			CHJ = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+############   ITA
+	ITA_getting_company = {
+		potential = {
+			has_global_flag = the_dragon_wakes
+			tag = ITA
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+			AMP_china = {
+				controller = { 
+					NOT = { tag = CIH }
+					war = no
+					in_sphere = ITA
+					OR = {
+						neighbour = INI
+						neighbour = ITA
+						neighbour = CIH
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_china
+					}
+					NOT = {
+						OR = {
+							tag = CHB 
+							tag = CHG 
+							tag = CHR 
+							tag = CHF 
+							tag = CHH 
+							tag = CHU 
+							tag = CHJ 
+							tag = CIH 
+							tag = CHS 
+							tag = CHO 
+							tag = COT 
+							tag = CLA
+							tag = CHK
+						}
+					}
+					in_sphere = ITA
+					war = no
+					OR = {
+						neighbour = ITA
+						neighbour = CIH
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 300000
+					}
+				}
+				annex_to = CIH
+			}
+			set_country_flag = has_trade_company
+			CIH = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+############   SPA
+	SPA_getting_company = {
+		potential = {
+			has_global_flag = the_dragon_wakes
+			tag = SPA
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+			AMP_china = {
+				controller = { 
+					NOT = { tag = CHS }
+					war = no
+					in_sphere = SPA
+					OR = {
+						neighbour = INS
+						neighbour = SPA
+						neighbour = CHS
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_china
+					}
+					NOT = {
+						OR = {
+							tag = CHB 
+							tag = CHG 
+							tag = CHR 
+							tag = CHF 
+							tag = CHH 
+							tag = CHU 
+							tag = CHJ 
+							tag = CIH 
+							tag = CHS 
+							tag = CHO 
+							tag = COT 
+							tag = CLA
+							tag = CHK
+						}
+					}
+					in_sphere = SPA
+					war = no
+					OR = {
+						neighbour = SPA
+						neighbour = CHS
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 300000
+					}
+				}
+				annex_to = CHS
+			}
+			set_country_flag = has_trade_company
+			CHS = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+############   NET
+	NET_getting_company = {
+		potential = {
+			has_global_flag = the_dragon_wakes
+			tag = NET
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+			AMP_china = {
+				controller = { 
+					NOT = { tag = CHO }
+					war = no
+					in_sphere = NET
+					OR = {
+						neighbour = INH
+						neighbour = NET
+						neighbour = CHO
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_china
+					}
+					NOT = {
+						OR = {
+							tag = CHB 
+							tag = CHG 
+							tag = CHR 
+							tag = CHF 
+							tag = CHH 
+							tag = CHU 
+							tag = CHJ 
+							tag = CIH 
+							tag = CHS 
+							tag = CHO 
+							tag = COT 
+							tag = CLA
+							tag = CHK
+						}
+					}
+					in_sphere = NET
+					war = no
+					OR = {
+						neighbour = NET
+						neighbour = CHO
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 300000
+					}
+				}
+				annex_to = CHO
+			}
+			set_country_flag = has_trade_company
+			CHO = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+############   TUR
+	TUR_getting_company = {
+		potential = {
+			has_global_flag = the_dragon_wakes
+			tag = TUR
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+			AMP_china = {
+				controller = { 
+					NOT = { tag = COT }
+					war = no
+					in_sphere = TUR
+					OR = {
+						neighbour = IOT
+						neighbour = TUR
+						neighbour = COT
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_china
+					}
+					NOT = {
+						OR = {
+							tag = CHB 
+							tag = CHG 
+							tag = CHR 
+							tag = CHF 
+							tag = CHH 
+							tag = CHU 
+							tag = CHJ 
+							tag = CIH 
+							tag = CHS 
+							tag = CHO 
+							tag = COT 
+							tag = CLA
+							tag = CHK
+						}
+					}
+					in_sphere = TUR
+					war = no
+					OR = {
+						neighbour = TUR
+						neighbour = COT
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 300000
+					}
+				}
+				annex_to = COT
+			}
+			set_country_flag = has_trade_company
+			COT = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+############   LAF
+	LAF_getting_company = {
+		potential = {
+			has_global_flag = the_dragon_wakes
+			tag = LAF
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+			AMP_china = {
+				controller = { 
+					NOT = { tag = CLA }
+					war = no
+					in_sphere = LAF
+					OR = {
+						neighbour = ILA
+						neighbour = LAF
+						neighbour = CLA
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_china
+					}
+					NOT = {
+						OR = {
+							tag = CHB 
+							tag = CHG 
+							tag = CHR 
+							tag = CHF 
+							tag = CHH 
+							tag = CHU 
+							tag = CHJ 
+							tag = CIH 
+							tag = CHS 
+							tag = CHO 
+							tag = COT 
+							tag = CLA
+							tag = CHK
+						}
+					}
+					in_sphere = LAF
+					war = no
+					OR = {
+						neighbour = LAF
+						neighbour = CLA
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 300000
+					}
+				}
+				annex_to = CLA
+			}
+			set_country_flag = has_trade_company
+			CLA = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+############   AUS
+	AUS_getting_company = {
+		potential = {
+			has_global_flag = the_dragon_wakes
+			tag = AUS
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+			AMP_china = {
+				controller = { 
+					NOT = { tag = CHH }
+					war = no
+					in_sphere = AUS
+					OR = {
+						neighbour = INA
+						neighbour = AUS
+						neighbour = CHH
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_china
+					}
+					NOT = {
+						OR = {
+							tag = CHB 
+							tag = CHG 
+							tag = CHR 
+							tag = CHF 
+							tag = CHH 
+							tag = CHU 
+							tag = CHJ 
+							tag = CIH 
+							tag = CHS 
+							tag = CHO 
+							tag = COT 
+							tag = CLA
+							tag = CHK
+						}
+					}
+					in_sphere = AUS
+					war = no
+					OR = {
+						neighbour = AUS
+						neighbour = CHH
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 300000
+					}
+				}
+				annex_to = CHH
+			}
+			set_country_flag = has_trade_company
+			CHH = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+	############   SGF
+	SGF_getting_company = {
+		potential = {
+			has_global_flag = the_dragon_wakes
+			tag = SGF
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+			AMP_china = {
+				controller = { 
+					NOT = { tag = CHH }
+					war = no
+					in_sphere = SGF
+					OR = {
+						neighbour = INA
+						neighbour = SGF
+						neighbour = CHH
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_china
+					}
+					NOT = {
+						OR = {
+							tag = CHB 
+							tag = CHG 
+							tag = CHR 
+							tag = CHF 
+							tag = CHH 
+							tag = CHU 
+							tag = CHJ 
+							tag = CIH 
+							tag = CHS 
+							tag = CHO 
+							tag = COT 
+							tag = CLA
+							tag = CHK
+						}
+					}
+					in_sphere = SGF
+					war = no
+					OR = {
+						neighbour = SGF
+						neighbour = CHH
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 300000
+					}
+				}
+				annex_to = CHH
+			}
+			set_country_flag = has_trade_company
+			CHH = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+	############   PRU
+	PRU_getting_company = {
+		potential = {
+			has_global_flag = the_dragon_wakes
+			tag = PRU
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+			AMP_china = {
+				controller = { 
+					NOT = { tag = CHG }
+					war = no
+					in_sphere = PRU
+					OR = {
+						neighbour = ING
+						neighbour = PRU
+						neighbour = CHG
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_china
+					}
+					NOT = {
+						OR = {
+							tag = CHB 
+							tag = CHG 
+							tag = CHR 
+							tag = CHF 
+							tag = CHH 
+							tag = CHU 
+							tag = CHJ 
+							tag = CIH 
+							tag = CHS 
+							tag = CHO 
+							tag = COT 
+							tag = CLA
+							tag = CHK
+						}
+					}
+					in_sphere = PRU
+					war = no
+					OR = {
+						neighbour = PRU
+						neighbour = CHG
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 300000
+					}
+				}
+				annex_to = CHG
+			}
+			set_country_flag = has_trade_company
+			CHG = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+	############   NGF
+	NGF_getting_company = {
+		potential = {
+			has_global_flag = the_dragon_wakes
+			tag = NGF
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+			AMP_china = {
+				controller = { 
+					NOT = { tag = CHG }
+					war = no
+					in_sphere = NGF
+					OR = {
+						neighbour = ING
+						neighbour = NGF
+						neighbour = CHG
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_china
+					}
+					NOT = {
+						OR = {
+							tag = CHB 
+							tag = CHG 
+							tag = CHR 
+							tag = CHF 
+							tag = CHH 
+							tag = CHU 
+							tag = CHJ 
+							tag = CIH 
+							tag = CHS 
+							tag = CHO 
+							tag = COT 
+							tag = CLA
+							tag = CHK
+						}
+					}
+					in_sphere = NGF
+					war = no
+					OR = {
+						neighbour = NGF
+						neighbour = CHG
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 300000
+					}
+				}
+				annex_to = CHG
+			}
+			set_country_flag = has_trade_company
+			CHG = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+	############   SCA
+	SCA_getting_company = {
+		potential = {
+			has_global_flag = the_dragon_wakes
+			tag = SCA
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+			AMP_china = {
+				controller = { 
+					NOT = { tag = CHK }
+					war = no
+					in_sphere = SCA
+					OR = {
+						neighbour = INK
+						neighbour = SCA
+						neighbour = CHK
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_china
+					}
+					NOT = {
+						OR = {
+							tag = CHB 
+							tag = CHG 
+							tag = CHR 
+							tag = CHF 
+							tag = CHH 
+							tag = CHU 
+							tag = CHJ 
+							tag = CIH 
+							tag = CHS 
+							tag = CHO 
+							tag = COT 
+							tag = CLA
+							tag = CHK
+						}
+					}
+					in_sphere = SCA
+					war = no
+					OR = {
+						neighbour = SCA
+						neighbour = CHK
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 300000
+					}
+				}
+				annex_to = CHK
+			}
+			set_country_flag = has_trade_company
+			CHK = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+	############   SWE
+	SWE_getting_company = {
+		potential = {
+			has_global_flag = the_dragon_wakes
+			tag = SWE
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+			AMP_china = {
+				controller = { 
+					NOT = { tag = CHK }
+					war = no
+					in_sphere = SWE
+					OR = {
+						neighbour = INK
+						neighbour = SWE
+						neighbour = CHK
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						region = AMP_china
+					}
+					NOT = {
+						OR = {
+							tag = CHB 
+							tag = CHG 
+							tag = CHR 
+							tag = CHF 
+							tag = CHH 
+							tag = CHU 
+							tag = CHJ 
+							tag = CIH 
+							tag = CHS 
+							tag = CHO 
+							tag = COT 
+							tag = CLA
+							tag = CHK
+						}
+					}
+					in_sphere = SWE
+					war = no
+					OR = {
+						neighbour = SWE
+						neighbour = CHK
+						any_owned_province = {
+							port = yes
+						}
+					}
+				}
+				random_owned = {
+					aristocrats = {
+						money = 300000
+					}
+				}
+				annex_to = CHK
+			}
+			set_country_flag = has_trade_company
+			CHK = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+}

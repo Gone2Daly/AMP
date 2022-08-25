@@ -1,0 +1,69 @@
+country_event = {
+	title = "EVTNAME90900"
+	desc = "EVTDESC90900"
+	picture = "Celebration"
+
+	id = 90900
+	news = yes
+	news_desc_long = "EVTDESC90900_NEWS_LONG"
+	news_desc_medium = "EVTDESC90900_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC90900_NEWS_SHORT"
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = CHI
+		NOT = { has_global_flag = the_dragon_wakes }
+		}
+	immediate = {
+		release = GXI
+		release = SXI
+		release = XBI
+		release = GNG
+		release = HNN
+		release = JXI
+		release = FJN
+		release = ZJG
+		release = HBI
+		release = AHI
+		release = HEN
+		release = JXU
+		release = SHA
+		release = YNN
+		release = WHW
+		release = QDO
+		release = SGH
+		release = JXG
+		release = SXG
+		release = NGB
+		release = HKG
+		release = MCO
+		release = TWN
+		release = TJG
+		release_vassal = MCK
+		release_vassal = MGL
+		release_vassal = TIB
+		release_vassal = XIN
+	}
+	option = {				
+		name = "EVTOPTA90900"
+		set_global_flag = the_dragon_wakes
+		
+			remove_country_modifier = educational_reform
+			remove_country_modifier = military_reform
+			remove_country_modifier = western_influences
+			remove_country_modifier = uncivilized_isolationism
+			remove_country_modifier = trade_restrictions
+			remove_country_modifier = sayings_of_the_dutch
+			remove_country_modifier = extraterritoriality_granted
+			any_owned = {
+				remove_province_modifier = western_presence
+				remove_province_modifier = foreign_smugglers
+				remove_province_modifier = foreign_trading_post
+				remove_province_modifier = local_opium_habit
+				remove_province_modifier = european_military_mission
+				remove_province_modifier = legation_quarter
+				remove_province_modifier = kettler_denkmal
+			}
+	}
+}

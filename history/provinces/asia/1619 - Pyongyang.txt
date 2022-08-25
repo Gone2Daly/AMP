@@ -1,0 +1,25 @@
+owner = KOR
+controller = KOR
+add_core = KOR
+trade_goods = coal
+life_rating = 42
+
+1914.1.1 = {
+	owner = JAP
+	controller = JAP
+}
+state_building = {
+	level = 1
+	building = manufacture_iron
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_coal
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_steel
+	upgrade = yes
+}

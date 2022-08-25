@@ -1,0 +1,1254 @@
+#Владивосток
+3249 = {
+	aristocrats = {
+		culture = manchu
+		religion = mongoloid
+		size = 1500
+	}
+
+	clergymen = {
+		culture = manchu
+		religion = mongoloid
+		size = 775
+	}
+
+	artisans = {
+		culture = manchu
+		religion = mongoloid
+		size = 3900
+	}
+
+	soldiers = {
+		culture = manchu
+		religion = mongoloid
+		size = 750
+	}
+
+	farmers = {
+		culture = manchu
+		religion = mongoloid
+		size = 18075
+	}
+
+	aristocrats = {
+		culture = korean
+		religion = mongoloid
+		size = 30
+	}
+
+	clergymen = {
+		culture = korean
+		religion = mongoloid
+		size = 40
+	}
+
+	artisans = {
+		culture = korean
+		religion = mongoloid
+		size = 150
+	}
+
+	soldiers = {
+		culture = korean
+		religion = mongoloid
+		size = 30
+	}
+
+	farmers = {
+		culture = korean
+		religion = mongoloid
+		size = 2750
+	}
+
+	aristocrats = {
+		culture = siberian
+		religion = mongoloid
+		size = 7
+	}
+
+	clergymen = {
+		culture = siberian
+		religion = mongoloid
+		size = 8
+	}
+
+	artisans = {
+		culture = siberian
+		religion = mongoloid
+		size = 50
+	}
+
+	soldiers = {
+		culture = siberian
+		religion = mongoloid
+		size = 10
+	}
+
+	farmers = {
+		culture = siberian
+		religion = mongoloid
+		size = 925
+	}
+
+}
+#Уссурийск
+3250 = {
+	aristocrats = {
+		culture = manchu
+		religion = mongoloid
+		size = 1500
+	}
+
+	clergymen = {
+		culture = manchu
+		religion = mongoloid
+		size = 775
+	}
+
+	artisans = {
+		culture = manchu
+		religion = mongoloid
+		size = 3900
+	}
+
+	soldiers = {
+		culture = manchu
+		religion = mongoloid
+		size = 750
+	}
+
+	farmers = {
+		culture = manchu
+		religion = mongoloid
+		size = 18075
+	}
+
+	aristocrats = {
+		culture = korean
+		religion = mongoloid
+		size = 30
+	}
+
+	clergymen = {
+		culture = korean
+		religion = mongoloid
+		size = 40
+	}
+
+	artisans = {
+		culture = korean
+		religion = mongoloid
+		size = 150
+	}
+
+	soldiers = {
+		culture = korean
+		religion = mongoloid
+		size = 30
+	}
+
+	farmers = {
+		culture = korean
+		religion = mongoloid
+		size = 2750
+	}
+
+	aristocrats = {
+		culture = siberian
+		religion = mongoloid
+		size = 7
+	}
+
+	clergymen = {
+		culture = siberian
+		religion = mongoloid
+		size = 8
+	}
+
+	artisans = {
+		culture = siberian
+		religion = mongoloid
+		size = 50
+	}
+
+	soldiers = {
+		culture = siberian
+		religion = mongoloid
+		size = 10
+	}
+
+	farmers = {
+		culture = siberian
+		religion = mongoloid
+		size = 925
+	}
+
+}
+#Находка
+3251 = {
+	aristocrats = {
+		culture = manchu
+		religion = mongoloid
+		size = 1500
+	}
+
+	clergymen = {
+		culture = manchu
+		religion = mongoloid
+		size = 775
+	}
+
+	artisans = {
+		culture = manchu
+		religion = mongoloid
+		size = 3900
+	}
+
+	soldiers = {
+		culture = manchu
+		religion = mongoloid
+		size = 750
+	}
+
+	farmers = {
+		culture = manchu
+		religion = mongoloid
+		size = 18075
+	}
+
+	aristocrats = {
+		culture = korean
+		religion = mongoloid
+		size = 30
+	}
+
+	clergymen = {
+		culture = korean
+		religion = mongoloid
+		size = 40
+	}
+
+	artisans = {
+		culture = korean
+		religion = mongoloid
+		size = 150
+	}
+
+	soldiers = {
+		culture = korean
+		religion = mongoloid
+		size = 30
+	}
+
+	farmers = {
+		culture = korean
+		religion = mongoloid
+		size = 2750
+	}
+
+	aristocrats = {
+		culture = siberian
+		religion = mongoloid
+		size = 7
+	}
+
+	clergymen = {
+		culture = siberian
+		religion = mongoloid
+		size = 8
+	}
+
+	artisans = {
+		culture = siberian
+		religion = mongoloid
+		size = 50
+	}
+
+	soldiers = {
+		culture = siberian
+		religion = mongoloid
+		size = 10
+	}
+
+	farmers = {
+		culture = siberian
+		religion = mongoloid
+		size = 925
+	}
+
+}
+#Пластун
+3252 = {
+	aristocrats = {
+		culture = manchu
+		religion = mongoloid
+		size = 1450
+	}
+
+	clergymen = {
+		culture = manchu
+		religion = mongoloid
+		size = 775
+	}
+
+	artisans = {
+		culture = manchu
+		religion = mongoloid
+		size = 4000
+	}
+
+	soldiers = {
+		culture = manchu
+		religion = mongoloid
+		size = 800
+	}
+
+	farmers = {
+		culture = manchu
+		religion = mongoloid
+		size = 17975
+	}
+
+	aristocrats = {
+		culture = siberian
+		religion = mongoloid
+		size = 25
+	}
+
+	clergymen = {
+		culture = siberian
+		religion = mongoloid
+		size = 30
+	}
+
+	artisans = {
+		culture = siberian
+		religion = mongoloid
+		size = 100
+	}
+
+	soldiers = {
+		culture = siberian
+		religion = mongoloid
+		size = 20
+	}
+
+	farmers = {
+		culture = siberian
+		religion = mongoloid
+		size = 1925
+	}
+
+}
+#Хабаровск
+3253 = {
+	aristocrats = {
+		culture = manchu
+		religion = mongoloid
+		size = 1450
+	}
+
+	clergymen = {
+		culture = manchu
+		religion = mongoloid
+		size = 775
+	}
+
+	artisans = {
+		culture = manchu
+		religion = mongoloid
+		size = 4000
+	}
+
+	soldiers = {
+		culture = manchu
+		religion = mongoloid
+		size = 800
+	}
+
+	farmers = {
+		culture = manchu
+		religion = mongoloid
+		size = 17975
+	}
+
+	aristocrats = {
+		culture = siberian
+		religion = mongoloid
+		size = 25
+	}
+
+	clergymen = {
+		culture = siberian
+		religion = mongoloid
+		size = 30
+	}
+
+	artisans = {
+		culture = siberian
+		religion = mongoloid
+		size = 100
+	}
+
+	soldiers = {
+		culture = siberian
+		religion = mongoloid
+		size = 20
+	}
+
+	farmers = {
+		culture = siberian
+		religion = mongoloid
+		size = 1925
+	}
+
+}
+#Комсомольск-на-Амуре
+3254 = {
+	aristocrats = {
+		culture = manchu
+		religion = mongoloid
+		size = 1450
+	}
+
+	clergymen = {
+		culture = manchu
+		religion = mongoloid
+		size = 775
+	}
+
+	artisans = {
+		culture = manchu
+		religion = mongoloid
+		size = 4000
+	}
+
+	soldiers = {
+		culture = manchu
+		religion = mongoloid
+		size = 800
+	}
+
+	farmers = {
+		culture = manchu
+		religion = mongoloid
+		size = 17975
+	}
+
+	aristocrats = {
+		culture = siberian
+		religion = mongoloid
+		size = 25
+	}
+
+	clergymen = {
+		culture = siberian
+		religion = mongoloid
+		size = 30
+	}
+
+	artisans = {
+		culture = siberian
+		religion = mongoloid
+		size = 100
+	}
+
+	soldiers = {
+		culture = siberian
+		religion = mongoloid
+		size = 20
+	}
+
+	farmers = {
+		culture = siberian
+		religion = mongoloid
+		size = 1925
+	}
+
+}
+#Гавань
+3255 = {
+	aristocrats = {
+		culture = manchu
+		religion = mongoloid
+		size = 1450
+	}
+
+	clergymen = {
+		culture = manchu
+		religion = mongoloid
+		size = 775
+	}
+
+	artisans = {
+		culture = manchu
+		religion = mongoloid
+		size = 4000
+	}
+
+	soldiers = {
+		culture = manchu
+		religion = mongoloid
+		size = 800
+	}
+
+	farmers = {
+		culture = manchu
+		religion = mongoloid
+		size = 17975
+	}
+
+	aristocrats = {
+		culture = siberian
+		religion = mongoloid
+		size = 25
+	}
+
+	clergymen = {
+		culture = siberian
+		religion = mongoloid
+		size = 30
+	}
+
+	artisans = {
+		culture = siberian
+		religion = mongoloid
+		size = 100
+	}
+
+	soldiers = {
+		culture = siberian
+		religion = mongoloid
+		size = 20
+	}
+
+	farmers = {
+		culture = siberian
+		religion = mongoloid
+		size = 1925
+	}
+
+}
+
+#Харбин
+3257 = {
+	aristocrats = {
+		culture = manchu
+		religion = mongoloid
+		size = 13750
+	}
+
+	bureaucrats = {
+		culture = manchu
+		religion = mongoloid
+		size = 2300
+	}
+
+	officers = {
+		culture = manchu
+		religion = mongoloid
+		size = 1600
+	}
+
+	clergymen = {
+		culture = manchu
+		religion = mongoloid
+		size = 6925
+	}
+
+	artisans = {
+		culture = manchu
+		religion = mongoloid
+		size = 10000
+	}
+
+	artisans = {
+		culture = manchu
+		religion = mongoloid
+		size = 10000
+	}
+
+	artisans = {
+		culture = manchu
+		religion = mongoloid
+		size = 10000
+	}
+
+	artisans = {
+		culture = manchu
+		religion = mongoloid
+		size = 4550
+	}
+
+	soldiers = {
+		culture = manchu
+		religion = mongoloid
+		size = 8000
+	}
+
+	farmers = {
+		culture = manchu
+		religion = mongoloid
+		size = 324100
+	}
+
+	aristocrats = {
+		culture = korean
+		religion = mongoloid
+		size = 75
+	}
+
+	clergymen = {
+		culture = korean
+		religion = mongoloid
+		size = 50
+	}
+
+	artisans = {
+		culture = korean
+		religion = mongoloid
+		size = 250
+	}
+
+	soldiers = {
+		culture = korean
+		religion = mongoloid
+		size = 50
+	}
+
+	farmers = {
+		culture = korean
+		religion = mongoloid
+		size = 4575
+	}
+	craftsmen = {
+		culture = manchu
+		religion = mongoloid
+		size = 150
+	}
+	clerks = {
+		culture = manchu
+		religion = mongoloid
+		size = 150
+	}
+	capitalists = {
+		culture = manchu
+		religion = mongoloid
+		size = 150
+	}
+
+}
+#Да Хинган Лин
+3258 = {
+	aristocrats = {
+		culture = manchu
+		religion = mongoloid
+		size = 7550
+	}
+
+	clergymen = {
+		culture = manchu
+		religion = mongoloid
+		size = 3800
+	}
+
+	artisans = {
+		culture = manchu
+		religion = mongoloid
+		size = 10000
+	}
+
+	artisans = {
+		culture = manchu
+		religion = mongoloid
+		size = 8900
+	}
+
+	soldiers = {
+		culture = manchu
+		religion = mongoloid
+		size = 3800
+	}
+
+	farmers = {
+		culture = manchu
+		religion = mongoloid
+		size = 143950
+	}
+
+	aristocrats = {
+		culture = siberian
+		religion = mongoloid
+		size = 50
+	}
+
+	clergymen = {
+		culture = siberian
+		religion = mongoloid
+		size = 75
+	}
+
+	artisans = {
+		culture = siberian
+		religion = mongoloid
+		size = 150
+	}
+
+	soldiers = {
+		culture = siberian
+		religion = mongoloid
+		size = 25
+	}
+
+	farmers = {
+		culture = siberian
+		religion = mongoloid
+		size = 2700
+	}
+
+}
+#Шахтинский
+3259 = {
+	aristocrats = {
+		culture = manchu
+		religion = mongoloid
+		size = 1450
+	}
+
+	clergymen = {
+		culture = manchu
+		religion = mongoloid
+		size = 775
+	}
+
+	artisans = {
+		culture = manchu
+		religion = mongoloid
+		size = 4000
+	}
+
+	soldiers = {
+		culture = manchu
+		religion = mongoloid
+		size = 800
+	}
+
+	farmers = {
+		culture = manchu
+		religion = mongoloid
+		size = 17975
+	}
+
+	aristocrats = {
+		culture = siberian
+		religion = mongoloid
+		size = 25
+	}
+
+	clergymen = {
+		culture = siberian
+		religion = mongoloid
+		size = 30
+	}
+
+	artisans = {
+		culture = siberian
+		religion = mongoloid
+		size = 100
+	}
+
+	soldiers = {
+		culture = siberian
+		religion = mongoloid
+		size = 20
+	}
+
+	farmers = {
+		culture = siberian
+		religion = mongoloid
+		size = 1925
+	}
+
+}
+#Биробиджан
+3260 = {
+	aristocrats = {
+		culture = manchu
+		religion = mongoloid
+		size = 1450
+	}
+
+	clergymen = {
+		culture = manchu
+		religion = mongoloid
+		size = 775
+	}
+
+	artisans = {
+		culture = manchu
+		religion = mongoloid
+		size = 4000
+	}
+
+	soldiers = {
+		culture = manchu
+		religion = mongoloid
+		size = 800
+	}
+
+	farmers = {
+		culture = manchu
+		religion = mongoloid
+		size = 17975
+	}
+
+	aristocrats = {
+		culture = siberian
+		religion = mongoloid
+		size = 25
+	}
+
+	clergymen = {
+		culture = siberian
+		religion = mongoloid
+		size = 30
+	}
+
+	artisans = {
+		culture = siberian
+		religion = mongoloid
+		size = 100
+	}
+
+	soldiers = {
+		culture = siberian
+		religion = mongoloid
+		size = 20
+	}
+
+	farmers = {
+		culture = siberian
+		religion = mongoloid
+		size = 1925
+	}
+
+}
+#Циньхуандао
+3261 = {
+	aristocrats = {
+		culture = beifaren
+		religion = mongoloid
+		size = 1750
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 16000
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 10000
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 9550
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 15900
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 294800
+	}
+
+	aristocrats = {
+		culture = beifaren
+		religion = mongoloid
+		size = 250
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 150
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 700
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 150
+	}
+
+}
+#Таншань
+3262 = {
+	aristocrats = {
+		culture = beifaren
+		religion = mongoloid
+		size = 1750
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 16000
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 10000
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 10000
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 10000
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 10000
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 10000
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 10000
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 10000
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 9550
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 15900
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 447800
+	}
+
+	aristocrats = {
+		culture = beifaren
+		religion = mongoloid
+		size = 250
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mongoloid
+		size = 150
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mongoloid
+		size = 700
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = mongoloid
+		size = 150
+	}
+
+
+}
+#Матад
+3263 = {
+	aristocrats = {
+		culture = mongol
+		religion = malay
+		size = 425
+	}
+
+	clergymen = {
+		culture = mongol
+		religion = malay
+		size = 225
+	}
+
+	artisans = {
+		culture = mongol
+		religion = malay
+		size = 1050
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = malay
+		size = 225
+	}
+
+	farmers = {
+		culture = mongol
+		religion = malay
+		size = 18275
+	}
+
+	aristocrats = {
+		culture = yakut
+		religion = mongoloid
+		size = 25
+	}
+
+	clergymen = {
+		culture = yakut
+		religion = mongoloid
+		size = 25
+	}
+
+	artisans = {
+		culture = yakut
+		religion = mongoloid
+		size = 75
+	}
+
+	soldiers = {
+		culture = yakut
+		religion = mongoloid
+		size = 15
+	}
+
+	farmers = {
+		culture = yakut
+		religion = mongoloid
+		size = 1750
+	}
+}
+#Тунхуа
+3264 = {
+	aristocrats = {
+		culture = manchu
+		religion = mongoloid
+		size = 4900
+	}
+
+	clergymen = {
+		culture = manchu
+		religion = mongoloid
+		size = 2550
+	}
+
+	artisans = {
+		culture = manchu
+		religion = mongoloid
+		size = 10000
+	}
+
+	artisans = {
+		culture = manchu
+		religion = mongoloid
+		size = 2500
+	}
+
+	soldiers = {
+		culture = manchu
+		religion = mongoloid
+		size = 2500
+	}
+
+	farmers = {
+		culture = manchu
+		religion = mongoloid
+		size = 127550
+	}
+
+	aristocrats = {
+		culture = korean
+		religion = mongoloid
+		size = 650
+	}
+
+	clergymen = {
+		culture = korean
+		religion = mongoloid
+		size = 350
+	}
+
+	artisans = {
+		culture = korean
+		religion = mongoloid
+		size = 1700
+	}
+
+	soldiers = {
+		culture = korean
+		religion = mongoloid
+		size = 350
+	}
+
+	farmers = {
+		culture = korean
+		religion = mongoloid
+		size = 30950
+	}
+}
+#Верхоянск
+2668 = {
+	aristocrats = {
+		culture = manchu
+		religion = mongoloid
+		size = 1450
+	}
+
+	clergymen = {
+		culture = manchu
+		religion = mongoloid
+		size = 775
+	}
+
+	artisans = {
+		culture = manchu
+		religion = mongoloid
+		size = 4000
+	}
+
+	soldiers = {
+		culture = manchu
+		religion = mongoloid
+		size = 800
+	}
+
+	farmers = {
+		culture = manchu
+		religion = mongoloid
+		size = 17975
+	}
+
+	aristocrats = {
+		culture = siberian
+		religion = mongoloid
+		size = 25
+	}
+
+	clergymen = {
+		culture = siberian
+		religion = mongoloid
+		size = 30
+	}
+
+	artisans = {
+		culture = siberian
+		religion = mongoloid
+		size = 100
+	}
+
+	soldiers = {
+		culture = siberian
+		religion = mongoloid
+		size = 20
+	}
+
+	farmers = {
+		culture = siberian
+		religion = mongoloid
+		size = 1925
+	}
+
+}
+#Талая
+2618 = {
+	aristocrats = {
+		culture = manchu
+		religion = mongoloid
+		size = 1450
+	}
+
+	clergymen = {
+		culture = manchu
+		religion = mongoloid
+		size = 775
+	}
+
+	artisans = {
+		culture = manchu
+		religion = mongoloid
+		size = 4000
+	}
+
+	soldiers = {
+		culture = manchu
+		religion = mongoloid
+		size = 800
+	}
+
+	farmers = {
+		culture = manchu
+		religion = mongoloid
+		size = 17975
+	}
+
+	aristocrats = {
+		culture = siberian
+		religion = mongoloid
+		size = 25
+	}
+
+	clergymen = {
+		culture = siberian
+		religion = mongoloid
+		size = 30
+	}
+
+	artisans = {
+		culture = siberian
+		religion = mongoloid
+		size = 100
+	}
+
+	soldiers = {
+		culture = siberian
+		religion = mongoloid
+		size = 20
+	}
+
+	farmers = {
+		culture = siberian
+		religion = mongoloid
+		size = 1925
+	}
+
+}

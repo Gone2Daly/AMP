@@ -1,0 +1,45 @@
+colinfantry = {
+	icon = 22
+	
+	type = land
+	sprite = Infantry
+	active = no
+	unit_type = infantry
+	floating_flag = no
+	fort = {
+	defence = 0.1
+	}
+	
+	#Core Abilities
+	priority = 10
+	max_strength = 3
+	default_organisation = 30
+	maximum_speed = 4.00
+	weighted_value = 2.0
+
+
+	#Building Costs
+	build_time = 90
+	build_cost = {
+		small_arms = 20
+		regular_clothes = 20
+	}
+	
+	supply_consumption = 1
+	supply_cost = {
+		small_arms = 0.06
+		ammunition = 0.12 #2.1
+		canned_food = 0.4 #3.6
+		regular_clothes = 0.04 #0.232
+		#5.072
+	}
+	
+
+	#Land Abilties
+	reconnaissance = 0
+	attack = 2
+	defence = 2
+	discipline = 1
+	support = 0.0
+	maneuver = 1
+}

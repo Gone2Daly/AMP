@@ -1,0 +1,47 @@
+annex_china_substates = {
+		alert = yes
+		potential = {
+			tag = CHI
+			civilized = yes
+			year = 1880
+			NOT = {
+				has_country_flag = annexed_china_substates
+			}
+		}
+		allow = {
+			MCK = {
+				OR = {
+					vassal_of = THIS
+					in_sphere = THIS
+					substate_of = THIS
+				}
+			}
+			MGL = {
+				OR = {
+					vassal_of = THIS
+					in_sphere = THIS
+					substate_of = THIS
+				}
+			}
+			XIN = {
+				OR = {
+					vassal_of = THIS
+					in_sphere = THIS
+					substate_of = THIS
+				}
+			}
+		}
+		effect = {
+			set_country_flag = annexed_china_substates
+			any_country = {
+				limit = {
+					OR = {
+						tag = XIN
+						tag = MGL
+						tag = MCK
+					}
+				}
+				annex_to = THIS
+			}
+		}
+	}

@@ -1,0 +1,45 @@
+owner = ENG
+controller = ENG
+add_core = AST
+trade_goods = wool
+life_rating = 40
+1861.1.1 = {
+	 
+	state_building = {
+		level = 1
+		building = fabric_factory
+		upgrade = yes
+	}
+}
+1914.1.1 = {
+	owner = AST
+	controller = AST
+	colonial = no
+	naval_base = 4
+	railroad = 2
+	state_building = {
+		level = 2
+		building = winery
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = fabric_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = glass_factory
+		upgrade = yes
+	}
+}
+state_building = {
+	level = 1
+	building = manufacture_wine
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_liquor
+	upgrade = yes
+}

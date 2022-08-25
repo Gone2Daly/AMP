@@ -1,0 +1,529 @@
+1182 = {
+	bureaucrats = {
+		culture = russian
+		religion = slav
+		size = 40
+	}
+	clergymen = {
+		culture = russian
+		religion = slav
+		size = 30
+	}
+	artisans = {
+		culture = russian
+		religion = slav
+		size = 70
+	}
+	soldiers = {
+		culture = russian
+		religion = slav
+		size = 30
+	}
+	farmers = {
+		culture = russian
+		religion = slav
+		size = 1330
+	}
+	aristocrats = {
+		culture = kazak
+		religion = mongoloid
+		size = 150
+	}
+	clergymen = {
+		culture = kazak
+		religion = mongoloid
+		size = 150
+	}
+	artisans = {
+		culture = kazak
+		religion = mongoloid
+		size = 400
+	}
+	soldiers = {
+		culture = kazak
+		religion = mongoloid
+		size = 50
+	}
+	farmers = {
+		culture = kazak
+		religion = mongoloid
+		size = 7250
+	}
+}
+1183 = {
+	aristocrats = {
+		culture = kazak
+		religion = mongoloid
+		size = 150
+	}
+	clergymen = {
+		culture = kazak
+		religion = mongoloid
+		size = 100
+	}
+	artisans = {
+		culture = kazak
+		religion = mongoloid
+		size = 500
+	}
+	soldiers = {
+		culture = kazak
+		religion = mongoloid
+		size = 100
+	}
+	farmers = {
+		culture = kazak
+		religion = mongoloid
+		size = 9150
+	}
+}
+2610 = {
+	clergymen = {
+		culture = russian
+		religion = slav
+		size = 60
+	}
+	artisans = {
+		culture = russian
+		religion = slav
+		size = 90
+	}
+	soldiers = {
+		culture = russian
+		religion = slav
+		size = 50
+	}
+	farmers = {
+		culture = russian
+		religion = slav
+		size = 2300
+	}
+	aristocrats = {
+		culture = kazak
+		religion = mongoloid
+		size = 50
+	}
+	clergymen = {
+		culture = kazak
+		religion = mongoloid
+		size = 50
+	}
+	artisans = {
+		culture = kazak
+		religion = mongoloid
+		size = 200
+	}
+	soldiers = {
+		culture = kazak
+		religion = mongoloid
+		size = 50
+	}
+	farmers = {
+		culture = kazak
+		religion = mongoloid
+		size = 3650
+	}
+	craftsmen = {
+		culture = russian
+		religion = slav
+		size = 150
+	}
+	clerks = {
+		culture = russian
+		religion = slav
+		size = 150
+	}
+	capitalists = {
+		culture = russian
+		religion = slav
+		size = 150
+	}
+	
+	craftsmen = {
+		culture = kazak
+		religion = mongoloid
+		size = 150
+	}
+	clerks = {
+		culture = kazak
+		religion = mongoloid
+		size = 150
+	}
+	capitalists = {
+		culture = kazak
+		religion = mongoloid
+		size = 150
+	}
+}
+2611 = {
+	aristocrats = {
+		culture = kazak
+		religion = mongoloid
+		size = 150
+	}
+	clergymen = {
+		culture = kazak
+		religion = mongoloid
+		size = 100
+	}
+	artisans = {
+		culture = kazak
+		religion = mongoloid
+		size = 500
+	}
+	soldiers = {
+		culture = kazak
+		religion = mongoloid
+		size = 100
+	}
+	farmers = {
+		culture = kazak
+		religion = mongoloid
+		size = 9150
+	}
+}
+1181 = {
+	aristocrats = {
+		culture = kazak
+		religion = mongoloid
+		size = 450
+	}
+	clergymen = {
+		culture = kazak
+		religion = mongoloid
+		size = 250
+	}
+	artisans = {
+		culture = kazak
+		religion = mongoloid
+		size = 1300
+	}
+	soldiers = {
+		culture = kazak
+		religion = mongoloid
+		size = 250
+	}
+	farmers = {
+		culture = kazak
+		religion = mongoloid
+		size = 25750
+	}
+}
+1185 = {
+	aristocrats = {
+		culture = kazak
+		religion = mongoloid
+		size = 700
+	}
+	clergymen = {
+		culture = kazak
+		religion = mongoloid
+		size = 400
+	}
+	artisans = {
+		culture = kazak
+		religion = mongoloid
+		size = 2200
+	}
+	soldiers = {
+		culture = kazak
+		religion = mongoloid
+		size = 400
+	}
+	farmers = {
+		culture = kazak
+		religion = mongoloid
+		size = 36500
+	}
+}
+2606 = {
+	aristocrats = {
+		culture = kazak
+		religion = mongoloid
+		size = 700
+	}
+	clergymen = {
+		culture = kazak
+		religion = mongoloid
+		size = 350
+	}
+	artisans = {
+		culture = kazak
+		religion = mongoloid
+		size = 1900
+	}
+	soldiers = {
+		culture = kazak
+		religion = mongoloid
+		size = 400
+	}
+	farmers = {
+		culture = kazak
+		religion = mongoloid
+		size = 34650
+	}
+}
+2612 = {
+	aristocrats = {
+		culture = kazak
+		religion = mongoloid
+		size = 650
+	}
+	clergymen = {
+		culture = kazak
+		religion = mongoloid
+		size = 350
+	}
+	artisans = {
+		culture = kazak
+		religion = mongoloid
+		size = 1700
+	}
+	soldiers = {
+		culture = kazak
+		religion = mongoloid
+		size = 350
+	}
+	farmers = {
+		culture = kazak
+		religion = mongoloid
+		size = 30950
+	}
+}
+1187 = {
+	aristocrats = {
+		culture = kazak
+		religion = mongoloid
+		size = 700
+	}
+	clergymen = {
+		culture = kazak
+		religion = mongoloid
+		size = 400
+	}
+	artisans = {
+		culture = kazak
+		religion = mongoloid
+		size = 2200
+	}
+	soldiers = {
+		culture = kazak
+		religion = mongoloid
+		size = 400
+	}
+	farmers = {
+		culture = kazak
+		religion = mongoloid
+		size = 36500
+	}
+}
+1188 = {
+	aristocrats = {
+		culture = kazak
+		religion = mongoloid
+		size = 600
+	}
+	clergymen = {
+		culture = kazak
+		religion = mongoloid
+		size = 300
+	}
+	artisans = {
+		culture = kazak
+		religion = mongoloid
+		size = 1600
+	}
+	soldiers = {
+		culture = kazak
+		religion = mongoloid
+		size = 350
+	}
+	farmers = {
+		culture = kazak
+		religion = mongoloid
+		size = 29150
+	}
+	aristocrats = {
+		culture = uighur
+		religion = mongoloid
+		size = 400
+	}
+	clergymen = {
+		culture = uighur
+		religion = mongoloid
+		size = 200
+	}
+	artisans = {
+		culture = uighur
+		religion = mongoloid
+		size = 1100
+	}
+	soldiers = {
+		culture = uighur
+		religion = mongoloid
+		size = 250
+	}
+	farmers = {
+		culture = uighur
+		religion = mongoloid
+		size = 20050
+	}
+}
+1193 = {
+	aristocrats = {
+		culture = uzbek
+		religion = mongoloid
+		size = 500
+	}
+	clergymen = {
+		culture = uzbek
+		religion = mongoloid
+		size = 250
+	}
+	artisans = {
+		culture = uzbek
+		religion = mongoloid
+		size = 1400
+	}
+	soldiers = {
+		culture = uzbek
+		religion = mongoloid
+		size = 300
+	}
+	farmers = {
+		culture = uzbek
+		religion = mongoloid
+		size = 25550
+	}
+	aristocrats = {
+		culture = kazak
+		religion = mongoloid
+		size = 500
+	}
+	clergymen = {
+		culture = kazak
+		religion = mongoloid
+		size = 250
+	}
+	artisans = {
+		culture = kazak
+		religion = mongoloid
+		size = 1200
+	}
+	soldiers = {
+		culture = kazak
+		religion = mongoloid
+		size = 250
+	}
+	farmers = {
+		culture = kazak
+		religion = mongoloid
+		size = 23800
+	}
+}
+1194 = {
+	aristocrats = {
+		culture = kazak
+		religion = mongoloid
+		size = 300
+	}
+	clergymen = {
+		culture = kazak
+		religion = mongoloid
+		size = 150
+	}
+	artisans = {
+		culture = kazak
+		religion = mongoloid
+		size = 700
+	}
+	soldiers = {
+		culture = kazak
+		religion = mongoloid
+		size = 150
+	}
+	farmers = {
+		culture = kazak
+		religion = mongoloid
+		size = 14700
+	}
+}
+2702 = {
+	aristocrats = {
+		culture = kazak
+		religion = mongoloid
+		size = 200
+	}
+	clergymen = {
+		culture = kazak
+		religion = mongoloid
+		size = 100
+	}
+	artisans = {
+		culture = kazak
+		religion = mongoloid
+		size = 700
+	}
+	soldiers = {
+		culture = kazak
+		religion = mongoloid
+		size = 150
+	}
+	farmers = {
+		culture = kazak
+		religion = mongoloid
+		size = 12850
+	}
+}
+1197 = {
+	aristocrats = {
+		culture = uzbek
+		religion = mongoloid
+		size = 500
+	}
+	clergymen = {
+		culture = uzbek
+		religion = mongoloid
+		size = 250
+	}
+	artisans = {
+		culture = uzbek
+		religion = mongoloid
+		size = 1500
+	}
+	soldiers = {
+		culture = uzbek
+		religion = mongoloid
+		size = 300
+	}
+	farmers = {
+		culture = uzbek
+		religion = mongoloid
+		size = 27450
+	}
+	aristocrats = {
+		culture = kazak
+		religion = mongoloid
+		size = 1100
+	}
+	clergymen = {
+		culture = kazak
+		religion = mongoloid
+		size = 500
+	}
+	artisans = {
+		culture = kazak
+		religion = mongoloid
+		size = 3000
+	}
+	soldiers = {
+		culture = kazak
+		religion = mongoloid
+		size = 500
+	}
+	farmers = {
+		culture = kazak
+		religion = mongoloid
+		size = 54900
+	}
+}

@@ -1,0 +1,413 @@
+# Triggered modifiers are here.
+# these are checked for each countries once/month and then applied.
+#
+# Effects are fully scriptable here.
+
+
+
+#########################################
+
+#empire_power_cutoff = {
+#	trigger = {
+#		civilized = yes
+#		state_power = empire_power
+#	}
+#	navy_base = { 
+#		supply_consumption = -0.4
+#	}
+#}
+
+#hehemony_power_cutoff = {
+#	trigger = {
+#		civilized = yes
+#		state_power = hehemony_power
+#	}
+#	navy_base = { 
+#		supply_consumption = -0.8
+#	}
+#}
+
+########################################
+
+#army_power = {
+#	trigger = {
+#		civilized = yes
+#		army_firepower = deffence_power
+#	}
+#	naval_organisation = 1
+#	land_organisation = 1
+#}
+
+csa_boost = {
+	trigger = {
+		THIS = {
+		exists = yes
+		capital = 605
+		}
+	}
+	mobilisation_size = 0.2
+}
+
+Switzerland = {
+	trigger = {
+		THIS = {
+		exists = yes
+		capital = 211
+		NOT = {
+			year = 1865
+		}
+		}
+	}
+	cb_generation_speed_modifier = -90
+}
+
+china_boost = {
+	trigger = {
+		THIS = {
+		exists = yes
+		capital = 1612
+		civilized = no
+		}
+	}
+	land_organisation = 0.25
+}
+
+is_vassal_state = {
+	trigger = {
+		THIS = {
+		exists = yes
+		is_vassal = yes
+		}
+	}
+	prestige = -100
+	mobilization_impact = -10
+	factory_owner_cost = 0.4
+}
+
+AI_boost = {
+	trigger = {
+		AI = yes
+	}
+	badboy = -0.1
+	land_organisation = 0.25
+	org_regain = 0.25
+	naval_organisation = 0.25
+	factory_output = 0.05
+}
+AI_unciv_boost = {
+	trigger = {
+		AI = yes
+		THIS = { civilized = no }
+	}
+	land_organisation = 1
+	org_regain = 1
+	
+}
+Iran_boost = {
+	trigger = {
+		THIS = {
+		exists = yes
+		capital = 1121
+		civilized = no
+		}
+	}
+	research_points_modifier = 0.5
+	land_organisation = 0.25
+	supply_consumption = -0.5
+	leadership_modifier = 2
+	war_exhaustion = -0.2
+}
+
+
+#####Canals#####
+own_suez_canal = {
+	trigger = {	
+		exists = yes
+		owns = 1755
+		civilized = yes
+		is_canal_enabled = 2
+	}
+	icon = 9
+	tariff_efficiency_modifier = 0.15
+	import_cost = -0.15
+	prestige = 0.01
+}
+
+own_panama_canal = {
+	trigger = {
+		exists = yes
+		owns = 1723
+		civilized = yes
+		is_canal_enabled = 3
+	}
+	icon = 9
+	tariff_efficiency_modifier = 0.15
+	import_cost = -0.1
+	prestige = 0.01
+}
+
+own_gibraltar_canal = {
+	trigger = {
+		exists = yes
+		owns = 517
+		civilized = yes
+		is_canal_enabled = 4
+	}
+	icon = 9
+	import_cost = -0.05
+}
+###
+social_reformed_nation = {
+		trigger = {
+			exists = yes
+			wage_reform = good_minimum_wage
+			work_hours = eight_hours
+			safety_regulations = good_safety
+			unemployment_subsidies = good_subsidies
+			pensions = good_pensions
+			health_care = good_health_care
+			school_reforms = good_schools
+		}
+		
+	social_reform_desire = -0.5
+	icon = 13
+}
+#####
+Arising_Prussia = {
+	trigger = {
+		exists = yes
+		NOT = {
+			year = 1871
+			owns = 409
+		}
+		capital = 549
+	}
+	land_organisation = 0.1
+	mobilization_economy_impact = -0.25
+	war_exhaustion = -0.05
+	supply_consumption = -0.2
+}
+badboy_1 = {
+	trigger = {
+		exists = yes
+		year = 1890
+	}
+	badboy = -0.1
+}
+badboy_2 = {
+	trigger = {
+		exists = yes
+		year = 1900
+	}
+	badboy = -0.1
+}
+badboy_3 = {
+	trigger = {
+		exists = yes
+		year = 1910
+	}
+	badboy = -0.1
+}
+##Governments
+government_proletarian_dictatorship = {
+	trigger = {
+		exists = yes
+		government = proletarian_dictatorship
+	}
+	factory_throughput = 0.15
+	factory_input = 0.05
+	mobilisation_size = 0.02
+	global_assimilation_rate = 0.1
+	war_exhaustion = -0.02
+	industry_tech_research_bonus = 0.1
+}
+socialist_republic = {
+	trigger = {
+		exists = yes
+		government = socialist_republic 
+	}
+	factory_throughput = 0.05
+	global_assimilation_rate = 0.05
+	commerce_tech_research_bonus = 0.05
+	culture_tech_research_bonus = 0.05
+	import_cost = -0.05
+	issue_change_speed = 0.2
+}
+one_party_socialist_republic = {
+	trigger = {
+		exists = yes
+		government = one_party_socialist_republic
+	}
+	factory_throughput = 0.1
+	global_assimilation_rate = 0.1
+	war_exhaustion = -0.02
+	industry_tech_research_bonus = 0.1
+}
+government_presidential_dictatorship = {
+	trigger = {
+		exists = yes
+		government = presidential_dictatorship
+	}
+	global_pop_militancy_modifier = -0.02
+}
+government_bourgeois_dictatorship = {
+	trigger = {
+		exists = yes
+		government = bourgeois_dictatorship
+	}
+	factory_output = 0.05
+	factory_input = -0.03
+	import_cost = -0.05
+	industry_tech_research_bonus = 0.1
+	commerce_tech_research_bonus = 0.1
+}
+government_fascist_dictatorship = {
+	trigger = {
+		exists = yes
+		government = fascist_dictatorship
+	}
+	mobilization_economy_impact = -0.25
+	land_organisation = 0.1
+	factory_input = -0.05
+	core_pop_militancy_modifier = -0.02
+	army_tech_research_bonus = 0.1
+	navy_tech_research_bonus = 0.1
+	badboy = -0.2
+	war_exhaustion = -0.02
+}
+government_absolute_monarchy = {
+	trigger = {
+		exists = yes
+		government = absolute_monarchy
+	}
+	land_organisation = 0.05
+	org_regain = 0.05
+	badboy = -0.07
+	RGO_output = 0.05
+	prestige = 0.1
+}
+government_prussian_constitutionalism = {
+	trigger = {
+		exists = yes
+		government = prussian_constitutionalism
+	}
+	land_organisation = 0.05
+	org_regain = 0.05
+	RGO_output = 0.05
+	prestige = 0.1
+}
+government_hms_government = {
+	trigger = {
+		exists = yes
+		government = hms_government
+	}
+}
+government_democracy = {
+	trigger = {
+		exists = yes
+		government = democracy
+	}
+	commerce_tech_research_bonus = 0.15
+	culture_tech_research_bonus = 0.1
+	land_organisation = -0.05
+	import_cost = -0.05
+	factory_output = 0.03
+	issue_change_speed = 0.2
+	leadership_modifier = 0.1
+	min_social_spending = 0.1
+	ruling_party_support = -0.1
+}
+11111 = {
+	trigger = {
+		exists = yes
+	}
+	RGO_output = 0.5
+	supply_consumption = 0.2
+	
+}
+1111 = {
+	trigger = {
+		exists = yes
+		OR = {
+			continent = north_america
+			continent = south_america
+			continent = oceania
+		}
+	}
+	global_assimilation_rate = 2
+}
+sic_mobilisation_cutoff = {
+	trigger = {
+		exists = yes
+		capital = 754
+	}
+	mobilisation_size = -0.05
+}
+military_spending_1 = {
+	trigger = {
+		exists = yes
+		military_spending = 0.3
+		NOT = { military_spending = 0.4 }
+		AI = NO
+	}
+	supply_consumption = 0.1 
+}
+military_spending_2 = {
+	trigger = {
+		exists = yes
+		military_spending = 0.4
+		NOT = { military_spending = 0.5 }
+		AI = NO
+	}
+	supply_consumption = 0.2 
+}
+military_spending_3 = {
+	trigger = {
+		exists = yes
+		military_spending = 0.5
+		NOT = { military_spending = 0.6 }
+	}
+	supply_consumption = 0.3 
+}
+military_spending_4 = {
+	trigger = {
+		exists = yes
+		military_spending = 0.6
+		NOT = { military_spending = 0.7 }
+	}
+	supply_consumption = 0.4 
+}
+military_spending_5 = {
+	trigger = {
+		exists = yes
+		military_spending = 0.7
+		NOT = { military_spending = 0.8 }
+	}
+	supply_consumption = 0.5 
+}
+military_spending_6 = {
+	trigger = {
+		exists = yes
+		military_spending = 0.8
+		NOT = { military_spending = 0.9 }
+	}
+	supply_consumption = 0.6 
+}
+military_spending_7 = {
+	trigger = {
+		exists = yes
+		military_spending = 0.9
+		NOT = { military_spending = 1 }
+	}
+	supply_consumption = 0.7 
+}
+military_spending_7 = {
+	trigger = {
+		exists = yes
+		military_spending = 1
+	}
+	supply_consumption = 0.8 
+}
+
+########## literacy_industrial_impact
+

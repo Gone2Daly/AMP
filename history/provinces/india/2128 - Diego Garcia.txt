@@ -1,0 +1,5 @@
+owner = OST  colonial = 2
+controller = OST
+trade_goods = fish
+life_rating = 32
+ 

@@ -1,0 +1,26 @@
+owner = PAN
+controller = PAN
+add_core = PAN
+add_core = HND
+trade_goods = cotton
+life_rating = 45
+1861.1.1 = {
+	owner = OST  colonial = 2
+	controller = OST
+	 
+}
+state_building = {
+	level = 1
+	building = manufacture_fabric
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_regular_clothes
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = manufacture_luxury_clothes
+	upgrade = yes
+}
