@@ -1,7 +1,7 @@
 powershell -Command "(New-Object Net.WebClient).DownloadFile('https://github.com/Gone2Daly/AMP/archive/refs/heads/main.zip', 'main.zip')"
 powershell -Command "Invoke-WebRequest https://github.com/Gone2Daly/AMP/archive/refs/heads/main.zip -OutFile main.zip"
 powershell -Command "Get-ChildItem . -Filter main.zip | Expand-Archive -DestinationPath . -Force"
-XCOPY "%cd%\AMP-main" "%cd%" /S /Y /EXCLUDE:"Launch AMP.exe"
-RMDIR "%cd%\AMP-main" /Q /S
-DEL "%cd%\main.zip" /Q
+XCOPY /S /Y /C "%cd%\AMP-main" "%cd%"
+RMDIR /Q /S "%cd%\AMP-main"
+DEL /Q "%cd%\main.zip"
 TIMEOUT 3
