@@ -340,37 +340,3 @@ country_event = {
 		clr_country_flag = full_blockade
 	}
 }
-
-country_event = {
-	id = 91005
-	title = "EVTNAME91005"
-	desc = "EVTDESC91005"
-	picture = "greatpowers"
-	trigger = {
-		machine_parts = 2001
-		NOT = {
-			year = 1860
-		}
-	}
-	immediate = { 
-		set_country_flag = stop1
-		machine_parts = -10000
-	}
-	option = {
-		name = "EVTOPTA91005"
-		machine_parts = 1800
-		clr_country_flag = stop1
-		any_country = {
-			limit = {
-				AI = yes
-			}
-			machine_parts = 2
-		}
-		any_country = {
-			limit = {
-				AI = no
-			}
-			machine_parts = 10
-		}
-	}
-}

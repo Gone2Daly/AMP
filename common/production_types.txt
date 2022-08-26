@@ -3803,28 +3803,28 @@ sulphur_mine = {
 tea_plantation = {
 	template = RGO_template_farmers
 	output_goods = tea 
-	value = 1.9 #5.51
+	value = 1.5 #5.51
 	farm = yes
 }
 
 timber_lodge = {
 	template = RGO_template_labourers
 	output_goods = timber 
-	value = 7.12 #6.075
+	value = 3.2 #6.075
 	farm = yes
 }
 
 tobacco_plantation = {
 	template = RGO_template_farmers
 	output_goods = tobacco 
-	value = 8 #4
+	value = 1.5 #4
 	farm = yes
 }
 
 tropical_wood_lodge = {
 	template = RGO_template_labourers
 	output_goods = tropical_wood 
-	value = 2 #10.8
+	value = 3 #10.8
 	farm = yes
 }
 
@@ -4264,11 +4264,11 @@ artisan_tobacco_products = {
 
 artisan_furniture = {       
 	input_goods = { 
-		lumber = 20		#20
-		timber = 20		#18		total input+maint = 48
+		lumber = 55		#20
+		timber = 55		#18		total input+maint = 48
 	}
 	output_goods = furniture 
-	value = 12			#58.8
+	value = 26			#58.8
 	
 	owner = {
 		poptype = artisan 
@@ -4288,10 +4288,10 @@ artisan_furniture = {
 
 artisan_paper = {       
 	input_goods = { 
-		timber = 37.5		#45	total input+maint = 55
+		timber = 30		#45	total input+maint = 55
 	}
 	output_goods = paper 
-	value = 15			#68
+	value = 18			#68
 	
 	owner = {
 		poptype = artisan 
@@ -4388,7 +4388,7 @@ artisan_grain_food = {
 		grain = 30
 	}
 	output_goods = food 
-	value = 22.5
+	value = 23.5
 	
 	owner = {
 		poptype = artisan 
@@ -4411,7 +4411,7 @@ artisan_fruit_food = {
 		fruit = 30
 	}
 	output_goods = food 
-	value = 22.5
+	value = 23.5
 	
 	owner = {
 		poptype = artisan 
@@ -4665,13 +4665,13 @@ artisan_winery = {
 ############# BASIC FACTORIES 
 artisan_crates = {
 	input_goods = {       
-		timber = 15
-		lumber = 8
+		timber = 18
+		lumber = 12
 		refined_iron = 2
 	}
 	output_goods = crates 
 	
-	value = 10
+	value = 12
 	
 	owner = {
 		poptype = artisan 
@@ -4693,11 +4693,11 @@ artisan_crates = {
 
 artisan_lumber = {       
 	input_goods = {       
-		timber = 50
+		timber = 70
 	}
 	output_goods = lumber 
 	
-	value = 55
+	value = 75
 	
 	owner = {
 		poptype = artisan 
