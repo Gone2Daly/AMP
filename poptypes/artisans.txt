@@ -1482,8 +1482,17 @@ promote_to =
 		}
 		modifier = {
 			factor = -9000
-			country = { government = colonial_company }
-			location = { craftsmen = 0.1 }
+			OR = {
+				AND = {
+					country = { government = colonial_company }
+					NOT = { location = { life_rating = 40 } }
+				}
+				AND = {
+					country = { government = colonial_company }
+					location = { life_rating = 40 }
+					location = { craftsmen = 0.005 }
+				}
+			}
 		}
 		group = {
 			modifier = {

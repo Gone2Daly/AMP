@@ -1410,8 +1410,17 @@ promote_to =
 		modifier = {
 			factor = -9000
 			NOT = { location = { life_rating = 40 } }
-			country = { government = colonial_company }
-			location = { craftsmen = 0.01 }
+			OR = {
+				AND = {
+					country = { government = colonial_company }
+					NOT = { location = { life_rating = 40 } }
+				}
+				AND = {
+					country = { government = colonial_company }
+					location = { life_rating = 40 }
+					location = { craftsmen = 0.005 }
+				}
+			}
 		}
 		modifier = {
 			factor = -9000
