@@ -110,7 +110,7 @@ core = {
 }
 
 has_siege = {
-	supply_limit = -12.5
+	supply_limit = -8
 	farm_rgo_eff = -0.5
 	mine_rgo_eff = -0.5
 }
