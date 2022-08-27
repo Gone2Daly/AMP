@@ -1180,20 +1180,20 @@ food_fruit = {
 	bonus = {
 		trigger = {
 			OR = {
-				trade_goods_in_state = fish
+				trade_goods_in_state = fruit
 				any_neighbor_province = {
 					OR = {
 					location = {
-						produces = fish 
+						produces = fruit 
 					}
 					state_scope = { 
-						produces = fish 
+						produces = fruit 
 					}
 					location = {
-						trade_goods = fish 
+						trade_goods = fruit 
 					}
 					state_scope = { 
-						trade_goods = fish 
+						trade_goods = fruit 
 					}
 					}
 				}
