@@ -1,2 +1,2 @@
-name = "Big Square Frames HPM"
+name = "[Graphic] Big Square Frames HPM"
 path = "mod/BigSquareFrameHPM"
