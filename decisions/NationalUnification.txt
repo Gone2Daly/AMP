@@ -480,16 +480,16 @@ political_decisions = {
 			410 = {
 				change_province_name = "Мюльхаузен"
 				state_scope = {
-					change_region_name = "Эльзас-Лотатирнген"
+					change_region_name = "Эльзас-Лотаринген"
 				}
 			}
 			409 = {
-				change_province_name = "Штрассбург"
+				change_province_name = "Штрасбург"
 				state_scope = {
-					change_region_name = "[City] Штрассбург"
+					change_region_name = "[City] Штрасбург"
 				}
 			}
-			prestige = 5
+			prestige = 25
 			set_global_flag = germany_has_renamed_elsass
 		}
 	}
@@ -515,12 +515,12 @@ political_decisions = {
 				}
 			}
 			409 = {
-				change_province_name = "Страссбург"
+				change_province_name = "Страсбург"
 				state_scope = {
-					change_region_name = "[City] Страссбург"
+					change_region_name = "[City] Страсбург"
 				}
 			}
-			prestige = 10
+			prestige = 25
 			clr_global_flag = germany_has_renamed_elsass
 		}
 	}
