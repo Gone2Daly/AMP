@@ -478,12 +478,15 @@ political_decisions = {
 		
 		effect = {
 			410 = {
-				change_province_name = "Штрассбург"
-			}
-			409 = {
 				change_province_name = "Мюльхаузен"
 				state_scope = {
 					change_region_name = "Эльзас-Лотатирнген"
+				}
+			}
+			409 = {
+				change_province_name = "Штрассбург"
+				state_scope = {
+					change_region_name = "[City] Штрассбург"
 				}
 			}
 			prestige = 5
@@ -506,12 +509,15 @@ political_decisions = {
 		
 		effect = {
 			410 = {
-				change_province_name = "Страссбург"
-			}
-			409 = {
 				change_province_name = "Мюльхоуз"
 				state_scope = {
 					change_region_name = "Эльзас-Мозель"
+				}
+			}
+			409 = {
+				change_province_name = "Страссбург"
+				state_scope = {
+					change_region_name = "[City] Страссбург"
 				}
 			}
 			prestige = 10
