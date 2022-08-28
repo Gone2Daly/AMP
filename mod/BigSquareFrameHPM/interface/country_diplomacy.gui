@@ -725,7 +725,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "selected_nation_totalrank"
-					position = { x = 330 y = 71 }
+					position = { x = 330 y = 74 }
 					textureFile = ""
 					font = "Arial12"
 					borderSize = {x = 0 y = 0}
