@@ -265,15 +265,8 @@ country_event = {
 			any_pop = {
 				limit = {
 					OR = {
-						culture = north_italian
-					}
-				}
-				literacy = 0.44
-			}
-			any_pop = {
-				limit = {
-					OR = {
 						culture = japanese
+						culture = north_italian
 					}
 				}
 				literacy = 0.39
