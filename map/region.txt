@@ -594,9 +594,7 @@ POR_20532 = { 2054 2055 2056 }
 
 ###Belgium
 luxembourgh_amp = { 397 }
-BEL_394 = { 392 398 } #Wallonia
-BEL_3942 = { 396 391 397 }
-BEL_387 = { 388 393 } #Flandres
+BEL_3942 = { 398 396 } #Arlon
 antwerp_amp = { 390 }
 brussels_amp = { 387 }
 liege_amp = { 395 }
@@ -604,16 +602,19 @@ charleroi_amp = { 394 }
 gent_amp = { 389 }
 
 ###Holland
-NET_385 = { 385 383 384 386 }
-NET_381 = { 43 378 380 381 382 } #Heldern
 amsterdam_amp = { 375 }
 rotterdam_amp = { 376 }
 utrecht_amp = { 377 }
 eindhoven_amp = { 379 }
 
+NET_385 = { 43 382 385 383 384 386 } #Friesland
+NET_381 = { 378 380  379  381 } #Brabant
+NET_3811 = { 375  376  377 }
+
 ###Swetzerland
-SWI_603 = { 606 611 }
-SWI_605 = { 604 608 609 2568}
+SWI_603 = { 606 611 2568 }
+SWI_605 = { 604 608 609 }
+lugano_amp = { 2568 }
 zurich_amp = { 603 }
 bern_amp = { 605 }
 geneva_amp = { 607 }
@@ -1745,6 +1746,12 @@ AMP_germany = {
 
 
 #France
+AMP_hennegau = {
+10
+399
+388
+393
+}
 AMP_france = {
 7
 9
@@ -1901,22 +1908,21 @@ AMP_brussels = {
 388
 389
 390
+391
 }
 AMP_wallonia = {
-392
 393
 394
-398
-397
+392
+395
 }
 AMP_liege = {
-391
-395
 396
 397
+398
 }
+
 AMP_belgium = {
-397
 387
 388
 389
@@ -1927,6 +1933,7 @@ AMP_belgium = {
 394
 395
 396
+397
 398
 }
 AMP_lowlands = {

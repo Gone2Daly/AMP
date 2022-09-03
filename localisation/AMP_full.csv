@@ -1085,10 +1085,11 @@ AMP_spain;Испания;X
 AMP_italy;Италия;X
 AMP_lowlands;Нижние Земли;X
 AMP_belgium;Бельгия;X
-AMP_netherlands;Голландия;X
-AMP_brussels;Брюссель;X
+AMP_netherlands;Нидерланды;X
+AMP_brussels;Фландрия;X
 AMP_wallonia;Валлония;X
-AMP_liege;Льеж;X
+AMP_liege;Ардены;X
+AMP_hennegau;Геннегау;X
 AMP_burgundy;Бургундия;X
 AMP_swiss;Швейцария;X
 AMP_polen;Польша;X
@@ -2195,24 +2196,24 @@ gain_state_polen_all_setup_all;Захватить регион Польша у державы $RECIPIENT$.;X
 gain_state_swiss_all;Захват региона — Швейцария (12);X
 gain_state_swiss_all_short;Присоединение региона Швейцария (12);X
 gain_state_swiss_all_setup_all;Захватить регион Швейцария у державы $RECIPIENT$.;X
-gain_state_lowlands_all;Захват региона — Нижние Земли (24);X
-gain_state_lowlands_all_short;Присоединение региона Нижние Земли (24);X
+gain_state_lowlands_all;Захват региона — Нижние Земли (36);X
+gain_state_lowlands_all_short;Присоединение региона Нижние Земли (36);X
 gain_state_lowlands_all_setup_all;Захватить регион Нижние Земли у державы $RECIPIENT$.;X
-gain_state_belgium_all;Захват региона — Бельгия (12);X
-gain_state_belgium_all_short;Присоединение региона Бельгия (12);X
+gain_state_belgium_all;Захват региона — Бельгия (18);X
+gain_state_belgium_all_short;Присоединение региона Бельгия (18);X
 gain_state_belgium_all_setup_all;Захватить регион Бельгия у державы $RECIPIENT$.;X
-gain_state_liege_all;Захват региона — Льеж (6);X
-gain_state_liege_all_short;Присоединение региона Льеж (6);X
-gain_state_liege_all_setup_all;Захватить регион Льеж у державы $RECIPIENT$.;X
-gain_state_wallonia_all;Захват региона — Валлония (6);X
-gain_state_wallonia_all_short;Присоединение региона Валлония (6);X
+gain_state_liege_all;Захват региона — Ардены (8);X
+gain_state_liege_all_short;Присоединение региона Ардены (8);X
+gain_state_liege_all_setup_all;Захватить регион Ардены у державы $RECIPIENT$.;X
+gain_state_wallonia_all;Захват региона — Валлония (12);X
+gain_state_wallonia_all_short;Присоединение региона Валлония (12);X
 gain_state_wallonia_all_setup_all;Захватить регион Валлония у державы $RECIPIENT$.;X
-gain_state_brussels_all;Захват региона — Брюссель (6);X
-gain_state_brussels_all_short;Присоединение региона Брюссель (6);X
-gain_state_brussels_all_setup_all;Захватить регион Брюссель у державы $RECIPIENT$.;X
-gain_state_netherlands_all;Захват региона — Голландия (12);X
-gain_state_netherlands_all_short;Присоединение региона Голландия (12);X
-gain_state_netherlands_all_setup_all;Захватить регион Голландия у державы $RECIPIENT$.;X
+gain_state_brussels_all;Захват региона — Фландрия (12);X
+gain_state_brussels_all_short;Присоединение региона Фландрия (12);X
+gain_state_brussels_all_setup_all;Захватить регион Фландрия у державы $RECIPIENT$.;X
+gain_state_netherlands_all;Захват региона — Нидерланды (18);X
+gain_state_netherlands_all_short;Присоединение региона Нидерланды (18);X
+gain_state_netherlands_all_setup_all;Захватить регион Нидерланды у державы $RECIPIENT$.;X
 gain_state_italy_all;Захват региона — Италия (36) (NMP);X
 gain_state_italy_all_short;Присоединение региона Италия;X
 gain_state_italy_all_setup_all;Захватить регион Италия у державы $RECIPIENT$.;X
@@ -2645,6 +2646,12 @@ annex_gibraltar_setup_all;Захватить регион Гибралтар у державы $RECIPIENT$.;X
 annex_panama;Захват региона - Бальбоа (6);X
 annex_panama_short;Присоединение региона Бальбоа (6);X
 annex_panama_setup_all;Захватить регион Бальбоа у державы $RECIPIENT$.;X
+gain_state_lugano_all;Захват региона — Лугано (6);X
+gain_state_lugano_all_short;Присоединение региона Лугано (6);X
+gain_state_lugano_all_setup;Захватить Лугано $RECIPIENT$.;X
+gain_state_hennegau_all;Захват региона — Геннегау (12);X
+gain_state_hennegau_all_short;Присоединение региона Геннегау (12);X
+gain_state_hennegau_all_setup;Захватить Геннегау $RECIPIENT$.;X
 gain_state_fraverden_all;Захват региона - Верден-Эпиналь (12);
 gain_state_fraverden_all_short;Присоединение региона Верден-Эпиналь (12);
 gain_state_fraverden_all_setup_all;Захватить Верден-Эпиналь $RECIPIENT$.;
@@ -3706,7 +3713,7 @@ amsterdam_amp;[City] Амстердам;X
 rotterdam_amp;[City] Роттердам;X
 utrecht_amp;[City] Утрехт;X
 eindhoven_amp;[City] Эйндховен;X
-lugano_amp;[City] Лугано;X
+lugano_amp;Лугано;X
 zurich_amp;[City] Цюрих;X
 bern_amp;[City] Берн;X
 geneva_amp;[City] Женева;X
