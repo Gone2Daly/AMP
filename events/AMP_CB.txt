@@ -5688,3 +5688,35 @@ country_event = {
 		name = ""
 	}
 }
+country_event = {
+	id = 100361
+	title = ""
+	desc = ""
+	is_triggered_only = yes
+	immediate = {
+		any_country = {
+			limit = {
+				has_country_flag = expand_cb_annex
+			}
+			any_owned = {
+				limit = {
+					region = AMP_alaska_state
+				}
+				secede_province = THIS
+				change_owner = THIS
+			}
+			clr_country_flag = expand_cb_annex
+		}
+		any_owned = {
+			limit = {
+				region = lugano_amp
+			}
+			secede_province = FROM
+			change_owner = FROM
+		}
+	
+	}
+	option = {
+		name = ""
+	}
+}

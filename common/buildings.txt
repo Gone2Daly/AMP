@@ -1382,6 +1382,7 @@ paper_mill = {
 	visibility = yes
 	onmap = no
 	
+	default_enabled = yes
 	production_type = paper_mill
 	pop_build_factory = yes
 }
