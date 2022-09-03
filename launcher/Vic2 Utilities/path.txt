@@ -1,3 +1,0 @@
-#Sun Aug 21 16:52:38 CEST 2022
-saveGame=C\:/Users/Tyaf/Documents/Paradox Interactive/Victoria II/save games/mp_Iniaineay_Eiiadey1905_03_02.v2
-gamePatch=D\:/Victoria 2 NRM v1.28.3(CoreRegsCalcFix)/Victoria 2 NRM v1.28.3(CoreRegsCalcFix)
