@@ -1895,7 +1895,7 @@ precision_work = {
 		}
 		modifier = {
 			factor = -8
-			NOT = { literacy = 0.6 }
+			NOT = { literacy = 0.4 }
 		}
 	}
 	effect = {

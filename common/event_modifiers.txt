@@ -1926,17 +1926,17 @@ carbon_enrichment_modifier = {
 }
 lumber_camp_mechanization = {
 	icon = 13
-	local_RGO_output = 0.25
+	local_RGO_output = 0.8
 }
 chainsaw_modifier = {
 	icon = 5
-	local_RGO_output = 0.25
-	local_RGO_throughput = 0.1
+	local_RGO_output = 0.8
+	local_RGO_throughput = 0.2
 }
 electric_saw_modifier = {
 	icon = 5
-	local_RGO_output = 0.25
-	local_RGO_throughput = 0.1
+	local_RGO_output = 0.8
+	local_RGO_throughput = 0.2
 }
 mechanized_fishing_vessels_modifier = {
 	icon = 13
