@@ -19243,6 +19243,136 @@ gain_state_alaska_all = {
 	}
 }
 
+gain_state_zeeland_all = {
+	sprite_index = 6
+	is_triggered_only = yes
+	months = 16
+	construction_speed = 0.5
+	
+	badboy_factor = 10
+	prestige_factor = 5     po_remove_prestige = yes	tws_battle_factor = 2.0
+	peace_cost_factor = 35
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		number_of_states = 2 # annex if you want their last state
+		any_owned_province = {
+			region = DEN_372
+		}
+
+		
+	}
+	
+	war_name = WAR_TAKE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+	on_po_accepted = {
+		country_event = 100362
+	}
+}
+gain_state_denc_all = {
+	sprite_index = 6
+	is_triggered_only = yes
+	months = 16
+	construction_speed = 0.5
+	
+	badboy_factor = 10
+	prestige_factor = 5     po_remove_prestige = yes	tws_battle_factor = 2.0
+	peace_cost_factor = 35
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		number_of_states = 2 # annex if you want their last state
+		any_owned_province = {
+			region = DENC_amp
+		}
+
+		
+	}
+	
+	war_name = WAR_TAKE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+	on_po_accepted = {
+		country_event = 100363
+	}
+}
+gain_state_iceland_all = {
+	sprite_index = 6
+	is_triggered_only = yes
+	months = 16
+	construction_speed = 0.5
+	
+	badboy_factor = 10
+	prestige_factor = 5     po_remove_prestige = yes	tws_battle_factor = 2.0
+	peace_cost_factor = 35
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		number_of_states = 2 # annex if you want their last state
+		any_owned_province = {
+			region = DEN_251
+		}
+
+		
+	}
+	
+	war_name = WAR_TAKE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+	on_po_accepted = {
+		country_event = 100364
+	}
+}
+
 #HFM CB
 free_allied_cores = {
 	sprite_index = 15

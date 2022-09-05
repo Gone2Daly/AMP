@@ -5720,3 +5720,102 @@ country_event = {
 		name = ""
 	}
 }
+country_event = {
+	id = 100362
+	title = ""
+	desc = ""
+	is_triggered_only = yes
+	immediate = {
+		any_country = {
+			limit = {
+				has_country_flag = expand_cb_annex
+			}
+			any_owned = {
+				limit = {
+					region = DEN_372
+				}
+				secede_province = THIS
+				change_owner = THIS
+			}
+			clr_country_flag = expand_cb_annex
+		}
+		any_owned = {
+			limit = {
+				region = DEN_372
+			}
+			secede_province = FROM
+			change_owner = FROM
+		}
+	
+	}
+	option = {
+		name = ""
+	}
+}
+
+country_event = {
+	id = 100363
+	title = ""
+	desc = ""
+	is_triggered_only = yes
+	immediate = {
+		any_country = {
+			limit = {
+				has_country_flag = expand_cb_annex
+			}
+			any_owned = {
+				limit = {
+					region = DENC_amp
+				}
+				secede_province = THIS
+				change_owner = THIS
+			}
+			clr_country_flag = expand_cb_annex
+		}
+		any_owned = {
+			limit = {
+				region = DENC_amp
+			}
+			secede_province = FROM
+			change_owner = FROM
+		}
+	
+	}
+	option = {
+		name = ""
+	}
+}
+
+country_event = {
+	id = 100364
+	title = ""
+	desc = ""
+	is_triggered_only = yes
+	immediate = {
+		any_country = {
+			limit = {
+				has_country_flag = expand_cb_annex
+			}
+			any_owned = {
+				limit = {
+					region = DEN_251
+				}
+				secede_province = THIS
+				change_owner = THIS
+			}
+			clr_country_flag = expand_cb_annex
+		}
+		any_owned = {
+			limit = {
+				region = DEN_251
+			}
+			secede_province = FROM
+			change_owner = FROM
+		}
+	
+	}
+	option = {
+		name = ""
+	}
+}
+
