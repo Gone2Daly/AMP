@@ -1961,7 +1961,7 @@ food_packing_system = {
 	}
 	effect = {
 		factory_goods_output = {
-			food = 0.2 
+			food = 0.5 
 		}
 	}
 }

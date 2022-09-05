@@ -1031,7 +1031,7 @@ guiTypes = {
 				iconType = {
 					name ="selected_industry_icon"
 					spriteType = "GFX_topbar_production"
-					position = { x= 97 y = 101 }
+					position = { x= 98 y = 101 }
 					Orientation = "UPPER_LEFT"
 				}
 				instantTextBoxType = { 
@@ -1057,7 +1057,7 @@ guiTypes = {
 				iconType = {
 					name ="selected_military_icon"
 					spriteType = "GFX_army_icon_2"
-					position = { x= 98 y = 118 }
+					position = { x= 99 y = 118 }
 					Orientation = "UPPER_LEFT"
 				}
 				instantTextBoxType = { 
@@ -1083,7 +1083,7 @@ guiTypes = {
 				iconType = {
 					name ="colonial_power_icon"
 					spriteType = "GFX_pops_colonial_state_icon"
-					position = { x= 99 y = 137 }
+					position = { x= 102 y = 137 }
 					Orientation = "UPPER_LEFT"
 				}
 				instantTextBoxType = {

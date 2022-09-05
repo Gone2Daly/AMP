@@ -537,6 +537,11 @@ gold_rush = {
 	icon = 11
 }
 
+washington_adm = {
+	immigrant_attract = -0.99	
+	icon = 11
+}
+
 witwatersrand_gold_rush = {
 	prestige = 0.01
 	icon = 11
@@ -1885,28 +1890,28 @@ mechanization_of_mines_modifier = {
 }
 mechanization_of_mines_iron_modifier = {
 	icon = 13
-	local_RGO_output = 0.2
+	local_RGO_output = 0.5
 }
 electric_pump_modifier = {
 	icon = 5
-	local_RGO_output = 0.5
+	local_RGO_output = 0.6
 }
 electric_pump_iron_modifier = {
 	icon = 5
-	local_RGO_output = 0.2
+	local_RGO_output = 0.4
 }
 tractors_modifier = {
 	icon = 13
-	local_RGO_output = 0.7
+	local_RGO_output = 1.0
 	local_RGO_throughput = 0.3
 }
 nitroglycerin_coal = {
 	icon = 13
-	local_RGO_output = 1.4
+	local_RGO_output = 1.6
 }
 nitroglycerin_iron = {
 	icon = 13
-	local_RGO_output = 0.5
+	local_RGO_output = 1.2
 }
 electrification = {
 	icon = 5
@@ -1914,15 +1919,15 @@ electrification = {
 }
 electrification_iron = {
 	icon = 5
-	local_RGO_output = 0.2
+	local_RGO_output = 0.4
 }
 barwire_modifier = {
 	icon = 5
-	local_RGO_output = 0.25
+	local_RGO_output = 0.3
 }
 carbon_enrichment_modifier = {
 	icon = 5
-	local_RGO_output = 0.25
+	local_RGO_output = 0.5
 }
 lumber_camp_mechanization = {
 	icon = 13
@@ -1944,11 +1949,11 @@ mechanized_fishing_vessels_modifier = {
 }
 reaping_machine_and_threshing_machine_modifier = {
 	icon = 13
-	local_RGO_output = 0.25
+	local_RGO_output = 0.3
 }
 mechanized_slaughtering_block_modifier = {
 	icon = 13
-	local_RGO_output = 0.25
+	local_RGO_output = 0.3
 }
 drying_techniques_modifier = {
 	icon = 5
@@ -1964,11 +1969,11 @@ electric_machinery_modifier = {
 }
 rotherham_plough_modifier = {
 	icon = 5
-	local_RGO_output = 0.1
+	local_RGO_output = 0.15
 }
 tulls_seed_drill_modifier = {
 	icon = 5
-	local_RGO_output = 0.1
+	local_RGO_output = 0.15
 }
 cotton_gin_modifier = {
 	icon = 5
