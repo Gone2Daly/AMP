@@ -20,11 +20,11 @@ can_work_factory = yes
 color = { 240 240 240 }
 
 life_needs = {
-	food = 12
+	food = 10
 }
 
 everyday_needs = {
-	food = 18
+	food = 9
 	tea = 4
 	tobacco_products = 4
 	coffee = 0.8
@@ -43,7 +43,7 @@ everyday_needs = {
 }
 
 luxury_needs = {
-	food = 20
+	food = 10
 	tea = 4
 	tobacco_products = 5
 	coffee = 1

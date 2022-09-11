@@ -541,6 +541,17 @@ washington_adm = {
 	immigrant_attract = -0.99	
 	icon = 11
 }
+XPR_boost = {
+	tax_efficiency = 1
+	icon = 11
+}
+jasper_fix = {
+	pop_militancy_modifier = -1
+	pop_consciousness_modifier = -1
+	rgo_output = 1
+	immigrant_attract = -1	
+	icon = 11
+}
 
 witwatersrand_gold_rush = {
 	prestige = 0.01

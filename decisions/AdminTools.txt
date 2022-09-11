@@ -146,10 +146,15 @@ political_decisions = {
 			enable_canal = 4
 			enable_canal = 5
 			enable_canal = 6
+			enable_canal = 7
+			enable_canal = 8
+			enable_canal = 9
+			enable_canal = 10
+			enable_canal = 11
 		}
 	}
 	
-	august_liga = {
+	another_amp_ver_fix = {
 		alert = no 
 		potential = {
 			has_country_flag = admintools 
@@ -158,21 +163,18 @@ political_decisions = {
 			ai = no 
 		}
 		effect = {
-			USA = {
-				any_owned = {
-					assimilate = yes
-				}
+					220 = {
+			add_province_modifier = {
+				name = washington_adm
+				duration = -1
 			}
-			AST = {
-				any_owned = {
-					assimilate = yes
-				}
+		}
+		24 = {
+			add_province_modifier = {
+				name = jasper_fix
+				duration = -1
 			}
-			NZL = {
-				any_owned = {
-					assimilate = yes
-				}
-			}
+		}
 		}
 	}
 	

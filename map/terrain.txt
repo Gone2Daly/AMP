@@ -30,7 +30,8 @@ categories =  {
 		mine_rgo_eff = -0.15
 		supply_limit = 4
 	}
-        farmstrait = {
+
+	farmstrait = {
 		movement_cost = 1.5
 		color = { 137 104 165  }
 		farm_rgo_size = 0.3
@@ -87,7 +88,8 @@ categories =  {
 		supply_limit = 5
 
 	}
-        plains_strait = {
+
+	plains_strait = {
 		movement_cost = 1.0
 		color = { 241 221 184 }
 		farm_rgo_size = 0.1
@@ -127,7 +129,7 @@ categories =  {
 		combat_width = -0.50
 	}
 
-        mountain_strait = {
+	mountain_strait = {
 		movement_cost = 3.0
 		defence = 1.5
 		attrition = 2.5
@@ -171,6 +173,19 @@ categories =  {
 	}
 
 	desert = {
+		movement_cost = 5
+		defence = 0.0
+		attrition = 5
+		color = { 241 234 188 }
+		farm_rgo_size = -0.1
+		farm_rgo_eff = -0.6
+		mine_rgo_size = -0.1
+		mine_rgo_eff = -0.3
+		supply_limit = 1
+		min_build_railroad = 2
+	}
+
+	desert_strait = {
 		movement_cost = 5
 		defence = 0.0
 		attrition = 5

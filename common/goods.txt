@@ -94,7 +94,7 @@ raw_material_goods = {
 		color = { 146 72 17 }
 	}
 	tropical_wood = { 
-		cost = 6.1
+		cost = 3.2
 		color = { 213 177 118 }
 	}
 	rubber = { 

@@ -49,7 +49,7 @@ everyday_needs = {
 }
 
 luxury_needs = {
-	food =  9
+	food =  6
 	tea = 4
 	tobacco_products = 5
 	coffee = 1

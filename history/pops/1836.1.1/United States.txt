@@ -6569,7 +6569,7 @@
 	soldiers = {
 		culture = dixie
 		religion = latin-german
-		size = 2000
+		size = 4500
 	}
 
 	farmers = {
@@ -7919,7 +7919,7 @@
 	soldiers = {
 		culture = dixie
 		religion = latin-german
-		size = 2000
+		size = 6000
 	}
 
 	farmers = {
@@ -9264,7 +9264,7 @@
 	soldiers = {
 		culture = yankee
 		religion = latin-german
-		size = 175
+		size = 3175
 	}
 
 	farmers = {
@@ -9826,7 +9826,7 @@
 	soldiers = {
 		culture = yankee
 		religion = latin-german
-		size = 2000
+		size = 3000
 	}
 
 	farmers = {
@@ -9850,7 +9850,7 @@
 	soldiers = {
 		culture = yankee
 		religion = latin-german
-		size = 50
+		size = 6000
 	}
 
 	farmers = {
@@ -10072,7 +10072,7 @@
 	soldiers = {
 		culture = yankee
 		religion = latin-german
-		size = 2000
+		size = 4500
 	}
 
 	farmers = {
@@ -10248,7 +10248,7 @@
 	soldiers = {
 		culture = yankee
 		religion = latin-german
-		size = 2000
+		size = 4500
 	}
 
 	farmers = {
@@ -10448,7 +10448,7 @@
 	soldiers = {
 		culture = yankee
 		religion = latin-german
-		size = 75
+		size = 6075
 	}
 
 	farmers = {
@@ -10660,7 +10660,7 @@
 	soldiers = {
 		culture = yankee
 		religion = latin-german
-		size = 75
+		size = 3075
 	}
 
 	farmers = {

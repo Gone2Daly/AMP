@@ -1,19 +1,19 @@
 Log of Audax.Validator, version 1.16.7 [1.16.7.0]
 
-Current Time: 8/25/2022 2:42:23 PM
+Current Time: 9/4/2022 9:49:21 AM
 .NET Version: 4.0.30319.42000
 OS Version: Microsoft Windows NT 6.2.9200.0
 Current Culture: en-US
 Current UI Culture: en-US
-Command Line: "D:\Vic2AMP\Victoria_II_AMP 1.3\launcher\Vic2 Utilities\Vic2 Utilities\Audax.Validator\App\Audax.Validator.exe" 
+Command Line: "T:\AMP-main\AMP-main\launcher\Vic2 Utilities\Vic2 Utilities\Audax.Validator\App\Audax.Validator.exe" 
 Processor Count: 24
-Current Directory: D:\Vic2AMP\Victoria_II_AMP 1.3\launcher\Vic2 Utilities\Vic2 Utilities\Audax.Validator\App
+Current Directory: T:\AMP-main\AMP-main\launcher\Vic2 Utilities\Vic2 Utilities\Audax.Validator\App
 Machine Name: [machine_name <*******-*******>]
 System Directory: C:\Windows\system32
 User Name: [user_name <****>]
 User Domain Name: [machine_name <*******-*******>]
 User Interactive: True
-Tick Count: 02:54:17.9370000
+Tick Count: 00:26:12.9210000
 Shutdown Started: False
 
 ENVIRONMENT VARIABLES
@@ -24,7 +24,7 @@ LOCALAPPDATA: C:\Users\[user_name <****>]\AppData\Local
 VBOX_HWVIRTEX_IGNORE_SVM_IN_USE: 1
 PSModulePath: C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
 PROCESSOR_ARCHITECTURE: AMD64
-Path: C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Wolfram Research\WolframScript\;C:\Program Files\dotnet\;T:\Programs\Git\cmd;T:\Programs\ProgrammingDependances\Python3.1\Scripts\;T:\Programs\ProgrammingDependances\Python3.1\;C:\Users\[user_name <****>]\AppData\Local\Microsoft\WindowsApps;T:\Programs\Microsoft VS Code\bin;C:\Windows\SysWow64\;T:\Programs\ProgrammingDependances\MSYS2\mingw64\bin;C:\Users\[user_name <****>]\.dotnet\tools;C:\Users\[user_name <****>]\AppData\Local\GitHubDesktop\bin;T:\Programs\ProgrammingDependances\python3.8;C:\Users\[user_name <****>]\AppData\Local\Programs\MiKTeX\miktex\bin\x64\
+Path: C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Wolfram Research\WolframScript\;T:\Programs\Git\cmd;T:\Programs\ProgrammingDependances\Python3.1\Scripts\;T:\Programs\ProgrammingDependances\Python3.1\;C:\Users\[user_name <****>]\AppData\Local\Microsoft\WindowsApps;T:\Programs\Microsoft VS Code\bin;C:\Windows\SysWow64\;T:\Programs\ProgrammingDependances\MSYS2\mingw64\bin;C:\Users\[user_name <****>]\AppData\Local\GitHubDesktop\bin;T:\Programs\ProgrammingDependances\python3.8;C:\Users\[user_name <****>]\AppData\Local\Programs\MiKTeX\miktex\bin\x64\
 CommonProgramFiles(x86): C:\Program Files (x86)\Common Files
 ProgramFiles(x86): C:\Program Files (x86)
 PROCESSOR_LEVEL: 25
@@ -35,20 +35,18 @@ SystemRoot: C:\Windows
 SESSIONNAME: Console
 ALLUSERSPROFILE: C:\ProgramData
 DriverData: C:\Windows\System32\Drivers\DriverData
-FPS_BROWSER_APP_PROFILE_STRING: Internet Explorer
+NIEXTCCOMPILERSUPP: C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\
 APPDATA: C:\Users\[user_name <****>]\AppData\Roaming
 PROCESSOR_REVISION: 2100
 USERNAME: [user_name <****>]
 CommonProgramW6432: C:\Program Files\Common Files
-TEMP: C:\Users\[user_name <****>]\AppData\Local\Temp
 CommonProgramFiles: C:\Program Files\Common Files
 OS: Windows_NT
 USERDOMAIN_ROAMINGPROFILE: [machine_name <*******-*******>]
 PROCESSOR_IDENTIFIER: AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD
 ComSpec: C:\Windows\system32\cmd.exe
-NIEXTCCOMPILERSUPP: C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\
 SystemDrive: C:
-FPS_BROWSER_USER_PROFILE_STRING: Default
+TEMP: C:\Users\[user_name <****>]\AppData\Local\Temp
 ProgramFiles: C:\Program Files
 NUMBER_OF_PROCESSORS: 24
 TMP: C:\Users\[user_name <****>]\AppData\Local\Temp
@@ -564,148 +562,16 @@ ValidationManager: StatusLog > Initialization complete!
 VSET: Processing settings...
 VSET: ValidatorSettings.txt not found
 ValidationManager: StatusLog > Beginning validation...
-ValidationManager: StatusLog > Beginning Events validation...
-ValidationManager: StatusLog > Events validation complete in 4707 ms!
+ValidationManager: StatusLog > Beginning Buildings validation...
+ValidationManager: StatusLog > Buildings validation complete in 38 ms!
 ValidationManager: StatusLog > Beginning Goods validation...
-ValidationManager: StatusLog > Goods validation complete in 9 ms!
-ValidationManager: StatusLog > Beginning Modifiers validation...
-ValidationManager: StatusLog > Modifiers validation complete in 295 ms!
-ValidationManager: StatusLog > Cache hits: 511 Cache misses: 271
+ValidationManager: StatusLog > Goods validation complete in 3 ms!
+ValidationManager: StatusLog > Cache hits: 5 Cache misses: 36
 ValidationManager: StatusLog > Validation complete!
 VSET: Processing settings...
 VSET: ValidatorSettings.txt not found
 ValidationManager: StatusLog > Beginning validation...
-ValidationManager: StatusLog > Beginning Events validation...
-ValidationManager: StatusLog > Events validation complete in 5488 ms!
-ValidationManager: StatusLog > Beginning Goods validation...
-ValidationManager: StatusLog > Goods validation complete in 12 ms!
-ValidationManager: StatusLog > Beginning Modifiers validation...
-ValidationManager: StatusLog > Modifiers validation complete in 302 ms!
-ValidationManager: StatusLog > Cache hits: 511 Cache misses: 271
-ValidationManager: StatusLog > Validation complete!
-VSET: Processing settings...
-VSET: ValidatorSettings.txt not found
-ValidationManager: StatusLog > Beginning validation...
-ValidationManager: StatusLog > Beginning Events validation...
-ValidationManager: StatusLog > Events validation complete in 4512 ms!
-ValidationManager: StatusLog > Beginning Goods validation...
-ValidationManager: StatusLog > Goods validation complete in 9 ms!
-ValidationManager: StatusLog > Beginning Modifiers validation...
-ValidationManager: StatusLog > Modifiers validation complete in 327 ms!
-ValidationManager: StatusLog > Cache hits: 511 Cache misses: 271
-ValidationManager: StatusLog > Validation complete!
-VSET: Processing settings...
-VSET: ValidatorSettings.txt not found
-ValidationManager: StatusLog > Beginning validation...
-ValidationManager: StatusLog > Beginning Events validation...
-ValidationManager: StatusLog > Events validation complete in 4880 ms!
-ValidationManager: StatusLog > Beginning Goods validation...
-ValidationManager: StatusLog > Goods validation complete in 9 ms!
-ValidationManager: StatusLog > Beginning Modifiers validation...
-ValidationManager: StatusLog > Modifiers validation complete in 344 ms!
-ValidationManager: StatusLog > Cache hits: 511 Cache misses: 271
-ValidationManager: StatusLog > Validation complete!
-VSET: Processing settings...
-VSET: ValidatorSettings.txt not found
-ValidationManager: StatusLog > Beginning validation...
-ValidationManager: StatusLog > Beginning Events validation...
-ValidationManager: StatusLog > Events validation complete in 4537 ms!
-ValidationManager: StatusLog > Beginning Goods validation...
-ValidationManager: StatusLog > Goods validation complete in 12 ms!
-ValidationManager: StatusLog > Beginning Modifiers validation...
-ValidationManager: StatusLog > Modifiers validation complete in 311 ms!
-ValidationManager: StatusLog > Cache hits: 511 Cache misses: 271
-ValidationManager: StatusLog > Validation complete!
-VSET: Processing settings...
-VSET: ValidatorSettings.txt not found
-ValidationManager: StatusLog > Beginning validation...
-ValidationManager: StatusLog > Beginning Inventions validation...
-ValidationManager: StatusLog > Inventions validation complete in 1022 ms!
-ValidationManager: StatusLog > Beginning Tech validation...
-ValidationManager: StatusLog > Tech validation complete in 152 ms!
-ValidationManager: StatusLog > Cache hits: 20 Cache misses: 199
-ValidationManager: StatusLog > Validation complete!
-VSET: Processing settings...
-VSET: ValidatorSettings.txt not found
-ValidationManager: StatusLog > Beginning validation...
-ValidationManager: StatusLog > Beginning Inventions validation...
-ValidationManager: StatusLog > Inventions validation complete in 1011 ms!
-ValidationManager: StatusLog > Beginning Tech validation...
-ValidationManager: StatusLog > Tech validation complete in 156 ms!
-ValidationManager: StatusLog > Cache hits: 19 Cache misses: 198
-ValidationManager: StatusLog > Validation complete!
-VSET: Processing settings...
-VSET: ValidatorSettings.txt not found
-ValidationManager: StatusLog > Beginning validation...
-ValidationManager: StatusLog > Beginning Inventions validation...
-ValidationManager: StatusLog > Inventions validation complete in 969 ms!
-ValidationManager: StatusLog > Beginning Tech validation...
-ValidationManager: StatusLog > Tech validation complete in 149 ms!
-ValidationManager: StatusLog > Cache hits: 19 Cache misses: 198
-ValidationManager: StatusLog > Validation complete!
-VSET: Processing settings...
-VSET: ValidatorSettings.txt not found
-ValidationManager: StatusLog > Beginning validation...
-ValidationManager: StatusLog > 
-ValidationManager: StatusLog > ec) EXCEPTION CONTEXT
-ValidationManager: StatusLog > 
-StatusLog > 
-StatusLog > 
-StatusLog > ERROR
-StatusLog > System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\Vic2AMP\Victoria_II_AMP 1.3\common\landed_titles'.
-StatusLog >    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
-StatusLog >    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
-StatusLog >    at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
-StatusLog >    at System.IO.Directory.EnumerateFiles(String path, String searchPattern, SearchOption searchOption)
-StatusLog >    at Audax.Pdox.IO.PathResolver.DirectoryGetFiles(String path, String searchPattern, SearchOption searchOption)
-StatusLog >    at Audax.Pdox.IO.NoModPathResolver.GetFiles(DirectoryPath path, String searchPattern, SearchOption searchOption)
-StatusLog >    at Audax.Pdox.IO.CDirectoryPath.GetFiles(String searchPattern, SearchOption searchOption)
-StatusLog >    at Audax.Pdox.IO.CDirectory.GetFiles(CDirectoryPath path, String searchPattern, SearchOption searchOption)
-StatusLog >    at Audax.Validator.Clausewitz.Ck2.MercenaryModifierFactory.LoadDefaultConstraints(Context c)
-StatusLog >    at Audax.Validator.TypeCore.ConstraintPrevalidation.<>c__DisplayClass8.<OnPrevalidation>b__2(KeyValuePair`2 fac)
-StatusLog >    at System.Linq.Enumerable.<SelectManyIterator>d__23`3.MoveNext()
-StatusLog >    at Audax.Validator.TypeCore.ConstraintPrevalidation.OnPrevalidation(Context c, Scope scope)
-StatusLog >    at Audax.Validator.GameValidator.Validate(Action onEachValidatorCompleteAction)
-VSET: Processing settings...
-VSET: ValidatorSettings.txt not found
-ValidationManager: StatusLog > Beginning validation...
-ValidationManager: StatusLog > Beginning Inventions validation...
-ValidationManager: StatusLog > Inventions validation complete in 957 ms!
-ValidationManager: StatusLog > Beginning Tech validation...
-ValidationManager: StatusLog > Tech validation complete in 162 ms!
-ValidationManager: StatusLog > Cache hits: 19 Cache misses: 198
-ValidationManager: StatusLog > Validation complete!
-VSET: Processing settings...
-VSET: ValidatorSettings.txt not found
-ValidationManager: StatusLog > Beginning validation...
-ValidationManager: StatusLog > Cache hits: 3 Cache misses: 33
-ValidationManager: StatusLog > Validation complete!
-VSET: Processing settings...
-VSET: ValidatorSettings.txt not found
-ValidationManager: StatusLog > Beginning validation...
-ValidationManager: StatusLog > Beginning Inventions validation...
-ValidationManager: StatusLog > Inventions validation complete in 958 ms!
-ValidationManager: StatusLog > Cache hits: 12 Cache misses: 198
-ValidationManager: StatusLog > Validation complete!
-VSET: Processing settings...
-VSET: ValidatorSettings.txt not found
-ValidationManager: StatusLog > Beginning validation...
-ValidationManager: StatusLog > Beginning Goods validation...
-ValidationManager: StatusLog > Goods validation complete in 9 ms!
-ValidationManager: StatusLog > Beginning Inventions validation...
-ValidationManager: StatusLog > Inventions validation complete in 1018 ms!
-ValidationManager: StatusLog > Beginning Tech validation...
-ValidationManager: StatusLog > Tech validation complete in 148 ms!
-ValidationManager: StatusLog > Cache hits: 20 Cache misses: 199
-ValidationManager: StatusLog > Validation complete!
-VSET: Processing settings...
-VSET: ValidatorSettings.txt not found
-ValidationManager: StatusLog > Beginning validation...
-ValidationManager: StatusLog > Beginning Goods validation...
-ValidationManager: StatusLog > Goods validation complete in 9 ms!
-ValidationManager: StatusLog > Beginning Inventions validation...
-ValidationManager: StatusLog > Inventions validation complete in 986 ms!
-ValidationManager: StatusLog > Beginning Tech validation...
-ValidationManager: StatusLog > Tech validation complete in 141 ms!
-ValidationManager: StatusLog > Cache hits: 19 Cache misses: 198
+ValidationManager: StatusLog > Beginning Map validation...
+ValidationManager: StatusLog > Map validation complete in 1206 ms!
+ValidationManager: StatusLog > Cache hits: 5 Cache misses: 36
 ValidationManager: StatusLog > Validation complete!

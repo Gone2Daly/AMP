@@ -3,6 +3,7 @@ controller = YEM
 add_core = YEM
 trade_goods = fish
 life_rating = 45
+terrain = mountain_strait
 
 1861.1.1 = {
 	owner = ENG

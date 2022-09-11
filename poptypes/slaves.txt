@@ -23,7 +23,7 @@ everyday_needs = {
 }
 
 luxury_needs = {
-	food = 8
+	food = 6
 	opium = 1
 }
 

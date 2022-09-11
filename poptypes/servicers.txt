@@ -19,7 +19,7 @@ life_needs = {
 }
 
 everyday_needs = {
-	food = 14
+	food = 7
 	tea = 4
 	tobacco_products = 4
 	coffee = 0.8
@@ -38,7 +38,7 @@ everyday_needs = {
 }
 
 luxury_needs = {
-	food = 20
+	food = 10
 	tea = 4
 	printing_products = 4
 	tobacco_products = 5

@@ -2636,6 +2636,68 @@
 	}
 }
 #Tiksi (11520/2880 POPS) 
+24 = {
+	aristocrats = {
+		culture = manchu
+		religion = mongoloid
+		size = 48
+	}
+
+	clergymen = {
+		culture = manchu
+		religion = mongoloid
+		size = 24
+	}
+
+	artisans = {
+		culture = manchu
+		religion = mongoloid
+		size = 1280
+	}
+
+	soldiers = {
+		culture = manchu
+		religion = mongoloid
+		size = 28
+	}
+
+	farmers = {
+		culture = manchu
+		religion = mongoloid
+		size = 2332
+	}
+
+	aristocrats = {
+		culture = siberian
+		religion = mongoloid
+		size = 4
+	}
+
+	clergymen = {
+		culture = siberian
+		religion = mongoloid
+		size = 8
+	}
+
+	artisans = {
+		culture = siberian
+		religion = mongoloid
+		size = 16
+	}
+
+	soldiers = {
+		culture = siberian
+		religion = mongoloid
+		size = 4
+	}
+
+	farmers = {
+		culture = siberian
+		religion = mongoloid
+		size = 2880
+	}
+}
+#Tiksi (11520/2880 POPS) 
 2670 = {
 	aristocrats = {
 		culture = manchu
@@ -2694,7 +2756,7 @@
 	farmers = {
 		culture = siberian
 		religion = mongoloid
-		size = 288
+		size = 2880
 	}
 }
 #Magdagachi (22000/5500 POPS)
@@ -4589,7 +4651,7 @@
 		size = 963
 	}
 }
-#Öèòàéõý (192720/48180 POPS)
+#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ (192720/48180 POPS)
 3256 = {
 	aristocrats = {
 		culture = manchu

@@ -1265,6 +1265,7 @@ AMP_Guinea;Гвинея;
 AMP_Invorycoast;Кот-д’Ивуар;
 AMP_Kenya;Кения;
 AMP_Malawi;Малави;
+AMP_reg;Технический Регион для вызываемых динамических ивентов;
 AMP_Mali;Мали;
 AMP_Mauritania;Мавритания;
 AMP_Mozambique;Мозамбик;

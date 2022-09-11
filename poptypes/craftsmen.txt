@@ -13,11 +13,11 @@ rebel =
 }
 
 life_needs = {
-	food = 12
+	food = 10
 }
 
 everyday_needs = {
-	food = 18
+	food = 4
 	tea = 4
 	tobacco_products = 2
 	coffee = 0.4
@@ -34,7 +34,7 @@ everyday_needs = {
 }
 
 luxury_needs = {
-	food = 20
+	food = 5
 	tea = 4
 	tobacco_products = 5
 	coffee = 1

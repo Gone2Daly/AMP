@@ -3,6 +3,7 @@ controller = ABU
 add_core = ABU
 trade_goods = grain
 life_rating = 45
+terrain = desert_strait
 
 1914.1.1 = {
 	owner = ENG

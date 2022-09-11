@@ -22,7 +22,6 @@ concede_elsass = {
 	allow = {
 		prestige = 75
 		war = no
-		year = 1871
 	}
 	effect = {
 		410 = {
@@ -41,13 +40,7 @@ concede_elsass = {
 		set_country_flag = conceded_elsass
 		}
 	ai_will_do = {
-		factor = 0
-		modifier = {
-			factor = 1
-			AND = {
-				prestige = 300
-			}
-		}
+		factor = -1
 	}
 	}
 	
@@ -64,7 +57,7 @@ concede_elsass = {
 		}
 		effect = {
 			1087 = {
-				change_province_name = "Корсаков"
+				change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 			}
 			prestige = 5
 			set_global_flag = russia_has_renamed_sakhalin
@@ -85,7 +78,7 @@ concede_elsass = {
 		}
 		effect = {
 			1087 = {
-				change_province_name = "Отомари"
+				change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 			}
 			prestige = 5
 			set_global_flag = japan_has_renamed_sakhalin
@@ -106,10 +99,10 @@ concede_elsass = {
 		}
 		effect = {
 			1088 = {
-				change_province_name = "Парамушир"
+				change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 			}
 			1089 = {
-				change_province_name = "Итуруп"
+				change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅ"
 			}
 			prestige = 5
 			set_global_flag = russia_has_renamed_kuriles
@@ -130,10 +123,10 @@ concede_elsass = {
 		}
 		effect = {
 			1088 = {
-				change_province_name = "Парамуширо-то"
+				change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅ"
 			}
 			1089 = {
-				change_province_name = "Эторофу"
+				change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 			}
 			prestige = 5
 			set_global_flag = japan_has_renamed_kuriles
@@ -158,7 +151,7 @@ concede_elsass = {
 			capital = 1649
 			prestige = 5
 			1649 = {
-				change_province_name = "Токио"
+				change_province_name = "пїЅпїЅпїЅпїЅпїЅ"
 				life_rating = 10
 			}
 			any_pop = {

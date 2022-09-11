@@ -29,6 +29,9 @@ country_event = {
 		enable_canal = 6
 		enable_canal = 7
 		enable_canal = 8
+		enable_canal = 9
+		enable_canal = 10
+		enable_canal = 11
 		any_country = {
 			set_variable = { which = "claim_on_AMP_ethiopia" value = 0 }
 			set_variable = { which = "claim_on_AMP_Liberia" value = 0 }
@@ -73,7 +76,20 @@ country_event = {
 			set_variable = { which = "claim_on_AMP_Angola" value = 0 }
 			set_variable = { which = "claim_on_AMP_Aldjazair" value = 0 }
 		}
-		
+		220 = {
+			add_province_modifier = {
+				name = washington_adm
+				duration = -1
+			}
+		}
+		24 = {
+			add_province_modifier = {
+				name = jasper_fix
+				duration = -1
+			}
+		}
+		XPR = { money = 100000 }
+		XPR = { add_country_modifier = {name = XPR_boost duration = -1} }
 		XPR = { set_variable = { which = "build_building1_progress" value = 0 } }
 		any_country = {
 			limit = {
