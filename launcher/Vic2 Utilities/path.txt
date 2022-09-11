@@ -1,0 +1,3 @@
+#Sun Sep 11 15:47:58 CEST 2022
+saveGame=C\:/Users/Tyaf/Documents/Paradox Interactive/Victoria II/AMP_HRT1/save games/autosave.v2
+gamePatch=C\:/Users/Tyaf/Documents/GitHub/AMP
