@@ -1,0 +1,351 @@
+political_decisions = {
+   
+
+
+	
+   AdminTools_on = { 
+		alert = no 
+		potential = { 
+			not = { has_country_flag = admintools }	
+			has_country_flag = admintools_claimed
+			} 
+		allow = { 
+			ai = no
+			} 
+		effect = { 
+			set_country_flag = admintools 
+			} 
+		}
+   AdminTools_off = {
+		alert = no 
+		potential = { 
+			has_country_flag = admintools 
+		} 
+		allow = { 
+			ai = no
+		} 
+		effect = { 
+			clr_country_flag = admintools
+			clr_country_flag = admintools_penalty
+			clr_country_flag = admintools_bonus
+			clr_country_flag = admintools_rp
+		} 
+	}
+	
+	
+	kill_capitalists = {
+		alert = no 
+		potential = {
+			has_country_flag = admintools 
+		}
+		allow = { 
+			ai = no 
+		}
+		effect = {
+			any_pop = {
+				limit = {
+					type = capitalists
+				}
+				reduce_pop = -1
+			}
+		}
+	}
+	
+	kill_every_capitalist = {
+		alert = no 
+		potential = {
+			has_country_flag = admintools 
+		}
+		allow = { 
+			ai = no 
+		}
+		effect = {
+			any_country = {
+				any_pop = {
+					limit = {
+						type = capitalists
+					}
+					reduce_pop = -1
+				}
+			}
+		}
+	}
+	
+	stop_capitalists = {
+		alert = no 
+		potential = {
+			has_country_flag = admintools 
+		}
+		allow = { 
+			ai = no 
+		}
+		effect = {
+			set_country_flag = no_caps_forced
+			any_country = {
+				set_country_flag = no_caps_forced
+			}
+		}
+	}
+	
+	kill_everyone = {
+		alert = no 
+		potential = {
+			has_country_flag = admintools 
+		}
+		allow = { 
+			ai = no 
+		}
+		effect = {
+			any_pop = {
+				reduce_pop = -1
+			}
+		}
+	}
+	
+	up_population = {
+		alert = no 
+		potential = {
+			has_country_flag = admintools 
+		}
+		allow = { 
+			ai = no 
+		}
+		effect = {
+			any_pop = {
+				reduce_pop = 1.1
+			}
+		}
+	}
+	
+	up_population_everywhere = {
+		alert = no 
+		potential = {
+			has_country_flag = admintools 
+		}
+		allow = { 
+			ai = no 
+		}
+		effect = {
+			any_country = {
+				any_pop = {
+					reduce_pop = 1.1
+				}
+			}
+		}
+	}
+	
+	open_canals = {
+		alert = no 
+		potential = {
+			has_country_flag = admintools 
+		}
+		allow = { 
+			ai = no 
+		}
+		effect = {
+			enable_canal = 4
+			enable_canal = 5
+			enable_canal = 6
+		}
+	}
+	
+	august_liga = {
+		alert = no 
+		potential = {
+			has_country_flag = admintools 
+		}
+		allow = { 
+			ai = no 
+		}
+		effect = {
+			USA = {
+				any_owned = {
+					assimilate = yes
+				}
+			}
+			AST = {
+				any_owned = {
+					assimilate = yes
+				}
+			}
+			NZL = {
+				any_owned = {
+					assimilate = yes
+				}
+			}
+		}
+	}
+	
+	AdminTools_penalty_on = { 
+	alert = no 
+	potential = { 
+		has_country_flag = admintools 
+		not = { has_country_flag = admintools_penalty }
+		} 
+	allow = { 
+		ai = no
+		} 
+	effect = { set_country_flag = admintools_penalty } 
+	}
+	
+	AdminTools_penalty_off = { 
+	alert = no 
+	potential = { 
+		has_country_flag = admintools 
+		has_country_flag = admintools_penalty
+		} 
+	allow = { 
+		ai = no
+		} 
+	effect = { clr_country_flag = admintools_penalty } 
+	}
+	
+	
+	
+	AdminTools_bonus_on = { 
+	alert = no 
+	potential = { 
+		has_country_flag = admintools 
+		not = { has_country_flag = admintools_bonus }
+		} 
+	allow = { 
+		ai = no
+		} 
+	effect = { set_country_flag = admintools_bonus } 
+	}
+	
+	AdminTools_bonus_off = { 
+	alert = no 
+	potential = { 
+		has_country_flag = admintools 
+		has_country_flag = admintools_bonus
+		} 
+	allow = { 
+		ai = no
+		} 
+	effect = { clr_country_flag = admintools_bonus } 
+	}
+	
+	
+	
+	AdminTools_rp_on = { 
+	alert = no 
+	potential = { 
+		has_country_flag = admintools 
+		not = { has_country_flag = admintools_rp }
+		} 
+	allow = { 
+		ai = no
+		} 
+	effect = { set_country_flag = admintools_rp } 
+	}
+	
+	AdminTools_rp_off = { 
+	alert = no 
+	potential = { 
+		has_country_flag = admintools 
+		has_country_flag = admintools_rp
+		} 
+	allow = { 
+		ai = no
+		} 
+	effect = { clr_country_flag = admintools_rp } 
+	}
+	
+	admintools_penalty_ENG = { alert = no potential = { has_country_flag = admintools_penalty exists = ENG } effect = { ENG = {prestige = -10}  } }
+	admintools_penalty_RUS = { alert = no potential = { has_country_flag = admintools_penalty exists = RUS } effect = { RUS = {prestige = -10}  } }
+	admintools_penalty_FRA = { alert = no potential = { has_country_flag = admintools_penalty exists = FRA } effect = { FRA = {prestige = -10}  } }
+	admintools_penalty_PRU = { alert = no potential = { has_country_flag = admintools_penalty exists = PRU } effect = { PRU = {prestige = -10}  } }
+	admintools_penalty_NGF = { alert = no potential = { has_country_flag = admintools_penalty exists = NGF } effect = { NGF = {prestige = -10}  } }
+	admintools_penalty_GER = { alert = no potential = { has_country_flag = admintools_penalty exists = GER } effect = { GER = {prestige = -10}  } }
+	admintools_penalty_AUS = { alert = no potential = { has_country_flag = admintools_penalty exists = AUS } effect = { AUS = {prestige = -10}  } }
+	admintools_penalty_KUK = { alert = no potential = { has_country_flag = admintools_penalty exists = KUK } effect = { KUK = {prestige = -10}  } }
+	admintools_penalty_SGF = { alert = no potential = { has_country_flag = admintools_penalty exists = SGF } effect = { SGF = {prestige = -10}  } }
+	admintools_penalty_USA = { alert = no potential = { has_country_flag = admintools_penalty exists = USA } effect = { USA = {prestige = -10}  } }
+	admintools_penalty_CSA = { alert = no potential = { has_country_flag = admintools_penalty exists = USA } effect = { CSA = {prestige = -10}  } }
+	admintools_penalty_JAP = { alert = no potential = { has_country_flag = admintools_penalty exists = JAP } effect = { JAP = {prestige = -10}  } }
+	admintools_penalty_ITA = { alert = no potential = { has_country_flag = admintools_penalty exists = ITA } effect = { ITA = {prestige = -10}  } }
+	admintools_penalty_SWE = { alert = no potential = { has_country_flag = admintools_penalty exists = SWE } effect = { SWE = {prestige = -10}  } }
+	admintools_penalty_SCA = { alert = no potential = { has_country_flag = admintools_penalty exists = SCA } effect = { SCA = {prestige = -10}  } }
+	admintools_penalty_BEL = { alert = no potential = { has_country_flag = admintools_penalty exists = BEL } effect = { BEL = {prestige = -10}  } }
+	admintools_penalty_NET = { alert = no potential = { has_country_flag = admintools_penalty exists = NET } effect = { NET = {prestige = -10}  } }
+	admintools_penalty_SPA = { alert = no potential = { has_country_flag = admintools_penalty exists = SPA } effect = { SPA = {prestige = -10}  } }
+	admintools_penalty_SIC = { alert = no potential = { has_country_flag = admintools_penalty exists = SIC } effect = { SIC = {prestige = -10}  } }
+	admintools_penalty_TUR = { alert = no potential = { has_country_flag = admintools_penalty exists = TUR } effect = { TUR = {prestige = -10}  } }
+	admintools_penalty_CAN = { alert = no potential = { has_country_flag = admintools_penalty exists = CAN } effect = { CAN = {prestige = -10}  } }
+	admintools_penalty_COL = { alert = no potential = { has_country_flag = admintools_penalty exists = COL } effect = { COL = {prestige = -10}  } }
+	admintools_penalty_QUE = { alert = no potential = { has_country_flag = admintools_penalty exists = QUE } effect = { QUE = {prestige = -10}  } }
+	admintools_penalty_CLM = { alert = no potential = { has_country_flag = admintools_penalty exists = CLM } effect = { CLM = {prestige = -10}  } }
+	admintools_penalty_ANU = { alert = no potential = { has_country_flag = admintools_penalty exists = ANU } effect = { ANU = {prestige = -10}  } }
+	admintools_penalty_LAF = { alert = no potential = { has_country_flag = admintools_penalty exists = LAF } effect = { LAF = {prestige = -10}  } }
+	admintools_penalty_AST = { alert = no potential = { has_country_flag = admintools_penalty exists = AST } effect = { AST = {prestige = -10}  } }
+	admintools_penalty_NZL = { alert = no potential = { has_country_flag = admintools_penalty exists = NZL } effect = { NZL = {prestige = -10}  } }
+	admintools_penalty_GCO = { alert = no potential = { has_country_flag = admintools_penalty exists = GCO } effect = { GCO = {prestige = -10}  } }
+	admintools_penalty_SAR = { alert = no potential = { has_country_flag = admintools_penalty exists = SAR } effect = { SAR = {prestige = -10}  } }
+	admintools_penalty_CHI = { alert = no potential = { has_country_flag = admintools_penalty exists = CHI } effect = { CHI = {prestige = -10}  } }
+	
+	admintools_bonus_ENG = { alert = no potential = { has_country_flag = admintools_bonus exists = ENG } effect = { ENG = {prestige = 10}  } }
+	admintools_bonus_RUS = { alert = no potential = { has_country_flag = admintools_bonus exists = RUS } effect = { RUS = {prestige = 10}  } }
+	admintools_bonus_FRA = { alert = no potential = { has_country_flag = admintools_bonus exists = FRA } effect = { FRA = {prestige = 10}  } }
+	admintools_bonus_PRU = { alert = no potential = { has_country_flag = admintools_bonus exists = PRU } effect = { PRU = {prestige = 10}  } }
+	admintools_bonus_NGF = { alert = no potential = { has_country_flag = admintools_bonus exists = NGF } effect = { NGF = {prestige = 10}  } }
+	admintools_bonus_GER = { alert = no potential = { has_country_flag = admintools_bonus exists = GER } effect = { GER = {prestige = 10}  } }
+	admintools_bonus_AUS = { alert = no potential = { has_country_flag = admintools_bonus exists = AUS } effect = { AUS = {prestige = 10}  } }
+	admintools_bonus_KUK = { alert = no potential = { has_country_flag = admintools_bonus exists = KUK } effect = { KUK = {prestige = 10}  } }
+	admintools_bonus_SGF = { alert = no potential = { has_country_flag = admintools_bonus exists = SGF } effect = { SGF = {prestige = 10}  } }
+	admintools_bonus_USA = { alert = no potential = { has_country_flag = admintools_bonus exists = USA } effect = { USA = {prestige = 10}  } }
+	admintools_bonus_CSA = { alert = no potential = { has_country_flag = admintools_bonus exists = USA } effect = { CSA = {prestige = 10}  } }
+	admintools_bonus_JAP = { alert = no potential = { has_country_flag = admintools_bonus exists = JAP } effect = { JAP = {prestige = 10}  } }
+	admintools_bonus_ITA = { alert = no potential = { has_country_flag = admintools_bonus exists = ITA } effect = { ITA = {prestige = 10}  } }
+	admintools_bonus_SWE = { alert = no potential = { has_country_flag = admintools_bonus exists = SWE } effect = { SWE = {prestige = 10}  } }
+	admintools_bonus_SCA = { alert = no potential = { has_country_flag = admintools_bonus exists = SCA } effect = { SCA = {prestige = 10}  } }
+	admintools_bonus_BEL = { alert = no potential = { has_country_flag = admintools_bonus exists = BEL } effect = { BEL = {prestige = 10}  } }
+	admintools_bonus_NET = { alert = no potential = { has_country_flag = admintools_bonus exists = NET } effect = { NET = {prestige = 10}  } }
+	admintools_bonus_SPA = { alert = no potential = { has_country_flag = admintools_bonus exists = SPA } effect = { SPA = {prestige = 10}  } }
+	admintools_bonus_SIC = { alert = no potential = { has_country_flag = admintools_bonus exists = SIC } effect = { SIC = {prestige = 10}  } }
+	admintools_bonus_TUR = { alert = no potential = { has_country_flag = admintools_bonus exists = TUR } effect = { TUR = {prestige = 10}  } }
+	admintools_bonus_CAN = { alert = no potential = { has_country_flag = admintools_bonus exists = CAN } effect = { CAN = {prestige = 10}  } }
+	admintools_bonus_COL = { alert = no potential = { has_country_flag = admintools_bonus exists = COL } effect = { COL = {prestige = 10}  } }
+	admintools_bonus_QUE = { alert = no potential = { has_country_flag = admintools_bonus exists = QUE } effect = { QUE = {prestige = 10}  } }
+	admintools_bonus_CLM = { alert = no potential = { has_country_flag = admintools_bonus exists = CLM } effect = { CLM = {prestige = 10}  } }
+	admintools_bonus_ANU = { alert = no potential = { has_country_flag = admintools_bonus exists = ANU } effect = { ANU = {prestige = 10}  } }
+	admintools_bonus_LAF = { alert = no potential = { has_country_flag = admintools_bonus exists = LAF } effect = { LAF = {prestige = 10}  } }
+	admintools_bonus_AST = { alert = no potential = { has_country_flag = admintools_bonus exists = AST } effect = { AST = {prestige = 10}  } }
+	admintools_bonus_NZL = { alert = no potential = { has_country_flag = admintools_bonus exists = NZL } effect = { NZL = {prestige = 10}  } }
+	admintools_bonus_GCO = { alert = no potential = { has_country_flag = admintools_bonus exists = GCO } effect = { GCO = {prestige = 10}  } }
+	admintools_bonus_SAR = { alert = no potential = { has_country_flag = admintools_bonus exists = SAR } effect = { SAR = {prestige = 10}  } }
+	admintools_bonus_CHI = { alert = no potential = { has_country_flag = admintools_bonus exists = CHI } effect = { CHI = {prestige = 10}  } }
+	
+	admintools_rp_ENG = { alert = no potential = { has_country_flag = admintools_rp exists = ENG } effect = { ENG = {years_of_research = 0.33}  } }
+	admintools_rp_RUS = { alert = no potential = { has_country_flag = admintools_rp exists = RUS } effect = { RUS = {years_of_research = 0.28}  } }
+	admintools_rp_FRA = { alert = no potential = { has_country_flag = admintools_rp exists = FRA } effect = { FRA = {years_of_research = 0.28}  } }
+	admintools_rp_PRU = { alert = no potential = { has_country_flag = admintools_rp exists = PRU } effect = { PRU = {years_of_research = 0.28}  } }
+	admintools_rp_NGF = { alert = no potential = { has_country_flag = admintools_rp exists = NGF } effect = { NGF = {years_of_research = 0.28}  } }
+	admintools_rp_GER = { alert = no potential = { has_country_flag = admintools_rp exists = GER } effect = { GER = {years_of_research = 0.28}  } }
+	admintools_rp_AUS = { alert = no potential = { has_country_flag = admintools_rp exists = AUS } effect = { AUS = {years_of_research = 0.28}  } }
+	admintools_rp_KUK = { alert = no potential = { has_country_flag = admintools_rp exists = KUK } effect = { KUK = {years_of_research = 0.28}  } }
+	admintools_rp_SGF = { alert = no potential = { has_country_flag = admintools_rp exists = SGF } effect = { SGF = {years_of_research = 0.28}  } }
+	admintools_rp_USA = { alert = no potential = { has_country_flag = admintools_rp exists = USA } effect = { USA = {years_of_research = 0.28}  } }
+	admintools_rp_CSA = { alert = no potential = { has_country_flag = admintools_rp exists = USA } effect = { CSA = {years_of_research = 0.28}  } }
+	admintools_rp_JAP = { alert = no potential = { has_country_flag = admintools_rp exists = JAP } effect = { JAP = {years_of_research = 0.28}  } }
+	admintools_rp_ITA = { alert = no potential = { has_country_flag = admintools_rp exists = ITA } effect = { ITA = {years_of_research = 0.28}  } }
+	admintools_rp_SWE = { alert = no potential = { has_country_flag = admintools_rp exists = SWE } effect = { SWE = {years_of_research = 0.28}  } }
+	admintools_rp_SCA = { alert = no potential = { has_country_flag = admintools_rp exists = SCA } effect = { SCA = {years_of_research = 0.28}  } }
+	admintools_rp_BEL = { alert = no potential = { has_country_flag = admintools_rp exists = BEL } effect = { BEL = {years_of_research = 0.28}  } }
+	admintools_rp_NET = { alert = no potential = { has_country_flag = admintools_rp exists = NET } effect = { NET = {years_of_research = 0.28}  } }
+	admintools_rp_SPA = { alert = no potential = { has_country_flag = admintools_rp exists = SPA } effect = { SPA = {years_of_research = 0.28}  } }
+	admintools_rp_SIC = { alert = no potential = { has_country_flag = admintools_rp exists = SIC } effect = { SIC = {years_of_research = 0.28}  } }
+	admintools_rp_TUR = { alert = no potential = { has_country_flag = admintools_rp exists = TUR } effect = { TUR = {years_of_research = 0.28}  } }
+	admintools_rp_CAN = { alert = no potential = { has_country_flag = admintools_rp exists = CAN } effect = { CAN = {years_of_research = 0.28}  } }
+	admintools_rp_COL = { alert = no potential = { has_country_flag = admintools_rp exists = COL } effect = { COL = {years_of_research = 0.28}  } }
+	admintools_rp_QUE = { alert = no potential = { has_country_flag = admintools_rp exists = QUE } effect = { QUE = {years_of_research = 0.28}  } }
+	admintools_rp_CLM = { alert = no potential = { has_country_flag = admintools_rp exists = CLM } effect = { CLM = {years_of_research = 0.28}  } }
+	admintools_rp_ANU = { alert = no potential = { has_country_flag = admintools_rp exists = ANU } effect = { ANU = {years_of_research = 0.28}  } }
+	admintools_rp_LAF = { alert = no potential = { has_country_flag = admintools_rp exists = LAF } effect = { LAF = {years_of_research = 0.28}  } }
+	admintools_rp_AST = { alert = no potential = { has_country_flag = admintools_rp exists = AST } effect = { AST = {years_of_research = 0.28}  } }
+	admintools_rp_NZL = { alert = no potential = { has_country_flag = admintools_rp exists = NZL } effect = { NZL = {years_of_research = 0.28}  } }
+	admintools_rp_GCO = { alert = no potential = { has_country_flag = admintools_rp exists = GCO } effect = { GCO = {years_of_research = 0.28}  } }
+	admintools_rp_SAR = { alert = no potential = { has_country_flag = admintools_rp exists = SAR } effect = { SAR = {years_of_research = 0.28}  } }
+	admintools_rp_CHI = { alert = no potential = { has_country_flag = admintools_rp exists = CHI } effect = { CHI = {years_of_research = 0.28}  } }
+	
+}

@@ -1,0 +1,65 @@
+political_decisions = {
+	Claim_AdminTools = { 
+		alert = no 
+		potential = {
+			AND = {
+				AND = {
+					not = { has_country_flag = admintools_claimed }
+					not = { has_global_flag = admintools_organisator_claimed }
+				}
+			}
+		} 
+		allow = { 
+			ai = no
+		} 
+		effect = { 
+			set_global_flag = admintools_organisator_claimed
+			set_country_flag = admintools_claimed
+		} 
+	}
+	Unclaim_AdminTools = {
+		alert = no 
+		potential = { 
+			has_country_flag = admintools_claimed
+		} 
+		allow = { 
+			ai = no
+		} 
+		effect = {
+			clr_global_flag = admintools_organisator_claimed
+			clr_country_flag = admintools_claimed
+		} 
+	}
+	22.12.18_league = {
+		alert = no 
+		potential = { 
+			has_country_flag = admintools_claimed
+		} 
+		allow = { 
+			ai = no
+		} 
+		effect = {
+			RUS = {
+				any_pop = {
+					limit = {
+						type = soldiers
+					}
+					pop_type = farmers
+				}
+				clr_country_flag = soldiers_fix
+			}
+			SCA = {
+				any_pop = {
+					limit = {
+						type = soldiers
+					}
+					pop_type = farmers
+				}
+				clr_country_flag = soldiers_fix
+			}
+			GER = {
+				clr_country_flag = soldiers_fix
+			}
+		} 
+	}
+}

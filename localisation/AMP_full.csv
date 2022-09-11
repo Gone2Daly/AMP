@@ -3277,8 +3277,10 @@ admintools_rp_AST_desc;100 дней ОИ;X
 admintools_rp_NZL_desc;100 дней ОИ;X
 admintools_rp_GCO_desc;100 дней ОИ;X
 admintools_rp_SAR_desc;100 дней ОИ;X
-Claim_AdminTools_title;Получить права админа;X
-Claim_AdminTools_desc;Доступно только для организатора;X
+Unclaim_AdminTools_title;§RОтменить права админа;X
+Unclaim_AdminTools_desc;Любая страна сможет получить права администратора! Не отменяйте если вы организатор!;X
+Claim_AdminTools_title;§GПолучить права админа;X
+Claim_AdminTools_desc;Доступно только для организатора. Только ваша страна получит права админисратора!;X
 russia_rename_sakhalin_title;Переименовать Сахалин;Х
 russia_rename_sakhalin_desc;Мы обрели контроль над островом и можем переименовать его для закрепления за нашим государством.;Х
 japan_rename_sakhalin_title;Переименовать Сахалин;Х
