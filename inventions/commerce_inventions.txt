@@ -1632,32 +1632,7 @@ autarky = {
 		loan_interest = -0.005
 	}
 }
-import_substitution_industrialization = {
-	limit = { government_interventionism = 1 }
-	news = no
-	chance = {
-		base = 0
-		modifier = {
-			factor = 4
-			economic_policy = planned_economy
-		}
-		modifier = {
-			factor = 3
-			economic_policy = state_capitalism
-		}
-		modifier = {
-			factor = 2
-			economic_policy = interventionism
-		}
-		modifier = {
-			factor = 1
-			trade_policy = protectionism
-		}
-	}
-	effect = {
-		activate_building = synthetic_oil_factory
-	}
-}
+
 #organized_factories
 work_classification = {
 	limit = { organized_factories = 1 }

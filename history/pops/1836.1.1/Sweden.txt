@@ -326,7 +326,7 @@
 	soldiers = {
 		culture = swedish
 		religion = latin-german
-		size = 1100
+		size = 7100
 	}
 
 	farmers = {
@@ -373,7 +373,7 @@
 	soldiers = {
 		culture = swedish
 		religion = latin-german
-		size = 1100
+		size = 4100
 	}
 
 	farmers = {
@@ -405,7 +405,7 @@
 	soldiers = {
 		culture = swedish
 		religion = latin-german
-		size = 1100
+		size = 4100
 	}
 
 	farmers = {
@@ -484,7 +484,7 @@
 	soldiers = {
 		culture = swedish
 		religion = latin-german
-		size = 1100
+		size = 4100
 	}
 
 	farmers = {
@@ -577,7 +577,7 @@
 	soldiers = {
 		culture = swedish
 		religion = latin-german
-		size = 1100
+		size = 4100
 	}
 
 	farmers = {
@@ -673,7 +673,7 @@
 	soldiers = {
 		culture = swedish
 		religion = latin-german
-		size = 1100
+		size = 7100
 	}
 
 	farmers = {
@@ -705,7 +705,7 @@
 	soldiers = {
 		culture = swedish
 		religion = latin-german
-		size = 1100
+		size = 4100
 	}
 
 	farmers = {
@@ -752,7 +752,7 @@
 	soldiers = {
 		culture = swedish
 		religion = latin-german
-		size = 1100
+		size = 4100
 	}
 
 	farmers = {

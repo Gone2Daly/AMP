@@ -37,7 +37,7 @@
 	soldiers = {
 		culture = north_italian
 		religion = latin-german
-		size = 6450
+		size = 9450
 	}
 	farmers = {
 		culture = north_italian
@@ -79,7 +79,7 @@
 	soldiers = {
 		culture = north_italian
 		religion = latin-german
-		size = 193
+		size = 3193
 	}
 	farmers = {
 		culture = north_italian
@@ -104,7 +104,7 @@
 	soldiers = {
 		culture = french
 		religion = latin-german
-		size = 290
+		size = 3290
 	}
 	farmers = {
 		culture = french
@@ -131,7 +131,7 @@
 	soldiers = {
 		culture = north_italian
 		religion = latin-german
-		size = 2580
+		size = 4580
 	}
 	farmers = {
 		culture = north_italian
@@ -415,7 +415,7 @@
 	soldiers = {
 		culture = north_italian
 		religion = latin-german
-		size = 1483
+		size = 4483
 	}
 	farmers = {
 		culture = north_italian
@@ -1530,7 +1530,7 @@
 	soldiers = {
 		culture = north_italian
 		religion = latin-german
-		size = 6450
+		size = 15450
 	}
 	farmers = {
 		culture = north_italian
@@ -1572,7 +1572,7 @@
 	soldiers = {
 		culture = north_italian
 		religion = latin-german
-		size = 2580
+		size = 7580
 	}
 	farmers = {
 		culture = north_italian
@@ -1843,7 +1843,7 @@
 	soldiers = {
 		culture = north_italian
 		religion = latin-german
-		size = 2580
+		size = 6580
 	}
 	farmers = {
 		culture = north_italian
@@ -1885,7 +1885,7 @@
 	soldiers = {
 		culture = north_italian
 		religion = latin-german
-		size = 1419
+		size = 4419
 	}
 	farmers = {
 		culture = north_italian

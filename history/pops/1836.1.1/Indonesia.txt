@@ -1283,7 +1283,7 @@
 	soldiers = {
 		culture = malay
 		religion = malay
-		size = 4750
+		size = 12750
 	}
 
 	labourers = {
@@ -1325,13 +1325,19 @@
 	aristocrats = {
 		culture = dutch
 		religion = latin-german
-		size = 750
+		size = 1750
 	}
 
 	bureaucrats = {
 		culture = dutch
 		religion = latin-german
-		size = 1750
+		size = 3750
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = latin-german
+		size 9200
 	}
 
 	clergymen = {
@@ -1405,7 +1411,7 @@
 	soldiers = {
 		culture = malay
 		religion = malay
-		size = 300
+		size = 3300
 	}
 
 	farmers = {
@@ -1497,7 +1503,7 @@
 	soldiers = {
 		culture = malay
 		religion = malay
-		size = 200
+		size = 3200
 	}
 
 	farmers = {
@@ -1559,7 +1565,7 @@
 	soldiers = {
 		culture = malay
 		religion = malay
-		size = 1250
+		size = 4250
 	}
 
 	farmers = {
@@ -1657,7 +1663,7 @@
 	soldiers = {
 		culture = malay
 		religion = malay
-		size = 2250
+		size = 6250
 	}
 
 	farmers = {
@@ -1749,7 +1755,7 @@
 	soldiers = {
 		culture = malay
 		religion = malay
-		size = 2500
+		size = 6500
 	}
 
 	farmers = {

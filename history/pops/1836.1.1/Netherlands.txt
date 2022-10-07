@@ -64,7 +64,7 @@
 	soldiers = {
 		culture = dutch
 		religion = latin-german
-		size = 1100
+		size = 9100
 	}
 
 	farmers = {
@@ -153,7 +153,7 @@
 	soldiers = {
 		culture = dutch
 		religion = latin-german
-		size = 1250
+		size = 7250
 	}
 
 	farmers = {
@@ -248,7 +248,7 @@
 	soldiers = {
 		culture = dutch
 		religion = latin-german
-		size = 1100
+		size = 4100
 	}
 
 	farmers = {
@@ -295,7 +295,7 @@
 	soldiers = {
 		culture = dutch
 		religion = latin-german
-		size = 1100
+		size = 4100
 	}
 
 	farmers = {
@@ -359,7 +359,7 @@
 	soldiers = {
 		culture = dutch
 		religion = latin-german
-		size = 1100
+		size = 4100
 	}
 
 	farmers = {
@@ -454,7 +454,7 @@
 	soldiers = {
 		culture = dutch
 		religion = latin-german
-		size = 1100
+		size = 4100
 	}
 
 	labourers = {
@@ -530,7 +530,7 @@
 	soldiers = {
 		culture = dutch
 		religion = latin-german
-		size = 735
+		size = 3735
 	}
 
 	farmers = {
@@ -689,7 +689,7 @@
 	soldiers = {
 		culture = dutch
 		religion = latin-german
-		size = 1100
+		size = 4100
 	}
 
 	farmers = {
@@ -733,7 +733,7 @@
 	soldiers = {
 		culture = dutch
 		religion = latin-german
-		size = 1100
+		size = 4100
 	}
 
 	farmers = {

@@ -126,7 +126,7 @@
 	soldiers = {
 		culture = french
 		religion = latin-german
-		size = 1100
+		size = 4100
 	}
 
 	farmers = {
@@ -144,7 +144,7 @@
 	soldiers = {
 		culture = flemish
 		religion = latin-german
-		size = 300
+		size = 3200
 	}
 
 	farmers = {
@@ -176,7 +176,7 @@
 	soldiers = {
 		culture = french
 		religion = latin-german
-		size = 1150
+		size = 4150
 	}
 
 	farmers = {
@@ -324,7 +324,7 @@
 	soldiers = {
 		culture = french
 		religion = latin-german
-		size = 1100
+		size = 4100
 	}
 
 	farmers = {
@@ -512,7 +512,7 @@
 	soldiers = {
 		culture = north_german
 		religion = latin-german
-		size = 350
+		size = 3350
 	}
 
 	farmers = {
@@ -554,7 +554,7 @@
 	soldiers = {
 		culture = north_german
 		religion = latin-german
-		size = 400
+		size = 4200
 	}
 
 	farmers = {
@@ -838,7 +838,7 @@
 	soldiers = {
 		culture = french
 		religion = latin-german
-		size = 374
+		size = 6374
 	}
 
 	farmers = {
@@ -1010,7 +1010,7 @@
 	soldiers = {
 		culture = french
 		religion = latin-german
-		size = 750
+		size = 3750
 	}
 
 	farmers = {
@@ -1066,7 +1066,7 @@
 	soldiers = {
 		culture = french
 		religion = latin-german
-		size = 1100
+		size = 6100
 	}
 
 	labourers = {
@@ -1090,7 +1090,7 @@
 	soldiers = {
 		culture = north_german
 		religion = latin-german
-		size = 25
+		size = 3225
 	}
 
 	labourers = {
@@ -1180,7 +1180,7 @@
 	soldiers = {
 		culture = french
 		religion = latin-german
-		size = 1100
+		size = 7100
 	}
 
 	farmers = {
@@ -1212,7 +1212,7 @@
 	soldiers = {
 		culture = french
 		religion = latin-german
-		size = 1200
+		size = 4200
 	}
 
 	farmers = {
@@ -1289,7 +1289,7 @@
 	soldiers = {
 		culture = french
 		religion = latin-german
-		size = 935
+		size = 3135
 	}
 
 	farmers = {
@@ -1341,7 +1341,7 @@
 	soldiers = {
 		culture = french
 		religion = latin-german
-		size = 1400
+		size = 6400
 	}
 
 	farmers = {
@@ -1695,7 +1695,7 @@
 	soldiers = {
 		culture = french
 		religion = latin-german
-		size = 4000
+		size = 15000
 	}
 
 	farmers = {
@@ -2809,7 +2809,7 @@
 	soldiers = {
 		culture = french
 		religion = latin-german
-		size = 2100
+		size = 4100
 	}
 
 	farmers = {
@@ -3560,7 +3560,7 @@
     soldiers = {
         culture = north_italian
         religion = latin-german
-        size = 1000
+        size = 4200
     }
 
     farmers = {
@@ -3598,7 +3598,7 @@
     soldiers = {
         culture = north_italian
         religion = latin-german
-        size = 1000
+        size = 4200
     }
 
     farmers = {
@@ -3668,7 +3668,7 @@
 	soldiers = {
 		culture = french
 		religion = latin-german
-		size = 1100
+		size = 4100
 	}
 
 	farmers = {
@@ -3715,7 +3715,7 @@
 	soldiers = {
 		culture = french
 		religion = latin-german
-		size = 600
+		size = 3600
 	}
 
 	farmers = {
@@ -3849,7 +3849,7 @@
 	soldiers = {
 		culture = north_italian
 		religion = latin-german
-		size = 1100
+		size = 4100
 	}
 
 	farmers = {

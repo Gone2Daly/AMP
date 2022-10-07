@@ -1990,3 +1990,11 @@ cotton_gin_modifier = {
 	icon = 5
 	local_RGO_output = 0.5
 }
+Haber_bosch_process_modifier = {
+	icon = 5
+	local_RGO_output = 4
+}
+rolled_cone_bit_modifier = {
+	icon = 5
+	local_RGO_output = 1
+}

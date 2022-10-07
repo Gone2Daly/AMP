@@ -122,3 +122,29 @@ desert_strait;Пустыня с проливом;X
 XPR;Страна Мододелов;X
 XPR_ADJ;Мододельск;X
 DENC_amp;Континентальная Дания;X
+rolled_cone_bit_modifier;Роликовое долото;X
+rolled_cone_bit_modifier_desc; ;X
+rolled_cone_bit;Роликовое долото;X
+rolled_cone_bit_desc;Роликовое долото - буровое долото, используемое для бурения горных пород, например, при бурении на нефть и газ.;X
+Haber_bosch_process_modifier;Процесс Габера – Боша;X
+Haber_bosch_process_modifier_desc; ;X
+Haber_bosch_process;Процесс Габера – Боша;X
+Haber_bosch_process_desc;Процесс Габера – Боша — представляет собой процесс искусственной фиксации азота и сегодня является основной промышленной процедурой производства аммиака.;X
+pasteurization;Пастеризация;X
+pasteurization_desc;Пастеризация — это процесс, при котором упакованные и неупакованные пищевые продукты (такие как молоко и фруктовые соки) обрабатываются мягким нагревом, обычно до температуры менее 100 °C (212 °F), для уничтожения патогенов и продления срока годности.;X
+BRZ_absolute_monarchy;Бразильская Империя;X
+BRZ_hms_government;Бразильская Империя;X
+BRZ_proletarian_dictatorship;Бразильский Союз;X
+BRZ_one_party_socialist_republic;Бразильский Союз;X
+BRZ_presidential_dictatorship;Бразилия;X
+BRZ_bourgeois_dictatorship;Бразильское Содружество;X
+BRZ_fascist_dictatorship;Бразильские Штаты Америки;X
+BRZ_democracy;Бразилия;X
+SGF_absolute_monarchy;Южногерманский Союз;X
+SGF_hms_government;Южногерманский Союз;X
+SGF_proletarian_dictatorship;Союз Южногерманских Государств;X
+SGF_one_party_socialist_republic;Союз Южногерманских Государств;X
+SGF_presidential_dictatorship;Южногермания;X
+SGF_bourgeois_dictatorship;Южногерманское Содружество;X
+SGF_fascist_dictatorship;Южногерманская Империя;X
+SGF_democracy;Южногерманская Республика;X

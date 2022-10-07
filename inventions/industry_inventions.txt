@@ -1947,7 +1947,7 @@ whitney_n_colts_standardized_small_arms = {
 	}
 }
 food_packing_system = {
-	limit = { interchangeable_parts = 1 }
+	limit = { chemistry_and_electricity_1 = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -1961,7 +1961,30 @@ food_packing_system = {
 	}
 	effect = {
 		factory_goods_output = {
-			food = 0.5 
+			food = 0.4
+		}
+	}
+}
+pasteurization = {
+	limit = { organic_chemistry = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = -6
+			NOT = { literacy = 0.5 }
+		}
+		modifier = {
+			factor = 2
+			invention = semi_automatization
+		}
+		modifier = {
+			factor = 2
+			invention = catalytic_fermentative_process
+		}
+	}
+	effect = {
+		factory_goods_output = {
+			food = 0.4
 		}
 	}
 }
@@ -2765,23 +2788,7 @@ catalytic_fermentative_process = {
 	}
 }
 #organic_chemistry
-synthetic_dye = {
-	limit = { inorganic_chemistry = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			clean_coal = 1
-		}
-		modifier = {
-			factor = 2
-			management_strategy = 1
-		}
-	}
-	effect = {
-		activate_building = dye_factory 
-	}
-}
+
 gaslights = {
 	limit = { organic_chemistry = 1 }
 	chance = {
@@ -2992,6 +2999,21 @@ bakelite = {
 		} 
 	}
 }
+Haber_bosch_process = {
+	limit = { synthetic_polymers = 1 }
+	chance = {
+		base = 4
+		modifier = {
+			factor = -8
+			NOT = { literacy = 0.9 }
+		}
+	}
+	effect = {
+		factory_goods_output {
+			fertilizer = 1
+		}
+	}
+}
 
 vacuum_tube = {
 	limit = { 
@@ -3077,5 +3099,180 @@ test_manufacture_activation = {
 	}
 	effect = {
 		activate_building = test_manufacture 
+	}
+}
+
+import_substitution_industrialization = {
+	limit = { chemistry_and_electricity_2 = 1 }
+	news = no
+	chance = {
+		base = 2
+		modifier = {
+			modifier = {
+			factor = -4
+			NOT = { literacy = 0.6 }
+		}
+		modifier = {
+			factor = 1
+			economic_policy = planned_economy
+		}
+		modifier = {
+			factor = 1
+			economic_policy = state_capitalism
+		}
+		modifier = {
+			factor = 1
+			economic_policy = interventionism
+		}
+		modifier = {
+			factor = 1
+			trade_policy = protectionism
+		}
+	}
+	effect = {
+		activate_building = synthetic_oil_factory
+	}
+}
+
+synthetic_rubber = {
+	limit = { chemistry_and_electricity_2 = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			modifier = {
+			factor = -3
+			NOT = { literacy = 0.6 }
+		}
+		modifier = {
+			factor = 2
+			invention = cracking
+		}		
+	}
+	effect = {
+		activate_building = oil_rubber_factory 
+	}
+}
+
+rolled_cone_bit = {
+	limit = { chemistry_and_electricity_2 = 1 }
+	chance = {
+		base = 3
+		modifier = {
+			modifier = {
+			factor = -6
+			NOT = { literacy = 0.7 }
+		}
+		modifier = {
+			factor = 4
+			year = 1905
+		}
+		modifier = {
+			factor = 4
+			invention = cracking
+		}
+	}
+	effect = {
+	}
+}
+
+gas_attack_capability = {
+	limit = { synthetic_polymers = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 4
+			invention = Haber_bosch_process
+		}
+		modifier = {
+			modifier = {
+			factor = -7
+			NOT = { literacy = 0.99 }
+		}
+		modifier = {
+			factor = 2
+			invention = cracking
+		}
+		modifier = {
+			factor = 2
+			invention = carbon_soil_enrichment
+		}		
+	}
+	effect = {
+		gas_attack = yes
+	}
+}
+
+gas_defense_capability = {
+	limit = { synthetic_polymers = 1 }
+	effect = {
+		gas_defence = yes
+	}
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			year = 1900
+			war = yes
+			war_countries = { invention = gas_attack_capability }
+		}
+		modifier = {
+			factor = 1
+			year = 1901
+			war = yes
+			war_countries = { invention = gas_attack_capability }
+		}	modifier = {
+			factor = 1
+			year = 1902
+			war = yes
+			war_countries = { invention = gas_attack_capability }
+		}	modifier = {
+			factor = 1
+			year = 1903
+			war = yes
+			war_countries = { invention = gas_attack_capability }
+		}	modifier = {
+			factor = 1
+			year = 1904
+			war = yes
+			war_countries = { invention = gas_attack_capability }
+		}	modifier = {
+			factor = 1
+			year = 1905
+			war = yes
+			war_countries = { invention = gas_attack_capability }
+		}	modifier = {
+			factor = 1
+			year = 1906
+			war = yes
+			war_countries = { invention = gas_attack_capability }
+		}	modifier = {
+			factor = 1
+			year = 1907
+			war = yes
+			war_countries = { invention = gas_attack_capability }
+		}	modifier = {
+			factor = 1
+			year = 1908
+			war = yes
+			war_countries = { invention = gas_attack_capability }
+		}	modifier = {
+			factor = 1
+			year = 1909
+			war = yes
+			war_countries = { invention = gas_attack_capability }
+		}	modifier = {
+			factor = 1
+			year = 1910
+			war = yes
+			war_countries = { invention = gas_attack_capability }
+		}	modifier = {
+			factor = 5
+			war = yes
+			war_countries = { invention = gas_defense_capability }
+		}	
+		modifier = {
+			factor = 10
+			year = 1910
+		}	
 	}
 }

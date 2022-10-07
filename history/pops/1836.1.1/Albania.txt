@@ -100,7 +100,7 @@
 	soldiers = {
 		culture = albanian
 		religion = latin-german
-		size = 2000
+		size = 6200
 	}
 
 	farmers = {

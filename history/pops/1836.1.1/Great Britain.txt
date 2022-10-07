@@ -711,7 +711,7 @@
 	soldiers = {
 		culture = british
 		religion = latin-german
-		size = 3000
+		size = 6000
 	}
 
 	labourers = {
@@ -845,7 +845,7 @@
 	soldiers = {
 		culture = british
 		religion = latin-german
-		size = 4000
+		size = 6300
 	}
 
 	labourers = {
@@ -1110,7 +1110,7 @@
 	soldiers = {
 		culture = british
 		religion = latin-german
-		size = 1250
+		size = 4250
 	}
 
 	labourers = {
@@ -1187,7 +1187,7 @@
 	soldiers = {
 		culture = british
 		religion = latin-german
-		size = 1500
+		size = 4500
 	}
 
 	labourers = {
@@ -1263,7 +1263,7 @@
 	soldiers = {
 		culture = british
 		religion = latin-german
-		size = 3000
+		size = 7000
 	}
 
 	labourers = {
@@ -1543,7 +1543,7 @@
 	soldiers = {
 		culture = british
 		religion = latin-german
-		size = 1100
+		size = 4100
 	}
 
 	labourers = {
@@ -1668,7 +1668,7 @@
 	soldiers = {
 		culture = british
 		religion = latin-german
-		size = 1500
+		size = 6500
 	}
 
 	labourers = {
@@ -1923,7 +1923,7 @@
 	soldiers = {
 		culture = british
 		religion = latin-german
-		size = 1100
+		size = 4100
 	}
 
 	labourers = {
@@ -1999,7 +1999,7 @@
 	soldiers = {
 		culture = british
 		religion = latin-german
-		size = 1500
+		size = 7500
 	}
 
 	labourers = {
@@ -2024,6 +2024,11 @@
 # Metro London Region - 2052000
 #London (2052000/513000 POPS)
 300 = {
+	soldiers = {
+		culture = british
+		religion = latin-german
+		size = 15000
+	}
 	aristocrats = {
 		culture = british
 		religion = latin-german

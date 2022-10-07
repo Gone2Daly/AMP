@@ -485,7 +485,7 @@
 	soldiers = {
 		culture = ukrainian
 		religion = slav
-		size = 4000
+		size = 7000
 	}
 
 	farmers = {
@@ -515,7 +515,7 @@
 	soldiers = {
 		culture = russian
 		religion = slav
-		size = 2150
+		size = 6200
 	}
 
 	farmers = {
@@ -1892,7 +1892,7 @@
 	soldiers = {
 		culture = russian
 		religion = slav
-		size = 10000
+		size = 12000
 	}
 
 	farmers = {
@@ -2961,7 +2961,7 @@
 	soldiers = {
 		culture = russian
 		religion = slav
-		size = 3000
+		size = 12000
 	}
 
 	farmers = {
@@ -2999,7 +2999,7 @@
 	soldiers = {
 		culture = russian
 		religion = slav
-		size = 3000
+		size = 15000
 	}
 
 	farmers = {
@@ -3083,7 +3083,7 @@
 	soldiers = {
 		culture = russian
 		religion = slav
-		size = 2650
+		size = 9650
 	}
 
 	farmers = {
@@ -3176,7 +3176,7 @@
 	soldiers = {
 		culture = russian
 		religion = slav
-		size = 2350
+		size = 6350
 	}
 
 	farmers = {
@@ -3334,7 +3334,7 @@
 	soldiers = {
 		culture = russian
 		religion = slav
-		size = 3100
+		size = 15100
 	}
 
 	farmers = {
@@ -4363,7 +4363,7 @@
 	soldiers = {
 		culture = russian
 		religion = slav
-		size = 4000
+		size = 12000
 	}
 
 	farmers = {
@@ -4618,7 +4618,7 @@
 	soldiers = {
 		culture = russian
 		religion = slav
-		size = 2100
+		size = 6100
 	}
 
 	farmers = {

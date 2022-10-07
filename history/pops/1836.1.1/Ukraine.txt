@@ -1964,7 +1964,7 @@
 	soldiers = {
 		culture = ashkenazi
 		religion = jewish
-		size = 150
+		size = 1150
 	}
 
 	farmers = {
@@ -1988,13 +1988,13 @@
 	artisans = {
 		culture = russian
 		religion = slav
-		size = 100
+		size = 3200
 	}
 
 	soldiers = {
 		culture = russian
 		religion = slav
-		size = 50
+		size = 3250
 	}
 
 	farmers = {

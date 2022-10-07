@@ -35,7 +35,7 @@
 	soldiers = {
 		culture = north_andean
 		religion = latin-german
-		size = 1100
+		size = 7100
 	}
 
 	farmers = {
@@ -263,7 +263,7 @@
 	soldiers = {
 		culture = north_andean
 		religion = latin-german
-		size = 1100
+		size = 4100
 	}
 
 	farmers = {
@@ -365,7 +365,7 @@
 	soldiers = {
 		culture = north_andean
 		religion = latin-german
-		size = 1100
+		size = 4100
 	}
 
 	farmers = {
@@ -513,7 +513,7 @@
 	soldiers = {
 		culture = north_andean
 		religion = latin-german
-		size = 1100
+		size = 4100
 	}
 
 	farmers = {
@@ -599,7 +599,7 @@
 	soldiers = {
 		culture = north_andean
 		religion = latin-german
-		size = 1100
+		size = 4100
 	}
 
 	farmers = {

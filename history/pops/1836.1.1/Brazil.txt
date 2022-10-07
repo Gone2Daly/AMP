@@ -2131,7 +2131,7 @@
 	soldiers = {
 		culture = brazilian
 		religion = latin-german
-		size = 1100
+		size = 4100
 	}
 
 	farmers = {
@@ -2859,7 +2859,7 @@
 	soldiers = {
 		culture = brazilian
 		religion = latin-german
-		size = 10000
+		size = 20000
 	}
 
 	farmers = {
@@ -3115,7 +3115,7 @@
 	soldiers = {
 		culture = brazilian
 		religion = latin-german
-		size = 1100
+		size = 4100
 	}
 
 	farmers = {
@@ -3959,7 +3959,7 @@
 	soldiers = {
 		culture = brazilian
 		religion = latin-german
-		size = 1100
+		size = 4100
 	}
 
 	farmers = {

@@ -1166,7 +1166,7 @@ food_grain = {
 				}
 			}
 		}
-		value = 5
+		value = 6
 	}
 }
 
@@ -1176,7 +1176,7 @@ food_fruit = {
 		fruit = 7		#44+0.86=44.86
 	}
 	output_goods = food
-	value = 5			#50
+	value = 7			#50
 	bonus = {
 		trigger = {
 			OR = {
@@ -1199,7 +1199,7 @@ food_fruit = {
 				}
 			}
 		}
-		value = 5
+		value = 6
 	}
 }
 
@@ -1209,7 +1209,7 @@ food_wool = {
 		wool = 7		#44+0.86=44.86
 	}
 	output_goods = food
-	value = 5			#50
+	value = 7			#50
 	bonus = {
 		trigger = {
 			OR = {
@@ -1232,7 +1232,7 @@ food_wool = {
 				}
 			}
 		}
-		value = 5
+		value = 6
 	}
 }
 
@@ -1242,7 +1242,7 @@ food_fish = {
 		fish = 7		#44+0.86=44.86
 	}
 	output_goods = food
-	value = 5			#50
+	value = 7			#50
 	bonus = {
 		trigger = {
 			OR = {
@@ -1265,7 +1265,7 @@ food_fish = {
 				}
 			}
 		}
-		value = 5
+		value = 6
 	}
 }
 
@@ -1275,7 +1275,7 @@ food_cattle = {
 		cattle = 7		#44+0.86=44.86
 	}
 	output_goods = food
-	value = 5			#50
+	value = 7			#50
 	bonus = {
 		trigger = {
 			OR = {
@@ -1298,7 +1298,7 @@ food_cattle = {
 				}
 			}
 		}
-		value = 5
+		value = 6
 	}
 }
 
@@ -1678,7 +1678,7 @@ synthetic_oil_factory = {
 		coke_coal = 5 #15.6
 	}
 	output_goods = oil 
-	value = 1.55 #18
+	value = 1.75 #18
 	bonus = {
 		trigger = {
 			OR = {
@@ -4412,7 +4412,7 @@ artisan_grain_food = {
 		grain = 30
 	}
 	output_goods = food 
-	value = 23.5
+	value = 30
 	
 	owner = {
 		poptype = artisan 
@@ -4435,7 +4435,7 @@ artisan_fruit_food = {
 		fruit = 30
 	}
 	output_goods = food 
-	value = 23.5
+	value = 30
 	
 	owner = {
 		poptype = artisan 
@@ -4458,7 +4458,7 @@ artisan_wool_food = {
 		wool = 30
 	}
 	output_goods = food 
-	value = 24.5
+	value = 31.5
 	
 	owner = {
 		poptype = artisan 
@@ -4481,7 +4481,7 @@ artisan_fish_food = {
 		fish = 30
 	}
 	output_goods = food 
-	value = 24.5
+	value = 30
 	
 	owner = {
 		poptype = artisan 
@@ -4504,7 +4504,7 @@ artisan_cattle_food = {
 		cattle = 30
 	}
 	output_goods = food 
-	value = 24.5
+	value = 30
 	
 	owner = {
 		poptype = artisan 

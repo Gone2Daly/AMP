@@ -139,7 +139,7 @@
 	soldiers = {
 		culture = norwegian
 		religion = latin-german
-		size = 100
+		size = 4100
 	}
 
 	farmers = {
@@ -321,7 +321,7 @@
 	soldiers = {
 		culture = norwegian
 		religion = latin-german
-		size = 1100
+		size = 4100
 	}
 
 	farmers = {

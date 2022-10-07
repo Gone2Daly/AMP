@@ -1319,6 +1319,133 @@ province_event = {
 		}
 	}
 }
+country_event = {
+
+	id = 1108
+
+	trigger = {
+		invention=Haber_bosch_process
+		any_owned_province = {
+		   
+		   trade_goods=grain
+		}
+		NOT={has_country_flag=Haber_bosch_process_flag}
+	}
+
+	mean_time_to_happen =  {
+		months = 36
+	}
+
+	title = "Изобретение и внедрение Процесс Габера – Боша в $COUNTRY_ADJ$ сельском хозяйстве!"
+	desc = "Наше сельское хозяйство получило возможность внедрения нового изобретения - Процесс Габера – Боша, который позволит серьёзно увеличить выпуск продукции в сельском хозяйстве."
+	picture = "rotherham_plough"
+
+	option = {
+		name = "Мы победим голод на планете?"
+		prestige = 3
+                set_country_flag=Haber_bosch_process_flag
+		any_owned = {
+		   limit = {
+		      
+		      trade_goods=grain
+                      NOT={has_province_modifier=Haber_bosch_process_modifier}
+		   }
+		   add_province_modifier={name=Haber_bosch_process_modifier duration=-1}
+		}
+	}
+}
+province_event = {
+
+	id = 1109
+
+	trigger = {
+		
+		owner={has_country_flag=Haber_bosch_process_flag}
+		trade_goods=grain
+		NOT={has_province_modifier=Haber_bosch_process_modifier}
+	}
+	mean_time_to_happen = { months = 12 }
+
+	title = "Использование Процесс Габера – Боша в регионе $STATENAME$"
+	desc = "Научная революция дошла и до региона $STATENAME$, где началось внедрение Процесса Габера – Боша, который позволит существенно увеличить выпуск продукции в сельском хозяйстве."
+
+	option = {
+		name = "Мы победим голод на планете?"
+		state_scope = {
+		   any_owned = {
+		      limit = {
+		         
+		         trade_goods=grain
+                         NOT={has_province_modifier=Haber_bosch_process_modifier}
+		      }
+		      add_province_modifier={name=Haber_bosch_process_modifier duration=-1}
+		   }
+		}
+	}
+}
+country_event = {
+
+	id = 1110
+
+	trigger = {
+		invention=Haber_bosch_process
+		any_owned_province = {
+		   trade_goods=oil
+		}
+		NOT={has_country_flag=rolled_cone_bit_flag}
+	}
+
+	mean_time_to_happen =  {
+		months = 36
+	}
+
+	title = "Изобретение и внедрение Роликового долота в $COUNTRY_ADJ$ сельском хозяйстве!"
+	desc = "Наш нефтепром получил возможность внедрения нового изобретения - Роликового долота, который позволит серьёзно увеличить добычу нефти."
+	picture = "rotherham_plough"
+
+	option = {
+		name = "Черное золото..."
+		prestige = 3
+                set_country_flag=rolled_cone_bit_flag
+		any_owned = {
+		   limit = {
+		      
+		      trade_goods=grain
+                      NOT={has_province_modifier=rolled_cone_bit_modifier}
+		   }
+		   add_province_modifier={name=rolled_cone_bit_modifier duration=-1}
+		}
+	}
+}
+province_event = {
+
+	id = 1111
+
+	trigger = {
+		
+		owner={has_country_flag=rolled_cone_bit_flag}
+		trade_goods=grain
+		NOT={has_province_modifier=rolled_cone_bit_modifier}
+	}
+	mean_time_to_happen = { months = 12 }
+
+	title = "Использование Роликового долота в регионе $STATENAME$"
+	desc = "Научная революция дошла и до региона $STATENAME$, где началось внедрение Роликового долота, который позволит существенно увеличить добычу нефти."
+
+	option = {
+		name = "Черное золото..."
+		state_scope = {
+		   any_owned = {
+		      limit = {
+		         
+		         trade_goods=grain
+                         NOT={has_province_modifier=rolled_cone_bit_modifier}
+		      }
+		      add_province_modifier={name=rolled_cone_bit_modifier duration=-1}
+		   }
+		}
+	}
+}
 #############################
 #        GOLD EVENTS        #
 #############################
@@ -1407,6 +1534,7 @@ province_event = {
 		remove_province_modifier = mechanization_of_mines_iron_modifier
 		remove_province_modifier = chainsaw_modifier
 		remove_province_modifier = electric_saw_modifier
+		remove_province_modifier = Haber_bosch_process_modifier
 		add_province_modifier = {
 			name = gold_rush
 			duration = 2920
@@ -1544,6 +1672,7 @@ province_event = {
 		remove_province_modifier = mechanization_of_mines_iron_modifier
 		remove_province_modifier = chainsaw_modifier
 		remove_province_modifier = electric_saw_modifier
+		remove_province_modifier = Haber_bosch_process_modifier
 	}
 }
 ############################
@@ -1654,5 +1783,6 @@ province_event = {
 		remove_province_modifier = mechanization_of_mines_iron_modifier
 		remove_province_modifier = chainsaw_modifier
 		remove_province_modifier = electric_saw_modifier
+		remove_province_modifier = Haber_bosch_process_modifier
 	}
 }

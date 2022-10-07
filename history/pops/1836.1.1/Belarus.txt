@@ -1237,7 +1237,7 @@
 	soldiers = {
 		culture = byelorussian
 		religion = slav
-		size = 1225
+		size = 8225
 	}
 
 	farmers = {

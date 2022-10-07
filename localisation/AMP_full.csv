@@ -1729,7 +1729,7 @@ tech_infrastructure_4;Инфраструктура 1940;X
 tech_infrastructure_5;Инфраструктура 1955;X
 tech_infrastructure_6;Инфраструктура 1970;X
 chemistry_and_electricity_1;Целлюлоза;X
-chemistry_and_electricity_2;Нефтепереработка и газы;X
+chemistry_and_electricity_2;Нефтепереработка;X
 chemistry_and_electricity_3;Химия 1925;X
 chemistry_and_electricity_4;Химия 1940;X
 chemistry_and_electricity_5;Химия 1955;X
@@ -3993,10 +3993,13 @@ KUK_socialist_republic;Дунайская Федерация;X
 KUK_democracy;Дунайская Федерация;X
 AUS_socialist_republic;Австрийская Соц. Республика;X
 AUS_democracy;Австрийская Республика;X
-AUS_hms_government;Австрия;X
+AUS_hms_government;Австрийская Империя;X
+AUS_fascist;Австрийская Империя;X
 AUS_prussian_constitutionalism;Австрийская Империя;X
-AUS_bourgeois_dictatorship;Австрия;X
+AUS_bourgeois_dictatorship;Австрийское Содружество;X
 AUS_presidential_dictatorship;Австрия;X
+PRU_absolute_monarchy;Прусское Королевство;X
+PRU_hms_government;Прусское Королевство;X
 PRU_democracy;Прусская Республика;X
 PRU_fascist_dictatorship;Тевтонский Орден;X
 PRU_socialist_republic;Прусская Республика;X
@@ -4011,8 +4014,9 @@ SWI_absolute_monarchy;Гельветическое Королевство;X
 SWI_hms_government;Швейцарское Королевство;X
 SWI_fascist_dictatorship;Гельветия;X
 SWI_fascist_dictatorship;Гельветия;X
+SWE_hms_government;Шведское Королевство;X
 SWE_fascist_dictatorship;Шведская Империя;X
-SWE_absolute_monarchy;Королевство Швеция;X
+SWE_absolute_monarchy;Шведское Королевство;X
 SWE_socialist_republic;Шведская Народная Республика;X
 SWE_one_party_socialist_republic;Шведская Социалистическая Республика;X
 SWE_democracy;Шведская Республика;X
@@ -4023,8 +4027,12 @@ SCA_one_party_socialist_republic;Северный Союз ;X
 SCA_democracy;Скандинавия;X
 ENG_socialist_republic;Британская Федерация;X
 ENG_one_party_socialist_republic;Британский Союз;X
-TUR_bourgeois_dictatorship;Турецкая Республика;X
+TUR_absolute_monarchy;Османская Империя;X
+TUR_hms_government;Османская Империя;X
+TUR_democracy;Турецкая Республика;X
+TUR_bourgeois_dictatorship;Османская Порта;X
 TUR_presidential_dictatorship;Турция;X
+TUR_fascist_dictatorship;Османский Халифат;X
 TUR_socialist_republic;Турецкая Народная Республика;X
 TUR_one_party_socialist_republic;Турецкая Народная Республика;X
 SPA_one_party_socialist_republic;Иберийский Союз ;X
@@ -4126,6 +4134,8 @@ ROM_absolute_monarchy;Королевство Румыния;X
 ROM_prussian_constitutionalism;Королевство Румыния;X
 ITA_absolute_monarchy;Королевство Италия;X
 ITA_prussian_constitutionalism;Королевство Италия;X
+ITA_bourgeois_dictatorship;Итальянское Содружество;X
+ITA_fascist_dictatorship;Итальянская Империя;X
 EGY_socialist_republic;Социалистическая Республика Египет;X
 EGY_one_party_socialist_republic;Социалистическая Республика Египет;X
 EGY_democracy;Арабская Республика Египет;X
@@ -4165,14 +4175,14 @@ UKR_one_party_socialist_republic;Украинская Советская Республика;X
 UKR_fascist_dictatorship;Украинская Держава;X
 UKR_absolute_monarchy;Королевство Украина;X
 UKR_prussian_constitutionalism;Королевство Украина;X
-ITA_fascist_2;Партия Преподобного Кендра;X
+ITA_fascist_2;Партия Дуче;X
 RUS_fascist_2;Союз защиты Родины и Свободы;X
 ENG_fascist_2;Британское Единство;X
 AUS_fascist_2;Священный союз;X
 TUR_fascist_2;Партия Халифата;X
 NIP_fascist_2;Военный блок;X
 USA_fascist_2;Союз белых джентельменов;X
-FRA_fascist_2;"""Великая Франция""";X
+FRA_fascist_2;Великая Франция;X
 SIA_one_party_socialist_republic;Тайская Народная Республика;X
 SIA_socialist_republic;Тайланд;X
 holly_city_idea_title;Священный город;X

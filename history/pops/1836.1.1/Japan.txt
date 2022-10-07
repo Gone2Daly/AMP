@@ -598,7 +598,7 @@
 	soldiers = {
 		culture = japanese
 		religion = mongoloid
-		size = 1875
+		size = 6875
 	}
 
 	farmers = {
@@ -932,7 +932,7 @@
 	soldiers = {
 		culture = japanese
 		religion = mongoloid
-		size = 3075
+		size = 9075
 	}
 
 	farmers = {
@@ -1198,7 +1198,7 @@
 	soldiers = {
 		culture = japanese
 		religion = mongoloid
-		size = 550
+		size = 3550
 	}
 
 	farmers = {
@@ -1318,7 +1318,7 @@
 	soldiers = {
 		culture = japanese
 		religion = mongoloid
-		size = 3575
+		size = 12575
 	}
 
 	farmers = {
@@ -1396,7 +1396,7 @@
 	soldiers = {
 		culture = japanese
 		religion = mongoloid
-		size = 1875
+		size = 9375
 	}
 
 	farmers = {
@@ -1488,7 +1488,7 @@
 	soldiers = {
 		culture = japanese
 		religion = mongoloid
-		size = 3900
+		size = 12900
 	}
 
 	farmers = {
@@ -1572,7 +1572,7 @@
 	soldiers = {
 		culture = japanese
 		religion = mongoloid
-		size = 2100
+		size = 7100
 	}
 
 	farmers = {
@@ -1634,7 +1634,7 @@
 	soldiers = {
 		culture = japanese
 		religion = mongoloid
-		size = 1975
+		size = 6975
 	}
 
 	farmers = {
@@ -1756,7 +1756,7 @@
 	soldiers = {
 		culture = japanese
 		religion = mongoloid
-		size = 450
+		size = 6450
 	}
 
 	farmers = {
@@ -1804,7 +1804,7 @@
 	soldiers = {
 		culture = japanese
 		religion = mongoloid
-		size = 1850
+		size = 7850
 	}
 
 	farmers = {
@@ -1882,7 +1882,7 @@
 	soldiers = {
 		culture = japanese
 		religion = mongoloid
-		size = 1275
+		size = 7275
 	}
 
 	farmers = {
@@ -2006,7 +2006,7 @@
 	soldiers = {
 		culture = japanese
 		religion = mongoloid
-		size = 1475
+		size = 6475
 	}
 
 	farmers = {
@@ -2898,7 +2898,7 @@
 	soldiers = {
 		culture = japanese
 		religion = mongoloid
-		size = 2350
+		size = 6350
 	}
 
 	farmers = {

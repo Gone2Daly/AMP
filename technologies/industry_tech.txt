@@ -880,10 +880,9 @@ chemistry_and_electricity_2 = {
 	year = 1895
 	cost = 21000
 	
-	activate_building = oil_rubber_factory 
 	supply_limit = 0.25
 	rgo_goods_output = {
-			oil = 0.15
+		oil = 0.25
 	}
 	factory_goods_throughput = {
 		healthcare = 0.1

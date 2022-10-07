@@ -23,7 +23,7 @@
 	soldiers = {
 		culture = turkish
 		religion = arabi-turk
-		size = 500
+		size = 3500
 	}
 
 	farmers = {
@@ -87,7 +87,7 @@
 	soldiers = {
 		culture = turkish
 		religion = arabi-turk
-		size = 2000
+		size = 7000
 	}
 
 	farmers = {
@@ -207,7 +207,7 @@
 	soldiers = {
 		culture = turkish
 		religion = arabi-turk
-		size = 1100
+		size = 4100
 	}
 
 	farmers = {

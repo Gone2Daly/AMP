@@ -35,7 +35,7 @@
 	soldiers = {
 		culture = north_german
 		religion = latin-german
-		size = 3300 
+		size = 6300 
 	}
 
 	farmers = {
@@ -71,7 +71,7 @@
 	soldiers = {
 		culture = polish
 		religion = slav
-		size = 10    
+		size = 3200    
 	}
 
 	farmers = {
@@ -2692,7 +2692,7 @@
 	soldiers = {
 		culture = polish
 		religion = slav
-		size = 1500
+		size = 9500
 	}
 
 	farmers = {

@@ -35,7 +35,7 @@
 	soldiers = {
 		culture = czech
 		religion = slav
-		size = 3750 
+		size = 9750 
 	}
 
 	farmers = {
@@ -83,7 +83,7 @@
 	soldiers = {
 		culture = north_german
 		religion = latin-german
-		size = 300 
+		size = 3200 
 	}
 
 	farmers = {
@@ -107,7 +107,7 @@
 	soldiers = {
 		culture = ashkenazi
 		religion = jewish
-		size = 75 
+		size = 675 
 	}
 
 	farmers = {
@@ -178,7 +178,7 @@
 	soldiers = {
 		culture = czech
 		religion = slav
-		size = 1100 
+		size = 5100 
 	}
 
 	farmers = {
@@ -208,7 +208,7 @@
 	soldiers = {
 		culture = north_german
 		religion = latin-german
-		size = 450  
+		size = 4450  
 	}
 
 	farmers = {
@@ -232,7 +232,7 @@
 	soldiers = {
 		culture = ashkenazi
 		religion = jewish
-		size = 25 
+		size = 1125 
 	}
 
 	farmers = {
@@ -258,7 +258,7 @@
 	soldiers = {
 		culture = czech
 		religion = slav
-		size = 250 
+		size = 3250 
 	}
 
 	farmers = {
@@ -288,7 +288,7 @@
 	soldiers = {
 		culture = north_german
 		religion = latin-german
-		size = 1250 
+		size = 4250 
 	}
 
 	farmers = {
@@ -338,7 +338,7 @@
 	soldiers = {
 		culture = czech
 		religion = slav
-		size = 100 
+		size = 3000 
 	}
 
 	farmers = {
@@ -368,7 +368,7 @@
 	soldiers = {
 		culture = north_german
 		religion = latin-german
-		size = 1100 
+		size = 6100 
 	}
 
 	farmers = {
@@ -568,7 +568,7 @@
 	soldiers = {
 		culture = czech
 		religion = slav
-		size = 1900 
+		size = 9900 
 	}
 
 	farmers = {

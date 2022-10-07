@@ -35,7 +35,7 @@
 	soldiers = {
 		culture = north_german
 		religion = latin-german
-		size = 1100 
+		size = 4100 
 	}
 
 	farmers = {
@@ -67,7 +67,7 @@
 	soldiers = {
 		culture = north_german
 		religion = latin-german
-		size = 1100
+		size = 4100
 	}
 
 	farmers = {
@@ -131,7 +131,7 @@
 	soldiers = {
 		culture = north_german
 		religion = latin-german
-		size = 125 
+		size = 4125 
 	}
 
 	farmers = {
@@ -177,7 +177,7 @@
 	soldiers = {
 		culture = north_german
 		religion = latin-german
-		size = 1050 
+		size = 4250 
 	}
 
 	farmers = {
@@ -241,7 +241,7 @@
 	soldiers = {
 		culture = north_german
 		religion = latin-german
-		size = 1100 
+		size = 4100 
 	}
 
 	farmers = {
@@ -265,7 +265,7 @@
 	soldiers = {
 		culture = slovene
 		religion = slav
-		size = 200 
+		size = 4200 
 	}
 
 	farmers = {
@@ -623,7 +623,7 @@
 	soldiers = {
 		culture = north_german
 		religion = latin-german
-		size = 1100 
+		size = 4100 
 	}
 
 	farmers = {
@@ -647,7 +647,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = latin-german
-		size = 25 
+		size = 1225 
 	}
 
 	farmers = {
@@ -671,7 +671,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = latin-german
-		size = 25 
+		size = 1225 
 	}
 
 	farmers = {
