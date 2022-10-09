@@ -4412,7 +4412,7 @@ artisan_grain_food = {
 		grain = 30
 	}
 	output_goods = food 
-	value = 30
+	value = 27
 	
 	owner = {
 		poptype = artisan 
@@ -4435,7 +4435,7 @@ artisan_fruit_food = {
 		fruit = 30
 	}
 	output_goods = food 
-	value = 30
+	value = 27
 	
 	owner = {
 		poptype = artisan 
@@ -4458,7 +4458,7 @@ artisan_wool_food = {
 		wool = 30
 	}
 	output_goods = food 
-	value = 31.5
+	value = 28.5
 	
 	owner = {
 		poptype = artisan 
@@ -4481,7 +4481,7 @@ artisan_fish_food = {
 		fish = 30
 	}
 	output_goods = food 
-	value = 30
+	value = 27
 	
 	owner = {
 		poptype = artisan 
@@ -4504,7 +4504,7 @@ artisan_cattle_food = {
 		cattle = 30
 	}
 	output_goods = food 
-	value = 30
+	value = 27
 	
 	owner = {
 		poptype = artisan 

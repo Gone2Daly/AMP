@@ -1998,3 +1998,7 @@ rolled_cone_bit_modifier = {
 	icon = 5
 	local_RGO_output = 1
 }
+china_arty_fix = {
+	icon = 5
+	local_artisan_output = -0.2
+}

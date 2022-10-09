@@ -114,6 +114,21 @@ country_event = {
 		any_country = {
 			limit = {
 				OR = {
+					tag = CHI
+					tag = OST
+				}
+				
+			}
+			any_owned = {
+				add_province_modifier = {
+					name = china_arty_fix
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				OR = {
 					clergymen = 0.045
 					bureaucrats = 0.045
 				}
