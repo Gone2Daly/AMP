@@ -101,6 +101,20 @@ political_decisions = {
 			}
 		}
 	}
+	tokyo_fix = {
+		alert = no 
+		potential = {
+			has_country_flag = admintools 
+		}
+		allow = { 
+			ai = no 
+		}
+		effect = {
+			1649 = {
+				change_province_name = "Токио"
+			}
+		}
+	}
 	
 	up_population = {
 		alert = no 

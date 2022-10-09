@@ -561,7 +561,7 @@ guiTypes = {
 				position = {x= 135 y =290}
 				size = {x = 220 y = 20 }
 				priority = 100			
-				minValue = 1670
+				minValue = 200
 				maxValue = 2610
 				stepSize = 2
 				startValue = 0
