@@ -1504,10 +1504,6 @@ mechanization_of_mines = {
 			factor = 2
 			steel_railroad = 1
 		}
-		modifier = {
-			factor = -6
-			NOT = { literacy = 0.6 }
-		}
 	}
 	effect = {
 		#rgo_goods_output = {
@@ -1520,15 +1516,10 @@ mechanization_of_mines = {
 }
 chainsaw = {
 	limit = {
-		literacy = 0.5
 		assembly_line = 1
 	}
 	chance = {
 		base = 0
-		modifier = {
-			factor = -6
-			NOT = { literacy = 0.5 }
-		}
 		modifier = {
 			factor = 6
 			combustion_engine = 1
@@ -1542,15 +1533,10 @@ chainsaw = {
 }
 electric_saw = {
 	limit = {
-		literacy = 0.7
 		electrical_power_generation = 1
 	}
 	chance = {
 		base = 0
-		modifier = {
-			factor = -6
-			NOT = { literacy = 0.7 }
-		}
 		modifier = {
 			factor = 6
 			electricity = 1
@@ -1699,10 +1685,6 @@ mechanical_saw = {
 	chance = {
 		base = 2
 		modifier = {
-			factor = -6
-			NOT = { literacy = 0.3 }
-		}
-		modifier = {
 			factor = 2
 			clean_coal = 1
 		}
@@ -1723,15 +1705,10 @@ mechanical_saw = {
 }
 mechanical_precision_saw = {
 	limit = {
-		literacy = 0.3
 		mechanical_production = 1
 	}
 	chance = {
 		base = 2
-		modifier = {
-			factor = -6
-			NOT = { literacy = 0.3 }
-		}
 		modifier = {
 			factor = 2
 			invention = mechanical_saw
@@ -1753,15 +1730,10 @@ mechanical_precision_saw = {
 }
 hussey_n_mccormicks_reaping_machine = {
 	limit = {
-		literacy = 0.3
 		mechanical_production = 1
 	}
 	chance = {
 		base = 2
-		modifier = {
-			factor = -6
-			NOT = { literacy = 0.3 }
-		}
 		modifier = {
 			factor = 2
 			early_railroad = 1
@@ -1791,15 +1763,10 @@ hussey_n_mccormicks_reaping_machine = {
 }
 pitts_threshing_machine = {
 	limit = {
-		literacy = 0.3
 		mechanical_production = 1
 	}
 	chance = {
 		base = 2
-		modifier = {
-			factor = -6
-			NOT = { literacy = 0.3 }
-		}
 		modifier = {
 			factor = 2
 			invention = hussey_n_mccormicks_reaping_machine
@@ -1829,15 +1796,10 @@ pitts_threshing_machine = {
 }
 mechanized_slaughtering_block = {
 	limit = {
-		literacy = 0.3
 		mechanical_production = 1
 	}
 	chance = {
 		base = 2
-		modifier = {
-			factor = -6
-			NOT = { literacy = 0.3 }
-		}
 		modifier = {
 			factor = 2
 			medicine = 1
@@ -1892,10 +1854,6 @@ precision_work = {
 		modifier = {
 			factor = 4
 			early_railroad = 1
-		}
-		modifier = {
-			factor = -8
-			NOT = { literacy = 0.4 }
 		}
 	}
 	effect = {
@@ -1969,10 +1927,6 @@ pasteurization = {
 	limit = { organic_chemistry = 1 }
 	chance = {
 		base = 2
-		modifier = {
-			factor = -6
-			NOT = { literacy = 0.5 }
-		}
 		modifier = {
 			factor = 2
 			invention = semi_automatization
@@ -2139,15 +2093,10 @@ industrialized_armament_industry = {
 }
 refrigerator_technology = {
 	limit = {
-		literacy = 0.5
 		assembly_line = 1
 	}
 	chance = {
 		base = 2
-		modifier = {
-			factor = -6
-			NOT = { literacy = 0.5 }
-		}
 		modifier = {
 			factor = 2
 			invention = food_packing_system
@@ -2703,7 +2652,6 @@ artificial_fertilizers = {
 }
 nitroglycerin = {
 	limit = {
-		literacy = 0.5
 		inorganic_chemistry = 1
 	}
 	chance = {
@@ -2715,10 +2663,6 @@ nitroglycerin = {
 		modifier = {
 			factor = 6
 			scientific_management = 1
-		}
-		modifier = {
-			factor = -12
-			NOT = { literacy = 0.5 }
 		}
 	}
 	effect = {
@@ -2824,15 +2768,10 @@ gaslights = {
 }
 carbon_soil_enrichment = {
 	limit = {
-		literacy = 0.4
 		organic_chemistry = 1
 	}
 	chance = {
 		base = 100
-		modifier = {
-			factor = -6
-			NOT = { literacy = 0.40 }
-		}
 		modifier = {
 			factor = 2
 			invention = artificial_fertilizers
@@ -2864,15 +2803,10 @@ barbwire = {
 }
 cracking = {
 	limit = {
-		literacy = 0.6
 		organic_chemistry = 1
 	}
 	chance = {
 		base = 10
-		modifier = {
-			factor = -20
-			NOT = { literacy = 0.60 }
-		}
 		modifier = {
 			factor = 5
 			invention = oil_pumping_machinery
@@ -2911,7 +2845,6 @@ edison_light_bulb = {
 		base = 0
 		modifier = {
 			factor = 5
-			literacy = 0.75
             assembly_line = 1
 		}
 		modifier = {
@@ -3019,10 +2952,6 @@ Haber_bosch_process = {
 	limit = { synthetic_polymers = 1 }
 	chance = {
 		base = 4
-		modifier = {
-			factor = -8
-			NOT = { literacy = 0.9 }
-		}
 	}
 	effect = {
 		factory_goods_output {
@@ -3124,11 +3053,6 @@ import_substitution_industrialization = {
 	chance = {
 		base = 2
 		modifier = {
-			modifier = {
-			factor = -4
-			NOT = { literacy = 0.6 }
-		}
-		modifier = {
 			factor = 1
 			economic_policy = planned_economy
 		}
@@ -3155,11 +3079,6 @@ synthetic_rubber = {
 	chance = {
 		base = 2
 		modifier = {
-			modifier = {
-			factor = -3
-			NOT = { literacy = 0.6 }
-		}
-		modifier = {
 			factor = 2
 			invention = cracking
 		}		
@@ -3173,11 +3092,6 @@ rolled_cone_bit = {
 	limit = { chemistry_and_electricity_2 = 1 }
 	chance = {
 		base = 3
-		modifier = {
-			modifier = {
-			factor = -6
-			NOT = { literacy = 0.7 }
-		}
 		modifier = {
 			factor = 4
 			year = 1905
@@ -3198,11 +3112,6 @@ gas_attack_capability = {
 		modifier = {
 			factor = 4
 			invention = Haber_bosch_process
-		}
-		modifier = {
-			modifier = {
-			factor = -7
-			NOT = { literacy = 0.99 }
 		}
 		modifier = {
 			factor = 2
